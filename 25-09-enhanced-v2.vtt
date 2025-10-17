@@ -1,0 +1,2843 @@
+WEBVTT
+
+00:00.000 --> 00:06.000
+Ma una proposizione è un giudizio di valore, di verità, rispetto alla barabia di chiedezza.
+
+00:06.000 --> 00:11.000
+Se io dico che piove, questa è una situazione.
+
+00:11.000 --> 00:17.000
+Se io dico che è vero che piove, questa è una proposizione.
+
+00:17.000 --> 00:19.000
+E voi mi dici che è una cosa?
+
+00:19.000 --> 00:21.000
+No, non è una cosa.
+
+00:21.000 --> 00:32.000
+Perché nel momento in cui tu ti permetti di dire è vero che piove, puoi dire anche falso che piove.
+
+00:32.000 --> 00:36.000
+E puoi anche dire non so se piove.
+
+00:36.000 --> 00:48.000
+Il tuo giudizio sul valore di verità è un giudizio che permette la sezione del giudizio di valore di verità su una sezione.
+
+00:48.000 --> 00:56.000
+Ti permette di dire sia che la sezione è falsa, e questo può introdurre il famoso segno negazione che avete visto.
+
+00:56.000 --> 00:59.000
+Ma anche fatta da non sai.
+
+00:59.000 --> 01:00.000
+Ok?
+
+01:00.000 --> 01:10.000
+E, come vedremo poi nel testario dei algoritmi, la conoscenza della detta parziale è insieme alla conoscenza negativa
+
+01:10.000 --> 01:15.000
+e dove, semplicemente, i 93% degli errori vengono fatti.
+
+01:15.000 --> 01:25.000
+Quindi, di fatto, noi, in questo corso qui, ci occupiamo di quelle quattro attività e, in particolare, di queste quattro...
+
+01:25.000 --> 01:26.000
+Cosa sono queste quattro?
+
+01:26.000 --> 01:28.000
+Sono rappresentazioni del mondo.
+
+01:28.000 --> 01:42.000
+Sono quattro rappresentazioni del mondo che noi costruiamo sequenzialmente, in qualche maniera, e che è la logica che permette di ricostruire e di radunarci solo.
+
+01:42.000 --> 01:43.000
+Ok?
+
+01:43.000 --> 01:59.000
+Quindi, di fatto, noi, alla fine di questa lezione, spero di essere riuscito a capire come, su questi quattro concetti, noi riusciamo a fare un calcolo, un algoritmo,
+
+01:59.000 --> 02:09.000
+tale per cui riusciamo, alla fine, a fare qualcosa, avere una memoria, capire se la memoria che abbiamo è consistente con quello che abbiamo visto.
+
+02:09.000 --> 02:16.000
+È vero, se io vedo un uomo a tre gambe, è vero o non è vero? Non l'ho mai visto, quindi, o è venuto un marziano, o non è vero.
+
+02:16.000 --> 02:19.000
+Però non è un uomo, perché l'intenso è un uomo a ripregare.
+
+02:19.000 --> 02:34.000
+Non solo, il fatto di riuscire a estendere quello che conosciamo, tramite tecniche di ragionamento, che ci permettono anche di derivare, di capire, di conoscere quello da noi.
+
+02:34.000 --> 02:52.000
+E ovviamente, ovviamente, non è vero nei grandi sistemi informatiche, ma sicuramente, nei sistemi dell'intenso artificiale, questa roba qui viene implementata una pipeline,
+
+02:52.000 --> 02:57.000
+continuiamo a andare, continuiamo a percepire, continuiamo a ritirre la memoria, continuiamo a aggiustare, l'alliniamo, eccetera, eccetera, eccetera.
+
+02:57.000 --> 03:17.000
+In fatto, questo è il processo, i dati, le percezioni che percepiamo, delle rappresentazioni, poi queste rappresentazioni subconsci, delle immagini diventano concetti,
+
+03:17.000 --> 03:26.000
+proiezioni, nuovi, diventano assezioni che sono proprietà di quello che abbiamo visto, una cosa, una maglietta nera, una maglietta nera, una maglietta da sopra che vogliamo,
+
+03:26.000 --> 03:32.000
+e diventano giudizi di verità, vero, farso, di quello che ci dicono, sono assezioni.
+
+03:32.000 --> 03:42.000
+Beh, noi dobbiamo semplicemente formalizzare questo aspetto qui e fare un calcolo logico che formalizza questo aspetto farso.
+
+03:42.000 --> 03:48.000
+Ricorderei che questo slide qui, è un record, devo scrivere un record qui,
+
+03:48.000 --> 03:52.000
+avevamo parlato di rappresentazioni analogiche e rappresentazioni linguistiche.
+
+03:52.000 --> 03:59.000
+Allora c'è il mondo, ma al mondo nessuno ha accesso, noi abbiamo accesso a quello che percepiamo
+
+03:59.000 --> 04:05.000
+e questo è quello che viene chiamato le percezioni, quello che noi percepiamo.
+
+04:05.000 --> 04:16.000
+Tutto il resto, quindi le altre tre rappresentazioni, concetti, assezioni e proposizioni, sono nella parte di vista.
+
+04:16.000 --> 04:27.000
+Come vedremo fa cinque minuti, fino adesso, e nei corsi di logica, abbiamo fatto un sacco di linguarchi,
+
+04:27.000 --> 04:34.000
+la richieste imparchi, tipo di AR model, di UMR, quello che volete, ma non si è venuto da sintassi più o meno precisamente,
+
+04:34.000 --> 04:36.000
+ma non vi hanno mai dato la semantica.
+
+04:36.000 --> 04:44.000
+Quindi vi hanno detto, più o meno, in un AR model, quella roba di voler proprietà, ma non avendovi dato la semantica,
+
+04:44.000 --> 04:54.000
+non potevano e non potranno mai dimostrare che un certo calcolo, un certo algoritmo è corretto rispetto a quello che hai visto.
+
+04:54.000 --> 05:01.000
+Quindi l'elemento di nuovo, in un porto di questo corso, gli diamo un meccanismo per analizzare la semantica,
+
+05:01.000 --> 05:06.000
+così chiamata, delle rappresentazioni analogiche tramite gli soggetti di certi percezioni
+
+05:06.000 --> 05:14.000
+e sulla base di quello non solo vi darò le regole come sopprima per calcolare alfa, ma dimostreremo che sono corrette e complesse.
+
+05:14.000 --> 05:21.000
+Ovvero sia, se quella tua memoria è corretta, sei garantito che quello che deduci è corretto.
+
+05:21.000 --> 05:28.000
+Non solo, sei garantito, sono su certi posti, certi calcoli molto costosi, dal punto di vista computazionale,
+
+05:28.000 --> 05:32.000
+e sei complesso, ovvero siamo in un meeting di attore di umanità.
+
+05:32.000 --> 05:35.000
+Chiaro? Qui dove stiamo andando?
+
+05:35.000 --> 05:37.000
+Parola interessante?
+
+05:37.000 --> 05:45.000
+Quindi di fatto adesso noi, in questo corso vi do, in questo corso, in questa lezione della panoramica
+
+05:45.000 --> 05:50.000
+arrivando al mondo a Quaggima, questa è la rappresentazione che vi ricordate che abbiamo messo nella lezione precedente,
+
+05:50.000 --> 05:56.000
+dicendo tutto questo è mentale, noi ci dobbiamo dare dei linguaggi di rappresentazione che ci mappano questo processo,
+
+05:56.000 --> 05:59.000
+esattamente quello che dobbiamo fare, ed è quello che facciamo adesso.
+
+05:59.000 --> 06:06.000
+In questa lezione proverò a raccontarvi, usando il tuo certo di piramide, vedremo anche poi,
+
+06:06.000 --> 06:21.000
+dove mai, in che modo il processo di formalizzazione logica si struttura garantendo in ogni passo la correttezza e la concretetta del ragionamento,
+
+06:21.000 --> 06:28.000
+del ragionamento, quello sia della capacità di vivere spazio con un video.
+
+06:28.000 --> 06:29.000
+Ok!
+
+06:29.000 --> 06:30.000
+Ok!
+
+06:30.000 --> 06:35.000
+Un po' di piramidi da fare adesso.
+
+06:35.000 --> 06:50.000
+Questa piramide, la prima, è stata fatta da un famoso retabesista dell'89, con le basse blu rata.
+
+06:50.000 --> 07:00.000
+e l'ho fatta, e l'ho messa, anche se prima fanno amico, perché in qualche maniera si mappa sui termini che noi conosciamo.
+
+07:00.000 --> 07:05.000
+Ovviamente questa wisdom qui non si sa bene che cos'è, infatti se uno legge il paper non si sa bene cos'è.
+
+07:05.000 --> 07:10.000
+Ma i dati, in qualche maniera, lo capiamo.
+
+07:10.000 --> 07:14.000
+Lui ha detto, quando tu fai un sistema informativo,
+
+07:14.000 --> 07:18.000
+devi avere i dati,
+
+07:18.000 --> 07:21.000
+i dati portano l'informazione.
+
+07:21.000 --> 07:27.000
+E' interessante, lui fa Information Systems, quindi lui dice, i dati da soli non può alcune informazioni.
+
+07:27.000 --> 07:30.000
+I dati connessi danno informazione.
+
+07:30.000 --> 07:35.000
+In realtà, se ci pensate bene, i dati, in qualche maniera sono simili a quello che ho chiamato per certi,
+
+07:35.000 --> 07:39.000
+perché il dato è qualche dato, vuol dire che ti è stato dato.
+
+07:39.000 --> 07:43.000
+L'informazione, in qualche maniera, l'informazione che hai sui vari dati.
+
+07:43.000 --> 07:46.000
+La conoscenza è la conoscenza che tu sai.
+
+07:46.000 --> 07:51.000
+E lui, su wisdom, si è un po' allappicato sui detti, in realtà non si capisce cosa vuol dire.
+
+07:51.000 --> 07:57.000
+Noi qui, in qualche maniera, lo tradiciamo come la capacità di ragionare su quello che sai e quello che non sai,
+
+07:57.000 --> 07:58.000
+e di fare la scelta di tutto.
+
+07:58.000 --> 08:00.000
+Se guarda il suo vocabolario,
+
+08:00.000 --> 08:02.000
+wisdom ha questo significato di
+
+08:02.000 --> 08:05.000
+si dici vecchi se non saggi,
+
+08:05.000 --> 08:07.000
+perché sono una scelta giusta,
+
+08:07.000 --> 08:09.000
+quindi ho una capacità.
+
+08:09.000 --> 08:11.000
+Poi, chiaramente, è molto discutibile,
+
+08:11.000 --> 08:13.000
+anzi direi che è abbastanza avvaliata
+
+08:13.000 --> 08:16.000
+a assumere che la wisdom è una saggette se è solo ragionamento,
+
+08:16.000 --> 08:18.000
+ma in questo contesto ci va bene.
+
+08:18.000 --> 08:22.000
+Dunque, il punto fondamentale, volevo dire, che le quattro di questa slide qui,
+
+08:22.000 --> 08:24.000
+e poi qui potete leggere i dettagli,
+
+08:24.000 --> 08:30.000
+i quattro livelli che io vi ho rappresentato,
+
+08:30.000 --> 08:32.000
+le fasi della granito umano,
+
+08:32.000 --> 08:34.000
+e in realtà si mappano abbastanza naturalmente
+
+08:34.000 --> 08:36.000
+sui quattro concetti che noi facciamo
+
+08:36.000 --> 08:38.000
+o non facciamo dei tabelli di sistemi informativi
+
+08:38.000 --> 08:40.000
+e anche di dirigenza speciale.
+
+08:40.000 --> 08:43.000
+E in effetti, in questo corso,
+
+08:43.000 --> 08:45.000
+noi andremo avanti in parallelo a fare due gara loghi
+
+08:45.000 --> 08:47.000
+come moderazione dell'allevamento,
+
+08:47.000 --> 08:49.000
+ma in tutte le esercitazioni,
+
+08:49.000 --> 08:51.000
+vedremo come tutto,
+
+08:51.000 --> 08:53.000
+a cominciare anche da oggi,
+
+08:53.000 --> 08:55.000
+in maniera minima,
+
+08:55.000 --> 08:57.000
+come tutto quello che noi formalizziamo in oggi
+
+08:57.000 --> 08:59.000
+che in realtà ha una controparte
+
+08:59.000 --> 09:01.000
+in quello che avete visto
+
+09:01.000 --> 09:03.000
+e questa vettiglia ha visto in parte anche la Volca Suisse.
+
+09:09.000 --> 09:11.000
+E questo è quello che ho avuto.
+
+09:11.000 --> 09:13.000
+se uno...
+
+09:13.000 --> 09:15.000
+questa è quella di Primer,
+
+09:15.000 --> 09:17.000
+è la di KVB,
+
+09:17.000 --> 09:19.000
+che è il tablu,
+
+09:19.000 --> 09:20.000
+che è in me.
+
+09:20.000 --> 09:21.000
+Se la guarda
+
+09:21.000 --> 09:23.000
+con la slide precedente
+
+09:23.000 --> 09:25.000
+che vi ho fatto vedere,
+
+09:25.000 --> 09:27.000
+sono i percetti,
+
+09:27.000 --> 09:29.000
+i concetti,
+
+09:29.000 --> 09:31.000
+i concettori e le azioni,
+
+09:31.000 --> 09:33.000
+se nella soluzione sono le proposizioni.
+
+09:33.000 --> 09:35.000
+Allora uno dice,
+
+09:35.000 --> 09:37.000
+ma perché hai messo i dati fuori?
+
+09:37.000 --> 09:39.000
+Ho messo i dati fuori perché
+
+09:39.000 --> 09:41.000
+in questa maniera,
+
+09:41.000 --> 09:43.000
+lui permette dal sistema in coda informatico,
+
+09:43.000 --> 09:45.000
+se ne ho ridato le esprime,
+
+09:45.000 --> 09:47.000
+pensate bene,
+
+09:47.000 --> 09:49.000
+cos'è la percezione?
+
+09:49.000 --> 09:51.000
+La percezione è un altro processo tale per cui
+
+09:51.000 --> 09:53.000
+una formazione esterna mi arriva in testa.
+
+09:53.000 --> 09:55.000
+Quindi la percezione
+
+09:55.000 --> 09:57.000
+è quel qualcosa
+
+09:57.000 --> 09:59.000
+che prende i dati
+
+09:59.000 --> 10:01.000
+e li porta
+
+10:01.000 --> 10:03.000
+su una presentazione
+
+10:03.000 --> 10:05.000
+analogica, come l'abbiamo chiamata.
+
+10:05.000 --> 10:07.000
+E poi...
+
+10:07.000 --> 10:09.000
+io dieci minuti fa
+
+10:09.000 --> 10:11.000
+gliel'ho presentato come
+
+10:11.000 --> 10:13.000
+il fatto di collegare,
+
+10:13.000 --> 10:15.000
+non dire solamente
+
+10:15.000 --> 10:17.000
+ho visto una persona,
+
+10:17.000 --> 10:19.000
+ho visto una persona vicino a una persona
+
+10:19.000 --> 10:21.000
+e questa informazione.
+
+10:21.000 --> 10:23.000
+Il concetto di concettosizioni
+
+10:23.000 --> 10:25.000
+che è il concetto di legare le parole
+
+10:25.000 --> 10:27.000
+per scrivere cose vero o false
+
+10:27.000 --> 10:31.000
+è essenzialmente un concetto di informazione.
+
+10:31.000 --> 10:33.000
+La conoscenza è quella che sappiamo
+
+10:33.000 --> 10:35.000
+e io l'ho chiamata con i servizi di assenzione.
+
+10:35.000 --> 10:37.000
+Lui ha questo termine wisdom
+
+10:37.000 --> 10:39.000
+che io dico è la capacità di dare
+
+10:39.000 --> 10:41.000
+un giudizio di valore, magari
+
+10:41.000 --> 10:43.000
+nel caso di Leonardo non è solamente
+
+10:43.000 --> 10:45.000
+vero o false, ma non ci basta per il momento.
+
+10:45.000 --> 10:47.000
+Ovviamente non puoi entrare
+
+10:47.000 --> 10:49.000
+quello che vuoi.
+
+10:49.000 --> 10:51.000
+lì che ho rivivito
+
+10:51.000 --> 10:53.000
+tu voglio align me fra
+
+10:53.000 --> 10:55.000
+però in questo contesto
+
+10:55.000 --> 10:57.000
+in questo contesto per noi
+
+10:57.000 --> 10:59.000
+la saggezza è la capacità
+
+10:59.000 --> 11:01.000
+di fare un giudizio
+
+11:01.000 --> 11:03.000
+un giudimento di valore di verità
+
+11:03.000 --> 11:05.000
+su una sezione che viene detta
+
+11:05.000 --> 11:07.000
+sul mo', sì?
+
+11:07.000 --> 11:09.000
+Ma la nostra conoscenza
+
+11:09.000 --> 11:11.000
+può modificare la percezione?
+
+11:11.000 --> 11:13.000
+Sì, quella.
+
+11:13.000 --> 11:15.000
+Tu vedi solo quello che ti aspetti
+
+11:15.000 --> 11:17.000
+c'è un sacco
+
+11:17.000 --> 11:19.000
+c'è un sacco in realtà
+
+11:19.000 --> 11:21.000
+e Nathalie che è quello che succede a sé
+
+11:21.000 --> 11:23.000
+c'è un sacco di evidenza psicologica
+
+11:23.000 --> 11:25.000
+noi vediamo quello che c'è stata
+
+11:25.000 --> 11:27.000
+in realtà
+
+11:27.000 --> 11:29.000
+ed è anche il motivo per durare la gente
+
+11:29.000 --> 11:31.000
+qua fatica a cambiare l'opinione
+
+11:35.000 --> 11:37.000
+poi uno qua
+
+11:37.000 --> 11:39.000
+c'è la
+
+11:39.000 --> 11:41.000
+voglio vi faccio un esempio
+
+11:41.000 --> 11:43.000
+se tu vedi in casa
+
+11:43.000 --> 11:45.000
+in casa sui editori
+
+11:45.000 --> 11:47.000
+e tu vedi un'obra muoversi
+
+11:47.000 --> 11:49.000
+non la vedi?
+
+11:49.000 --> 11:51.000
+vedi uno che non è mai visto in casa
+
+11:51.000 --> 11:53.000
+o vedi esattamente quello che ti ha detto
+
+11:53.000 --> 11:57.000
+è chiaro che la memoria
+
+11:57.000 --> 11:59.000
+si crea un priori cortissimo
+
+11:59.000 --> 12:01.000
+ed è il motivo per cui
+
+12:01.000 --> 12:03.000
+chi fa l'MI
+
+12:03.000 --> 12:05.000
+o anche chi fa
+
+12:05.000 --> 12:07.000
+sistemi di treni o qualunque cosa
+
+12:07.000 --> 12:09.000
+riesce a farlo bene
+
+12:09.000 --> 12:11.000
+perché una volta hai visto una molda
+
+12:11.000 --> 12:13.000
+ci vede la seconda volta
+
+12:13.000 --> 12:15.000
+poi dieci volte hai visto
+
+12:15.000 --> 12:17.000
+certo potreste andare in casa
+
+12:17.000 --> 12:19.000
+l'ombra che è dell'alto
+
+12:19.000 --> 12:21.000
+però voglio dire
+
+12:21.000 --> 12:23.000
+è uno cintomila
+
+12:23.000 --> 12:25.000
+quindi è di un cerchio più di una piramide
+
+12:25.000 --> 12:27.000
+è l'atto
+
+12:27.000 --> 12:29.000
+i faschi è l'atto
+
+12:29.000 --> 12:31.000
+infatti è veramente più
+
+12:31.000 --> 12:33.000
+cintomila
+
+12:33.000 --> 12:35.000
+soltanto che se tu lo vedi
+
+12:35.000 --> 12:36.000
+come vediamo
+
+12:36.000 --> 12:37.000
+perché non gli ha messo in una piramide
+
+12:37.000 --> 12:39.000
+perché la piramide
+
+12:39.000 --> 12:41.000
+e i binoni si apronteranno
+
+12:41.000 --> 12:43.000
+perché devi attassare il livello di astrazione
+
+12:45.000 --> 12:47.000
+più sali
+
+12:47.000 --> 12:49.000
+e più ti avvolta la realtà
+
+12:49.000 --> 12:51.000
+e vedremo a fine lezione
+
+12:51.000 --> 12:53.000
+che a questo livello qui
+
+12:53.000 --> 12:54.000
+non c'è più la realtà
+
+12:54.000 --> 12:55.000
+c'è solo vero o falso
+
+12:55.000 --> 12:57.000
+come ho detto la volta scorsa
+
+12:57.000 --> 12:58.000
+nel ragionamento
+
+12:58.000 --> 12:59.000
+lo formalizziamo in logica
+
+12:59.000 --> 13:00.000
+dov'è il mondo?
+
+13:00.000 --> 13:01.000
+il mondo non c'è più
+
+13:01.000 --> 13:03.000
+l'importante è solamente
+
+13:03.000 --> 13:05.000
+mettere insieme la verità
+
+13:05.000 --> 13:07.000
+quindi la piramide vuol dire
+
+13:07.000 --> 13:09.000
+stiamo alzando
+
+13:09.000 --> 13:11.000
+stiamo dando struttura
+
+13:11.000 --> 13:13.000
+a quello che vediamo
+
+13:13.000 --> 13:15.000
+e tanto più diamo struttura
+
+13:15.000 --> 13:17.000
+e più creiamo dei prior
+
+13:17.000 --> 13:19.000
+e più creiamo dei prior
+
+13:19.000 --> 13:21.000
+e più influenziamo quello che
+
+13:21.000 --> 13:24.000
+quello che andiamo a vedere dopo
+
+13:24.000 --> 13:25.000
+è del motivo
+
+13:25.000 --> 13:26.000
+tutte queste storie qui
+
+13:26.000 --> 13:27.000
+per cui
+
+13:27.000 --> 13:28.000
+è sempre difficile
+
+13:28.000 --> 13:29.000
+anche in vista
+
+13:29.000 --> 13:30.000
+anche sociale
+
+13:30.000 --> 13:31.000
+sociologico
+
+13:31.000 --> 13:32.000
+accettare cose diverse da te
+
+13:32.000 --> 13:33.000
+perché se mi intimidano
+
+13:33.000 --> 13:34.000
+talmente
+
+13:34.000 --> 13:36.000
+non è allenato
+
+13:36.000 --> 13:37.000
+magari un fa una cosa diversa
+
+13:37.000 --> 13:38.000
+no fa male
+
+13:38.000 --> 13:39.000
+no magari fa solo diversa da te
+
+13:39.000 --> 13:40.000
+ma tu
+
+13:40.000 --> 13:42.000
+volisci a capire cosa sta facendo
+
+13:42.000 --> 13:44.000
+non hai il coraggio pronto
+
+13:44.000 --> 13:45.000
+ok?
+
+13:48.000 --> 13:49.000
+qui ho detto appunto
+
+13:49.000 --> 13:50.000
+che ho scrittato questa dama qui
+
+13:50.000 --> 13:52.000
+perché io il dato
+
+13:52.000 --> 13:53.000
+lo intendo
+
+13:53.000 --> 13:55.000
+come il dato
+
+13:55.000 --> 13:56.000
+come nella mia testa
+
+13:56.000 --> 13:58.000
+facendo questa falsa qui
+
+13:58.000 --> 14:00.000
+io il mondo non ce l'ho più
+
+14:00.000 --> 14:01.000
+ok?
+
+14:01.000 --> 14:03.000
+e perché il mondo non ce l'ho più
+
+14:03.000 --> 14:04.000
+mi aiuta?
+
+14:04.000 --> 14:05.000
+perché a questo punto io
+
+14:05.000 --> 14:06.000
+se riesco a darvi
+
+14:06.000 --> 14:07.000
+come riuscirò a darvi
+
+14:07.000 --> 14:08.000
+una forma ridazione
+
+14:08.000 --> 14:09.000
+di questo oggetto
+
+14:09.000 --> 14:10.000
+del mondo
+
+14:10.000 --> 14:12.000
+posso darvi una definizione
+
+14:12.000 --> 14:14.000
+una definizione di correttezza
+
+14:14.000 --> 14:15.000
+io posso darmi una domanda
+
+14:15.000 --> 14:16.000
+ma la concettualizzazione qua
+
+14:16.000 --> 14:17.000
+perché scrive questo
+
+14:17.000 --> 14:18.000
+sì o no
+
+14:18.000 --> 14:19.000
+posso farlo
+
+14:19.000 --> 14:20.000
+lo farò esattamente questo
+
+14:20.000 --> 14:22.000
+questo calcolo mi permette di descrivere
+
+14:22.000 --> 14:23.000
+una cosa
+
+14:23.000 --> 14:24.000
+sì lo faccio
+
+14:24.000 --> 14:25.000
+questo diventa un formalismo
+
+14:25.000 --> 14:26.000
+facendo questo
+
+14:26.000 --> 14:28.000
+ho un formalismo formale
+
+14:28.000 --> 14:29.000
+tale per cui
+
+14:29.000 --> 14:30.000
+io posso
+
+14:30.000 --> 14:32.000
+calcolare la correttezza
+
+14:32.000 --> 14:33.000
+questa è la completezza
+
+14:33.000 --> 14:35.000
+o qualunque altra priorità
+
+14:35.000 --> 14:36.000
+di consistenza
+
+14:36.000 --> 14:37.000
+le vedremo varie
+
+14:37.000 --> 14:38.000
+ce ne sono varie
+
+14:38.000 --> 14:41.000
+rispetto al mio formale
+
+14:43.000 --> 14:44.000
+e infatti
+
+14:44.000 --> 14:45.000
+queste
+
+14:45.000 --> 14:47.000
+dalla slide precedente
+
+14:47.000 --> 14:48.000
+la seconda che vi ho fatto vedere
+
+14:48.000 --> 14:49.000
+sono le quattro
+
+14:49.000 --> 14:54.000
+che sono messe un po' più basse
+
+14:54.000 --> 14:55.000
+cioè
+
+14:55.000 --> 14:57.000
+la percezione
+
+14:57.000 --> 14:59.000
+prende lì tutti i dati
+
+14:59.000 --> 15:01.000
+e produce i percetti
+
+15:01.000 --> 15:02.000
+ok
+
+15:02.000 --> 15:05.000
+poi fatti i percetti nel mondo
+
+15:05.000 --> 15:06.000
+ho questa roba
+
+15:06.000 --> 15:07.000
+nella mia
+
+15:07.000 --> 15:08.000
+memoria
+
+15:08.000 --> 15:09.000
+inconscia
+
+15:09.000 --> 15:12.000
+gli do un nome
+
+15:12.000 --> 15:14.000
+vediamo per un secondo
+
+15:14.000 --> 15:15.000
+e poi compongo
+
+15:15.000 --> 15:16.000
+poi
+
+15:16.000 --> 15:17.000
+dopo che li ho composti
+
+15:17.000 --> 15:18.000
+prendo
+
+15:18.000 --> 15:19.000
+quelle che
+
+15:19.000 --> 15:20.000
+le mia costruzioni linguistiche
+
+15:20.000 --> 15:21.000
+di quello che ho visto
+
+15:21.000 --> 15:22.000
+e li metto in memoria
+
+15:22.000 --> 15:23.000
+e provo a collegarli
+
+15:23.000 --> 15:24.000
+con quelli che ci sono
+
+15:24.000 --> 15:25.000
+quindi
+
+15:25.000 --> 15:26.000
+in ogni passo
+
+15:26.000 --> 15:27.000
+la mia attività
+
+15:27.000 --> 15:29.000
+prende in output
+
+15:29.000 --> 15:30.000
+in output
+
+15:30.000 --> 15:31.000
+c'è strutture d'acchi
+
+15:31.000 --> 15:32.000
+delle rappresentazioni del mondo
+
+15:32.000 --> 15:33.000
+derivate al precedente
+
+15:33.000 --> 15:34.000
+le
+
+15:34.000 --> 15:35.000
+sare
+
+15:35.000 --> 15:36.000
+qui abbiamo immagini
+
+15:36.000 --> 15:37.000
+qui dobbiamo rappresentare
+
+15:37.000 --> 15:38.000
+abbiamo immagini
+
+15:38.000 --> 15:39.000
+nel mondo reale
+
+15:39.000 --> 15:40.000
+dobbiamo avere una formalità
+
+15:40.000 --> 15:41.000
+che ci prende
+
+15:41.000 --> 15:42.000
+di rappresentare le immagini
+
+15:42.000 --> 15:43.000
+qui abbiamo linguaggio
+
+15:43.000 --> 15:44.000
+qui abbiamo una memoria
+
+15:44.000 --> 15:45.000
+qui abbiamo proposizioni
+
+15:45.000 --> 15:46.000
+in ogni passo
+
+15:46.000 --> 15:47.000
+in ogni passo
+
+15:47.000 --> 15:48.000
+tu devi riuscire
+
+15:48.000 --> 15:49.000
+e hai questa funzione
+
+15:49.000 --> 15:50.000
+che formalizzeremo
+
+15:50.000 --> 15:51.000
+tutti questi fasi
+
+15:51.000 --> 15:52.000
+di formalizziamo
+
+15:52.000 --> 15:53.000
+matematicamente
+
+15:53.000 --> 15:54.000
+è chiaro?
+
+15:54.000 --> 15:55.000
+quindi
+
+15:55.000 --> 15:56.000
+la logica
+
+15:56.000 --> 15:57.000
+questo punto
+
+15:57.000 --> 15:58.000
+la vedremo adesso
+
+15:58.000 --> 15:59.000
+e l'altro non è che
+
+15:59.000 --> 16:00.000
+facendo queste ipotesi
+
+16:00.000 --> 16:01.000
+che faccio adesso
+
+16:01.000 --> 16:02.000
+per ossia
+
+16:02.000 --> 16:03.000
+di darmi
+
+16:03.000 --> 16:05.000
+un formalismo
+
+16:05.000 --> 16:07.000
+per formalizzare
+
+16:07.000 --> 16:09.000
+quello che io percepisco
+
+16:09.000 --> 16:11.000
+io da più in poi
+
+16:11.000 --> 16:13.000
+faccio tutta matematica
+
+16:13.000 --> 16:14.000
+e
+
+16:14.000 --> 16:15.000
+data questa percezione
+
+16:15.000 --> 16:16.000
+posso costruire
+
+16:16.000 --> 16:18.000
+teoremi di capitezza
+
+16:18.000 --> 16:19.000
+puretezza
+
+16:19.000 --> 16:20.000
+se è la
+
+16:20.000 --> 16:21.000
+possibilità
+
+16:21.000 --> 16:22.000
+computazionale
+
+16:22.000 --> 16:23.000
+questo
+
+16:23.000 --> 16:24.000
+è quello che si chiama
+
+16:24.000 --> 16:25.000
+semantica
+
+16:27.000 --> 16:28.000
+l'eleito
+
+16:28.000 --> 16:29.000
+muova
+
+16:29.000 --> 16:30.000
+dall'odio
+
+16:30.000 --> 16:31.000
+di fatto
+
+16:31.000 --> 16:32.000
+di darmi una semantica
+
+16:32.000 --> 16:33.000
+formale
+
+16:33.000 --> 16:34.000
+tutto quello che avete fatto
+
+16:34.000 --> 16:35.000
+fino adesso
+
+16:35.000 --> 16:36.000
+lo rifacciamo
+
+16:36.000 --> 16:37.000
+lo rifacciamo in un probabilismo
+
+16:37.000 --> 16:38.000
+leggermente diverso
+
+16:38.000 --> 16:39.000
+esercitazione
+
+16:39.000 --> 16:40.000
+vedrete
+
+16:40.000 --> 16:41.000
+che di fatto
+
+16:41.000 --> 16:43.000
+stiamo facendo la stessa cosa
+
+16:43.000 --> 16:44.000
+con la differenza
+
+16:44.000 --> 16:45.000
+che per ognuno
+
+16:45.000 --> 16:46.000
+di questi passi
+
+16:46.000 --> 16:47.000
+vi mostreremo
+
+16:47.000 --> 16:48.000
+che il passo
+
+16:48.000 --> 16:49.000
+che facciamo sopra
+
+16:49.000 --> 16:50.000
+mi mantiene
+
+16:50.000 --> 16:51.000
+la semantica
+
+16:51.000 --> 16:52.000
+di quello che vedo
+
+16:52.000 --> 16:53.000
+se qui
+
+16:53.000 --> 16:54.000
+una cosa
+
+16:54.000 --> 16:55.000
+era così
+
+16:55.000 --> 16:56.000
+qua sopra
+
+16:56.000 --> 16:57.000
+se deduco
+
+16:57.000 --> 16:58.000
+nuovi fatti
+
+16:58.000 --> 16:59.000
+non posso che
+
+16:59.000 --> 17:00.000
+essere capire
+
+17:00.000 --> 17:01.000
+l'interescrizione
+
+17:01.000 --> 17:02.000
+bene?
+
+17:02.000 --> 17:07.000
+e
+
+17:07.000 --> 17:08.000
+è
+
+17:08.000 --> 17:09.000
+la ripresa
+
+17:09.000 --> 17:10.000
+ecco
+
+17:10.000 --> 17:11.000
+aggiunto adesso
+
+17:11.000 --> 17:12.000
+ho aggiunto
+
+17:12.000 --> 17:13.000
+il fatto
+
+17:13.000 --> 17:14.000
+che io
+
+17:14.000 --> 17:15.000
+dall'elemento
+
+17:15.000 --> 17:16.000
+dei dati
+
+17:16.000 --> 17:17.000
+percepisci
+
+17:17.000 --> 17:18.000
+i percetti
+
+17:18.000 --> 17:19.000
+ma poi
+
+17:19.000 --> 17:20.000
+dopo
+
+17:20.000 --> 17:21.000
+mettendo vicino
+
+17:21.000 --> 17:22.000
+faccio le percetturite impresse
+
+17:22.000 --> 17:23.000
+ma prendo
+
+17:23.000 --> 17:24.000
+dei
+
+17:24.000 --> 17:25.000
+delle
+
+17:25.000 --> 17:26.000
+facciamo
+
+17:26.000 --> 17:27.000
+delle
+
+17:27.000 --> 17:28.000
+linguistiche
+
+17:28.000 --> 17:29.000
+ma poi le metto
+
+17:29.000 --> 17:30.000
+queste qua
+
+17:30.000 --> 17:31.000
+con la memoria
+
+17:31.000 --> 17:32.000
+oggettivo
+
+17:32.000 --> 17:33.000
+vero o falso
+
+17:33.000 --> 17:34.000
+poi le metti
+
+17:34.000 --> 17:35.000
+insieme
+
+17:35.000 --> 17:36.000
+con quello
+
+17:36.000 --> 17:37.000
+che è solo
+
+17:37.000 --> 17:38.000
+vero o falso
+
+17:38.000 --> 17:39.000
+cioè ogni passo
+
+17:39.000 --> 17:40.000
+che è sempre
+
+17:40.000 --> 17:41.000
+un passo
+
+17:41.000 --> 17:42.000
+di lifting
+
+17:42.000 --> 17:43.000
+e poi
+
+17:43.000 --> 17:44.000
+ogni livello
+
+17:44.000 --> 17:45.000
+delle operazioni
+
+17:45.000 --> 17:46.000
+quella roba
+
+17:46.000 --> 17:47.000
+che vi ho dato
+
+17:47.000 --> 17:48.000
+non è che
+
+17:48.000 --> 17:49.000
+è un'operazione
+
+17:49.000 --> 17:50.000
+matematica
+
+17:50.000 --> 17:51.000
+neppure
+
+17:51.000 --> 17:52.000
+avete visto
+
+17:52.000 --> 17:53.000
+100 volte
+
+17:53.000 --> 17:54.000
+giusto no?
+
+17:54.000 --> 17:55.000
+l'iveness
+
+17:55.000 --> 17:56.000
+degli algoritmi
+
+17:56.000 --> 17:57.000
+sta qua
+
+17:57.000 --> 17:58.000
+fateci
+
+17:58.000 --> 17:59.000
+algoritmo
+
+17:59.000 --> 18:00.000
+esiste
+
+18:00.000 --> 18:01.000
+una deduzione
+
+18:01.000 --> 18:02.000
+logica
+
+18:02.000 --> 18:03.000
+che deduce
+
+18:03.000 --> 18:04.000
+il sarò
+
+18:04.000 --> 18:05.000
+ok?
+
+18:05.000 --> 18:06.000
+quindi quello
+
+18:06.000 --> 18:07.000
+che voi avete
+
+18:07.000 --> 18:08.000
+quando voi avete fatto
+
+18:08.000 --> 18:09.000
+IR model
+
+18:09.000 --> 18:10.000
+e così via
+
+18:10.000 --> 18:11.000
+che cos'è che vi hanno dato?
+
+18:11.000 --> 18:12.000
+vi hanno dato
+
+18:12.000 --> 18:13.000
+tutte queste
+
+18:13.000 --> 18:14.000
+formule
+
+18:14.000 --> 18:15.000
+tutte queste
+
+18:15.000 --> 18:16.000
+rappresentazioni
+
+18:16.000 --> 18:17.000
+intermedie
+
+18:19.000 --> 18:20.000
+non vi hanno detto
+
+18:20.000 --> 18:21.000
+a che cosa
+
+18:21.000 --> 18:22.000
+mi scrivevano
+
+18:22.000 --> 18:23.000
+e poi vi hanno detto
+
+18:23.000 --> 18:24.000
+ah si certo
+
+18:24.000 --> 18:25.000
+pronto di IR model
+
+18:25.000 --> 18:26.000
+lo prendi
+
+18:26.000 --> 18:27.000
+per evitare
+
+18:27.000 --> 18:28.000
+una classe
+
+18:28.000 --> 18:29.000
+un oggetto
+
+18:29.000 --> 18:30.000
+e così via
+
+18:30.000 --> 18:32.000
+e poi
+
+18:32.000 --> 18:33.000
+quello è
+
+18:33.000 --> 18:34.000
+ok?
+
+18:34.000 --> 18:37.000
+infatti
+
+18:37.000 --> 18:38.000
+questa
+
+18:38.000 --> 18:39.000
+la chiamano
+
+18:39.000 --> 18:40.000
+la piramide
+
+18:40.000 --> 18:41.000
+da conoscita
+
+18:41.000 --> 18:42.000
+è esattamente
+
+18:42.000 --> 18:43.000
+quella di prima
+
+18:43.000 --> 18:44.000
+dove abbiamo messo
+
+18:44.000 --> 18:45.000
+in evidenza
+
+18:45.000 --> 18:46.000
+sulla piramide
+
+18:46.000 --> 18:47.000
+dove la piramide
+
+18:47.000 --> 18:48.000
+ha significato
+
+18:48.000 --> 18:49.000
+di distrazione
+
+18:49.000 --> 18:50.000
+da percezione
+
+18:50.000 --> 18:52.000
+ci sono i dati nel mondo
+
+18:52.000 --> 18:53.000
+i dati nel mondo
+
+18:53.000 --> 18:54.000
+sono tantissimi
+
+18:54.000 --> 18:55.000
+e noi
+
+18:55.000 --> 18:56.000
+cosa che facciamo
+
+18:56.000 --> 18:57.000
+con la vista?
+
+18:57.000 --> 18:58.000
+ne scegliamo un po'
+
+18:58.000 --> 18:59.000
+quelli che ci interessano
+
+18:59.000 --> 19:00.000
+li seleziamo
+
+19:00.000 --> 19:01.000
+e ci facciamo questi dati
+
+19:01.000 --> 19:02.000
+questi dati selezionati
+
+19:02.000 --> 19:03.000
+li clicchiamo alla vista
+
+19:03.000 --> 19:04.000
+e diventano
+
+19:04.000 --> 19:05.000
+e li metto
+
+19:05.000 --> 19:06.000
+la mia memoria
+
+19:06.000 --> 19:07.000
+subconscia
+
+19:07.000 --> 19:08.000
+li prendo
+
+19:08.000 --> 19:09.000
+li faccio diventare
+
+19:09.000 --> 19:10.000
+parole
+
+19:10.000 --> 19:12.000
+la parole
+
+19:12.000 --> 19:13.000
+poi le metto insieme
+
+19:13.000 --> 19:14.000
+mi faccio diventare
+
+19:14.000 --> 19:15.000
+delle descrizioni
+
+19:15.000 --> 19:16.000
+poi le faccio diventare
+
+19:16.000 --> 19:17.000
+memoria
+
+19:17.000 --> 19:18.000
+oppure le puoi buttare via
+
+19:18.000 --> 19:19.000
+normalmente
+
+19:19.000 --> 19:20.000
+e una volta fatto il memoria
+
+19:20.000 --> 19:21.000
+posso decidere
+
+19:21.000 --> 19:22.000
+se quello che vedo
+
+19:22.000 --> 19:23.000
+è vero
+
+19:23.000 --> 19:24.000
+o alzo
+
+19:24.000 --> 19:25.000
+e fatto un ragionamento
+
+19:25.000 --> 19:27.000
+ok?
+
+19:27.000 --> 19:28.000
+in ogni passo
+
+19:28.000 --> 19:29.000
+ci sono sempre
+
+19:29.000 --> 19:30.000
+due aspetti
+
+19:30.000 --> 19:31.000
+che noi andiamo
+
+19:31.000 --> 19:32.000
+a formalizzare
+
+19:32.000 --> 19:33.000
+matematicamente
+
+19:33.000 --> 19:34.000
+e che si possono
+
+19:34.000 --> 19:35.000
+formalizzare
+
+19:35.000 --> 19:36.000
+in algoritmi
+
+19:36.000 --> 19:38.000
+che è
+
+19:38.000 --> 19:40.000
+a strabre
+
+19:40.000 --> 19:42.000
+dal livello inferiore
+
+19:42.000 --> 19:43.000
+dalla percezione
+
+19:43.000 --> 19:44.000
+dal livello inferiore
+
+19:44.000 --> 19:46.000
+più vicino al mondo
+
+19:46.000 --> 19:47.000
+quello che abbiamo
+
+19:47.000 --> 19:48.000
+percepito
+
+19:48.000 --> 19:49.000
+perché qui
+
+19:49.000 --> 19:50.000
+chiaramente
+
+19:50.000 --> 19:51.000
+c'è percezione
+
+19:51.000 --> 19:52.000
+da qua a qua
+
+19:52.000 --> 19:53.000
+ma anche da qui a qui
+
+19:53.000 --> 19:54.000
+in ogni passo
+
+19:54.000 --> 19:55.000
+c'è un passo di liftà
+
+19:55.000 --> 19:56.000
+della rappresentazione
+
+19:56.000 --> 19:57.000
+e poi
+
+19:57.000 --> 19:58.000
+a un certo livello
+
+19:58.000 --> 19:59.000
+li mettiamo in sì
+
+19:59.000 --> 20:00.000
+ovviamente
+
+20:00.000 --> 20:01.000
+queste composizioni
+
+20:01.000 --> 20:02.000
+qui
+
+20:02.000 --> 20:03.000
+in l'otica
+
+20:03.000 --> 20:04.000
+ma anche
+
+20:04.000 --> 20:05.000
+degli algoritmi
+
+20:05.000 --> 20:06.000
+sono tali per cui
+
+20:06.000 --> 20:08.000
+se qui fai una composizione
+
+20:08.000 --> 20:09.000
+devi essere sicuro
+
+20:09.000 --> 20:10.000
+che vale anche per qua
+
+20:10.000 --> 20:11.000
+ed è esattamente
+
+20:11.000 --> 20:12.000
+questo
+
+20:12.000 --> 20:13.000
+che stiamo facendo
+
+20:13.000 --> 20:14.000
+questo
+
+20:14.000 --> 20:16.000
+perché
+
+20:16.000 --> 20:17.000
+vi tornava tutto
+
+20:17.000 --> 20:18.000
+perché
+
+20:18.000 --> 20:19.000
+perché in qualche maniera
+
+20:19.000 --> 20:20.000
+il database
+
+20:20.000 --> 20:21.000
+non ve l'hanno detto
+
+20:21.000 --> 20:22.000
+ma funzionava
+
+20:22.000 --> 20:23.000
+adesso lo dimostrava
+
+20:23.000 --> 20:24.000
+esattamente
+
+20:24.000 --> 20:25.000
+perché dimostrava
+
+20:25.000 --> 20:26.000
+in più
+
+20:26.000 --> 20:27.000
+possiamo vedere
+
+20:27.000 --> 20:28.000
+come tutta una roba lì
+
+20:28.000 --> 20:29.000
+un caso particolare
+
+20:29.000 --> 20:30.000
+di algoritmi generali
+
+20:30.000 --> 20:31.000
+di
+
+20:31.000 --> 20:33.000
+ragionamento
+
+20:33.000 --> 20:35.000
+dove
+
+20:35.000 --> 20:36.000
+in ogni fase
+
+20:36.000 --> 20:37.000
+è come se tu
+
+20:37.000 --> 20:38.000
+osservassi
+
+20:38.000 --> 20:39.000
+il mondo esterno
+
+20:39.000 --> 20:40.000
+è come se
+
+20:40.000 --> 20:41.000
+il livello dei concetti
+
+20:41.000 --> 20:42.000
+osservassi il livello dei percetti
+
+20:42.000 --> 20:43.000
+o comunque
+
+20:43.000 --> 20:44.000
+ma ci sono delle quiri
+
+20:44.000 --> 20:45.000
+come esattamente
+
+20:45.000 --> 20:46.000
+i percetti
+
+20:46.000 --> 20:47.000
+fanno le quiri al mondo
+
+20:47.000 --> 20:48.000
+perché tu
+
+20:48.000 --> 20:49.000
+in qualche maniera
+
+20:49.000 --> 20:50.000
+quando guardi
+
+20:50.000 --> 20:51.000
+fai una quiri
+
+20:51.000 --> 20:52.000
+a quello che vedi
+
+20:52.000 --> 20:53.000
+ti scegli cosa vedere
+
+20:53.000 --> 20:54.000
+e poi sopra
+
+20:54.000 --> 20:55.000
+pari
+
+20:55.000 --> 20:56.000
+c'è un inchiato
+
+20:56.000 --> 20:57.000
+questo progetto
+
+20:57.000 --> 20:58.000
+di composizione
+
+20:58.000 --> 20:59.000
+che vuol dire
+
+20:59.000 --> 21:00.000
+date delle cose
+
+21:00.000 --> 21:02.000
+ok
+
+21:02.000 --> 21:03.000
+domande
+
+21:11.000 --> 21:13.000
+e pensi alla piramide delle otte
+
+21:18.000 --> 21:19.000
+tutto il corso
+
+21:19.000 --> 21:20.000
+si baserà
+
+21:20.000 --> 21:21.000
+su spiegarvi
+
+21:21.000 --> 21:23.000
+queste quattro cose qua
+
+21:23.000 --> 21:24.000
+chiaramente
+
+21:24.000 --> 21:25.000
+a fare models
+
+21:25.000 --> 21:26.000
+che è più facile
+
+21:26.000 --> 21:27.000
+ci mettiamo le lezioni
+
+21:27.000 --> 21:29.000
+a fare world models
+
+21:29.000 --> 21:30.000
+ci mettiamo
+
+21:30.000 --> 21:31.000
+1,5
+
+21:31.000 --> 21:32.000
+2
+
+21:32.000 --> 21:33.000
+a fare world large
+
+21:33.000 --> 21:34.000
+ci mettiamo 7
+
+21:34.000 --> 21:35.000
+8
+
+21:35.000 --> 21:36.000
+a fare più le più estratte
+
+21:36.000 --> 21:37.000
+che dove sotto gli algoritmi
+
+21:37.000 --> 21:38.000
+ci mettiamo magari
+
+21:38.000 --> 21:39.000
+10 o 15
+
+21:39.000 --> 21:40.000
+perché chiaramente
+
+21:40.000 --> 21:41.000
+più ti astrai
+
+21:41.000 --> 21:43.000
+e più
+
+21:43.000 --> 21:44.000
+sei estratto
+
+21:44.000 --> 21:45.000
+di più hai forte
+
+21:45.000 --> 21:46.000
+di evoluzione
+
+21:46.000 --> 21:47.000
+di fatto
+
+21:47.000 --> 21:48.000
+l'obiettivo
+
+21:48.000 --> 21:49.000
+di questa lezione
+
+21:49.000 --> 21:50.000
+è che
+
+21:50.000 --> 21:51.000
+in qualche maniera
+
+21:51.000 --> 21:52.000
+vi sto dando l'indice
+
+21:52.000 --> 21:54.000
+di quello che stiamo
+
+21:54.000 --> 21:56.000
+facendo
+
+21:56.000 --> 21:57.000
+e anche l'indice
+
+21:57.000 --> 21:58.000
+delle logiche
+
+21:58.000 --> 21:59.000
+di fatto
+
+21:59.000 --> 22:00.000
+il compitino arriverà
+
+22:00.000 --> 22:01.000
+qua
+
+22:01.000 --> 22:02.000
+il primo compitino
+
+22:02.000 --> 22:03.000
+il secondo compitino
+
+22:03.000 --> 22:04.000
+sarà quattro
+
+22:04.000 --> 22:05.000
+chiaramente
+
+22:05.000 --> 22:06.000
+l'ultima è quella più
+
+22:06.000 --> 22:08.000
+questa è la vittima
+
+22:08.000 --> 22:10.000
+ovviamente
+
+22:10.000 --> 22:12.000
+quello che vedremo
+
+22:12.000 --> 22:15.000
+è che
+
+22:15.000 --> 22:16.000
+uno dice
+
+22:16.000 --> 22:17.000
+ah bello
+
+22:17.000 --> 22:18.000
+c'è un unico world model
+
+22:18.000 --> 22:19.000
+un'unica world logic
+
+22:19.000 --> 22:20.000
+no non ce l'hai uno
+
+22:20.000 --> 22:21.000
+perché a seconda di quello che vedi
+
+22:21.000 --> 22:22.000
+vedi
+
+22:22.000 --> 22:23.000
+a seconda di quello che
+
+22:23.000 --> 22:24.000
+devo vedere
+
+22:24.000 --> 22:25.000
+è una logica diversa
+
+22:25.000 --> 22:26.000
+vedo l'area
+
+22:26.000 --> 22:27.000
+la sequenza temporale
+
+22:27.000 --> 22:28.000
+il ragionamento
+
+22:28.000 --> 22:29.000
+ragionare
+
+22:29.000 --> 22:30.000
+sulla sequenza temporale
+
+22:30.000 --> 22:31.000
+di azioni
+
+22:31.000 --> 22:33.000
+è un problema diverso
+
+22:33.000 --> 22:35.000
+da capire
+
+22:35.000 --> 22:36.000
+se il numero
+
+22:36.000 --> 22:37.000
+per il piatto
+
+22:37.000 --> 22:38.000
+è solo consistente
+
+22:38.000 --> 22:39.000
+così via
+
+22:39.000 --> 22:44.000
+io non sto dicendo
+
+22:44.000 --> 22:45.000
+che ad ogni livello
+
+22:45.000 --> 22:46.000
+c'è una sola logica
+
+22:46.000 --> 22:48.000
+l'unica cosa che sto dicendo
+
+22:48.000 --> 22:49.000
+è che questo
+
+22:49.000 --> 22:50.000
+è universale
+
+22:50.000 --> 22:51.000
+per tutte le logiche
+
+22:51.000 --> 22:52.000
+tutte
+
+22:52.000 --> 22:54.000
+esiste
+
+22:54.000 --> 22:55.000
+esiste
+
+22:55.000 --> 22:56.000
+un meccanismo
+
+22:56.000 --> 22:57.000
+universale
+
+22:57.000 --> 22:58.000
+che lo descriveremo in dettaglio
+
+22:58.000 --> 22:59.000
+domani
+
+22:59.000 --> 23:00.000
+che è l'attore dell'insieme
+
+23:00.000 --> 23:01.000
+che è universale
+
+23:01.000 --> 23:02.000
+ma da qui in poi
+
+23:02.000 --> 23:03.000
+a seconda di come
+
+23:03.000 --> 23:04.000
+noi mettiamo insieme
+
+23:04.000 --> 23:05.000
+insieme
+
+23:05.000 --> 23:06.000
+avremo
+
+23:06.000 --> 23:07.000
+diverse logiche
+
+23:07.000 --> 23:08.000
+ma queste saranno sempre
+
+23:08.000 --> 23:09.000
+solo
+
+23:09.000 --> 23:10.000
+strutturate
+
+23:10.000 --> 23:11.000
+tra i livelli
+
+23:11.000 --> 23:12.000
+ok
+
+23:12.000 --> 23:13.000
+cioè
+
+23:13.000 --> 23:14.000
+prima
+
+23:14.000 --> 23:15.000
+diamo i nomi alle cose
+
+23:15.000 --> 23:16.000
+l'alfabeto
+
+23:16.000 --> 23:17.000
+che l'ho fatto vedere
+
+23:17.000 --> 23:18.000
+n volte
+
+23:18.000 --> 23:19.000
+poi
+
+23:19.000 --> 23:20.000
+costruiamo una memoria
+
+23:20.000 --> 23:21.000
+e poi ragioniamo
+
+23:21.000 --> 23:22.000
+sulla memoria
+
+23:22.000 --> 23:23.000
+su quello che sapeva
+
+23:23.000 --> 23:24.000
+e quello che non sapeva
+
+23:29.000 --> 23:30.000
+quindi
+
+23:30.000 --> 23:31.000
+queste a fianco
+
+23:31.000 --> 23:32.000
+sono anticipazioni
+
+23:32.000 --> 23:33.000
+di un altro minuto
+
+23:33.000 --> 23:34.000
+spero
+
+23:34.000 --> 23:35.000
+non sedete
+
+23:35.000 --> 23:36.000
+l'abbiate
+
+23:36.000 --> 23:37.000
+testa
+
+23:37.000 --> 23:38.000
+al momento
+
+23:38.000 --> 23:39.000
+ma
+
+23:39.000 --> 23:40.000
+era importante
+
+23:40.000 --> 23:41.000
+darvi un anticipo
+
+23:41.000 --> 23:42.000
+in modo che
+
+23:42.000 --> 23:43.000
+creare l'inflario
+
+23:43.000 --> 23:44.000
+perché
+
+23:44.000 --> 23:45.000
+in qualche maniera
+
+23:45.000 --> 23:46.000
+vi da un'idea
+
+23:46.000 --> 23:47.000
+la cosa interessante
+
+23:47.000 --> 23:48.000
+qui abbiamo letto
+
+23:48.000 --> 23:49.000
+percetti e percezioni
+
+23:49.000 --> 23:50.000
+dove le percezioni
+
+23:50.000 --> 23:51.000
+sono
+
+23:51.000 --> 23:52.000
+composizioni
+
+23:52.000 --> 23:53.000
+di percezioni
+
+23:53.000 --> 23:54.000
+cioè
+
+23:54.000 --> 23:55.000
+come ho detto prima
+
+23:55.000 --> 23:56.000
+e queste cose qua
+
+23:56.000 --> 23:57.000
+le facciamo mettere
+
+23:57.000 --> 23:58.000
+delle concettualizzazioni
+
+23:58.000 --> 23:59.000
+che sono linguistiche
+
+23:59.000 --> 24:00.000
+e qui guarda
+
+24:00.000 --> 24:01.000
+prendiamo delle assezioni
+
+24:01.000 --> 24:02.000
+che le ritengono insieme
+
+24:02.000 --> 24:03.000
+e diventano
+
+24:03.000 --> 24:04.000
+gratis di conoscenza
+
+24:04.000 --> 24:06.000
+o diventano
+
+24:06.000 --> 24:07.000
+un database
+
+24:07.000 --> 24:08.000
+il database
+
+24:08.000 --> 24:09.000
+sta qua
+
+24:09.000 --> 24:11.000
+il model
+
+24:11.000 --> 24:12.000
+sta qua
+
+24:12.000 --> 24:13.000
+il word
+
+24:13.000 --> 24:14.000
+che l'avete visto
+
+24:14.000 --> 24:15.000
+sta qua
+
+24:15.000 --> 24:18.000
+poi chiaramente
+
+24:18.000 --> 24:19.000
+quando avete fatto
+
+24:19.000 --> 24:20.000
+SQL
+
+24:20.000 --> 24:21.000
+database 1
+
+24:21.000 --> 24:22.000
+non me l'hanno detto
+
+24:22.000 --> 24:23.000
+che c'è il problema
+
+24:23.000 --> 24:24.000
+del linguaggio
+
+24:24.000 --> 24:27.000
+in realtà
+
+24:27.000 --> 24:29.000
+in realtà
+
+24:29.000 --> 24:30.000
+va bene
+
+24:30.000 --> 24:31.000
+perché
+
+24:31.000 --> 24:32.000
+per quello che vogliamo fare
+
+24:32.000 --> 24:33.000
+va benissimo
+
+24:33.000 --> 24:34.000
+ma se tu vuoi
+
+24:34.000 --> 24:35.000
+fare un ragionamento
+
+24:35.000 --> 24:36.000
+o comunque vuoi
+
+24:36.000 --> 24:37.000
+ad esempio
+
+24:37.000 --> 24:38.000
+il sistema dei AI
+
+24:38.000 --> 24:39.000
+rendere i AI
+
+24:39.000 --> 24:40.000
+in grado di fare
+
+24:40.000 --> 24:41.000
+questo ragionamento
+
+24:41.000 --> 24:42.000
+gliela devi dare
+
+24:42.000 --> 24:43.000
+tutte e tre
+
+24:43.000 --> 24:44.000
+nei database
+
+24:44.000 --> 24:45.000
+ti danno
+
+24:45.000 --> 24:46.000
+il modello
+
+24:46.000 --> 24:47.000
+non te lo dicono
+
+24:47.000 --> 24:48.000
+per la UNIGNI
+
+24:48.000 --> 24:49.000
+il modello
+
+24:49.000 --> 24:50.000
+sono le stringhe
+
+24:50.000 --> 24:51.000
+quello che metti dentro
+
+24:51.000 --> 24:52.000
+lo vedremo più avanti
+
+24:52.000 --> 24:53.000
+nella lezione
+
+24:53.000 --> 24:54.000
+3
+
+24:54.000 --> 24:56.000
+nei database
+
+24:56.000 --> 24:58.000
+il modello
+
+24:58.000 --> 24:59.000
+e il word model
+
+24:59.000 --> 25:00.000
+coincidono
+
+25:00.000 --> 25:01.000
+e sono fatti apposta
+
+25:01.000 --> 25:02.000
+perché
+
+25:02.000 --> 25:03.000
+fatti bene così
+
+25:03.000 --> 25:04.000
+perché sono velocemente
+
+25:04.000 --> 25:05.000
+efficienti
+
+25:05.000 --> 25:06.000
+ma hanno problemi
+
+25:06.000 --> 25:07.000
+che appunto
+
+25:07.000 --> 25:08.000
+perché hanno bloccato
+
+25:08.000 --> 25:09.000
+la descrizione
+
+25:09.000 --> 25:10.000
+hanno problemi
+
+25:10.000 --> 25:11.000
+che sono talmente rigidi
+
+25:11.000 --> 25:12.000
+che non si riescono
+
+25:12.000 --> 25:13.000
+a utilizzare
+
+25:13.000 --> 25:14.000
+in applicazioni
+
+25:14.000 --> 25:15.000
+come lo web
+
+25:15.000 --> 25:16.000
+o in applicazioni
+
+25:16.000 --> 25:17.000
+sono troppo rigide
+
+25:17.000 --> 25:18.000
+perché hanno precompilato
+
+25:18.000 --> 25:19.000
+troppe assunzioni
+
+25:19.000 --> 25:20.000
+in questo
+
+25:20.000 --> 25:21.000
+metodo
+
+25:21.000 --> 25:22.000
+reale
+
+25:22.000 --> 25:23.000
+dei database
+
+25:23.000 --> 25:24.000
+le sezioni
+
+25:24.000 --> 25:25.000
+internazionali
+
+25:25.000 --> 25:26.000
+graff
+
+25:26.000 --> 25:27.000
+qui diventano
+
+25:27.000 --> 25:28.000
+proposizioni
+
+25:28.000 --> 25:29.000
+atomic propositions
+
+25:29.000 --> 25:30.000
+and propositions
+
+25:30.000 --> 25:31.000
+perché ho usato
+
+25:31.000 --> 25:32.000
+la parola
+
+25:32.000 --> 25:33.000
+propositions
+
+25:33.000 --> 25:34.000
+perché si trova
+
+25:34.000 --> 25:35.000
+sotto i livelli
+
+25:35.000 --> 25:36.000
+di logica
+
+25:36.000 --> 25:37.000
+ed io ho scelto
+
+25:37.000 --> 25:38.000
+questa A qua
+
+25:38.000 --> 25:39.000
+è una proposizione atomica
+
+25:39.000 --> 25:40.000
+ci vorrei che la teoretica
+
+25:40.000 --> 25:41.000
+che ho voluto
+
+25:41.000 --> 25:42.000
+una atomica
+
+25:42.000 --> 25:43.000
+e che A
+
+25:43.000 --> 25:44.000
+qual'è che puoi sapere
+
+25:44.000 --> 25:45.000
+di A?
+
+25:45.000 --> 25:46.000
+tre cose
+
+25:46.000 --> 25:47.000
+che non sei niente
+
+25:47.000 --> 25:48.000
+o che è vero
+
+25:48.000 --> 25:49.000
+o che fa
+
+25:49.000 --> 25:50.000
+non caccia delle cose
+
+25:50.000 --> 25:52.000
+in una posizione atomica
+
+25:52.000 --> 25:53.000
+è una cosa
+
+25:53.000 --> 25:54.000
+di cui
+
+25:54.000 --> 25:55.000
+o non sei niente
+
+25:55.000 --> 25:56.000
+o sei vero o sei che fa
+
+25:56.000 --> 25:57.000
+è una sola delle tre
+
+25:57.000 --> 25:58.000
+ok
+
+25:58.000 --> 26:00.000
+si chiama
+
+26:00.000 --> 26:02.000
+il principio del terzo escluso
+
+26:02.000 --> 26:03.000
+perché in logica
+
+26:03.000 --> 26:04.000
+poi uno dice
+
+26:04.000 --> 26:05.000
+in realtà
+
+26:05.000 --> 26:06.000
+devi sapere uno
+
+26:06.000 --> 26:07.000
+in certe logiche
+
+26:07.000 --> 26:08.000
+ti dicono
+
+26:08.000 --> 26:09.000
+non ti è permesso
+
+26:09.000 --> 26:10.000
+di non sapere
+
+26:10.000 --> 26:11.000
+però in generale
+
+26:11.000 --> 26:13.000
+sono le tre opzioni
+
+26:13.000 --> 26:14.000
+non è vero
+
+26:14.000 --> 26:15.000
+non è vero
+
+26:15.000 --> 26:16.000
+e poi
+
+26:16.000 --> 26:17.000
+la proposizione
+
+26:17.000 --> 26:18.000
+che è una proposizione composta
+
+26:18.000 --> 26:20.000
+è questa
+
+26:20.000 --> 26:21.000
+è IFA A
+
+26:21.000 --> 26:22.000
+ben B
+
+26:22.000 --> 26:23.000
+perché questa
+
+26:23.000 --> 26:24.000
+è composta
+
+26:24.000 --> 26:25.000
+perché qui
+
+26:25.000 --> 26:28.000
+ha la struttura
+
+26:28.000 --> 26:29.000
+la struttura di
+
+26:29.000 --> 26:30.000
+vado in
+
+26:30.000 --> 26:31.000
+più sul mio GBA
+
+26:31.000 --> 26:32.000
+ma ti chiediamo
+
+26:32.000 --> 26:33.000
+che poi con le tre
+
+26:33.000 --> 26:34.000
+delle tabelle di verità
+
+26:34.000 --> 26:35.000
+che c'è la replicazione
+
+26:35.000 --> 26:36.000
+è ovvio
+
+26:36.000 --> 26:37.000
+perché io voglio dire
+
+26:37.000 --> 26:38.000
+è vero
+
+26:38.000 --> 26:39.000
+ma di vero
+
+26:39.000 --> 26:41.000
+se c'è il vaso
+
+26:49.000 --> 26:50.000
+e notate ovviamente
+
+26:50.000 --> 26:51.000
+che uno dice
+
+26:51.000 --> 26:52.000
+pretenchiamo
+
+26:52.000 --> 26:52.700
+cos'è la
+
+26:52.700 --> 26:53.700
+la
+
+26:53.700 --> 26:54.020
+o un'altra
+
+26:54.020 --> 26:55.000
+filetina
+
+26:55.000 --> 26:56.200
+la
+
+26:56.200 --> 26:56.900
+uno dice
+
+26:56.900 --> 26:58.000
+quant'è grossa la
+
+26:58.000 --> 26:59.000
+e la può essere
+
+26:59.000 --> 27:00.000
+quello che vuole
+
+27:00.000 --> 27:02.000
+o non può essere
+
+27:02.000 --> 27:02.960
+addirittura un'interna
+
+27:02.960 --> 27:03.640
+luga
+
+27:05.000 --> 27:07.000
+e faccio un esempio
+
+27:07.000 --> 27:14.000
+che si vede sui giornali oggi. Se Putin, se gli ursi attraversano la portiera europea,
+
+27:14.000 --> 27:20.000
+allora facciamo la testa per la mondiale.
+
+27:24.000 --> 27:28.000
+E questo per dire che quando arriviamo qua in cima,
+
+27:28.000 --> 27:32.000
+il ragionamento che noi facciamo, e lo voglio fare come tutti noi abitamente,
+
+27:32.000 --> 27:40.000
+noi abbiamo completamente estratto da A e la MI, che può descrivere una situazione arbitraria
+
+27:40.000 --> 27:45.000
+e la vita è complessa, e poi puoi essere più o meno d'accordo su IF A e B.
+
+27:45.000 --> 27:52.000
+Quello è un problema diverso, ma se sei d'accordo, la regola di deduzione ti garantisce che è toccata l'opinzione.
+
+27:52.000 --> 27:58.000
+E' chiaro? Quindi tutto il problema se con il sistema DI, se fai un specifico del sistema,
+
+27:58.000 --> 28:03.000
+e scrivere queste cose qua. O se fai machine learning, come le impari?
+
+28:03.000 --> 28:09.000
+Secondo se chi, sei a posto.
+
+28:09.000 --> 28:15.000
+E qui non c'è niente di nuovo se non il fatto che, man mano che vai su,
+
+28:15.000 --> 28:21.000
+i concetti di sopra sono generati, non dalle percezioni.
+
+28:21.000 --> 28:28.000
+Cioè il concetto, la parola, quando io dico casa, che è una singola parola,
+
+28:28.000 --> 28:34.000
+una casa è quattro muri, tetto, non ho detto complesso.
+
+28:34.000 --> 28:36.000
+Provo a decidere anche in finestra.
+
+28:36.000 --> 28:43.000
+Eh sì, ma in finestra c'è il vetro, c'è la pendina, c'è il frame e così via.
+
+28:43.000 --> 28:50.000
+Quindi per dire, comunque sia, il livello della stazione a cui tu descrivi il mondo è la tua scelta,
+
+28:50.000 --> 28:54.000
+che riprende la prega di Ulis Auber, ma comunque sia, quando sali linguisticamente,
+
+28:54.000 --> 28:59.000
+hai la grande, quello che c'è la resilienza in quanto umano,
+
+28:59.000 --> 29:04.000
+e tu hai la possibilità di scegliere il livello di dettaglio a cui descrivi il mondo.
+
+29:04.000 --> 29:08.000
+e andando su uguale, identico, perché poi a questo punto fai le sezioni,
+
+29:08.000 --> 29:12.000
+le vedremo, vado nelle sezioni e fai un knowledge graph quanto grosso vuoi,
+
+29:12.000 --> 29:17.000
+e lo metti insieme quanto vuoi, e così via.
+
+29:17.000 --> 29:21.000
+In effetti, noi, come vedrai tu già dalla prossima lezione,
+
+29:21.000 --> 29:26.000
+che sarà da tre quattro volte di esercitazioni, tutto quello...
+

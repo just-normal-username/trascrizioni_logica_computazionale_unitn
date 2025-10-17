@@ -1,0 +1,12356 @@
+WEBVTT
+
+00:00.000 --> 00:03.360
+però per dire che non sta visticciando
+
+00:03.360 --> 00:05.020
+mi deve dare una definizione di visticciare
+
+00:05.020 --> 00:07.460
+la definizione di visticciare è un'azione
+
+00:07.460 --> 00:08.320
+fra due cose
+
+00:08.320 --> 00:09.820
+fra due persone
+
+00:09.820 --> 00:11.100
+tutti i tanghi sono due persone
+
+00:11.100 --> 00:17.400
+tutto questo è il meccanismo
+
+00:17.400 --> 00:19.800
+che quando voi avete fatto
+
+00:19.800 --> 00:20.760
+software engineering
+
+00:20.760 --> 00:22.280
+ve l'hanno spiegato
+
+00:22.280 --> 00:25.320
+è sicuramente qualcosa
+
+00:25.320 --> 00:26.580
+che se tu fai AI
+
+00:26.580 --> 00:29.020
+la devi implementare
+
+00:29.020 --> 00:29.500
+le macchine
+
+00:29.500 --> 00:32.860
+è sicuramente un qualcosa
+
+00:32.860 --> 00:33.960
+che noi come logica
+
+00:33.960 --> 00:35.320
+dobbiamo andare a formalizzare
+
+00:35.320 --> 00:36.380
+in modo che poi
+
+00:36.380 --> 00:38.160
+una volta che siamo messi d'accordo
+
+00:38.160 --> 00:40.340
+sul fatto di come formalizziamo
+
+00:40.340 --> 00:42.560
+questa pittura
+
+00:42.560 --> 00:45.640
+del mondo
+
+00:45.640 --> 00:46.900
+in un linguaggio
+
+00:46.900 --> 00:50.580
+in realtà
+
+00:50.580 --> 00:52.540
+si può arguire o meno
+
+00:52.540 --> 00:54.480
+se la tua descrizione formale
+
+00:54.480 --> 00:57.120
+è una descrizione per lo meno corretta
+
+00:57.120 --> 00:59.200
+in cui si può mettere d'accordo
+
+00:59.200 --> 01:00.040
+del mondo
+
+01:00.040 --> 01:04.860
+allora bene
+
+01:04.860 --> 01:09.320
+allora l'entità è il concetto più importante
+
+01:09.320 --> 01:10.320
+abbiamo già detto che
+
+01:10.320 --> 01:12.420
+nella vostra sommabilizzazione
+
+01:12.420 --> 01:13.920
+e quando volete esercizi in forma
+
+01:13.920 --> 01:18.960
+sono lasciate la presentazione
+
+01:18.960 --> 01:19.800
+come dovete fare
+
+01:19.800 --> 01:20.880
+potete vedere una figura
+
+01:20.880 --> 01:23.100
+e sulla base del purpose
+
+01:23.100 --> 01:25.280
+del problema da risolvere
+
+01:25.280 --> 01:27.140
+se il dettavente
+
+01:27.140 --> 01:27.940
+dovete costruire
+
+01:27.940 --> 01:28.880
+decidete cosa
+
+01:28.880 --> 01:30.080
+come rischiare
+
+01:30.080 --> 01:30.900
+poi abbiamo l'entità
+
+01:30.900 --> 01:38.040
+qual'è la differenza
+
+01:38.040 --> 01:39.520
+tra una figlia o l'entità
+
+01:39.520 --> 01:40.500
+che prima di tutto
+
+01:40.500 --> 01:42.400
+noi
+
+01:42.400 --> 01:44.340
+in qualche maniera
+
+01:44.340 --> 01:46.960
+diciamo che
+
+01:46.960 --> 01:48.200
+ci viene da dire
+
+01:48.200 --> 01:48.680
+che
+
+01:48.680 --> 01:50.100
+le tre persone
+
+01:50.100 --> 01:51.280
+sono diverse fra di loro
+
+01:51.280 --> 01:52.880
+ma sono più simili
+
+01:52.880 --> 01:53.480
+fra di loro
+
+01:53.480 --> 01:54.680
+che fra loro e i cani
+
+01:54.680 --> 01:57.360
+e che i cani
+
+01:57.360 --> 01:59.100
+sono simili
+
+01:59.100 --> 01:59.660
+fra di loro
+
+01:59.660 --> 02:00.540
+e meno simili
+
+02:00.540 --> 02:01.260
+sulle persone
+
+02:01.260 --> 02:03.480
+e che i cani
+
+02:03.480 --> 02:03.980
+probabilmente
+
+02:03.980 --> 02:04.560
+sono più simili
+
+02:04.560 --> 02:05.080
+fra di loro
+
+02:05.080 --> 02:06.140
+e più simili
+
+02:06.140 --> 02:06.820
+alle persone
+
+02:06.820 --> 02:07.880
+della strada
+
+02:07.880 --> 02:09.420
+o degli animali
+
+02:09.420 --> 02:11.020
+o degli alberi
+
+02:11.020 --> 02:14.800
+quindi a questo punto
+
+02:14.800 --> 02:15.480
+stiamo parlando
+
+02:15.480 --> 02:17.180
+di due tipi di relazioni
+
+02:17.180 --> 02:18.900
+una prima relazione
+
+02:18.900 --> 02:19.560
+che è a dire
+
+02:19.560 --> 02:21.120
+come faccia a dire
+
+02:21.120 --> 02:21.640
+che
+
+02:21.640 --> 02:24.320
+due cani
+
+02:24.320 --> 02:24.900
+sono più simili
+
+02:24.900 --> 02:25.540
+fra di loro
+
+02:25.540 --> 02:26.900
+che un cane e un cane
+
+02:26.900 --> 02:28.960
+per chi tu
+
+02:28.960 --> 02:29.240
+vuoi c'è
+
+02:29.240 --> 02:29.840
+degli entità
+
+02:29.840 --> 02:31.840
+quindi
+
+02:31.840 --> 02:34.360
+che questo è
+
+02:34.360 --> 02:34.760
+esattamente
+
+02:34.760 --> 02:35.360
+quello che
+
+02:35.360 --> 02:36.640
+in maniera implicita
+
+02:36.640 --> 02:37.140
+abbiamo fatto
+
+02:37.140 --> 02:37.860
+gli
+
+02:37.860 --> 02:39.140
+entità
+
+02:39.140 --> 02:42.800
+se tu hai
+
+02:42.800 --> 02:43.520
+equità
+
+02:43.520 --> 02:46.600
+mettiamo qua
+
+02:46.600 --> 02:47.400
+organismo
+
+02:47.400 --> 02:52.120
+qua ci mettiamo
+
+02:52.120 --> 02:52.880
+persona
+
+02:52.880 --> 02:57.120
+assumiamo che una persona
+
+02:57.120 --> 02:58.580
+non è un animale
+
+02:58.580 --> 03:00.280
+perché abbiamo potuto
+
+03:00.280 --> 03:01.880
+ammettere come qualcuno fa
+
+03:01.880 --> 03:04.700
+persona sotto animale
+
+03:04.700 --> 03:05.480
+che è come dire
+
+03:05.480 --> 03:06.320
+che una persona
+
+03:06.320 --> 03:07.460
+è anche un animale
+
+03:07.460 --> 03:09.380
+possiamo mettere qua
+
+03:09.380 --> 03:09.860
+pianta
+
+03:09.860 --> 03:18.860
+e allora a questo punto
+
+03:18.860 --> 03:19.980
+se noi
+
+03:19.980 --> 03:21.320
+nello spazio dei concetti
+
+03:21.320 --> 03:22.120
+che ci dà
+
+03:22.120 --> 03:24.300
+una struttura linguistica
+
+03:24.300 --> 03:24.920
+cominciamo a fare
+
+03:24.920 --> 03:25.780
+una gerarchia così
+
+03:25.780 --> 03:27.420
+possiamo dire
+
+03:27.420 --> 03:28.060
+che
+
+03:28.060 --> 03:31.160
+questi due sono simili
+
+03:31.160 --> 03:31.900
+perché sono
+
+03:31.900 --> 03:32.860
+istante
+
+03:32.860 --> 03:33.640
+di persona
+
+03:33.640 --> 03:35.260
+e che
+
+03:35.260 --> 03:36.820
+il cane
+
+03:36.820 --> 03:37.920
+sarà sotto animale
+
+03:37.920 --> 03:38.720
+e sarà più stessa
+
+03:38.720 --> 03:39.640
+la persona
+
+03:39.640 --> 03:39.980
+che
+
+03:39.980 --> 03:42.220
+ha strada
+
+03:42.220 --> 03:42.760
+perché
+
+03:42.760 --> 03:43.280
+sono sotto
+
+03:43.280 --> 03:43.680
+organismo
+
+03:43.680 --> 03:44.240
+di verità
+
+03:44.240 --> 03:46.480
+quindi
+
+03:46.480 --> 03:47.260
+questo aspetto
+
+03:47.260 --> 03:49.760
+dell'e-type
+
+03:49.760 --> 03:50.180
+è
+
+03:50.180 --> 03:50.580
+esso stesso
+
+03:50.580 --> 03:51.760
+un ricetto
+
+03:51.760 --> 03:52.680
+gerarchico
+
+03:52.680 --> 03:54.500
+che in qualche maniera
+
+03:54.500 --> 03:55.000
+cattura
+
+03:55.000 --> 03:55.760
+generazioni
+
+03:55.760 --> 03:56.980
+di similitudine
+
+03:56.980 --> 04:00.160
+sia visiva
+
+04:00.160 --> 04:01.320
+che comportamentale
+
+04:01.320 --> 04:02.360
+che poi esattamente
+
+04:02.360 --> 04:02.780
+è quella che noi
+
+04:02.780 --> 04:03.780
+andiamo a formalizzare
+
+04:03.780 --> 04:04.980
+quando facciamo
+
+04:04.980 --> 04:05.700
+gli armodeli
+
+04:05.700 --> 04:07.600
+perché chiaramente
+
+04:07.600 --> 04:08.340
+noi ci aspettiamo
+
+04:08.340 --> 04:08.960
+che questa persona
+
+04:08.960 --> 04:09.440
+parla
+
+04:09.440 --> 04:10.000
+che questa persona
+
+04:10.000 --> 04:10.560
+parla
+
+04:10.560 --> 04:11.360
+e che il cane
+
+04:11.360 --> 04:11.800
+vai
+
+04:11.800 --> 04:13.560
+e che le piante
+
+04:13.560 --> 04:14.380
+non faccia niente
+
+04:14.380 --> 04:14.920
+oppure almeno
+
+04:14.920 --> 04:15.520
+non abbiano
+
+04:15.520 --> 04:16.660
+mani di soli esterni
+
+04:16.660 --> 04:18.700
+quindi in qualche maniera
+
+04:18.700 --> 04:23.020
+noi possiamo stabilire
+
+04:23.020 --> 04:23.780
+a priori
+
+04:23.780 --> 04:24.640
+e non come fate
+
+04:24.640 --> 04:25.540
+i software engineering
+
+04:25.540 --> 04:26.320
+estendendoli
+
+04:26.320 --> 04:26.860
+armodeli
+
+04:26.860 --> 04:27.540
+verso l'alto
+
+04:27.540 --> 04:28.160
+ma in maniera
+
+04:28.160 --> 04:28.820
+top down
+
+04:28.820 --> 04:29.960
+guardando la struttura
+
+04:29.960 --> 04:30.680
+del linguaggio
+
+04:30.680 --> 04:32.360
+dire che
+
+04:32.360 --> 04:35.280
+possiamo
+
+04:35.280 --> 04:36.520
+dare
+
+04:36.520 --> 04:37.520
+degli e-types
+
+04:37.520 --> 04:38.320
+e questi e-types
+
+04:38.320 --> 04:40.320
+sono a diversi
+
+04:40.320 --> 04:40.960
+livelli
+
+04:40.960 --> 04:42.340
+di generalità
+
+04:42.340 --> 04:43.860
+dove più specifici
+
+04:43.860 --> 04:44.620
+diventiamo
+
+04:44.620 --> 04:47.060
+e più questi e-types
+
+04:47.060 --> 04:48.200
+hanno colesimi
+
+04:48.200 --> 04:49.280
+cioè voglio dire
+
+04:49.280 --> 04:50.680
+due type
+
+04:50.680 --> 04:51.500
+due animali
+
+04:51.500 --> 04:52.540
+due cani
+
+04:52.540 --> 04:53.400
+si muovono
+
+04:53.400 --> 04:54.280
+come due persone
+
+04:54.280 --> 04:56.340
+due cani
+
+04:56.340 --> 04:56.940
+e due mali
+
+04:56.940 --> 04:57.960
+come l'organismo
+
+04:57.960 --> 04:59.060
+nasce o ne muoiono
+
+04:59.060 --> 04:59.840
+nasce o ne muoiono
+
+04:59.840 --> 05:00.400
+però in cani
+
+05:00.400 --> 05:00.680
+e mai
+
+05:00.680 --> 05:02.520
+invece le persone
+
+05:02.520 --> 05:05.680
+parla
+
+05:05.680 --> 05:08.140
+quindi l'appunto fondamentale
+
+05:08.140 --> 05:09.400
+che è classico
+
+05:09.400 --> 05:10.360
+il software engineering
+
+05:10.360 --> 05:11.420
+che formalizzeremo
+
+05:11.420 --> 05:12.420
+in maniera espressiva
+
+05:12.420 --> 05:13.100
+come se faccio
+
+05:13.100 --> 05:13.800
+di un'ora già
+
+05:13.800 --> 05:14.720
+come vedete più volte
+
+05:14.720 --> 05:15.900
+è che
+
+05:15.900 --> 05:17.040
+questo
+
+05:17.040 --> 05:17.780
+a noi
+
+05:17.780 --> 05:18.200
+e ad ognuno
+
+05:18.200 --> 05:18.940
+degli varietari
+
+05:18.940 --> 05:19.460
+associamo
+
+05:19.460 --> 05:20.280
+a delle proprietà
+
+05:20.280 --> 05:24.280
+a quelli che i dettagli
+
+05:24.280 --> 05:25.140
+si chiamano attributi
+
+05:25.140 --> 05:27.940
+che sono solo attributi
+
+05:27.940 --> 05:28.960
+chiamano proprietà
+
+05:28.960 --> 05:30.760
+che è assolutamente
+
+05:30.760 --> 05:31.360
+il fatto
+
+05:31.360 --> 05:32.200
+che noi
+
+05:32.200 --> 05:34.360
+probabilmente
+
+05:34.360 --> 05:34.900
+avete fatto
+
+05:34.900 --> 05:35.680
+c'è un concetto
+
+05:35.680 --> 05:36.860
+di tipi di dato
+
+05:36.860 --> 05:37.900
+noi in qualche maniera
+
+05:37.900 --> 05:38.620
+usiamo
+
+05:38.620 --> 05:40.440
+dei parametri
+
+05:40.440 --> 05:40.980
+che ci vengono
+
+05:40.980 --> 05:41.880
+da nostra cultura
+
+05:41.880 --> 05:43.180
+da noi
+
+05:43.180 --> 05:43.680
+ci hanno insegnato
+
+05:43.680 --> 05:44.180
+a scuola
+
+05:44.180 --> 05:45.760
+con cui noi definiamo
+
+05:45.760 --> 05:46.900
+a quale
+
+05:46.900 --> 05:47.880
+c'è un insieme
+
+05:47.880 --> 05:48.780
+di proprietà
+
+05:48.780 --> 05:49.640
+che sono
+
+05:49.640 --> 05:50.520
+relazioni
+
+05:50.520 --> 05:51.740
+fra
+
+05:51.740 --> 05:52.720
+l'entità
+
+05:52.720 --> 05:55.820
+e ad esempio
+
+05:55.820 --> 05:56.200
+e
+
+05:56.200 --> 05:57.820
+alcune caratteristiche
+
+05:57.820 --> 05:58.380
+dell'entità
+
+05:58.380 --> 05:58.660
+su cui
+
+05:58.660 --> 05:59.380
+verso il peso
+
+05:59.380 --> 06:00.120
+l'altezza
+
+06:00.120 --> 06:00.740
+quindi noi
+
+06:00.740 --> 06:01.580
+cos'è che facciamo
+
+06:01.580 --> 06:02.660
+noi diciamo
+
+06:02.660 --> 06:03.620
+noi prendiamo
+
+06:03.620 --> 06:05.940
+dei
+
+06:05.940 --> 06:09.380
+delle stringhe
+
+06:09.380 --> 06:12.320
+ad esempio
+
+06:12.320 --> 06:13.700
+la stringa
+
+06:13.700 --> 06:14.140
+uno
+
+06:14.140 --> 06:15.100
+due
+
+06:15.100 --> 06:15.960
+tre
+
+06:15.960 --> 06:17.140
+dieci
+
+06:17.140 --> 06:18.120
+undici
+
+06:18.120 --> 06:18.520
+su tre
+
+06:18.520 --> 06:18.980
+eccetera
+
+06:18.980 --> 06:19.540
+oppure
+
+06:19.540 --> 06:21.200
+biondo
+
+06:21.200 --> 06:22.700
+rosso
+
+06:22.700 --> 06:24.360
+nero
+
+06:24.360 --> 06:27.140
+e così via
+
+06:27.140 --> 06:32.920
+anno
+
+06:32.920 --> 06:33.260
+anno
+
+06:33.260 --> 06:33.860
+anno
+
+06:33.860 --> 06:36.660
+mese
+
+06:36.660 --> 06:37.200
+mese
+
+06:37.200 --> 06:37.720
+giorno
+
+06:37.720 --> 06:38.300
+giorno
+
+06:38.300 --> 06:39.400
+distanziate
+
+06:39.400 --> 06:40.100
+tutte le possibili
+
+06:40.100 --> 06:40.920
+combinazioni
+
+06:40.920 --> 06:42.900
+oppure
+
+06:42.900 --> 06:45.300
+latitudine
+
+06:45.300 --> 06:46.560
+prositudine
+
+06:46.560 --> 06:48.260
+transitudine
+
+06:48.260 --> 06:50.380
+e qui sono
+
+06:50.380 --> 06:50.980
+i dettati
+
+06:50.980 --> 06:56.340
+ma cosa sono i dettati
+
+06:56.340 --> 06:57.220
+sono delle entità
+
+06:57.220 --> 06:59.120
+sono delle entità
+
+06:59.120 --> 06:59.980
+in cui
+
+06:59.980 --> 07:03.020
+proprietà
+
+07:03.020 --> 07:04.940
+come avete detto
+
+07:04.940 --> 07:06.520
+sono predefinite
+
+07:06.520 --> 07:07.640
+quindi ti hanno insegnato
+
+07:07.640 --> 07:09.440
+che nei reali
+
+07:09.440 --> 07:11.900
+nei naturali
+
+07:11.900 --> 07:13.360
+sono il più o il meno
+
+07:13.360 --> 07:13.960
+uguali
+
+07:13.960 --> 07:14.340
+maggiore
+
+07:14.340 --> 07:14.880
+e minore
+
+07:14.880 --> 07:15.840
+e noi lo usiamo
+
+07:15.840 --> 07:16.500
+negli associati
+
+07:16.500 --> 07:19.620
+però sono entità
+
+07:19.620 --> 07:21.860
+il numero uno
+
+07:21.860 --> 07:23.860
+è un'entità
+
+07:23.860 --> 07:26.840
+quando noi diciamo uno
+
+07:26.840 --> 07:32.320
+diciamo un'entità
+
+07:32.320 --> 07:33.660
+che sta nella nostra terra
+
+07:33.660 --> 07:34.400
+e da qualche parte
+
+07:34.400 --> 07:35.040
+in un erone
+
+07:35.040 --> 07:35.880
+sta tanto vero
+
+07:35.880 --> 07:36.840
+che i matematici
+
+07:36.840 --> 07:38.140
+che sono sempre decisi
+
+07:38.140 --> 07:40.400
+distinguono tra uno
+
+07:40.400 --> 07:41.820
+e il cappellino sopra
+
+07:41.820 --> 07:43.720
+che chiamano un numero
+
+07:43.720 --> 07:45.660
+dal numero uno
+
+07:45.660 --> 07:46.300
+che è
+
+07:46.300 --> 07:47.760
+il significato inteso
+
+07:47.760 --> 07:51.400
+quindi
+
+07:51.400 --> 07:53.760
+chiaramente
+
+07:53.760 --> 07:54.520
+è importante bene
+
+07:54.520 --> 07:54.960
+che
+
+07:54.960 --> 07:55.780
+arriviamo dopo
+
+07:55.780 --> 07:57.400
+perché abbiamo
+
+07:57.400 --> 07:57.980
+questi propri
+
+07:57.980 --> 07:58.300
+entità
+
+07:58.300 --> 08:00.360
+ovviamente
+
+08:00.360 --> 08:01.500
+una volta che
+
+08:01.500 --> 08:02.580
+io
+
+08:02.580 --> 08:03.580
+ho
+
+08:03.580 --> 08:04.560
+sono indietro
+
+08:04.560 --> 08:05.820
+ma una volta che io
+
+08:05.820 --> 08:08.040
+stabilisco
+
+08:08.040 --> 08:08.580
+che
+
+08:08.580 --> 08:11.000
+la
+
+08:11.000 --> 08:12.080
+l'entity type
+
+08:12.080 --> 08:13.220
+persona
+
+08:13.220 --> 08:14.920
+ha come
+
+08:14.920 --> 08:15.640
+proprietà
+
+08:15.640 --> 08:16.860
+colore dei capelli
+
+08:16.860 --> 08:18.180
+guarda a prendere
+
+08:18.180 --> 08:18.800
+il data type
+
+08:18.800 --> 08:19.780
+colore dei capelli
+
+08:19.780 --> 08:20.780
+che me lo definisco
+
+08:20.780 --> 08:21.800
+oppure mi viene dato
+
+08:21.800 --> 08:24.160
+e sulla base di quello
+
+08:24.160 --> 08:26.280
+posso andare a
+
+08:26.280 --> 08:28.860
+a valutarlo
+
+08:28.860 --> 08:30.160
+perché ovviamente
+
+08:30.160 --> 08:31.260
+c'è un punto fondamentale
+
+08:31.260 --> 08:32.000
+questo data type
+
+08:32.000 --> 08:32.680
+tanto che la gente
+
+08:32.680 --> 08:33.820
+mediamente è brava
+
+08:33.820 --> 08:35.500
+sono tutti data type
+
+08:35.500 --> 08:37.140
+per cui c'è un meccanismo
+
+08:37.140 --> 08:37.960
+di valutarli
+
+08:37.960 --> 08:40.440
+il peso
+
+08:40.440 --> 08:41.480
+avete la bilancia
+
+08:41.480 --> 08:44.220
+e per garantire
+
+08:44.220 --> 08:44.800
+che tu ti pesa
+
+08:44.800 --> 08:45.380
+questa cosa
+
+08:45.380 --> 08:46.160
+c'è un museo
+
+08:46.160 --> 08:47.560
+della misura
+
+08:47.560 --> 08:48.600
+a parigi
+
+08:48.600 --> 08:49.580
+dove dicono
+
+08:49.580 --> 08:50.020
+un chilo
+
+08:50.020 --> 08:50.800
+si pesa così
+
+08:50.800 --> 08:52.460
+con l'errore del 5%
+
+08:52.460 --> 08:53.240
+con il 10%
+
+08:53.240 --> 08:53.780
+e così via
+
+08:53.780 --> 08:55.320
+quindi questi data type
+
+08:55.320 --> 08:55.660
+qui
+
+08:55.660 --> 08:56.540
+come anche
+
+08:56.540 --> 08:57.200
+le relazioni
+
+08:57.200 --> 08:57.780
+tra entità
+
+08:57.780 --> 08:58.540
+e le doppia minuto
+
+08:58.540 --> 08:59.340
+sono
+
+08:59.340 --> 09:02.780
+in un qualche parte
+
+09:02.780 --> 09:03.400
+ma sono
+
+09:03.400 --> 09:04.240
+misurabili
+
+09:04.240 --> 09:05.540
+con un algoritmo
+
+09:05.540 --> 09:06.040
+di versione
+
+09:06.040 --> 09:06.380
+di questo
+
+09:06.380 --> 09:07.920
+chiaramente
+
+09:07.920 --> 09:08.440
+quando hai fatto
+
+09:08.440 --> 09:09.640
+questa roba qui
+
+09:09.640 --> 09:11.960
+chiaramente
+
+09:11.960 --> 09:13.220
+tu dici
+
+09:13.220 --> 09:14.460
+puoi a questo punto
+
+09:14.460 --> 09:15.360
+fare quello che ho detto
+
+09:15.360 --> 09:16.260
+associare
+
+09:16.260 --> 09:17.360
+a un entity type
+
+09:17.360 --> 09:18.680
+una
+
+09:18.680 --> 09:19.560
+propria entity
+
+09:19.560 --> 09:19.900
+data type
+
+09:19.900 --> 09:20.480
+diciamo dire
+
+09:20.480 --> 09:21.700
+le persone
+
+09:21.700 --> 09:22.540
+hanno tutti
+
+09:22.540 --> 09:25.000
+un attributo
+
+09:25.000 --> 09:25.380
+chiamato
+
+09:25.380 --> 09:26.300
+colore dei capelli
+
+09:26.300 --> 09:28.580
+colore dei capelli
+
+09:28.580 --> 09:30.200
+dato data type
+
+09:30.200 --> 09:31.360
+poi c'è bianco
+
+09:31.360 --> 09:31.900
+lo soverso
+
+09:31.900 --> 09:34.880
+chiaramente
+
+09:34.880 --> 09:35.760
+se lo puoi fare
+
+09:35.760 --> 09:36.160
+un sistema
+
+09:36.160 --> 09:36.760
+dei AI
+
+09:36.760 --> 09:37.760
+devi dare
+
+09:37.760 --> 09:38.220
+il sistema
+
+09:38.220 --> 09:39.460
+di data type
+
+09:39.460 --> 09:40.160
+per comunità
+
+09:40.160 --> 09:45.260
+il sistema
+
+09:45.260 --> 09:46.580
+informativo
+
+09:46.580 --> 09:47.100
+probabilmente
+
+09:47.100 --> 09:47.420
+chiedevo
+
+09:47.420 --> 09:47.940
+ma di metterlo
+
+09:47.940 --> 09:51.500
+però
+
+09:51.500 --> 09:53.340
+queste proprie entità
+
+09:53.340 --> 09:54.560
+sono caratteristiche
+
+09:54.560 --> 09:55.020
+perché
+
+09:55.020 --> 09:57.760
+perché ti permettono
+
+09:57.760 --> 09:58.660
+una volta che
+
+09:58.660 --> 10:00.200
+linguisticamente
+
+10:00.200 --> 10:01.060
+di dire
+
+10:01.060 --> 10:03.860
+di identificare
+
+10:03.860 --> 10:04.720
+di descrivere
+
+10:04.720 --> 10:05.200
+io ho usato
+
+10:05.200 --> 10:05.460
+ancora
+
+10:05.460 --> 10:06.240
+descrivere
+
+10:06.240 --> 10:08.360
+nella lezione
+
+10:08.360 --> 10:08.780
+precedente
+
+10:08.780 --> 10:09.840
+di descrivere
+
+10:09.840 --> 10:10.520
+le entità
+
+10:10.520 --> 10:11.400
+quindi è vero
+
+10:11.400 --> 10:11.940
+sì che
+
+10:11.940 --> 10:13.100
+noi
+
+10:13.100 --> 10:15.460
+l'entità
+
+10:15.460 --> 10:17.200
+questa persona qua
+
+10:17.200 --> 10:18.020
+che si muove
+
+10:18.020 --> 10:18.840
+non siamo in grado
+
+10:18.840 --> 10:19.460
+di tirarsi
+
+10:19.460 --> 10:20.240
+la testa
+
+10:20.240 --> 10:20.880
+e farla venere
+
+10:20.880 --> 10:21.380
+voi non siete
+
+10:21.380 --> 10:21.600
+in grado
+
+10:21.600 --> 10:22.360
+di descriverla
+
+10:22.360 --> 10:23.400
+ma sicuramente
+
+10:23.400 --> 10:24.220
+a un'altra persona
+
+10:24.220 --> 10:24.600
+se lo avete
+
+10:24.600 --> 10:25.140
+metto a foto
+
+10:25.140 --> 10:25.660
+gliela potete
+
+10:25.660 --> 10:26.120
+descrivere
+
+10:26.120 --> 10:27.000
+c'è nessun modo
+
+10:27.000 --> 10:27.960
+che lo potete
+
+10:27.960 --> 10:28.180
+descrivere
+
+10:28.180 --> 10:29.000
+in maniera completa
+
+10:29.000 --> 10:29.320
+una cosa
+
+10:29.320 --> 10:29.820
+avete vista
+
+10:29.820 --> 10:30.680
+però sicuramente
+
+10:30.680 --> 10:33.240
+quello che potete dire
+
+10:33.240 --> 10:34.000
+potete scegliere
+
+10:34.000 --> 10:35.300
+le cinque proprietà
+
+10:35.300 --> 10:36.820
+con cui la descrivete
+
+10:36.820 --> 10:38.240
+colore dei capelli
+
+10:38.240 --> 10:39.320
+colore della pelle
+
+10:39.320 --> 10:40.880
+colore della maglietta
+
+10:40.880 --> 10:42.060
+altitudine
+
+10:42.060 --> 10:42.520
+peso
+
+10:42.520 --> 10:43.200
+posizione
+
+10:43.200 --> 10:44.100
+le scegliete
+
+10:44.100 --> 10:45.720
+e che sono queste
+
+10:45.720 --> 10:46.420
+proprietà
+
+10:46.420 --> 10:46.900
+e questa
+
+10:46.900 --> 10:47.240
+proprietà
+
+10:47.240 --> 10:47.800
+qui vi faccio
+
+10:47.800 --> 10:48.160
+una bella
+
+10:48.160 --> 10:48.700
+tabella
+
+10:48.700 --> 10:49.820
+di un database
+
+10:49.820 --> 10:50.820
+e di fatto
+
+10:50.820 --> 10:51.320
+pur
+
+10:51.320 --> 10:52.840
+da una volta
+
+10:52.840 --> 10:53.160
+che dite
+
+10:53.160 --> 10:53.880
+questa è l'entità
+
+10:53.880 --> 10:54.540
+numero 1
+
+10:54.540 --> 10:55.400
+e questa è l'entità
+
+10:55.400 --> 10:56.000
+numero 2
+
+10:56.000 --> 10:56.580
+e questa è l'entità
+
+10:56.580 --> 10:57.260
+numero 3
+
+10:57.260 --> 10:57.920
+che hanno questa
+
+10:57.920 --> 10:58.220
+tabella
+
+10:58.220 --> 10:58.820
+di proprietà
+
+10:58.820 --> 11:01.840
+e nella misura
+
+11:01.840 --> 11:02.180
+in cui
+
+11:02.180 --> 11:02.860
+io ho fatto
+
+11:02.860 --> 11:04.620
+il mio sistema
+
+11:04.620 --> 11:05.320
+informativo
+
+11:05.320 --> 11:06.400
+quelle tabelle
+
+11:06.400 --> 11:06.800
+sono tutte
+
+11:06.800 --> 11:07.800
+quelle che mi servono
+
+11:07.800 --> 11:10.540
+per
+
+11:10.540 --> 11:12.500
+quello che devo fare
+
+11:12.500 --> 11:13.380
+chiaramente
+
+11:13.380 --> 11:14.060
+voglio dire
+
+11:14.060 --> 11:15.640
+vedete bene
+
+11:15.640 --> 11:16.380
+i vostri esami
+
+11:16.380 --> 11:17.400
+non penso
+
+11:17.400 --> 11:17.980
+che ci sia il nome
+
+11:17.980 --> 11:18.960
+dei vostri territori
+
+11:18.960 --> 11:19.440
+o il nome
+
+11:19.440 --> 11:19.820
+dei vostri
+
+11:19.820 --> 11:20.140
+nonni
+
+11:20.140 --> 11:20.780
+sicuramente
+
+11:20.780 --> 11:21.160
+no
+
+11:21.160 --> 11:22.880
+voi potete
+
+11:22.880 --> 11:23.060
+vedere
+
+11:23.060 --> 11:23.340
+le due
+
+11:23.340 --> 11:23.780
+delle producce
+
+11:23.780 --> 11:24.660
+che servono
+
+11:24.660 --> 11:26.140
+per fare
+
+11:26.140 --> 11:27.180
+e chiaramente
+
+11:27.180 --> 11:28.260
+sarà anche la vostra foto
+
+11:28.260 --> 11:28.960
+ma sarà una foto
+
+11:28.960 --> 11:30.460
+di quando siete arrivati
+
+11:30.460 --> 11:31.040
+e mai
+
+11:31.040 --> 11:31.600
+perché la giudicazione
+
+11:31.600 --> 11:32.040
+da barba
+
+11:32.040 --> 11:32.460
+e di via
+
+11:32.460 --> 11:32.660
+ma
+
+11:32.660 --> 11:33.060
+mi ha anche
+
+11:33.060 --> 11:34.020
+informazioni
+
+11:34.020 --> 11:35.200
+sulle le altre
+
+11:35.200 --> 11:37.480
+e sono quelle informazioni
+
+11:37.480 --> 11:38.400
+che by design
+
+11:38.400 --> 11:39.320
+come vi hanno insegnato
+
+11:39.320 --> 11:39.800
+a fare
+
+11:39.800 --> 11:41.620
+sono quelle che servono
+
+11:41.620 --> 11:42.700
+per dare una descrizione
+
+11:42.700 --> 11:43.560
+parziale
+
+11:43.560 --> 11:44.480
+di quello che siete
+
+11:44.480 --> 11:46.460
+ma soprattutto
+
+11:46.460 --> 11:47.280
+sufficiente
+
+11:47.280 --> 11:48.020
+per il fatto
+
+11:48.020 --> 11:49.100
+di quello che dovete fare
+
+11:49.100 --> 11:52.100
+ma
+
+11:52.100 --> 11:52.740
+quando
+
+11:52.740 --> 11:53.640
+sono due persone qua
+
+11:53.640 --> 11:54.260
+ci sono due qua
+
+11:54.260 --> 11:55.220
+una per descrivere
+
+11:55.220 --> 11:55.780
+in quanto stanno
+
+11:55.780 --> 11:56.300
+la descrive
+
+11:56.300 --> 11:56.780
+le relazioni
+
+11:56.780 --> 11:57.340
+con gli altri
+
+11:57.340 --> 11:57.860
+quindi
+
+11:57.860 --> 11:58.560
+questa è sempre
+
+11:58.560 --> 11:59.440
+vicina a questa
+
+11:59.440 --> 12:00.500
+qual'è una relazione
+
+12:00.500 --> 12:01.180
+potrebbe essere
+
+12:01.180 --> 12:02.020
+questa è moglie
+
+12:02.020 --> 12:03.040
+è amica
+
+12:03.040 --> 12:04.900
+è parente
+
+12:04.900 --> 12:08.180
+ma parla
+
+12:08.180 --> 12:16.220
+parla
+
+12:16.220 --> 12:17.540
+queste relazioni
+
+12:17.540 --> 12:18.720
+tendenzialmente
+
+12:18.720 --> 12:19.860
+sono i stai tipi
+
+12:19.860 --> 12:21.000
+spaziali
+
+12:21.000 --> 12:21.840
+vediamo più avanti
+
+12:21.840 --> 12:23.020
+azioni
+
+12:23.020 --> 12:23.720
+che uno fa
+
+12:23.720 --> 12:24.340
+che sono quelle
+
+12:24.340 --> 12:25.800
+che sono più difficili
+
+12:25.800 --> 12:26.460
+da bloccare
+
+12:26.460 --> 12:27.460
+e anche relazioni
+
+12:27.460 --> 12:28.400
+tipo sociale
+
+12:28.400 --> 12:30.000
+relazioni sociali
+
+12:30.000 --> 12:31.120
+di ones
+
+12:31.120 --> 12:31.140
+di ones
+
+12:31.140 --> 12:31.500
+di ones
+
+12:31.500 --> 12:32.560
+di ones
+
+12:32.560 --> 12:33.360
+qual'è la riferente
+
+12:33.360 --> 12:34.400
+tra le prime e le seconde
+
+12:34.400 --> 12:35.220
+che le prime
+
+12:35.220 --> 12:36.000
+sono relazioni
+
+12:36.000 --> 12:37.240
+sono proprietà
+
+12:37.240 --> 12:37.980
+della singola
+
+12:37.980 --> 12:38.460
+entità
+
+12:38.460 --> 12:39.420
+quindi sono relazioni
+
+12:39.420 --> 12:40.020
+tra entità
+
+12:40.020 --> 12:43.340
+e poi
+
+12:43.340 --> 12:43.960
+c'è i tipi
+
+12:43.960 --> 12:44.660
+di relazioni
+
+12:44.660 --> 12:46.380
+la relazione
+
+12:46.380 --> 12:47.400
+la relazione
+
+12:47.400 --> 12:48.780
+e questa
+
+12:48.780 --> 12:49.380
+abbiamo già visto
+
+12:49.380 --> 12:49.840
+nella
+
+12:49.840 --> 12:52.500
+la relazione
+
+12:52.500 --> 12:53.140
+friend
+
+12:53.140 --> 12:57.020
+che uno può scrivere
+
+12:57.020 --> 12:57.400
+come
+
+12:57.400 --> 12:58.320
+has friend
+
+12:58.320 --> 13:01.300
+o come
+
+13:01.300 --> 13:01.680
+friend
+
+13:01.680 --> 13:01.980
+or
+
+13:01.980 --> 13:07.100
+dove chiaramente
+
+13:07.100 --> 13:09.100
+la direzione
+
+13:09.100 --> 13:09.920
+è la stessa priorità
+
+13:09.920 --> 13:10.320
+di insieme
+
+13:10.320 --> 13:10.840
+a un'inverse
+
+13:10.840 --> 13:11.460
+dell'altra
+
+13:11.460 --> 13:17.080
+è una relazione
+
+13:17.080 --> 13:17.480
+che
+
+13:17.480 --> 13:20.520
+ha come valori
+
+13:20.520 --> 13:21.240
+tutte le persone
+
+13:21.240 --> 13:21.880
+che sono amiche
+
+13:21.880 --> 13:30.700
+e chiaramente
+
+13:30.700 --> 13:33.460
+abbiamo
+
+13:33.460 --> 13:33.900
+sia
+
+13:33.900 --> 13:34.920
+le relazioni
+
+13:34.920 --> 13:35.900
+io sono
+
+13:35.900 --> 13:37.000
+professore suo
+
+13:37.000 --> 13:37.840
+professore suo
+
+13:37.840 --> 13:38.540
+di logica
+
+13:38.540 --> 13:40.300
+ma poi c'è anche
+
+13:40.300 --> 13:40.980
+il fatto che
+
+13:40.980 --> 13:42.340
+professore e studente
+
+13:42.340 --> 13:43.180
+sono delle relazioni
+
+13:43.180 --> 13:44.080
+che all'università
+
+13:44.080 --> 13:44.580
+definiscono
+
+13:44.580 --> 13:45.220
+certi ruoli
+
+13:45.220 --> 13:51.000
+e chiaramente
+
+13:51.000 --> 13:55.260
+una volta
+
+13:55.260 --> 13:56.040
+che avete scelto
+
+13:56.040 --> 13:56.660
+l'entità
+
+13:56.660 --> 13:57.860
+o l'entity type
+
+13:57.860 --> 13:59.140
+puoi andare
+
+13:59.140 --> 14:00.000
+a definire queste
+
+14:00.000 --> 14:00.440
+bene
+
+14:00.440 --> 14:01.640
+ve l'avevo già detto
+
+14:01.640 --> 14:02.380
+l'altra volta
+
+14:02.380 --> 14:02.960
+sono
+
+14:02.960 --> 14:06.020
+1,2,3,4,5,6
+
+14:06.020 --> 14:09.480
+è tutto quello
+
+14:09.480 --> 14:10.100
+che ci serve
+
+14:10.100 --> 14:12.800
+per descrivere il mondo
+
+14:12.800 --> 14:14.040
+e per poter fare
+
+14:14.040 --> 14:14.480
+tutto quello
+
+14:14.480 --> 14:15.160
+vogliamo fare
+
+14:15.160 --> 14:17.260
+chiaramente
+
+14:17.260 --> 14:17.600
+quello
+
+14:17.600 --> 14:19.000
+penso che
+
+14:19.000 --> 14:20.260
+quanto vi avevo detto
+
+14:20.260 --> 14:21.300
+nella seconda lezione
+
+14:21.300 --> 14:21.980
+sia chiaro
+
+14:21.980 --> 14:22.520
+chiaramente
+
+14:22.520 --> 14:23.360
+ogni descrizione
+
+14:23.360 --> 14:23.980
+linguistica
+
+14:23.980 --> 14:24.300
+che è data
+
+14:24.300 --> 14:24.680
+di questa roba
+
+14:24.680 --> 14:25.420
+sarà sempre
+
+14:25.420 --> 14:25.960
+in comprenza
+
+14:25.960 --> 14:26.520
+nessuno
+
+14:26.520 --> 14:27.240
+sarà in grado
+
+14:27.240 --> 14:28.220
+di replicare
+
+14:28.220 --> 14:28.800
+quell'immagri
+
+14:28.800 --> 14:29.360
+che sono in parte
+
+14:29.360 --> 14:30.000
+della foto
+
+14:30.000 --> 14:31.400
+ma nella misura
+
+14:31.400 --> 14:31.660
+in cui
+
+14:31.660 --> 14:32.180
+la descrizione
+
+14:32.180 --> 14:32.700
+parziale
+
+14:32.700 --> 14:33.160
+funziona
+
+14:33.160 --> 14:33.880
+per questo problema
+
+14:33.880 --> 14:34.580
+è rilevante
+
+14:34.580 --> 14:39.580
+ovviamente
+
+14:39.580 --> 14:42.340
+e questi
+
+14:42.340 --> 14:43.260
+i percetti
+
+14:43.260 --> 14:43.540
+che
+
+14:43.540 --> 14:44.220
+non diremo
+
+14:44.220 --> 14:44.380
+più
+
+14:44.380 --> 14:44.820
+e ripeto
+
+14:44.820 --> 14:45.140
+dopo
+
+14:45.140 --> 14:45.980
+i percetti
+
+14:45.980 --> 14:46.600
+semplici
+
+14:46.600 --> 14:47.240
+composti
+
+14:47.240 --> 14:47.600
+sono questi
+
+14:47.600 --> 14:48.040
+sono 6
+
+14:48.040 --> 14:50.940
+ok
+
+14:50.940 --> 14:52.480
+però
+
+14:52.480 --> 14:53.240
+adesso il problema
+
+14:53.240 --> 14:54.080
+in qualche maniera
+
+14:54.080 --> 14:55.580
+dobbiamo dire
+
+14:55.580 --> 14:56.800
+come facciamo a dire
+
+14:56.800 --> 14:57.340
+dobbiamo
+
+14:57.340 --> 14:58.440
+un concetto
+
+14:58.440 --> 14:59.200
+fondamentale
+
+14:59.200 --> 15:00.360
+che è implicito
+
+15:00.360 --> 15:01.340
+nel
+
+15:01.340 --> 15:01.720
+nel
+
+15:01.720 --> 15:02.720
+nel
+
+15:02.720 --> 15:03.920
+nel
+
+15:03.920 --> 15:04.500
+nel
+
+15:04.500 --> 15:04.860
+nel fatto
+
+15:04.860 --> 15:05.200
+di
+
+15:05.200 --> 15:07.620
+modellazione
+
+15:07.620 --> 15:08.160
+perché
+
+15:08.160 --> 15:11.440
+come facciamo a dire
+
+15:11.440 --> 15:11.760
+questo
+
+15:11.760 --> 15:12.440
+l'ho detto prima
+
+15:12.440 --> 15:13.620
+lo ripetiamo
+
+15:13.620 --> 15:14.480
+per chiarezza
+
+15:14.480 --> 15:17.700
+abbiamo detto
+
+15:17.700 --> 15:18.180
+che una volta
+
+15:18.180 --> 15:18.700
+che passiamo
+
+15:18.700 --> 15:19.260
+dalla
+
+15:19.260 --> 15:19.820
+dalla
+
+15:19.820 --> 15:21.180
+descrizione
+
+15:21.180 --> 15:21.580
+logica
+
+15:21.580 --> 15:21.960
+la descrizione
+
+15:21.960 --> 15:22.920
+linguistica
+
+15:22.920 --> 15:24.420
+identifichiamo
+
+15:24.420 --> 15:25.420
+identifichiamo
+
+15:25.420 --> 15:25.880
+queste
+
+15:25.880 --> 15:26.660
+usiamo
+
+15:26.660 --> 15:26.940
+queste
+
+15:26.940 --> 15:27.300
+seppre
+
+15:27.300 --> 15:27.700
+età
+
+15:27.700 --> 15:28.620
+sicuramente
+
+15:28.620 --> 15:29.000
+dobbiamo dire
+
+15:29.000 --> 15:29.920
+l'entity
+
+15:29.920 --> 15:30.240
+l'entity
+
+15:30.240 --> 15:30.980
+l'entità
+
+15:30.980 --> 15:34.380
+ovviamente
+
+15:34.380 --> 15:34.740
+però
+
+15:34.740 --> 15:35.200
+a questo punto
+
+15:35.200 --> 15:35.700
+dobbiamo dire
+
+15:35.700 --> 15:37.000
+quando sono uguali
+
+15:37.000 --> 15:37.440
+e diverse
+
+15:37.440 --> 15:39.320
+non facciamo a dire
+
+15:39.320 --> 15:39.740
+che
+
+15:39.740 --> 15:40.580
+due persone
+
+15:40.580 --> 15:41.200
+hanno maliettato
+
+15:41.200 --> 15:41.880
+il suo colore
+
+15:41.880 --> 15:43.060
+non facciamo a dire
+
+15:43.060 --> 15:43.840
+che due istanze
+
+15:43.840 --> 15:44.080
+di
+
+15:44.080 --> 15:44.760
+di
+
+15:44.760 --> 15:44.960
+di
+
+15:44.960 --> 15:45.400
+di
+
+15:45.400 --> 15:46.080
+di
+
+15:46.080 --> 15:47.080
+di
+
+15:47.080 --> 15:49.120
+me
+
+15:49.120 --> 15:49.520
+visto
+
+15:49.520 --> 15:50.200
+oggi
+
+15:50.200 --> 15:50.880
+siamo
+
+15:50.880 --> 15:51.100
+a questa
+
+15:51.100 --> 15:51.500
+persona
+
+15:51.500 --> 15:51.820
+meno
+
+15:51.820 --> 15:52.140
+quindi
+
+15:52.140 --> 15:52.540
+questo
+
+15:52.540 --> 15:53.040
+concetto
+
+15:53.040 --> 15:53.740
+di
+
+15:53.740 --> 15:54.300
+uguaglianza
+
+15:54.300 --> 15:54.600
+che noi
+
+15:54.600 --> 15:54.840
+dobbiamo
+
+15:54.840 --> 15:55.340
+darci
+
+15:55.340 --> 15:56.560
+è il concetto
+
+15:56.560 --> 15:56.760
+di
+
+15:56.760 --> 15:57.900
+disuguaglianza
+
+15:57.900 --> 16:01.440
+quindi
+
+16:01.440 --> 16:01.960
+il passo
+
+16:01.960 --> 16:02.720
+importante
+
+16:02.720 --> 16:03.280
+da mettere
+
+16:03.280 --> 16:04.020
+in evidenza
+
+16:04.020 --> 16:05.960
+è che
+
+16:05.960 --> 16:08.800
+quando io parlo
+
+16:08.800 --> 16:09.540
+di persona
+
+16:09.540 --> 16:10.840
+come concetto
+
+16:10.840 --> 16:12.280
+come parliamo
+
+16:12.280 --> 16:12.640
+in una lezione
+
+16:12.640 --> 16:13.280
+prossima
+
+16:13.280 --> 16:14.780
+io posso dire
+
+16:14.780 --> 16:15.440
+che il mio
+
+16:15.440 --> 16:16.200
+concetto
+
+16:16.200 --> 16:17.260
+l'avete visto
+
+16:17.260 --> 16:17.720
+due volte
+
+16:17.720 --> 16:18.480
+in due correnti
+
+16:18.480 --> 16:19.320
+diverse
+
+16:19.320 --> 16:20.380
+perché potete dire
+
+16:20.380 --> 16:21.040
+che le due correnti
+
+16:21.040 --> 16:22.020
+sono uguali
+
+16:22.020 --> 16:23.040
+uguali in che cosa?
+
+16:23.120 --> 16:23.400
+in una serie
+
+16:23.400 --> 16:24.360
+di caratteristiche
+
+16:24.360 --> 16:25.340
+che dicono
+
+16:25.340 --> 16:25.780
+che devono dire
+
+16:25.780 --> 16:26.800
+essere uguali
+
+16:26.800 --> 16:29.780
+come fate a dire
+
+16:29.780 --> 16:30.560
+che una persona
+
+16:30.560 --> 16:31.980
+ha messo in questa persona
+
+16:31.980 --> 16:33.800
+due volte
+
+16:33.800 --> 16:35.520
+in due giorni diverse?
+
+16:35.960 --> 16:38.220
+la pace
+
+16:38.220 --> 16:39.880
+e se vestiti
+
+16:39.880 --> 16:40.440
+la clown
+
+16:40.440 --> 16:42.340
+lo dì
+
+16:42.340 --> 16:44.320
+si toglie la maschera
+
+16:44.320 --> 16:44.780
+lì
+
+16:44.780 --> 16:45.080
+anzi
+
+16:45.080 --> 16:46.060
+si tolta la maschera
+
+16:46.060 --> 16:47.600
+quindi sapete
+
+16:47.600 --> 16:48.360
+che la maschera
+
+16:48.360 --> 16:50.760
+è una cosa temporale
+
+16:50.760 --> 16:52.060
+però
+
+16:52.060 --> 16:52.500
+c'è questo
+
+16:52.500 --> 16:53.280
+continuo
+
+16:53.280 --> 16:54.120
+esercizio
+
+16:54.120 --> 16:55.580
+di potere
+
+16:55.580 --> 16:56.220
+quando tu hai
+
+16:56.220 --> 16:56.560
+due
+
+16:56.560 --> 16:57.940
+due occorrenze
+
+16:57.940 --> 16:58.680
+parliamo di
+
+16:58.680 --> 16:59.440
+occorrenze
+
+16:59.440 --> 17:01.620
+di due
+
+17:01.620 --> 17:02.600
+entità
+
+17:02.600 --> 17:05.380
+noi
+
+17:05.380 --> 17:06.700
+dobbiamo poter dire
+
+17:06.700 --> 17:07.500
+se queste due
+
+17:07.500 --> 17:08.160
+occorrenze
+
+17:08.160 --> 17:08.900
+sono occorrenti
+
+17:08.900 --> 17:09.460
+della stessa
+
+17:09.460 --> 17:10.060
+entità
+
+17:10.060 --> 17:11.520
+sono occorrenti
+
+17:11.520 --> 17:12.100
+di due diverse
+
+17:12.100 --> 17:12.580
+entità
+
+17:12.580 --> 17:14.280
+questo poi
+
+17:14.280 --> 17:15.860
+diventa fondamentale
+
+17:15.860 --> 17:18.520
+più avanti
+
+17:18.520 --> 17:20.340
+non solo
+
+17:20.340 --> 17:21.420
+devi poter dire
+
+17:21.420 --> 17:23.140
+se sono
+
+17:23.140 --> 17:26.800
+due
+
+17:26.800 --> 17:29.000
+prima di tutto
+
+17:29.000 --> 17:29.420
+devi dire
+
+17:29.420 --> 17:29.780
+se sono
+
+17:29.780 --> 17:30.200
+la stessa
+
+17:30.200 --> 17:30.740
+entità
+
+17:30.740 --> 17:33.200
+poi
+
+17:33.200 --> 17:33.600
+sono la stessa
+
+17:33.600 --> 17:33.960
+entità
+
+17:33.960 --> 17:34.580
+puoi dire
+
+17:34.580 --> 17:35.060
+se è la stessa
+
+17:35.060 --> 17:35.480
+entità
+
+17:35.480 --> 17:36.760
+se ha la stessa
+
+17:36.760 --> 17:37.200
+entità
+
+17:37.200 --> 17:39.000
+non necessariamente
+
+17:39.000 --> 17:40.520
+però nella misura
+
+17:40.520 --> 17:41.400
+il colore dei capelli
+
+17:41.400 --> 17:42.220
+può cambiare
+
+17:42.220 --> 17:44.100
+però nella misura
+
+17:44.100 --> 17:46.880
+nella misura
+
+17:46.880 --> 17:48.140
+in cui
+
+17:48.140 --> 17:51.440
+quello che ti mette
+
+17:51.440 --> 17:52.400
+come uguale
+
+17:52.400 --> 17:53.280
+non cambia
+
+17:53.280 --> 17:55.140
+fa tutto bene
+
+17:55.140 --> 18:01.680
+questa roba
+
+18:01.680 --> 18:02.340
+è veramente
+
+18:02.340 --> 18:03.260
+pervasiva
+
+18:03.260 --> 18:04.140
+in termini
+
+18:04.140 --> 18:04.980
+di modellazione
+
+18:04.980 --> 18:06.620
+vi faccio un esempio
+
+18:18.140 --> 18:48.120
+grazie a tutti
+
+18:48.140 --> 18:55.980
+se io dico
+
+18:55.980 --> 18:56.960
+ho visto Paolo
+
+18:56.960 --> 18:58.100
+che aveva i capelli bianchi
+
+18:58.100 --> 18:58.680
+e poi dice
+
+18:58.680 --> 18:59.460
+ho visto Paolo
+
+18:59.460 --> 19:00.620
+che aveva i capelli rossi
+
+19:00.620 --> 19:01.660
+la stessa persona
+
+19:01.660 --> 19:02.000
+sì
+
+19:02.000 --> 19:02.920
+o no
+
+19:02.920 --> 19:03.980
+sì grazie a nessuno
+
+19:03.980 --> 19:06.380
+se io dico
+
+19:06.380 --> 19:07.340
+ho visto
+
+19:07.340 --> 19:08.260
+un uomo
+
+19:08.260 --> 19:09.440
+che aveva i capelli bianchi
+
+19:09.440 --> 19:10.120
+ho visto un uomo
+
+19:10.120 --> 19:10.920
+che aveva i capelli rossi
+
+19:10.920 --> 19:11.320
+probabilmente
+
+19:11.320 --> 19:12.520
+sono diversi
+
+19:12.520 --> 19:14.000
+perché
+
+19:14.000 --> 19:15.660
+il colore dei capelli
+
+19:15.660 --> 19:18.200
+è meno
+
+19:18.200 --> 19:19.120
+identificante
+
+19:19.120 --> 19:19.720
+del nome
+
+19:19.720 --> 19:22.220
+potremmo anche essere
+
+19:22.220 --> 19:22.660
+due Mario
+
+19:22.660 --> 19:23.140
+e due Paolo
+
+19:23.140 --> 19:23.640
+diverso
+
+19:23.640 --> 19:24.560
+ma voi avete pensato
+
+19:24.560 --> 19:25.180
+al suo Paolo
+
+19:25.180 --> 19:25.980
+e altrimenti
+
+19:25.980 --> 19:26.940
+avrete pensato
+
+19:26.940 --> 19:27.620
+tutti i posti
+
+19:27.620 --> 19:28.500
+sarete aspettati
+
+19:28.500 --> 19:28.940
+di che hanno
+
+19:28.940 --> 19:29.920
+un Paolo diverso
+
+19:29.920 --> 19:32.500
+quindi per dire
+
+19:32.500 --> 19:32.900
+che
+
+19:32.900 --> 19:33.860
+e ho messo a vista
+
+19:33.860 --> 19:34.700
+appunto per dare
+
+19:34.700 --> 19:35.860
+questa idea
+
+19:35.860 --> 19:36.300
+di un colore
+
+19:36.300 --> 19:36.980
+diverso
+
+19:36.980 --> 19:37.160
+no
+
+19:37.160 --> 19:38.360
+quindi
+
+19:38.360 --> 19:39.460
+questo per dire
+
+19:39.460 --> 19:39.880
+che noi
+
+19:39.880 --> 19:41.380
+continuamente
+
+19:41.380 --> 19:42.940
+questa operazione
+
+19:42.940 --> 19:43.540
+della semi
+
+19:43.540 --> 19:44.060
+interversa
+
+19:44.060 --> 19:44.520
+facciamo
+
+19:44.520 --> 19:44.900
+che poi
+
+19:44.900 --> 19:45.420
+esattamente
+
+19:45.420 --> 19:45.720
+è quello
+
+19:45.720 --> 19:46.560
+di comportare
+
+19:46.560 --> 19:48.420
+nella nostra
+
+19:48.420 --> 19:49.300
+teoria dei modelli
+
+19:49.300 --> 19:51.080
+e notare bene
+
+19:51.080 --> 19:51.600
+che
+
+19:51.600 --> 19:52.500
+come poi
+
+19:52.500 --> 19:53.080
+vedrete
+
+19:53.080 --> 19:54.400
+chi di voi
+
+19:54.400 --> 19:55.600
+farà
+
+19:55.600 --> 19:56.520
+forse
+
+19:56.520 --> 19:57.300
+il prossimo anno
+
+19:57.300 --> 20:01.960
+il problema
+
+20:01.960 --> 20:02.700
+è di capire
+
+20:02.700 --> 20:04.440
+se due entità
+
+20:04.440 --> 20:05.280
+due occorrenti
+
+20:05.280 --> 20:05.800
+di entità
+
+20:05.800 --> 20:06.400
+nel web
+
+20:06.400 --> 20:08.480
+quindi su dati
+
+20:08.480 --> 20:09.180
+non visibili
+
+20:09.180 --> 20:10.100
+solo una serenità
+
+20:10.100 --> 20:10.640
+è il problema
+
+20:10.640 --> 20:11.580
+più difficile che c'è
+
+20:11.580 --> 20:13.500
+ed è il motivo
+
+20:13.500 --> 20:14.500
+per cui la gente
+
+20:14.500 --> 20:16.360
+nel mondo reale
+
+20:16.360 --> 20:17.220
+si è inventata
+
+20:17.220 --> 20:21.820
+il numero di passaporto
+
+20:21.820 --> 20:23.480
+il fiscal code
+
+20:23.480 --> 20:24.500
+perché?
+
+20:24.700 --> 20:25.100
+è perché
+
+20:25.100 --> 20:26.440
+il nome è un contenente
+
+20:26.440 --> 20:27.020
+e dei dati
+
+20:27.020 --> 20:28.980
+quindi
+
+20:28.980 --> 20:29.560
+questa specie
+
+20:29.560 --> 20:30.140
+della semi
+
+20:30.140 --> 20:31.060
+perché dove è
+
+20:31.060 --> 20:31.560
+il vero punto?
+
+20:31.660 --> 20:32.520
+perché in qualche maniera
+
+20:32.520 --> 20:33.380
+quando io
+
+20:33.380 --> 20:34.500
+nel mondo linguistico
+
+20:34.500 --> 20:36.100
+devo poter dire
+
+20:36.100 --> 20:36.980
+come ho detto ieri
+
+20:36.980 --> 20:37.880
+che questa parola
+
+20:37.880 --> 20:41.340
+c'è questa stringa
+
+20:41.340 --> 20:41.940
+ma l'unica
+
+20:41.940 --> 20:42.660
+che fa identità
+
+20:42.660 --> 20:43.160
+sul fatto
+
+20:43.160 --> 20:44.000
+dell'oggetto
+
+20:44.000 --> 20:45.320
+nel modello
+
+20:45.320 --> 20:47.160
+nella persona logica
+
+20:47.160 --> 20:47.700
+è quella di
+
+20:47.700 --> 20:49.280
+l'unica
+
+20:49.280 --> 20:55.120
+e chiaramente
+
+20:55.120 --> 20:56.260
+questo si propaga giù
+
+20:56.260 --> 20:56.780
+a tutto
+
+20:56.780 --> 20:58.420
+ognuno dei sei
+
+20:58.420 --> 20:59.340
+esempi
+
+20:59.340 --> 21:00.660
+di
+
+21:00.660 --> 21:02.880
+percetti
+
+21:02.880 --> 21:04.500
+come li abbiamo chiamati
+
+21:04.500 --> 21:05.160
+adesso vi richiamiamo
+
+21:05.160 --> 21:05.800
+un po' a minuto
+
+21:05.800 --> 21:07.240
+questo problema qui
+
+21:07.240 --> 21:08.160
+e a questo punto
+
+21:08.160 --> 21:08.720
+devi dire
+
+21:08.720 --> 21:09.380
+abbiamo saputo
+
+21:09.380 --> 21:10.020
+soledità
+
+21:10.020 --> 21:11.260
+ma adesso
+
+21:11.260 --> 21:11.900
+c'è il concetto
+
+21:11.900 --> 21:12.760
+di biondo
+
+21:12.760 --> 21:16.800
+e secondo me
+
+21:16.800 --> 21:17.620
+è così chiaro
+
+21:17.620 --> 21:17.980
+dire
+
+21:17.980 --> 21:19.240
+c'è una bellissima
+
+21:19.240 --> 21:20.340
+ad esempio
+
+21:20.340 --> 21:21.200
+c'è il concetto
+
+21:21.200 --> 21:21.940
+dei colori
+
+21:21.940 --> 21:23.120
+c'è una bellissima forma
+
+21:23.120 --> 21:24.040
+che adesso
+
+21:24.040 --> 21:25.200
+non ho messo
+
+21:25.200 --> 21:26.660
+che dove
+
+21:26.660 --> 21:28.380
+chi è esperto
+
+21:28.380 --> 21:28.820
+di colore
+
+21:28.820 --> 21:29.920
+vede 50 colori
+
+21:29.920 --> 21:30.740
+voi ne vedete 3
+
+21:30.740 --> 21:31.980
+per te
+
+21:31.980 --> 21:32.780
+tu sei biondo
+
+21:32.780 --> 21:33.280
+per me
+
+21:33.280 --> 21:34.120
+per me
+
+21:34.120 --> 21:35.340
+una persona è bionda
+
+21:35.340 --> 21:36.060
+per un altro
+
+21:36.060 --> 21:38.200
+una persona è cassano chiaro
+
+21:38.200 --> 21:38.780
+e così via
+
+21:38.780 --> 21:40.300
+quindi questo problema
+
+21:40.300 --> 21:41.240
+di identità
+
+21:41.240 --> 21:43.400
+che è esattamente
+
+21:43.400 --> 21:44.100
+poi quello che c'è
+
+21:44.100 --> 21:44.500
+alla base
+
+21:44.500 --> 21:45.420
+di tutti gli algoritmi
+
+21:45.420 --> 21:47.740
+di recognition
+
+21:47.740 --> 21:48.760
+di copiare il video
+
+21:48.760 --> 21:49.340
+come abbiamo detto
+
+21:49.340 --> 21:50.360
+e anche negli altri anni
+
+21:50.360 --> 21:52.040
+non è solamente
+
+21:52.040 --> 21:52.820
+a livello di identità
+
+21:52.820 --> 21:53.220
+è a livello
+
+21:53.220 --> 21:54.760
+di ogni singolo valore
+
+21:54.760 --> 21:55.800
+ogni singola identità
+
+21:55.800 --> 21:57.220
+perché quando tu hai fatto
+
+21:57.220 --> 21:57.960
+il data type
+
+21:57.960 --> 21:58.760
+ti sei dato
+
+21:58.760 --> 22:00.520
+il data type
+
+22:00.520 --> 22:01.200
+per i vari valori
+
+22:01.200 --> 22:01.640
+come ho scritto
+
+22:01.640 --> 22:02.260
+da qualche parte
+
+22:02.260 --> 22:02.760
+ti sei dato
+
+22:02.760 --> 22:03.740
+lo spazio dei valori
+
+22:03.740 --> 22:04.500
+ma
+
+22:04.500 --> 22:05.660
+quando tu passi
+
+22:05.660 --> 22:06.520
+da una descrizione
+
+22:06.520 --> 22:08.040
+analogica
+
+22:08.040 --> 22:08.920
+da una immagine
+
+22:08.920 --> 22:09.960
+analogica del mondo
+
+22:09.960 --> 22:11.140
+alla linguistica
+
+22:11.140 --> 22:12.140
+quel passo
+
+22:12.140 --> 22:12.580
+io ho fatto
+
+22:12.580 --> 22:13.480
+in formalizzazione
+
+22:13.480 --> 22:16.240
+che è esattamente
+
+22:16.240 --> 22:17.480
+dove c'è
+
+22:17.480 --> 22:19.020
+il 90% dei problemi
+
+22:19.020 --> 22:21.420
+chiaramente
+
+22:21.420 --> 22:22.380
+questo vale
+
+22:22.380 --> 22:25.120
+anche per
+
+22:25.120 --> 22:25.600
+tu
+
+22:25.600 --> 22:26.040
+tu
+
+22:26.040 --> 22:26.620
+prendiamo
+
+22:26.620 --> 22:27.200
+una qualunque
+
+22:27.200 --> 22:27.600
+segretto
+
+22:27.600 --> 22:28.080
+ordinata
+
+22:28.080 --> 22:28.720
+di valori
+
+22:28.720 --> 22:30.300
+ok
+
+22:30.300 --> 22:32.760
+quindi ad esempio
+
+22:32.760 --> 22:36.420
+facciamo degli esempi
+
+22:36.420 --> 22:37.500
+adesso a seguire
+
+22:37.500 --> 22:38.980
+per ognuno di quelle
+
+22:38.980 --> 22:40.080
+questo passaggio
+
+22:40.080 --> 22:40.780
+a questo mondo
+
+22:40.780 --> 22:41.020
+qua
+
+22:41.020 --> 22:41.420
+è esattamente
+
+22:41.420 --> 22:42.100
+il passaggio
+
+22:42.100 --> 22:43.500
+che
+
+22:43.500 --> 22:48.500
+fondamentale
+
+22:48.500 --> 22:50.000
+che nel nostro modello
+
+22:50.000 --> 22:50.800
+modelliamo
+
+22:50.800 --> 22:51.040
+come
+
+22:51.040 --> 22:51.620
+disuguaglianza
+
+22:51.620 --> 22:52.860
+e disuguaglianza
+
+22:52.860 --> 22:53.980
+ma
+
+22:53.980 --> 22:55.100
+che nel mondo
+
+22:55.100 --> 22:57.080
+nel mondo
+
+22:57.080 --> 22:57.660
+delle AI
+
+22:57.660 --> 22:58.360
+e delle science
+
+22:58.360 --> 22:58.920
+e disuguaglianza
+
+22:58.920 --> 22:59.820
+che similari
+
+22:59.820 --> 23:00.360
+similari
+
+23:00.360 --> 23:00.740
+in italianza
+
+23:00.740 --> 23:01.300
+in clustering
+
+23:01.300 --> 23:02.420
+classification
+
+23:02.420 --> 23:03.520
+il problema
+
+23:03.520 --> 23:04.360
+è sempre questo
+
+23:04.360 --> 23:08.540
+capire o meno
+
+23:08.540 --> 23:09.480
+quando vai
+
+23:09.480 --> 23:09.840
+nel mondo
+
+23:09.840 --> 23:10.720
+linguistico
+
+23:10.720 --> 23:12.460
+se o meno
+
+23:12.460 --> 23:13.180
+due entità
+
+23:13.180 --> 23:14.020
+due
+
+23:14.020 --> 23:15.340
+due occorrenze
+
+23:15.340 --> 23:16.580
+di due diverse
+
+23:16.580 --> 23:16.980
+entità
+
+23:16.980 --> 23:17.740
+rappresentano
+
+23:17.740 --> 23:18.420
+la stessa entità
+
+23:18.420 --> 23:18.960
+nel mondo
+
+23:18.960 --> 23:21.000
+perché è chiaro
+
+23:21.000 --> 23:21.720
+come io dico
+
+23:21.720 --> 23:22.300
+fausto
+
+23:22.300 --> 23:23.380
+il concetto di fausto
+
+23:23.380 --> 23:24.060
+il concetto di uomo
+
+23:24.060 --> 23:25.100
+è indipendente
+
+23:25.100 --> 23:25.680
+dal tempo
+
+23:25.680 --> 23:27.500
+poi fausto
+
+23:27.500 --> 23:28.220
+nasce e muore
+
+23:28.220 --> 23:28.800
+ed evolve
+
+23:28.800 --> 23:29.360
+ma fausto
+
+23:29.360 --> 23:29.980
+è invariante
+
+23:29.980 --> 23:31.260
+in ogni momento
+
+23:31.260 --> 23:31.720
+vedo quella
+
+23:31.720 --> 23:32.920
+specifica correnza
+
+23:32.920 --> 23:34.680
+data specifica correnza
+
+23:34.680 --> 23:35.240
+il mio
+
+23:35.240 --> 23:35.740
+algoritmo
+
+23:35.740 --> 23:36.580
+di computer vision
+
+23:36.580 --> 23:38.380
+per dire
+
+23:38.380 --> 23:39.060
+computer vision
+
+23:39.060 --> 23:39.420
+qualunque
+
+23:39.420 --> 23:40.500
+di realizzazione
+
+23:40.500 --> 23:41.100
+della versione
+
+23:41.100 --> 23:41.600
+giustica
+
+23:41.600 --> 23:42.520
+deve poter fare
+
+23:42.520 --> 23:43.100
+questa cosa
+
+23:43.100 --> 23:43.840
+guardate bene
+
+23:43.840 --> 23:44.340
+che fausto
+
+23:44.340 --> 23:44.800
+da piccolo
+
+23:44.800 --> 23:45.080
+non c'è
+
+23:45.080 --> 23:45.440
+niente
+
+23:45.440 --> 23:45.920
+con fausto
+
+23:45.920 --> 23:46.320
+da red
+
+23:46.320 --> 23:47.620
+guardate
+
+23:47.620 --> 23:48.520
+guardate
+
+23:48.520 --> 23:48.840
+il caso
+
+23:48.840 --> 23:49.340
+di sistemi
+
+23:49.340 --> 23:49.740
+di AI
+
+23:49.740 --> 23:50.040
+che sono
+
+23:50.040 --> 23:50.460
+funzionale
+
+23:50.460 --> 23:50.740
+qui
+
+23:50.740 --> 23:53.660
+questo è qua
+
+23:53.660 --> 23:57.340
+quindi
+
+23:57.340 --> 23:59.700
+come abbiamo annunciato
+
+23:59.700 --> 24:01.920
+quello che noi facciamo
+
+24:01.920 --> 24:03.620
+prendiamo
+
+24:03.620 --> 24:04.140
+quell'oggetto
+
+24:04.140 --> 24:05.000
+sulla sinistra
+
+24:05.000 --> 24:06.500
+l'immagine
+
+24:06.500 --> 24:07.180
+e la facciamo
+
+24:07.180 --> 24:07.640
+diventare
+
+24:07.640 --> 24:07.960
+l'ultima
+
+24:07.960 --> 24:08.540
+questo oggetto
+
+24:08.540 --> 24:08.880
+la letta
+
+24:08.880 --> 24:09.620
+questo è un linguaggio
+
+24:09.620 --> 24:10.060
+non è
+
+24:10.060 --> 24:11.340
+questa è una immagine
+
+24:11.340 --> 24:12.020
+questa è una
+
+24:12.020 --> 24:12.600
+presentazione
+
+24:12.600 --> 24:14.540
+questa presentazione
+
+24:14.540 --> 24:15.160
+di linguistica
+
+24:15.160 --> 24:16.220
+faccio un esempio
+
+24:16.220 --> 24:18.320
+c'è una sintassi
+
+24:18.320 --> 24:18.760
+per questo
+
+24:18.760 --> 24:20.380
+vedete
+
+24:20.380 --> 24:20.920
+per esempio
+
+24:20.920 --> 24:21.600
+la sintassi
+
+24:21.600 --> 24:22.100
+che dice
+
+24:22.100 --> 24:23.240
+che la forma
+
+24:23.240 --> 24:23.820
+del cerchio
+
+24:23.820 --> 24:24.440
+è rilevante
+
+24:24.440 --> 24:24.800
+il piccolo
+
+24:24.800 --> 24:25.100
+grosso
+
+24:25.100 --> 24:26.040
+è rilevante
+
+24:26.040 --> 24:26.200
+però
+
+24:26.200 --> 24:26.560
+che importa
+
+24:26.560 --> 24:27.620
+con i tedeschi
+
+24:27.620 --> 24:28.540
+ci dice
+
+24:28.540 --> 24:29.040
+che se
+
+24:29.040 --> 24:29.340
+qui
+
+24:29.340 --> 24:31.140
+c'è una sintassi
+
+24:31.140 --> 24:31.380
+quella
+
+24:31.380 --> 24:31.620
+quindi
+
+24:31.620 --> 24:31.960
+inizia
+
+24:31.960 --> 24:34.140
+però
+
+24:34.140 --> 24:36.540
+perché
+
+24:36.540 --> 24:37.020
+accetto
+
+24:37.020 --> 24:37.760
+se ti
+
+24:37.760 --> 24:37.980
+io
+
+24:37.980 --> 24:39.360
+nel prossimo
+
+24:39.360 --> 24:39.440
+a
+
+24:39.440 --> 24:39.700
+gra
+
+24:39.700 --> 24:41.080
+perché
+
+24:41.080 --> 24:42.720
+questa è una presentazione
+
+24:42.720 --> 24:43.300
+grafica
+
+24:43.300 --> 24:43.640
+che poi
+
+24:43.640 --> 24:44.720
+essendo un linguaggio
+
+24:44.720 --> 24:46.100
+ci dà
+
+24:46.100 --> 24:46.640
+una
+
+24:46.640 --> 24:47.340
+rappresentazione
+
+24:47.340 --> 24:48.520
+visiva
+
+24:48.520 --> 24:49.660
+simbolica
+
+24:49.660 --> 24:51.620
+che in qualche
+
+24:51.620 --> 24:52.120
+maniera
+
+24:52.120 --> 24:54.080
+che per di più
+
+24:54.080 --> 24:55.540
+legata al concetto
+
+24:55.540 --> 24:56.280
+di entità
+
+24:56.280 --> 24:57.620
+che abbiamo
+
+24:57.620 --> 24:58.300
+detto prima
+
+24:58.300 --> 25:00.580
+che in qualche
+
+25:00.580 --> 25:01.020
+maniera
+
+25:01.020 --> 25:02.240
+rende
+
+25:02.240 --> 25:02.520
+questo
+
+25:02.520 --> 25:02.860
+matto
+
+25:02.860 --> 25:03.600
+in immediato
+
+25:03.600 --> 25:05.180
+chiaramente
+
+25:05.180 --> 25:05.880
+una singola
+
+25:05.880 --> 25:06.320
+entità
+
+25:06.320 --> 25:06.880
+fra il suo
+
+25:06.880 --> 25:07.600
+puntino
+
+25:07.600 --> 25:09.020
+chiaramente
+
+25:09.020 --> 25:10.040
+non permetteremo
+
+25:10.040 --> 25:10.660
+acqua
+
+25:10.660 --> 25:11.200
+e da qui
+
+25:11.200 --> 25:12.000
+da due parti
+
+25:12.000 --> 25:12.820
+da due parti
+
+25:12.820 --> 25:13.940
+che vorrebbe dire
+
+25:13.940 --> 25:15.180
+che si confondono
+
+25:15.180 --> 25:16.540
+probabilmente
+
+25:16.540 --> 25:17.400
+se c'è un cerchio
+
+25:17.400 --> 25:17.920
+chiaramente
+
+25:17.920 --> 25:18.300
+voglio dire
+
+25:18.300 --> 25:18.460
+che
+
+25:18.460 --> 25:20.020
+diciamo così
+
+25:20.020 --> 25:20.500
+per le diverse
+
+25:20.500 --> 25:21.200
+le persone
+
+25:21.200 --> 25:21.600
+a
+
+25:21.600 --> 25:21.760
+c
+
+25:21.760 --> 25:23.040
+sono
+
+25:23.040 --> 25:24.180
+delle donne
+
+25:24.180 --> 25:24.700
+l'uomo
+
+25:24.700 --> 25:25.120
+eccetera
+
+25:25.120 --> 25:25.540
+eccetera
+
+25:25.540 --> 25:28.840
+quindi
+
+25:28.840 --> 25:32.040
+ci siamo dati
+
+25:32.040 --> 25:32.800
+una sintassi
+
+25:32.800 --> 25:34.760
+chiaramente
+
+25:34.760 --> 25:36.220
+non solo
+
+25:36.220 --> 25:36.500
+quello
+
+25:36.500 --> 25:36.800
+noi
+
+25:36.800 --> 25:38.680
+possiamo dire
+
+25:38.680 --> 25:39.740
+matematicamente
+
+25:39.740 --> 25:41.220
+avere un algoritmo
+
+25:41.220 --> 25:42.580
+voi sapete
+
+25:42.580 --> 25:43.080
+che si può
+
+25:43.080 --> 25:43.820
+sempre calcolare
+
+25:43.820 --> 25:44.340
+un insieme
+
+25:44.340 --> 25:44.680
+come
+
+25:44.680 --> 25:45.420
+condominio
+
+25:45.420 --> 25:46.140
+di una funzione
+
+25:46.140 --> 25:47.820
+per definire
+
+25:47.820 --> 25:49.320
+cosa è uguale
+
+25:49.320 --> 25:49.860
+per dire
+
+25:49.860 --> 25:51.180
+per dire
+
+25:51.180 --> 25:51.520
+quando
+
+25:51.520 --> 25:52.500
+due
+
+25:52.500 --> 25:55.020
+due insiemi
+
+25:55.020 --> 25:56.180
+sono uguali
+
+25:56.180 --> 25:58.160
+hanno una
+
+25:58.160 --> 25:58.660
+presentazione
+
+25:58.660 --> 25:59.340
+analogica
+
+25:59.340 --> 26:00.780
+tutta in diagramma
+
+26:00.780 --> 26:03.380
+e si può
+
+26:03.380 --> 26:03.740
+costruire
+
+26:03.740 --> 26:04.360
+un mapping
+
+26:04.360 --> 26:04.960
+uno a uno
+
+26:04.960 --> 26:07.320
+da quello
+
+26:07.320 --> 26:07.960
+che si vede
+
+26:07.960 --> 26:09.920
+alla
+
+26:09.920 --> 26:10.940
+alla
+
+26:10.940 --> 26:11.740
+presentazione
+
+26:11.740 --> 26:12.960
+analogica
+
+26:12.960 --> 26:14.080
+all'universale
+
+26:14.080 --> 26:15.800
+in qualche
+
+26:15.800 --> 26:16.320
+operazione
+
+26:16.320 --> 26:16.500
+di
+
+26:16.500 --> 26:16.880
+membership
+
+26:16.880 --> 26:17.120
+di
+
+26:17.120 --> 26:20.260
+non solo
+
+26:20.260 --> 26:20.420
+di
+
+26:20.420 --> 26:20.820
+immunità
+
+26:20.820 --> 26:21.160
+ma di
+
+26:21.160 --> 26:21.700
+relazioni
+
+26:21.700 --> 26:22.520
+all'universale
+
+26:22.520 --> 26:25.300
+molti
+
+26:25.300 --> 26:26.220
+a switch
+
+26:26.220 --> 26:26.520
+perché
+
+26:26.520 --> 26:27.280
+c'è il terreno
+
+26:27.280 --> 26:28.440
+e
+
+26:28.440 --> 26:30.800
+hanno un
+
+26:30.800 --> 26:31.000
+linguaggio
+
+26:31.000 --> 26:31.520
+formato
+
+26:31.520 --> 26:32.140
+tu puoi
+
+26:32.140 --> 26:33.840
+usare una sintassi
+
+26:33.840 --> 26:34.220
+tipo
+
+26:34.220 --> 26:35.740
+un linguaggio
+
+26:35.740 --> 26:35.860
+di
+
+26:35.860 --> 26:36.380
+quello che
+
+26:36.380 --> 26:36.600
+forma
+
+26:36.600 --> 26:36.800
+di
+
+26:36.800 --> 26:38.060
+quindi
+
+26:38.060 --> 26:38.300
+dov'è
+
+26:38.300 --> 26:38.740
+il punto
+
+26:38.740 --> 26:39.600
+fondamentale
+
+26:39.600 --> 26:42.420
+il punto
+
+26:42.420 --> 26:43.240
+fondamentale
+
+26:43.240 --> 26:43.660
+è
+
+26:43.660 --> 26:45.600
+che
+
+26:45.600 --> 26:48.320
+tutto il
+
+26:48.320 --> 26:49.220
+trucco
+
+26:49.220 --> 26:50.860
+di
+
+26:50.860 --> 26:54.000
+estrarre
+
+26:54.000 --> 26:55.220
+da una
+
+26:55.220 --> 26:55.780
+semantica
+
+26:55.780 --> 26:55.960
+a un
+
+26:55.960 --> 26:56.480
+linguaggio
+
+26:56.480 --> 26:57.580
+è il
+
+26:57.580 --> 26:58.140
+passaggio
+
+26:58.140 --> 26:58.440
+da
+
+26:58.440 --> 26:59.240
+una figura
+
+26:59.240 --> 26:59.760
+per quella
+
+26:59.760 --> 27:00.120
+che era
+
+27:00.120 --> 27:00.660
+piena di
+
+27:00.660 --> 27:01.480
+interpretazione
+
+27:01.480 --> 27:04.280
+a una
+
+27:04.280 --> 27:04.520
+figura
+
+27:04.520 --> 27:05.160
+come questa
+
+27:05.160 --> 27:06.540
+quindi
+
+27:06.540 --> 27:07.140
+tutto il
+
+27:07.140 --> 27:07.640
+problema
+
+27:07.640 --> 27:09.180
+di
+
+27:09.180 --> 27:09.580
+scelta
+
+27:09.580 --> 27:10.660
+rappresentazionale
+
+27:10.660 --> 27:11.240
+è la
+
+27:11.240 --> 27:11.660
+produzione
+
+27:11.660 --> 27:11.880
+del
+
+27:11.880 --> 27:12.060
+ben
+
+27:12.060 --> 27:12.260
+dai
+
+27:12.260 --> 27:13.740
+è
+
+27:13.740 --> 27:14.100
+chiaro?
+
+27:15.240 --> 27:15.960
+Ed è
+
+27:15.960 --> 27:16.420
+chiaro
+
+27:16.420 --> 27:16.620
+che
+
+27:16.620 --> 27:16.720
+in
+
+27:16.720 --> 27:16.900
+questa
+
+27:16.900 --> 27:17.200
+produzione
+
+27:17.200 --> 27:17.360
+del
+
+27:17.360 --> 27:17.540
+ben
+
+27:17.540 --> 27:17.820
+dai
+
+27:17.820 --> 27:18.080
+per
+
+27:18.080 --> 27:18.780
+aiutarmi
+
+27:18.780 --> 27:22.880
+quando ci
+
+27:22.880 --> 27:23.340
+scriverò
+
+27:23.340 --> 27:23.600
+a
+
+27:23.600 --> 27:24.180
+se questa
+
+27:24.180 --> 27:24.720
+si chiama
+
+27:24.720 --> 27:25.340
+angela
+
+27:25.340 --> 27:25.520
+ci
+
+27:25.520 --> 27:25.840
+metterò
+
+27:25.840 --> 27:26.280
+angela
+
+27:26.280 --> 27:26.840
+qui ci
+
+27:26.840 --> 27:27.100
+scriverò
+
+27:27.100 --> 27:27.220
+a
+
+27:27.220 --> 27:27.700
+persona
+
+27:27.700 --> 27:29.180
+ok
+
+27:29.180 --> 27:30.660
+quindi
+
+27:30.660 --> 27:31.060
+questi
+
+27:31.060 --> 27:31.480
+nomi
+
+27:31.480 --> 27:31.760
+che sono
+
+27:31.760 --> 27:32.100
+qua
+
+27:32.100 --> 27:33.240
+diventano
+
+27:33.240 --> 27:33.760
+i nomi
+
+27:33.760 --> 27:34.100
+che noi
+
+27:34.100 --> 27:34.740
+mettiamo
+
+27:34.740 --> 27:39.400
+che noi
+
+27:39.400 --> 27:39.920
+mettiamo
+
+27:39.920 --> 27:40.720
+gli elementi
+
+27:40.720 --> 27:41.120
+le tube
+
+27:41.120 --> 27:41.700
+e così via
+
+27:41.700 --> 27:42.340
+è
+
+27:42.340 --> 27:42.880
+rilevante
+
+27:42.880 --> 27:43.340
+gli uomini
+
+27:43.340 --> 27:44.640
+sono rilevanti
+
+27:44.640 --> 27:44.820
+no
+
+27:44.820 --> 27:45.560
+sono totalmente
+
+27:45.560 --> 27:46.260
+rilevanti
+
+27:46.260 --> 27:46.920
+come sapete
+
+27:46.920 --> 27:47.680
+però
+
+27:47.680 --> 27:50.180
+semanticamente
+
+27:50.180 --> 27:50.680
+aiuta
+
+27:50.680 --> 27:50.980
+un uomo
+
+27:50.980 --> 27:51.820
+a vedere
+
+27:51.820 --> 27:52.480
+il significato
+
+27:52.480 --> 27:52.840
+di te
+
+27:52.840 --> 27:55.660
+quindi
+
+27:55.660 --> 27:57.140
+qua mi ha messo
+
+27:57.140 --> 27:57.860
+abcid
+
+27:57.860 --> 27:58.400
+ma quando
+
+27:58.400 --> 27:59.400
+in questo passaggio
+
+27:59.400 --> 27:59.940
+noi
+
+27:59.940 --> 28:03.900
+usiamo
+
+28:03.900 --> 28:04.860
+queste stringhe
+
+28:04.860 --> 28:06.540
+perché
+
+28:06.540 --> 28:07.920
+descrivi
+
+28:07.920 --> 28:08.360
+esattamente
+
+28:08.360 --> 28:08.860
+questo
+
+28:08.860 --> 28:09.640
+e adesso
+
+28:09.640 --> 28:10.080
+questo punto
+
+28:10.080 --> 28:10.480
+è una domanda
+
+28:10.480 --> 28:10.880
+ovvia
+
+28:10.880 --> 28:11.380
+che immagino
+
+28:11.380 --> 28:11.660
+vi siete
+
+28:11.660 --> 28:11.880
+date
+
+28:11.880 --> 28:12.380
+le risposte
+
+28:12.380 --> 28:12.640
+si ma
+
+28:12.640 --> 28:13.180
+queste stringhe
+
+28:13.180 --> 28:13.380
+dove
+
+28:13.380 --> 28:13.860
+arrivano?
+
+28:15.640 --> 28:15.880
+è tra
+
+28:15.880 --> 28:16.660
+le scuole
+
+28:16.660 --> 28:18.700
+anzi
+
+28:18.700 --> 28:19.120
+l'ha parlato
+
+28:19.120 --> 28:19.460
+google
+
+28:19.460 --> 28:19.820
+quando ero
+
+28:19.820 --> 28:20.040
+giovane
+
+28:20.040 --> 28:20.300
+c'era
+
+28:20.300 --> 28:20.740
+google
+
+28:20.740 --> 28:21.960
+non esisteva
+
+28:21.960 --> 28:22.240
+poi
+
+28:22.240 --> 28:22.520
+il mondo
+
+28:22.520 --> 28:22.980
+evolve
+
+28:22.980 --> 28:23.960
+dipende
+
+28:23.960 --> 28:24.520
+le parole
+
+28:24.520 --> 28:25.540
+quindi abbiamo
+
+28:25.540 --> 28:26.460
+questo senso
+
+28:26.460 --> 28:26.800
+comune
+
+28:26.800 --> 28:27.400
+di parole
+
+28:27.400 --> 28:29.920
+che chiaramente
+
+28:29.920 --> 28:31.320
+ci portiamo
+
+28:31.320 --> 28:31.800
+dietro
+
+28:31.800 --> 28:32.260
+e quando
+
+28:32.260 --> 28:32.800
+noi facciamo
+
+28:32.800 --> 28:33.820
+le metterie
+
+28:33.820 --> 28:34.440
+formali
+
+28:34.440 --> 28:36.760
+ce lo portiamo
+
+28:36.760 --> 28:37.160
+dietro
+
+28:37.160 --> 28:37.620
+ma non perché
+
+28:37.620 --> 28:37.880
+aiuta
+
+28:37.880 --> 28:38.200
+il metodo
+
+28:38.200 --> 28:38.740
+formale
+
+28:38.740 --> 28:39.560
+ma semplicemente
+
+28:39.560 --> 28:40.000
+perché aiuta
+
+28:40.000 --> 28:40.600
+l'interpretazione
+
+28:40.600 --> 28:40.940
+della teoria
+
+28:40.940 --> 28:41.280
+logica
+
+28:41.280 --> 28:41.860
+poi vedremo
+
+28:41.860 --> 28:42.220
+dopo
+
+28:42.220 --> 28:42.640
+nelle proprie
+
+28:42.640 --> 28:43.100
+lezioni
+
+28:43.100 --> 28:43.380
+che
+
+28:43.380 --> 28:44.820
+questa scelta
+
+28:44.820 --> 28:46.200
+di queste parole
+
+28:46.200 --> 28:46.500
+qui
+
+28:46.500 --> 28:47.220
+crea di nuovo
+
+28:47.220 --> 28:47.920
+confusioni
+
+28:47.920 --> 28:48.680
+perché chiaramente
+
+28:48.680 --> 28:50.500
+abbiamo usato
+
+28:50.500 --> 28:51.000
+la parola
+
+28:51.000 --> 28:51.640
+persona
+
+28:51.640 --> 28:52.120
+però poi
+
+28:52.120 --> 28:52.600
+non siamo
+
+28:52.600 --> 28:52.980
+d'accordo
+
+28:52.980 --> 28:53.720
+sulla persona
+
+28:53.720 --> 28:55.120
+ma no
+
+28:55.120 --> 28:57.420
+l'esempio
+
+28:57.420 --> 28:57.800
+che faccio
+
+28:57.800 --> 28:58.260
+sempre
+
+28:58.260 --> 28:58.680
+è che
+
+28:58.680 --> 29:00.440
+quando gli americani
+
+29:00.440 --> 29:01.020
+sono andati
+
+29:01.020 --> 29:01.500
+in Vietnam
+
+29:01.500 --> 29:03.680
+i vietanoliti
+
+29:03.680 --> 29:04.260
+non si stimolano
+
+29:04.260 --> 29:04.640
+le piante
+
+29:04.640 --> 29:05.160
+dai neri
+
+29:05.160 --> 29:07.360
+è un fatto
+
+29:07.360 --> 29:07.880
+dell'oro
+
+29:07.880 --> 29:09.100
+certo
+
+29:09.100 --> 29:09.400
+un uomo
+
+29:09.400 --> 29:09.420
+il uomo
+
+29:09.420 --> 29:09.700
+il uomo
+
+29:09.700 --> 29:09.720
+il uomo
+
+29:09.720 --> 29:09.760
+il uomo
+
+29:09.760 --> 29:09.780
+il uomo
+
+29:09.780 --> 29:09.980
+il uomo
+
+29:09.980 --> 29:10.060
+il uomo
+
+29:10.060 --> 29:10.620
+è totalmente
+
+29:10.620 --> 29:11.220
+culturale
+
+29:11.220 --> 29:11.780
+non esiste
+
+29:11.780 --> 29:12.120
+in realtà
+
+29:12.120 --> 29:12.940
+o perlomeno
+
+29:12.940 --> 29:13.300
+esiste
+
+29:13.300 --> 29:13.700
+per quelli
+
+29:13.700 --> 29:14.400
+che sono allenati
+
+29:14.400 --> 29:14.740
+a farci
+
+29:14.740 --> 29:15.500
+la concetta
+
+29:15.500 --> 29:15.740
+di
+
+29:15.740 --> 29:16.620
+uguaglianza
+
+29:16.620 --> 29:17.080
+in testa
+
+29:17.080 --> 29:17.320
+se non
+
+29:17.320 --> 29:17.880
+si è educato
+
+29:17.880 --> 29:18.240
+così
+
+29:18.240 --> 29:19.860
+però
+
+29:19.860 --> 29:20.740
+per i vietanoliti
+
+29:20.740 --> 29:22.020
+è come
+
+29:22.020 --> 29:24.640
+guardati in Asia
+
+29:24.640 --> 29:25.140
+se uno
+
+29:25.140 --> 29:25.860
+c'è il cinesi
+
+29:25.860 --> 29:26.460
+con la fortuna
+
+29:26.460 --> 29:28.300
+è tutto uguale
+
+29:28.300 --> 29:30.640
+vale anche
+
+29:30.640 --> 29:30.960
+per loro
+
+29:30.960 --> 29:31.360
+anche loro
+
+29:31.360 --> 29:32.360
+non distingono
+
+29:32.360 --> 29:32.780
+neanche loro
+
+29:32.780 --> 29:33.360
+dai capelli
+
+29:33.360 --> 29:34.000
+però
+
+29:34.000 --> 29:34.680
+sono tutti neri
+
+29:34.680 --> 29:34.940
+quindi
+
+29:34.940 --> 29:36.860
+non hanno
+
+29:36.860 --> 29:37.100
+problema
+
+29:37.100 --> 29:37.780
+di distingere
+
+29:37.780 --> 29:38.780
+quindi
+
+29:38.780 --> 29:39.220
+tutte queste
+
+29:39.220 --> 29:39.760
+categorie
+
+29:39.760 --> 29:40.380
+mentali
+
+29:40.380 --> 29:40.920
+sono tutte
+
+29:40.920 --> 29:42.540
+semplicemente
+
+29:42.540 --> 29:43.600
+legate al training
+
+29:43.600 --> 29:46.200
+che ci siamo fatti
+
+29:46.200 --> 29:46.760
+che per chi
+
+29:46.760 --> 29:47.360
+vi fa i AI
+
+29:47.360 --> 29:47.840
+possiamo fare
+
+29:47.840 --> 29:48.420
+le macchine
+
+29:48.420 --> 29:50.540
+per fare
+
+29:50.540 --> 29:50.920
+le azioni
+
+29:50.920 --> 29:51.440
+di uguaglianza
+
+29:51.440 --> 29:52.140
+di questi ragazzi
+
+29:52.140 --> 29:59.620
+e quindi
+
+29:59.620 --> 29:59.960
+adesso
+
+29:59.960 --> 30:00.360
+facciamo
+
+30:00.360 --> 30:04.960
+quindi a questo punto
+
+30:04.960 --> 30:05.640
+abbiamo detto
+
+30:05.640 --> 30:06.520
+e chiaramente
+
+30:06.520 --> 30:07.220
+ci mancano ancora
+
+30:07.220 --> 30:07.940
+quattro detti
+
+30:07.940 --> 30:08.680
+per finire
+
+30:08.680 --> 30:09.020
+la
+
+30:09.020 --> 30:10.060
+dicessima
+
+30:10.060 --> 30:10.560
+settimana
+
+30:10.560 --> 30:11.480
+abbiamo detto
+
+30:11.480 --> 30:11.780
+che
+
+30:11.780 --> 30:13.260
+il nostro
+
+30:13.260 --> 30:14.280
+mapping
+
+30:14.280 --> 30:18.980
+da qualche parte
+
+30:18.980 --> 30:19.680
+c'è l'immagine
+
+30:19.680 --> 30:20.140
+l'immagine
+
+30:20.140 --> 30:20.560
+la possiamo
+
+30:20.560 --> 30:21.340
+inserirvi
+
+30:21.340 --> 30:22.160
+e questo
+
+30:22.160 --> 30:22.440
+poi
+
+30:22.440 --> 30:22.720
+questo
+
+30:22.720 --> 30:22.920
+lo
+
+30:22.920 --> 30:22.960
+lo
+
+30:22.960 --> 30:23.000
+lo
+
+30:23.000 --> 30:23.040
+lo
+
+30:23.040 --> 30:23.120
+lo
+
+30:23.120 --> 30:23.620
+lo
+
+30:23.620 --> 30:23.680
+lo
+
+30:23.680 --> 30:24.280
+lo
+
+30:24.280 --> 30:25.680
+lo
+
+30:25.680 --> 30:26.180
+l'immagine
+
+30:26.180 --> 30:26.580
+quindi
+
+30:26.580 --> 30:27.500
+non
+
+30:27.500 --> 30:27.540
+non
+
+30:27.540 --> 30:27.960
+tenere
+
+30:27.960 --> 30:28.380
+che
+
+30:28.380 --> 30:29.020
+voi
+
+30:29.020 --> 30:29.340
+faccio
+
+30:29.340 --> 30:29.620
+io
+
+30:29.620 --> 30:29.860
+di
+
+30:29.860 --> 30:30.460
+parlare
+
+30:30.460 --> 30:30.580
+di
+
+30:30.580 --> 30:31.740
+insieme
+
+30:31.740 --> 30:33.200
+molti
+
+30:33.200 --> 30:34.380
+vi ho parlato
+
+30:34.380 --> 30:34.740
+di
+
+30:34.740 --> 30:35.200
+concetti
+
+30:35.200 --> 30:35.380
+di
+
+30:35.380 --> 30:35.800
+sette
+
+30:35.800 --> 30:35.980
+di
+
+30:35.980 --> 30:36.480
+classe
+
+30:36.480 --> 30:36.980
+sono
+
+30:36.980 --> 30:37.380
+ci
+
+30:37.380 --> 30:37.980
+sono
+
+30:37.980 --> 30:38.200
+la
+
+30:38.200 --> 30:38.460
+stessa
+
+30:38.460 --> 30:39.040
+cosa
+
+30:39.040 --> 30:40.280
+sono
+
+30:40.280 --> 30:42.060
+diversi
+
+30:42.060 --> 30:42.280
+ma
+
+30:42.280 --> 30:42.520
+tanta
+
+30:42.520 --> 30:42.800
+pena
+
+30:42.800 --> 30:42.920
+che
+
+30:42.920 --> 30:43.060
+non
+
+30:43.060 --> 30:43.200
+c'è
+
+30:43.200 --> 30:43.680
+niente
+
+30:43.680 --> 30:45.000
+quale
+
+30:45.000 --> 30:45.120
+di
+
+30:45.120 --> 30:45.760
+relazione
+
+30:45.760 --> 30:46.200
+quale
+
+30:46.200 --> 30:46.360
+di
+
+30:46.360 --> 30:46.740
+tutto
+
+30:46.740 --> 30:49.300
+questo
+
+30:49.300 --> 30:49.540
+per
+
+30:49.540 --> 30:49.740
+dire
+
+30:49.740 --> 30:50.160
+che
+
+30:50.160 --> 30:51.000
+c'è un
+
+30:51.000 --> 30:51.440
+passaggio
+
+30:51.440 --> 30:52.200
+linguistico
+
+30:52.200 --> 30:52.640
+in cui
+
+30:52.640 --> 30:53.520
+tutti
+
+30:53.520 --> 30:54.620
+i concetti
+
+30:54.620 --> 30:54.840
+della
+
+30:54.840 --> 30:55.180
+sette
+
+30:55.180 --> 30:55.320
+io
+
+30:55.320 --> 30:55.720
+ce ne
+
+30:55.720 --> 30:55.960
+mancano
+
+30:55.960 --> 30:56.520
+quattro
+
+30:56.520 --> 30:57.440
+vengono
+
+30:57.440 --> 30:58.120
+portati
+
+30:58.120 --> 30:59.100
+nel nostro
+
+30:59.100 --> 30:59.640
+linguaggio
+
+30:59.640 --> 31:00.600
+che poi
+
+31:00.600 --> 31:01.240
+useremo
+
+31:01.240 --> 31:01.940
+nel
+
+31:01.940 --> 31:02.460
+world mode
+
+31:02.460 --> 31:02.820
+a livello
+
+31:02.820 --> 31:03.260
+sopra
+
+31:03.260 --> 31:04.960
+ora
+
+31:04.960 --> 31:05.520
+noi
+
+31:05.520 --> 31:06.120
+ci stiamo
+
+31:06.120 --> 31:06.540
+dando
+
+31:06.540 --> 31:07.860
+i concetti
+
+31:07.860 --> 31:08.400
+di base
+
+31:08.400 --> 31:09.400
+ci stiamo
+
+31:09.400 --> 31:09.820
+dando
+
+31:09.820 --> 31:10.380
+quegli
+
+31:10.380 --> 31:11.520
+concetti
+
+31:11.520 --> 31:12.060
+e per
+
+31:12.060 --> 31:12.380
+ognuno
+
+31:12.380 --> 31:12.880
+di quelli
+
+31:12.880 --> 31:13.240
+dovremmo
+
+31:13.240 --> 31:13.780
+darci
+
+31:13.780 --> 31:15.180
+difendervi
+
+31:15.180 --> 31:15.600
+dovremmo
+
+31:15.600 --> 31:16.260
+dirci che
+
+31:16.260 --> 31:17.600
+se io
+
+31:17.600 --> 31:17.880
+dico
+
+31:17.880 --> 31:18.720
+persona
+
+31:18.720 --> 31:19.940
+uomo
+
+31:19.940 --> 31:20.420
+e donna
+
+31:20.420 --> 31:20.820
+e dico
+
+31:20.820 --> 31:21.120
+che sono
+
+31:21.120 --> 31:21.660
+diversi
+
+31:21.660 --> 31:22.060
+devo avere
+
+31:22.060 --> 31:22.600
+l'algoritmo
+
+31:22.600 --> 31:22.800
+e lo
+
+31:22.800 --> 31:23.160
+fa
+
+31:23.160 --> 31:23.960
+se io
+
+31:23.960 --> 31:24.440
+dico
+
+31:24.440 --> 31:25.100
+che ho
+
+31:25.100 --> 31:25.600
+uomo
+
+31:25.600 --> 31:26.720
+e donna
+
+31:26.720 --> 31:27.600
+se io
+
+31:27.600 --> 31:27.800
+dico
+
+31:27.800 --> 31:28.120
+uomo
+
+31:28.120 --> 31:28.740
+e persona
+
+31:28.740 --> 31:29.240
+e uomo
+
+31:29.240 --> 31:29.420
+e una
+
+31:29.420 --> 31:29.800
+persona
+
+31:29.800 --> 31:30.060
+io ho
+
+31:30.060 --> 31:30.180
+un
+
+31:30.180 --> 31:30.680
+algoritmo
+
+31:30.680 --> 31:31.020
+che mi
+
+31:31.020 --> 31:31.200
+dice
+
+31:31.200 --> 31:31.600
+un uomo
+
+31:31.600 --> 31:31.760
+e una
+
+31:31.760 --> 31:32.220
+persona
+
+31:32.220 --> 31:35.020
+mentre la
+
+31:35.020 --> 31:35.260
+persona
+
+31:35.260 --> 31:35.660
+in generale
+
+31:35.660 --> 31:35.860
+non è
+
+31:35.860 --> 31:36.300
+un uomo
+
+31:36.300 --> 31:37.220
+che è
+
+31:37.220 --> 31:37.400
+quello
+
+31:37.400 --> 31:38.040
+che esattamente
+
+31:38.040 --> 31:38.280
+da
+
+31:38.280 --> 31:38.500
+poi
+
+31:38.500 --> 31:38.840
+le ultime
+
+31:38.840 --> 31:39.140
+cinque
+
+31:39.140 --> 31:39.600
+non sanno
+
+31:39.600 --> 31:39.940
+fare
+
+31:39.940 --> 31:42.520
+perché
+
+31:42.520 --> 31:42.840
+ti non
+
+31:42.840 --> 31:43.080
+si può
+
+31:43.080 --> 31:43.380
+vedere
+
+31:43.380 --> 31:44.080
+la cosa
+
+31:44.080 --> 31:44.380
+più
+
+31:44.380 --> 31:46.140
+specifica
+
+31:46.140 --> 31:50.960
+ora è
+
+31:50.960 --> 31:51.320
+chiaro
+
+31:51.320 --> 31:51.520
+che
+
+31:51.520 --> 31:52.020
+se nella
+
+31:52.020 --> 31:52.360
+misura
+
+31:52.360 --> 31:52.680
+in cui
+
+31:52.680 --> 31:53.180
+noi
+
+31:53.180 --> 31:55.800
+se facciamo
+
+31:55.800 --> 31:56.480
+AI
+
+31:56.480 --> 31:56.660
+o
+
+31:56.660 --> 31:56.900
+computer
+
+31:56.900 --> 31:57.380
+vision
+
+31:57.380 --> 31:57.560
+o
+
+31:57.560 --> 31:57.940
+IoT
+
+31:57.940 --> 31:58.420
+quello che
+
+31:58.420 --> 31:58.860
+volete
+
+31:58.860 --> 31:59.560
+abbiamo
+
+31:59.560 --> 31:59.860
+questi
+
+31:59.860 --> 32:00.400
+algoritmi
+
+32:00.400 --> 32:00.740
+da lì
+
+32:00.740 --> 32:01.140
+in poi
+
+32:01.140 --> 32:01.960
+è solo
+
+32:01.960 --> 32:02.340
+questione di
+
+32:02.340 --> 32:02.620
+giocare
+
+32:02.620 --> 32:02.800
+con
+
+32:02.800 --> 32:03.400
+il linguaggio
+
+32:03.400 --> 32:03.540
+che
+
+32:03.540 --> 32:03.600
+è
+
+32:03.600 --> 32:04.040
+diventamente
+
+32:04.040 --> 32:04.480
+facile
+
+32:04.480 --> 32:05.580
+cioè
+
+32:05.580 --> 32:05.860
+no
+
+32:05.860 --> 32:06.100
+noi
+
+32:06.100 --> 32:06.380
+non è
+
+32:06.380 --> 32:06.600
+vero
+
+32:06.600 --> 32:06.720
+che
+
+32:06.720 --> 32:07.180
+è facile
+
+32:07.180 --> 32:07.960
+abbiamo
+
+32:07.960 --> 32:08.480
+la logica
+
+32:08.480 --> 32:08.980
+che dopo
+
+32:08.980 --> 32:09.480
+il
+
+32:09.480 --> 32:09.660
+2000
+
+32:09.660 --> 32:09.960
+anni
+
+32:09.960 --> 32:10.080
+ci
+
+32:10.080 --> 32:10.280
+dà
+
+32:10.280 --> 32:10.400
+gli
+
+32:10.400 --> 32:10.920
+algoritmi
+
+32:10.920 --> 32:11.120
+ma
+
+32:11.120 --> 32:11.640
+arrivare
+
+32:11.640 --> 32:11.860
+a questo
+
+32:11.860 --> 32:12.100
+punto
+
+32:12.100 --> 32:12.800
+è esattamente
+
+32:12.800 --> 32:13.140
+dove si
+
+32:13.140 --> 32:13.200
+si
+
+32:13.200 --> 32:13.620
+impianza
+
+32:13.620 --> 32:13.900
+ora
+
+32:13.900 --> 32:14.940
+perché
+
+32:14.940 --> 32:15.360
+non c'è
+
+32:15.360 --> 32:15.920
+il metodo
+
+32:15.920 --> 32:16.560
+perché
+
+32:16.560 --> 32:16.840
+prima
+
+32:16.840 --> 32:17.260
+non c'era
+
+32:17.260 --> 32:18.100
+il problema
+
+32:18.100 --> 32:20.200
+perché
+
+32:20.200 --> 32:20.700
+non facevamo
+
+32:20.700 --> 32:21.080
+i robot
+
+32:21.080 --> 32:21.480
+non facciamo
+
+32:21.480 --> 32:21.900
+gli altri
+
+32:21.900 --> 32:22.240
+c'era un
+
+32:22.240 --> 32:22.600
+sistema
+
+32:22.600 --> 32:22.860
+così
+
+32:22.860 --> 32:23.380
+complesso
+
+32:23.380 --> 32:23.660
+di
+
+32:23.660 --> 32:24.260
+dare
+
+32:24.260 --> 32:24.440
+gli
+
+32:24.440 --> 32:24.800
+algoritmi
+
+32:24.800 --> 32:24.980
+che
+
+32:24.980 --> 32:25.280
+stavano
+
+32:25.280 --> 32:25.660
+qua
+
+32:25.660 --> 32:26.800
+ma
+
+32:26.800 --> 32:27.480
+ugualmente
+
+32:27.480 --> 32:28.880
+questa
+
+32:28.880 --> 32:29.040
+è la
+
+32:29.040 --> 32:29.320
+versione
+
+32:29.320 --> 32:29.560
+AI
+
+32:29.560 --> 32:29.680
+ma
+
+32:29.680 --> 32:29.800
+la
+
+32:29.800 --> 32:30.100
+la versione
+
+32:30.100 --> 32:31.060
+computer science
+
+32:31.060 --> 32:32.980
+c'era anche
+
+32:32.980 --> 32:33.880
+chi fa specifiche
+
+32:33.880 --> 32:34.360
+chi fa
+
+32:34.360 --> 32:35.000
+senza fare
+
+32:35.000 --> 32:35.800
+neanche visione
+
+32:35.800 --> 32:36.060
+perché
+
+32:36.060 --> 32:36.980
+se tu vai
+
+32:36.980 --> 32:40.740
+da un
+
+32:40.740 --> 32:42.960
+se tu
+
+32:42.960 --> 32:44.540
+vai a parlare
+
+32:44.540 --> 32:45.620
+con un
+
+32:45.620 --> 32:47.520
+con qualcuno
+
+32:47.520 --> 32:48.280
+supone che tu
+
+32:48.280 --> 32:48.820
+fai il software
+
+32:48.820 --> 32:49.380
+di ingegnere
+
+32:49.380 --> 32:49.700
+e ti dà
+
+32:49.700 --> 32:50.360
+una specifica
+
+32:50.360 --> 32:50.940
+da fare
+
+32:50.940 --> 32:51.780
+forse
+
+32:51.780 --> 32:52.060
+voi non
+
+32:52.060 --> 32:52.840
+quante volte
+
+32:52.840 --> 32:53.300
+c'è il bagno
+
+32:53.300 --> 32:53.760
+di sangue
+
+32:53.760 --> 32:54.100
+perché
+
+32:54.100 --> 32:54.700
+chi dà
+
+32:54.700 --> 32:56.540
+la specifica
+
+32:56.540 --> 32:58.200
+dice una cosa
+
+32:58.200 --> 32:59.080
+chi la riceve
+
+32:59.080 --> 32:59.500
+dice
+
+32:59.500 --> 33:00.000
+si si siamo
+
+33:00.000 --> 33:00.700
+d'accordi
+
+33:00.700 --> 33:01.500
+e poi
+
+33:01.500 --> 33:01.960
+alla fine
+
+33:01.960 --> 33:02.680
+quando gli dai
+
+33:02.680 --> 33:03.340
+la specifica
+
+33:03.340 --> 33:03.520
+fatta
+
+33:03.520 --> 33:03.940
+di migliorazione
+
+33:03.940 --> 33:04.100
+dice
+
+33:04.100 --> 33:04.460
+ma no
+
+33:04.460 --> 33:05.740
+non funziona
+
+33:05.740 --> 33:05.960
+così
+
+33:05.960 --> 33:06.560
+ma tu non
+
+33:06.560 --> 33:06.940
+vuoi dire
+
+33:06.940 --> 33:07.160
+questo
+
+33:07.160 --> 33:09.140
+perché
+
+33:09.140 --> 33:10.900
+semplicemente
+
+33:10.900 --> 33:11.940
+per i modelli
+
+33:11.940 --> 33:12.240
+chiesi
+
+33:12.240 --> 33:14.020
+era diversa
+
+33:14.020 --> 33:14.580
+infatti
+
+33:14.580 --> 33:15.500
+regola fondamentale
+
+33:15.500 --> 33:16.080
+comparata
+
+33:16.080 --> 33:16.780
+sul sangue
+
+33:16.780 --> 33:18.000
+o col sangue
+
+33:18.000 --> 33:19.520
+la mia attività
+
+33:19.520 --> 33:21.520
+quando facevamo
+
+33:21.520 --> 33:21.920
+il software
+
+33:21.920 --> 33:23.140
+per i treni
+
+33:23.140 --> 33:23.860
+è che la regola
+
+33:23.860 --> 33:24.480
+fondamentale
+
+33:24.480 --> 33:25.400
+è sempre questa
+
+33:25.400 --> 33:27.520
+le specifiche
+
+33:27.520 --> 33:28.340
+che la dò a voi
+
+33:28.340 --> 33:29.340
+le specifiche
+
+33:29.340 --> 33:30.740
+fai parlare loro
+
+33:30.740 --> 33:31.380
+ma la specifica
+
+33:31.380 --> 33:32.680
+la scrivi sempre te
+
+33:32.680 --> 33:34.220
+poi te la fai approvare
+
+33:34.220 --> 33:34.600
+da loro
+
+33:34.600 --> 33:35.720
+ma la specifica
+
+33:35.720 --> 33:36.320
+la scrive a loro
+
+33:36.320 --> 33:38.700
+perché
+
+33:38.700 --> 33:39.800
+prendendola in mano
+
+33:39.800 --> 33:40.020
+te
+
+33:40.020 --> 33:40.760
+la specifica
+
+33:40.760 --> 33:41.260
+sei tu che
+
+33:41.260 --> 33:42.220
+scegli questo volante
+
+33:42.220 --> 33:43.300
+sei tu che
+
+33:43.300 --> 33:43.720
+mi vengi
+
+33:43.720 --> 33:44.320
+la protezione
+
+33:44.320 --> 33:44.920
+da buono
+
+33:44.920 --> 33:47.660
+sei tu che
+
+33:47.660 --> 33:49.320
+hai impostato
+
+33:49.320 --> 33:50.120
+l'intera
+
+33:50.120 --> 33:51.240
+specifica
+
+33:51.240 --> 33:52.060
+o informale
+
+33:52.060 --> 33:52.600
+o formale
+
+33:52.600 --> 33:53.220
+esattamente
+
+33:53.220 --> 33:54.140
+ma la pensi tu
+
+33:54.140 --> 33:55.780
+tra parenti
+
+33:55.780 --> 33:56.280
+funziona anche
+
+33:56.280 --> 33:56.560
+meglio
+
+33:56.560 --> 33:57.520
+perché in particolare
+
+33:57.520 --> 33:58.240
+se il cliente
+
+33:58.240 --> 33:59.080
+non è esperto
+
+33:59.080 --> 33:59.760
+dice fai tu
+
+33:59.760 --> 34:00.220
+fai tu
+
+34:00.220 --> 34:02.860
+perché giustamente
+
+34:02.860 --> 34:03.500
+gli fai il lavoro
+
+34:03.500 --> 34:04.020
+poi chiaramente
+
+34:04.020 --> 34:04.840
+non lo vuoi fregare
+
+34:04.840 --> 34:06.040
+ma questo aspetto
+
+34:06.040 --> 34:07.220
+voglio dire
+
+34:07.220 --> 34:08.220
+del concetto
+
+34:08.220 --> 34:08.860
+di entità
+
+34:08.860 --> 34:09.680
+di uguaglianza
+
+34:09.680 --> 34:10.380
+di similialità
+
+34:10.380 --> 34:11.700
+non c'è solamente
+
+34:11.700 --> 34:12.220
+mentre non lo fai
+
+34:12.220 --> 34:12.660
+c'è anche
+
+34:12.660 --> 34:13.300
+normalmente
+
+34:13.300 --> 34:13.740
+non lo fai
+
+34:13.740 --> 34:14.540
+software ingegnire
+
+34:14.540 --> 34:16.280
+ed è il motivo
+
+34:16.280 --> 34:17.080
+per l'agentazione
+
+34:17.080 --> 34:20.680
+di uguagli
+
+34:20.680 --> 34:21.480
+specifica
+
+34:21.480 --> 34:21.940
+ed è il motivo
+
+34:21.940 --> 34:22.320
+per cui
+
+34:22.320 --> 34:22.560
+dico
+
+34:22.560 --> 34:22.980
+specific
+
+34:22.980 --> 34:23.400
+che si vede
+
+34:23.400 --> 34:23.760
+voi
+
+34:23.760 --> 34:27.020
+non andate bene
+
+34:27.020 --> 34:27.400
+ovviamente
+
+34:27.400 --> 34:28.560
+poi confonderemo
+
+34:28.560 --> 34:29.420
+per una volta
+
+34:29.420 --> 34:30.440
+che ci siamo capiti
+
+34:30.440 --> 34:31.640
+sul concetto
+
+34:31.640 --> 34:32.120
+di peso
+
+34:32.120 --> 34:32.680
+voglio dire
+
+34:32.680 --> 34:33.400
+parlare di
+
+34:33.400 --> 34:33.780
+la soluzione
+
+34:33.780 --> 34:34.440
+è questa cosa
+
+34:34.440 --> 34:35.220
+basta capirsi
+
+34:35.220 --> 34:36.540
+e basta avere
+
+34:36.540 --> 34:37.220
+in mente
+
+34:37.220 --> 34:38.700
+questo processo
+
+34:38.700 --> 34:40.100
+ok
+
+34:40.100 --> 34:44.800
+noi
+
+34:44.800 --> 34:45.300
+nella lezione
+
+34:45.300 --> 34:46.060
+del precedente
+
+34:46.060 --> 34:47.800
+abbiamo parlato
+
+34:47.800 --> 34:49.080
+di percezioni
+
+34:49.080 --> 34:49.840
+per certi
+
+34:49.840 --> 34:51.420
+e adesso
+
+34:51.420 --> 34:51.840
+vedrete
+
+34:51.840 --> 34:52.500
+banalmente
+
+34:52.500 --> 34:53.120
+quali sono
+
+34:53.120 --> 34:53.840
+i percetti
+
+34:53.840 --> 34:55.500
+e percetti
+
+34:55.500 --> 34:55.900
+sono tutte
+
+34:55.900 --> 34:56.300
+quelle cose
+
+34:56.300 --> 34:56.940
+che noi vediamo
+
+34:56.940 --> 34:58.260
+sono i set
+
+34:58.260 --> 34:58.900
+che sapiamo
+
+34:58.900 --> 35:00.240
+però in questo
+
+35:00.240 --> 35:00.640
+graffo
+
+35:00.640 --> 35:01.520
+è tutta una cosa
+
+35:01.520 --> 35:03.480
+un'altra cosa
+
+35:03.480 --> 35:04.440
+che nessuno fa mai
+
+35:04.440 --> 35:05.980
+è che avete visto
+
+35:05.980 --> 35:06.760
+centa volte
+
+35:06.760 --> 35:08.340
+nel Dendai
+
+35:08.340 --> 35:09.000
+che sicuramente
+
+35:09.000 --> 35:09.540
+avete visto
+
+35:09.540 --> 35:10.060
+centa volte
+
+35:10.060 --> 35:11.060
+ma che la gente
+
+35:11.060 --> 35:11.640
+tende
+
+35:11.640 --> 35:14.220
+a sottovalutare
+
+35:14.220 --> 35:15.960
+che è
+
+35:15.960 --> 35:16.580
+la scatola
+
+35:16.580 --> 35:17.120
+all'intorno
+
+35:17.120 --> 35:21.920
+la scatola
+
+35:21.920 --> 35:22.300
+all'intorno
+
+35:22.300 --> 35:23.260
+perché vuoi fare
+
+35:23.260 --> 35:24.180
+una storia del mondo
+
+35:24.180 --> 35:24.920
+facciamo la storia
+
+35:24.920 --> 35:25.380
+di più di più di più di più
+
+35:25.380 --> 35:25.960
+di più di più
+
+35:25.960 --> 35:26.060
+ok
+
+35:26.060 --> 35:27.780
+non ci mettiamo
+
+35:27.780 --> 35:28.460
+nelle più di più di più
+
+35:28.460 --> 35:29.180
+di più di più di più
+
+35:29.180 --> 35:29.580
+ora
+
+35:29.580 --> 35:32.800
+o facciamo
+
+35:32.800 --> 35:33.200
+una storia
+
+35:33.200 --> 35:34.040
+dove consideriamo
+
+35:34.040 --> 35:34.520
+le persone
+
+35:34.520 --> 35:35.200
+che resta in tre
+
+35:35.200 --> 35:37.880
+dato che
+
+35:37.880 --> 35:38.900
+anche questa foto
+
+35:38.900 --> 35:39.240
+qui
+
+35:39.240 --> 35:40.320
+sta facendo
+
+35:40.320 --> 35:41.580
+la foto
+
+35:41.580 --> 35:44.380
+di tutti gli oggetti
+
+35:44.380 --> 35:45.100
+o degli oggetti
+
+35:45.100 --> 35:45.980
+che stanno solo qui
+
+35:45.980 --> 35:47.560
+o solo dei cani
+
+35:47.560 --> 35:48.100
+c'è una linea
+
+35:48.100 --> 35:48.900
+di quanto è parlato
+
+35:48.900 --> 35:52.720
+quindi questa è la cosa
+
+35:52.720 --> 35:53.620
+più importante
+
+35:53.620 --> 35:54.520
+che lo siamo fatti
+
+35:54.520 --> 35:59.080
+e se non la fai
+
+35:59.080 --> 36:00.000
+in particolare
+
+36:00.000 --> 36:00.460
+quando arriviamo
+
+36:00.460 --> 36:00.820
+all'ultimo
+
+36:00.820 --> 36:01.780
+livello della logica
+
+36:01.780 --> 36:02.320
+che è quello
+
+36:02.320 --> 36:03.340
+in cui
+
+36:03.340 --> 36:04.980
+si parla di
+
+36:04.980 --> 36:05.540
+si ragiona
+
+36:05.540 --> 36:06.580
+se non si sa
+
+36:06.580 --> 36:06.720
+qui
+
+36:06.720 --> 36:07.100
+non si sa
+
+36:07.100 --> 36:07.960
+la legazione
+
+36:07.960 --> 36:16.000
+quindi definire il confine
+
+36:16.000 --> 36:16.720
+il dominio
+
+36:16.720 --> 36:17.760
+di interpretazione
+
+36:17.760 --> 36:18.760
+come lo chiameremo
+
+36:18.760 --> 36:20.860
+che semplicemente vuol dire
+
+36:20.860 --> 36:22.800
+quando tu fai una specifica
+
+36:22.800 --> 36:23.340
+ad esempio
+
+36:23.340 --> 36:24.880
+devi essere certo
+
+36:24.880 --> 36:25.920
+di aver specificato
+
+36:25.920 --> 36:28.160
+e gli erenti
+
+36:28.160 --> 36:28.540
+proprio
+
+36:28.540 --> 36:29.360
+in modo che ti dicano
+
+36:29.360 --> 36:30.240
+non ti posso dire
+
+36:30.240 --> 36:30.820
+che ho capito
+
+36:30.820 --> 36:31.940
+nel nostro caso
+
+36:31.940 --> 36:32.740
+della set theory
+
+36:32.740 --> 36:34.360
+l'universo
+
+36:34.360 --> 36:35.100
+così chiamato
+
+36:35.100 --> 36:36.060
+lo chiamiamo dominio
+
+36:36.060 --> 36:36.840
+e per poi
+
+36:36.840 --> 36:37.400
+usare il termine
+
+36:37.400 --> 36:38.460
+dominio di interpretazione
+
+36:38.460 --> 36:39.080
+perché lo chiamiamo
+
+36:39.080 --> 36:40.060
+dominio di interpretazione
+
+36:40.060 --> 36:41.500
+perché l'universo lì
+
+36:41.500 --> 36:42.320
+è il dominio
+
+36:42.320 --> 36:43.160
+di interpretazione
+
+36:43.160 --> 36:44.000
+del mio linguaggio
+
+36:44.000 --> 36:45.580
+a me non me ne frega niente
+
+36:45.580 --> 36:46.640
+sono cento persone
+
+36:46.640 --> 36:47.640
+o mila persone qua
+
+36:47.640 --> 36:48.660
+ma se nel mio dominio
+
+36:48.660 --> 36:49.120
+di interpretazione
+
+36:49.120 --> 36:49.920
+ce ne metto cinque
+
+36:49.920 --> 36:51.000
+probabilmente ci sono cinque
+
+36:51.000 --> 36:52.560
+e se tu me ne metti dieci
+
+36:52.560 --> 36:53.460
+sono a fare i pochi
+
+36:53.460 --> 36:54.420
+se abbiamo un accordo
+
+36:54.420 --> 36:54.800
+su cinque
+
+36:54.800 --> 36:55.860
+sono cinque
+
+36:55.860 --> 36:57.060
+vediamo
+
+36:57.060 --> 36:59.880
+quindi questo senso
+
+36:59.880 --> 37:00.400
+di interpretazione
+
+37:00.400 --> 37:01.180
+è fondamentale
+
+37:01.180 --> 37:02.820
+quindi a questo punto
+
+37:02.820 --> 37:03.720
+dato il concetto
+
+37:03.720 --> 37:04.400
+di dominio
+
+37:04.400 --> 37:06.060
+possiamo scelga
+
+37:06.060 --> 37:06.680
+come vogliamo
+
+37:06.680 --> 37:08.440
+evidentemente
+
+37:08.440 --> 37:10.040
+come vedremo dopo
+
+37:10.040 --> 37:12.820
+sicuramente
+
+37:12.820 --> 37:13.500
+non sempre
+
+37:13.500 --> 37:14.120
+sempre
+
+37:14.120 --> 37:14.800
+questo
+
+37:14.800 --> 37:15.860
+questo dominio
+
+37:15.860 --> 37:16.460
+di interpretazione
+
+37:16.460 --> 37:17.160
+sicuramente
+
+37:17.160 --> 37:18.200
+ha meno elementi
+
+37:18.200 --> 37:18.520
+di quelli
+
+37:18.520 --> 37:19.440
+che uno ce ne può vedere
+
+37:19.440 --> 37:20.420
+e se lo facciamo fare
+
+37:20.420 --> 37:21.040
+anche queste
+
+37:21.040 --> 37:22.220
+sperimentazioni di psicologia
+
+37:22.220 --> 37:22.820
+se facciamo fare
+
+37:22.820 --> 37:23.360
+le due figure
+
+37:23.360 --> 37:24.000
+la gente fa
+
+37:24.000 --> 37:24.820
+due domini diversi
+
+37:24.820 --> 37:25.740
+invece scorte diverse
+
+37:25.740 --> 37:28.240
+vede istanze diverse
+
+37:28.240 --> 37:28.940
+vede la gruppa
+
+37:28.940 --> 37:30.060
+in maniera diversa
+
+37:30.060 --> 37:30.740
+e così via
+
+37:30.740 --> 37:31.940
+poi la gente
+
+37:31.940 --> 37:32.200
+lo chiama
+
+37:32.200 --> 37:33.000
+soggettività
+
+37:33.000 --> 37:35.160
+va bene così
+
+37:35.160 --> 37:42.160
+quindi
+
+37:42.160 --> 37:44.780
+fino a questo punto
+
+37:44.780 --> 37:46.520
+cos'è un percetto
+
+37:46.520 --> 37:47.340
+a questo punto
+
+37:47.340 --> 37:47.840
+possiamo dire
+
+37:47.840 --> 37:48.560
+è un'entità
+
+37:48.560 --> 37:51.300
+questa entità
+
+37:51.300 --> 37:52.020
+è una persona
+
+37:52.020 --> 37:52.800
+che conosci
+
+37:52.800 --> 37:54.560
+o che non conosci
+
+37:54.560 --> 37:56.080
+se dici
+
+37:56.080 --> 37:56.660
+uno a uno
+
+37:56.660 --> 37:57.180
+possiamo dire
+
+37:57.180 --> 37:57.620
+anonimo
+
+37:57.620 --> 37:57.800
+no
+
+37:57.800 --> 37:58.020
+vuol dire
+
+37:58.020 --> 37:58.940
+che non conosco
+
+37:58.940 --> 38:00.020
+però so che è una persona
+
+38:00.020 --> 38:02.120
+anzi
+
+38:02.120 --> 38:03.200
+la so che è una donna
+
+38:03.200 --> 38:03.700
+lo chiamata
+
+38:03.700 --> 38:03.720
+lo chiamata
+
+38:03.720 --> 38:04.260
+uno a uno
+
+38:04.260 --> 38:05.160
+questo
+
+38:05.160 --> 38:05.580
+probabilmente
+
+38:05.580 --> 38:06.260
+è un calo
+
+38:06.260 --> 38:07.580
+però c'è una parola
+
+38:07.580 --> 38:08.220
+che si scelta
+
+38:08.220 --> 38:10.820
+l'entità
+
+38:10.820 --> 38:11.760
+l'insieme
+
+38:11.760 --> 38:12.480
+delle persone
+
+38:12.480 --> 38:15.800
+il percettare
+
+38:15.800 --> 38:16.580
+di essere biondi
+
+38:16.580 --> 38:17.280
+di una persona
+
+38:17.280 --> 38:19.980
+generare
+
+38:19.980 --> 38:20.460
+il fatto
+
+38:20.460 --> 38:21.360
+dell'abilità bionda
+
+38:21.360 --> 38:21.780
+che associa
+
+38:21.780 --> 38:22.340
+le persone
+
+38:22.340 --> 38:23.540
+se io associo
+
+38:23.540 --> 38:24.540
+l'abilità bionda
+
+38:24.540 --> 38:25.240
+alle persone
+
+38:25.240 --> 38:26.140
+e assumo
+
+38:26.140 --> 38:26.820
+come è sempre
+
+38:26.820 --> 38:27.480
+in logica
+
+38:27.480 --> 38:28.720
+che è completa
+
+38:28.720 --> 38:29.140
+vuol dire
+
+38:29.140 --> 38:30.180
+che io posso
+
+38:30.180 --> 38:31.620
+dire
+
+38:31.620 --> 38:32.360
+di ogni persona
+
+38:32.360 --> 38:33.220
+se bionda non vuoi
+
+38:33.220 --> 38:38.400
+quindi
+
+38:38.400 --> 38:38.780
+la verità
+
+38:38.780 --> 38:39.280
+che fa
+
+38:39.280 --> 38:39.500
+e
+
+38:39.500 --> 38:41.800
+non direi mai
+
+38:41.800 --> 38:44.660
+di non poter
+
+38:44.660 --> 38:45.240
+riempire
+
+38:45.240 --> 38:47.440
+un valore
+
+38:47.440 --> 38:47.960
+che è totalmente
+
+38:47.960 --> 38:48.480
+il motivo
+
+38:48.480 --> 38:49.300
+per cui poi
+
+38:49.300 --> 38:50.160
+quando siamo andati
+
+38:50.160 --> 38:50.680
+a Web
+
+38:50.680 --> 38:52.560
+tanti anni fa
+
+38:52.560 --> 38:53.700
+siamo accorti
+
+38:53.700 --> 38:54.060
+conto
+
+38:54.060 --> 38:54.980
+che tante società
+
+38:54.980 --> 38:55.900
+non le conoscevamo
+
+38:55.900 --> 38:56.960
+e da dove è saltato
+
+38:56.960 --> 38:58.740
+tutta la metodologia
+
+38:58.740 --> 38:59.580
+classica di
+
+38:59.580 --> 39:01.040
+software engineering
+
+39:01.040 --> 39:02.080
+come l'avete fatta
+
+39:02.080 --> 39:03.260
+che non scala
+
+39:03.260 --> 39:04.400
+al sistema
+
+39:04.400 --> 39:05.080
+aperto
+
+39:05.080 --> 39:08.560
+concetti di reazioni
+
+39:08.560 --> 39:09.480
+spaziale
+
+39:09.480 --> 39:10.680
+relazione
+
+39:10.680 --> 39:11.400
+di due persone
+
+39:11.400 --> 39:12.740
+quindi se ci pensate bene
+
+39:12.740 --> 39:14.760
+sono tre tipi di relazioni
+
+39:14.760 --> 39:15.380
+l'ho già detto
+
+39:15.380 --> 39:15.700
+perché
+
+39:15.700 --> 39:18.580
+io e voi
+
+39:18.580 --> 39:19.560
+siamo in relazione
+
+39:19.560 --> 39:19.980
+vicino
+
+39:19.980 --> 39:20.820
+alla spaziale
+
+39:20.820 --> 39:22.560
+siamo in relazione
+
+39:22.560 --> 39:23.500
+schiamata
+
+39:23.500 --> 39:24.200
+di ruolo
+
+39:24.200 --> 39:24.800
+professore
+
+39:24.800 --> 39:25.400
+studente
+
+39:25.400 --> 39:25.980
+padre
+
+39:25.980 --> 39:26.560
+figlio
+
+39:26.560 --> 39:27.820
+amico
+
+39:27.820 --> 39:28.360
+così via
+
+39:28.360 --> 39:29.180
+o
+
+39:29.180 --> 39:30.160
+azioni
+
+39:30.160 --> 39:31.020
+io parlo
+
+39:31.020 --> 39:32.540
+io urlo
+
+39:32.540 --> 39:33.100
+a voi
+
+39:33.100 --> 39:34.880
+io cammino
+
+39:34.880 --> 39:35.380
+con una relazione
+
+39:35.380 --> 39:36.020
+con me stesso
+
+39:36.020 --> 39:36.420
+e l'avete
+
+39:36.420 --> 39:37.120
+con i miei piedi
+
+39:37.120 --> 39:39.920
+sono tutte le relazioni
+
+39:39.920 --> 39:41.660
+chiaramente
+
+39:41.660 --> 39:42.380
+se fate un problema
+
+39:42.380 --> 39:43.000
+di planning
+
+39:43.000 --> 39:43.960
+o di pianificazione
+
+39:43.960 --> 39:44.560
+di azioni
+
+39:44.560 --> 39:45.180
+le relazioni
+
+39:45.180 --> 39:45.600
+sono tutti
+
+39:45.600 --> 39:46.020
+di tipo
+
+39:46.020 --> 39:47.020
+azioni
+
+39:47.020 --> 39:48.100
+se fate un'escrizione
+
+39:48.100 --> 39:48.600
+o un valore
+
+39:48.600 --> 39:50.540
+di un'istituzione
+
+39:50.540 --> 39:51.060
+sono tutti
+
+39:51.060 --> 39:51.460
+di tipo
+
+39:51.460 --> 39:52.220
+di ruolo
+
+39:52.220 --> 39:53.400
+se fate
+
+39:53.400 --> 39:54.260
+un'app
+
+39:54.260 --> 39:54.820
+che navigano
+
+39:54.820 --> 39:55.540
+nello spazio
+
+39:55.540 --> 39:56.280
+sono tutte le relazioni
+
+39:56.280 --> 39:56.860
+di spazio
+
+39:56.860 --> 39:57.680
+se vedete voi
+
+39:57.680 --> 39:59.380
+ma il punto è che
+
+39:59.380 --> 40:00.940
+questa semantica qua
+
+40:00.940 --> 40:02.100
+funziona per tutti
+
+40:02.100 --> 40:04.540
+come ho detto prima
+
+40:04.540 --> 40:06.460
+il punto fondamentale
+
+40:06.460 --> 40:07.740
+è semplicemente quello
+
+40:07.740 --> 40:09.140
+di scegliere
+
+40:09.140 --> 40:09.980
+bene
+
+40:09.980 --> 40:12.840
+le proprietà che vuoi
+
+40:12.840 --> 40:13.360
+in modo che
+
+40:13.360 --> 40:13.840
+la tua
+
+40:13.840 --> 40:14.680
+non venga
+
+40:14.680 --> 40:16.040
+il diverso mondo
+
+40:16.040 --> 40:16.860
+è ben definito
+
+40:16.860 --> 40:18.020
+da lì in poi
+
+40:18.020 --> 40:19.040
+è tutto gratis
+
+40:19.040 --> 40:20.020
+nel senso che
+
+40:20.020 --> 40:20.540
+a più in poi
+
+40:20.540 --> 40:20.980
+chiaramente
+
+40:20.980 --> 40:22.120
+può essere inefficiente
+
+40:22.120 --> 40:22.680
+e quindi via
+
+40:22.680 --> 40:22.980
+ma
+
+40:22.980 --> 40:24.220
+le ragioni
+
+40:24.220 --> 40:24.780
+sono
+
+40:24.780 --> 40:27.780
+corrette
+
+40:27.780 --> 40:29.420
+questo altro
+
+40:29.420 --> 40:29.720
+non è che
+
+40:29.720 --> 40:30.460
+quello detto prima
+
+40:30.460 --> 40:31.520
+quindi noi
+
+40:31.520 --> 40:32.060
+abbiamo
+
+40:32.060 --> 40:32.600
+seti
+
+40:32.600 --> 40:33.320
+di percetti
+
+40:33.320 --> 40:33.820
+percetti
+
+40:33.820 --> 40:34.520
+entità
+
+40:34.520 --> 40:35.220
+quella che abbiamo detto
+
+40:35.220 --> 40:35.640
+prima
+
+40:35.640 --> 40:36.440
+le proprietà
+
+40:36.440 --> 40:37.100
+dell'entità
+
+40:37.100 --> 40:38.120
+le proprietà
+
+40:38.120 --> 40:38.660
+entità
+
+40:38.660 --> 40:39.740
+e type
+
+40:39.740 --> 40:41.000
+progetti
+
+40:41.000 --> 40:41.320
+type
+
+40:41.320 --> 40:42.020
+e le proprietà
+
+40:42.020 --> 40:42.560
+per dire
+
+40:42.560 --> 40:43.040
+voglio dire
+
+40:43.040 --> 40:43.740
+chiaramente
+
+40:43.740 --> 40:44.900
+mettendola
+
+40:44.900 --> 40:46.060
+matematicamente
+
+40:46.060 --> 40:49.300
+uno può dire
+
+40:49.300 --> 40:50.020
+se io prendo
+
+40:50.020 --> 40:50.500
+friend
+
+40:50.500 --> 40:52.840
+come relazione
+
+40:52.840 --> 40:53.520
+binaria
+
+40:53.520 --> 40:55.060
+sarà
+
+40:55.060 --> 40:56.340
+intanto
+
+40:56.340 --> 40:57.720
+il porteggio
+
+40:57.720 --> 40:58.420
+cartesiano
+
+40:58.420 --> 40:58.860
+sarà
+
+40:58.860 --> 41:00.780
+l'intervista
+
+41:00.780 --> 41:01.400
+insieme
+
+41:01.400 --> 41:02.460
+di tutte
+
+41:02.460 --> 41:03.340
+le persone
+
+41:03.340 --> 41:05.280
+per dopo
+
+41:05.280 --> 41:06.960
+questa
+
+41:06.960 --> 41:07.460
+è la friend
+
+41:07.460 --> 41:07.740
+1
+
+41:07.740 --> 41:08.200
+facciamo
+
+41:08.200 --> 41:08.580
+friend
+
+41:08.580 --> 41:09.040
+2
+
+41:09.040 --> 41:10.760
+sono tutti
+
+41:10.760 --> 41:11.200
+insieme
+
+41:11.200 --> 41:12.060
+di persona
+
+41:12.060 --> 41:13.620
+per persona
+
+41:13.620 --> 41:15.140
+e così via
+
+41:15.140 --> 41:18.600
+quindi
+
+41:18.600 --> 41:19.100
+questo
+
+41:19.100 --> 41:20.160
+è il relation
+
+41:20.160 --> 41:20.720
+type
+
+41:20.720 --> 41:21.980
+e poi
+
+41:21.980 --> 41:22.420
+ciò
+
+41:22.420 --> 41:24.140
+friend
+
+41:24.140 --> 41:26.420
+falco
+
+41:26.420 --> 41:28.940
+rocky
+
+41:28.940 --> 41:31.060
+che invece
+
+41:31.060 --> 41:31.800
+l'istanza
+
+41:31.800 --> 41:32.720
+la proprietà
+
+41:32.720 --> 41:33.600
+specifica
+
+41:33.600 --> 41:35.380
+che
+
+41:35.380 --> 41:36.460
+a seconda
+
+41:36.460 --> 41:36.820
+sono
+
+41:36.820 --> 41:37.380
+il mio sentino
+
+41:37.380 --> 41:37.920
+di barco
+
+41:37.920 --> 41:38.200
+e questo
+
+41:38.200 --> 41:38.380
+è il mio
+
+41:38.380 --> 41:38.740
+specifico
+
+41:38.740 --> 41:39.280
+di istanza
+
+41:39.280 --> 41:42.300
+gli
+
+41:42.300 --> 41:42.760
+types
+
+41:42.760 --> 41:43.280
+sono gli
+
+41:43.280 --> 41:43.840
+insiemi
+
+41:43.840 --> 41:44.860
+e le
+
+41:44.860 --> 41:45.380
+relazioni
+
+41:45.380 --> 41:45.760
+sono
+
+41:45.760 --> 41:46.500
+le tute
+
+41:46.500 --> 41:50.040
+e chiaramente
+
+41:50.040 --> 41:50.740
+a questo punto
+
+41:50.740 --> 41:51.240
+qui
+
+41:51.240 --> 41:55.420
+degli esempi
+
+41:55.420 --> 41:56.160
+notare bene
+
+41:56.160 --> 41:56.840
+che qui
+
+41:56.840 --> 41:58.580
+è interessante
+
+41:58.580 --> 41:59.480
+che questi qua
+
+41:59.480 --> 42:00.160
+non sono
+
+42:00.160 --> 42:00.520
+stringhe
+
+42:00.520 --> 42:01.140
+sono certi
+
+42:01.140 --> 42:01.940
+sono gli unicamenti
+
+42:01.940 --> 42:03.420
+sono puntatori
+
+42:03.420 --> 42:04.720
+ok
+
+42:04.720 --> 42:07.160
+e ho usato
+
+42:07.160 --> 42:08.140
+il nome proprio
+
+42:08.140 --> 42:09.820
+come puntatore
+
+42:09.820 --> 42:10.600
+ma dove non c'è
+
+42:10.600 --> 42:11.100
+il nome proprio
+
+42:11.100 --> 42:11.740
+questa è
+
+42:11.740 --> 42:13.480
+l'annunciazione
+
+42:13.480 --> 42:14.060
+che usa
+
+42:14.060 --> 42:14.740
+WordNet
+
+42:14.740 --> 42:15.480
+che avete fatto
+
+42:15.480 --> 42:16.380
+che poi riprenderemo
+
+42:16.380 --> 42:17.220
+le destitazioni
+
+42:17.220 --> 42:18.000
+dove
+
+42:18.000 --> 42:18.600
+sicuramente
+
+42:18.600 --> 42:19.400
+uno usa
+
+42:19.400 --> 42:20.580
+sharp sign
+
+42:20.580 --> 42:21.380
+il numerino
+
+42:21.380 --> 42:22.240
+per dire
+
+42:22.240 --> 42:23.080
+che c'è un'entità
+
+42:23.080 --> 42:24.780
+e chiaramente
+
+42:24.780 --> 42:25.640
+3 1
+
+42:25.640 --> 42:26.040
+è diverso
+
+42:26.040 --> 42:26.680
+da 3 2
+
+42:26.680 --> 42:27.200
+no?
+
+42:28.420 --> 42:28.860
+perché
+
+42:28.860 --> 42:30.480
+non so il nome
+
+42:30.480 --> 42:31.180
+non so
+
+42:31.180 --> 42:31.960
+neanche
+
+42:31.960 --> 42:33.100
+che tipo di albero è
+
+42:33.100 --> 42:33.720
+ma comunque
+
+42:33.720 --> 42:34.520
+sono diversi
+
+42:34.520 --> 42:37.060
+e sono
+
+42:37.060 --> 42:37.400
+3
+
+42:37.400 --> 42:38.760
+per esempio
+
+42:38.760 --> 42:39.320
+between
+
+42:39.320 --> 42:40.420
+e una tripla
+
+42:40.420 --> 42:41.240
+o 3 più altre
+
+42:41.240 --> 42:41.500
+sono
+
+42:41.500 --> 42:42.160
+sono
+
+42:42.160 --> 42:42.860
+tuple
+
+42:42.860 --> 42:43.980
+between
+
+42:43.980 --> 42:44.260
+e
+
+42:44.260 --> 42:45.220
+so che
+
+42:45.220 --> 42:45.560
+tra
+
+42:45.560 --> 42:46.420
+Rocco e Paolo
+
+42:46.420 --> 42:46.900
+eccetera
+
+42:46.900 --> 42:47.600
+e l'altro
+
+42:47.600 --> 42:48.600
+so che Paolo
+
+42:48.600 --> 42:49.240
+e così via
+
+42:49.240 --> 42:51.040
+che possiamo anche scriverla
+
+42:51.040 --> 42:51.860
+come la quadra
+
+42:51.860 --> 42:53.120
+quindi questa
+
+42:53.120 --> 42:53.800
+notate bene
+
+42:53.800 --> 42:54.220
+guardate
+
+42:54.220 --> 42:54.840
+abbiamo detto
+
+42:54.840 --> 42:56.280
+questa è
+
+42:56.280 --> 42:56.920
+between
+
+42:56.920 --> 42:58.200
+vista come
+
+42:58.200 --> 42:59.200
+l'insieme
+
+42:59.200 --> 42:59.780
+delle tue
+
+42:59.780 --> 43:01.240
+quindi
+
+43:01.240 --> 43:02.540
+questo è il percetto
+
+43:02.540 --> 43:04.040
+semplice
+
+43:04.040 --> 43:05.240
+questo è il percetto
+
+43:05.240 --> 43:05.920
+composto
+
+43:05.920 --> 43:06.260
+che viene
+
+43:06.260 --> 43:07.080
+istanziato
+
+43:07.080 --> 43:08.400
+tra queste
+
+43:08.400 --> 43:09.040
+3 istanze
+
+43:09.040 --> 43:09.500
+che tutte
+
+43:09.500 --> 43:11.000
+e qui
+
+43:11.000 --> 43:11.480
+chiaramente
+
+43:11.480 --> 43:11.960
+dovrebbero essere
+
+43:11.960 --> 43:12.740
+Rocco e Soffi
+
+43:12.740 --> 43:13.140
+Paolo
+
+43:13.140 --> 43:13.400
+quindi
+
+43:13.400 --> 43:13.840
+probabilmente
+
+43:13.840 --> 43:14.140
+queste
+
+43:14.140 --> 43:14.560
+rocce
+
+43:14.560 --> 43:15.520
+questa
+
+43:15.520 --> 43:16.500
+correlazione
+
+43:16.500 --> 43:17.460
+tripla qua
+
+43:17.460 --> 43:18.560
+è esattamente
+
+43:18.560 --> 43:19.040
+questa
+
+43:19.040 --> 43:19.940
+quindi abbiamo
+
+43:19.940 --> 43:20.820
+abbiamo
+
+43:20.820 --> 43:21.460
+abbiamo
+
+43:21.460 --> 43:22.660
+il percetto
+
+43:22.660 --> 43:23.200
+Rocco
+
+43:23.200 --> 43:24.160
+il percetto
+
+43:24.160 --> 43:24.780
+Soffia
+
+43:24.780 --> 43:26.600
+il percetto
+
+43:26.600 --> 43:27.160
+Paolo
+
+43:27.160 --> 43:28.000
+poi
+
+43:28.000 --> 43:28.820
+between
+
+43:28.820 --> 43:29.420
+anche
+
+43:29.420 --> 43:30.820
+la Soffia
+
+43:30.820 --> 43:31.800
+e l'albero
+
+43:31.800 --> 43:32.520
+qua in mezzo
+
+43:32.520 --> 43:33.160
+se hanno
+
+43:33.160 --> 43:33.380
+quelli
+
+43:33.380 --> 43:34.080
+non è Soffia
+
+43:34.080 --> 43:34.780
+va beh
+
+43:34.780 --> 43:35.160
+è un po' più
+
+43:35.160 --> 43:35.560
+importante
+
+43:35.560 --> 43:36.760
+questi
+
+43:36.760 --> 43:37.260
+sono i singoli
+
+43:37.260 --> 43:37.900
+percetti
+
+43:37.900 --> 43:38.660
+e notate bene
+
+43:38.660 --> 43:39.160
+che io
+
+43:39.160 --> 43:40.060
+matematicamente
+
+43:40.060 --> 43:40.520
+gli do
+
+43:40.520 --> 43:41.140
+la lista
+
+43:41.140 --> 43:41.720
+delle tute
+
+43:41.720 --> 43:42.400
+che è
+
+43:42.400 --> 43:42.880
+esattamente
+
+43:42.880 --> 43:43.280
+come quando
+
+43:43.280 --> 43:43.760
+fai
+
+43:43.760 --> 43:44.020
+actual
+
+43:44.020 --> 43:44.620
+recognition
+
+43:44.620 --> 43:45.580
+su
+
+43:45.580 --> 43:46.140
+IoT
+
+43:46.140 --> 43:46.380
+o
+
+43:46.380 --> 43:46.580
+di
+
+43:46.580 --> 43:47.020
+television
+
+43:47.020 --> 43:47.320
+devi
+
+43:47.320 --> 43:47.600
+dati
+
+43:47.600 --> 43:48.200
+la possibilità
+
+43:48.200 --> 43:48.600
+e gli fai
+
+43:48.600 --> 43:48.980
+training
+
+43:48.980 --> 43:49.460
+per imparare
+
+43:49.460 --> 43:49.740
+la loro
+
+43:49.740 --> 43:50.760
+e poi
+
+43:50.760 --> 43:51.380
+le istanze
+
+43:51.380 --> 43:51.740
+e questo è
+
+43:51.740 --> 43:52.040
+esattamente
+
+43:52.040 --> 43:52.380
+quello che
+
+43:52.380 --> 43:52.920
+avrai sentito
+
+43:52.920 --> 43:53.920
+ok
+
+43:53.920 --> 43:55.280
+tutto qua
+
+43:55.280 --> 43:59.600
+ok
+
+43:59.600 --> 44:00.200
+quindi
+
+44:00.200 --> 44:00.440
+ho visto
+
+44:00.440 --> 44:00.640
+quindi
+
+44:00.640 --> 44:00.960
+mi ha fatto
+
+44:00.960 --> 44:01.500
+i percetti
+
+44:01.500 --> 44:01.780
+ma ora
+
+44:01.780 --> 44:01.960
+dov'è
+
+44:01.960 --> 44:02.280
+definire
+
+44:02.280 --> 44:02.540
+domini
+
+44:02.540 --> 44:03.360
+di interpretazione
+
+44:03.360 --> 44:06.120
+è quello
+
+44:06.120 --> 44:06.620
+che ho detto
+
+44:06.620 --> 44:07.380
+sempre
+
+44:07.380 --> 44:07.880
+comunque
+
+44:07.880 --> 44:12.620
+c'è
+
+44:12.620 --> 44:12.900
+un
+
+44:12.900 --> 44:14.500
+un
+
+44:14.500 --> 44:14.740
+domini
+
+44:14.740 --> 44:15.500
+di riferimento
+
+44:15.500 --> 44:16.860
+questo
+
+44:16.860 --> 44:17.120
+è un problema
+
+44:17.120 --> 44:17.700
+che ha
+
+44:17.700 --> 44:18.600
+dato
+
+44:18.600 --> 44:18.960
+a
+
+44:18.960 --> 44:19.940
+Newton
+
+44:19.940 --> 44:20.980
+o in
+
+44:20.980 --> 44:21.380
+Antony
+
+44:21.380 --> 44:22.460
+Parani
+
+44:22.460 --> 44:24.020
+comunque
+
+44:24.020 --> 44:24.700
+sia noi
+
+44:24.700 --> 44:25.220
+siamo
+
+44:25.220 --> 44:25.960
+dentro
+
+44:25.960 --> 44:27.420
+di
+
+44:27.420 --> 44:28.100
+modellare
+
+44:28.100 --> 44:28.540
+la box
+
+44:28.540 --> 44:30.140
+che è
+
+44:30.140 --> 44:30.340
+il mio
+
+44:30.340 --> 44:30.620
+domini
+
+44:30.620 --> 44:31.360
+di riferimento
+
+44:31.360 --> 44:32.320
+e noi la modelliamo
+
+44:32.320 --> 44:32.700
+così
+
+44:32.700 --> 44:36.080
+in qualche
+
+44:36.080 --> 44:36.580
+maniera
+
+44:36.580 --> 44:40.140
+elenco
+
+44:40.140 --> 44:40.860
+tutti i percetti
+
+44:40.860 --> 44:42.220
+in S3
+
+44:42.220 --> 44:43.600
+i domini
+
+44:43.600 --> 44:44.240
+di riferimento
+
+44:44.240 --> 44:45.400
+sono tutti gli studenti
+
+44:45.400 --> 44:45.640
+scritti
+
+44:45.640 --> 44:46.280
+al mio scherzo
+
+44:46.280 --> 44:48.360
+per fare la stampa
+
+44:48.360 --> 44:49.080
+per strada
+
+44:49.080 --> 44:51.960
+fisicamente
+
+44:51.960 --> 44:52.280
+iniziamo
+
+44:52.280 --> 44:53.380
+tutti i percetti
+
+44:53.380 --> 44:56.660
+chiaramente
+
+44:56.660 --> 44:57.980
+i percetti
+
+44:57.980 --> 44:58.740
+e il PITAR
+
+44:58.740 --> 44:59.520
+la identità
+
+44:59.520 --> 45:00.020
+poi
+
+45:00.020 --> 45:01.280
+in S3
+
+45:01.280 --> 45:01.760
+ci sarà
+
+45:01.760 --> 45:02.520
+esame
+
+45:02.520 --> 45:03.400
+tutti gli altri
+
+45:03.400 --> 45:03.960
+ma di fatto
+
+45:03.960 --> 45:05.580
+il punto fondamentale
+
+45:05.580 --> 45:05.900
+qui
+
+45:05.900 --> 45:06.920
+è che
+
+45:06.920 --> 45:07.440
+insieme
+
+45:07.440 --> 45:08.000
+del dominio
+
+45:08.000 --> 45:08.340
+è stato
+
+45:08.340 --> 45:08.600
+un uomo
+
+45:08.600 --> 45:08.980
+del nostro
+
+45:08.980 --> 45:09.240
+stato
+
+45:09.240 --> 45:09.440
+ora
+
+45:09.440 --> 45:09.820
+ci sono
+
+45:09.820 --> 45:10.640
+gli studenti
+
+45:10.640 --> 45:11.100
+la lista
+
+45:11.100 --> 45:11.840
+degli esami
+
+45:11.840 --> 45:13.000
+la lista
+
+45:13.000 --> 45:13.460
+delle aule
+
+45:13.460 --> 45:13.920
+e così via
+
+45:13.920 --> 45:14.280
+ma sono
+
+45:14.280 --> 45:15.800
+tutti formalizzati
+
+45:15.800 --> 45:20.800
+chiaramente
+
+45:20.800 --> 45:21.480
+come scritto qua
+
+45:21.480 --> 45:22.020
+sono diversi
+
+45:22.020 --> 45:22.900
+tutti i percetti
+
+45:22.900 --> 45:24.380
+bene
+
+45:24.380 --> 45:25.140
+a questo punto
+
+45:25.140 --> 45:25.800
+formalmente
+
+45:25.800 --> 45:26.820
+è una mini definizione
+
+45:26.820 --> 45:27.480
+che dominano
+
+45:27.480 --> 45:28.060
+la tripla
+
+45:28.060 --> 45:30.860
+l'insieme
+
+45:30.860 --> 45:31.480
+delle unità
+
+45:31.480 --> 45:32.060
+che vediamo
+
+45:32.060 --> 45:33.040
+entità
+
+45:33.040 --> 45:35.280
+prima di tutto
+
+45:35.280 --> 45:35.900
+c'è l'universo
+
+45:35.900 --> 45:36.740
+di interpretazione
+
+45:36.740 --> 45:37.260
+che è l'insieme
+
+45:37.260 --> 45:37.680
+delle unità
+
+45:37.680 --> 45:38.240
+che vediamo
+
+45:38.240 --> 45:40.940
+l'insieme di classi
+
+45:40.940 --> 45:41.700
+che sono
+
+45:41.700 --> 45:42.560
+quello
+
+45:42.560 --> 45:43.080
+che vediamo
+
+45:43.080 --> 45:43.700
+sui dettagli
+
+45:43.700 --> 45:44.400
+italici
+
+45:44.400 --> 45:45.460
+è un insieme
+
+45:45.460 --> 45:46.600
+di relazioni
+
+45:46.600 --> 45:47.640
+di tutto
+
+45:47.640 --> 45:48.260
+dove
+
+45:48.260 --> 45:48.760
+le relazioni
+
+45:48.760 --> 45:49.560
+sono tutti insieme
+
+45:49.560 --> 45:51.580
+lui
+
+45:51.580 --> 45:51.920
+del
+
+45:51.920 --> 45:53.520
+del
+
+45:53.520 --> 45:53.700
+del
+
+45:53.700 --> 45:56.760
+del
+
+45:56.760 --> 45:56.800
+del
+
+45:56.800 --> 45:57.660
+cartesiano
+
+45:57.660 --> 46:01.480
+dell'universo
+
+46:01.480 --> 46:02.140
+ok
+
+46:02.140 --> 46:03.580
+quindi
+
+46:03.580 --> 46:14.380
+e questo
+
+46:14.380 --> 46:14.960
+è esattamente
+
+46:14.960 --> 46:16.340
+quando noi andiamo a fare
+
+46:16.340 --> 46:17.400
+salire delle logiche
+
+46:17.400 --> 46:18.920
+per ogni logica
+
+46:18.920 --> 46:19.760
+vi diciamo questa
+
+46:19.760 --> 46:20.880
+la prima parte
+
+46:20.880 --> 46:21.500
+per ogni logica
+
+46:21.500 --> 46:22.180
+dico questa
+
+46:22.180 --> 46:25.100
+e non è che vi dico
+
+46:25.100 --> 46:25.600
+solamente
+
+46:25.600 --> 46:26.000
+domenica
+
+46:26.000 --> 46:26.480
+di interpretazione
+
+46:26.480 --> 46:27.420
+vi dico anche
+
+46:27.420 --> 46:28.380
+le c
+
+46:28.380 --> 46:29.580
+c'è il titolo
+
+46:29.580 --> 46:30.060
+di qualità
+
+46:30.060 --> 46:30.720
+che divido
+
+46:30.720 --> 46:32.180
+ma non c'è
+
+46:32.180 --> 46:33.020
+di quali relazioni
+
+46:33.020 --> 46:33.480
+faccio
+
+46:33.480 --> 46:34.240
+e una volta
+
+46:34.240 --> 46:35.020
+che ho fatto questo
+
+46:35.020 --> 46:36.220
+nella misura in cui
+
+46:36.220 --> 46:37.420
+abbiamo un metodo
+
+46:37.420 --> 46:38.080
+che ci accordano
+
+46:38.080 --> 46:38.960
+linguisticamente
+
+46:38.960 --> 46:39.780
+esattamente
+
+46:39.780 --> 46:40.400
+momentario
+
+46:40.400 --> 46:41.320
+comunque altra cosa
+
+46:41.320 --> 46:42.040
+da lì in poi
+
+46:42.040 --> 46:43.280
+proprio di forma
+
+46:43.280 --> 46:43.840
+di forma
+
+46:43.840 --> 46:44.320
+e di forma
+
+46:44.320 --> 46:44.740
+di forma
+
+46:44.740 --> 46:45.480
+è risolto
+
+46:45.480 --> 46:47.180
+ed è esattamente
+
+46:47.180 --> 46:47.740
+dove puoi fare
+
+46:47.740 --> 46:48.600
+gli esercizi
+
+46:48.600 --> 46:49.100
+e di via
+
+46:49.100 --> 46:58.880
+quindi
+
+46:58.880 --> 47:02.640
+abbiamo le unità
+
+47:02.640 --> 47:03.960
+abbiamo le classi
+
+47:03.960 --> 47:04.640
+e le relazioni
+
+47:04.640 --> 47:05.360
+enarie
+
+47:05.360 --> 47:07.060
+guardate bene
+
+47:07.060 --> 47:07.880
+che poi vedremo
+
+47:07.880 --> 47:08.600
+che nella maggioranza
+
+47:08.600 --> 47:09.240
+della logica del mondo
+
+47:09.240 --> 47:09.860
+facciamo le relazioni
+
+47:09.860 --> 47:11.640
+binarie
+
+47:11.640 --> 47:13.240
+ma ne entriamo
+
+47:13.240 --> 47:14.000
+tecnicamente
+
+47:14.000 --> 47:14.760
+più avanti
+
+47:14.760 --> 47:16.440
+vediamo
+
+47:16.440 --> 47:17.620
+le uniche
+
+47:17.620 --> 47:17.640
+le uniche
+
+47:17.640 --> 47:18.980
+depict
+
+47:18.980 --> 47:19.760
+entities
+
+47:19.760 --> 47:20.320
+class
+
+47:20.320 --> 47:20.900
+depict
+
+47:20.900 --> 47:21.200
+set
+
+47:21.200 --> 47:21.760
+of entities
+
+47:21.760 --> 47:22.260
+relation
+
+47:22.260 --> 47:22.620
+depict
+
+47:22.620 --> 47:23.060
+property
+
+47:23.060 --> 47:23.420
+set
+
+47:23.420 --> 47:23.900
+of entities
+
+47:23.900 --> 47:26.520
+and relation
+
+47:26.520 --> 47:26.980
+depict
+
+47:26.980 --> 47:27.320
+relation
+
+47:27.320 --> 47:27.600
+set
+
+47:27.600 --> 47:27.700
+set
+
+47:27.700 --> 47:28.300
+let's
+
+47:28.300 --> 47:28.660
+notare bene
+
+47:28.660 --> 47:28.960
+che
+
+47:28.960 --> 47:30.840
+a livello
+
+47:30.840 --> 47:31.660
+di modello
+
+47:31.660 --> 47:32.800
+property
+
+47:32.800 --> 47:33.200
+relation
+
+47:33.200 --> 47:33.420
+sono
+
+47:33.420 --> 47:34.000
+questa cosa
+
+47:34.000 --> 47:35.640
+qual'è la differenza
+
+47:35.640 --> 47:36.420
+di ricordazione
+
+47:36.420 --> 47:36.960
+che andava
+
+47:36.960 --> 47:37.660
+su blog
+
+47:37.660 --> 47:39.900
+come vedremo
+
+47:39.900 --> 47:40.420
+più avanti
+
+47:40.420 --> 47:41.080
+la lezione
+
+47:41.080 --> 47:41.620
+è perché
+
+47:41.620 --> 47:42.180
+sempre
+
+47:42.180 --> 47:43.720
+quando noi
+
+47:43.720 --> 47:44.320
+facciamo
+
+47:44.320 --> 47:47.260
+un modello
+
+47:47.260 --> 47:48.000
+di quistico
+
+47:48.000 --> 47:48.720
+del mondo
+
+47:48.720 --> 47:50.720
+ci hanno insegnato
+
+47:50.720 --> 47:51.080
+così
+
+47:51.080 --> 47:51.860
+a parte la vostra
+
+47:51.860 --> 47:52.180
+cultura
+
+47:52.180 --> 47:53.080
+ci andiamo sempre
+
+47:53.080 --> 47:53.460
+insieme
+
+47:53.460 --> 47:54.380
+di data type
+
+47:54.380 --> 47:58.940
+però poi
+
+47:58.940 --> 47:59.320
+al fine
+
+47:59.320 --> 48:00.220
+il numero 1
+
+48:00.220 --> 48:00.720
+è un'entità
+
+48:00.720 --> 48:01.160
+del mondo
+
+48:01.160 --> 48:02.840
+matematicamente
+
+48:02.840 --> 48:03.660
+cos'è che
+
+48:03.660 --> 48:04.480
+il divoegge
+
+48:04.480 --> 48:04.980
+di qualsiasi
+
+48:04.980 --> 48:05.620
+è il numero 2
+
+48:05.620 --> 48:06.420
+com'è il numero
+
+48:06.420 --> 48:07.240
+matematicamente
+
+48:07.240 --> 48:07.800
+non sapete
+
+48:07.800 --> 48:08.220
+cos'è
+
+48:08.220 --> 48:09.340
+com'è
+
+48:09.340 --> 48:11.160
+matematico
+
+48:11.160 --> 48:11.460
+a
+
+48:11.460 --> 48:14.120
+che voi
+
+48:14.120 --> 48:14.560
+mi riprovi
+
+48:14.560 --> 48:15.100
+io vi dico
+
+48:15.100 --> 48:15.620
+sì ma
+
+48:15.620 --> 48:16.580
+l'uno
+
+48:16.580 --> 48:17.120
+è un'entità
+
+48:17.120 --> 48:17.500
+sì ma
+
+48:17.500 --> 48:18.040
+che entità
+
+48:18.040 --> 48:18.240
+è
+
+48:18.240 --> 48:20.940
+matematicamente
+
+48:20.940 --> 48:21.100
+no
+
+48:21.100 --> 48:23.700
+è un esame
+
+48:23.700 --> 48:24.020
+che ho fatto
+
+48:24.020 --> 48:24.360
+una volta
+
+48:24.360 --> 48:24.920
+un orale
+
+48:24.920 --> 48:26.120
+e ho chiesto
+
+48:26.120 --> 48:26.680
+a uno studente
+
+48:26.680 --> 48:26.960
+che ho già
+
+48:26.960 --> 48:27.380
+mi chiestato
+
+48:27.380 --> 48:27.940
+il diviniero
+
+48:27.940 --> 48:30.140
+la domanda
+
+48:30.140 --> 48:30.680
+che ho fatto
+
+48:30.680 --> 48:30.940
+ma
+
+48:30.940 --> 48:31.940
+è una giovane
+
+48:31.940 --> 48:33.920
+gli ho chiesto
+
+48:33.920 --> 48:34.400
+che cos'è
+
+48:34.400 --> 48:34.840
+che hanno
+
+48:34.840 --> 48:35.360
+il cubone
+
+48:35.360 --> 48:35.860
+tre alber
+
+48:35.860 --> 48:36.520
+e tre albite
+
+48:36.520 --> 48:41.240
+cos'è che hanno
+
+48:41.240 --> 48:41.560
+i cubone
+
+48:41.560 --> 48:41.940
+tra le alber
+
+48:41.940 --> 48:42.420
+e tre albite
+
+48:42.420 --> 48:43.000
+chi lo sa
+
+48:43.000 --> 48:46.280
+sono tre
+
+48:46.280 --> 48:48.900
+ma com'è
+
+48:48.900 --> 48:49.460
+che si cattura
+
+48:49.460 --> 48:50.460
+matematicamente
+
+48:50.460 --> 48:51.760
+insieme
+
+48:51.760 --> 48:52.840
+sì
+
+48:52.840 --> 48:53.660
+sono due insieme
+
+48:53.660 --> 48:54.540
+ma
+
+48:54.540 --> 48:55.300
+tre albite
+
+48:55.300 --> 48:57.280
+ma tre albite
+
+48:57.280 --> 48:57.940
+hanno la stessa
+
+48:57.940 --> 48:59.120
+situazione
+
+48:59.120 --> 48:59.620
+di
+
+48:59.620 --> 49:01.500
+equivalenza
+
+49:01.500 --> 49:01.740
+di
+
+49:01.740 --> 49:02.420
+tre albite
+
+49:02.420 --> 49:02.880
+tre albite
+
+49:02.880 --> 49:04.000
+tre rosa
+
+49:04.000 --> 49:05.680
+o tre albite
+
+49:05.680 --> 49:05.980
+tre albite
+
+49:05.980 --> 49:06.340
+tre
+
+49:06.340 --> 49:06.900
+città
+
+49:06.900 --> 49:07.920
+cos'è che c'è
+
+49:07.920 --> 49:08.340
+il comune
+
+49:08.340 --> 49:09.540
+con il figlio
+
+49:09.540 --> 49:09.880
+di insieme
+
+49:09.880 --> 49:10.080
+che ha
+
+49:10.080 --> 49:10.380
+tre
+
+49:10.380 --> 49:10.720
+il numero
+
+49:10.720 --> 49:12.080
+il numero
+
+49:12.080 --> 49:13.560
+di elementi
+
+49:13.560 --> 49:14.180
+il numero
+
+49:14.180 --> 49:14.720
+di elementi
+
+49:14.720 --> 49:15.040
+sì ma
+
+49:15.040 --> 49:16.180
+mi stai dicendo
+
+49:16.180 --> 49:16.780
+che il numero
+
+49:16.780 --> 49:17.060
+è tre
+
+49:17.060 --> 49:17.640
+il numero
+
+49:17.640 --> 49:18.200
+di elementi
+
+49:18.200 --> 49:18.600
+ma devi dire
+
+49:18.600 --> 49:19.320
+matematicamente
+
+49:19.320 --> 49:21.020
+eh
+
+49:21.020 --> 49:23.340
+esatto
+
+49:23.340 --> 49:25.940
+lo facciamo a calcolare
+
+49:25.940 --> 49:27.240
+lo facciamo a matematicamente
+
+49:27.240 --> 49:27.860
+a formalizzare
+
+49:27.860 --> 49:28.600
+la caldinalità
+
+49:28.600 --> 49:30.800
+questo è il numero
+
+49:30.800 --> 49:31.780
+di elementi
+
+49:31.780 --> 49:32.300
+tra l'insieme
+
+49:32.300 --> 49:35.660
+si fa così
+
+49:35.660 --> 49:38.400
+grazie
+
+49:38.400 --> 49:39.980
+c'è l'albero
+
+49:39.980 --> 49:41.720
+c'è l'albero
+
+49:41.720 --> 49:42.480
+c'è l'albero
+
+49:42.480 --> 49:43.800
+poi qua c'è la matita
+
+49:43.800 --> 49:45.080
+qua c'è la matita
+
+49:45.080 --> 49:45.940
+poi c'è la matita
+
+49:45.940 --> 49:50.820
+per ogni elemento
+
+49:50.820 --> 49:51.460
+diventa insieme
+
+49:51.460 --> 49:53.080
+dati qualunque insieme
+
+49:53.080 --> 49:54.520
+la caldinalità
+
+49:54.520 --> 49:56.000
+è così
+
+49:56.000 --> 49:56.400
+per fare
+
+49:56.400 --> 49:56.760
+un'azione
+
+49:56.760 --> 49:57.440
+più anivocata
+
+49:57.440 --> 49:57.760
+a tutti
+
+49:57.760 --> 49:58.080
+le vite
+
+49:58.080 --> 49:58.660
+dell'insieme
+
+49:58.660 --> 50:01.160
+è chiaro?
+
+50:02.700 --> 50:03.140
+infatti
+
+50:03.140 --> 50:03.460
+il numero
+
+50:03.460 --> 50:04.180
+di qualunque
+
+50:04.180 --> 50:04.420
+il numero
+
+50:04.420 --> 50:05.020
+è l'insieme
+
+50:05.020 --> 50:05.580
+tutti insieme
+
+50:05.580 --> 50:06.600
+della caldinalità
+
+50:06.600 --> 50:12.480
+quindi
+
+50:12.480 --> 50:13.240
+in quest'ottica
+
+50:13.240 --> 50:13.640
+qui
+
+50:13.640 --> 50:14.220
+il numero
+
+50:14.220 --> 50:14.480
+uno
+
+50:14.480 --> 50:14.800
+ne metto
+
+50:14.800 --> 50:15.140
+insieme
+
+50:15.140 --> 50:15.620
+e poi ovviamente
+
+50:15.620 --> 50:16.600
+tanto per divertimento
+
+50:16.600 --> 50:18.600
+per 5 minuti
+
+50:18.600 --> 50:19.440
+è chiaro no?
+
+50:19.480 --> 50:19.980
+vi comincia?
+
+50:22.060 --> 50:22.880
+è chiaro no?
+
+50:22.880 --> 50:23.340
+questo è un'altra
+
+50:23.340 --> 50:23.700
+risposta
+
+50:23.700 --> 50:24.320
+non vi comincia
+
+50:24.320 --> 50:26.360
+ovviamente
+
+50:26.360 --> 50:26.700
+diciamo
+
+50:26.700 --> 50:27.240
+bello bello
+
+50:27.240 --> 50:27.540
+bello
+
+50:27.540 --> 50:28.860
+da buoni ingegneri
+
+50:28.860 --> 50:29.480
+come ero io
+
+50:29.480 --> 50:30.700
+che sono io
+
+50:30.700 --> 50:31.840
+e poi ti dico
+
+50:31.840 --> 50:32.360
+sì ma guarda
+
+50:32.360 --> 50:33.260
+questo esempio qua
+
+50:33.260 --> 50:34.420
+uno
+
+50:34.420 --> 50:35.060
+uno
+
+50:35.060 --> 50:35.760
+due
+
+50:35.760 --> 50:36.460
+quattro
+
+50:36.460 --> 50:36.960
+tre
+
+50:36.960 --> 50:37.720
+nove
+
+50:37.720 --> 50:38.520
+sei
+
+50:38.520 --> 50:39.240
+quattro
+
+50:39.240 --> 50:40.060
+sedici
+
+50:40.060 --> 50:40.860
+5
+
+50:40.860 --> 50:41.280
+25
+
+50:41.280 --> 50:46.280
+numero
+
+50:46.280 --> 50:47.460
+il quadrato
+
+50:47.460 --> 50:47.800
+del numero
+
+50:47.800 --> 50:48.300
+c'è la reazione
+
+50:48.300 --> 50:48.800
+uno a uno
+
+50:48.800 --> 50:49.860
+eh ma tu dicevi
+
+50:49.860 --> 50:50.620
+i due quadrati
+
+50:50.620 --> 50:51.060
+sono più
+
+50:51.060 --> 50:51.880
+o meno
+
+50:51.880 --> 50:53.680
+infatti
+
+50:53.680 --> 50:54.380
+all'infinito
+
+50:54.380 --> 50:56.540
+insieme
+
+50:56.540 --> 50:57.820
+ma insieme
+
+50:57.820 --> 50:58.440
+i codi
+
+50:58.440 --> 50:58.940
+non si accade
+
+50:58.940 --> 50:59.360
+in realtà
+
+50:59.360 --> 51:01.220
+anche le matematiche
+
+51:01.220 --> 51:04.200
+questo insieme
+
+51:04.200 --> 51:04.900
+all'infinito
+
+51:04.900 --> 51:07.160
+questo insieme
+
+51:07.160 --> 51:07.780
+all'infinito
+
+51:07.780 --> 51:09.560
+perché
+
+51:09.560 --> 51:10.080
+una volta
+
+51:10.080 --> 51:10.400
+in usata
+
+51:10.400 --> 51:10.820
+la definizione
+
+51:10.820 --> 51:11.180
+di una
+
+51:11.180 --> 51:11.740
+in questa maniera
+
+51:11.740 --> 51:12.320
+così è
+
+51:12.320 --> 51:13.960
+allora viene fuori
+
+51:13.960 --> 51:14.880
+che se tu prendi
+
+51:14.880 --> 51:15.340
+chiamiamo
+
+51:15.340 --> 51:15.740
+omega
+
+51:15.740 --> 51:16.300
+l'infinito
+
+51:16.300 --> 51:16.760
+fai uno
+
+51:16.760 --> 51:17.000
+più
+
+51:17.000 --> 51:17.500
+l'infinito
+
+51:17.500 --> 51:18.100
+è diverso
+
+51:18.100 --> 51:19.400
+da uno
+
+51:19.400 --> 51:19.940
+più lì
+
+51:19.940 --> 51:22.160
+anche qui
+
+51:22.160 --> 51:22.640
+non ce li devi
+
+51:22.640 --> 51:23.220
+mai usare
+
+51:23.220 --> 51:26.140
+se aggiungi
+
+51:26.140 --> 51:26.560
+un oggetto
+
+51:26.560 --> 51:27.100
+finito
+
+51:27.100 --> 51:27.880
+un insieme
+
+51:27.880 --> 51:28.240
+infinito
+
+51:28.240 --> 51:29.280
+un insieme
+
+51:29.280 --> 51:29.940
+infinito
+
+51:29.940 --> 51:31.640
+non cambi
+
+51:31.640 --> 51:32.260
+la presentazione
+
+51:32.260 --> 51:32.640
+insieme
+
+51:32.640 --> 51:32.940
+vabbè
+
+51:32.940 --> 51:33.420
+queste sono tutte
+
+51:33.420 --> 51:34.040
+curiosità
+
+51:34.040 --> 51:35.700
+per dirvi
+
+51:35.700 --> 51:36.320
+che quando si
+
+51:36.320 --> 51:36.780
+comincia a fare
+
+51:36.780 --> 51:37.160
+la logica
+
+51:37.160 --> 51:37.900
+la matematica
+
+51:37.900 --> 51:38.440
+magari
+
+51:38.440 --> 51:39.280
+per dare l'idea
+
+51:39.280 --> 51:40.120
+che questi concetti
+
+51:40.120 --> 51:40.460
+che siamo
+
+51:40.460 --> 51:41.080
+molti semplici
+
+51:41.080 --> 51:41.520
+in realtà
+
+51:41.520 --> 51:43.020
+hanno un significato
+
+51:43.020 --> 51:43.920
+molto profondo
+
+51:43.920 --> 51:45.480
+e che
+
+51:45.480 --> 51:47.260
+tra i informatici
+
+51:47.260 --> 51:49.520
+avere in mente
+
+51:49.520 --> 51:50.340
+questa cosa qua
+
+51:50.340 --> 51:51.440
+ti aiuta a pensare
+
+51:51.440 --> 51:51.960
+bene
+
+51:51.960 --> 51:52.560
+quando facciamo
+
+51:52.560 --> 51:53.220
+il nostro lavoro
+
+51:53.220 --> 51:55.140
+passo dopo
+
+51:55.140 --> 51:56.900
+quindi
+
+51:56.900 --> 51:57.380
+abbiamo detto
+
+51:57.380 --> 51:57.680
+però
+
+51:57.680 --> 51:57.900
+comunque
+
+51:57.900 --> 51:58.380
+se abbiamo detto
+
+51:58.380 --> 51:58.900
+che cosa
+
+51:58.900 --> 51:59.180
+che
+
+51:59.180 --> 52:00.280
+quando noi diciamo
+
+52:00.280 --> 52:01.040
+che nel mio dominio
+
+52:01.040 --> 52:01.720
+di interpretazione
+
+52:01.720 --> 52:02.580
+come lo faremo
+
+52:02.580 --> 52:03.020
+più avanti
+
+52:03.020 --> 52:03.440
+il solito
+
+52:03.440 --> 52:04.080
+di data type
+
+52:04.080 --> 52:05.120
+io vi compresi
+
+52:05.120 --> 52:06.080
+i numeri
+
+52:06.080 --> 52:07.300
+vi avete chieduto bene
+
+52:07.300 --> 52:07.840
+ma sto dicendo
+
+52:07.840 --> 52:08.760
+che i matematici
+
+52:08.760 --> 52:10.000
+dicono come fate
+
+52:10.000 --> 52:10.760
+ok
+
+52:10.760 --> 52:11.460
+quindi
+
+52:11.460 --> 52:14.040
+dato un colunque
+
+52:14.040 --> 52:15.420
+un universo
+
+52:15.420 --> 52:16.420
+di un'interpretazione
+
+52:16.420 --> 52:17.460
+se vogliamo mettere
+
+52:17.460 --> 52:18.300
+detratare il tento
+
+52:18.300 --> 52:18.980
+possiamo mettere
+
+52:18.980 --> 52:19.880
+e continuiamo a fare
+
+52:19.880 --> 52:20.460
+degli insiemi
+
+52:20.460 --> 52:21.020
+quello sarà
+
+52:21.020 --> 52:21.360
+l'insieme
+
+52:21.360 --> 52:22.240
+e tutti gli insiemi
+
+52:22.240 --> 52:23.240
+che è cambiato
+
+52:23.240 --> 52:24.000
+della camminarità
+
+52:24.000 --> 52:26.040
+3 a 4
+
+52:26.040 --> 52:26.320
+5
+
+52:26.320 --> 52:26.620
+6
+
+52:26.620 --> 52:28.160
+qual'è un fatto
+
+52:28.160 --> 52:31.140
+parte importante
+
+52:31.140 --> 52:31.580
+perché
+
+52:31.580 --> 52:32.120
+è dove
+
+52:32.120 --> 52:32.620
+esattamente
+
+52:32.620 --> 52:33.140
+arriviamo
+
+52:33.140 --> 52:33.400
+perché
+
+52:33.400 --> 52:34.380
+siamo dati
+
+52:34.380 --> 52:34.980
+i percetti
+
+52:34.980 --> 52:36.000
+non siamo dati
+
+52:36.000 --> 52:40.500
+gli oggetti
+
+52:40.500 --> 52:41.260
+che noi percepiamo
+
+52:41.260 --> 52:41.960
+però
+
+52:41.960 --> 52:43.140
+se voi ricordate
+
+52:43.140 --> 52:44.960
+quello che io ho detto
+
+52:44.960 --> 52:45.460
+ieri
+
+52:45.460 --> 52:46.780
+ho detto
+
+52:46.780 --> 52:47.520
+che
+
+52:47.520 --> 52:48.880
+nel ragionamento
+
+52:48.880 --> 52:49.880
+in particolare
+
+52:49.880 --> 52:50.360
+quando arriviamo
+
+52:50.360 --> 52:50.780
+al livello
+
+52:50.780 --> 52:51.480
+della classe
+
+52:51.480 --> 52:52.080
+del ragionamento
+
+52:52.080 --> 52:53.040
+quella della saggetta
+
+52:53.040 --> 52:53.780
+così chiamata
+
+52:53.780 --> 52:56.080
+tu ragionisci
+
+52:56.080 --> 52:56.500
+a chi viene
+
+52:56.500 --> 52:57.080
+ciò che fa
+
+52:57.080 --> 52:59.420
+ok
+
+52:59.420 --> 53:01.120
+quindi
+
+53:01.120 --> 53:01.640
+noi
+
+53:01.640 --> 53:02.300
+vogliamo
+
+53:02.300 --> 53:03.240
+poter dire
+
+53:03.240 --> 53:05.220
+anche un meccanismo
+
+53:05.220 --> 53:08.640
+nel
+
+53:08.640 --> 53:12.480
+nel linguaggio
+
+53:12.480 --> 53:14.640
+per poter dire
+
+53:14.640 --> 53:15.080
+per fare
+
+53:15.080 --> 53:15.900
+delle frasi
+
+53:15.900 --> 53:17.180
+o delle sentenze
+
+53:17.180 --> 53:18.580
+di cui
+
+53:18.580 --> 53:19.760
+il vero
+
+53:19.760 --> 53:20.180
+parte
+
+53:20.180 --> 53:21.920
+queste sentenze
+
+53:21.920 --> 53:22.200
+qua
+
+53:22.200 --> 53:22.520
+tipo
+
+53:22.520 --> 53:23.100
+è vero
+
+53:23.100 --> 53:23.460
+che oggi
+
+53:23.460 --> 53:23.880
+piove
+
+53:23.880 --> 53:24.220
+sì
+
+53:24.220 --> 53:25.940
+è vero
+
+53:25.940 --> 53:26.560
+che cammino
+
+53:26.560 --> 53:26.780
+sì
+
+53:26.780 --> 53:27.080
+ok
+
+53:27.080 --> 53:28.120
+ma
+
+53:28.120 --> 53:28.520
+con il
+
+53:28.520 --> 53:29.080
+effetto
+
+53:29.080 --> 53:30.800
+è la
+
+53:30.800 --> 53:31.000
+modo
+
+53:31.000 --> 53:31.220
+che
+
+53:31.220 --> 53:33.240
+va
+
+53:33.240 --> 53:33.280
+va
+
+53:33.280 --> 53:35.240
+va
+
+53:35.240 --> 53:39.240
+va
+
+53:39.240 --> 53:39.800
+va
+
+53:39.800 --> 53:40.240
+va
+
+53:40.240 --> 53:40.820
+va
+
+53:40.820 --> 53:41.240
+va
+
+53:41.240 --> 53:42.240
+va
+
+53:42.240 --> 53:42.740
+va
+
+53:42.740 --> 53:43.240
+va
+
+53:43.240 --> 53:43.320
+va
+
+53:43.320 --> 53:44.240
+va
+
+53:44.240 --> 53:45.240
+va
+
+53:45.240 --> 53:45.320
+va
+
+53:45.320 --> 53:46.240
+va
+
+53:46.240 --> 53:47.160
+va
+
+53:47.160 --> 53:48.120
+coordinato
+
+53:48.120 --> 53:48.400
+stato
+
+53:48.400 --> 53:49.060
+temporale
+
+53:49.060 --> 53:49.260
+poi
+
+53:49.260 --> 53:49.420
+fa
+
+53:49.420 --> 53:49.760
+l'altro
+
+53:49.760 --> 53:50.060
+sì
+
+53:50.060 --> 53:54.120
+è vero
+
+53:54.120 --> 53:54.500
+sì
+
+53:54.500 --> 53:56.380
+è vero
+
+53:56.380 --> 53:57.060
+sì
+
+53:57.060 --> 53:57.560
+è vero
+
+53:57.560 --> 53:59.700
+che
+
+53:59.700 --> 54:00.240
+la cosa
+
+54:00.240 --> 54:01.060
+interessante
+
+54:01.060 --> 54:04.080
+c'è il verbo
+
+54:04.080 --> 54:15.040
+è il verbo
+
+54:15.040 --> 54:16.820
+è poi la tripla
+
+54:16.820 --> 54:18.220
+che vedrete
+
+54:18.220 --> 54:18.240
+che vedrete
+
+54:18.240 --> 54:24.120
+come ho detto prima
+
+54:24.120 --> 54:24.680
+se esattamente
+
+54:24.680 --> 54:25.120
+per caso
+
+54:25.120 --> 54:25.880
+l'ho detto prima
+
+54:25.880 --> 54:33.660
+brand
+
+54:33.660 --> 54:33.680
+brand
+
+54:33.680 --> 55:03.680
+
+
+55:03.680 --> 55:12.340
+linguistiche, di cui puoi dire che denotano, che sono vero o false, che denotano dei fatti,
+
+55:12.340 --> 55:17.800
+che sono esattamente queste percezioni che si può dire o meno se dato un certo spazio
+
+55:17.800 --> 55:21.700
+temporale è vero o falso che c'è, che ci sono.
+
+55:21.700 --> 55:33.240
+Tematicamente, quella è quella che nella lezione che ti chiedi, qui purtroppo dovrebbe essere linguisticamente,
+
+55:33.240 --> 55:40.780
+quindi cos'è che è un fatto di certidore? Un fatto lo modelliamo dicendo, è una member of relation between a unit and a class.
+
+55:41.140 --> 55:46.960
+Fausto è un professore, è vero, sì. Fausto è una donna, no. Il primo tipo di fatto.
+
+55:46.960 --> 55:58.160
+Fausto è amico di Alfredo, sì. No, non lo so, è poco importante. Fausto è in aula, sì.
+
+56:03.840 --> 56:16.160
+Donna è un sottinsieme di persone, sì. Essere demitori è un sottinsieme di essere parenti,
+
+56:16.960 --> 56:25.300
+sì. Essere, e così via, però appunto quando in Italia volevo dire, questo è una generation
+
+56:25.300 --> 56:35.160
+a trip, almeno che sa ciò di dire. Essere demitori in Italia è un sottinsieme di essere parenti
+
+56:35.160 --> 56:40.960
+in Italia. Se no, assumiamo anche il concetto di parenti, ci mettiamo in Italia con i parametri
+
+56:40.960 --> 56:49.120
+in Italia. Però di fatto, quello che vi sto dicendo, è che in tutte le vostre somatizzazioni
+
+56:49.120 --> 56:54.600
+avete tre tipi di relazioni. Di ruolo, di spazio-tempo, c'è anche maggiore e minore,
+
+56:54.700 --> 57:04.960
+prima o dopo. E di azione. E tutte queste sono insieme, insieme, insieme, insieme a ciò
+
+57:04.960 --> 57:10.420
+di pensare. E questi si chiamano fatti. Qual è il passo che abbiamo fatto dei percetti
+
+57:10.420 --> 57:17.600
+e dei fatti? Che i percetti vengono costruiti, messi sempre dai fatti. Del fatto puoi dire
+
+57:17.600 --> 57:22.880
+che è vero o falso. Del fatto se adesso piove a New York, possiamo dire che è nostro.
+
+57:25.440 --> 57:31.660
+Il fatto di New York possiamo dire che è vero o che piove. Tutta questa roba qui la facciamo
+
+57:31.660 --> 57:35.300
+o che è arrivata perché stavamo qua. Quando voi fate l'esercizio, la fate per non
+
+57:35.300 --> 57:43.380
+arrivare a dire queste sezioni sul mondo. E tutte queste, nel caso semplice, nel 90
+
+57:43.380 --> 57:49.780
+come adesso si usa da noi, siamo tutte triple. Dobbiamo fare questo triple. Poi c'è un sacco
+
+57:49.780 --> 57:55.580
+di... se uno lo può fare, lo facciamo a ridurre in una versione nazia, in una versione binaria,
+
+57:55.680 --> 58:01.100
+si può fare, non lo facciamo in questo corso, in altri corsi. Comunque stiamo dicendo
+
+58:01.100 --> 58:07.180
+che tutto il lavoro che abbiamo fatto noi, non è che abbiamo fatto prima, avevamo le
+
+58:07.180 --> 58:14.140
+immagini, ci siamo dati i scientifici perfetti, perfetti, perfetti, perfetti, perfetti, e ora
+
+58:14.140 --> 58:18.340
+ci andiamo a scegliere tra tutti i percetti quelli che ci interessano. Perché sono quelli
+
+58:18.340 --> 58:22.860
+che ci interessano? Perché quando abbiamo questo possiamo dire se è vero o falso. È
+
+58:22.860 --> 58:27.740
+chiaro? Quindi non solo, perché poi infatti vedremo nella prossima lezione che non solo
+
+58:27.740 --> 58:33.620
+ci diamo i nomi per tutti i percetti, ma ci daranno, ci daremo la sintassi, come voi
+
+58:33.620 --> 58:38.680
+l'avete già vista, per dire quali sono le frasi che ci interessano dire. Non diciamo
+
+58:38.680 --> 58:42.700
+le frasi che ci interessano dire, ci interessano dire ciò che è vero o che è falso. Quando
+
+58:42.700 --> 58:46.780
+abbiamo fatto questa roba qui, abbiamo fatto un sacco di lavoro, ma lo ripeto perché questo
+
+58:46.780 --> 58:50.920
+è il significato della logica, da adesso in poi quando siamo arrivati qui, da qui in poi
+
+58:50.920 --> 58:58.080
+abbiamo alcuni ritmi che sono caretti. E chiaramente magari non importa dove c'è un'applicazione
+
+58:58.080 --> 59:02.980
+sull'utilizzo, ma va sicuro che chi fa il software per i primi per l'aereo è tutto così.
+
+59:03.860 --> 59:12.800
+Fortunatamente, per quello che non cade un casino. E chiaramente lasciano passare dalla
+
+59:12.800 --> 59:19.960
+appellazione di quello naturale, magari qui ci sono 5 mila valutazioni. Perché
+
+59:19.960 --> 59:20.960
+perché gli avrebbero il problema
+
+59:20.960 --> 59:22.600
+tu devi pensare che un aereo
+
+59:22.600 --> 59:23.940
+un tremo non deve
+
+59:23.940 --> 59:26.280
+non deve
+
+59:26.280 --> 59:27.460
+averlo detto
+
+59:27.460 --> 59:38.040
+però di fatto ad esempio
+
+59:38.040 --> 59:40.140
+in metodi formali chi gli vuole fare un model checking
+
+59:40.140 --> 59:41.260
+mi chiede un model checking
+
+59:41.260 --> 59:43.060
+è perché costruiscono un modello
+
+59:43.060 --> 59:45.620
+quanti stati ha il modello 10 alla 50?
+
+59:45.620 --> 59:47.580
+il grosso 10 alla 50 stati
+
+59:47.580 --> 59:48.440
+non lo faccio
+
+59:48.440 --> 01:00:17.840
+ma la cosa interessante è che abbiamo solo questo
+
+01:00:17.840 --> 01:00:20.380
+avevamo 7 tipi di percetti
+
+01:00:20.380 --> 01:00:22.000
+e abbiamo 5 tipi di percetti
+
+01:00:22.000 --> 01:00:25.680
+ed è il motivo per cui voi avrete
+
+01:00:25.680 --> 01:00:27.120
+fare il final save machine
+
+01:00:27.120 --> 01:00:28.940
+così che una volta che ci date questa forza
+
+01:00:28.940 --> 01:00:31.220
+questa capacità di astruzione
+
+01:00:31.220 --> 01:00:33.340
+che a posteriori è abbastanza magica
+
+01:00:33.340 --> 01:00:35.220
+possiamo fare quello
+
+01:00:35.220 --> 01:00:37.120
+in informatica sappiamo capire
+
+01:00:37.120 --> 01:00:39.100
+e adesso non ci fa i sistemi di tecnica
+
+01:00:39.100 --> 01:00:42.560
+e quindi sono
+
+01:00:42.560 --> 01:00:44.300
+vedete qui cos'è che ho cambiato?
+
+01:00:44.420 --> 01:00:45.640
+è quello che avevo fatto precedente
+
+01:00:45.640 --> 01:00:48.180
+vedete qui ho messo le relazioni
+
+01:00:48.180 --> 01:00:51.160
+è vero che questo è un fatto numero uno
+
+01:00:51.160 --> 01:00:52.360
+un elemento di accazzo
+
+01:00:52.360 --> 01:00:53.480
+una donna è una persona
+
+01:00:53.480 --> 01:00:57.460
+Paolo ha come un animale
+
+01:00:57.460 --> 01:01:00.180
+le donne sono persone
+
+01:01:00.180 --> 01:01:03.580
+le persone vicine sono insieme
+
+01:01:03.580 --> 01:01:04.460
+degli amici
+
+01:01:04.460 --> 01:01:05.320
+perché sono nemico
+
+01:01:05.320 --> 01:01:06.560
+non troppo io vicino
+
+01:01:06.560 --> 01:01:08.620
+le persone
+
+01:01:08.620 --> 01:01:11.440
+tutte le persone
+
+01:01:11.440 --> 01:01:11.800
+non so
+
+01:01:11.800 --> 01:01:13.200
+quanto riguarda il prodotto cartesiano
+
+01:01:13.200 --> 01:01:14.000
+le persone droghe
+
+01:01:14.000 --> 01:01:14.520
+sono insieme
+
+01:01:14.520 --> 01:01:15.120
+di S-Dog
+
+01:01:15.120 --> 01:01:16.620
+S-Dog
+
+01:01:16.620 --> 01:01:17.280
+è un pochino
+
+01:01:17.280 --> 01:01:17.840
+è un pochino
+
+01:01:17.840 --> 01:01:18.140
+è un pochino
+
+01:01:18.140 --> 01:01:18.580
+è un pochino
+
+01:01:18.580 --> 01:01:19.660
+ha certo
+
+01:01:19.660 --> 01:01:20.240
+sì perché
+
+01:01:20.240 --> 01:01:21.160
+S-Dog
+
+01:01:21.160 --> 01:01:22.880
+è più
+
+01:01:22.880 --> 01:01:23.680
+è un pochino
+
+01:01:23.680 --> 01:01:23.760
+è un pochino
+
+01:01:23.760 --> 01:01:23.800
+è un pochino
+
+01:01:23.800 --> 01:01:24.000
+è un pochino
+
+01:01:24.000 --> 01:01:25.100
+perché c'è animale qui
+
+01:01:25.100 --> 01:01:27.160
+e qui stiamo dicendo invece
+
+01:01:27.160 --> 01:01:28.600
+che il prodotto cartesiano
+
+01:01:28.600 --> 01:01:29.040
+sono persone
+
+01:01:29.040 --> 01:01:29.800
+non sono insieme
+
+01:01:29.800 --> 01:01:30.360
+di S-Dog
+
+01:01:30.360 --> 01:01:31.520
+non so come mai
+
+01:01:31.520 --> 01:01:31.780
+però
+
+01:01:31.780 --> 01:01:33.660
+è davvero scritto
+
+01:01:33.660 --> 01:01:36.680
+è chiaro?
+
+01:01:37.380 --> 01:01:37.600
+oh
+
+01:01:37.600 --> 01:01:38.740
+per questi sono
+
+01:01:38.740 --> 01:01:40.120
+uno, due, tre, tre, tre, tre, tre
+
+01:01:40.120 --> 01:01:40.640
+sei fatti
+
+01:01:40.640 --> 01:01:42.160
+ogni mi deve essere
+
+01:01:42.160 --> 01:01:43.380
+ok
+
+01:01:43.380 --> 01:01:44.820
+bene
+
+01:01:44.820 --> 01:01:47.700
+queste
+
+01:01:47.700 --> 01:01:48.960
+sono
+
+01:01:48.960 --> 01:01:51.360
+affermazioni
+
+01:01:51.360 --> 01:01:54.300
+sono fatti
+
+01:01:54.300 --> 01:01:55.320
+scritte
+
+01:01:55.320 --> 01:01:56.180
+nel linguaggio
+
+01:01:56.180 --> 01:01:56.920
+della serpia
+
+01:01:56.920 --> 01:01:58.100
+ok
+
+01:01:58.100 --> 01:01:59.560
+ricordate voi
+
+01:01:59.560 --> 01:02:00.340
+sentire abbiamo
+
+01:02:00.340 --> 01:02:01.040
+un linguaggio
+
+01:02:01.040 --> 01:02:01.900
+che ci permette
+
+01:02:01.900 --> 01:02:02.720
+di descrivere
+
+01:02:02.720 --> 01:02:05.840
+quello che è vero
+
+01:02:05.840 --> 01:02:06.740
+nell'apprezzazione
+
+01:02:06.740 --> 01:02:07.360
+analogica
+
+01:02:07.360 --> 01:02:08.020
+ovviamente
+
+01:02:08.020 --> 01:02:09.280
+sicuramente
+
+01:02:09.280 --> 01:02:10.000
+apprezzate
+
+01:02:10.000 --> 01:02:10.800
+quante informazioni
+
+01:02:10.800 --> 01:02:12.280
+abbiamo perso
+
+01:02:12.280 --> 01:02:13.420
+ma come ho detto prima
+
+01:02:13.420 --> 01:02:14.280
+nella misura in cui
+
+01:02:14.280 --> 01:02:14.940
+questo è un'unica
+
+01:02:14.940 --> 01:02:15.960
+che ti interessa
+
+01:02:15.960 --> 01:02:17.500
+va bene così
+
+01:02:17.500 --> 01:02:18.820
+ok
+
+01:02:18.820 --> 01:02:24.920
+e a questo punto
+
+01:02:24.920 --> 01:02:25.740
+verso le ovvie
+
+01:02:25.740 --> 01:02:26.620
+definizioni
+
+01:02:26.620 --> 01:02:27.900
+che vi potete guardare
+
+01:02:27.900 --> 01:02:29.820
+come ho detto prima
+
+01:02:29.820 --> 01:02:30.240
+in
+
+01:02:30.240 --> 01:02:31.760
+cos'è
+
+01:02:31.760 --> 01:02:32.800
+di tutti i fatti
+
+01:02:32.800 --> 01:02:33.380
+sono proprio
+
+01:02:33.380 --> 01:02:34.020
+banali
+
+01:02:34.020 --> 01:02:34.640
+banali
+
+01:02:34.640 --> 01:02:36.060
+affermazioni
+
+01:02:36.060 --> 01:02:36.520
+certe
+
+01:02:36.520 --> 01:02:40.440
+e poi
+
+01:02:40.440 --> 01:02:41.200
+in questo punto
+
+01:02:41.200 --> 01:02:42.880
+un altro esempio
+
+01:02:42.880 --> 01:02:45.600
+fatti
+
+01:02:45.600 --> 01:02:46.020
+sono
+
+01:02:46.020 --> 01:02:47.000
+rappresentazioni
+
+01:02:47.000 --> 01:02:47.840
+di percezione
+
+01:02:47.840 --> 01:02:49.480
+che descrivono
+
+01:02:49.480 --> 01:02:50.200
+che cos'è
+
+01:02:50.200 --> 01:02:51.580
+what is the case
+
+01:02:51.580 --> 01:02:55.000
+ricordate
+
+01:02:55.000 --> 01:02:56.080
+che la volta scorsa
+
+01:02:56.080 --> 01:02:59.100
+adesso cominciamo
+
+01:02:59.100 --> 01:02:59.700
+ci stiamo dando
+
+01:02:59.700 --> 01:03:00.560
+abbastanza linguaggio
+
+01:03:00.560 --> 01:03:00.780
+no
+
+01:03:00.780 --> 01:03:01.960
+vi ho detto
+
+01:03:01.960 --> 01:03:02.580
+che
+
+01:03:02.580 --> 01:03:04.820
+noi
+
+01:03:04.820 --> 01:03:09.920
+nel mondo
+
+01:03:09.920 --> 01:03:11.020
+ci sono delle cose
+
+01:03:11.020 --> 01:03:12.060
+che non accettiamo
+
+01:03:12.060 --> 01:03:12.760
+come vero
+
+01:03:12.760 --> 01:03:13.400
+e diciamo
+
+01:03:13.400 --> 01:03:13.900
+che nasce
+
+01:03:13.900 --> 01:03:14.580
+l'inconsistenza
+
+01:03:14.580 --> 01:03:15.180
+consistenza
+
+01:03:15.180 --> 01:03:18.900
+consistenza
+
+01:03:18.900 --> 01:03:19.480
+l'ho detto
+
+01:03:19.480 --> 01:03:20.300
+effettivamente
+
+01:03:20.300 --> 01:03:20.880
+è il fatto
+
+01:03:20.880 --> 01:03:21.460
+che si chiama
+
+01:03:21.460 --> 01:03:21.740
+il mondo
+
+01:03:21.740 --> 01:03:24.080
+che non è possibile
+
+01:03:24.080 --> 01:03:28.580
+se io dico
+
+01:03:28.580 --> 01:03:53.860
+se io dico qua
+
+01:03:53.860 --> 01:03:59.340
+mary
+
+01:03:59.340 --> 01:04:00.820
+belongs
+
+01:04:00.820 --> 01:04:01.680
+to
+
+01:04:01.680 --> 01:04:29.120
+è possibile
+
+01:04:29.120 --> 01:04:29.800
+o non è possibile
+
+01:04:29.800 --> 01:04:33.760
+sì o no
+
+01:04:33.760 --> 01:04:35.720
+glielo dite
+
+01:04:35.720 --> 01:04:36.280
+che è una cazzata
+
+01:04:36.280 --> 01:04:36.620
+lo sappiamo
+
+01:04:36.620 --> 01:04:37.240
+che è una cazzata
+
+01:04:37.240 --> 01:04:37.920
+però è possibile
+
+01:04:37.920 --> 01:04:39.040
+è una chiamata
+
+01:04:39.040 --> 01:04:39.660
+il consiglio
+
+01:04:39.660 --> 01:04:40.080
+spu
+
+01:04:40.080 --> 01:04:41.640
+ma se uno
+
+01:04:41.640 --> 01:04:42.080
+mi dice
+
+01:04:42.080 --> 01:04:42.700
+mary
+
+01:04:42.700 --> 01:04:45.260
+appartiene
+
+01:04:45.260 --> 01:04:45.760
+a human
+
+01:04:45.760 --> 01:04:47.580
+ma
+
+01:04:47.580 --> 01:04:49.340
+ti dico anche
+
+01:04:49.340 --> 01:04:49.660
+che
+
+01:04:49.660 --> 01:04:50.360
+spu
+
+01:04:50.360 --> 01:04:51.700
+un terzo
+
+01:04:51.700 --> 01:04:52.040
+gatto
+
+01:04:52.040 --> 01:04:52.460
+human
+
+01:04:52.460 --> 01:04:53.140
+come giusto
+
+01:04:53.140 --> 01:04:53.700
+che sia
+
+01:04:53.700 --> 01:04:54.600
+è uguale
+
+01:04:54.600 --> 01:04:54.960
+all'insieme
+
+01:04:54.960 --> 01:04:55.420
+vuoto
+
+01:04:55.420 --> 01:04:57.180
+questo non è possibile
+
+01:04:57.180 --> 01:05:01.460
+è chiaro
+
+01:05:01.460 --> 01:05:04.940
+e qui stiamo arrivando a dubbio
+
+01:05:04.940 --> 01:05:05.660
+perché adesso
+
+01:05:05.660 --> 01:05:07.020
+vi ho fatto vedere
+
+01:05:07.020 --> 01:05:07.540
+che
+
+01:05:07.540 --> 01:05:09.140
+questa sarà una cosa
+
+01:05:09.140 --> 01:05:09.440
+quando noi
+
+01:05:09.440 --> 01:05:10.640
+faremo di consistenza
+
+01:05:10.640 --> 01:05:11.160
+vuole dire
+
+01:05:11.160 --> 01:05:12.320
+che noi abbiamo messo
+
+01:05:12.320 --> 01:05:13.660
+un insieme di fatti
+
+01:05:13.660 --> 01:05:14.740
+dove il fatto
+
+01:05:14.740 --> 01:05:15.120
+che mary
+
+01:05:15.120 --> 01:05:15.480
+sono sfum
+
+01:05:15.480 --> 01:05:16.260
+va benissimo
+
+01:05:16.260 --> 01:05:17.000
+ma poi
+
+01:05:17.000 --> 01:05:17.460
+se gli metto
+
+01:05:17.460 --> 01:05:17.840
+che mary
+
+01:05:17.840 --> 01:05:18.220
+è una sfum
+
+01:05:18.220 --> 01:05:19.260
+ma è anche una persona
+
+01:05:19.260 --> 01:05:20.340
+e poi come persona
+
+01:05:20.340 --> 01:05:21.240
+dico anche
+
+01:05:21.240 --> 01:05:21.800
+che le persone
+
+01:05:21.800 --> 01:05:22.200
+non sono
+
+01:05:22.200 --> 01:05:22.880
+cucchiai
+
+01:05:22.880 --> 01:05:23.400
+e no
+
+01:05:23.400 --> 01:05:23.820
+viene fuori
+
+01:05:23.820 --> 01:05:24.460
+in consistenza
+
+01:05:24.460 --> 01:05:27.960
+e qui abbiamo
+
+01:05:27.960 --> 01:05:28.480
+gli algoritmi
+
+01:05:28.480 --> 01:05:28.840
+ovviamente
+
+01:05:28.840 --> 01:05:29.200
+che sarebbero
+
+01:05:29.200 --> 01:05:29.880
+quelli che facciamo
+
+01:05:29.880 --> 01:05:33.280
+e perché ovviamente
+
+01:05:33.280 --> 01:05:33.960
+ho messo un merito
+
+01:05:33.960 --> 01:05:34.720
+perché è ovvio
+
+01:05:34.720 --> 01:05:35.340
+che il nome
+
+01:05:35.340 --> 01:05:36.100
+è scelto così
+
+01:05:36.100 --> 01:05:37.660
+però quando puoi andare
+
+01:05:37.660 --> 01:05:38.200
+a fare qualcosa
+
+01:05:38.200 --> 01:05:39.880
+non c'è informazione
+
+01:05:39.880 --> 01:05:41.400
+l'informazione
+
+01:05:41.400 --> 01:05:42.660
+è esattamente
+
+01:05:42.660 --> 01:05:43.480
+della teoria
+
+01:05:43.480 --> 01:05:44.040
+dell'insieme
+
+01:05:44.040 --> 01:05:44.720
+ok
+
+01:05:44.720 --> 01:05:45.780
+io ho dovuto usare
+
+01:05:45.780 --> 01:05:46.600
+non per spiegare
+
+01:05:46.600 --> 01:05:47.280
+ho usato il nome
+
+01:05:47.280 --> 01:05:48.780
+per farvi indurre
+
+01:05:48.780 --> 01:05:51.300
+che è esattamente
+
+01:05:51.300 --> 01:05:51.960
+cosa succede
+
+01:05:51.960 --> 01:05:53.080
+è una rappresentazione
+
+01:05:53.080 --> 01:05:54.700
+che non è poi
+
+01:05:54.700 --> 01:05:55.200
+quella che
+
+01:05:55.200 --> 01:05:55.980
+l'albero dei modelli
+
+01:05:55.980 --> 01:05:56.420
+dice
+
+01:05:56.420 --> 01:05:57.820
+che è quella
+
+01:05:57.820 --> 01:05:58.580
+che poi ti permette
+
+01:05:58.580 --> 01:05:59.160
+esattamente
+
+01:05:59.160 --> 01:06:00.400
+di risolvere
+
+01:06:00.400 --> 01:06:00.800
+i problemi
+
+01:06:00.800 --> 01:06:01.680
+di inconsistenza
+
+01:06:01.680 --> 01:06:02.680
+di diversità
+
+01:06:02.680 --> 01:06:06.520
+questo insieme
+
+01:06:06.520 --> 01:06:07.080
+dei fatti
+
+01:06:07.080 --> 01:06:07.440
+ok
+
+01:06:07.440 --> 01:06:08.580
+ok
+
+01:06:08.580 --> 01:06:10.760
+ora ovviamente
+
+01:06:10.760 --> 01:06:13.340
+parliamo dei domini
+
+01:06:13.340 --> 01:06:15.680
+cos'è il dominio?
+
+01:06:15.800 --> 01:06:16.140
+il dominio
+
+01:06:16.140 --> 01:06:16.620
+abbiamo detto
+
+01:06:16.620 --> 01:06:17.280
+che è l'insieme
+
+01:06:17.280 --> 01:06:18.680
+dei percetti
+
+01:06:18.680 --> 01:06:19.220
+non l'abbiamo detto
+
+01:06:19.220 --> 01:06:19.600
+l'inizio
+
+01:06:19.600 --> 01:06:20.220
+vorrei parlare
+
+01:06:20.220 --> 01:06:21.440
+però
+
+01:06:21.440 --> 01:06:22.680
+se io mi do
+
+01:06:22.680 --> 01:06:23.480
+lo spazio
+
+01:06:23.480 --> 01:06:24.680
+del dominio
+
+01:06:24.680 --> 01:06:24.920
+cioè
+
+01:06:24.920 --> 01:06:26.260
+da parte del mondo
+
+01:06:26.260 --> 01:06:26.860
+che è l'insieme
+
+01:06:26.860 --> 01:06:27.160
+insieme
+
+01:06:27.160 --> 01:06:27.960
+dei percetti
+
+01:06:27.960 --> 01:06:29.580
+a questo punto
+
+01:06:29.580 --> 01:06:31.480
+se io mi do
+
+01:06:31.480 --> 01:06:31.960
+la teoria
+
+01:06:31.960 --> 01:06:32.620
+dell'insieme
+
+01:06:32.620 --> 01:06:33.700
+costruisco i fatti
+
+01:06:33.700 --> 01:06:35.700
+quindi
+
+01:06:35.700 --> 01:06:36.440
+banalmente
+
+01:06:36.440 --> 01:06:38.360
+dato il dominio
+
+01:06:38.360 --> 01:06:38.680
+insieme
+
+01:06:38.680 --> 01:06:39.400
+dei percetti
+
+01:06:39.400 --> 01:06:40.060
+posso
+
+01:06:40.060 --> 01:06:41.220
+portare il dominio
+
+01:06:41.220 --> 01:06:41.540
+insieme
+
+01:06:41.540 --> 01:06:42.120
+dei fatti
+
+01:06:42.120 --> 01:06:42.460
+che sono
+
+01:06:42.460 --> 01:06:42.800
+indossi
+
+01:06:42.800 --> 01:06:44.220
+dal percetto
+
+01:06:44.220 --> 01:06:48.580
+quindi
+
+01:06:48.580 --> 01:06:49.460
+siamo passati
+
+01:06:49.460 --> 01:06:50.960
+da una descrizione
+
+01:06:50.960 --> 01:06:51.520
+del mondo
+
+01:06:51.520 --> 01:06:53.360
+che è l'insieme
+
+01:06:53.360 --> 01:06:54.520
+di tutte le cose
+
+01:06:54.520 --> 01:06:56.240
+di tutti i percetti
+
+01:06:56.240 --> 01:06:57.100
+cioè di quelle cose
+
+01:06:57.100 --> 01:06:58.320
+che possiamo percepire
+
+01:06:58.320 --> 01:06:59.940
+che
+
+01:06:59.940 --> 01:07:02.620
+il certo
+
+01:07:02.620 --> 01:07:03.640
+che lo possiamo percepire
+
+01:07:03.640 --> 01:07:04.540
+ha
+
+01:07:04.540 --> 01:07:05.820
+un dominio
+
+01:07:05.820 --> 01:07:06.360
+del mondo
+
+01:07:06.360 --> 01:07:06.880
+che nel noi
+
+01:07:06.880 --> 01:07:07.520
+c'è un dominio
+
+01:07:07.520 --> 01:07:07.840
+che nel noi
+
+01:07:07.840 --> 01:07:08.720
+di interpretazione
+
+01:07:08.720 --> 01:07:10.120
+che è l'insieme
+
+01:07:10.120 --> 01:07:11.680
+di tutte le cose
+
+01:07:11.680 --> 01:07:12.940
+che sono vere
+
+01:07:12.940 --> 01:07:14.720
+o fatti
+
+01:07:14.720 --> 01:07:20.660
+allora
+
+01:07:20.660 --> 01:07:22.580
+se io prendo
+
+01:07:22.580 --> 01:07:23.420
+questo dominio
+
+01:07:23.420 --> 01:07:24.080
+uguale a
+
+01:07:24.080 --> 01:07:24.820
+questi tre fatti
+
+01:07:24.820 --> 01:07:25.280
+qui
+
+01:07:25.280 --> 01:07:28.520
+a questi due fatti
+
+01:07:28.520 --> 01:07:28.800
+qua
+
+01:07:28.800 --> 01:07:29.120
+anche
+
+01:07:29.120 --> 01:07:29.740
+questi tre fatti
+
+01:07:29.740 --> 01:07:30.500
+qua
+
+01:07:30.500 --> 01:07:32.760
+fatti uno
+
+01:07:32.760 --> 01:07:34.300
+questi fatti
+
+01:07:34.300 --> 01:07:34.500
+no?
+
+01:07:34.640 --> 01:07:35.260
+fatti due
+
+01:07:35.260 --> 01:07:39.360
+fatti tre
+
+01:07:39.360 --> 01:07:43.240
+quel dominio lì
+
+01:07:43.240 --> 01:07:43.820
+è un possibile
+
+01:07:43.820 --> 01:07:44.320
+dominio
+
+01:07:44.320 --> 01:07:45.020
+insieme al mondo
+
+01:07:45.020 --> 01:07:45.540
+sì o no?
+
+01:07:48.480 --> 01:07:49.320
+sì o no?
+
+01:07:49.520 --> 01:07:49.840
+no
+
+01:07:49.840 --> 01:07:56.200
+e se c'è sì
+
+01:07:56.200 --> 01:07:59.800
+perché
+
+01:07:59.800 --> 01:08:04.260
+il dominio
+
+01:08:04.260 --> 01:08:04.900
+come vedremo
+
+01:08:04.900 --> 01:08:05.680
+per un minuto
+
+01:08:05.680 --> 01:08:06.540
+vi ricordate
+
+01:08:06.540 --> 01:08:06.920
+quando
+
+01:08:06.920 --> 01:08:08.000
+abbiamo fatto
+
+01:08:08.000 --> 01:08:08.800
+la sezione
+
+01:08:08.800 --> 01:08:10.040
+abbiamo fatto
+
+01:08:10.040 --> 01:08:10.440
+l'insieme
+
+01:08:10.440 --> 01:08:11.160
+di vendaggio
+
+01:08:11.160 --> 01:08:15.960
+vari punti
+
+01:08:15.960 --> 01:08:16.360
+che hanno fatto
+
+01:08:16.360 --> 01:08:17.360
+una relazione qua
+
+01:08:17.360 --> 01:08:18.200
+e una relazione qua
+
+01:08:18.200 --> 01:08:18.820
+però
+
+01:08:18.820 --> 01:08:19.700
+queste ne hanno lasciato
+
+01:08:19.700 --> 01:08:20.200
+fuori
+
+01:08:20.200 --> 01:08:24.460
+quindi
+
+01:08:24.460 --> 01:08:25.320
+il dominio
+
+01:08:25.320 --> 01:08:26.100
+non dice
+
+01:08:26.100 --> 01:08:29.540
+dice lo spazio
+
+01:08:29.540 --> 01:08:29.860
+di quello
+
+01:08:29.860 --> 01:08:30.540
+che io posso
+
+01:08:30.540 --> 01:08:31.400
+considerare
+
+01:08:31.400 --> 01:08:33.540
+quindi
+
+01:08:33.540 --> 01:08:34.200
+io posso
+
+01:08:34.200 --> 01:08:35.000
+avere un mondo
+
+01:08:35.000 --> 01:08:36.160
+in cui
+
+01:08:36.160 --> 01:08:37.260
+una meri
+
+01:08:37.260 --> 01:08:39.280
+un cucchiaio
+
+01:08:39.280 --> 01:08:39.900
+e un mondo
+
+01:08:39.900 --> 01:08:40.100
+in cui
+
+01:08:40.100 --> 01:08:40.740
+la meri
+
+01:08:40.740 --> 01:08:42.660
+e la donna
+
+01:08:42.660 --> 01:08:44.260
+non posso
+
+01:08:44.260 --> 01:08:44.500
+avere
+
+01:08:44.500 --> 01:08:44.920
+insisto
+
+01:08:44.920 --> 01:08:47.280
+ma per essere
+
+01:08:47.280 --> 01:08:48.360
+concreti
+
+01:08:48.360 --> 01:08:49.900
+voi potete avere
+
+01:08:49.900 --> 01:08:50.720
+un mondo
+
+01:08:50.720 --> 01:08:51.240
+in cui
+
+01:08:51.240 --> 01:08:51.780
+lunedì
+
+01:08:51.780 --> 01:08:52.320
+piove
+
+01:08:52.320 --> 01:08:53.320
+e un mondo
+
+01:08:53.320 --> 01:08:53.640
+in cui
+
+01:08:53.640 --> 01:08:54.260
+lunedì
+
+01:08:54.260 --> 01:08:56.900
+è sole
+
+01:08:56.900 --> 01:09:02.220
+allora
+
+01:09:02.220 --> 01:09:03.840
+la cosa importante
+
+01:09:03.840 --> 01:09:05.940
+è capire
+
+01:09:05.940 --> 01:09:06.880
+concettualmente
+
+01:09:06.880 --> 01:09:07.280
+di quando
+
+01:09:07.280 --> 01:09:07.620
+fai la
+
+01:09:07.620 --> 01:09:09.540
+model theory
+
+01:09:09.540 --> 01:09:11.280
+quando definisci
+
+01:09:11.280 --> 01:09:12.060
+il dominio
+
+01:09:12.060 --> 01:09:14.540
+definisci
+
+01:09:14.540 --> 01:09:14.980
+lo spazio
+
+01:09:14.980 --> 01:09:15.300
+di quello
+
+01:09:15.300 --> 01:09:15.660
+che tu
+
+01:09:15.660 --> 01:09:16.640
+puoi dire
+
+01:09:16.640 --> 01:09:19.060
+non quello
+
+01:09:19.060 --> 01:09:19.420
+che stai
+
+01:09:19.420 --> 01:09:19.920
+dicendo
+
+01:09:19.920 --> 01:09:21.100
+defini
+
+01:09:21.100 --> 01:09:21.580
+quando tu
+
+01:09:21.580 --> 01:09:22.720
+fai il linguaggio
+
+01:09:22.720 --> 01:09:23.540
+come lo definiremo
+
+01:09:23.540 --> 01:09:23.880
+in una persona
+
+01:09:23.880 --> 01:09:25.380
+e ti dai la parola
+
+01:09:25.380 --> 01:09:26.400
+piove
+
+01:09:26.400 --> 01:09:26.920
+sole
+
+01:09:26.920 --> 01:09:27.620
+biondo
+
+01:09:27.620 --> 01:09:28.200
+quello che è
+
+01:09:28.200 --> 01:09:29.880
+se ci pensate bene
+
+01:09:29.880 --> 01:09:30.320
+poi voi
+
+01:09:30.320 --> 01:09:30.620
+li fate
+
+01:09:30.620 --> 01:09:31.240
+insieme
+
+01:09:31.240 --> 01:09:31.880
+come volete
+
+01:09:31.880 --> 01:09:34.000
+e a seconda
+
+01:09:34.000 --> 01:09:34.360
+di come
+
+01:09:34.360 --> 01:09:34.840
+li pensate
+
+01:09:34.840 --> 01:09:35.280
+insieme
+
+01:09:35.280 --> 01:09:36.280
+dice delle cose
+
+01:09:36.280 --> 01:09:37.580
+qual è il problema
+
+01:09:37.580 --> 01:09:39.100
+che se usate
+
+01:09:39.100 --> 01:09:39.840
+la difficoltà
+
+01:09:39.840 --> 01:09:40.460
+del linguaggio
+
+01:09:40.460 --> 01:09:40.920
+di dire
+
+01:09:40.920 --> 01:09:41.240
+che
+
+01:09:41.240 --> 01:09:44.120
+una persona
+
+01:09:44.120 --> 01:09:44.880
+un oggetto
+
+01:09:44.880 --> 01:09:45.580
+è una cosa
+
+01:09:45.580 --> 01:09:46.180
+e l'altra
+
+01:09:46.180 --> 01:09:46.540
+e i due
+
+01:09:46.540 --> 01:09:47.040
+non possono
+
+01:09:47.040 --> 01:09:47.680
+stare insieme
+
+01:09:47.680 --> 01:09:48.020
+e state
+
+01:09:48.020 --> 01:09:48.420
+dicendo
+
+01:09:48.420 --> 01:09:48.920
+una cosa
+
+01:09:48.920 --> 01:09:49.180
+che è
+
+01:09:49.180 --> 01:09:50.460
+inconsistente
+
+01:09:50.460 --> 01:09:52.580
+e soltanto
+
+01:09:52.580 --> 01:09:53.320
+non lo possiamo
+
+01:09:53.320 --> 01:09:53.960
+calcolare
+
+01:09:53.960 --> 01:09:54.300
+perché
+
+01:09:54.300 --> 01:09:54.880
+come voi
+
+01:09:54.880 --> 01:09:55.240
+faremo
+
+01:09:55.240 --> 01:09:56.100
+per la logica
+
+01:09:56.100 --> 01:09:56.880
+noi diremo
+
+01:09:56.880 --> 01:09:58.060
+nella specifica
+
+01:09:58.060 --> 01:09:58.260
+delle
+
+01:09:58.260 --> 01:09:59.280
+normal logics
+
+01:09:59.280 --> 01:09:59.980
+quali sono
+
+01:09:59.980 --> 01:10:00.840
+e diremo
+
+01:10:00.840 --> 01:10:01.120
+che
+
+01:10:01.120 --> 01:10:03.060
+cucchiaio
+
+01:10:03.060 --> 01:10:04.340
+insieme ai cucchiai
+
+01:10:04.340 --> 01:10:04.980
+la classe
+
+01:10:04.980 --> 01:10:05.480
+dei cucchiai
+
+01:10:05.480 --> 01:10:05.740
+la classe
+
+01:10:05.740 --> 01:10:06.080
+delle persone
+
+01:10:06.080 --> 01:10:07.000
+sono disjunte
+
+01:10:07.000 --> 01:10:08.020
+ma una volta
+
+01:10:08.020 --> 01:10:08.580
+che me l'hai detto
+
+01:10:08.580 --> 01:10:09.680
+questo è common sense
+
+01:10:09.680 --> 01:10:10.260
+lo sanno tutti
+
+01:10:10.260 --> 01:10:10.660
+non è che abbiamo
+
+01:10:10.660 --> 01:10:11.220
+in vivo
+
+01:10:11.220 --> 01:10:12.320
+non lo scriviamo
+
+01:10:12.320 --> 01:10:13.320
+perché lo sappiamo tutti
+
+01:10:13.320 --> 01:10:14.820
+una volta che l'ho detto
+
+01:10:14.820 --> 01:10:15.680
+è algoritmico
+
+01:10:15.680 --> 01:10:17.160
+le famose
+
+01:10:17.160 --> 01:10:17.680
+allucination
+
+01:10:17.680 --> 01:10:18.220
+non esiste
+
+01:10:18.220 --> 01:10:20.280
+fa parte
+
+01:10:20.280 --> 01:10:21.160
+di quel common sense
+
+01:10:21.160 --> 01:10:23.020
+che noi abbiamo
+
+01:10:23.020 --> 01:10:24.640
+e che dobbiamo
+
+01:10:24.640 --> 01:10:25.520
+formalizzare
+
+01:10:25.520 --> 01:10:26.880
+per portare
+
+01:10:26.880 --> 01:10:27.620
+una macchina
+
+01:10:27.620 --> 01:10:28.160
+a non dire
+
+01:10:28.160 --> 01:10:29.020
+queste cattate
+
+01:10:29.020 --> 01:10:30.500
+vediamo
+
+01:10:30.500 --> 01:10:32.120
+però il punto fondamentale
+
+01:10:32.120 --> 01:10:32.440
+è che noi
+
+01:10:32.440 --> 01:10:33.240
+lo dobbiamo
+
+01:10:33.240 --> 01:10:33.920
+lasciare dire
+
+01:10:33.920 --> 01:10:34.780
+alla macchina
+
+01:10:34.780 --> 01:10:35.860
+devono andare
+
+01:10:35.860 --> 01:10:36.460
+nella possibilità
+
+01:10:36.460 --> 01:10:37.300
+di dire questo
+
+01:10:37.300 --> 01:10:39.820
+e parlo in sentio
+
+01:10:39.820 --> 01:10:41.280
+perché chiaramente
+
+01:10:41.280 --> 01:10:42.000
+nel linguaggio
+
+01:10:42.000 --> 01:10:42.960
+poi uno dice
+
+01:10:42.960 --> 01:10:43.340
+si
+
+01:10:43.340 --> 01:10:44.980
+intendevo spuma
+
+01:10:44.980 --> 01:10:46.800
+ho chiamato spuma
+
+01:10:46.800 --> 01:10:47.680
+intendevo person
+
+01:10:47.680 --> 01:10:48.080
+no
+
+01:10:48.080 --> 01:10:48.560
+non sta parlando
+
+01:10:48.560 --> 01:10:49.380
+sta parlando proprio
+
+01:10:49.380 --> 01:10:52.300
+del mondo
+
+01:10:52.300 --> 01:10:53.660
+è il motivo
+
+01:10:53.660 --> 01:10:54.160
+per cui
+
+01:10:54.160 --> 01:10:54.800
+la sensazione
+
+01:10:54.800 --> 01:10:55.660
+è il suo fondamentale
+
+01:10:55.660 --> 01:10:56.100
+è il motivo
+
+01:10:56.100 --> 01:10:57.260
+per cui
+
+01:10:57.260 --> 01:10:57.900
+la moda
+
+01:10:57.900 --> 01:10:58.300
+è il tiro
+
+01:10:58.300 --> 01:10:59.160
+il passaggio
+
+01:10:59.160 --> 01:10:59.540
+alla posizione
+
+01:10:59.540 --> 01:11:00.080
+del dominio
+
+01:11:00.080 --> 01:11:00.700
+è il suo
+
+01:11:00.700 --> 01:11:02.760
+quindi
+
+01:11:02.760 --> 01:11:07.360
+quando noi
+
+01:11:07.360 --> 01:11:07.960
+facciamo
+
+01:11:07.960 --> 01:11:08.880
+il percetto
+
+01:11:08.880 --> 01:11:09.520
+dominio
+
+01:11:09.520 --> 01:11:10.700
+la posizione
+
+01:11:10.700 --> 01:11:11.160
+del dominio
+
+01:11:11.160 --> 01:11:11.620
+dipende
+
+01:11:11.620 --> 01:11:12.000
+uno
+
+01:11:12.000 --> 01:11:12.380
+prima
+
+01:11:12.380 --> 01:11:12.600
+il due
+
+01:11:12.600 --> 01:11:13.200
+dei percetti
+
+01:11:13.200 --> 01:11:14.080
+l'abbiamo già detto
+
+01:11:14.080 --> 01:11:15.420
+la persona
+
+01:11:15.420 --> 01:11:15.940
+con la memoria
+
+01:11:15.940 --> 01:11:16.420
+dopodiché
+
+01:11:16.420 --> 01:11:16.920
+la sensazione
+
+01:11:16.920 --> 01:11:17.320
+di quello
+
+01:11:17.320 --> 01:11:17.700
+che noi
+
+01:11:17.700 --> 01:11:18.740
+vogliamo poter dire
+
+01:11:18.740 --> 01:11:19.620
+ovvero sia
+
+01:11:19.620 --> 01:11:20.820
+di tutte le possibili
+
+01:11:20.820 --> 01:11:21.460
+facchi
+
+01:11:21.460 --> 01:11:22.460
+veri e falsi
+
+01:11:22.460 --> 01:11:23.360
+in quella roba lì
+
+01:11:23.360 --> 01:11:24.520
+quelli che noi
+
+01:11:24.520 --> 01:11:25.300
+andiamo a scegliere
+
+01:11:25.300 --> 01:11:26.520
+ok
+
+01:11:26.520 --> 01:11:30.400
+vai qua
+
+01:11:30.400 --> 01:11:30.820
+se vuol far
+
+01:11:30.820 --> 01:11:31.240
+tutto e non
+
+01:11:31.240 --> 01:11:31.600
+qualcosa
+
+01:11:31.600 --> 01:11:32.280
+che potrebbe essere
+
+01:11:32.280 --> 01:11:32.880
+vero
+
+01:11:32.880 --> 01:11:34.300
+se ci pensate bene
+
+01:11:34.300 --> 01:11:35.400
+altro non è
+
+01:11:35.400 --> 01:11:36.680
+il linguaggio
+
+01:11:36.680 --> 01:11:37.180
+definito
+
+01:11:37.180 --> 01:11:37.740
+non l'avete fatto
+
+01:11:37.740 --> 01:11:38.440
+in grammatica
+
+01:11:38.440 --> 01:11:39.140
+nella grammatica
+
+01:11:39.140 --> 01:11:39.540
+la chiusura
+
+01:11:39.540 --> 01:11:39.980
+tra l'estima
+
+01:11:39.980 --> 01:11:40.840
+di
+
+01:11:40.840 --> 01:11:42.460
+inferenza
+
+01:11:42.460 --> 01:11:43.740
+altro non è
+
+01:11:43.740 --> 01:11:44.120
+che
+
+01:11:44.120 --> 01:11:45.100
+tutto quello
+
+01:11:45.100 --> 01:11:45.780
+che potete dire
+
+01:11:45.780 --> 01:11:47.260
+se non avete
+
+01:11:47.260 --> 01:11:47.840
+il percetto
+
+01:11:47.840 --> 01:11:48.480
+e se non avete
+
+01:11:48.480 --> 01:11:48.940
+la regola
+
+01:11:48.940 --> 01:11:49.640
+della grammatica
+
+01:11:49.640 --> 01:11:50.580
+non la potete dire
+
+01:11:50.580 --> 01:11:52.240
+ok
+
+01:11:52.240 --> 01:11:53.200
+e va bene
+
+01:11:53.200 --> 01:11:54.580
+poi di volta
+
+01:11:54.580 --> 01:11:54.960
+in volta
+
+01:11:54.960 --> 01:11:55.400
+ogni volta
+
+01:11:55.400 --> 01:11:56.400
+prendiamo l'applicazione
+
+01:11:56.400 --> 01:11:57.440
+andremo a scegliere
+
+01:11:57.440 --> 01:11:58.680
+quelli che ci servono
+
+01:11:58.680 --> 01:11:59.340
+come
+
+01:11:59.340 --> 01:12:00.860
+a questo punto
+
+01:12:00.860 --> 01:12:01.980
+quando riguarda la fine
+
+01:12:01.980 --> 01:12:04.180
+ci siamo dati
+
+01:12:04.180 --> 01:12:05.120
+gli insieni
+
+01:12:05.120 --> 01:12:06.680
+ci siamo dati
+
+01:12:06.680 --> 01:12:07.300
+i percetti
+
+01:12:07.300 --> 01:12:08.700
+ci siamo dati
+
+01:12:08.700 --> 01:12:09.180
+i fatti
+
+01:12:09.180 --> 01:12:10.600
+ci siamo dati
+
+01:12:10.600 --> 01:12:11.040
+i domini
+
+01:12:11.040 --> 01:12:12.100
+ora dobbiamo poter dire
+
+01:12:12.100 --> 01:12:13.920
+qui è vero questo
+
+01:12:13.920 --> 01:12:15.080
+e non è vero questo
+
+01:12:15.080 --> 01:12:16.340
+dobbiamo poter dire
+
+01:12:16.340 --> 01:12:16.900
+che questo
+
+01:12:16.900 --> 01:12:17.660
+non lo vogliamo
+
+01:12:17.660 --> 01:12:18.900
+e questo è il percetto
+
+01:12:18.900 --> 01:12:19.440
+di modello
+
+01:12:19.440 --> 01:12:21.580
+ed è il percetto
+
+01:12:21.580 --> 01:12:21.860
+per cui
+
+01:12:21.860 --> 01:12:22.800
+adentriamo modelli
+
+01:12:22.800 --> 01:12:23.580
+se lo dà il modello
+
+01:12:23.580 --> 01:12:25.960
+questo modello
+
+01:12:25.960 --> 01:12:26.500
+un modello
+
+01:12:26.500 --> 01:12:26.880
+che insieme
+
+01:12:26.880 --> 01:12:27.400
+i fatti
+
+01:12:27.400 --> 01:12:28.480
+come un dominio
+
+01:12:28.480 --> 01:12:32.300
+ma
+
+01:12:32.300 --> 01:12:36.160
+è notare bene
+
+01:12:36.160 --> 01:12:37.060
+che non posso scegliere
+
+01:12:37.060 --> 01:12:38.020
+quanto piccolo vuoto
+
+01:12:38.020 --> 01:12:38.800
+il dominio
+
+01:12:38.800 --> 01:12:39.720
+può anche essere
+
+01:12:39.720 --> 01:12:40.200
+il dominio
+
+01:12:40.200 --> 01:12:40.620
+che insieme
+
+01:12:40.620 --> 01:12:41.340
+nei fatti vuoti
+
+01:12:41.340 --> 01:12:41.860
+che vuol dire
+
+01:12:41.860 --> 01:12:42.440
+che non ho
+
+01:12:42.440 --> 01:12:42.900
+che non
+
+01:12:42.900 --> 01:12:44.400
+non sto imponendo
+
+01:12:44.400 --> 01:12:44.900
+nessun tipo
+
+01:12:44.900 --> 01:12:45.620
+di conoscenza
+
+01:12:45.620 --> 01:12:48.900
+è partiale
+
+01:12:48.900 --> 01:12:50.820
+già assominio
+
+01:12:50.820 --> 01:12:51.360
+ricordate
+
+01:12:51.360 --> 01:12:51.860
+ci abbiamo
+
+01:12:51.860 --> 01:12:52.440
+l'apporto
+
+01:12:52.440 --> 01:12:53.540
+facevamo la parzialità
+
+01:12:53.540 --> 01:12:54.340
+perché ci ne avevamo
+
+01:12:54.340 --> 01:12:55.060
+i percetti
+
+01:12:55.060 --> 01:12:56.060
+abbiamo fatto
+
+01:12:56.060 --> 01:12:56.840
+la parzialità
+
+01:12:56.840 --> 01:12:57.800
+perché ci ne avevamo
+
+01:12:57.800 --> 01:12:59.120
+i fatti
+
+01:12:59.120 --> 01:13:01.500
+tutte scelte
+
+01:13:01.500 --> 01:13:02.940
+che creano
+
+01:13:02.940 --> 01:13:03.740
+quella diversità
+
+01:13:03.740 --> 01:13:04.600
+la subiettività
+
+01:13:04.600 --> 01:13:06.000
+e che noi possiamo
+
+01:13:06.000 --> 01:13:07.420
+modellare matematicamente
+
+01:13:07.420 --> 01:13:08.540
+di quello che ho parlato
+
+01:13:08.540 --> 01:13:09.500
+è una seconda lezione
+
+01:13:09.500 --> 01:13:13.140
+quindi
+
+01:13:13.140 --> 01:13:14.380
+due parti
+
+01:13:14.380 --> 01:13:14.820
+ci sono
+
+01:13:14.820 --> 01:13:16.220
+unitamente inconsistenti
+
+01:13:16.220 --> 01:13:18.840
+e questa
+
+01:13:18.840 --> 01:13:19.260
+è una
+
+01:13:19.260 --> 01:13:19.920
+infiezione
+
+01:13:19.920 --> 01:13:20.300
+perché
+
+01:13:20.300 --> 01:13:20.780
+il concetto
+
+01:13:20.780 --> 01:13:22.860
+di infiezione
+
+01:13:22.860 --> 01:13:23.660
+due parti
+
+01:13:23.660 --> 01:13:24.880
+sono inconsistenti
+
+01:13:24.880 --> 01:13:28.000
+se uno
+
+01:13:28.000 --> 01:13:28.700
+il fatto
+
+01:13:28.700 --> 01:13:28.960
+che
+
+01:13:28.960 --> 01:13:31.200
+in un modello
+
+01:13:31.200 --> 01:13:31.940
+sempre uno
+
+01:13:31.940 --> 01:13:32.840
+appartiene a M
+
+01:13:32.840 --> 01:13:33.560
+e che
+
+01:13:33.560 --> 01:13:34.260
+vuol fare il prodotto
+
+01:13:34.260 --> 01:13:35.100
+proprio appartiene a M
+
+01:13:35.100 --> 01:13:35.500
+diceva
+
+01:13:35.500 --> 01:13:42.880
+notare bene
+
+01:13:42.880 --> 01:13:44.160
+che
+
+01:13:44.160 --> 01:13:46.320
+questa roba qui
+
+01:13:46.320 --> 01:13:47.720
+della consistenza
+
+01:13:47.720 --> 01:13:48.480
+inconsistenza
+
+01:13:48.480 --> 01:13:48.900
+di fatto
+
+01:13:48.900 --> 01:13:49.920
+quello che ho detto prima
+
+01:13:49.920 --> 01:13:50.920
+ma da dove arriva
+
+01:13:50.920 --> 01:13:51.800
+questa consistenza
+
+01:13:51.800 --> 01:13:52.620
+inconsistenza
+
+01:13:52.620 --> 01:13:53.940
+dov'è l'inconsistenza
+
+01:13:53.940 --> 01:13:54.720
+sicuramente
+
+01:13:54.720 --> 01:13:55.800
+nella testa
+
+01:13:55.800 --> 01:13:56.100
+abbiamo
+
+01:13:56.100 --> 01:13:56.460
+la stessa
+
+01:13:56.460 --> 01:13:57.160
+mariterella
+
+01:13:57.160 --> 01:13:57.780
+e la maniera
+
+01:13:57.780 --> 01:13:58.380
+e lo vogliamo
+
+01:13:58.380 --> 01:13:58.920
+per dire
+
+01:13:58.920 --> 01:14:00.020
+sicuramente
+
+01:14:00.020 --> 01:14:00.560
+nella testa
+
+01:14:00.560 --> 01:14:00.880
+abbiamo
+
+01:14:00.880 --> 01:14:01.920
+che se c'è la donna
+
+01:14:01.920 --> 01:14:02.880
+non serve
+
+01:14:02.880 --> 01:14:03.520
+un cucchiaio
+
+01:14:03.520 --> 01:14:04.380
+ma poi
+
+01:14:04.380 --> 01:14:05.240
+diciamo questo
+
+01:14:05.240 --> 01:14:08.980
+lo forziamo
+
+01:14:08.980 --> 01:14:11.000
+è quella cosa
+
+01:14:11.000 --> 01:14:11.700
+che a scuola
+
+01:14:11.700 --> 01:14:12.540
+abbiamo imparato
+
+01:14:12.540 --> 01:14:12.960
+e che
+
+01:14:12.960 --> 01:14:13.560
+nei sistemi
+
+01:14:13.560 --> 01:14:14.060
+mettiamo
+
+01:14:14.060 --> 01:14:14.880
+esattamente
+
+01:14:14.880 --> 01:14:15.760
+le logiche
+
+01:14:15.760 --> 01:14:16.780
+dei concetti
+
+01:14:16.780 --> 01:14:17.600
+e vediamo
+
+01:14:17.600 --> 01:14:18.260
+che la gente
+
+01:14:18.260 --> 01:14:18.720
+ha tentato
+
+01:14:18.720 --> 01:14:19.300
+oggi
+
+01:14:19.300 --> 01:14:20.500
+che quando tu
+
+01:14:20.500 --> 01:14:21.280
+non è che tu vuoi
+
+01:14:21.280 --> 01:14:22.400
+essere confuso
+
+01:14:22.400 --> 01:14:23.240
+su cucchiaio
+
+01:14:23.240 --> 01:14:23.860
+e le forchette
+
+01:14:23.860 --> 01:14:25.020
+ok
+
+01:14:25.020 --> 01:14:25.840
+tu vuoi
+
+01:14:25.840 --> 01:14:26.620
+catturare il fatto
+
+01:14:26.620 --> 01:14:27.060
+che
+
+01:14:27.060 --> 01:14:28.380
+vedi un cucchiaio
+
+01:14:28.380 --> 01:14:28.840
+un cucchiaio
+
+01:14:28.840 --> 01:14:29.340
+un cucchiaio
+
+01:14:29.340 --> 01:14:30.120
+non è una forchetta
+
+01:14:30.120 --> 01:14:31.300
+quindi
+
+01:14:31.300 --> 01:14:32.060
+questo concetto
+
+01:14:32.060 --> 01:14:33.300
+di inconsistenza
+
+01:14:33.300 --> 01:14:34.300
+è un concetto
+
+01:14:34.300 --> 01:14:34.820
+che si fa
+
+01:14:34.820 --> 01:14:35.820
+che è primitivo
+
+01:14:35.820 --> 01:14:36.860
+ma è primitivo
+
+01:14:36.860 --> 01:14:37.280
+perché
+
+01:14:37.280 --> 01:14:37.940
+è perché
+
+01:14:37.940 --> 01:14:38.800
+non decidiamo noi
+
+01:14:38.800 --> 01:14:39.620
+e com'è che facciamo
+
+01:14:39.620 --> 01:14:40.120
+decidere
+
+01:14:40.120 --> 01:14:41.140
+perché scriviamo
+
+01:14:41.140 --> 01:14:41.700
+le regole
+
+01:14:41.700 --> 01:14:42.680
+scriviamo qua
+
+01:14:42.680 --> 01:14:43.700
+e poi come facciamo
+
+01:14:43.700 --> 01:14:44.080
+a dirlo
+
+01:14:44.080 --> 01:14:44.960
+che se ogni volta
+
+01:14:44.960 --> 01:14:45.580
+che io mi fai
+
+01:14:45.580 --> 01:14:46.020
+un insieme
+
+01:14:46.020 --> 01:14:46.740
+e mi ci metti
+
+01:14:46.740 --> 01:14:47.080
+per quale
+
+01:14:47.080 --> 01:14:47.300
+io dico
+
+01:14:47.300 --> 01:14:48.360
+sono inconsistenti
+
+01:14:48.360 --> 01:14:49.220
+insieme
+
+01:14:49.220 --> 01:14:49.780
+io ti dico
+
+01:14:49.780 --> 01:14:50.440
+che non va bene
+
+01:14:50.440 --> 01:14:51.560
+e dico
+
+01:14:51.560 --> 01:14:52.060
+che non va bene
+
+01:14:52.060 --> 01:14:52.960
+matematicamente
+
+01:14:52.960 --> 01:14:53.360
+ma perché
+
+01:14:53.360 --> 01:14:54.600
+se io ho fatto bene
+
+01:14:54.600 --> 01:14:55.940
+questa somatizzazione
+
+01:14:55.940 --> 01:14:57.080
+questa roba qua
+
+01:14:57.080 --> 01:14:57.720
+è esattamente
+
+01:14:57.720 --> 01:14:58.380
+quello che
+
+01:14:58.380 --> 01:14:59.040
+io voglio
+
+01:14:59.040 --> 01:14:59.700
+che succeda
+
+01:14:59.700 --> 01:15:00.480
+non voglio
+
+01:15:00.480 --> 01:15:01.600
+che i cucchiai
+
+01:15:01.600 --> 01:15:02.280
+mi mettono qualche
+
+01:15:02.280 --> 01:15:03.240
+non voglio
+
+01:15:03.240 --> 01:15:06.320
+che i due treni
+
+01:15:06.320 --> 01:15:07.000
+non si scondi
+
+01:15:07.000 --> 01:15:07.600
+due treni
+
+01:15:07.600 --> 01:15:08.600
+che non si scondano
+
+01:15:08.600 --> 01:15:09.300
+come i due treni
+
+01:15:09.300 --> 01:15:10.060
+non si scondano
+
+01:15:10.060 --> 01:15:10.780
+e così via
+
+01:15:10.780 --> 01:15:14.600
+scaricato
+
+01:15:14.600 --> 01:15:17.700
+quindi
+
+01:15:17.700 --> 01:15:21.100
+la regola è
+
+01:15:21.100 --> 01:15:22.380
+che un modello
+
+01:15:22.380 --> 01:15:24.100
+dato un dominio
+
+01:15:24.100 --> 01:15:26.460
+dato un dominio
+
+01:15:26.460 --> 01:15:29.380
+ci sono due
+
+01:15:29.380 --> 01:15:29.920
+alla
+
+01:15:29.920 --> 01:15:31.180
+è definito
+
+01:15:31.180 --> 01:15:31.500
+come insieme
+
+01:15:31.500 --> 01:15:32.020
+di fatti
+
+01:15:32.020 --> 01:15:32.840
+ci sono due
+
+01:15:32.840 --> 01:15:34.480
+alla n
+
+01:15:34.480 --> 01:15:36.040
+possibili modelli
+
+01:15:36.040 --> 01:15:38.720
+che sono
+
+01:15:38.720 --> 01:15:39.260
+insieme
+
+01:15:39.260 --> 01:15:39.960
+del dominio
+
+01:15:39.960 --> 01:15:41.720
+quindi
+
+01:15:41.720 --> 01:15:42.460
+una volta
+
+01:15:42.460 --> 01:15:42.860
+siamo dati
+
+01:15:42.860 --> 01:15:43.440
+il linguaggio
+
+01:15:43.440 --> 01:15:44.260
+per definire
+
+01:15:44.260 --> 01:15:45.600
+con tutte queste regole
+
+01:15:45.600 --> 01:15:46.840
+possiamo
+
+01:15:46.840 --> 01:15:47.680
+questionare il modello
+
+01:15:47.680 --> 01:15:48.940
+ma mentre qui
+
+01:15:48.940 --> 01:15:49.700
+noi permettiamo
+
+01:15:49.700 --> 01:15:50.380
+più salire
+
+01:15:50.380 --> 01:15:51.020
+non ciò
+
+01:15:51.020 --> 01:15:51.760
+possiamo dire
+
+01:15:51.760 --> 01:15:54.280
+allora ci permettiamo
+
+01:15:54.280 --> 01:15:54.700
+anche fatti
+
+01:15:54.700 --> 01:15:55.600
+consistenti
+
+01:15:55.600 --> 01:15:58.540
+e poi
+
+01:15:58.540 --> 01:15:59.180
+ovviamente
+
+01:15:59.180 --> 01:15:59.700
+abbiamo l'altro
+
+01:15:59.700 --> 01:16:00.040
+che abbiamo
+
+01:16:00.040 --> 01:16:00.560
+calzolato
+
+01:16:00.560 --> 01:16:02.340
+ok
+
+01:16:02.340 --> 01:16:05.920
+un modello
+
+01:16:05.920 --> 01:16:06.480
+è l'insieme
+
+01:16:06.480 --> 01:16:06.920
+dei fatti
+
+01:16:06.920 --> 01:16:07.420
+che noi
+
+01:16:07.420 --> 01:16:08.440
+siamo interessati
+
+01:16:08.440 --> 01:16:11.480
+e quando faremo
+
+01:16:11.480 --> 01:16:11.940
+poi
+
+01:16:11.940 --> 01:16:13.140
+la teoria
+
+01:16:13.140 --> 01:16:13.840
+come ho già detto
+
+01:16:13.840 --> 01:16:14.840
+le regole
+
+01:16:14.840 --> 01:16:14.860
+le regole
+
+01:16:14.860 --> 01:16:16.180
+le SO
+
+01:16:16.180 --> 01:16:18.100
+le triple
+
+01:16:18.100 --> 01:16:18.760
+che scriveremo
+
+01:16:18.760 --> 01:16:19.100
+diranno
+
+01:16:19.100 --> 01:16:19.760
+esattamente
+
+01:16:19.760 --> 01:16:22.420
+il modello
+
+01:16:22.420 --> 01:16:23.340
+che consideriamo
+
+01:16:23.340 --> 01:16:24.800
+ma il modo
+
+01:16:24.800 --> 01:16:26.000
+con cui le scriveremo
+
+01:16:26.000 --> 01:16:26.800
+saranno tali
+
+01:16:26.800 --> 01:16:27.340
+per cui
+
+01:16:27.340 --> 01:16:28.340
+noi possiamo
+
+01:16:28.340 --> 01:16:29.220
+algoritmicamente
+
+01:16:29.220 --> 01:16:29.820
+decidere
+
+01:16:29.820 --> 01:16:30.420
+se data
+
+01:16:30.420 --> 01:16:31.500
+un certo modello
+
+01:16:31.500 --> 01:16:32.100
+che abbiamo costruito
+
+01:16:32.100 --> 01:16:32.960
+di una certa maniera
+
+01:16:32.960 --> 01:16:34.200
+noi stiamo costruendo
+
+01:16:34.200 --> 01:16:34.640
+un modello
+
+01:16:34.640 --> 01:16:35.540
+che è in questo sistema
+
+01:16:35.540 --> 01:16:37.260
+e chiaramente
+
+01:16:37.260 --> 01:16:39.380
+come è
+
+01:16:39.380 --> 01:16:40.320
+parlato del model
+
+01:16:40.320 --> 01:16:40.800
+checking
+
+01:16:40.800 --> 01:16:41.740
+come è fatto
+
+01:16:41.740 --> 01:16:42.100
+ad esempio
+
+01:16:42.100 --> 01:16:44.100
+un sistema
+
+01:16:44.100 --> 01:16:44.500
+che mi dice
+
+01:16:44.500 --> 01:16:45.420
+a garantizzarti
+
+01:16:45.420 --> 01:16:46.420
+a dire
+
+01:16:46.420 --> 01:16:47.760
+che
+
+01:16:47.760 --> 01:16:51.060
+che le regole
+
+01:16:51.060 --> 01:16:51.880
+non si scontrano
+
+01:16:51.880 --> 01:16:53.400
+e tu fai
+
+01:16:53.400 --> 01:16:53.640
+questo
+
+01:16:53.640 --> 01:16:54.160
+il modello
+
+01:16:54.160 --> 01:16:54.560
+e poi dici
+
+01:16:54.560 --> 01:16:54.860
+le regole
+
+01:16:54.860 --> 01:16:55.600
+si scontrano
+
+01:16:55.600 --> 01:16:59.580
+e lui ti dice
+
+01:16:59.580 --> 01:16:59.760
+no
+
+01:16:59.760 --> 01:17:00.220
+non è possibile
+
+01:17:00.220 --> 01:17:03.300
+a quel punto
+
+01:17:03.300 --> 01:17:03.920
+la tua
+
+01:17:03.920 --> 01:17:04.780
+il tuo go
+
+01:17:04.780 --> 01:17:06.240
+tu gli dici
+
+01:17:06.240 --> 01:17:06.880
+tutte le cose
+
+01:17:06.880 --> 01:17:07.540
+che non vuoi
+
+01:17:07.540 --> 01:17:08.080
+gli dici
+
+01:17:08.080 --> 01:17:08.500
+ma è vero
+
+01:17:08.500 --> 01:17:09.120
+o non è vero
+
+01:17:09.120 --> 01:17:10.160
+e lui ti dice
+
+01:17:10.160 --> 01:17:10.320
+no
+
+01:17:10.320 --> 01:17:10.940
+non è vero
+
+01:17:10.940 --> 01:17:11.720
+e si è sbagliato
+
+01:17:11.720 --> 01:17:12.300
+ah è vero
+
+01:17:12.300 --> 01:17:12.560
+ah si
+
+01:17:12.560 --> 01:17:12.840
+guarda
+
+01:17:12.840 --> 01:17:13.380
+è vero
+
+01:17:13.380 --> 01:17:14.100
+che si scontrano
+
+01:17:14.100 --> 01:17:14.960
+perché se per
+
+01:17:14.960 --> 01:17:16.320
+il segnale lì
+
+01:17:16.320 --> 01:17:17.360
+diventa verde
+
+01:17:17.360 --> 01:17:19.120
+diventa arancione
+
+01:17:19.120 --> 01:17:20.480
+il vetenziato
+
+01:17:20.480 --> 01:17:20.900
+si avrò
+
+01:17:20.900 --> 01:17:21.260
+cambio
+
+01:17:21.260 --> 01:17:21.800
+e si scontrano
+
+01:17:21.800 --> 01:17:22.440
+e ti prova
+
+01:17:22.440 --> 01:17:24.400
+esattamente
+
+01:17:24.400 --> 01:17:25.040
+la sequenza
+
+01:17:25.040 --> 01:17:26.440
+di relazioni
+
+01:17:26.440 --> 01:17:27.180
+tali per cui
+
+01:17:27.180 --> 01:17:27.600
+il vetenno
+
+01:17:27.600 --> 01:17:28.200
+è assolutato
+
+01:17:28.200 --> 01:17:29.420
+e tu non avevi
+
+01:17:29.420 --> 01:17:30.120
+dimenticato
+
+01:17:30.120 --> 01:17:30.660
+ma perché
+
+01:17:30.660 --> 01:17:32.960
+non avevi dimenticato
+
+01:17:32.960 --> 01:17:33.740
+non perché sei sceco
+
+01:17:33.740 --> 01:17:34.480
+ma perché è uno
+
+01:17:34.480 --> 01:17:35.580
+su duecento miliardi
+
+01:17:35.580 --> 01:17:36.520
+ovviamente tu non c'hai
+
+01:17:36.520 --> 01:17:37.720
+verso che andava a pensare
+
+01:17:37.720 --> 01:17:38.740
+ma la pensata
+
+01:17:38.740 --> 01:17:40.000
+è la macchina di azione
+
+01:17:40.000 --> 01:17:48.400
+quindi un dominio
+
+01:17:48.400 --> 01:17:51.020
+è quello che
+
+01:17:51.020 --> 01:17:51.920
+abbiamo detto
+
+01:17:51.920 --> 01:17:52.840
+insieme di quello
+
+01:17:52.840 --> 01:17:53.520
+che noi
+
+01:17:53.520 --> 01:17:55.960
+possiamo percepire
+
+01:17:55.960 --> 01:17:58.460
+permette in consistent facts
+
+01:17:58.460 --> 01:18:00.120
+e questa è l'ultima slide
+
+01:18:00.120 --> 01:18:02.780
+chi di voi
+
+01:18:02.780 --> 01:18:04.060
+no
+
+01:18:04.060 --> 01:18:04.860
+i matematici
+
+01:18:04.860 --> 01:18:05.660
+fanno tutto questo
+
+01:18:05.660 --> 01:18:06.320
+da qui in poi
+
+01:18:06.320 --> 01:18:06.960
+c'è l'infinito
+
+01:18:06.960 --> 01:18:08.180
+se non può fare matematica
+
+01:18:08.180 --> 01:18:09.660
+teorie dei tipi
+
+01:18:09.660 --> 01:18:10.840
+teorie dei modelli
+
+01:18:10.840 --> 01:18:12.420
+lo gioco fino a fa modelli
+
+01:18:12.420 --> 01:18:13.420
+come in realtà
+
+01:18:13.420 --> 01:18:13.900
+come moderno
+
+01:18:13.900 --> 01:18:14.880
+costruisce un altro
+
+01:18:14.880 --> 01:18:16.500
+come in questi due modelli
+
+01:18:16.500 --> 01:18:17.900
+gli facciamo il parallelismo
+
+01:18:17.900 --> 01:18:19.080
+li mettono insieme
+
+01:18:19.080 --> 01:18:19.460
+che stiamo
+
+01:18:19.460 --> 01:18:21.840
+a noi non interessa
+
+01:18:21.840 --> 01:18:23.500
+però vogliamo dire
+
+01:18:23.500 --> 01:18:25.540
+però abbiamo detto
+
+01:18:25.540 --> 01:18:26.720
+come c'è l'infinito
+
+01:18:26.720 --> 01:18:30.240
+e poi ci chiede come
+
+01:18:30.240 --> 01:18:30.880
+per far questo
+
+01:18:30.880 --> 01:18:31.480
+di vestire
+
+01:18:31.480 --> 01:18:34.140
+ah certo
+
+01:18:34.140 --> 01:18:34.900
+il quadro
+
+01:18:34.900 --> 01:18:35.480
+lo stavano facendo
+
+01:18:35.480 --> 01:18:36.820
+sicuramente
+
+01:18:36.820 --> 01:18:39.840
+è un montaggio
+
+01:18:39.840 --> 01:18:40.300
+di lavoro
+
+01:18:40.300 --> 01:18:43.440
+a noi non interessa
+
+01:18:43.440 --> 01:18:44.220
+il concetto
+
+01:18:44.220 --> 01:18:45.380
+che abbiamo forzato a casa
+
+01:18:45.380 --> 01:18:46.940
+con cui chiediamo oggi
+
+01:18:46.940 --> 01:18:48.520
+sono
+
+01:18:48.520 --> 01:18:53.780
+per certi domini
+
+01:18:53.780 --> 01:18:54.500
+fatti modelli
+

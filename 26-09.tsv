@@ -1,0 +1,4119 @@
+start	end	text
+0	3360	però per dire che non sta visticciando
+3360	5020	mi deve dare una definizione di visticciare
+5020	7460	la definizione di visticciare è un'azione
+7460	8320	fra due cose
+8320	9820	fra due persone
+9820	11100	tutti i tanghi sono due persone
+11100	17400	tutto questo è il meccanismo
+17400	19800	che quando voi avete fatto
+19800	20760	software engineering
+20760	22280	ve l'hanno spiegato
+22280	25320	è sicuramente qualcosa
+25320	26580	che se tu fai AI
+26580	29020	la devi implementare
+29020	29500	le macchine
+29500	32860	è sicuramente un qualcosa
+32860	33960	che noi come logica
+33960	35320	dobbiamo andare a formalizzare
+35320	36380	in modo che poi
+36380	38160	una volta che siamo messi d'accordo
+38160	40340	sul fatto di come formalizziamo
+40340	42560	questa pittura
+42560	45640	del mondo
+45640	46900	in un linguaggio
+46900	50580	in realtà
+50580	52540	si può arguire o meno
+52540	54480	se la tua descrizione formale
+54480	57120	è una descrizione per lo meno corretta
+57120	59200	in cui si può mettere d'accordo
+59200	60040	del mondo
+60040	64860	allora bene
+64860	69320	allora l'entità è il concetto più importante
+69320	70320	abbiamo già detto che
+70320	72420	nella vostra sommabilizzazione
+72420	73920	e quando volete esercizi in forma
+73920	78960	sono lasciate la presentazione
+78960	79800	come dovete fare
+79800	80880	potete vedere una figura
+80880	83100	e sulla base del purpose
+83100	85280	del problema da risolvere
+85280	87140	se il dettavente
+87140	87940	dovete costruire
+87940	88880	decidete cosa
+88880	90080	come rischiare
+90080	90900	poi abbiamo l'entità
+90900	98040	qual'è la differenza
+98040	99520	tra una figlia o l'entità
+99520	100500	che prima di tutto
+100500	102400	noi
+102400	104340	in qualche maniera
+104340	106960	diciamo che
+106960	108200	ci viene da dire
+108200	108680	che
+108680	110100	le tre persone
+110100	111280	sono diverse fra di loro
+111280	112880	ma sono più simili
+112880	113480	fra di loro
+113480	114680	che fra loro e i cani
+114680	117360	e che i cani
+117360	119100	sono simili
+119100	119660	fra di loro
+119660	120540	e meno simili
+120540	121260	sulle persone
+121260	123480	e che i cani
+123480	123980	probabilmente
+123980	124560	sono più simili
+124560	125080	fra di loro
+125080	126140	e più simili
+126140	126820	alle persone
+126820	127880	della strada
+127880	129420	o degli animali
+129420	131020	o degli alberi
+131020	134800	quindi a questo punto
+134800	135480	stiamo parlando
+135480	137180	di due tipi di relazioni
+137180	138900	una prima relazione
+138900	139560	che è a dire
+139560	141120	come faccia a dire
+141120	141640	che
+141640	144320	due cani
+144320	144900	sono più simili
+144900	145540	fra di loro
+145540	146900	che un cane e un cane
+146900	148960	per chi tu
+148960	149240	vuoi c'è
+149240	149840	degli entità
+149840	151840	quindi
+151840	154360	che questo è
+154360	154760	esattamente
+154760	155360	quello che
+155360	156640	in maniera implicita
+156640	157140	abbiamo fatto
+157140	157860	gli
+157860	159140	entità
+159140	162800	se tu hai
+162800	163520	equità
+163520	166600	mettiamo qua
+166600	167400	organismo
+167400	172120	qua ci mettiamo
+172120	172880	persona
+172880	177120	assumiamo che una persona
+177120	178580	non è un animale
+178580	180280	perché abbiamo potuto
+180280	181880	ammettere come qualcuno fa
+181880	184700	persona sotto animale
+184700	185480	che è come dire
+185480	186320	che una persona
+186320	187460	è anche un animale
+187460	189380	possiamo mettere qua
+189380	189860	pianta
+189860	198860	e allora a questo punto
+198860	199980	se noi
+199980	201320	nello spazio dei concetti
+201320	202120	che ci dà
+202120	204300	una struttura linguistica
+204300	204920	cominciamo a fare
+204920	205780	una gerarchia così
+205780	207420	possiamo dire
+207420	208060	che
+208060	211160	questi due sono simili
+211160	211900	perché sono
+211900	212860	istante
+212860	213640	di persona
+213640	215260	e che
+215260	216820	il cane
+216820	217920	sarà sotto animale
+217920	218720	e sarà più stessa
+218720	219640	la persona
+219640	219980	che
+219980	222220	ha strada
+222220	222760	perché
+222760	223280	sono sotto
+223280	223680	organismo
+223680	224240	di verità
+224240	226480	quindi
+226480	227260	questo aspetto
+227260	229760	dell'e-type
+229760	230180	è
+230180	230580	esso stesso
+230580	231760	un ricetto
+231760	232680	gerarchico
+232680	234500	che in qualche maniera
+234500	235000	cattura
+235000	235760	generazioni
+235760	236980	di similitudine
+236980	240160	sia visiva
+240160	241320	che comportamentale
+241320	242360	che poi esattamente
+242360	242780	è quella che noi
+242780	243780	andiamo a formalizzare
+243780	244980	quando facciamo
+244980	245700	gli armodeli
+245700	247600	perché chiaramente
+247600	248340	noi ci aspettiamo
+248340	248960	che questa persona
+248960	249440	parla
+249440	250000	che questa persona
+250000	250560	parla
+250560	251360	e che il cane
+251360	251800	vai
+251800	253560	e che le piante
+253560	254380	non faccia niente
+254380	254920	oppure almeno
+254920	255520	non abbiano
+255520	256660	mani di soli esterni
+256660	258700	quindi in qualche maniera
+258700	263020	noi possiamo stabilire
+263020	263780	a priori
+263780	264640	e non come fate
+264640	265540	i software engineering
+265540	266320	estendendoli
+266320	266860	armodeli
+266860	267540	verso l'alto
+267540	268160	ma in maniera
+268160	268820	top down
+268820	269960	guardando la struttura
+269960	270680	del linguaggio
+270680	272360	dire che
+272360	275280	possiamo
+275280	276520	dare
+276520	277520	degli e-types
+277520	278320	e questi e-types
+278320	280320	sono a diversi
+280320	280960	livelli
+280960	282340	di generalità
+282340	283860	dove più specifici
+283860	284620	diventiamo
+284620	287060	e più questi e-types
+287060	288200	hanno colesimi
+288200	289280	cioè voglio dire
+289280	290680	due type
+290680	291500	due animali
+291500	292540	due cani
+292540	293400	si muovono
+293400	294280	come due persone
+294280	296340	due cani
+296340	296940	e due mali
+296940	297960	come l'organismo
+297960	299060	nasce o ne muoiono
+299060	299840	nasce o ne muoiono
+299840	300400	però in cani
+300400	300680	e mai
+300680	302520	invece le persone
+302520	305680	parla
+305680	308140	quindi l'appunto fondamentale
+308140	309400	che è classico
+309400	310360	il software engineering
+310360	311420	che formalizzeremo
+311420	312420	in maniera espressiva
+312420	313100	come se faccio
+313100	313800	di un'ora già
+313800	314720	come vedete più volte
+314720	315900	è che
+315900	317040	questo
+317040	317780	a noi
+317780	318200	e ad ognuno
+318200	318940	degli varietari
+318940	319460	associamo
+319460	320280	a delle proprietà
+320280	324280	a quelli che i dettagli
+324280	325140	si chiamano attributi
+325140	327940	che sono solo attributi
+327940	328960	chiamano proprietà
+328960	330760	che è assolutamente
+330760	331360	il fatto
+331360	332200	che noi
+332200	334360	probabilmente
+334360	334900	avete fatto
+334900	335680	c'è un concetto
+335680	336860	di tipi di dato
+336860	337900	noi in qualche maniera
+337900	338620	usiamo
+338620	340440	dei parametri
+340440	340980	che ci vengono
+340980	341880	da nostra cultura
+341880	343180	da noi
+343180	343680	ci hanno insegnato
+343680	344180	a scuola
+344180	345760	con cui noi definiamo
+345760	346900	a quale
+346900	347880	c'è un insieme
+347880	348780	di proprietà
+348780	349640	che sono
+349640	350520	relazioni
+350520	351740	fra
+351740	352720	l'entità
+352720	355820	e ad esempio
+355820	356200	e
+356200	357820	alcune caratteristiche
+357820	358380	dell'entità
+358380	358660	su cui
+358660	359380	verso il peso
+359380	360120	l'altezza
+360120	360740	quindi noi
+360740	361580	cos'è che facciamo
+361580	362660	noi diciamo
+362660	363620	noi prendiamo
+363620	365940	dei
+365940	369380	delle stringhe
+369380	372320	ad esempio
+372320	373700	la stringa
+373700	374140	uno
+374140	375100	due
+375100	375960	tre
+375960	377140	dieci
+377140	378120	undici
+378120	378520	su tre
+378520	378980	eccetera
+378980	379540	oppure
+379540	381200	biondo
+381200	382700	rosso
+382700	384360	nero
+384360	387140	e così via
+387140	392920	anno
+392920	393260	anno
+393260	393860	anno
+393860	396660	mese
+396660	397200	mese
+397200	397720	giorno
+397720	398300	giorno
+398300	399400	distanziate
+399400	400100	tutte le possibili
+400100	400920	combinazioni
+400920	402900	oppure
+402900	405300	latitudine
+405300	406560	prositudine
+406560	408260	transitudine
+408260	410380	e qui sono
+410380	410980	i dettati
+410980	416340	ma cosa sono i dettati
+416340	417220	sono delle entità
+417220	419120	sono delle entità
+419120	419980	in cui
+419980	423020	proprietà
+423020	424940	come avete detto
+424940	426520	sono predefinite
+426520	427640	quindi ti hanno insegnato
+427640	429440	che nei reali
+429440	431900	nei naturali
+431900	433360	sono il più o il meno
+433360	433960	uguali
+433960	434340	maggiore
+434340	434880	e minore
+434880	435840	e noi lo usiamo
+435840	436500	negli associati
+436500	439620	però sono entità
+439620	441860	il numero uno
+441860	443860	è un'entità
+443860	446840	quando noi diciamo uno
+446840	452320	diciamo un'entità
+452320	453660	che sta nella nostra terra
+453660	454400	e da qualche parte
+454400	455040	in un erone
+455040	455880	sta tanto vero
+455880	456840	che i matematici
+456840	458140	che sono sempre decisi
+458140	460400	distinguono tra uno
+460400	461820	e il cappellino sopra
+461820	463720	che chiamano un numero
+463720	465660	dal numero uno
+465660	466300	che è
+466300	467760	il significato inteso
+467760	471400	quindi
+471400	473760	chiaramente
+473760	474520	è importante bene
+474520	474960	che
+474960	475780	arriviamo dopo
+475780	477400	perché abbiamo
+477400	477980	questi propri
+477980	478300	entità
+478300	480360	ovviamente
+480360	481500	una volta che
+481500	482580	io
+482580	483580	ho
+483580	484560	sono indietro
+484560	485820	ma una volta che io
+485820	488040	stabilisco
+488040	488580	che
+488580	491000	la
+491000	492080	l'entity type
+492080	493220	persona
+493220	494920	ha come
+494920	495640	proprietà
+495640	496860	colore dei capelli
+496860	498180	guarda a prendere
+498180	498800	il data type
+498800	499780	colore dei capelli
+499780	500780	che me lo definisco
+500780	501800	oppure mi viene dato
+501800	504160	e sulla base di quello
+504160	506280	posso andare a
+506280	508860	a valutarlo
+508860	510160	perché ovviamente
+510160	511260	c'è un punto fondamentale
+511260	512000	questo data type
+512000	512680	tanto che la gente
+512680	513820	mediamente è brava
+513820	515500	sono tutti data type
+515500	517140	per cui c'è un meccanismo
+517140	517960	di valutarli
+517960	520440	il peso
+520440	521480	avete la bilancia
+521480	524220	e per garantire
+524220	524800	che tu ti pesa
+524800	525380	questa cosa
+525380	526160	c'è un museo
+526160	527560	della misura
+527560	528600	a parigi
+528600	529580	dove dicono
+529580	530020	un chilo
+530020	530800	si pesa così
+530800	532460	con l'errore del 5%
+532460	533240	con il 10%
+533240	533780	e così via
+533780	535320	quindi questi data type
+535320	535660	qui
+535660	536540	come anche
+536540	537200	le relazioni
+537200	537780	tra entità
+537780	538540	e le doppia minuto
+538540	539340	sono
+539340	542780	in un qualche parte
+542780	543400	ma sono
+543400	544240	misurabili
+544240	545540	con un algoritmo
+545540	546040	di versione
+546040	546380	di questo
+546380	547920	chiaramente
+547920	548440	quando hai fatto
+548440	549640	questa roba qui
+549640	551960	chiaramente
+551960	553220	tu dici
+553220	554460	puoi a questo punto
+554460	555360	fare quello che ho detto
+555360	556260	associare
+556260	557360	a un entity type
+557360	558680	una
+558680	559560	propria entity
+559560	559900	data type
+559900	560480	diciamo dire
+560480	561700	le persone
+561700	562540	hanno tutti
+562540	565000	un attributo
+565000	565380	chiamato
+565380	566300	colore dei capelli
+566300	568580	colore dei capelli
+568580	570200	dato data type
+570200	571360	poi c'è bianco
+571360	571900	lo soverso
+571900	574880	chiaramente
+574880	575760	se lo puoi fare
+575760	576160	un sistema
+576160	576760	dei AI
+576760	577760	devi dare
+577760	578220	il sistema
+578220	579460	di data type
+579460	580160	per comunità
+580160	585260	il sistema
+585260	586580	informativo
+586580	587100	probabilmente
+587100	587420	chiedevo
+587420	587940	ma di metterlo
+587940	591500	però
+591500	593340	queste proprie entità
+593340	594560	sono caratteristiche
+594560	595020	perché
+595020	597760	perché ti permettono
+597760	598660	una volta che
+598660	600200	linguisticamente
+600200	601060	di dire
+601060	603860	di identificare
+603860	604720	di descrivere
+604720	605200	io ho usato
+605200	605460	ancora
+605460	606240	descrivere
+606240	608360	nella lezione
+608360	608780	precedente
+608780	609840	di descrivere
+609840	610520	le entità
+610520	611400	quindi è vero
+611400	611940	sì che
+611940	613100	noi
+613100	615460	l'entità
+615460	617200	questa persona qua
+617200	618020	che si muove
+618020	618840	non siamo in grado
+618840	619460	di tirarsi
+619460	620240	la testa
+620240	620880	e farla venere
+620880	621380	voi non siete
+621380	621600	in grado
+621600	622360	di descriverla
+622360	623400	ma sicuramente
+623400	624220	a un'altra persona
+624220	624600	se lo avete
+624600	625140	metto a foto
+625140	625660	gliela potete
+625660	626120	descrivere
+626120	627000	c'è nessun modo
+627000	627960	che lo potete
+627960	628180	descrivere
+628180	629000	in maniera completa
+629000	629320	una cosa
+629320	629820	avete vista
+629820	630680	però sicuramente
+630680	633240	quello che potete dire
+633240	634000	potete scegliere
+634000	635300	le cinque proprietà
+635300	636820	con cui la descrivete
+636820	638240	colore dei capelli
+638240	639320	colore della pelle
+639320	640880	colore della maglietta
+640880	642060	altitudine
+642060	642520	peso
+642520	643200	posizione
+643200	644100	le scegliete
+644100	645720	e che sono queste
+645720	646420	proprietà
+646420	646900	e questa
+646900	647240	proprietà
+647240	647800	qui vi faccio
+647800	648160	una bella
+648160	648700	tabella
+648700	649820	di un database
+649820	650820	e di fatto
+650820	651320	pur
+651320	652840	da una volta
+652840	653160	che dite
+653160	653880	questa è l'entità
+653880	654540	numero 1
+654540	655400	e questa è l'entità
+655400	656000	numero 2
+656000	656580	e questa è l'entità
+656580	657260	numero 3
+657260	657920	che hanno questa
+657920	658220	tabella
+658220	658820	di proprietà
+658820	661840	e nella misura
+661840	662180	in cui
+662180	662860	io ho fatto
+662860	664620	il mio sistema
+664620	665320	informativo
+665320	666400	quelle tabelle
+666400	666800	sono tutte
+666800	667800	quelle che mi servono
+667800	670540	per
+670540	672500	quello che devo fare
+672500	673380	chiaramente
+673380	674060	voglio dire
+674060	675640	vedete bene
+675640	676380	i vostri esami
+676380	677400	non penso
+677400	677980	che ci sia il nome
+677980	678960	dei vostri territori
+678960	679440	o il nome
+679440	679820	dei vostri
+679820	680140	nonni
+680140	680780	sicuramente
+680780	681160	no
+681160	682880	voi potete
+682880	683060	vedere
+683060	683340	le due
+683340	683780	delle producce
+683780	684660	che servono
+684660	686140	per fare
+686140	687180	e chiaramente
+687180	688260	sarà anche la vostra foto
+688260	688960	ma sarà una foto
+688960	690460	di quando siete arrivati
+690460	691040	e mai
+691040	691600	perché la giudicazione
+691600	692040	da barba
+692040	692460	e di via
+692460	692660	ma
+692660	693060	mi ha anche
+693060	694020	informazioni
+694020	695200	sulle le altre
+695200	697480	e sono quelle informazioni
+697480	698400	che by design
+698400	699320	come vi hanno insegnato
+699320	699800	a fare
+699800	701620	sono quelle che servono
+701620	702700	per dare una descrizione
+702700	703560	parziale
+703560	704480	di quello che siete
+704480	706460	ma soprattutto
+706460	707280	sufficiente
+707280	708020	per il fatto
+708020	709100	di quello che dovete fare
+709100	712100	ma
+712100	712740	quando
+712740	713640	sono due persone qua
+713640	714260	ci sono due qua
+714260	715220	una per descrivere
+715220	715780	in quanto stanno
+715780	716300	la descrive
+716300	716780	le relazioni
+716780	717340	con gli altri
+717340	717860	quindi
+717860	718560	questa è sempre
+718560	719440	vicina a questa
+719440	720500	qual'è una relazione
+720500	721180	potrebbe essere
+721180	722020	questa è moglie
+722020	723040	è amica
+723040	724900	è parente
+724900	728180	ma parla
+728180	736220	parla
+736220	737540	queste relazioni
+737540	738720	tendenzialmente
+738720	739860	sono i stai tipi
+739860	741000	spaziali
+741000	741840	vediamo più avanti
+741840	743020	azioni
+743020	743720	che uno fa
+743720	744340	che sono quelle
+744340	745800	che sono più difficili
+745800	746460	da bloccare
+746460	747460	e anche relazioni
+747460	748400	tipo sociale
+748400	750000	relazioni sociali
+750000	751120	di ones
+751120	751140	di ones
+751140	751500	di ones
+751500	752560	di ones
+752560	753360	qual'è la riferente
+753360	754400	tra le prime e le seconde
+754400	755220	che le prime
+755220	756000	sono relazioni
+756000	757240	sono proprietà
+757240	757980	della singola
+757980	758460	entità
+758460	759420	quindi sono relazioni
+759420	760020	tra entità
+760020	763340	e poi
+763340	763960	c'è i tipi
+763960	764660	di relazioni
+764660	766380	la relazione
+766380	767400	la relazione
+767400	768780	e questa
+768780	769380	abbiamo già visto
+769380	769840	nella
+769840	772500	la relazione
+772500	773140	friend
+773140	777020	che uno può scrivere
+777020	777400	come
+777400	778320	has friend
+778320	781300	o come
+781300	781680	friend
+781680	781980	or
+781980	787100	dove chiaramente
+787100	789100	la direzione
+789100	789920	è la stessa priorità
+789920	790320	di insieme
+790320	790840	a un'inverse
+790840	791460	dell'altra
+791460	797080	è una relazione
+797080	797480	che
+797480	800520	ha come valori
+800520	801240	tutte le persone
+801240	801880	che sono amiche
+801880	810700	e chiaramente
+810700	813460	abbiamo
+813460	813900	sia
+813900	814920	le relazioni
+814920	815900	io sono
+815900	817000	professore suo
+817000	817840	professore suo
+817840	818540	di logica
+818540	820300	ma poi c'è anche
+820300	820980	il fatto che
+820980	822340	professore e studente
+822340	823180	sono delle relazioni
+823180	824080	che all'università
+824080	824580	definiscono
+824580	825220	certi ruoli
+825220	831000	e chiaramente
+831000	835260	una volta
+835260	836040	che avete scelto
+836040	836660	l'entità
+836660	837860	o l'entity type
+837860	839140	puoi andare
+839140	840000	a definire queste
+840000	840440	bene
+840440	841640	ve l'avevo già detto
+841640	842380	l'altra volta
+842380	842960	sono
+842960	846020	1,2,3,4,5,6
+846020	849480	è tutto quello
+849480	850100	che ci serve
+850100	852800	per descrivere il mondo
+852800	854040	e per poter fare
+854040	854480	tutto quello
+854480	855160	vogliamo fare
+855160	857260	chiaramente
+857260	857600	quello
+857600	859000	penso che
+859000	860260	quanto vi avevo detto
+860260	861300	nella seconda lezione
+861300	861980	sia chiaro
+861980	862520	chiaramente
+862520	863360	ogni descrizione
+863360	863980	linguistica
+863980	864300	che è data
+864300	864680	di questa roba
+864680	865420	sarà sempre
+865420	865960	in comprenza
+865960	866520	nessuno
+866520	867240	sarà in grado
+867240	868220	di replicare
+868220	868800	quell'immagri
+868800	869360	che sono in parte
+869360	870000	della foto
+870000	871400	ma nella misura
+871400	871660	in cui
+871660	872180	la descrizione
+872180	872700	parziale
+872700	873160	funziona
+873160	873880	per questo problema
+873880	874580	è rilevante
+874580	879580	ovviamente
+879580	882340	e questi
+882340	883260	i percetti
+883260	883540	che
+883540	884220	non diremo
+884220	884380	più
+884380	884820	e ripeto
+884820	885140	dopo
+885140	885980	i percetti
+885980	886600	semplici
+886600	887240	composti
+887240	887600	sono questi
+887600	888040	sono 6
+888040	890940	ok
+890940	892480	però
+892480	893240	adesso il problema
+893240	894080	in qualche maniera
+894080	895580	dobbiamo dire
+895580	896800	come facciamo a dire
+896800	897340	dobbiamo
+897340	898440	un concetto
+898440	899200	fondamentale
+899200	900360	che è implicito
+900360	901340	nel
+901340	901720	nel
+901720	902720	nel
+902720	903920	nel
+903920	904500	nel
+904500	904860	nel fatto
+904860	905200	di
+905200	907620	modellazione
+907620	908160	perché
+908160	911440	come facciamo a dire
+911440	911760	questo
+911760	912440	l'ho detto prima
+912440	913620	lo ripetiamo
+913620	914480	per chiarezza
+914480	917700	abbiamo detto
+917700	918180	che una volta
+918180	918700	che passiamo
+918700	919260	dalla
+919260	919820	dalla
+919820	921180	descrizione
+921180	921580	logica
+921580	921960	la descrizione
+921960	922920	linguistica
+922920	924420	identifichiamo
+924420	925420	identifichiamo
+925420	925880	queste
+925880	926660	usiamo
+926660	926940	queste
+926940	927300	seppre
+927300	927700	età
+927700	928620	sicuramente
+928620	929000	dobbiamo dire
+929000	929920	l'entity
+929920	930240	l'entity
+930240	930980	l'entità
+930980	934380	ovviamente
+934380	934740	però
+934740	935200	a questo punto
+935200	935700	dobbiamo dire
+935700	937000	quando sono uguali
+937000	937440	e diverse
+937440	939320	non facciamo a dire
+939320	939740	che
+939740	940580	due persone
+940580	941200	hanno maliettato
+941200	941880	il suo colore
+941880	943060	non facciamo a dire
+943060	943840	che due istanze
+943840	944080	di
+944080	944760	di
+944760	944960	di
+944960	945400	di
+945400	946080	di
+946080	947080	di
+947080	949120	me
+949120	949520	visto
+949520	950200	oggi
+950200	950880	siamo
+950880	951100	a questa
+951100	951500	persona
+951500	951820	meno
+951820	952140	quindi
+952140	952540	questo
+952540	953040	concetto
+953040	953740	di
+953740	954300	uguaglianza
+954300	954600	che noi
+954600	954840	dobbiamo
+954840	955340	darci
+955340	956560	è il concetto
+956560	956760	di
+956760	957900	disuguaglianza
+957900	961440	quindi
+961440	961960	il passo
+961960	962720	importante
+962720	963280	da mettere
+963280	964020	in evidenza
+964020	965960	è che
+965960	968800	quando io parlo
+968800	969540	di persona
+969540	970840	come concetto
+970840	972280	come parliamo
+972280	972640	in una lezione
+972640	973280	prossima
+973280	974780	io posso dire
+974780	975440	che il mio
+975440	976200	concetto
+976200	977260	l'avete visto
+977260	977720	due volte
+977720	978480	in due correnti
+978480	979320	diverse
+979320	980380	perché potete dire
+980380	981040	che le due correnti
+981040	982020	sono uguali
+982020	983040	uguali in che cosa?
+983120	983400	in una serie
+983400	984360	di caratteristiche
+984360	985340	che dicono
+985340	985780	che devono dire
+985780	986800	essere uguali
+986800	989780	come fate a dire
+989780	990560	che una persona
+990560	991980	ha messo in questa persona
+991980	993800	due volte
+993800	995520	in due giorni diverse?
+995960	998220	la pace
+998220	999880	e se vestiti
+999880	1000440	la clown
+1000440	1002340	lo dì
+1002340	1004320	si toglie la maschera
+1004320	1004780	lì
+1004780	1005080	anzi
+1005080	1006060	si tolta la maschera
+1006060	1007600	quindi sapete
+1007600	1008360	che la maschera
+1008360	1010760	è una cosa temporale
+1010760	1012060	però
+1012060	1012500	c'è questo
+1012500	1013280	continuo
+1013280	1014120	esercizio
+1014120	1015580	di potere
+1015580	1016220	quando tu hai
+1016220	1016560	due
+1016560	1017940	due occorrenze
+1017940	1018680	parliamo di
+1018680	1019440	occorrenze
+1019440	1021620	di due
+1021620	1022600	entità
+1022600	1025380	noi
+1025380	1026700	dobbiamo poter dire
+1026700	1027500	se queste due
+1027500	1028160	occorrenze
+1028160	1028900	sono occorrenti
+1028900	1029460	della stessa
+1029460	1030060	entità
+1030060	1031520	sono occorrenti
+1031520	1032100	di due diverse
+1032100	1032580	entità
+1032580	1034280	questo poi
+1034280	1035860	diventa fondamentale
+1035860	1038520	più avanti
+1038520	1040340	non solo
+1040340	1041420	devi poter dire
+1041420	1043140	se sono
+1043140	1046800	due
+1046800	1049000	prima di tutto
+1049000	1049420	devi dire
+1049420	1049780	se sono
+1049780	1050200	la stessa
+1050200	1050740	entità
+1050740	1053200	poi
+1053200	1053600	sono la stessa
+1053600	1053960	entità
+1053960	1054580	puoi dire
+1054580	1055060	se è la stessa
+1055060	1055480	entità
+1055480	1056760	se ha la stessa
+1056760	1057200	entità
+1057200	1059000	non necessariamente
+1059000	1060520	però nella misura
+1060520	1061400	il colore dei capelli
+1061400	1062220	può cambiare
+1062220	1064100	però nella misura
+1064100	1066880	nella misura
+1066880	1068140	in cui
+1068140	1071440	quello che ti mette
+1071440	1072400	come uguale
+1072400	1073280	non cambia
+1073280	1075140	fa tutto bene
+1075140	1081680	questa roba
+1081680	1082340	è veramente
+1082340	1083260	pervasiva
+1083260	1084140	in termini
+1084140	1084980	di modellazione
+1084980	1086620	vi faccio un esempio
+1098140	1128120	grazie a tutti
+1128140	1135980	se io dico
+1135980	1136960	ho visto Paolo
+1136960	1138100	che aveva i capelli bianchi
+1138100	1138680	e poi dice
+1138680	1139460	ho visto Paolo
+1139460	1140620	che aveva i capelli rossi
+1140620	1141660	la stessa persona
+1141660	1142000	sì
+1142000	1142920	o no
+1142920	1143980	sì grazie a nessuno
+1143980	1146380	se io dico
+1146380	1147340	ho visto
+1147340	1148260	un uomo
+1148260	1149440	che aveva i capelli bianchi
+1149440	1150120	ho visto un uomo
+1150120	1150920	che aveva i capelli rossi
+1150920	1151320	probabilmente
+1151320	1152520	sono diversi
+1152520	1154000	perché
+1154000	1155660	il colore dei capelli
+1155660	1158200	è meno
+1158200	1159120	identificante
+1159120	1159720	del nome
+1159720	1162220	potremmo anche essere
+1162220	1162660	due Mario
+1162660	1163140	e due Paolo
+1163140	1163640	diverso
+1163640	1164560	ma voi avete pensato
+1164560	1165180	al suo Paolo
+1165180	1165980	e altrimenti
+1165980	1166940	avrete pensato
+1166940	1167620	tutti i posti
+1167620	1168500	sarete aspettati
+1168500	1168940	di che hanno
+1168940	1169920	un Paolo diverso
+1169920	1172500	quindi per dire
+1172500	1172900	che
+1172900	1173860	e ho messo a vista
+1173860	1174700	appunto per dare
+1174700	1175860	questa idea
+1175860	1176300	di un colore
+1176300	1176980	diverso
+1176980	1177160	no
+1177160	1178360	quindi
+1178360	1179460	questo per dire
+1179460	1179880	che noi
+1179880	1181380	continuamente
+1181380	1182940	questa operazione
+1182940	1183540	della semi
+1183540	1184060	interversa
+1184060	1184520	facciamo
+1184520	1184900	che poi
+1184900	1185420	esattamente
+1185420	1185720	è quello
+1185720	1186560	di comportare
+1186560	1188420	nella nostra
+1188420	1189300	teoria dei modelli
+1189300	1191080	e notare bene
+1191080	1191600	che
+1191600	1192500	come poi
+1192500	1193080	vedrete
+1193080	1194400	chi di voi
+1194400	1195600	farà
+1195600	1196520	forse
+1196520	1197300	il prossimo anno
+1197300	1201960	il problema
+1201960	1202700	è di capire
+1202700	1204440	se due entità
+1204440	1205280	due occorrenti
+1205280	1205800	di entità
+1205800	1206400	nel web
+1206400	1208480	quindi su dati
+1208480	1209180	non visibili
+1209180	1210100	solo una serenità
+1210100	1210640	è il problema
+1210640	1211580	più difficile che c'è
+1211580	1213500	ed è il motivo
+1213500	1214500	per cui la gente
+1214500	1216360	nel mondo reale
+1216360	1217220	si è inventata
+1217220	1221820	il numero di passaporto
+1221820	1223480	il fiscal code
+1223480	1224500	perché?
+1224700	1225100	è perché
+1225100	1226440	il nome è un contenente
+1226440	1227020	e dei dati
+1227020	1228980	quindi
+1228980	1229560	questa specie
+1229560	1230140	della semi
+1230140	1231060	perché dove è
+1231060	1231560	il vero punto?
+1231660	1232520	perché in qualche maniera
+1232520	1233380	quando io
+1233380	1234500	nel mondo linguistico
+1234500	1236100	devo poter dire
+1236100	1236980	come ho detto ieri
+1236980	1237880	che questa parola
+1237880	1241340	c'è questa stringa
+1241340	1241940	ma l'unica
+1241940	1242660	che fa identità
+1242660	1243160	sul fatto
+1243160	1244000	dell'oggetto
+1244000	1245320	nel modello
+1245320	1247160	nella persona logica
+1247160	1247700	è quella di
+1247700	1249280	l'unica
+1249280	1255120	e chiaramente
+1255120	1256260	questo si propaga giù
+1256260	1256780	a tutto
+1256780	1258420	ognuno dei sei
+1258420	1259340	esempi
+1259340	1260660	di
+1260660	1262880	percetti
+1262880	1264500	come li abbiamo chiamati
+1264500	1265160	adesso vi richiamiamo
+1265160	1265800	un po' a minuto
+1265800	1267240	questo problema qui
+1267240	1268160	e a questo punto
+1268160	1268720	devi dire
+1268720	1269380	abbiamo saputo
+1269380	1270020	soledità
+1270020	1271260	ma adesso
+1271260	1271900	c'è il concetto
+1271900	1272760	di biondo
+1272760	1276800	e secondo me
+1276800	1277620	è così chiaro
+1277620	1277980	dire
+1277980	1279240	c'è una bellissima
+1279240	1280340	ad esempio
+1280340	1281200	c'è il concetto
+1281200	1281940	dei colori
+1281940	1283120	c'è una bellissima forma
+1283120	1284040	che adesso
+1284040	1285200	non ho messo
+1285200	1286660	che dove
+1286660	1288380	chi è esperto
+1288380	1288820	di colore
+1288820	1289920	vede 50 colori
+1289920	1290740	voi ne vedete 3
+1290740	1291980	per te
+1291980	1292780	tu sei biondo
+1292780	1293280	per me
+1293280	1294120	per me
+1294120	1295340	una persona è bionda
+1295340	1296060	per un altro
+1296060	1298200	una persona è cassano chiaro
+1298200	1298780	e così via
+1298780	1300300	quindi questo problema
+1300300	1301240	di identità
+1301240	1303400	che è esattamente
+1303400	1304100	poi quello che c'è
+1304100	1304500	alla base
+1304500	1305420	di tutti gli algoritmi
+1305420	1307740	di recognition
+1307740	1308760	di copiare il video
+1308760	1309340	come abbiamo detto
+1309340	1310360	e anche negli altri anni
+1310360	1312040	non è solamente
+1312040	1312820	a livello di identità
+1312820	1313220	è a livello
+1313220	1314760	di ogni singolo valore
+1314760	1315800	ogni singola identità
+1315800	1317220	perché quando tu hai fatto
+1317220	1317960	il data type
+1317960	1318760	ti sei dato
+1318760	1320520	il data type
+1320520	1321200	per i vari valori
+1321200	1321640	come ho scritto
+1321640	1322260	da qualche parte
+1322260	1322760	ti sei dato
+1322760	1323740	lo spazio dei valori
+1323740	1324500	ma
+1324500	1325660	quando tu passi
+1325660	1326520	da una descrizione
+1326520	1328040	analogica
+1328040	1328920	da una immagine
+1328920	1329960	analogica del mondo
+1329960	1331140	alla linguistica
+1331140	1332140	quel passo
+1332140	1332580	io ho fatto
+1332580	1333480	in formalizzazione
+1333480	1336240	che è esattamente
+1336240	1337480	dove c'è
+1337480	1339020	il 90% dei problemi
+1339020	1341420	chiaramente
+1341420	1342380	questo vale
+1342380	1345120	anche per
+1345120	1345600	tu
+1345600	1346040	tu
+1346040	1346620	prendiamo
+1346620	1347200	una qualunque
+1347200	1347600	segretto
+1347600	1348080	ordinata
+1348080	1348720	di valori
+1348720	1350300	ok
+1350300	1352760	quindi ad esempio
+1352760	1356420	facciamo degli esempi
+1356420	1357500	adesso a seguire
+1357500	1358980	per ognuno di quelle
+1358980	1360080	questo passaggio
+1360080	1360780	a questo mondo
+1360780	1361020	qua
+1361020	1361420	è esattamente
+1361420	1362100	il passaggio
+1362100	1363500	che
+1363500	1368500	fondamentale
+1368500	1370000	che nel nostro modello
+1370000	1370800	modelliamo
+1370800	1371040	come
+1371040	1371620	disuguaglianza
+1371620	1372860	e disuguaglianza
+1372860	1373980	ma
+1373980	1375100	che nel mondo
+1375100	1377080	nel mondo
+1377080	1377660	delle AI
+1377660	1378360	e delle science
+1378360	1378920	e disuguaglianza
+1378920	1379820	che similari
+1379820	1380360	similari
+1380360	1380740	in italianza
+1380740	1381300	in clustering
+1381300	1382420	classification
+1382420	1383520	il problema
+1383520	1384360	è sempre questo
+1384360	1388540	capire o meno
+1388540	1389480	quando vai
+1389480	1389840	nel mondo
+1389840	1390720	linguistico
+1390720	1392460	se o meno
+1392460	1393180	due entità
+1393180	1394020	due
+1394020	1395340	due occorrenze
+1395340	1396580	di due diverse
+1396580	1396980	entità
+1396980	1397740	rappresentano
+1397740	1398420	la stessa entità
+1398420	1398960	nel mondo
+1398960	1401000	perché è chiaro
+1401000	1401720	come io dico
+1401720	1402300	fausto
+1402300	1403380	il concetto di fausto
+1403380	1404060	il concetto di uomo
+1404060	1405100	è indipendente
+1405100	1405680	dal tempo
+1405680	1407500	poi fausto
+1407500	1408220	nasce e muore
+1408220	1408800	ed evolve
+1408800	1409360	ma fausto
+1409360	1409980	è invariante
+1409980	1411260	in ogni momento
+1411260	1411720	vedo quella
+1411720	1412920	specifica correnza
+1412920	1414680	data specifica correnza
+1414680	1415240	il mio
+1415240	1415740	algoritmo
+1415740	1416580	di computer vision
+1416580	1418380	per dire
+1418380	1419060	computer vision
+1419060	1419420	qualunque
+1419420	1420500	di realizzazione
+1420500	1421100	della versione
+1421100	1421600	giustica
+1421600	1422520	deve poter fare
+1422520	1423100	questa cosa
+1423100	1423840	guardate bene
+1423840	1424340	che fausto
+1424340	1424800	da piccolo
+1424800	1425080	non c'è
+1425080	1425440	niente
+1425440	1425920	con fausto
+1425920	1426320	da red
+1426320	1427620	guardate
+1427620	1428520	guardate
+1428520	1428840	il caso
+1428840	1429340	di sistemi
+1429340	1429740	di AI
+1429740	1430040	che sono
+1430040	1430460	funzionale
+1430460	1430740	qui
+1430740	1433660	questo è qua
+1433660	1437340	quindi
+1437340	1439700	come abbiamo annunciato
+1439700	1441920	quello che noi facciamo
+1441920	1443620	prendiamo
+1443620	1444140	quell'oggetto
+1444140	1445000	sulla sinistra
+1445000	1446500	l'immagine
+1446500	1447180	e la facciamo
+1447180	1447640	diventare
+1447640	1447960	l'ultima
+1447960	1448540	questo oggetto
+1448540	1448880	la letta
+1448880	1449620	questo è un linguaggio
+1449620	1450060	non è
+1450060	1451340	questa è una immagine
+1451340	1452020	questa è una
+1452020	1452600	presentazione
+1452600	1454540	questa presentazione
+1454540	1455160	di linguistica
+1455160	1456220	faccio un esempio
+1456220	1458320	c'è una sintassi
+1458320	1458760	per questo
+1458760	1460380	vedete
+1460380	1460920	per esempio
+1460920	1461600	la sintassi
+1461600	1462100	che dice
+1462100	1463240	che la forma
+1463240	1463820	del cerchio
+1463820	1464440	è rilevante
+1464440	1464800	il piccolo
+1464800	1465100	grosso
+1465100	1466040	è rilevante
+1466040	1466200	però
+1466200	1466560	che importa
+1466560	1467620	con i tedeschi
+1467620	1468540	ci dice
+1468540	1469040	che se
+1469040	1469340	qui
+1469340	1471140	c'è una sintassi
+1471140	1471380	quella
+1471380	1471620	quindi
+1471620	1471960	inizia
+1471960	1474140	però
+1474140	1476540	perché
+1476540	1477020	accetto
+1477020	1477760	se ti
+1477760	1477980	io
+1477980	1479360	nel prossimo
+1479360	1479440	a
+1479440	1479700	gra
+1479700	1481080	perché
+1481080	1482720	questa è una presentazione
+1482720	1483300	grafica
+1483300	1483640	che poi
+1483640	1484720	essendo un linguaggio
+1484720	1486100	ci dà
+1486100	1486640	una
+1486640	1487340	rappresentazione
+1487340	1488520	visiva
+1488520	1489660	simbolica
+1489660	1491620	che in qualche
+1491620	1492120	maniera
+1492120	1494080	che per di più
+1494080	1495540	legata al concetto
+1495540	1496280	di entità
+1496280	1497620	che abbiamo
+1497620	1498300	detto prima
+1498300	1500580	che in qualche
+1500580	1501020	maniera
+1501020	1502240	rende
+1502240	1502520	questo
+1502520	1502860	matto
+1502860	1503600	in immediato
+1503600	1505180	chiaramente
+1505180	1505880	una singola
+1505880	1506320	entità
+1506320	1506880	fra il suo
+1506880	1507600	puntino
+1507600	1509020	chiaramente
+1509020	1510040	non permetteremo
+1510040	1510660	acqua
+1510660	1511200	e da qui
+1511200	1512000	da due parti
+1512000	1512820	da due parti
+1512820	1513940	che vorrebbe dire
+1513940	1515180	che si confondono
+1515180	1516540	probabilmente
+1516540	1517400	se c'è un cerchio
+1517400	1517920	chiaramente
+1517920	1518300	voglio dire
+1518300	1518460	che
+1518460	1520020	diciamo così
+1520020	1520500	per le diverse
+1520500	1521200	le persone
+1521200	1521600	a
+1521600	1521760	c
+1521760	1523040	sono
+1523040	1524180	delle donne
+1524180	1524700	l'uomo
+1524700	1525120	eccetera
+1525120	1525540	eccetera
+1525540	1528840	quindi
+1528840	1532040	ci siamo dati
+1532040	1532800	una sintassi
+1532800	1534760	chiaramente
+1534760	1536220	non solo
+1536220	1536500	quello
+1536500	1536800	noi
+1536800	1538680	possiamo dire
+1538680	1539740	matematicamente
+1539740	1541220	avere un algoritmo
+1541220	1542580	voi sapete
+1542580	1543080	che si può
+1543080	1543820	sempre calcolare
+1543820	1544340	un insieme
+1544340	1544680	come
+1544680	1545420	condominio
+1545420	1546140	di una funzione
+1546140	1547820	per definire
+1547820	1549320	cosa è uguale
+1549320	1549860	per dire
+1549860	1551180	per dire
+1551180	1551520	quando
+1551520	1552500	due
+1552500	1555020	due insiemi
+1555020	1556180	sono uguali
+1556180	1558160	hanno una
+1558160	1558660	presentazione
+1558660	1559340	analogica
+1559340	1560780	tutta in diagramma
+1560780	1563380	e si può
+1563380	1563740	costruire
+1563740	1564360	un mapping
+1564360	1564960	uno a uno
+1564960	1567320	da quello
+1567320	1567960	che si vede
+1567960	1569920	alla
+1569920	1570940	alla
+1570940	1571740	presentazione
+1571740	1572960	analogica
+1572960	1574080	all'universale
+1574080	1575800	in qualche
+1575800	1576320	operazione
+1576320	1576500	di
+1576500	1576880	membership
+1576880	1577120	di
+1577120	1580260	non solo
+1580260	1580420	di
+1580420	1580820	immunità
+1580820	1581160	ma di
+1581160	1581700	relazioni
+1581700	1582520	all'universale
+1582520	1585300	molti
+1585300	1586220	a switch
+1586220	1586520	perché
+1586520	1587280	c'è il terreno
+1587280	1588440	e
+1588440	1590800	hanno un
+1590800	1591000	linguaggio
+1591000	1591520	formato
+1591520	1592140	tu puoi
+1592140	1593840	usare una sintassi
+1593840	1594220	tipo
+1594220	1595740	un linguaggio
+1595740	1595860	di
+1595860	1596380	quello che
+1596380	1596600	forma
+1596600	1596800	di
+1596800	1598060	quindi
+1598060	1598300	dov'è
+1598300	1598740	il punto
+1598740	1599600	fondamentale
+1599600	1602420	il punto
+1602420	1603240	fondamentale
+1603240	1603660	è
+1603660	1605600	che
+1605600	1608320	tutto il
+1608320	1609220	trucco
+1609220	1610860	di
+1610860	1614000	estrarre
+1614000	1615220	da una
+1615220	1615780	semantica
+1615780	1615960	a un
+1615960	1616480	linguaggio
+1616480	1617580	è il
+1617580	1618140	passaggio
+1618140	1618440	da
+1618440	1619240	una figura
+1619240	1619760	per quella
+1619760	1620120	che era
+1620120	1620660	piena di
+1620660	1621480	interpretazione
+1621480	1624280	a una
+1624280	1624520	figura
+1624520	1625160	come questa
+1625160	1626540	quindi
+1626540	1627140	tutto il
+1627140	1627640	problema
+1627640	1629180	di
+1629180	1629580	scelta
+1629580	1630660	rappresentazionale
+1630660	1631240	è la
+1631240	1631660	produzione
+1631660	1631880	del
+1631880	1632060	ben
+1632060	1632260	dai
+1632260	1633740	è
+1633740	1634100	chiaro?
+1635240	1635960	Ed è
+1635960	1636420	chiaro
+1636420	1636620	che
+1636620	1636720	in
+1636720	1636900	questa
+1636900	1637200	produzione
+1637200	1637360	del
+1637360	1637540	ben
+1637540	1637820	dai
+1637820	1638080	per
+1638080	1638780	aiutarmi
+1638780	1642880	quando ci
+1642880	1643340	scriverò
+1643340	1643600	a
+1643600	1644180	se questa
+1644180	1644720	si chiama
+1644720	1645340	angela
+1645340	1645520	ci
+1645520	1645840	metterò
+1645840	1646280	angela
+1646280	1646840	qui ci
+1646840	1647100	scriverò
+1647100	1647220	a
+1647220	1647700	persona
+1647700	1649180	ok
+1649180	1650660	quindi
+1650660	1651060	questi
+1651060	1651480	nomi
+1651480	1651760	che sono
+1651760	1652100	qua
+1652100	1653240	diventano
+1653240	1653760	i nomi
+1653760	1654100	che noi
+1654100	1654740	mettiamo
+1654740	1659400	che noi
+1659400	1659920	mettiamo
+1659920	1660720	gli elementi
+1660720	1661120	le tube
+1661120	1661700	e così via
+1661700	1662340	è
+1662340	1662880	rilevante
+1662880	1663340	gli uomini
+1663340	1664640	sono rilevanti
+1664640	1664820	no
+1664820	1665560	sono totalmente
+1665560	1666260	rilevanti
+1666260	1666920	come sapete
+1666920	1667680	però
+1667680	1670180	semanticamente
+1670180	1670680	aiuta
+1670680	1670980	un uomo
+1670980	1671820	a vedere
+1671820	1672480	il significato
+1672480	1672840	di te
+1672840	1675660	quindi
+1675660	1677140	qua mi ha messo
+1677140	1677860	abcid
+1677860	1678400	ma quando
+1678400	1679400	in questo passaggio
+1679400	1679940	noi
+1679940	1683900	usiamo
+1683900	1684860	queste stringhe
+1684860	1686540	perché
+1686540	1687920	descrivi
+1687920	1688360	esattamente
+1688360	1688860	questo
+1688860	1689640	e adesso
+1689640	1690080	questo punto
+1690080	1690480	è una domanda
+1690480	1690880	ovvia
+1690880	1691380	che immagino
+1691380	1691660	vi siete
+1691660	1691880	date
+1691880	1692380	le risposte
+1692380	1692640	si ma
+1692640	1693180	queste stringhe
+1693180	1693380	dove
+1693380	1693860	arrivano?
+1695640	1695880	è tra
+1695880	1696660	le scuole
+1696660	1698700	anzi
+1698700	1699120	l'ha parlato
+1699120	1699460	google
+1699460	1699820	quando ero
+1699820	1700040	giovane
+1700040	1700300	c'era
+1700300	1700740	google
+1700740	1701960	non esisteva
+1701960	1702240	poi
+1702240	1702520	il mondo
+1702520	1702980	evolve
+1702980	1703960	dipende
+1703960	1704520	le parole
+1704520	1705540	quindi abbiamo
+1705540	1706460	questo senso
+1706460	1706800	comune
+1706800	1707400	di parole
+1707400	1709920	che chiaramente
+1709920	1711320	ci portiamo
+1711320	1711800	dietro
+1711800	1712260	e quando
+1712260	1712800	noi facciamo
+1712800	1713820	le metterie
+1713820	1714440	formali
+1714440	1716760	ce lo portiamo
+1716760	1717160	dietro
+1717160	1717620	ma non perché
+1717620	1717880	aiuta
+1717880	1718200	il metodo
+1718200	1718740	formale
+1718740	1719560	ma semplicemente
+1719560	1720000	perché aiuta
+1720000	1720600	l'interpretazione
+1720600	1720940	della teoria
+1720940	1721280	logica
+1721280	1721860	poi vedremo
+1721860	1722220	dopo
+1722220	1722640	nelle proprie
+1722640	1723100	lezioni
+1723100	1723380	che
+1723380	1724820	questa scelta
+1724820	1726200	di queste parole
+1726200	1726500	qui
+1726500	1727220	crea di nuovo
+1727220	1727920	confusioni
+1727920	1728680	perché chiaramente
+1728680	1730500	abbiamo usato
+1730500	1731000	la parola
+1731000	1731640	persona
+1731640	1732120	però poi
+1732120	1732600	non siamo
+1732600	1732980	d'accordo
+1732980	1733720	sulla persona
+1733720	1735120	ma no
+1735120	1737420	l'esempio
+1737420	1737800	che faccio
+1737800	1738260	sempre
+1738260	1738680	è che
+1738680	1740440	quando gli americani
+1740440	1741020	sono andati
+1741020	1741500	in Vietnam
+1741500	1743680	i vietanoliti
+1743680	1744260	non si stimolano
+1744260	1744640	le piante
+1744640	1745160	dai neri
+1745160	1747360	è un fatto
+1747360	1747880	dell'oro
+1747880	1749100	certo
+1749100	1749400	un uomo
+1749400	1749420	il uomo
+1749420	1749700	il uomo
+1749700	1749720	il uomo
+1749720	1749760	il uomo
+1749760	1749780	il uomo
+1749780	1749980	il uomo
+1749980	1750060	il uomo
+1750060	1750620	è totalmente
+1750620	1751220	culturale
+1751220	1751780	non esiste
+1751780	1752120	in realtà
+1752120	1752940	o perlomeno
+1752940	1753300	esiste
+1753300	1753700	per quelli
+1753700	1754400	che sono allenati
+1754400	1754740	a farci
+1754740	1755500	la concetta
+1755500	1755740	di
+1755740	1756620	uguaglianza
+1756620	1757080	in testa
+1757080	1757320	se non
+1757320	1757880	si è educato
+1757880	1758240	così
+1758240	1759860	però
+1759860	1760740	per i vietanoliti
+1760740	1762020	è come
+1762020	1764640	guardati in Asia
+1764640	1765140	se uno
+1765140	1765860	c'è il cinesi
+1765860	1766460	con la fortuna
+1766460	1768300	è tutto uguale
+1768300	1770640	vale anche
+1770640	1770960	per loro
+1770960	1771360	anche loro
+1771360	1772360	non distingono
+1772360	1772780	neanche loro
+1772780	1773360	dai capelli
+1773360	1774000	però
+1774000	1774680	sono tutti neri
+1774680	1774940	quindi
+1774940	1776860	non hanno
+1776860	1777100	problema
+1777100	1777780	di distingere
+1777780	1778780	quindi
+1778780	1779220	tutte queste
+1779220	1779760	categorie
+1779760	1780380	mentali
+1780380	1780920	sono tutte
+1780920	1782540	semplicemente
+1782540	1783600	legate al training
+1783600	1786200	che ci siamo fatti
+1786200	1786760	che per chi
+1786760	1787360	vi fa i AI
+1787360	1787840	possiamo fare
+1787840	1788420	le macchine
+1788420	1790540	per fare
+1790540	1790920	le azioni
+1790920	1791440	di uguaglianza
+1791440	1792140	di questi ragazzi
+1792140	1799620	e quindi
+1799620	1799960	adesso
+1799960	1800360	facciamo
+1800360	1804960	quindi a questo punto
+1804960	1805640	abbiamo detto
+1805640	1806520	e chiaramente
+1806520	1807220	ci mancano ancora
+1807220	1807940	quattro detti
+1807940	1808680	per finire
+1808680	1809020	la
+1809020	1810060	dicessima
+1810060	1810560	settimana
+1810560	1811480	abbiamo detto
+1811480	1811780	che
+1811780	1813260	il nostro
+1813260	1814280	mapping
+1814280	1818980	da qualche parte
+1818980	1819680	c'è l'immagine
+1819680	1820140	l'immagine
+1820140	1820560	la possiamo
+1820560	1821340	inserirvi
+1821340	1822160	e questo
+1822160	1822440	poi
+1822440	1822720	questo
+1822720	1822920	lo
+1822920	1822960	lo
+1822960	1823000	lo
+1823000	1823040	lo
+1823040	1823120	lo
+1823120	1823620	lo
+1823620	1823680	lo
+1823680	1824280	lo
+1824280	1825680	lo
+1825680	1826180	l'immagine
+1826180	1826580	quindi
+1826580	1827500	non
+1827500	1827540	non
+1827540	1827960	tenere
+1827960	1828380	che
+1828380	1829020	voi
+1829020	1829340	faccio
+1829340	1829620	io
+1829620	1829860	di
+1829860	1830460	parlare
+1830460	1830580	di
+1830580	1831740	insieme
+1831740	1833200	molti
+1833200	1834380	vi ho parlato
+1834380	1834740	di
+1834740	1835200	concetti
+1835200	1835380	di
+1835380	1835800	sette
+1835800	1835980	di
+1835980	1836480	classe
+1836480	1836980	sono
+1836980	1837380	ci
+1837380	1837980	sono
+1837980	1838200	la
+1838200	1838460	stessa
+1838460	1839040	cosa
+1839040	1840280	sono
+1840280	1842060	diversi
+1842060	1842280	ma
+1842280	1842520	tanta
+1842520	1842800	pena
+1842800	1842920	che
+1842920	1843060	non
+1843060	1843200	c'è
+1843200	1843680	niente
+1843680	1845000	quale
+1845000	1845120	di
+1845120	1845760	relazione
+1845760	1846200	quale
+1846200	1846360	di
+1846360	1846740	tutto
+1846740	1849300	questo
+1849300	1849540	per
+1849540	1849740	dire
+1849740	1850160	che
+1850160	1851000	c'è un
+1851000	1851440	passaggio
+1851440	1852200	linguistico
+1852200	1852640	in cui
+1852640	1853520	tutti
+1853520	1854620	i concetti
+1854620	1854840	della
+1854840	1855180	sette
+1855180	1855320	io
+1855320	1855720	ce ne
+1855720	1855960	mancano
+1855960	1856520	quattro
+1856520	1857440	vengono
+1857440	1858120	portati
+1858120	1859100	nel nostro
+1859100	1859640	linguaggio
+1859640	1860600	che poi
+1860600	1861240	useremo
+1861240	1861940	nel
+1861940	1862460	world mode
+1862460	1862820	a livello
+1862820	1863260	sopra
+1863260	1864960	ora
+1864960	1865520	noi
+1865520	1866120	ci stiamo
+1866120	1866540	dando
+1866540	1867860	i concetti
+1867860	1868400	di base
+1868400	1869400	ci stiamo
+1869400	1869820	dando
+1869820	1870380	quegli
+1870380	1871520	concetti
+1871520	1872060	e per
+1872060	1872380	ognuno
+1872380	1872880	di quelli
+1872880	1873240	dovremmo
+1873240	1873780	darci
+1873780	1875180	difendervi
+1875180	1875600	dovremmo
+1875600	1876260	dirci che
+1876260	1877600	se io
+1877600	1877880	dico
+1877880	1878720	persona
+1878720	1879940	uomo
+1879940	1880420	e donna
+1880420	1880820	e dico
+1880820	1881120	che sono
+1881120	1881660	diversi
+1881660	1882060	devo avere
+1882060	1882600	l'algoritmo
+1882600	1882800	e lo
+1882800	1883160	fa
+1883160	1883960	se io
+1883960	1884440	dico
+1884440	1885100	che ho
+1885100	1885600	uomo
+1885600	1886720	e donna
+1886720	1887600	se io
+1887600	1887800	dico
+1887800	1888120	uomo
+1888120	1888740	e persona
+1888740	1889240	e uomo
+1889240	1889420	e una
+1889420	1889800	persona
+1889800	1890060	io ho
+1890060	1890180	un
+1890180	1890680	algoritmo
+1890680	1891020	che mi
+1891020	1891200	dice
+1891200	1891600	un uomo
+1891600	1891760	e una
+1891760	1892220	persona
+1892220	1895020	mentre la
+1895020	1895260	persona
+1895260	1895660	in generale
+1895660	1895860	non è
+1895860	1896300	un uomo
+1896300	1897220	che è
+1897220	1897400	quello
+1897400	1898040	che esattamente
+1898040	1898280	da
+1898280	1898500	poi
+1898500	1898840	le ultime
+1898840	1899140	cinque
+1899140	1899600	non sanno
+1899600	1899940	fare
+1899940	1902520	perché
+1902520	1902840	ti non
+1902840	1903080	si può
+1903080	1903380	vedere
+1903380	1904080	la cosa
+1904080	1904380	più
+1904380	1906140	specifica
+1906140	1910960	ora è
+1910960	1911320	chiaro
+1911320	1911520	che
+1911520	1912020	se nella
+1912020	1912360	misura
+1912360	1912680	in cui
+1912680	1913180	noi
+1913180	1915800	se facciamo
+1915800	1916480	AI
+1916480	1916660	o
+1916660	1916900	computer
+1916900	1917380	vision
+1917380	1917560	o
+1917560	1917940	IoT
+1917940	1918420	quello che
+1918420	1918860	volete
+1918860	1919560	abbiamo
+1919560	1919860	questi
+1919860	1920400	algoritmi
+1920400	1920740	da lì
+1920740	1921140	in poi
+1921140	1921960	è solo
+1921960	1922340	questione di
+1922340	1922620	giocare
+1922620	1922800	con
+1922800	1923400	il linguaggio
+1923400	1923540	che
+1923540	1923600	è
+1923600	1924040	diventamente
+1924040	1924480	facile
+1924480	1925580	cioè
+1925580	1925860	no
+1925860	1926100	noi
+1926100	1926380	non è
+1926380	1926600	vero
+1926600	1926720	che
+1926720	1927180	è facile
+1927180	1927960	abbiamo
+1927960	1928480	la logica
+1928480	1928980	che dopo
+1928980	1929480	il
+1929480	1929660	2000
+1929660	1929960	anni
+1929960	1930080	ci
+1930080	1930280	dà
+1930280	1930400	gli
+1930400	1930920	algoritmi
+1930920	1931120	ma
+1931120	1931640	arrivare
+1931640	1931860	a questo
+1931860	1932100	punto
+1932100	1932800	è esattamente
+1932800	1933140	dove si
+1933140	1933200	si
+1933200	1933620	impianza
+1933620	1933900	ora
+1933900	1934940	perché
+1934940	1935360	non c'è
+1935360	1935920	il metodo
+1935920	1936560	perché
+1936560	1936840	prima
+1936840	1937260	non c'era
+1937260	1938100	il problema
+1938100	1940200	perché
+1940200	1940700	non facevamo
+1940700	1941080	i robot
+1941080	1941480	non facciamo
+1941480	1941900	gli altri
+1941900	1942240	c'era un
+1942240	1942600	sistema
+1942600	1942860	così
+1942860	1943380	complesso
+1943380	1943660	di
+1943660	1944260	dare
+1944260	1944440	gli
+1944440	1944800	algoritmi
+1944800	1944980	che
+1944980	1945280	stavano
+1945280	1945660	qua
+1945660	1946800	ma
+1946800	1947480	ugualmente
+1947480	1948880	questa
+1948880	1949040	è la
+1949040	1949320	versione
+1949320	1949560	AI
+1949560	1949680	ma
+1949680	1949800	la
+1949800	1950100	la versione
+1950100	1951060	computer science
+1951060	1952980	c'era anche
+1952980	1953880	chi fa specifiche
+1953880	1954360	chi fa
+1954360	1955000	senza fare
+1955000	1955800	neanche visione
+1955800	1956060	perché
+1956060	1956980	se tu vai
+1956980	1960740	da un
+1960740	1962960	se tu
+1962960	1964540	vai a parlare
+1964540	1965620	con un
+1965620	1967520	con qualcuno
+1967520	1968280	supone che tu
+1968280	1968820	fai il software
+1968820	1969380	di ingegnere
+1969380	1969700	e ti dà
+1969700	1970360	una specifica
+1970360	1970940	da fare
+1970940	1971780	forse
+1971780	1972060	voi non
+1972060	1972840	quante volte
+1972840	1973300	c'è il bagno
+1973300	1973760	di sangue
+1973760	1974100	perché
+1974100	1974700	chi dà
+1974700	1976540	la specifica
+1976540	1978200	dice una cosa
+1978200	1979080	chi la riceve
+1979080	1979500	dice
+1979500	1980000	si si siamo
+1980000	1980700	d'accordi
+1980700	1981500	e poi
+1981500	1981960	alla fine
+1981960	1982680	quando gli dai
+1982680	1983340	la specifica
+1983340	1983520	fatta
+1983520	1983940	di migliorazione
+1983940	1984100	dice
+1984100	1984460	ma no
+1984460	1985740	non funziona
+1985740	1985960	così
+1985960	1986560	ma tu non
+1986560	1986940	vuoi dire
+1986940	1987160	questo
+1987160	1989140	perché
+1989140	1990900	semplicemente
+1990900	1991940	per i modelli
+1991940	1992240	chiesi
+1992240	1994020	era diversa
+1994020	1994580	infatti
+1994580	1995500	regola fondamentale
+1995500	1996080	comparata
+1996080	1996780	sul sangue
+1996780	1998000	o col sangue
+1998000	1999520	la mia attività
+1999520	2001520	quando facevamo
+2001520	2001920	il software
+2001920	2003140	per i treni
+2003140	2003860	è che la regola
+2003860	2004480	fondamentale
+2004480	2005400	è sempre questa
+2005400	2007520	le specifiche
+2007520	2008340	che la dò a voi
+2008340	2009340	le specifiche
+2009340	2010740	fai parlare loro
+2010740	2011380	ma la specifica
+2011380	2012680	la scrivi sempre te
+2012680	2014220	poi te la fai approvare
+2014220	2014600	da loro
+2014600	2015720	ma la specifica
+2015720	2016320	la scrive a loro
+2016320	2018700	perché
+2018700	2019800	prendendola in mano
+2019800	2020020	te
+2020020	2020760	la specifica
+2020760	2021260	sei tu che
+2021260	2022220	scegli questo volante
+2022220	2023300	sei tu che
+2023300	2023720	mi vengi
+2023720	2024320	la protezione
+2024320	2024920	da buono
+2024920	2027660	sei tu che
+2027660	2029320	hai impostato
+2029320	2030120	l'intera
+2030120	2031240	specifica
+2031240	2032060	o informale
+2032060	2032600	o formale
+2032600	2033220	esattamente
+2033220	2034140	ma la pensi tu
+2034140	2035780	tra parenti
+2035780	2036280	funziona anche
+2036280	2036560	meglio
+2036560	2037520	perché in particolare
+2037520	2038240	se il cliente
+2038240	2039080	non è esperto
+2039080	2039760	dice fai tu
+2039760	2040220	fai tu
+2040220	2042860	perché giustamente
+2042860	2043500	gli fai il lavoro
+2043500	2044020	poi chiaramente
+2044020	2044840	non lo vuoi fregare
+2044840	2046040	ma questo aspetto
+2046040	2047220	voglio dire
+2047220	2048220	del concetto
+2048220	2048860	di entità
+2048860	2049680	di uguaglianza
+2049680	2050380	di similialità
+2050380	2051700	non c'è solamente
+2051700	2052220	mentre non lo fai
+2052220	2052660	c'è anche
+2052660	2053300	normalmente
+2053300	2053740	non lo fai
+2053740	2054540	software ingegnire
+2054540	2056280	ed è il motivo
+2056280	2057080	per l'agentazione
+2057080	2060680	di uguagli
+2060680	2061480	specifica
+2061480	2061940	ed è il motivo
+2061940	2062320	per cui
+2062320	2062560	dico
+2062560	2062980	specific
+2062980	2063400	che si vede
+2063400	2063760	voi
+2063760	2067020	non andate bene
+2067020	2067400	ovviamente
+2067400	2068560	poi confonderemo
+2068560	2069420	per una volta
+2069420	2070440	che ci siamo capiti
+2070440	2071640	sul concetto
+2071640	2072120	di peso
+2072120	2072680	voglio dire
+2072680	2073400	parlare di
+2073400	2073780	la soluzione
+2073780	2074440	è questa cosa
+2074440	2075220	basta capirsi
+2075220	2076540	e basta avere
+2076540	2077220	in mente
+2077220	2078700	questo processo
+2078700	2080100	ok
+2080100	2084800	noi
+2084800	2085300	nella lezione
+2085300	2086060	del precedente
+2086060	2087800	abbiamo parlato
+2087800	2089080	di percezioni
+2089080	2089840	per certi
+2089840	2091420	e adesso
+2091420	2091840	vedrete
+2091840	2092500	banalmente
+2092500	2093120	quali sono
+2093120	2093840	i percetti
+2093840	2095500	e percetti
+2095500	2095900	sono tutte
+2095900	2096300	quelle cose
+2096300	2096940	che noi vediamo
+2096940	2098260	sono i set
+2098260	2098900	che sapiamo
+2098900	2100240	però in questo
+2100240	2100640	graffo
+2100640	2101520	è tutta una cosa
+2101520	2103480	un'altra cosa
+2103480	2104440	che nessuno fa mai
+2104440	2105980	è che avete visto
+2105980	2106760	centa volte
+2106760	2108340	nel Dendai
+2108340	2109000	che sicuramente
+2109000	2109540	avete visto
+2109540	2110060	centa volte
+2110060	2111060	ma che la gente
+2111060	2111640	tende
+2111640	2114220	a sottovalutare
+2114220	2115960	che è
+2115960	2116580	la scatola
+2116580	2117120	all'intorno
+2117120	2121920	la scatola
+2121920	2122300	all'intorno
+2122300	2123260	perché vuoi fare
+2123260	2124180	una storia del mondo
+2124180	2124920	facciamo la storia
+2124920	2125380	di più di più di più di più
+2125380	2125960	di più di più
+2125960	2126060	ok
+2126060	2127780	non ci mettiamo
+2127780	2128460	nelle più di più di più
+2128460	2129180	di più di più di più
+2129180	2129580	ora
+2129580	2132800	o facciamo
+2132800	2133200	una storia
+2133200	2134040	dove consideriamo
+2134040	2134520	le persone
+2134520	2135200	che resta in tre
+2135200	2137880	dato che
+2137880	2138900	anche questa foto
+2138900	2139240	qui
+2139240	2140320	sta facendo
+2140320	2141580	la foto
+2141580	2144380	di tutti gli oggetti
+2144380	2145100	o degli oggetti
+2145100	2145980	che stanno solo qui
+2145980	2147560	o solo dei cani
+2147560	2148100	c'è una linea
+2148100	2148900	di quanto è parlato
+2148900	2152720	quindi questa è la cosa
+2152720	2153620	più importante
+2153620	2154520	che lo siamo fatti
+2154520	2159080	e se non la fai
+2159080	2160000	in particolare
+2160000	2160460	quando arriviamo
+2160460	2160820	all'ultimo
+2160820	2161780	livello della logica
+2161780	2162320	che è quello
+2162320	2163340	in cui
+2163340	2164980	si parla di
+2164980	2165540	si ragiona
+2165540	2166580	se non si sa
+2166580	2166720	qui
+2166720	2167100	non si sa
+2167100	2167960	la legazione
+2167960	2176000	quindi definire il confine
+2176000	2176720	il dominio
+2176720	2177760	di interpretazione
+2177760	2178760	come lo chiameremo
+2178760	2180860	che semplicemente vuol dire
+2180860	2182800	quando tu fai una specifica
+2182800	2183340	ad esempio
+2183340	2184880	devi essere certo
+2184880	2185920	di aver specificato
+2185920	2188160	e gli erenti
+2188160	2188540	proprio
+2188540	2189360	in modo che ti dicano
+2189360	2190240	non ti posso dire
+2190240	2190820	che ho capito
+2190820	2191940	nel nostro caso
+2191940	2192740	della set theory
+2192740	2194360	l'universo
+2194360	2195100	così chiamato
+2195100	2196060	lo chiamiamo dominio
+2196060	2196840	e per poi
+2196840	2197400	usare il termine
+2197400	2198460	dominio di interpretazione
+2198460	2199080	perché lo chiamiamo
+2199080	2200060	dominio di interpretazione
+2200060	2201500	perché l'universo lì
+2201500	2202320	è il dominio
+2202320	2203160	di interpretazione
+2203160	2204000	del mio linguaggio
+2204000	2205580	a me non me ne frega niente
+2205580	2206640	sono cento persone
+2206640	2207640	o mila persone qua
+2207640	2208660	ma se nel mio dominio
+2208660	2209120	di interpretazione
+2209120	2209920	ce ne metto cinque
+2209920	2211000	probabilmente ci sono cinque
+2211000	2212560	e se tu me ne metti dieci
+2212560	2213460	sono a fare i pochi
+2213460	2214420	se abbiamo un accordo
+2214420	2214800	su cinque
+2214800	2215860	sono cinque
+2215860	2217060	vediamo
+2217060	2219880	quindi questo senso
+2219880	2220400	di interpretazione
+2220400	2221180	è fondamentale
+2221180	2222820	quindi a questo punto
+2222820	2223720	dato il concetto
+2223720	2224400	di dominio
+2224400	2226060	possiamo scelga
+2226060	2226680	come vogliamo
+2226680	2228440	evidentemente
+2228440	2230040	come vedremo dopo
+2230040	2232820	sicuramente
+2232820	2233500	non sempre
+2233500	2234120	sempre
+2234120	2234800	questo
+2234800	2235860	questo dominio
+2235860	2236460	di interpretazione
+2236460	2237160	sicuramente
+2237160	2238200	ha meno elementi
+2238200	2238520	di quelli
+2238520	2239440	che uno ce ne può vedere
+2239440	2240420	e se lo facciamo fare
+2240420	2241040	anche queste
+2241040	2242220	sperimentazioni di psicologia
+2242220	2242820	se facciamo fare
+2242820	2243360	le due figure
+2243360	2244000	la gente fa
+2244000	2244820	due domini diversi
+2244820	2245740	invece scorte diverse
+2245740	2248240	vede istanze diverse
+2248240	2248940	vede la gruppa
+2248940	2250060	in maniera diversa
+2250060	2250740	e così via
+2250740	2251940	poi la gente
+2251940	2252200	lo chiama
+2252200	2253000	soggettività
+2253000	2255160	va bene così
+2255160	2262160	quindi
+2262160	2264780	fino a questo punto
+2264780	2266520	cos'è un percetto
+2266520	2267340	a questo punto
+2267340	2267840	possiamo dire
+2267840	2268560	è un'entità
+2268560	2271300	questa entità
+2271300	2272020	è una persona
+2272020	2272800	che conosci
+2272800	2274560	o che non conosci
+2274560	2276080	se dici
+2276080	2276660	uno a uno
+2276660	2277180	possiamo dire
+2277180	2277620	anonimo
+2277620	2277800	no
+2277800	2278020	vuol dire
+2278020	2278940	che non conosco
+2278940	2280020	però so che è una persona
+2280020	2282120	anzi
+2282120	2283200	la so che è una donna
+2283200	2283700	lo chiamata
+2283700	2283720	lo chiamata
+2283720	2284260	uno a uno
+2284260	2285160	questo
+2285160	2285580	probabilmente
+2285580	2286260	è un calo
+2286260	2287580	però c'è una parola
+2287580	2288220	che si scelta
+2288220	2290820	l'entità
+2290820	2291760	l'insieme
+2291760	2292480	delle persone
+2292480	2295800	il percettare
+2295800	2296580	di essere biondi
+2296580	2297280	di una persona
+2297280	2299980	generare
+2299980	2300460	il fatto
+2300460	2301360	dell'abilità bionda
+2301360	2301780	che associa
+2301780	2302340	le persone
+2302340	2303540	se io associo
+2303540	2304540	l'abilità bionda
+2304540	2305240	alle persone
+2305240	2306140	e assumo
+2306140	2306820	come è sempre
+2306820	2307480	in logica
+2307480	2308720	che è completa
+2308720	2309140	vuol dire
+2309140	2310180	che io posso
+2310180	2311620	dire
+2311620	2312360	di ogni persona
+2312360	2313220	se bionda non vuoi
+2313220	2318400	quindi
+2318400	2318780	la verità
+2318780	2319280	che fa
+2319280	2319500	e
+2319500	2321800	non direi mai
+2321800	2324660	di non poter
+2324660	2325240	riempire
+2325240	2327440	un valore
+2327440	2327960	che è totalmente
+2327960	2328480	il motivo
+2328480	2329300	per cui poi
+2329300	2330160	quando siamo andati
+2330160	2330680	a Web
+2330680	2332560	tanti anni fa
+2332560	2333700	siamo accorti
+2333700	2334060	conto
+2334060	2334980	che tante società
+2334980	2335900	non le conoscevamo
+2335900	2336960	e da dove è saltato
+2336960	2338740	tutta la metodologia
+2338740	2339580	classica di
+2339580	2341040	software engineering
+2341040	2342080	come l'avete fatta
+2342080	2343260	che non scala
+2343260	2344400	al sistema
+2344400	2345080	aperto
+2345080	2348560	concetti di reazioni
+2348560	2349480	spaziale
+2349480	2350680	relazione
+2350680	2351400	di due persone
+2351400	2352740	quindi se ci pensate bene
+2352740	2354760	sono tre tipi di relazioni
+2354760	2355380	l'ho già detto
+2355380	2355700	perché
+2355700	2358580	io e voi
+2358580	2359560	siamo in relazione
+2359560	2359980	vicino
+2359980	2360820	alla spaziale
+2360820	2362560	siamo in relazione
+2362560	2363500	schiamata
+2363500	2364200	di ruolo
+2364200	2364800	professore
+2364800	2365400	studente
+2365400	2365980	padre
+2365980	2366560	figlio
+2366560	2367820	amico
+2367820	2368360	così via
+2368360	2369180	o
+2369180	2370160	azioni
+2370160	2371020	io parlo
+2371020	2372540	io urlo
+2372540	2373100	a voi
+2373100	2374880	io cammino
+2374880	2375380	con una relazione
+2375380	2376020	con me stesso
+2376020	2376420	e l'avete
+2376420	2377120	con i miei piedi
+2377120	2379920	sono tutte le relazioni
+2379920	2381660	chiaramente
+2381660	2382380	se fate un problema
+2382380	2383000	di planning
+2383000	2383960	o di pianificazione
+2383960	2384560	di azioni
+2384560	2385180	le relazioni
+2385180	2385600	sono tutti
+2385600	2386020	di tipo
+2386020	2387020	azioni
+2387020	2388100	se fate un'escrizione
+2388100	2388600	o un valore
+2388600	2390540	di un'istituzione
+2390540	2391060	sono tutti
+2391060	2391460	di tipo
+2391460	2392220	di ruolo
+2392220	2393400	se fate
+2393400	2394260	un'app
+2394260	2394820	che navigano
+2394820	2395540	nello spazio
+2395540	2396280	sono tutte le relazioni
+2396280	2396860	di spazio
+2396860	2397680	se vedete voi
+2397680	2399380	ma il punto è che
+2399380	2400940	questa semantica qua
+2400940	2402100	funziona per tutti
+2402100	2404540	come ho detto prima
+2404540	2406460	il punto fondamentale
+2406460	2407740	è semplicemente quello
+2407740	2409140	di scegliere
+2409140	2409980	bene
+2409980	2412840	le proprietà che vuoi
+2412840	2413360	in modo che
+2413360	2413840	la tua
+2413840	2414680	non venga
+2414680	2416040	il diverso mondo
+2416040	2416860	è ben definito
+2416860	2418020	da lì in poi
+2418020	2419040	è tutto gratis
+2419040	2420020	nel senso che
+2420020	2420540	a più in poi
+2420540	2420980	chiaramente
+2420980	2422120	può essere inefficiente
+2422120	2422680	e quindi via
+2422680	2422980	ma
+2422980	2424220	le ragioni
+2424220	2424780	sono
+2424780	2427780	corrette
+2427780	2429420	questo altro
+2429420	2429720	non è che
+2429720	2430460	quello detto prima
+2430460	2431520	quindi noi
+2431520	2432060	abbiamo
+2432060	2432600	seti
+2432600	2433320	di percetti
+2433320	2433820	percetti
+2433820	2434520	entità
+2434520	2435220	quella che abbiamo detto
+2435220	2435640	prima
+2435640	2436440	le proprietà
+2436440	2437100	dell'entità
+2437100	2438120	le proprietà
+2438120	2438660	entità
+2438660	2439740	e type
+2439740	2441000	progetti
+2441000	2441320	type
+2441320	2442020	e le proprietà
+2442020	2442560	per dire
+2442560	2443040	voglio dire
+2443040	2443740	chiaramente
+2443740	2444900	mettendola
+2444900	2446060	matematicamente
+2446060	2449300	uno può dire
+2449300	2450020	se io prendo
+2450020	2450500	friend
+2450500	2452840	come relazione
+2452840	2453520	binaria
+2453520	2455060	sarà
+2455060	2456340	intanto
+2456340	2457720	il porteggio
+2457720	2458420	cartesiano
+2458420	2458860	sarà
+2458860	2460780	l'intervista
+2460780	2461400	insieme
+2461400	2462460	di tutte
+2462460	2463340	le persone
+2463340	2465280	per dopo
+2465280	2466960	questa
+2466960	2467460	è la friend
+2467460	2467740	1
+2467740	2468200	facciamo
+2468200	2468580	friend
+2468580	2469040	2
+2469040	2470760	sono tutti
+2470760	2471200	insieme
+2471200	2472060	di persona
+2472060	2473620	per persona
+2473620	2475140	e così via
+2475140	2478600	quindi
+2478600	2479100	questo
+2479100	2480160	è il relation
+2480160	2480720	type
+2480720	2481980	e poi
+2481980	2482420	ciò
+2482420	2484140	friend
+2484140	2486420	falco
+2486420	2488940	rocky
+2488940	2491060	che invece
+2491060	2491800	l'istanza
+2491800	2492720	la proprietà
+2492720	2493600	specifica
+2493600	2495380	che
+2495380	2496460	a seconda
+2496460	2496820	sono
+2496820	2497380	il mio sentino
+2497380	2497920	di barco
+2497920	2498200	e questo
+2498200	2498380	è il mio
+2498380	2498740	specifico
+2498740	2499280	di istanza
+2499280	2502300	gli
+2502300	2502760	types
+2502760	2503280	sono gli
+2503280	2503840	insiemi
+2503840	2504860	e le
+2504860	2505380	relazioni
+2505380	2505760	sono
+2505760	2506500	le tute
+2506500	2510040	e chiaramente
+2510040	2510740	a questo punto
+2510740	2511240	qui
+2511240	2515420	degli esempi
+2515420	2516160	notare bene
+2516160	2516840	che qui
+2516840	2518580	è interessante
+2518580	2519480	che questi qua
+2519480	2520160	non sono
+2520160	2520520	stringhe
+2520520	2521140	sono certi
+2521140	2521940	sono gli unicamenti
+2521940	2523420	sono puntatori
+2523420	2524720	ok
+2524720	2527160	e ho usato
+2527160	2528140	il nome proprio
+2528140	2529820	come puntatore
+2529820	2530600	ma dove non c'è
+2530600	2531100	il nome proprio
+2531100	2531740	questa è
+2531740	2533480	l'annunciazione
+2533480	2534060	che usa
+2534060	2534740	WordNet
+2534740	2535480	che avete fatto
+2535480	2536380	che poi riprenderemo
+2536380	2537220	le destitazioni
+2537220	2538000	dove
+2538000	2538600	sicuramente
+2538600	2539400	uno usa
+2539400	2540580	sharp sign
+2540580	2541380	il numerino
+2541380	2542240	per dire
+2542240	2543080	che c'è un'entità
+2543080	2544780	e chiaramente
+2544780	2545640	3 1
+2545640	2546040	è diverso
+2546040	2546680	da 3 2
+2546680	2547200	no?
+2548420	2548860	perché
+2548860	2550480	non so il nome
+2550480	2551180	non so
+2551180	2551960	neanche
+2551960	2553100	che tipo di albero è
+2553100	2553720	ma comunque
+2553720	2554520	sono diversi
+2554520	2557060	e sono
+2557060	2557400	3
+2557400	2558760	per esempio
+2558760	2559320	between
+2559320	2560420	e una tripla
+2560420	2561240	o 3 più altre
+2561240	2561500	sono
+2561500	2562160	sono
+2562160	2562860	tuple
+2562860	2563980	between
+2563980	2564260	e
+2564260	2565220	so che
+2565220	2565560	tra
+2565560	2566420	Rocco e Paolo
+2566420	2566900	eccetera
+2566900	2567600	e l'altro
+2567600	2568600	so che Paolo
+2568600	2569240	e così via
+2569240	2571040	che possiamo anche scriverla
+2571040	2571860	come la quadra
+2571860	2573120	quindi questa
+2573120	2573800	notate bene
+2573800	2574220	guardate
+2574220	2574840	abbiamo detto
+2574840	2576280	questa è
+2576280	2576920	between
+2576920	2578200	vista come
+2578200	2579200	l'insieme
+2579200	2579780	delle tue
+2579780	2581240	quindi
+2581240	2582540	questo è il percetto
+2582540	2584040	semplice
+2584040	2585240	questo è il percetto
+2585240	2585920	composto
+2585920	2586260	che viene
+2586260	2587080	istanziato
+2587080	2588400	tra queste
+2588400	2589040	3 istanze
+2589040	2589500	che tutte
+2589500	2591000	e qui
+2591000	2591480	chiaramente
+2591480	2591960	dovrebbero essere
+2591960	2592740	Rocco e Soffi
+2592740	2593140	Paolo
+2593140	2593400	quindi
+2593400	2593840	probabilmente
+2593840	2594140	queste
+2594140	2594560	rocce
+2594560	2595520	questa
+2595520	2596500	correlazione
+2596500	2597460	tripla qua
+2597460	2598560	è esattamente
+2598560	2599040	questa
+2599040	2599940	quindi abbiamo
+2599940	2600820	abbiamo
+2600820	2601460	abbiamo
+2601460	2602660	il percetto
+2602660	2603200	Rocco
+2603200	2604160	il percetto
+2604160	2604780	Soffia
+2604780	2606600	il percetto
+2606600	2607160	Paolo
+2607160	2608000	poi
+2608000	2608820	between
+2608820	2609420	anche
+2609420	2610820	la Soffia
+2610820	2611800	e l'albero
+2611800	2612520	qua in mezzo
+2612520	2613160	se hanno
+2613160	2613380	quelli
+2613380	2614080	non è Soffia
+2614080	2614780	va beh
+2614780	2615160	è un po' più
+2615160	2615560	importante
+2615560	2616760	questi
+2616760	2617260	sono i singoli
+2617260	2617900	percetti
+2617900	2618660	e notate bene
+2618660	2619160	che io
+2619160	2620060	matematicamente
+2620060	2620520	gli do
+2620520	2621140	la lista
+2621140	2621720	delle tute
+2621720	2622400	che è
+2622400	2622880	esattamente
+2622880	2623280	come quando
+2623280	2623760	fai
+2623760	2624020	actual
+2624020	2624620	recognition
+2624620	2625580	su
+2625580	2626140	IoT
+2626140	2626380	o
+2626380	2626580	di
+2626580	2627020	television
+2627020	2627320	devi
+2627320	2627600	dati
+2627600	2628200	la possibilità
+2628200	2628600	e gli fai
+2628600	2628980	training
+2628980	2629460	per imparare
+2629460	2629740	la loro
+2629740	2630760	e poi
+2630760	2631380	le istanze
+2631380	2631740	e questo è
+2631740	2632040	esattamente
+2632040	2632380	quello che
+2632380	2632920	avrai sentito
+2632920	2633920	ok
+2633920	2635280	tutto qua
+2635280	2639600	ok
+2639600	2640200	quindi
+2640200	2640440	ho visto
+2640440	2640640	quindi
+2640640	2640960	mi ha fatto
+2640960	2641500	i percetti
+2641500	2641780	ma ora
+2641780	2641960	dov'è
+2641960	2642280	definire
+2642280	2642540	domini
+2642540	2643360	di interpretazione
+2643360	2646120	è quello
+2646120	2646620	che ho detto
+2646620	2647380	sempre
+2647380	2647880	comunque
+2647880	2652620	c'è
+2652620	2652900	un
+2652900	2654500	un
+2654500	2654740	domini
+2654740	2655500	di riferimento
+2655500	2656860	questo
+2656860	2657120	è un problema
+2657120	2657700	che ha
+2657700	2658600	dato
+2658600	2658960	a
+2658960	2659940	Newton
+2659940	2660980	o in
+2660980	2661380	Antony
+2661380	2662460	Parani
+2662460	2664020	comunque
+2664020	2664700	sia noi
+2664700	2665220	siamo
+2665220	2665960	dentro
+2665960	2667420	di
+2667420	2668100	modellare
+2668100	2668540	la box
+2668540	2670140	che è
+2670140	2670340	il mio
+2670340	2670620	domini
+2670620	2671360	di riferimento
+2671360	2672320	e noi la modelliamo
+2672320	2672700	così
+2672700	2676080	in qualche
+2676080	2676580	maniera
+2676580	2680140	elenco
+2680140	2680860	tutti i percetti
+2680860	2682220	in S3
+2682220	2683600	i domini
+2683600	2684240	di riferimento
+2684240	2685400	sono tutti gli studenti
+2685400	2685640	scritti
+2685640	2686280	al mio scherzo
+2686280	2688360	per fare la stampa
+2688360	2689080	per strada
+2689080	2691960	fisicamente
+2691960	2692280	iniziamo
+2692280	2693380	tutti i percetti
+2693380	2696660	chiaramente
+2696660	2697980	i percetti
+2697980	2698740	e il PITAR
+2698740	2699520	la identità
+2699520	2700020	poi
+2700020	2701280	in S3
+2701280	2701760	ci sarà
+2701760	2702520	esame
+2702520	2703400	tutti gli altri
+2703400	2703960	ma di fatto
+2703960	2705580	il punto fondamentale
+2705580	2705900	qui
+2705900	2706920	è che
+2706920	2707440	insieme
+2707440	2708000	del dominio
+2708000	2708340	è stato
+2708340	2708600	un uomo
+2708600	2708980	del nostro
+2708980	2709240	stato
+2709240	2709440	ora
+2709440	2709820	ci sono
+2709820	2710640	gli studenti
+2710640	2711100	la lista
+2711100	2711840	degli esami
+2711840	2713000	la lista
+2713000	2713460	delle aule
+2713460	2713920	e così via
+2713920	2714280	ma sono
+2714280	2715800	tutti formalizzati
+2715800	2720800	chiaramente
+2720800	2721480	come scritto qua
+2721480	2722020	sono diversi
+2722020	2722900	tutti i percetti
+2722900	2724380	bene
+2724380	2725140	a questo punto
+2725140	2725800	formalmente
+2725800	2726820	è una mini definizione
+2726820	2727480	che dominano
+2727480	2728060	la tripla
+2728060	2730860	l'insieme
+2730860	2731480	delle unità
+2731480	2732060	che vediamo
+2732060	2733040	entità
+2733040	2735280	prima di tutto
+2735280	2735900	c'è l'universo
+2735900	2736740	di interpretazione
+2736740	2737260	che è l'insieme
+2737260	2737680	delle unità
+2737680	2738240	che vediamo
+2738240	2740940	l'insieme di classi
+2740940	2741700	che sono
+2741700	2742560	quello
+2742560	2743080	che vediamo
+2743080	2743700	sui dettagli
+2743700	2744400	italici
+2744400	2745460	è un insieme
+2745460	2746600	di relazioni
+2746600	2747640	di tutto
+2747640	2748260	dove
+2748260	2748760	le relazioni
+2748760	2749560	sono tutti insieme
+2749560	2751580	lui
+2751580	2751920	del
+2751920	2753520	del
+2753520	2753700	del
+2753700	2756760	del
+2756760	2756800	del
+2756800	2757660	cartesiano
+2757660	2761480	dell'universo
+2761480	2762140	ok
+2762140	2763580	quindi
+2763580	2774380	e questo
+2774380	2774960	è esattamente
+2774960	2776340	quando noi andiamo a fare
+2776340	2777400	salire delle logiche
+2777400	2778920	per ogni logica
+2778920	2779760	vi diciamo questa
+2779760	2780880	la prima parte
+2780880	2781500	per ogni logica
+2781500	2782180	dico questa
+2782180	2785100	e non è che vi dico
+2785100	2785600	solamente
+2785600	2786000	domenica
+2786000	2786480	di interpretazione
+2786480	2787420	vi dico anche
+2787420	2788380	le c
+2788380	2789580	c'è il titolo
+2789580	2790060	di qualità
+2790060	2790720	che divido
+2790720	2792180	ma non c'è
+2792180	2793020	di quali relazioni
+2793020	2793480	faccio
+2793480	2794240	e una volta
+2794240	2795020	che ho fatto questo
+2795020	2796220	nella misura in cui
+2796220	2797420	abbiamo un metodo
+2797420	2798080	che ci accordano
+2798080	2798960	linguisticamente
+2798960	2799780	esattamente
+2799780	2800400	momentario
+2800400	2801320	comunque altra cosa
+2801320	2802040	da lì in poi
+2802040	2803280	proprio di forma
+2803280	2803840	di forma
+2803840	2804320	e di forma
+2804320	2804740	di forma
+2804740	2805480	è risolto
+2805480	2807180	ed è esattamente
+2807180	2807740	dove puoi fare
+2807740	2808600	gli esercizi
+2808600	2809100	e di via
+2809100	2818880	quindi
+2818880	2822640	abbiamo le unità
+2822640	2823960	abbiamo le classi
+2823960	2824640	e le relazioni
+2824640	2825360	enarie
+2825360	2827060	guardate bene
+2827060	2827880	che poi vedremo
+2827880	2828600	che nella maggioranza
+2828600	2829240	della logica del mondo
+2829240	2829860	facciamo le relazioni
+2829860	2831640	binarie
+2831640	2833240	ma ne entriamo
+2833240	2834000	tecnicamente
+2834000	2834760	più avanti
+2834760	2836440	vediamo
+2836440	2837620	le uniche
+2837620	2837640	le uniche
+2837640	2838980	depict
+2838980	2839760	entities
+2839760	2840320	class
+2840320	2840900	depict
+2840900	2841200	set
+2841200	2841760	of entities
+2841760	2842260	relation
+2842260	2842620	depict
+2842620	2843060	property
+2843060	2843420	set
+2843420	2843900	of entities
+2843900	2846520	and relation
+2846520	2846980	depict
+2846980	2847320	relation
+2847320	2847600	set
+2847600	2847700	set
+2847700	2848300	let's
+2848300	2848660	notare bene
+2848660	2848960	che
+2848960	2850840	a livello
+2850840	2851660	di modello
+2851660	2852800	property
+2852800	2853200	relation
+2853200	2853420	sono
+2853420	2854000	questa cosa
+2854000	2855640	qual'è la differenza
+2855640	2856420	di ricordazione
+2856420	2856960	che andava
+2856960	2857660	su blog
+2857660	2859900	come vedremo
+2859900	2860420	più avanti
+2860420	2861080	la lezione
+2861080	2861620	è perché
+2861620	2862180	sempre
+2862180	2863720	quando noi
+2863720	2864320	facciamo
+2864320	2867260	un modello
+2867260	2868000	di quistico
+2868000	2868720	del mondo
+2868720	2870720	ci hanno insegnato
+2870720	2871080	così
+2871080	2871860	a parte la vostra
+2871860	2872180	cultura
+2872180	2873080	ci andiamo sempre
+2873080	2873460	insieme
+2873460	2874380	di data type
+2874380	2878940	però poi
+2878940	2879320	al fine
+2879320	2880220	il numero 1
+2880220	2880720	è un'entità
+2880720	2881160	del mondo
+2881160	2882840	matematicamente
+2882840	2883660	cos'è che
+2883660	2884480	il divoegge
+2884480	2884980	di qualsiasi
+2884980	2885620	è il numero 2
+2885620	2886420	com'è il numero
+2886420	2887240	matematicamente
+2887240	2887800	non sapete
+2887800	2888220	cos'è
+2888220	2889340	com'è
+2889340	2891160	matematico
+2891160	2891460	a
+2891460	2894120	che voi
+2894120	2894560	mi riprovi
+2894560	2895100	io vi dico
+2895100	2895620	sì ma
+2895620	2896580	l'uno
+2896580	2897120	è un'entità
+2897120	2897500	sì ma
+2897500	2898040	che entità
+2898040	2898240	è
+2898240	2900940	matematicamente
+2900940	2901100	no
+2901100	2903700	è un esame
+2903700	2904020	che ho fatto
+2904020	2904360	una volta
+2904360	2904920	un orale
+2904920	2906120	e ho chiesto
+2906120	2906680	a uno studente
+2906680	2906960	che ho già
+2906960	2907380	mi chiestato
+2907380	2907940	il diviniero
+2907940	2910140	la domanda
+2910140	2910680	che ho fatto
+2910680	2910940	ma
+2910940	2911940	è una giovane
+2911940	2913920	gli ho chiesto
+2913920	2914400	che cos'è
+2914400	2914840	che hanno
+2914840	2915360	il cubone
+2915360	2915860	tre alber
+2915860	2916520	e tre albite
+2916520	2921240	cos'è che hanno
+2921240	2921560	i cubone
+2921560	2921940	tra le alber
+2921940	2922420	e tre albite
+2922420	2923000	chi lo sa
+2923000	2926280	sono tre
+2926280	2928900	ma com'è
+2928900	2929460	che si cattura
+2929460	2930460	matematicamente
+2930460	2931760	insieme
+2931760	2932840	sì
+2932840	2933660	sono due insieme
+2933660	2934540	ma
+2934540	2935300	tre albite
+2935300	2937280	ma tre albite
+2937280	2937940	hanno la stessa
+2937940	2939120	situazione
+2939120	2939620	di
+2939620	2941500	equivalenza
+2941500	2941740	di
+2941740	2942420	tre albite
+2942420	2942880	tre albite
+2942880	2944000	tre rosa
+2944000	2945680	o tre albite
+2945680	2945980	tre albite
+2945980	2946340	tre
+2946340	2946900	città
+2946900	2947920	cos'è che c'è
+2947920	2948340	il comune
+2948340	2949540	con il figlio
+2949540	2949880	di insieme
+2949880	2950080	che ha
+2950080	2950380	tre
+2950380	2950720	il numero
+2950720	2952080	il numero
+2952080	2953560	di elementi
+2953560	2954180	il numero
+2954180	2954720	di elementi
+2954720	2955040	sì ma
+2955040	2956180	mi stai dicendo
+2956180	2956780	che il numero
+2956780	2957060	è tre
+2957060	2957640	il numero
+2957640	2958200	di elementi
+2958200	2958600	ma devi dire
+2958600	2959320	matematicamente
+2959320	2961020	eh
+2961020	2963340	esatto
+2963340	2965940	lo facciamo a calcolare
+2965940	2967240	lo facciamo a matematicamente
+2967240	2967860	a formalizzare
+2967860	2968600	la caldinalità
+2968600	2970800	questo è il numero
+2970800	2971780	di elementi
+2971780	2972300	tra l'insieme
+2972300	2975660	si fa così
+2975660	2978400	grazie
+2978400	2979980	c'è l'albero
+2979980	2981720	c'è l'albero
+2981720	2982480	c'è l'albero
+2982480	2983800	poi qua c'è la matita
+2983800	2985080	qua c'è la matita
+2985080	2985940	poi c'è la matita
+2985940	2990820	per ogni elemento
+2990820	2991460	diventa insieme
+2991460	2993080	dati qualunque insieme
+2993080	2994520	la caldinalità
+2994520	2996000	è così
+2996000	2996400	per fare
+2996400	2996760	un'azione
+2996760	2997440	più anivocata
+2997440	2997760	a tutti
+2997760	2998080	le vite
+2998080	2998660	dell'insieme
+2998660	3001160	è chiaro?
+3002700	3003140	infatti
+3003140	3003460	il numero
+3003460	3004180	di qualunque
+3004180	3004420	il numero
+3004420	3005020	è l'insieme
+3005020	3005580	tutti insieme
+3005580	3006600	della caldinalità
+3006600	3012480	quindi
+3012480	3013240	in quest'ottica
+3013240	3013640	qui
+3013640	3014220	il numero
+3014220	3014480	uno
+3014480	3014800	ne metto
+3014800	3015140	insieme
+3015140	3015620	e poi ovviamente
+3015620	3016600	tanto per divertimento
+3016600	3018600	per 5 minuti
+3018600	3019440	è chiaro no?
+3019480	3019980	vi comincia?
+3022060	3022880	è chiaro no?
+3022880	3023340	questo è un'altra
+3023340	3023700	risposta
+3023700	3024320	non vi comincia
+3024320	3026360	ovviamente
+3026360	3026700	diciamo
+3026700	3027240	bello bello
+3027240	3027540	bello
+3027540	3028860	da buoni ingegneri
+3028860	3029480	come ero io
+3029480	3030700	che sono io
+3030700	3031840	e poi ti dico
+3031840	3032360	sì ma guarda
+3032360	3033260	questo esempio qua
+3033260	3034420	uno
+3034420	3035060	uno
+3035060	3035760	due
+3035760	3036460	quattro
+3036460	3036960	tre
+3036960	3037720	nove
+3037720	3038520	sei
+3038520	3039240	quattro
+3039240	3040060	sedici
+3040060	3040860	5
+3040860	3041280	25
+3041280	3046280	numero
+3046280	3047460	il quadrato
+3047460	3047800	del numero
+3047800	3048300	c'è la reazione
+3048300	3048800	uno a uno
+3048800	3049860	eh ma tu dicevi
+3049860	3050620	i due quadrati
+3050620	3051060	sono più
+3051060	3051880	o meno
+3051880	3053680	infatti
+3053680	3054380	all'infinito
+3054380	3056540	insieme
+3056540	3057820	ma insieme
+3057820	3058440	i codi
+3058440	3058940	non si accade
+3058940	3059360	in realtà
+3059360	3061220	anche le matematiche
+3061220	3064200	questo insieme
+3064200	3064900	all'infinito
+3064900	3067160	questo insieme
+3067160	3067780	all'infinito
+3067780	3069560	perché
+3069560	3070080	una volta
+3070080	3070400	in usata
+3070400	3070820	la definizione
+3070820	3071180	di una
+3071180	3071740	in questa maniera
+3071740	3072320	così è
+3072320	3073960	allora viene fuori
+3073960	3074880	che se tu prendi
+3074880	3075340	chiamiamo
+3075340	3075740	omega
+3075740	3076300	l'infinito
+3076300	3076760	fai uno
+3076760	3077000	più
+3077000	3077500	l'infinito
+3077500	3078100	è diverso
+3078100	3079400	da uno
+3079400	3079940	più lì
+3079940	3082160	anche qui
+3082160	3082640	non ce li devi
+3082640	3083220	mai usare
+3083220	3086140	se aggiungi
+3086140	3086560	un oggetto
+3086560	3087100	finito
+3087100	3087880	un insieme
+3087880	3088240	infinito
+3088240	3089280	un insieme
+3089280	3089940	infinito
+3089940	3091640	non cambi
+3091640	3092260	la presentazione
+3092260	3092640	insieme
+3092640	3092940	vabbè
+3092940	3093420	queste sono tutte
+3093420	3094040	curiosità
+3094040	3095700	per dirvi
+3095700	3096320	che quando si
+3096320	3096780	comincia a fare
+3096780	3097160	la logica
+3097160	3097900	la matematica
+3097900	3098440	magari
+3098440	3099280	per dare l'idea
+3099280	3100120	che questi concetti
+3100120	3100460	che siamo
+3100460	3101080	molti semplici
+3101080	3101520	in realtà
+3101520	3103020	hanno un significato
+3103020	3103920	molto profondo
+3103920	3105480	e che
+3105480	3107260	tra i informatici
+3107260	3109520	avere in mente
+3109520	3110340	questa cosa qua
+3110340	3111440	ti aiuta a pensare
+3111440	3111960	bene
+3111960	3112560	quando facciamo
+3112560	3113220	il nostro lavoro
+3113220	3115140	passo dopo
+3115140	3116900	quindi
+3116900	3117380	abbiamo detto
+3117380	3117680	però
+3117680	3117900	comunque
+3117900	3118380	se abbiamo detto
+3118380	3118900	che cosa
+3118900	3119180	che
+3119180	3120280	quando noi diciamo
+3120280	3121040	che nel mio dominio
+3121040	3121720	di interpretazione
+3121720	3122580	come lo faremo
+3122580	3123020	più avanti
+3123020	3123440	il solito
+3123440	3124080	di data type
+3124080	3125120	io vi compresi
+3125120	3126080	i numeri
+3126080	3127300	vi avete chieduto bene
+3127300	3127840	ma sto dicendo
+3127840	3128760	che i matematici
+3128760	3130000	dicono come fate
+3130000	3130760	ok
+3130760	3131460	quindi
+3131460	3134040	dato un colunque
+3134040	3135420	un universo
+3135420	3136420	di un'interpretazione
+3136420	3137460	se vogliamo mettere
+3137460	3138300	detratare il tento
+3138300	3138980	possiamo mettere
+3138980	3139880	e continuiamo a fare
+3139880	3140460	degli insiemi
+3140460	3141020	quello sarà
+3141020	3141360	l'insieme
+3141360	3142240	e tutti gli insiemi
+3142240	3143240	che è cambiato
+3143240	3144000	della camminarità
+3144000	3146040	3 a 4
+3146040	3146320	5
+3146320	3146620	6
+3146620	3148160	qual'è un fatto
+3148160	3151140	parte importante
+3151140	3151580	perché
+3151580	3152120	è dove
+3152120	3152620	esattamente
+3152620	3153140	arriviamo
+3153140	3153400	perché
+3153400	3154380	siamo dati
+3154380	3154980	i percetti
+3154980	3156000	non siamo dati
+3156000	3160500	gli oggetti
+3160500	3161260	che noi percepiamo
+3161260	3161960	però
+3161960	3163140	se voi ricordate
+3163140	3164960	quello che io ho detto
+3164960	3165460	ieri
+3165460	3166780	ho detto
+3166780	3167520	che
+3167520	3168880	nel ragionamento
+3168880	3169880	in particolare
+3169880	3170360	quando arriviamo
+3170360	3170780	al livello
+3170780	3171480	della classe
+3171480	3172080	del ragionamento
+3172080	3173040	quella della saggetta
+3173040	3173780	così chiamata
+3173780	3176080	tu ragionisci
+3176080	3176500	a chi viene
+3176500	3177080	ciò che fa
+3177080	3179420	ok
+3179420	3181120	quindi
+3181120	3181640	noi
+3181640	3182300	vogliamo
+3182300	3183240	poter dire
+3183240	3185220	anche un meccanismo
+3185220	3188640	nel
+3188640	3192480	nel linguaggio
+3192480	3194640	per poter dire
+3194640	3195080	per fare
+3195080	3195900	delle frasi
+3195900	3197180	o delle sentenze
+3197180	3198580	di cui
+3198580	3199760	il vero
+3199760	3200180	parte
+3200180	3201920	queste sentenze
+3201920	3202200	qua
+3202200	3202520	tipo
+3202520	3203100	è vero
+3203100	3203460	che oggi
+3203460	3203880	piove
+3203880	3204220	sì
+3204220	3205940	è vero
+3205940	3206560	che cammino
+3206560	3206780	sì
+3206780	3207080	ok
+3207080	3208120	ma
+3208120	3208520	con il
+3208520	3209080	effetto
+3209080	3210800	è la
+3210800	3211000	modo
+3211000	3211220	che
+3211220	3213240	va
+3213240	3213280	va
+3213280	3215240	va
+3215240	3219240	va
+3219240	3219800	va
+3219800	3220240	va
+3220240	3220820	va
+3220820	3221240	va
+3221240	3222240	va
+3222240	3222740	va
+3222740	3223240	va
+3223240	3223320	va
+3223320	3224240	va
+3224240	3225240	va
+3225240	3225320	va
+3225320	3226240	va
+3226240	3227160	va
+3227160	3228120	coordinato
+3228120	3228400	stato
+3228400	3229060	temporale
+3229060	3229260	poi
+3229260	3229420	fa
+3229420	3229760	l'altro
+3229760	3230060	sì
+3230060	3234120	è vero
+3234120	3234500	sì
+3234500	3236380	è vero
+3236380	3237060	sì
+3237060	3237560	è vero
+3237560	3239700	che
+3239700	3240240	la cosa
+3240240	3241060	interessante
+3241060	3244080	c'è il verbo
+3244080	3255040	è il verbo
+3255040	3256820	è poi la tripla
+3256820	3258220	che vedrete
+3258220	3258240	che vedrete
+3258240	3264120	come ho detto prima
+3264120	3264680	se esattamente
+3264680	3265120	per caso
+3265120	3265880	l'ho detto prima
+3265880	3273660	brand
+3273660	3273680	brand
+3273680	3303680	
+3303680	3312340	linguistiche, di cui puoi dire che denotano, che sono vero o false, che denotano dei fatti,
+3312340	3317800	che sono esattamente queste percezioni che si può dire o meno se dato un certo spazio
+3317800	3321700	temporale è vero o falso che c'è, che ci sono.
+3321700	3333240	Tematicamente, quella è quella che nella lezione che ti chiedi, qui purtroppo dovrebbe essere linguisticamente,
+3333240	3340780	quindi cos'è che è un fatto di certidore? Un fatto lo modelliamo dicendo, è una member of relation between a unit and a class.
+3341140	3346960	Fausto è un professore, è vero, sì. Fausto è una donna, no. Il primo tipo di fatto.
+3346960	3358160	Fausto è amico di Alfredo, sì. No, non lo so, è poco importante. Fausto è in aula, sì.
+3363840	3376160	Donna è un sottinsieme di persone, sì. Essere demitori è un sottinsieme di essere parenti,
+3376960	3385300	sì. Essere, e così via, però appunto quando in Italia volevo dire, questo è una generation
+3385300	3395160	a trip, almeno che sa ciò di dire. Essere demitori in Italia è un sottinsieme di essere parenti
+3395160	3400960	in Italia. Se no, assumiamo anche il concetto di parenti, ci mettiamo in Italia con i parametri
+3400960	3409120	in Italia. Però di fatto, quello che vi sto dicendo, è che in tutte le vostre somatizzazioni
+3409120	3414600	avete tre tipi di relazioni. Di ruolo, di spazio-tempo, c'è anche maggiore e minore,
+3414700	3424960	prima o dopo. E di azione. E tutte queste sono insieme, insieme, insieme, insieme a ciò
+3424960	3430420	di pensare. E questi si chiamano fatti. Qual è il passo che abbiamo fatto dei percetti
+3430420	3437600	e dei fatti? Che i percetti vengono costruiti, messi sempre dai fatti. Del fatto puoi dire
+3437600	3442880	che è vero o falso. Del fatto se adesso piove a New York, possiamo dire che è nostro.
+3445440	3451660	Il fatto di New York possiamo dire che è vero o che piove. Tutta questa roba qui la facciamo
+3451660	3455300	o che è arrivata perché stavamo qua. Quando voi fate l'esercizio, la fate per non
+3455300	3463380	arrivare a dire queste sezioni sul mondo. E tutte queste, nel caso semplice, nel 90
+3463380	3469780	come adesso si usa da noi, siamo tutte triple. Dobbiamo fare questo triple. Poi c'è un sacco
+3469780	3475580	di... se uno lo può fare, lo facciamo a ridurre in una versione nazia, in una versione binaria,
+3475680	3481100	si può fare, non lo facciamo in questo corso, in altri corsi. Comunque stiamo dicendo
+3481100	3487180	che tutto il lavoro che abbiamo fatto noi, non è che abbiamo fatto prima, avevamo le
+3487180	3494140	immagini, ci siamo dati i scientifici perfetti, perfetti, perfetti, perfetti, perfetti, e ora
+3494140	3498340	ci andiamo a scegliere tra tutti i percetti quelli che ci interessano. Perché sono quelli
+3498340	3502860	che ci interessano? Perché quando abbiamo questo possiamo dire se è vero o falso. È
+3502860	3507740	chiaro? Quindi non solo, perché poi infatti vedremo nella prossima lezione che non solo
+3507740	3513620	ci diamo i nomi per tutti i percetti, ma ci daranno, ci daremo la sintassi, come voi
+3513620	3518680	l'avete già vista, per dire quali sono le frasi che ci interessano dire. Non diciamo
+3518680	3522700	le frasi che ci interessano dire, ci interessano dire ciò che è vero o che è falso. Quando
+3522700	3526780	abbiamo fatto questa roba qui, abbiamo fatto un sacco di lavoro, ma lo ripeto perché questo
+3526780	3530920	è il significato della logica, da adesso in poi quando siamo arrivati qui, da qui in poi
+3530920	3538080	abbiamo alcuni ritmi che sono caretti. E chiaramente magari non importa dove c'è un'applicazione
+3538080	3542980	sull'utilizzo, ma va sicuro che chi fa il software per i primi per l'aereo è tutto così.
+3543860	3552800	Fortunatamente, per quello che non cade un casino. E chiaramente lasciano passare dalla
+3552800	3559960	appellazione di quello naturale, magari qui ci sono 5 mila valutazioni. Perché
+3559960	3560960	perché gli avrebbero il problema
+3560960	3562600	tu devi pensare che un aereo
+3562600	3563940	un tremo non deve
+3563940	3566280	non deve
+3566280	3567460	averlo detto
+3567460	3578040	però di fatto ad esempio
+3578040	3580140	in metodi formali chi gli vuole fare un model checking
+3580140	3581260	mi chiede un model checking
+3581260	3583060	è perché costruiscono un modello
+3583060	3585620	quanti stati ha il modello 10 alla 50?
+3585620	3587580	il grosso 10 alla 50 stati
+3587580	3588440	non lo faccio
+3588440	3617840	ma la cosa interessante è che abbiamo solo questo
+3617840	3620380	avevamo 7 tipi di percetti
+3620380	3622000	e abbiamo 5 tipi di percetti
+3622000	3625680	ed è il motivo per cui voi avrete
+3625680	3627120	fare il final save machine
+3627120	3628940	così che una volta che ci date questa forza
+3628940	3631220	questa capacità di astruzione
+3631220	3633340	che a posteriori è abbastanza magica
+3633340	3635220	possiamo fare quello
+3635220	3637120	in informatica sappiamo capire
+3637120	3639100	e adesso non ci fa i sistemi di tecnica
+3639100	3642560	e quindi sono
+3642560	3644300	vedete qui cos'è che ho cambiato?
+3644420	3645640	è quello che avevo fatto precedente
+3645640	3648180	vedete qui ho messo le relazioni
+3648180	3651160	è vero che questo è un fatto numero uno
+3651160	3652360	un elemento di accazzo
+3652360	3653480	una donna è una persona
+3653480	3657460	Paolo ha come un animale
+3657460	3660180	le donne sono persone
+3660180	3663580	le persone vicine sono insieme
+3663580	3664460	degli amici
+3664460	3665320	perché sono nemico
+3665320	3666560	non troppo io vicino
+3666560	3668620	le persone
+3668620	3671440	tutte le persone
+3671440	3671800	non so
+3671800	3673200	quanto riguarda il prodotto cartesiano
+3673200	3674000	le persone droghe
+3674000	3674520	sono insieme
+3674520	3675120	di S-Dog
+3675120	3676620	S-Dog
+3676620	3677280	è un pochino
+3677280	3677840	è un pochino
+3677840	3678140	è un pochino
+3678140	3678580	è un pochino
+3678580	3679660	ha certo
+3679660	3680240	sì perché
+3680240	3681160	S-Dog
+3681160	3682880	è più
+3682880	3683680	è un pochino
+3683680	3683760	è un pochino
+3683760	3683800	è un pochino
+3683800	3684000	è un pochino
+3684000	3685100	perché c'è animale qui
+3685100	3687160	e qui stiamo dicendo invece
+3687160	3688600	che il prodotto cartesiano
+3688600	3689040	sono persone
+3689040	3689800	non sono insieme
+3689800	3690360	di S-Dog
+3690360	3691520	non so come mai
+3691520	3691780	però
+3691780	3693660	è davvero scritto
+3693660	3696680	è chiaro?
+3697380	3697600	oh
+3697600	3698740	per questi sono
+3698740	3700120	uno, due, tre, tre, tre, tre, tre
+3700120	3700640	sei fatti
+3700640	3702160	ogni mi deve essere
+3702160	3703380	ok
+3703380	3704820	bene
+3704820	3707700	queste
+3707700	3708960	sono
+3708960	3711360	affermazioni
+3711360	3714300	sono fatti
+3714300	3715320	scritte
+3715320	3716180	nel linguaggio
+3716180	3716920	della serpia
+3716920	3718100	ok
+3718100	3719560	ricordate voi
+3719560	3720340	sentire abbiamo
+3720340	3721040	un linguaggio
+3721040	3721900	che ci permette
+3721900	3722720	di descrivere
+3722720	3725840	quello che è vero
+3725840	3726740	nell'apprezzazione
+3726740	3727360	analogica
+3727360	3728020	ovviamente
+3728020	3729280	sicuramente
+3729280	3730000	apprezzate
+3730000	3730800	quante informazioni
+3730800	3732280	abbiamo perso
+3732280	3733420	ma come ho detto prima
+3733420	3734280	nella misura in cui
+3734280	3734940	questo è un'unica
+3734940	3735960	che ti interessa
+3735960	3737500	va bene così
+3737500	3738820	ok
+3738820	3744920	e a questo punto
+3744920	3745740	verso le ovvie
+3745740	3746620	definizioni
+3746620	3747900	che vi potete guardare
+3747900	3749820	come ho detto prima
+3749820	3750240	in
+3750240	3751760	cos'è
+3751760	3752800	di tutti i fatti
+3752800	3753380	sono proprio
+3753380	3754020	banali
+3754020	3754640	banali
+3754640	3756060	affermazioni
+3756060	3756520	certe
+3756520	3760440	e poi
+3760440	3761200	in questo punto
+3761200	3762880	un altro esempio
+3762880	3765600	fatti
+3765600	3766020	sono
+3766020	3767000	rappresentazioni
+3767000	3767840	di percezione
+3767840	3769480	che descrivono
+3769480	3770200	che cos'è
+3770200	3771580	what is the case
+3771580	3775000	ricordate
+3775000	3776080	che la volta scorsa
+3776080	3779100	adesso cominciamo
+3779100	3779700	ci stiamo dando
+3779700	3780560	abbastanza linguaggio
+3780560	3780780	no
+3780780	3781960	vi ho detto
+3781960	3782580	che
+3782580	3784820	noi
+3784820	3789920	nel mondo
+3789920	3791020	ci sono delle cose
+3791020	3792060	che non accettiamo
+3792060	3792760	come vero
+3792760	3793400	e diciamo
+3793400	3793900	che nasce
+3793900	3794580	l'inconsistenza
+3794580	3795180	consistenza
+3795180	3798900	consistenza
+3798900	3799480	l'ho detto
+3799480	3800300	effettivamente
+3800300	3800880	è il fatto
+3800880	3801460	che si chiama
+3801460	3801740	il mondo
+3801740	3804080	che non è possibile
+3804080	3808580	se io dico
+3808580	3833860	se io dico qua
+3833860	3839340	mary
+3839340	3840820	belongs
+3840820	3841680	to
+3841680	3869120	è possibile
+3869120	3869800	o non è possibile
+3869800	3873760	sì o no
+3873760	3875720	glielo dite
+3875720	3876280	che è una cazzata
+3876280	3876620	lo sappiamo
+3876620	3877240	che è una cazzata
+3877240	3877920	però è possibile
+3877920	3879040	è una chiamata
+3879040	3879660	il consiglio
+3879660	3880080	spu
+3880080	3881640	ma se uno
+3881640	3882080	mi dice
+3882080	3882700	mary
+3882700	3885260	appartiene
+3885260	3885760	a human
+3885760	3887580	ma
+3887580	3889340	ti dico anche
+3889340	3889660	che
+3889660	3890360	spu
+3890360	3891700	un terzo
+3891700	3892040	gatto
+3892040	3892460	human
+3892460	3893140	come giusto
+3893140	3893700	che sia
+3893700	3894600	è uguale
+3894600	3894960	all'insieme
+3894960	3895420	vuoto
+3895420	3897180	questo non è possibile
+3897180	3901460	è chiaro
+3901460	3904940	e qui stiamo arrivando a dubbio
+3904940	3905660	perché adesso
+3905660	3907020	vi ho fatto vedere
+3907020	3907540	che
+3907540	3909140	questa sarà una cosa
+3909140	3909440	quando noi
+3909440	3910640	faremo di consistenza
+3910640	3911160	vuole dire
+3911160	3912320	che noi abbiamo messo
+3912320	3913660	un insieme di fatti
+3913660	3914740	dove il fatto
+3914740	3915120	che mary
+3915120	3915480	sono sfum
+3915480	3916260	va benissimo
+3916260	3917000	ma poi
+3917000	3917460	se gli metto
+3917460	3917840	che mary
+3917840	3918220	è una sfum
+3918220	3919260	ma è anche una persona
+3919260	3920340	e poi come persona
+3920340	3921240	dico anche
+3921240	3921800	che le persone
+3921800	3922200	non sono
+3922200	3922880	cucchiai
+3922880	3923400	e no
+3923400	3923820	viene fuori
+3923820	3924460	in consistenza
+3924460	3927960	e qui abbiamo
+3927960	3928480	gli algoritmi
+3928480	3928840	ovviamente
+3928840	3929200	che sarebbero
+3929200	3929880	quelli che facciamo
+3929880	3933280	e perché ovviamente
+3933280	3933960	ho messo un merito
+3933960	3934720	perché è ovvio
+3934720	3935340	che il nome
+3935340	3936100	è scelto così
+3936100	3937660	però quando puoi andare
+3937660	3938200	a fare qualcosa
+3938200	3939880	non c'è informazione
+3939880	3941400	l'informazione
+3941400	3942660	è esattamente
+3942660	3943480	della teoria
+3943480	3944040	dell'insieme
+3944040	3944720	ok
+3944720	3945780	io ho dovuto usare
+3945780	3946600	non per spiegare
+3946600	3947280	ho usato il nome
+3947280	3948780	per farvi indurre
+3948780	3951300	che è esattamente
+3951300	3951960	cosa succede
+3951960	3953080	è una rappresentazione
+3953080	3954700	che non è poi
+3954700	3955200	quella che
+3955200	3955980	l'albero dei modelli
+3955980	3956420	dice
+3956420	3957820	che è quella
+3957820	3958580	che poi ti permette
+3958580	3959160	esattamente
+3959160	3960400	di risolvere
+3960400	3960800	i problemi
+3960800	3961680	di inconsistenza
+3961680	3962680	di diversità
+3962680	3966520	questo insieme
+3966520	3967080	dei fatti
+3967080	3967440	ok
+3967440	3968580	ok
+3968580	3970760	ora ovviamente
+3970760	3973340	parliamo dei domini
+3973340	3975680	cos'è il dominio?
+3975800	3976140	il dominio
+3976140	3976620	abbiamo detto
+3976620	3977280	che è l'insieme
+3977280	3978680	dei percetti
+3978680	3979220	non l'abbiamo detto
+3979220	3979600	l'inizio
+3979600	3980220	vorrei parlare
+3980220	3981440	però
+3981440	3982680	se io mi do
+3982680	3983480	lo spazio
+3983480	3984680	del dominio
+3984680	3984920	cioè
+3984920	3986260	da parte del mondo
+3986260	3986860	che è l'insieme
+3986860	3987160	insieme
+3987160	3987960	dei percetti
+3987960	3989580	a questo punto
+3989580	3991480	se io mi do
+3991480	3991960	la teoria
+3991960	3992620	dell'insieme
+3992620	3993700	costruisco i fatti
+3993700	3995700	quindi
+3995700	3996440	banalmente
+3996440	3998360	dato il dominio
+3998360	3998680	insieme
+3998680	3999400	dei percetti
+3999400	4000060	posso
+4000060	4001220	portare il dominio
+4001220	4001540	insieme
+4001540	4002120	dei fatti
+4002120	4002460	che sono
+4002460	4002800	indossi
+4002800	4004220	dal percetto
+4004220	4008580	quindi
+4008580	4009460	siamo passati
+4009460	4010960	da una descrizione
+4010960	4011520	del mondo
+4011520	4013360	che è l'insieme
+4013360	4014520	di tutte le cose
+4014520	4016240	di tutti i percetti
+4016240	4017100	cioè di quelle cose
+4017100	4018320	che possiamo percepire
+4018320	4019940	che
+4019940	4022620	il certo
+4022620	4023640	che lo possiamo percepire
+4023640	4024540	ha
+4024540	4025820	un dominio
+4025820	4026360	del mondo
+4026360	4026880	che nel noi
+4026880	4027520	c'è un dominio
+4027520	4027840	che nel noi
+4027840	4028720	di interpretazione
+4028720	4030120	che è l'insieme
+4030120	4031680	di tutte le cose
+4031680	4032940	che sono vere
+4032940	4034720	o fatti
+4034720	4040660	allora
+4040660	4042580	se io prendo
+4042580	4043420	questo dominio
+4043420	4044080	uguale a
+4044080	4044820	questi tre fatti
+4044820	4045280	qui
+4045280	4048520	a questi due fatti
+4048520	4048800	qua
+4048800	4049120	anche
+4049120	4049740	questi tre fatti
+4049740	4050500	qua
+4050500	4052760	fatti uno
+4052760	4054300	questi fatti
+4054300	4054500	no?
+4054640	4055260	fatti due
+4055260	4059360	fatti tre
+4059360	4063240	quel dominio lì
+4063240	4063820	è un possibile
+4063820	4064320	dominio
+4064320	4065020	insieme al mondo
+4065020	4065540	sì o no?
+4068480	4069320	sì o no?
+4069520	4069840	no
+4069840	4076200	e se c'è sì
+4076200	4079800	perché
+4079800	4084260	il dominio
+4084260	4084900	come vedremo
+4084900	4085680	per un minuto
+4085680	4086540	vi ricordate
+4086540	4086920	quando
+4086920	4088000	abbiamo fatto
+4088000	4088800	la sezione
+4088800	4090040	abbiamo fatto
+4090040	4090440	l'insieme
+4090440	4091160	di vendaggio
+4091160	4095960	vari punti
+4095960	4096360	che hanno fatto
+4096360	4097360	una relazione qua
+4097360	4098200	e una relazione qua
+4098200	4098820	però
+4098820	4099700	queste ne hanno lasciato
+4099700	4100200	fuori
+4100200	4104460	quindi
+4104460	4105320	il dominio
+4105320	4106100	non dice
+4106100	4109540	dice lo spazio
+4109540	4109860	di quello
+4109860	4110540	che io posso
+4110540	4111400	considerare
+4111400	4113540	quindi
+4113540	4114200	io posso
+4114200	4115000	avere un mondo
+4115000	4116160	in cui
+4116160	4117260	una meri
+4117260	4119280	un cucchiaio
+4119280	4119900	e un mondo
+4119900	4120100	in cui
+4120100	4120740	la meri
+4120740	4122660	e la donna
+4122660	4124260	non posso
+4124260	4124500	avere
+4124500	4124920	insisto
+4124920	4127280	ma per essere
+4127280	4128360	concreti
+4128360	4129900	voi potete avere
+4129900	4130720	un mondo
+4130720	4131240	in cui
+4131240	4131780	lunedì
+4131780	4132320	piove
+4132320	4133320	e un mondo
+4133320	4133640	in cui
+4133640	4134260	lunedì
+4134260	4136900	è sole
+4136900	4142220	allora
+4142220	4143840	la cosa importante
+4143840	4145940	è capire
+4145940	4146880	concettualmente
+4146880	4147280	di quando
+4147280	4147620	fai la
+4147620	4149540	model theory
+4149540	4151280	quando definisci
+4151280	4152060	il dominio
+4152060	4154540	definisci
+4154540	4154980	lo spazio
+4154980	4155300	di quello
+4155300	4155660	che tu
+4155660	4156640	puoi dire
+4156640	4159060	non quello
+4159060	4159420	che stai
+4159420	4159920	dicendo
+4159920	4161100	defini
+4161100	4161580	quando tu
+4161580	4162720	fai il linguaggio
+4162720	4163540	come lo definiremo
+4163540	4163880	in una persona
+4163880	4165380	e ti dai la parola
+4165380	4166400	piove
+4166400	4166920	sole
+4166920	4167620	biondo
+4167620	4168200	quello che è
+4168200	4169880	se ci pensate bene
+4169880	4170320	poi voi
+4170320	4170620	li fate
+4170620	4171240	insieme
+4171240	4171880	come volete
+4171880	4174000	e a seconda
+4174000	4174360	di come
+4174360	4174840	li pensate
+4174840	4175280	insieme
+4175280	4176280	dice delle cose
+4176280	4177580	qual è il problema
+4177580	4179100	che se usate
+4179100	4179840	la difficoltà
+4179840	4180460	del linguaggio
+4180460	4180920	di dire
+4180920	4181240	che
+4181240	4184120	una persona
+4184120	4184880	un oggetto
+4184880	4185580	è una cosa
+4185580	4186180	e l'altra
+4186180	4186540	e i due
+4186540	4187040	non possono
+4187040	4187680	stare insieme
+4187680	4188020	e state
+4188020	4188420	dicendo
+4188420	4188920	una cosa
+4188920	4189180	che è
+4189180	4190460	inconsistente
+4190460	4192580	e soltanto
+4192580	4193320	non lo possiamo
+4193320	4193960	calcolare
+4193960	4194300	perché
+4194300	4194880	come voi
+4194880	4195240	faremo
+4195240	4196100	per la logica
+4196100	4196880	noi diremo
+4196880	4198060	nella specifica
+4198060	4198260	delle
+4198260	4199280	normal logics
+4199280	4199980	quali sono
+4199980	4200840	e diremo
+4200840	4201120	che
+4201120	4203060	cucchiaio
+4203060	4204340	insieme ai cucchiai
+4204340	4204980	la classe
+4204980	4205480	dei cucchiai
+4205480	4205740	la classe
+4205740	4206080	delle persone
+4206080	4207000	sono disjunte
+4207000	4208020	ma una volta
+4208020	4208580	che me l'hai detto
+4208580	4209680	questo è common sense
+4209680	4210260	lo sanno tutti
+4210260	4210660	non è che abbiamo
+4210660	4211220	in vivo
+4211220	4212320	non lo scriviamo
+4212320	4213320	perché lo sappiamo tutti
+4213320	4214820	una volta che l'ho detto
+4214820	4215680	è algoritmico
+4215680	4217160	le famose
+4217160	4217680	allucination
+4217680	4218220	non esiste
+4218220	4220280	fa parte
+4220280	4221160	di quel common sense
+4221160	4223020	che noi abbiamo
+4223020	4224640	e che dobbiamo
+4224640	4225520	formalizzare
+4225520	4226880	per portare
+4226880	4227620	una macchina
+4227620	4228160	a non dire
+4228160	4229020	queste cattate
+4229020	4230500	vediamo
+4230500	4232120	però il punto fondamentale
+4232120	4232440	è che noi
+4232440	4233240	lo dobbiamo
+4233240	4233920	lasciare dire
+4233920	4234780	alla macchina
+4234780	4235860	devono andare
+4235860	4236460	nella possibilità
+4236460	4237300	di dire questo
+4237300	4239820	e parlo in sentio
+4239820	4241280	perché chiaramente
+4241280	4242000	nel linguaggio
+4242000	4242960	poi uno dice
+4242960	4243340	si
+4243340	4244980	intendevo spuma
+4244980	4246800	ho chiamato spuma
+4246800	4247680	intendevo person
+4247680	4248080	no
+4248080	4248560	non sta parlando
+4248560	4249380	sta parlando proprio
+4249380	4252300	del mondo
+4252300	4253660	è il motivo
+4253660	4254160	per cui
+4254160	4254800	la sensazione
+4254800	4255660	è il suo fondamentale
+4255660	4256100	è il motivo
+4256100	4257260	per cui
+4257260	4257900	la moda
+4257900	4258300	è il tiro
+4258300	4259160	il passaggio
+4259160	4259540	alla posizione
+4259540	4260080	del dominio
+4260080	4260700	è il suo
+4260700	4262760	quindi
+4262760	4267360	quando noi
+4267360	4267960	facciamo
+4267960	4268880	il percetto
+4268880	4269520	dominio
+4269520	4270700	la posizione
+4270700	4271160	del dominio
+4271160	4271620	dipende
+4271620	4272000	uno
+4272000	4272380	prima
+4272380	4272600	il due
+4272600	4273200	dei percetti
+4273200	4274080	l'abbiamo già detto
+4274080	4275420	la persona
+4275420	4275940	con la memoria
+4275940	4276420	dopodiché
+4276420	4276920	la sensazione
+4276920	4277320	di quello
+4277320	4277700	che noi
+4277700	4278740	vogliamo poter dire
+4278740	4279620	ovvero sia
+4279620	4280820	di tutte le possibili
+4280820	4281460	facchi
+4281460	4282460	veri e falsi
+4282460	4283360	in quella roba lì
+4283360	4284520	quelli che noi
+4284520	4285300	andiamo a scegliere
+4285300	4286520	ok
+4286520	4290400	vai qua
+4290400	4290820	se vuol far
+4290820	4291240	tutto e non
+4291240	4291600	qualcosa
+4291600	4292280	che potrebbe essere
+4292280	4292880	vero
+4292880	4294300	se ci pensate bene
+4294300	4295400	altro non è
+4295400	4296680	il linguaggio
+4296680	4297180	definito
+4297180	4297740	non l'avete fatto
+4297740	4298440	in grammatica
+4298440	4299140	nella grammatica
+4299140	4299540	la chiusura
+4299540	4299980	tra l'estima
+4299980	4300840	di
+4300840	4302460	inferenza
+4302460	4303740	altro non è
+4303740	4304120	che
+4304120	4305100	tutto quello
+4305100	4305780	che potete dire
+4305780	4307260	se non avete
+4307260	4307840	il percetto
+4307840	4308480	e se non avete
+4308480	4308940	la regola
+4308940	4309640	della grammatica
+4309640	4310580	non la potete dire
+4310580	4312240	ok
+4312240	4313200	e va bene
+4313200	4314580	poi di volta
+4314580	4314960	in volta
+4314960	4315400	ogni volta
+4315400	4316400	prendiamo l'applicazione
+4316400	4317440	andremo a scegliere
+4317440	4318680	quelli che ci servono
+4318680	4319340	come
+4319340	4320860	a questo punto
+4320860	4321980	quando riguarda la fine
+4321980	4324180	ci siamo dati
+4324180	4325120	gli insieni
+4325120	4326680	ci siamo dati
+4326680	4327300	i percetti
+4327300	4328700	ci siamo dati
+4328700	4329180	i fatti
+4329180	4330600	ci siamo dati
+4330600	4331040	i domini
+4331040	4332100	ora dobbiamo poter dire
+4332100	4333920	qui è vero questo
+4333920	4335080	e non è vero questo
+4335080	4336340	dobbiamo poter dire
+4336340	4336900	che questo
+4336900	4337660	non lo vogliamo
+4337660	4338900	e questo è il percetto
+4338900	4339440	di modello
+4339440	4341580	ed è il percetto
+4341580	4341860	per cui
+4341860	4342800	adentriamo modelli
+4342800	4343580	se lo dà il modello
+4343580	4345960	questo modello
+4345960	4346500	un modello
+4346500	4346880	che insieme
+4346880	4347400	i fatti
+4347400	4348480	come un dominio
+4348480	4352300	ma
+4352300	4356160	è notare bene
+4356160	4357060	che non posso scegliere
+4357060	4358020	quanto piccolo vuoto
+4358020	4358800	il dominio
+4358800	4359720	può anche essere
+4359720	4360200	il dominio
+4360200	4360620	che insieme
+4360620	4361340	nei fatti vuoti
+4361340	4361860	che vuol dire
+4361860	4362440	che non ho
+4362440	4362900	che non
+4362900	4364400	non sto imponendo
+4364400	4364900	nessun tipo
+4364900	4365620	di conoscenza
+4365620	4368900	è partiale
+4368900	4370820	già assominio
+4370820	4371360	ricordate
+4371360	4371860	ci abbiamo
+4371860	4372440	l'apporto
+4372440	4373540	facevamo la parzialità
+4373540	4374340	perché ci ne avevamo
+4374340	4375060	i percetti
+4375060	4376060	abbiamo fatto
+4376060	4376840	la parzialità
+4376840	4377800	perché ci ne avevamo
+4377800	4379120	i fatti
+4379120	4381500	tutte scelte
+4381500	4382940	che creano
+4382940	4383740	quella diversità
+4383740	4384600	la subiettività
+4384600	4386000	e che noi possiamo
+4386000	4387420	modellare matematicamente
+4387420	4388540	di quello che ho parlato
+4388540	4389500	è una seconda lezione
+4389500	4393140	quindi
+4393140	4394380	due parti
+4394380	4394820	ci sono
+4394820	4396220	unitamente inconsistenti
+4396220	4398840	e questa
+4398840	4399260	è una
+4399260	4399920	infiezione
+4399920	4400300	perché
+4400300	4400780	il concetto
+4400780	4402860	di infiezione
+4402860	4403660	due parti
+4403660	4404880	sono inconsistenti
+4404880	4408000	se uno
+4408000	4408700	il fatto
+4408700	4408960	che
+4408960	4411200	in un modello
+4411200	4411940	sempre uno
+4411940	4412840	appartiene a M
+4412840	4413560	e che
+4413560	4414260	vuol fare il prodotto
+4414260	4415100	proprio appartiene a M
+4415100	4415500	diceva
+4415500	4422880	notare bene
+4422880	4424160	che
+4424160	4426320	questa roba qui
+4426320	4427720	della consistenza
+4427720	4428480	inconsistenza
+4428480	4428900	di fatto
+4428900	4429920	quello che ho detto prima
+4429920	4430920	ma da dove arriva
+4430920	4431800	questa consistenza
+4431800	4432620	inconsistenza
+4432620	4433940	dov'è l'inconsistenza
+4433940	4434720	sicuramente
+4434720	4435800	nella testa
+4435800	4436100	abbiamo
+4436100	4436460	la stessa
+4436460	4437160	mariterella
+4437160	4437780	e la maniera
+4437780	4438380	e lo vogliamo
+4438380	4438920	per dire
+4438920	4440020	sicuramente
+4440020	4440560	nella testa
+4440560	4440880	abbiamo
+4440880	4441920	che se c'è la donna
+4441920	4442880	non serve
+4442880	4443520	un cucchiaio
+4443520	4444380	ma poi
+4444380	4445240	diciamo questo
+4445240	4448980	lo forziamo
+4448980	4451000	è quella cosa
+4451000	4451700	che a scuola
+4451700	4452540	abbiamo imparato
+4452540	4452960	e che
+4452960	4453560	nei sistemi
+4453560	4454060	mettiamo
+4454060	4454880	esattamente
+4454880	4455760	le logiche
+4455760	4456780	dei concetti
+4456780	4457600	e vediamo
+4457600	4458260	che la gente
+4458260	4458720	ha tentato
+4458720	4459300	oggi
+4459300	4460500	che quando tu
+4460500	4461280	non è che tu vuoi
+4461280	4462400	essere confuso
+4462400	4463240	su cucchiaio
+4463240	4463860	e le forchette
+4463860	4465020	ok
+4465020	4465840	tu vuoi
+4465840	4466620	catturare il fatto
+4466620	4467060	che
+4467060	4468380	vedi un cucchiaio
+4468380	4468840	un cucchiaio
+4468840	4469340	un cucchiaio
+4469340	4470120	non è una forchetta
+4470120	4471300	quindi
+4471300	4472060	questo concetto
+4472060	4473300	di inconsistenza
+4473300	4474300	è un concetto
+4474300	4474820	che si fa
+4474820	4475820	che è primitivo
+4475820	4476860	ma è primitivo
+4476860	4477280	perché
+4477280	4477940	è perché
+4477940	4478800	non decidiamo noi
+4478800	4479620	e com'è che facciamo
+4479620	4480120	decidere
+4480120	4481140	perché scriviamo
+4481140	4481700	le regole
+4481700	4482680	scriviamo qua
+4482680	4483700	e poi come facciamo
+4483700	4484080	a dirlo
+4484080	4484960	che se ogni volta
+4484960	4485580	che io mi fai
+4485580	4486020	un insieme
+4486020	4486740	e mi ci metti
+4486740	4487080	per quale
+4487080	4487300	io dico
+4487300	4488360	sono inconsistenti
+4488360	4489220	insieme
+4489220	4489780	io ti dico
+4489780	4490440	che non va bene
+4490440	4491560	e dico
+4491560	4492060	che non va bene
+4492060	4492960	matematicamente
+4492960	4493360	ma perché
+4493360	4494600	se io ho fatto bene
+4494600	4495940	questa somatizzazione
+4495940	4497080	questa roba qua
+4497080	4497720	è esattamente
+4497720	4498380	quello che
+4498380	4499040	io voglio
+4499040	4499700	che succeda
+4499700	4500480	non voglio
+4500480	4501600	che i cucchiai
+4501600	4502280	mi mettono qualche
+4502280	4503240	non voglio
+4503240	4506320	che i due treni
+4506320	4507000	non si scondi
+4507000	4507600	due treni
+4507600	4508600	che non si scondano
+4508600	4509300	come i due treni
+4509300	4510060	non si scondano
+4510060	4510780	e così via
+4510780	4514600	scaricato
+4514600	4517700	quindi
+4517700	4521100	la regola è
+4521100	4522380	che un modello
+4522380	4524100	dato un dominio
+4524100	4526460	dato un dominio
+4526460	4529380	ci sono due
+4529380	4529920	alla
+4529920	4531180	è definito
+4531180	4531500	come insieme
+4531500	4532020	di fatti
+4532020	4532840	ci sono due
+4532840	4534480	alla n
+4534480	4536040	possibili modelli
+4536040	4538720	che sono
+4538720	4539260	insieme
+4539260	4539960	del dominio
+4539960	4541720	quindi
+4541720	4542460	una volta
+4542460	4542860	siamo dati
+4542860	4543440	il linguaggio
+4543440	4544260	per definire
+4544260	4545600	con tutte queste regole
+4545600	4546840	possiamo
+4546840	4547680	questionare il modello
+4547680	4548940	ma mentre qui
+4548940	4549700	noi permettiamo
+4549700	4550380	più salire
+4550380	4551020	non ciò
+4551020	4551760	possiamo dire
+4551760	4554280	allora ci permettiamo
+4554280	4554700	anche fatti
+4554700	4555600	consistenti
+4555600	4558540	e poi
+4558540	4559180	ovviamente
+4559180	4559700	abbiamo l'altro
+4559700	4560040	che abbiamo
+4560040	4560560	calzolato
+4560560	4562340	ok
+4562340	4565920	un modello
+4565920	4566480	è l'insieme
+4566480	4566920	dei fatti
+4566920	4567420	che noi
+4567420	4568440	siamo interessati
+4568440	4571480	e quando faremo
+4571480	4571940	poi
+4571940	4573140	la teoria
+4573140	4573840	come ho già detto
+4573840	4574840	le regole
+4574840	4574860	le regole
+4574860	4576180	le SO
+4576180	4578100	le triple
+4578100	4578760	che scriveremo
+4578760	4579100	diranno
+4579100	4579760	esattamente
+4579760	4582420	il modello
+4582420	4583340	che consideriamo
+4583340	4584800	ma il modo
+4584800	4586000	con cui le scriveremo
+4586000	4586800	saranno tali
+4586800	4587340	per cui
+4587340	4588340	noi possiamo
+4588340	4589220	algoritmicamente
+4589220	4589820	decidere
+4589820	4590420	se data
+4590420	4591500	un certo modello
+4591500	4592100	che abbiamo costruito
+4592100	4592960	di una certa maniera
+4592960	4594200	noi stiamo costruendo
+4594200	4594640	un modello
+4594640	4595540	che è in questo sistema
+4595540	4597260	e chiaramente
+4597260	4599380	come è
+4599380	4600320	parlato del model
+4600320	4600800	checking
+4600800	4601740	come è fatto
+4601740	4602100	ad esempio
+4602100	4604100	un sistema
+4604100	4604500	che mi dice
+4604500	4605420	a garantizzarti
+4605420	4606420	a dire
+4606420	4607760	che
+4607760	4611060	che le regole
+4611060	4611880	non si scontrano
+4611880	4613400	e tu fai
+4613400	4613640	questo
+4613640	4614160	il modello
+4614160	4614560	e poi dici
+4614560	4614860	le regole
+4614860	4615600	si scontrano
+4615600	4619580	e lui ti dice
+4619580	4619760	no
+4619760	4620220	non è possibile
+4620220	4623300	a quel punto
+4623300	4623920	la tua
+4623920	4624780	il tuo go
+4624780	4626240	tu gli dici
+4626240	4626880	tutte le cose
+4626880	4627540	che non vuoi
+4627540	4628080	gli dici
+4628080	4628500	ma è vero
+4628500	4629120	o non è vero
+4629120	4630160	e lui ti dice
+4630160	4630320	no
+4630320	4630940	non è vero
+4630940	4631720	e si è sbagliato
+4631720	4632300	ah è vero
+4632300	4632560	ah si
+4632560	4632840	guarda
+4632840	4633380	è vero
+4633380	4634100	che si scontrano
+4634100	4634960	perché se per
+4634960	4636320	il segnale lì
+4636320	4637360	diventa verde
+4637360	4639120	diventa arancione
+4639120	4640480	il vetenziato
+4640480	4640900	si avrò
+4640900	4641260	cambio
+4641260	4641800	e si scontrano
+4641800	4642440	e ti prova
+4642440	4644400	esattamente
+4644400	4645040	la sequenza
+4645040	4646440	di relazioni
+4646440	4647180	tali per cui
+4647180	4647600	il vetenno
+4647600	4648200	è assolutato
+4648200	4649420	e tu non avevi
+4649420	4650120	dimenticato
+4650120	4650660	ma perché
+4650660	4652960	non avevi dimenticato
+4652960	4653740	non perché sei sceco
+4653740	4654480	ma perché è uno
+4654480	4655580	su duecento miliardi
+4655580	4656520	ovviamente tu non c'hai
+4656520	4657720	verso che andava a pensare
+4657720	4658740	ma la pensata
+4658740	4660000	è la macchina di azione
+4660000	4668400	quindi un dominio
+4668400	4671020	è quello che
+4671020	4671920	abbiamo detto
+4671920	4672840	insieme di quello
+4672840	4673520	che noi
+4673520	4675960	possiamo percepire
+4675960	4678460	permette in consistent facts
+4678460	4680120	e questa è l'ultima slide
+4680120	4682780	chi di voi
+4682780	4684060	no
+4684060	4684860	i matematici
+4684860	4685660	fanno tutto questo
+4685660	4686320	da qui in poi
+4686320	4686960	c'è l'infinito
+4686960	4688180	se non può fare matematica
+4688180	4689660	teorie dei tipi
+4689660	4690840	teorie dei modelli
+4690840	4692420	lo gioco fino a fa modelli
+4692420	4693420	come in realtà
+4693420	4693900	come moderno
+4693900	4694880	costruisce un altro
+4694880	4696500	come in questi due modelli
+4696500	4697900	gli facciamo il parallelismo
+4697900	4699080	li mettono insieme
+4699080	4699460	che stiamo
+4699460	4701840	a noi non interessa
+4701840	4703500	però vogliamo dire
+4703500	4705540	però abbiamo detto
+4705540	4706720	come c'è l'infinito
+4706720	4710240	e poi ci chiede come
+4710240	4710880	per far questo
+4710880	4711480	di vestire
+4711480	4714140	ah certo
+4714140	4714900	il quadro
+4714900	4715480	lo stavano facendo
+4715480	4716820	sicuramente
+4716820	4719840	è un montaggio
+4719840	4720300	di lavoro
+4720300	4723440	a noi non interessa
+4723440	4724220	il concetto
+4724220	4725380	che abbiamo forzato a casa
+4725380	4726940	con cui chiediamo oggi
+4726940	4728520	sono
+4728520	4733780	per certi domini
+4733780	4734500	fatti modelli

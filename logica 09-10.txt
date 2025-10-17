@@ -1,0 +1,529 @@
+Ci siamo avvicinati alla logica, finalmente abbiamo fatto la parte iniziale di hackerate sul mondo, ci si permette in qualche maniera di dare l'intuizione perché la logica serve e ora li utilizziamo.
+Ricordo abbiamo fatto a parte la parte introduttiva, abbiamo formalizzato un concetto di modello in termini di periodo di insieme,
+Abbiamo formalizzato il concetto di teoria con un insieme di assezioni scritte secondo una certa grammatica.
+Ora dobbiamo, in questa ultima parte che riguarda il ragionamento e la logica, collegare, darci matematicamente il tool per collegare quello che noi diciamo a quello che noi abbiamo in testa e non possiamo comunicare.
+quindi il concetto di modello del mondo che è quello che voi avete usato sistematicamente sempre e anche a lezione è che dobbiamo, abbiamo i modelli abbiamo le teorie, dobbiamo formalizzare la corrispondenza, dobbiamo essere certi che quando noi diciamo una cosa nella misura in cui abbiamo lo stesso modello del mondo e quello che noi diciamo
+Notate bene che io sto dicendo che non abbigo, quindi non sto parlando adesso di discutere o meno se una cosa è falsa, sto dicendo che deve essere chiaro che se io dico casa, voi intendete quello che crea dei modelli è una casa.
+Quindi ci stiamo dando il linguaggio, il meccanismo di mapping del linguaggio alla semantica intesa.
+Poi dopo, quando noi abbiamo messo a posto matematicamente il mapping da linguaggio di ciò che intendiamo, parleremo di ciò che è vero e ciò che è falso.
+Una volta che abbiamo parlato di ciò che è vero e ciò che è falso, potremo parlare di teorie e possiamo parlare di ragionamento.
+Quindi, dato questo, cos'è un modello formale, un modello del mondo?
+È una tripla.
+è una tripla, un dominio di interpretazione che sappiamo già che formalizzeremo in teoria dell'insieme, un linguaggio assenzionale che sappiamo già che modelleremo con una qualche grammatica di tipo 1,2,2,1,2,2,3,3,4,5,6 e la funzione di interpretazione, una funzione di interpretazione
+una funzione che mappa gli elementi del linguaggio e deve essere tale per cui una colonna base unica nel linguaggio corrisponde a quello che io intendo nel modello.
+Adesso abbiamo tutto, abbiamo il linguaggio insieme di stringhe, il modello insieme di percenti
+e spero magari la prossima volta di riuscire a mandarvi il giorno prima in modo che possiate usare, sono ancora un po' in salita.
+Il punto fondamentale che pubblichiamo oggi è che questa roba qui, l'avete sempre fatta, la siamo sempre fatta, la stiamo solamente formalizzando, non stiamo facendo niente.
+E c'è una cosa importante da dire che, questo è importante perché
+Perché in qualche maniera, non è che questa trippa già stiamo inventando, non è che la logica ha detto c'è un qualcosa e prima non c'era, no, c'è sempre stata.
+Da quando siete bambini o siete bambini ci fanno vedere il disegno di un libro e dicono libro.
+Qual è la differenza?
+Che normalmente nel linguaggio naturale il linguaggio è informale, l'oggetto lo fanno vedere informalmente e il mapping è, più o meno, indicare un dito nel sistema.
+Questo si chiama i modali semi-informali, simuliamo i modali informali.
+I modelli formali sono modelli dove sia l'insieme delle forme del linguaggio che l'insieme del percepimento, del dominio sono informali.
+Poi ci sono i modelli semiformali che sono quelli che voi avete fatto fino adesso, che vi ho insegnato adesso.
+In qualche maniera, per quanto in alcuni casi ve l'ho detto formalmente, in qualche modo è andata una sintassi informale, una sintassi formale più o meno definita formalmente,
+e mi hanno fatto capire in linguaggio descrittivo che cosa per i grafici significavano le mosche reali.
+Ora noi facciamo i modelli formali.
+Possiamo farlo perché abbiamo finito matematicamente.
+Notate bene che
+Quello che vi sto dicendo adesso è indipendente dal linguaggio, è indipendente dal potere.
+Vi ho detto che tutti i linguaggi creano delle assezioni, possono essere vere o false, però tutto quello che vi sto dicendo è indipendente dal linguaggio.
+Infatti, fra oggi e domani vi farò vedere che
+indipendentemente dalla sintassi che usate, gli armori, gli armori e così via, ci sono solo 7 tipi di modelli del mondo a secondo di che tipo di conoscenza organica e gestisca.
+Ok?
+Quindi stiamo dando un modo di pensare e poi faremo vedere, a cominciare dalla parte di I, in come per ognuno di quei 7 modelli, che sono tutti invarianti sulla specifica sintassi che usate, ma che di fatto
+perché si distinguono da quello che dicono, non da come lo dici.
+Per ognuno di quei sette modelli faremo un modello di inferenza.
+E' chiaro?
+Quindi vi sto dicendo che tutti, vi sto dicendo che tutto ciò che avete, tutti i vostri, sto dicendo un'affermazione molto forte, che tutte, del forno di ragionamento che voi fate, sono i codici, vi da ragionamento, ha un'unica forma di ragionamento su uno di sette modelli.
+La funzione di determinazione è la cosa ovvia, la funzione.
+Se noi vediamo il linguaggio, ricordate che abbiamo parlato di linguaggio assenzionale?
+Se ricordate la ricorda precedente avevo detto che un linguaggio assenzionale
+un'aggiornazionale è un insieme di asserzioni scritto così e ho detto anche che un dominio nell'ultima parte della lezione sui modelli è un insieme di fatti dovrebbe essere un fatto quindi altro non è
+Deve essere tale che devo trovare semplicemente un modo tale per cui d'altro qualcuno che a sezione A mi costruisca un fetto.
+Il fatto devo semplicemente fare questo, darlo da una funzione.
+Tutte le diverse sintassi che faremo e prima ancora più diversi tipi di modelli del mondo si distingueranno semplicemente, prima di tutto,
+dal tipo di associazioni nel dominio della funzione, di interpretazione e poi dei percetti che vanno a scegliere matematicamente nel dominio.
+Si dice che ci sono varie notazioni
+Questa notazione si usa nel mondo dei database, ancora meno l'Italia.
+Si dice che F è l'interpretazione di A oppure che A denota o nomina F, è un nome.
+Qualunque stile, anche se dicio tale, è un nome per un qualcosa che è nella vostra testa.
+e come ho detto ci sono diversi tipi di modelli, questo l'ho già detto prima, sono diversi tipi di modelli del mondo che richiederanno delle logiche del mondo diverse, ricordate che la piramide sono le quattro livelli, le logiche del mondo sono il livello terzo al terzo piano, le logiche del linguaggio sono al quarto piano.
+Vi ricordo anche, l'ho già detto, tanto per
+che passi la linea al terzo piano, le logiche del mondo, noi possiamo, ragioniamo, siamo in grado di ragionare su ciò che sappiamo.
+Cioè con il passo qualeva?
+Con il modello del mondo io ho un modo preciso per dire quello che ho in testa.
+Con la logica del mondo sono in grado di computare le conseguenze di quello che ho in testa, di quello che so.
+La logica del linguaggio al quarto piano
+sono i meccanismi di ragionamento sofisticato che ti permettono di ragionare non solo su quello che sai, ma anche su quello che non sai.
+Ok?
+Come ho detto più volte, quando voi dite, ad esempio, la persona è una donna, intendete che non è un uomo.
+Quando non dite delle cose, potete intendere il falso o non dirlo non sapendo.
+Tutte queste variazioni sono formate.
+Ora stiamo facendo il primo passo che è
+a funzione di interpretazione.
+E la più banale di funzione di interpretazione è dove voi prendete delle stringhe e dite che Sofìa è bionda, Sofìa appartiene all'insieme dei biondi.
+L'abbiamo già fatto, è l'interpretazione di Sofìa è un'amica di Paolo, Sofìa e Paolo appartengono alle coppie che sono amici.
+Rocky è il cane di Sofia, Rocky è un cane e Sofia e Rocky appartengono alla relazione possedere o avere.
+Sofì vicino a Paolo è la coppia di tutte le persone, di tutti gli oggetti che sono vicini.
+Rocky appartiene all'insieme dei cani.
+Vanno un uomo, Paolo, a partire insieme degli uomini.
+Soffia una persona, non soffia, partire insieme delle persone.
+Ok?
+Questa roba qui l'abbiamo già resta e dalla lezione 6 modelli sappiamo che sono 7.
+Non sono fatte più ma penso che siano più o meno sufficienti.
+Chiaramente, qui ho anche due cose.
+Questa è una sintasi non formalizzata, però è un quaglio naturale con la trigla soggetto, verbo, oggetto.
+e non è un caso di una tripla, ok?
+Infatti si può dimostrare che qualunque ragionamento umano è costruito in un così chiamato knowledge graph, l'abbiamo già visto.
+Queste triple hanno la qualità di poter decidere o meno se è vero o falso, soffi o non è vero o falso, dipende dalla soffi.
+Però nel modello non lo sappiamo e quindi nel modello possiamo andare a verificare.
+Nel modello abbiamo fatto detassare l'intero strutturale
+e ce l'abbiamo se è una struttura di bionda ovviamente queste sono cose che è una slide per voi da leggere con comodo
+Qual è il punto fondamentale?
+Che il dominio scegli quello che vuoi, esattamente quello che voi avete in maniera estensiva usato quando vi han fatto fare gli armoni, o qualunque formalismo vi sembra rappresentare.
+Se non ricevate questa vitalità, non era possibile farlo.
+Tecnicamente, queste processi che voi avete seguito informalmente nei vostri corsi di compito degli ingegneri, prima vi viene dato il problema da modellare, poi scegli
+il linguaggio, esattamente come faremo noi, gli danno un alfabeto, per esempio negli armobili danno C6 del rombo, piuttosto che C al quadrato, quello è un alfabeto, e poi mi dicono come metterlo insieme, quella è la regola di sintassi, esattamente come in Chomsky.
+E poi quello che loro non fanno e che invece noi facciamo, perché noi siamo in un metodo
+un mondo formale esplicitiamo la funzione di interpretazione.
+E chiaramente sono tutte scelte arbitrarie, tutto chiaro?
+E' abbastanza intuitivo, mi sembra, sì?
+Prima c'era l'esempio Rocchi e il cane di Sofia e a cui erano associati due fatti.
+Esatto.
+Ottima domanda.
+E si chiama funzione di interpretazione, però se una funzione... No, no, hai ragione.
+Qui devi applicarlo due volte.
+Qui hai dovuto prendere un LLM, un qualunque motore di differenza, in forma o di forma.
+Hai capito che in realtà anche questa pseudo-tripla, ci sono due triple.
+Hai dovuto fare questa roba qui e prendere tutto questo.
+Questo non è un linguaggio formale.
+Ah, per quello... Certo, questo è colto esattamente al punto.
+In un linguaggio formale questo non lo potevi dire.
+Perché qui, di fatto, questa frase informale corrisponde a due asserzioni nei nostri linguaggi formali.
+Perché prima devi dire che Rocchi è il cane di Sopra, che è il cane, e notare che nel nostro italiano sono due i significati, uno che è un cane, l'altro che è suo.
+Questo è esattamente il motivo
+Perché fare il formato-formo è difficile.
+E' chiaro che sono la tua concentrazione.
+E' chiaro il punto.
+Questo non è un linguaggio formale, non ho detto che sia un linguaggio formale.
+E' un linguaggio pseudo-formale che si avvicina a un linguaggio dichiarativo, quindi non abbiamo il che.
+Ho visto il cane che vagliava.
+Ho visto la casa che bruciava il che soggetto.
+Ho visto la persona che ho visto l'altro ieri il che complemento oggetto.
+se pensate a queste frase.
+Linguaggio è pervasivamente ambiente.
+Chiaramente, qui c'è una slide che scrive quello che vi ho detto in precedenza.
+Voi, nella teoria dei modelli, vi ho detto che nei modelli ci sono sette tipi di percetti
+ci sono le entità, ci sono gli entity types, ci sono le relazioni, il vostro linguaggio di specifica ad inizio vi dicono esattamente quale di questi aspetti del modello va a scegliere.
+Nell'IR model, quando fate l'IR model, non ci sono entità, ci sono solo insieme.
+Quando vi fanno la tabella, ci sono le entità, quando vi fanno la tabella così,
+Name, age, friend.
+Name numero 1, age 27, friend numero 2.
+Chiaro?
+Cosa c'è qua?
+L'abbiamo già fatto i precedenti.
+C'è questa, una e due che sono entità.
+C'è questo che è un valore negli interi.
+C'è questi name che sono l'insieme dei nomi, l'insieme di tutte le possibilità, l'insieme degli amici.
+Quindi qui quando faremo un modello di questa roba dovrebbe avere un modello in cui mettiamo le entità.
+Se noi diciamo invece person, friend, person, non ci sono le entità, ci sono solo gli insieme.
+e infatti vedremo che c'è una logica per questo e c'è una logica per questa.
+Questa logica ti permette di derivare informazioni sull'entità, questo ti permetterà di derivare informazioni sull'insieme estendendo tutta quell'informazione implicita che c'è in questi modelli e che noi umani non abbiamo bisogno di dire se non quando diventa importante dirlo ad esempio se fai il software di un treno, se fai un legnare, ma che immediatamente
+La domanda vera a questo punto è, vedete una funzione, sì ma che proprietà deve avere questa funzione?
+Sicuramente deve essere un'ambigua.
+Volevo dire un'ambigua?
+La cosa ovvia è che non posso avere che una sezione denota due fatti diversi per un F2.
+E' chiaro?
+Questo è il punto fondamentale della funzione interrotazione.
+che è esattamente quello che vi abbiamo fatto vedere delle volte e li vedremo anche più avanti tra oggi e domani, che è esattamente quello che il linguaggio naturale non ha, che è la polisemia.
+Abbiamo già menzionato Word tante volte.
+Quindi quando tu fai l'andamento e usi Word, meraviglioso, però c'è sempre il problema che usi una parola come nel linguaggio naturale, come quando anche fai questa tabella qui, no?
+Queste frasi qui nella tua tabella, è vero che ho anche questo modello qua?
+E' vero che il diarmo o il tabellare ti dà dei vincoli, ma è comunque la libertà di mettere la parola che vuoi qua.
+E chiaramente sempre quando l'avete fatta avete sempre messo quelle parole che hanno un significato equitivo, ma non c'è garanzia rispondono la stessa cosa per due che riguardano perché non c'è la funzione di interpretazione disposta.
+Fra parentesi, da quando sono giovane facciamo algoritmi di world-sense disambiguation, cioè algoritmi di linguaggio naturale, anche adesso vogliamo ancora di più, di risolvere questo problema qui, e non si becca.
+È quasi facile, va bene, ma come sempre bisogna attenuare quando il problema, la confine sulla scienza infattiva, cioè con le fattive, è molto sensibile, è molto difficile, in particolare su testi molto lunghi, arbitrariamente lunghi,
+l'inguaglio naturale sembra bene di tipo 0, quindi vuol dire che tu puoi far dire a una persona che è qua sotto, che magari l'hai menzionata a 7 pagine più o meno e sembra in un contesto abbastanza lungo e se non segnali di tenere non lo vedi.
+Questo per dire che, perché tale volte farete esercitazioni, noi non stiamo risolvendo un problema in forma conforme.
+Il problema lì è essenzialmente irrisolubile, nel senso lo ho già detto tale volte, lo dico, ma diciamo che se uno
+fare dei linguaggi di input decente, non decente, perchè serve un linguaggio naturale.
+Noi minimizziamo il rischio dello sbaglio di produzione e poi quando siamo nel mondo fermare da lì in poi è tutto gratis.
+Gratis abbastanza, facendo algoritmi così.
+Sinonimità va bene?
+Sì, la possiamo avere.
+Sinonimità vuol dire cosa?
+Vuol dire che io ho
+I di alfa1 uguale a f2, l'interpretazione è giusta, a2 uguale a f2.
+Va bene?
+Sì, perché?
+Non si fa casino, perché lo dici in maniera diversa e per cavo e in automobile non va bene lo stesso.
+Ovviamente può rompere il cartone, tant'è vero perché sapete
+e nei database c'è la unique name assumption.
+Unique name assumption perché?
+Non la vogliono.
+Ma perché?
+Per andare veloce.
+E loro garantiscono che la stringa di fatto è una unique identifier.
+Perché?
+Perché va veloce.
+Attualmente dobbiamo scrivere da qualche parte quali sono i sinonimi, sempre faticoso, oppure la rappresentazione dei database è incompleta.
+Come vedremo fra due lezioni, i database
+sono così veloci esattamente perché è un modo canonico di scrivere tutto quello che sai e tutto ciò che non dici è come se fosse falso.
+Quindi in questa applicazione l'evento si applica bene.
+La maggioranza delle applicazioni corporete non funziona nell'AI e nel mondo aperto, nel web.
+Ogni volta che metti un dato sulla rete
+ognuno capirà quello che vuole e sicuramente non conosci tutto quello che c'è nel mondo ma sicuramente se fai S3 noi come università sappiamo per quello che riguarda il cadere vita degli esami sappiamo tutto e abbiamo un processo enorme per far sì che la pensia è giusta e voi avete anche la possibilità di lamentarvi, giustamente, perché poi alla fine abbiamo un detrimento.
+Totalità e soggettività.
+Totalità cos'è che vuol dire?
+Vuol dire che per qualunque assoluzione a partenza del linguaggio I di A esiste.
+Ok?
+Vogliamo una soggettività?
+Sì.
+Viene richiesto.
+quando tu devi scrivere la tua funzione di interpretazione devi garantirti che la tua funzione di interpretazione è sottilita su tutto il dominio, su tutto il linguaggio è soggettiva?
+no?
+volevo dire soggettività?
+vuol dire che io c'ho un linguaggio, c'ho un dominio e mi va benissimo che io non so cosa dire.
+Sono e le motivi?
+Tendenzialmente la funzione che viene usata e altro non faccio catturare la best practice che viene fatta normalmente
+nell'attività di modellazione che è fatta quando tu vedi un certo dominio decidi di formalizzare l'aspetto che vuoi che è quello per cui il problema è rilevante per te.
+Abbiamo una funzione di correttezza del linguaggio e una funzione di competenza del linguaggio.
+cioè sempre rispetto alla funzione d'interpretazione noi diciamo, perché ovviamente dov'è il vero problema?
+che quando tu fai le applicazioni chiaramente la funzione d'interpretazione come vedevamo a 5 minuti è data, tu il linguaggio ce l'hai, è in input magari perché l'hai presa in applicazione 1
+e hai anche in input la forma del dominio.
+Ad esempio, nel caso di S3 il dominio è su tutti gli studenti in un certo momento, momento per momento è scritto all'università.
+Tu dici che il linguaggio è corretto se per qualunque alfa appartenente a L, i di alfa appartiene al dominio.
+se io c'ho un nome, se te prendo un dato in input ti ritorna una scheda la competenza è esattamente l'opposto di che per qualunque elemento nel dominio esiste alfa tale che i di alfa uguale a f questa è la competenza
+Non è che non serve, non si vuole.
+Faccio un esempio.
+Fino a 6-7 anni fa, nessuno sapeva, e non sa quali sono le stati, tutte le persone che gli eravano per gli uffici giornalieri.
+Per tutti quelli che, quindi parliamo anche di visitatori, non esclusi o di questo tipo, però è chiaro,
+che noi non avevamo una loghi, non avevamo un modo di sapere chi fosse.
+Era un problema?
+No, per lungo tempo no, ma poi è arrivata l'assicurazione e c'è il problema con l'assicurazione e vogliono sapere anche per dare copertura assicurativa e quindi questa funzione di mappatura, notare bene, torni indietro, noi la completezza
+ma non avevamo la competenza per quelle persone che giravano per gli uffici.
+E chiaramente non ce l'abbiamo ancora, se siete a trovare mia moglie in 5 minuti non ce l'abbiamo ancora, diciamo per quelli che si trovavano in ufficio, però è chiaro, mediamente per un visitatore non avevamo neanche quello.
+E perché non l'avevamo?
+Perché ciostava.
+Infatti ora ce l'abbiamo, abbiamo fatto tutte le procedure,
+Quando una persona arriva, se vuole avere accesso a qualunque servizio, deve dare il nome.
+Quindi, nel mondo informale, abbiamo messo in piedi questa condizione.
+Questo per dire che chiaramente sono ideali avere tutti e due, ma a volte il costo, come sempre nella vita reale, non giustifica questo.
+Mentre questo vogliamo avere sempre.
+Se non avessimo questo, vuol dire che di fatto abbiamo un linguaggio che non funziona.
+ma magari potranno sembrare ovvie però tutti i teoriche che faremo dopo si baseranno su queste ipotesi e faremo vedere già oggi che quando molli questa hai delle conseguenze in termini di ragionamento hai delle conseguenze che certe conclusioni non ne puoi più fare ovviamente è ovvio ma fino a che punto esiste il mollo
+Questa slide non fa che dire che la correttezza è importante e deve essere corretta invece questo non serve che sia corretto, cioè non è vero che non serve
+serve ma in qualche maniera tutto ciò che noi faremo in logica migliora anche con questa ipotesi però perderemo capacità di ragionamento quindi cos'è un world model?
+è una teoria un modello e una funzione di mapping che deve essere totale deve essere corretta
+ma non è necessariamente incompleta, ma può essere incompleta e non subjettiva.
+Perfetto, ora facciamo, quindi un modello del mondo è una tripla normalizzata
+non è una linguaggia sezionale, l'abbiamo definita due lezioni fa, dove D è un'interpretazione, l'abbiamo definita due lezioni fa e EI è corretta rispetto a D. Notate bene che rispetto all'esempio precedente ho richiesto la correttezza della funzione di interpretazione di L e quindi che la funzione di interpretazione lavora bene ma non ho richiesto la competenza.
+Quindi di fatto, qual'è che è successo?
+Io ho un certo linguaggio, abbiamo definito formalmente una teoria insieme alle forme del linguaggio, quelle forme che noi di La Teoria del Mondo studiamo e abbiamo detto che una sezione è un elemento della teoria.
+Stiamo dicendo che noi, matematicamente,
+La nostra conoscenza del mondo è l'insieme di assezioni, che poi vedremo già domani, sono tutte triple.
+E noi diremo che una volta che abbiamo detto questo io costruisco i fatti, costruisco un modello, dove il modello è l'insieme dei fatti residui da questa teoria, il linguaggio è l'insieme, il dominio è l'insieme
+di tutto quello che posso dire, di interpretazione di tutto quello che posso dire tramite tutte le interpretazioni, il fatto è la singola interpretazione sua.
+Ovviamente noi dobbiamo arrivare a questo.
+Tutta questa roba qua siamo adatte perché ha il ciclisto mapping.
+Ora, però, dobbiamo passare da un world model a world representation perché world representation è ciò che sappiamo del mondo.
+Quando abbiamo quello, potremo, come passo successivo, come ho detto prima varie volte, vedere cosa si può imparare da quello che sappiamo.
+Un concetto importante, sicuramente avete parlato, sentito parlare di sintassi semantica, anche da me informalmente, il concetto di sintassi semantica è molto chiaro.
+La sintassi è
+insieme di regole di formazione che ti permettono di costruire un linguaggio per il momento assazionato.
+La semantica è quello che significa.
+La semantica, insieme dei significati, è tutto quello che posso dire, cioè quello che io intendo applicando la funzione dell'interpretazione di quello che posso dire.
+Quindi, tornando alla nostra prima lezione, la semantica
+è la formalizzazione di quello che ho in testa nella mia rappresentazione alla voce.
+Ok?
+Chiaro?
+Notare bene che, nella slide precedente, qua... Perché noi stiamo facendo questa roba qui?
+Eh, perché questa roba qui, magari i computer ci fanno la foto, però noi siamo solo qua, noi interagiamo solo qua.
+quindi noi dobbiamo costruirci con la logica dei meccanismi che ragionano solamente sul linguaggio perché nessuno può prendere il cervello a qualcun altro di noi e vedere cosa c'è dentro e far sì che sotto le funzioni qualunque cosa noi ragioniamo qua in cima è vero il modello è chiaro?
+tutto ciò che stiamo facendo è esattamente di alzarci da quello che percepiamo a quello che diciamo ora abbiamo fatto il world model
+e allora facciamo una rappresentazione.
+Lo facciamo passo passo, perché infatti non è passo, noi lo formalizziamo matematicamente, che ci permetterà tra due lezioni, come ho detto prima, di dimenticarci dei modelli.
+Cos'è una rappresentazione del mondo?
+È tipo una tripla.
+È la teoria e gli esami che voi facevate
+Prima di tutto dovete avere il model, quindi ci siamo già messi d'accordo sul fatto di qual è il dominio, ci siamo già messi d'accordo su quali erano i tassi dalla gappa precedente, data questo, a questo punto devo usare questo mapping che chiaramente mi arriverà da una funzione di interpretazione, è chiaro?
+Come faccio a scegliere una funzione di interpretazione?
+Scelgo la funzione di interpretazione scegliendo il model.
+scegliendo il world model mi fissa il linguaggio, mi fissa come il modello viene interpretato dal world model e quindi costruisco la teoria.
+Quindi di fatto, chiaramente però questo vuol dire che la mia teoria e il mio modello avranno tutte le limitazioni del world model che ho scelto.
+Se il world model, come diria il model, non mi parla di istanze,
+non le posso parlare ma almeno per quello che parla sono chiare e chiaramente abbiamo di nuovo un concetto di correttezza e completezza nella teoria e questi sono esattamente quelli a cui si arriva in logica noi diciamo che chiaramente voi tenete conto per noi il punto di riferimento è sempre il modello
+che è quello che abbiamo in testa.
+Poi chiaramente noi ci facciamo la nostra teoria e vi hanno detto che è un insieme di assezioni.
+Allora volevo dire che la teoria è corretta, volevo dire che per qualunque affermazione io faccio, nella mia teoria, chiaramente questo modello è dentro il domino di interpretazione, qualunque cosa io faccio, se io prendo la funzione di interpretazione,
+La teoria è il buon fatto che stai bene.
+Chiaro?
+Chiaramente c'è la competenza.
+La competenza mi dice che
+in un paio di modi, per qualunque è alfa batterente al modello esiste un'alfa batterente alla teoria, sale che I di alfa è uguale a... ok?
+tiriamo giù un attimino qua
+Allora, chiaramente questa è la correntezza e questa è la competenza e chiaramente tutta la logica si tocca su queste due cose
+riguardo la stessa il proprio domanda è supponiamo che io scelgo un world model supponiamo che io maudo di costruire delle teorie del world model
+Il punto diventa, se io do una teoria, questa teoria che io do, magari quando faccio una logica più un ragionamento, che si chiama interno.
+Questa è la mappa che io faccio, com'è rispetto al modello?
+E' corretta o complessa?
+questo è tutto un problema del fin dopo dell'altro, è chiaro?
+Ora perchè quella roba lì non è così facile?
+Perchè prima di tutto vengono a trovare le regole perchè vengono a trovare le regole?
+Lui dice perchè me ne frega, me lo scrivo tutto con le nuove e lo so però partendo dai matematici
+Se nel mio modello ci sono i naturali, i naturali sono infiniti.
+Quindi semplicemente non ho possibilità di scrivere una teoria che non era tutta.
+Se io faccio una teoria del mondo anche avendo 7 miliardi di persone
+se cominci a fare l'affermazione di 7 miliardi di persone, se cominci a fare 20 o 30 diventa 7 miliardi alla 30, non per 30, perché insieme alle frasi dice 40-20.
+Allora è chiaro che, come vedremo, però qui siamo nella fase 0, il vero problema è se noi riusciamo, allora com'è che diciamo?
+Beh, noi scriviamo che ci arriviamo tra 5 minuti e questo è il problema dell'elego illogico, dove arriveremo al ragionamento.
+Dici, beh, o io mi scrivo una teoria che è la più piccola possibile,
+Poi, in qualche maniera, ho un algoritmo che se io ti chiedo se una certa formula appartiene a T, in un tempo ragionevole mi dici che è vero o falsa, cioè magari non te l'ho detta, tu la riesci a concludere, questo.
+Quindi questo punto si spolta dal fatto 1 di dire la correttezza, che vuol dire, se mi dici che è vera, è vera, e completezza me lo dici sempre e qualche volta ti dimentichi.
+Ovviamente per dirvi una cosa che sicuramente fare dei corsi di logica da matematici, la cosa interessante che nel 1930 Agones ha dimostrato, che se tu prendi N, un insieme infinito come N, però ti dici che, permetti di dirti che 1 per 1 più 2 è uguale a 3 per tutti i reali, cioè un modo per dire, per dire che 3 meno 2 è uguale a 1,
+se tu trovi un modo di formalizzare il più e il meno e il per quindi 3 x 5 vado a 15 quindi se tu trovi un modo di scrivere queste sezioni tali per cui si applicano i naturali quindi solamente somme e solamente differenze non è possibile scrivere una teoria che è un algoritmo del termine che è in grado di
+di dirti che è completo, ovvero sia, ci sarà sempre una formula che l'algoritmo non riuscirà mai a dire se è vero o falso.
+Questo per chiaramente non c'è dettaglio, però è un punto per mettere in prospettiva.
+Poi, se facciamo un corso di logica
+di verità, arriviamo alla number theory, facciamo un corso della computer science e lo spieghiamo come punto d'arrivo che comunque noi non ci arriveremo mai perché noi naturali abbiamo 64 bit che noi possiamo rappresentare.
+Abbiamo chiaramente il problema della computazionale, c'è la computazione, cioè del tempo computazionale, ma non abbiamo il problema dell'incompetenza.
+un algoritmo di calcolo che dipenderà solo dal fatto che faremo una soluzione che per noi informatici serve nel 99,9% dei casi.
+Quindi queste due priorità di correttezza e di incorrettezza della teoria sono esattamente quello che noi faremo e noi faremo vedere che in tutti i melodici che noi faremo ce n'abbiamo questo sempre e questo qua di sempre e vedremo esattamente quando accetteremo questo e questo agli stessi Quindi in questa slide c'è niente di più di quello che ho detto
+che è che la teoria deve essere completa, ma può essere incorretta, ma può essere incompleta.
+E non è che torna a ripetere come nel caso che ho fatto prima, non è che è incompleta, non ve lo vogliamo, perché a volte il costo di costruire una teoria informatica da completezza è troppo alto.
+Quindi cosa fai?
+Lo gestisci nel mondo reale.
+Metti il portiere alla porta e chiedi alla gente chi è.
+Se non l'hai mai vista, gli chiedi di essere felice in questa maniera.
+Quindi, noi diciamo, diamo il concetto di teoria e modello.
+Diamo il concetto formale di teoria e modello.
+Perché io l'abbia andata nelle lezioni precedenti, ma l'abbia andata separatamente.
+Noi diciamo, prima di andare a introdurre una teoria, aveva detto una teoria è un insieme di assezioni.
+Un modello è un insieme di percenti.
+Io dico che, adesso, T è una teoria di M. Ho relativizzato quella di teoria al modello di differenza.
+Noi diciamo, preso un modello all model, preso l'insieme di fatti del dominio, preso una qualunque teoria, diciamo che questa e questa è una teoria di questo modello e questo modello è un modello di T, se, solo se, T è corretta per M. Dove l'ho detto prima, T è corretta per M nel senso, non se per tutte le azioni della teoria, la sua interpretazione del modello è detto M.
+Chiaramente questa ipotica di correttezza è fondamentale nelle applicazioni efficienze.
+L'attore di competenza, come abbiamo detto, ha un problema di costo che viene imposto, in realtà viene fatto solo in quelle applicazioni dove la non competenza è un problema.
+Esempio banale, l'ho fatto prima e lo faccio adesso,
+Chiaramente quando tu fai il software che deve fermare un treno per evitare di andare a sbattere, tu vuoi che il software sia completo.
+Ed infatti quel software costa mille volte il software per gestire l'automobile.
+A questo punto noi definiamo formalmente una teoria del mondo, una cosa teoria modello, dove
+però qual è il problema adesso?
+Nel caso di S3 in qualche maniera deve avere una tabella
+e più o meno trovare il modo tale per cui sono verificato o verifico che devo costruire il modello quindi adesso in questa seconda parte del corso cerchiamo di capire le condizioni necessarie e sufficienti tali per cui io voglio buttare via questi perché se io riesco a trovare un metodo che prima è un metodo formale della logica
+ma poi quando faccio software ingegneri, ad esempio software dei treni o degli aerei o del banco, io ho un modo di garantirmi che per costruzione la T rappresenta completamente M, allora ci siamo.
+Chiaramente per fare questo dovresti pensare
+Io ho fatto tanto lavoro per dirvi che non è completa, vi ho spiegato che la competenza non è importante, però in realtà se voglio mutare via questo, devo riputare la competenza degli altri.
+Però vi ho anche detto che la competenza sia del linguaggio che della teoria non è rispetto al dominio di interpretazione, è semplicemente rispetto alla parte rilevante.
+Quindi per dirvi
+Abbiamo detto che c'era dominio.
+Abbiamo detto che c'era linguaggio.
+Abbiamo detto che il linguaggio si proiettava su una sottosegna del dominio di Praga.
+Poi prendiamo la teoria che è qua dentro.
+La teoria si proietta su un M che lo proietta così, che magari è un sottosieme dell'M privo del modello.
+Ok?
+Quindi io ho mantenuto sempre la correttezza, ho sempre detto il linguaggio mi rimpicciolisce quello che è il dominio di interpretazione, il modello lo prendo corretto ma non concreto, quindi mi rimpicciolisce quello su cui posso parlare.
+Però dov'era quello che ho scritto, qual'era il concetto fondamentale che ho scritto nelle slide precedenti?
+E' esattamente il concetto che poi fa nascere la diversità della rappresentazione.
+Chiaro che siano delle scelte, da D a D' e da M a M', questa fatta dalla scelta del linguaggio, sono arbitrarie.
+Cosa vuol dire arbitrarie?
+E' l'elemento di soggettività della prima lezione.
+Normalmente noi, nel linguaggio naturale, la facciamo costantemente.
+Però se adesso noi, da informatici, blocchiamo, il problema non è fare questo, il problema è sapere la scelta che hai fatto.
+E' chiaro?
+La diversità
+non è eliminabile, ma non solo a livello umano a livello più, la stazione di Trento è diverso da qualche parte, sono tutti diversi però se io riesco a rendere trasparente questo processo di dimenticare i dettagli allora immediatamente a questo M qua
+io riesco ad essere corretto e completo.
+Quindi la correttezza la posso impostare, la correttezza la costruisco.
+Notare bene comunque, e ricordo, che per impostare la correttezza ho dovuto formalizzare il modello.
+Ho formalizzato il modello, questo mi ha dato la correttezza.
+Adesso devo costruire questo mapping qui, di modo che poi posso completamente dimenticarmi l'altro modello.
+Quest'ultimo rappresentato di canoni.
+Ovviamente le applicazioni canoniche le possiamo fare come vogliamo ma fondamentalmente dal punto di vista matematico quale sono le requisite che hanno.
+Allora prima di tutto
+Io avevo appena detto che non serve la competenza e ora la devo fare dietro alla finestra altrimenti non riesco a fare... infatti la competenza non mi serve per utilizzare la semanza mi serve per utilizzare la modella per cui prima la costruisci e poi la butti via.
+Però te lo costruisci in modo che poi la puoi buttare via senza dimenticare niente.
+Qual è il punto fondamentale?
+e questo è il modello è chiaro prima di tutto che c'è tante teorie diverse non so se è chiaro ma è anche vero che questa teoria per come l'ho definita non necessariamente completa è anche teoria di qualunque modello più grande
+Teoria di M incompleta e anche teoria di qualunque M' tale che R non c'è insieme di M', insieme di fatti.
+Quindi, perchè questo è un problema?
+Questo è un problema perchè magari se non sono stato attento, chiaramente qui ci sono delle cose che magari non voglio.
+Allora devo costruire questa... Devo riuscire a darmi un metodo da definire formalmente il fatto di massimalità della teoria.
+Una teoria è massima rispetto ad M se, secondo se,
+è completa rispetto a delta non massima o incompleta o non dotata.
+Tornare bene che, lo ripeto, il ponte di massimalità non è necessario ma diventa importante ogni volta che io voglio gestire nel sistema la parte di non massimalità.
+Torniamo a fare l'esempio, torniamo a fare
+che poi arriva a spiegare la definizione che diamo dopo se io faccio l'applicativo di tutte le persone che sono all'università di Trento e c'è una persona che è all'università di Trento ma non è nel database si faccia una domanda al database lui ti dirà che non c'è se applica il database normale in realtà c'è va bene
+La rappresentazione di database è disalineata rispetto alla rappresentazione del mondo, ma tu lo sai e quindi nel mondo fai tutto il lavoro che ti permette di risolvere il problema.
+Però questo vuol dire che è un'attività extra che fai, che quindi lo puoi fare, come ho detto prima, perché se sbagli va bene più o meno lo stesso, la gente non si fa male tutti i giorni,
+c'è un elapsed time che rimuove molto più lente le calcole e così via.
+Quindi quando io faccio il database della gente che gira per trento per un'ITN mi va bene, non ho possibilità.
+Però, la possibilità ci vuole per S3, perché se uno di voi va là e dice al mio esame, gli viene un colpo e non è accettabile, è chiaro?
+Quindi vedete, l'applicazione è quello che ti dà la... Allora, la domanda è qual è la condizione che, come l'ho già detta, che il database di S3 ha in più rispetto al database, intendo come contenuti, non come conciliatori di gestione, rispetto al database di gestizione delle persone della dinamica, della dinamica...
+e chiaramente questa slide non c'è niente di nuovo, l'ho già detta ma la potete leggere con calma.
+Ad esempio un ER model incompleto, questo è sempre vero, c'è ad esempio nel database di S3 non c'è scritto che un professore può essere anche un ossedente,
+e voi mi direte, si ma ci sono studenti che sono professori?
+No, io puoi essere studente in un'altra parte, non sono studente del corso d'orizzonte.
+Questa informazione non c'è scritta, è implicita, indettamente, è incompleta.
+Infatti i dettabili sono incompleti, infatti gli armoni sono incompleti, ed è esattamente il motivo per cui non c'è paralogica.
+Una tabella che ti mette
+ci sono casi ovvi, tutti i casi ovvi quindi non è chi è e così via.
+Rimane sempre il fatto, scritto qua, che il concetto è che c'è un rapporto meno e meno, c'è un rapporto meno e più meno, con la teoria di Montaigne.
+Questo deve sapere cos'è la teoria meno.
+Che dobbiamo eliminare?
+noi diciamo, chiamiamo il modello canonico il modello che prende piano massimale ovviamente la domanda è abbiamo detto che c'è un rapporto mini a mini con i modelli e fra teoria massimale e modello canonico
+Nel momento in cui ci siamo dati la possibilità di avere due nomi con lo stesso oggetto del modello, mi sono creato questo casino.
+Ed è il motivo per cui voi avete, avete tutti, molti di voi, Marco e Tomasio sono una decina, in un'università, ma ognuno di voi ha il nome di matricola.
+ossia le applicazioni, noi uccidiamo questa proprietà semplicemente uccidendo i sinali che come vedremo ci dà una capacità di fare ovviamente la domanda vera è qual è i ragionamenti più che puoi fare e lo facciamo alla prossima lezione cioè quali sono le conseguenze che tu puoi far rendere assumendo che non ci sono dei sinali abbiamo già visto, avete sentito, gli esercizi che hanno ancora un modo assaggio negation by failure
+Qual è il punto fondamentale, che è il punto che è scritto qua?
+Ricordate che all'inizio del corso avevo detto il modello inteso, qual è il modello inteso?
+Quello che ho in testa, è quello che io non riesco a comunicare.
+Io vi dico che se io dico che la teoria massimale vuol dire essenzialmente che l'ho costruita in modo da non dimenticare niente, il modello canonico è la rappresentazione
+La teoria che ho fatto è completa e corretta rispetto alla formalizzazione dell'intended model come canonica mossa.
+creiamo una rappresentazione canonica in cui la teoria T è massimale iniziale è esattamente come prima
+M'ho richiesto che M è un modello canonico per TdA.
+M è un modello canonico per TdA.
+un punto vado a dire è che io in realtà questo f qua non è che mi arriva da qua ma mi arriva da là su mi arriva dal canonico world model è nel world model che definisco la funzione di interpretazione è lì che decido come costruire il modello quindi devo eliminare la d da là su in cima
+e che cos'è che faccio la cosa ovvia?
+un dominio insieme di quelle delle sezioni che sono iniquite alla continuità delle relazioni quindi un dominio L è diventato una scotte
+non c'è più il dominio il modello del mondo è diventato una copia, non c'è più il dominio chiaramente questo vuol dire che quando faccio il mio sistema, la mia specifica mi specifico bene alle enti in modo che sia fatto così però vi anticipo adesso, lo vediamo fra le lezioni
+e l'ho già detto prima, ma è per il mondo reale, questa qua è impossibile da fare.
+E' impossibile da fare sul mondo dei naturali che sono infiniti, si dice che se ne frega, ma banalmente è impossibile da fare, ad esempio anche nell'evo, è impossibile da fare perché?
+Perché sarebbe troppo grosso.
+Perché ciò che è vero nel mondo è troppo grande, anche facendo un sacco di ipotesi, ma lo vedremo fra due volte,
+però questa cosa qui per noi non arriva mai e questo è il motivo per cui la gente ha inventato la logica e questo è il motivo per cui la gente ha fatto il ragionamento perché anche se tu non sai tutto esplicitamente hai dei modi per calcolarlo però questo viene dopo adesso noi in qualche maniera passo passo e ricorda dove siamo partiti nella prima lezione abbiamo un oggetto che ci dice se costruiamo questo oggetto noi in qualche maniera il modello lo siamo già dimenticato
+e una volta questo dimenticato quella cosa lì, la rappresentazione canonica di un modello ha da mettere insieme questo insieme di fatti del modello, stagioni per cui c'è un A nella teoria medifemmica, che è la teoria che nasce dal modello.
+Quindi, noi stiamo dicendo che quando noi
+se abbiamo una rappresentazione canonica e lo possiamo fare solamente rispetto a un modello del mondo canonico noi il modello è totalmente sparito qui c'è la M e è sparito quindi una teoria del mondo è un programma è quello che voi avevate detto, una struttura d'arte quindi sotto la limitazione che sei in grado di iscriverla
+in qualche maniera, nella misura in cui tu hai fatto la tua procedura di costruzione che segua questa roba qui, che segua, che tu sai esattamente passo passo cosa hai perso, perché comunque hai perso sicuramente questa struttura che fai sempre, tu di fatto non puoi dimenticare del momento.
+Questa slide qui
+Questa slide qui ci dice che è quello che, perché sto dicendo questo?
+Perché adesso, perché di fatto il processo che vi ho detto prima è esattamente il processo che vi è insegnato a fare.
+Quando avete fatto software engineering, fate calentamento di formaggio e così via.
+Prima di tutto ti scegli, è il motivo anche per cui ho detto che
+vi ricordate nella prima slide che lo farete aereo e flutuazione io ho detto che sono tre tipi di modelli del mondo uniforma uniforma uniforma
+A parte questo, e abbiamo solitamente gli RNM che lavorano su questa roba e fanno leggeramente sui modelli informali, questo è quello che voi avete sempre fatto.
+Questo è quello che io vi sto dicendo, però questi due sono ambientalmente vicini,
+chiaramente più vicini vuol dire più costosi di imparli ma è esattamente quello che implicitamente vuoi fare cosa che voi fate usate modelli semiformali semplicemente scegliendo prima la forma di linguaggio poi scegliete informalmente
+il dominio, nel caso di S3 ti dicono di avere tutti i tuoi studenti dentro, devi in qualche maniera fare una procedura e tu li metti dentro e dopo di che tu fai un mapping, dov'è il mapping?
+Dov'è questo mapping?
+Dov'è nel database il mapping?
+In S3 dov'è il mapping?
+Dov'è F?
+Cosa è F?
+Domanda che faccio a voi, gli informatici.
+La funzione di interpretazione in S3 che facciamo?
+Com'è che la gente la fa?
+è una funzione che prende il nome e dà fuori un oggetto del mondo
+il vostro numero di codice di notte torcidica.
+La vostra... come si chiama?
+Matricola.
+La matricola chiaramente, però questa matricola qua secondo me è abbastanza scema, anche secondo le funzioni di geometrazione è un puntatore.
+Però, nella vostra vita,
+e anche nel passaporto.
+Però un contatore è fatto bene, no?
+E poi c'è il tuo tipo nella patente, ma anche i gruppi di ricercatori.
+Ma il più interessante, dove c'è una funzione intelligente, è quella del Consiglio Associativo per l'Italiano, il codice fiscale.
+Infatti il codice fiscale la gente lo può verificare, infatti nel codice fiscale c'è l'ultima parte dei bit che è lasciata arbitraria per evitare il caso da persone o se non è, giornate non sopposte,
+così via dicono che c'è questo arbitrario qua fino ad essere funzionato quindi alla fine la funzione di derivazione
+E' finita?
+No, è ancora complicata.
+Ad esempio, un straniero non riesce a pagarlo perché nel pagamento italiano deve mettere il codice fiscale.
+Uno cambia nome.
+Io ho cambiato nome e ho avuto due anni per avere il codice fiscale corretto.
+E poi ovviamente tutti i sistemi informativi avevano un orecchio.
+e quindi ovviamente non dobbiamo stare con un casino per provare a farlo passare a quant'altro.
+Perché?
+Perché il mondo è morto ed è l'ultimo per cui, penso nell'opinione che gliel'avrebbe fatto l'Irano, per chi li vuole fare.
+Tutto questo per dire che non è che io sto... La logica, non è che è una cosa scratta dove andiamo a dimostrare che... Certo, è importantissimo sapere che... Tutto quello che spero che voi farete e vedrete anche più avanti, in realtà questi concetti formali altri non fanno,
+che rendere espliciti varie scelte che voi comunque dovete fare, state facendo e che comunque adesso con questo corso penso che cominciate ad imparare le conseguenze, perché sono state fatte così e anche le conseguenze a volte non si ovviano bene.
+A questo punto queste qua sono tutte chiacchiere che vi servono solamente, che vi lascio da leggere
+mi stiamo un po' indietro di corso.
+Perché ho messo questa slide qua che è tutta molto peccherosa e così via?
+Perché in effetti volevo collegarla alle prime lezioni, quando le prime lezioni facevo vedere la roba dello scenario delle foto, poi dicevo, ah sì, una cosa strana.
+No, no, non è una cosa strana, vedete la doppia faccia, non è una cosa strana, è esattamente quello che succede normalmente.
+La soggettività della rappresentazione, l'inconsistenza della rappresentazione, è sempre così.
+Perché?
+Perché fortunatamente abbiamo questa libertà di scelta che ci permette, che è esattamente quello che ci dà resilienza, che è esattamente quello che ci permette di fare il sistema il più veloce possibile, ma esattamente quella che poi, quando vai nel web o in qualunque altra applicazione, ti crea, o anche addirittura quando due persone si parlano da culture diverse, si parlano
+impedisce il fatto che l'altra scelta impedisce la comunicazione, può essere comunicazione di dati, comunicazione di persone, ma comunque che più delle presentazioni che noi facciamo che sono ottimizzate sul nostro problema, sul nostro parco, se lo vuoi chiamare, lo vogliamo chiamare poi di fatto a esattamente il blocco principale che abbiamo quando vogliamo integrare la presentazione di test.
+Vorrei andare avanti e introdurre la prossima lezione
+Notate bene dove siamo arrivati, ho dato il world model canonico, quindi ho spiegato la logica, ho fatto un modello e ho puntato fuori, guardavo dalla finestra e avevo detto che c'erano tutti i tipi di world model.
+Quali sono?
+Siamo ovviamente sempre quattro, però questa è l'ultima lezione che sarà domani per poi finalmente andare qua.
+Quanti sono i numeri del mondo?
+7.
+Il più migliori della settimana, il più migliori della creazione.
+In questi numeri c'è un bellissimo Paypal, più in alto del 54, l'incubo del numero 7, c'era questo nero scienziato, e in tutti i Paypal c'è sempre il numero 7, più o meno 2, ovunque.
+Quindi il numero 7 è bellissimo, lo trovate anche sui sociali.
+Allora, quello che... Prendo un po' di tempo su questo e mi domandino anche veloce.
+Allora, se voi ricordate la prima lezione dici, sì ma, siam fatti, ricordate che noi vogliamo lavorare in modo canonico, quindi non vogliamo più avere i modelli, certo vogliamo avere i modelli per essere certi che rappresentiamo bene, ma poi nel calcolo non esistono i modelli.
+E ricordo anche che rappresentare l'insieme non è una rappresentazione analogica, è una rappresentazione linguistica
+la nostra sorpresa potrebbe essere che se li guardi dici ok tant'è vero che poi li facciamo
+Cos'è un Entity Graph?
+Notate bene che l'ho diviso in 7 di base e composti.
+Di base sono quelli che noi usiamo normalmente.
+Allora, di base, Entity Graph.
+Secondo lui è 7.
+Faremo N, però di fatto è esattamente l'alcabella di prima.
+Nome,
+Allora, rappresentazione del mondo numero uno, i database razionali che noi faremo diventare knowledge graph, in particolare i graph.
+che corrisponde esattamente alla teoria dei modelli se questo è il dominio vuol dire prendere vari punti
+questo è di più importanti perchè sono quelli esattamente che ci permettono di tenere tra tracce di tutto.
+L'odio ti dice che è uno dei tre modelli.
+Il secondo è quello
+che siamo in Italia.
+E voi di questo ne avete visti due, più o meno.
+Qual è il dominio che voi andate a prendere?
+parlate solamente di insiemi e poi relazioni inferiori insiemi che si raffigurano e perchè questo è importante?
+questo è importante perchè a questo livello è esattamente il motivo per cui la gente ha fatto lo schema esattamente la gente per cui ha fatto il model perchè tu quando ragioni a questo livello puoi nella misura in cui lo fai vedere ti puoi dimenticare dell'identità quindi puoi fare S3 e disegnare S3 sapendo che poi lo applicerai 100 volte
+nella misura in cui un passaggio da qui a qui mantiene tutte quelle ipotesi di canonicità che vi ho detto prima.
+Ovviamente vedremo che in realtà, e poi chiaramente per fargli armoni, vedremo che gli informatici, se ne sono dimenticati qualcuno, ce ne sono di altri, ce ne sono più due, che servono per garantirsi la correttezza, ossia gli e-arm model insieme non bastano,
+ma lo vediamo la prossima volta, lo prendiamo quando vogliamo questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi
+questo definisce il significato delle parole questo definisce e quindi definisce il significato delle parole e notate bene che quando l'ho fatto qua questi concetti qua sono tutti disgiunti
+Cioè, tutti voi, quando vi dico di una macchina, voi pensate o non pensate a un taxi, non c'è vero se ci pensate.
+Al massimo non è inventato il taxi.
+Ok?
+Probabilmente il taxi sta qua.
+In realtà non può stare, anche se ci sta in qualche modo.
+Perché qui in teoria non esiste.
+Qui invece, a questo punto c'è le farole.
+Magari qua c'è scritto veico, qua c'è scritto color, e poi c'è scritto yellow.
+però a questo punto per un unico veicolo che magari non è di queste robe qui, tu hai tante modi per descriversi il veicolo, se è una macchina si scrive per il numero di spessore delle ruote se è un bus, il numero dei passeggeri quindi qui noi definiamo gli elementi di linguaggio qui descriviamo quello di cui parliamo
+E notare bene che qui non c'è fausto, ci sono le parole, ci sono i verbi, ci sono i nomi.
+Dato questi nomi io vi dico che l'albero ha tanto frutto.
+Qui dico che l'albero che ho chiamato Alfredo, che sta sotto casa mia, oggi ha un chilo di frutta, ha un chilo di pesce, che ne so.
+Qui intanto è vero che voi quando fate
+nello schermo del database e voi avrete i datatagli che riprenderete che ti permettono di dare lo scopo di una riabilità.
+Quindi quello che sta dicendo è che quando voi parlate della conoscenza, qual è l'obiettivo della conoscenza?
+State sempre lavorando.
+Quando state lavorando qui, state sempre usando il linguaggio
+questa qua.
+Non a caso, quando fate analisi e matematica, prima di dare qualunque teoria, fate le definizioni.
+Ma quali sono le definizioni?
+Sono esattamente queste.
+Ti dicono esattamente che un numero reale è fatto in una certa maniera, che un numero intero è fatto in una certa maniera.
+Ti stanno dicendo, oh, parlo di quello.
+E poi a questo punto ti dicono quello che volete, che i numeri pari su tanti altri numeri di schede e così via.
+E poi dicono, ah, ok, vado
+vado a fare S3 e in S3 c'è a questo momento 17.000 studenti.
+Qui c'è la conoscenza, qui c'è il linguaggio di parlare, qua ci sono le singole istanze e se chiaramente tutto è un bel teorema fatto bene si applicheranno tutte le istanze che soddisfano le ipoteti, ovvero sia
+Sotto l'ipotesi, chiaramente, che il linguaggio che usi qui è canonico, che la conoscenza di qua è canonica, e a questo punto di riguardo.
+Perché queste, sono quelle che si mappano sulle singole estrazioni, che hanno il dominio inteso.
+Abbiamo finito?
+No, non abbiamo finito, perché poi, in realtà, quando dici questo, tu stai assumendo uno di questo, e questo assume uno di questo.
+quando vuoi fare un diario moda non è che vi dico dimmi esattamente che parola sto usando nel vocabolario e allora cos'è che succede?
+c'hai i nuovi tipi di composizione dei modelli che sono composti perchè quindi dico guarda che se tu vuoi fare sta roba qui ma non vuoi avere casino sul fatto che ci stiamo sbagliando sui sinonimi o sui polissemia e mi devi dire anche
+quando vogliono dire parole.
+Oppure, se tu vuoi parlare delle persone, te frega niente del livello della conoscenza, questo è il livello del linguaggio, questo è il livello della conoscenza, questo è il livello del mondo, ok, non ne frega niente di parlare del mondo, però mi devi dire i concetti, e così via.
+È chiaro che se tu vuoi avere una rappresentazione logica, completa, tale per cui non c'è limità, devi giocare a questo livello.
+Quando si fa nel modo reale, mai,
+giustamente, perché?
+No, non è vero mai, non si fanno il 99.99%, perché?
+Perché questo vuol dire fare encoding informazioni, vuol dire costruire quelle funzioni di interpretazione, vuol dire fare le funzioni di ragionamento, costano, ok?
+E parlando del mio favorito, che sono degli LRM, se vogliamo fare gli LRM incorretti dobbiamo fare a questo livello, altrimenti faranno sempre le cazzate
+quindi questa è la lezione della prossima volta, daremo prima i tre modelli canonici e base e poi quelli composti, vedremo la pratica in cosa consistono e poi con questo vedremo di fatto che nella pratica del mondo reale
+La gente non è che fa questa roba qua perché è scema o non è attenta, perché c'è un problema di costo e vedremo che a questo livello il costo è talmente alto che la gente si è inventata la logica e quindi vede dove la logica diventa in questo momento un meccanismo che è il ragionamento, è quello che noi umani facciamo, è un meccanismo per non dire tutto ma sapere delle regole tale per cui anche se non ti dico tutto noi umani siamo resilienti e riusciamo a capire quello che non hai detto.
+che è il problema che nel titolino 157 che ha inventato l'AI si è posto, pensavo di non usarlo in tre anni, siamo nel 2025 ancora in risolto dell'intelligenza artificiale ma che nell'informatica riusciamo a risolvere abbastanza bene.
+Bene, ci fermiamo qui e ci vediamo domani.

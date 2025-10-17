@@ -1,0 +1,530 @@
+start	end	text
+14932	34750	Ci siamo avvicinati alla logica, finalmente abbiamo fatto la parte iniziale di hackerate sul mondo, ci si permette in qualche maniera di dare l'intuizione perché la logica serve e ora li utilizziamo.
+36071	43538	Ricordo abbiamo fatto a parte la parte introduttiva, abbiamo formalizzato un concetto di modello in termini di periodo di insieme,
+44395	51642	Abbiamo formalizzato il concetto di teoria con un insieme di assezioni scritte secondo una certa grammatica.
+54165	69880	Ora dobbiamo, in questa ultima parte che riguarda il ragionamento e la logica, collegare, darci matematicamente il tool per collegare quello che noi diciamo a quello che noi abbiamo in testa e non possiamo comunicare.
+72256	96036	quindi il concetto di modello del mondo che è quello che voi avete usato sistematicamente sempre e anche a lezione è che dobbiamo, abbiamo i modelli abbiamo le teorie, dobbiamo formalizzare la corrispondenza, dobbiamo essere certi che quando noi diciamo una cosa nella misura in cui abbiamo lo stesso modello del mondo e quello che noi diciamo
+101821	120989	Notate bene che io sto dicendo che non abbigo, quindi non sto parlando adesso di discutere o meno se una cosa è falsa, sto dicendo che deve essere chiaro che se io dico casa, voi intendete quello che crea dei modelli è una casa.
+121911	128841	Quindi ci stiamo dando il linguaggio, il meccanismo di mapping del linguaggio alla semantica intesa.
+131133	140242	Poi dopo, quando noi abbiamo messo a posto matematicamente il mapping da linguaggio di ciò che intendiamo, parleremo di ciò che è vero e ciò che è falso.
+140262	149591	Una volta che abbiamo parlato di ciò che è vero e ciò che è falso, potremo parlare di teorie e possiamo parlare di ragionamento.
+149611	156698	Quindi, dato questo, cos'è un modello formale, un modello del mondo?
+156718	157579	È una tripla.
+160225	187735	è una tripla, un dominio di interpretazione che sappiamo già che formalizzeremo in teoria dell'insieme, un linguaggio assenzionale che sappiamo già che modelleremo con una qualche grammatica di tipo 1,2,2,1,2,2,3,3,4,5,6 e la funzione di interpretazione, una funzione di interpretazione
+190128	200947	una funzione che mappa gli elementi del linguaggio e deve essere tale per cui una colonna base unica nel linguaggio corrisponde a quello che io intendo nel modello.
+201047	209402	Adesso abbiamo tutto, abbiamo il linguaggio insieme di stringhe, il modello insieme di percenti
+227557	235065	e spero magari la prossima volta di riuscire a mandarvi il giorno prima in modo che possiate usare, sono ancora un po' in salita.
+235966	252884	Il punto fondamentale che pubblichiamo oggi è che questa roba qui, l'avete sempre fatta, la siamo sempre fatta, la stiamo solamente formalizzando, non stiamo facendo niente.
+252904	254205	E c'è una cosa importante da dire che, questo è importante perché
+255299	261905	Perché in qualche maniera, non è che questa trippa già stiamo inventando, non è che la logica ha detto c'è un qualcosa e prima non c'era, no, c'è sempre stata.
+262186	266009	Da quando siete bambini o siete bambini ci fanno vedere il disegno di un libro e dicono libro.
+269253	270053	Qual è la differenza?
+270133	279062	Che normalmente nel linguaggio naturale il linguaggio è informale, l'oggetto lo fanno vedere informalmente e il mapping è, più o meno, indicare un dito nel sistema.
+279963	283146	Questo si chiama i modali semi-informali, simuliamo i modali informali.
+284223	294818	I modelli formali sono modelli dove sia l'insieme delle forme del linguaggio che l'insieme del percepimento, del dominio sono informali.
+294838	301367	Poi ci sono i modelli semiformali che sono quelli che voi avete fatto fino adesso, che vi ho insegnato adesso.
+302508	313183	In qualche maniera, per quanto in alcuni casi ve l'ho detto formalmente, in qualche modo è andata una sintassi informale, una sintassi formale più o meno definita formalmente,
+314125	323879	e mi hanno fatto capire in linguaggio descrittivo che cosa per i grafici significavano le mosche reali.
+323899	325602	Ora noi facciamo i modelli formali.
+328666	330790	Possiamo farlo perché abbiamo finito matematicamente.
+333674	342006	Notate bene che
+342205	351879	Quello che vi sto dicendo adesso è indipendente dal linguaggio, è indipendente dal potere.
+352701	362956	Vi ho detto che tutti i linguaggi creano delle assezioni, possono essere vere o false, però tutto quello che vi sto dicendo è indipendente dal linguaggio.
+362976	367723	Infatti, fra oggi e domani vi farò vedere che
+369357	383294	indipendentemente dalla sintassi che usate, gli armori, gli armori e così via, ci sono solo 7 tipi di modelli del mondo a secondo di che tipo di conoscenza organica e gestisca.
+383314	383374	Ok?
+383394	397491	Quindi stiamo dando un modo di pensare e poi faremo vedere, a cominciare dalla parte di I, in come per ognuno di quei 7 modelli, che sono tutti invarianti sulla specifica sintassi che usate, ma che di fatto
+398146	403913	perché si distinguono da quello che dicono, non da come lo dici.
+403933	407257	Per ognuno di quei sette modelli faremo un modello di inferenza.
+408738	410680	E' chiaro?
+410701	425858	Quindi vi sto dicendo che tutti, vi sto dicendo che tutto ciò che avete, tutti i vostri, sto dicendo un'affermazione molto forte, che tutte, del forno di ragionamento che voi fate, sono i codici, vi da ragionamento, ha un'unica forma di ragionamento su uno di sette modelli.
+431339	440049	La funzione di determinazione è la cosa ovvia, la funzione.
+440069	444634	Se noi vediamo il linguaggio, ricordate che abbiamo parlato di linguaggio assenzionale?
+445395	453364	Se ricordate la ricorda precedente avevo detto che un linguaggio assenzionale
+468852	489510	un'aggiornazionale è un insieme di asserzioni scritto così e ho detto anche che un dominio nell'ultima parte della lezione sui modelli è un insieme di fatti dovrebbe essere un fatto quindi altro non è
+490283	498791	Deve essere tale che devo trovare semplicemente un modo tale per cui d'altro qualcuno che a sezione A mi costruisca un fetto.
+499092	506359	Il fatto devo semplicemente fare questo, darlo da una funzione.
+508041	518451	Tutte le diverse sintassi che faremo e prima ancora più diversi tipi di modelli del mondo si distingueranno semplicemente, prima di tutto,
+520304	530018	dal tipo di associazioni nel dominio della funzione, di interpretazione e poi dei percetti che vanno a scegliere matematicamente nel dominio.
+540674	545822	Si dice che ci sono varie notazioni
+546275	552864	Questa notazione si usa nel mondo dei database, ancora meno l'Italia.
+552884	561235	Si dice che F è l'interpretazione di A oppure che A denota o nomina F, è un nome.
+561255	565380	Qualunque stile, anche se dicio tale, è un nome per un qualcosa che è nella vostra testa.
+574490	597680	e come ho detto ci sono diversi tipi di modelli, questo l'ho già detto prima, sono diversi tipi di modelli del mondo che richiederanno delle logiche del mondo diverse, ricordate che la piramide sono le quattro livelli, le logiche del mondo sono il livello terzo al terzo piano, le logiche del linguaggio sono al quarto piano.
+599042	601645	Vi ricordo anche, l'ho già detto, tanto per
+601945	610673	che passi la linea al terzo piano, le logiche del mondo, noi possiamo, ragioniamo, siamo in grado di ragionare su ciò che sappiamo.
+610693	614456	Cioè con il passo qualeva?
+614476	618600	Con il modello del mondo io ho un modo preciso per dire quello che ho in testa.
+619441	628068	Con la logica del mondo sono in grado di computare le conseguenze di quello che ho in testa, di quello che so.
+628088	629910	La logica del linguaggio al quarto piano
+630802	638131	sono i meccanismi di ragionamento sofisticato che ti permettono di ragionare non solo su quello che sai, ma anche su quello che non sai.
+638151	640294	Ok?
+640314	650766	Come ho detto più volte, quando voi dite, ad esempio, la persona è una donna, intendete che non è un uomo.
+650786	655332	Quando non dite delle cose, potete intendere il falso o non dirlo non sapendo.
+655352	658155	Tutte queste variazioni sono formate.
+658176	660218	Ora stiamo facendo il primo passo che è
+660417	663842	a funzione di interpretazione.
+663862	676580	E la più banale di funzione di interpretazione è dove voi prendete delle stringhe e dite che Sofìa è bionda, Sofìa appartiene all'insieme dei biondi.
+678343	687015	L'abbiamo già fatto, è l'interpretazione di Sofìa è un'amica di Paolo, Sofìa e Paolo appartengono alle coppie che sono amici.
+688953	701111	Rocky è il cane di Sofia, Rocky è un cane e Sofia e Rocky appartengono alla relazione possedere o avere.
+701131	707200	Sofì vicino a Paolo è la coppia di tutte le persone, di tutti gli oggetti che sono vicini.
+709503	715332	Rocky appartiene all'insieme dei cani.
+718332	721296	Vanno un uomo, Paolo, a partire insieme degli uomini.
+721336	723980	Soffia una persona, non soffia, partire insieme delle persone.
+725221	725782	Ok?
+726984	730769	Questa roba qui l'abbiamo già resta e dalla lezione 6 modelli sappiamo che sono 7.
+731410	736516	Non sono fatte più ma penso che siano più o meno sufficienti.
+736536	738559	Chiaramente, qui ho anche due cose.
+738759	747411	Questa è una sintasi non formalizzata, però è un quaglio naturale con la trigla soggetto, verbo, oggetto.
+749180	752865	e non è un caso di una tripla, ok?
+753405	760814	Infatti si può dimostrare che qualunque ragionamento umano è costruito in un così chiamato knowledge graph, l'abbiamo già visto.
+762476	771507	Queste triple hanno la qualità di poter decidere o meno se è vero o falso, soffi o non è vero o falso, dipende dalla soffi.
+771527	774972	Però nel modello non lo sappiamo e quindi nel modello possiamo andare a verificare.
+774992	777735	Nel modello abbiamo fatto detassare l'intero strutturale
+778559	794712	e ce l'abbiamo se è una struttura di bionda ovviamente queste sono cose che è una slide per voi da leggere con comodo
+796193	797274	Qual è il punto fondamentale?
+797315	808049	Che il dominio scegli quello che vuoi, esattamente quello che voi avete in maniera estensiva usato quando vi han fatto fare gli armoni, o qualunque formalismo vi sembra rappresentare.
+808069	815499	Se non ricevate questa vitalità, non era possibile farlo.
+815519	825913	Tecnicamente, queste processi che voi avete seguito informalmente nei vostri corsi di compito degli ingegneri, prima vi viene dato il problema da modellare, poi scegli
+826147	842613	il linguaggio, esattamente come faremo noi, gli danno un alfabeto, per esempio negli armobili danno C6 del rombo, piuttosto che C al quadrato, quello è un alfabeto, e poi mi dicono come metterlo insieme, quella è la regola di sintassi, esattamente come in Chomsky.
+843895	848222	E poi quello che loro non fanno e che invece noi facciamo, perché noi siamo in un metodo
+848810	862511	un mondo formale esplicitiamo la funzione di interpretazione.
+862531	866077	E chiaramente sono tutte scelte arbitrarie, tutto chiaro?
+866698	868641	E' abbastanza intuitivo, mi sembra, sì?
+869026	879540	Prima c'era l'esempio Rocchi e il cane di Sofia e a cui erano associati due fatti.
+879560	879960	Esatto.
+879980	881983	Ottima domanda.
+882003	885447	E si chiama funzione di interpretazione, però se una funzione... No, no, hai ragione.
+886569	887891	Qui devi applicarlo due volte.
+888111	892657	Qui hai dovuto prendere un LLM, un qualunque motore di differenza, in forma o di forma.
+893117	896462	Hai capito che in realtà anche questa pseudo-tripla, ci sono due triple.
+897703	898965	Hai dovuto fare questa roba qui e prendere tutto questo.
+899367	901609	Questo non è un linguaggio formale.
+901629	904873	Ah, per quello... Certo, questo è colto esattamente al punto.
+904893	906915	In un linguaggio formale questo non lo potevi dire.
+907535	913661	Perché qui, di fatto, questa frase informale corrisponde a due asserzioni nei nostri linguaggi formali.
+914262	923271	Perché prima devi dire che Rocchi è il cane di Sopra, che è il cane, e notare che nel nostro italiano sono due i significati, uno che è un cane, l'altro che è suo.
+926334	928176	Questo è esattamente il motivo
+928713	930916	Perché fare il formato-formo è difficile.
+930936	933058	E' chiaro che sono la tua concentrazione.
+933078	933759	E' chiaro il punto.
+934039	936963	Questo non è un linguaggio formale, non ho detto che sia un linguaggio formale.
+936983	943150	E' un linguaggio pseudo-formale che si avvicina a un linguaggio dichiarativo, quindi non abbiamo il che.
+944192	946094	Ho visto il cane che vagliava.
+946995	950038	Ho visto la casa che bruciava il che soggetto.
+951781	957167	Ho visto la persona che ho visto l'altro ieri il che complemento oggetto.
+958413	960215	se pensate a queste frase.
+960235	973890	Linguaggio è pervasivamente ambiente.
+973910	981078	Chiaramente, qui c'è una slide che scrive quello che vi ho detto in precedenza.
+981378	986884	Voi, nella teoria dei modelli, vi ho detto che nei modelli ci sono sette tipi di percetti
+987978	1004577	ci sono le entità, ci sono gli entity types, ci sono le relazioni, il vostro linguaggio di specifica ad inizio vi dicono esattamente quale di questi aspetti del modello va a scegliere.
+1004597	1009562	Nell'IR model, quando fate l'IR model, non ci sono entità, ci sono solo insieme.
+1010123	1015369	Quando vi fanno la tabella, ci sono le entità, quando vi fanno la tabella così,
+1021238	1027605	Name, age, friend.
+1027625	1034312	Name numero 1, age 27, friend numero 2.
+1034332	1034472	Chiaro?
+1034492	1035013	Cosa c'è qua?
+1035033	1036154	L'abbiamo già fatto i precedenti.
+1036214	1039678	C'è questa, una e due che sono entità.
+1040379	1042942	C'è questo che è un valore negli interi.
+1044383	1050570	C'è questi name che sono l'insieme dei nomi, l'insieme di tutte le possibilità, l'insieme degli amici.
+1051613	1056661	Quindi qui quando faremo un modello di questa roba dovrebbe avere un modello in cui mettiamo le entità.
+1058324	1074972	Se noi diciamo invece person, friend, person, non ci sono le entità, ci sono solo gli insieme.
+1075964	1081189	e infatti vedremo che c'è una logica per questo e c'è una logica per questa.
+1081209	1105650	Questa logica ti permette di derivare informazioni sull'entità, questo ti permetterà di derivare informazioni sull'insieme estendendo tutta quell'informazione implicita che c'è in questi modelli e che noi umani non abbiamo bisogno di dire se non quando diventa importante dirlo ad esempio se fai il software di un treno, se fai un legnare, ma che immediatamente
+1109866	1114993	La domanda vera a questo punto è, vedete una funzione, sì ma che proprietà deve avere questa funzione?
+1118838	1120280	Sicuramente deve essere un'ambigua.
+1121342	1122263	Volevo dire un'ambigua?
+1123524	1132977	La cosa ovvia è che non posso avere che una sezione denota due fatti diversi per un F2.
+1132997	1134660	E' chiaro?
+1134680	1138725	Questo è il punto fondamentale della funzione interrotazione.
+1140055	1148725	che è esattamente quello che vi abbiamo fatto vedere delle volte e li vedremo anche più avanti tra oggi e domani, che è esattamente quello che il linguaggio naturale non ha, che è la polisemia.
+1149846	1153290	Abbiamo già menzionato Word tante volte.
+1153310	1163322	Quindi quando tu fai l'andamento e usi Word, meraviglioso, però c'è sempre il problema che usi una parola come nel linguaggio naturale, come quando anche fai questa tabella qui, no?
+1165004	1168408	Queste frasi qui nella tua tabella, è vero che ho anche questo modello qua?
+1168895	1177810	E' vero che il diarmo o il tabellare ti dà dei vincoli, ma è comunque la libertà di mettere la parola che vuoi qua.
+1178632	1191173	E chiaramente sempre quando l'avete fatta avete sempre messo quelle parole che hanno un significato equitivo, ma non c'è garanzia rispondono la stessa cosa per due che riguardano perché non c'è la funzione di interpretazione disposta.
+1194275	1210337	Fra parentesi, da quando sono giovane facciamo algoritmi di world-sense disambiguation, cioè algoritmi di linguaggio naturale, anche adesso vogliamo ancora di più, di risolvere questo problema qui, e non si becca.
+1210357	1224096	È quasi facile, va bene, ma come sempre bisogna attenuare quando il problema, la confine sulla scienza infattiva, cioè con le fattive, è molto sensibile, è molto difficile, in particolare su testi molto lunghi, arbitrariamente lunghi,
+1224565	1236280	l'inguaglio naturale sembra bene di tipo 0, quindi vuol dire che tu puoi far dire a una persona che è qua sotto, che magari l'hai menzionata a 7 pagine più o meno e sembra in un contesto abbastanza lungo e se non segnali di tenere non lo vedi.
+1236881	1244791	Questo per dire che, perché tale volte farete esercitazioni, noi non stiamo risolvendo un problema in forma conforme.
+1244811	1251400	Il problema lì è essenzialmente irrisolubile, nel senso lo ho già detto tale volte, lo dico, ma diciamo che se uno
+1252358	1257805	fare dei linguaggi di input decente, non decente, perchè serve un linguaggio naturale.
+1258546	1266137	Noi minimizziamo il rischio dello sbaglio di produzione e poi quando siamo nel mondo fermare da lì in poi è tutto gratis.
+1266958	1269221	Gratis abbastanza, facendo algoritmi così.
+1269241	1273567	Sinonimità va bene?
+1273587	1278213	Sì, la possiamo avere.
+1278233	1279575	Sinonimità vuol dire cosa?
+1279595	1281538	Vuol dire che io ho
+1282430	1289718	I di alfa1 uguale a f2, l'interpretazione è giusta, a2 uguale a f2.
+1289738	1290399	Va bene?
+1290419	1292341	Sì, perché?
+1292361	1304634	Non si fa casino, perché lo dici in maniera diversa e per cavo e in automobile non va bene lo stesso.
+1304654	1305855	Ovviamente può rompere il cartone, tant'è vero perché sapete
+1306291	1308835	e nei database c'è la unique name assumption.
+1308875	1310497	Unique name assumption perché?
+1310838	1311499	Non la vogliono.
+1311519	1311979	Ma perché?
+1312039	1315024	Per andare veloce.
+1315044	1319110	E loro garantiscono che la stringa di fatto è una unique identifier.
+1319130	1319470	Perché?
+1319490	1320232	Perché va veloce.
+1320852	1332229	Attualmente dobbiamo scrivere da qualche parte quali sono i sinonimi, sempre faticoso, oppure la rappresentazione dei database è incompleta.
+1332249	1334813	Come vedremo fra due lezioni, i database
+1336058	1349716	sono così veloci esattamente perché è un modo canonico di scrivere tutto quello che sai e tutto ciò che non dici è come se fosse falso.
+1349736	1354042	Quindi in questa applicazione l'evento si applica bene.
+1354062	1359750	La maggioranza delle applicazioni corporete non funziona nell'AI e nel mondo aperto, nel web.
+1360751	1362994	Ogni volta che metti un dato sulla rete
+1364324	1392051	ognuno capirà quello che vuole e sicuramente non conosci tutto quello che c'è nel mondo ma sicuramente se fai S3 noi come università sappiamo per quello che riguarda il cadere vita degli esami sappiamo tutto e abbiamo un processo enorme per far sì che la pensia è giusta e voi avete anche la possibilità di lamentarvi, giustamente, perché poi alla fine abbiamo un detrimento.
+1392071	1393673	Totalità e soggettività.
+1394581	1396363	Totalità cos'è che vuol dire?
+1399827	1409798	Vuol dire che per qualunque assoluzione a partenza del linguaggio I di A esiste.
+1409818	1412521	Ok?
+1413662	1414723	Vogliamo una soggettività?
+1414743	1416125	Sì.
+1416145	1417146	Viene richiesto.
+1418003	1439658	quando tu devi scrivere la tua funzione di interpretazione devi garantirti che la tua funzione di interpretazione è sottilita su tutto il dominio, su tutto il linguaggio è soggettiva?
+1439678	1439839	no?
+1439859	1440720	volevo dire soggettività?
+1441662	1453422	vuol dire che io c'ho un linguaggio, c'ho un dominio e mi va benissimo che io non so cosa dire.
+1453442	1454224	Sono e le motivi?
+1457629	1466725	Tendenzialmente la funzione che viene usata e altro non faccio catturare la best practice che viene fatta normalmente
+1467329	1489020	nell'attività di modellazione che è fatta quando tu vedi un certo dominio decidi di formalizzare l'aspetto che vuoi che è quello per cui il problema è rilevante per te.
+1489040	1495429	Abbiamo una funzione di correttezza del linguaggio e una funzione di competenza del linguaggio.
+1496759	1505713	cioè sempre rispetto alla funzione d'interpretazione noi diciamo, perché ovviamente dov'è il vero problema?
+1509318	1525163	che quando tu fai le applicazioni chiaramente la funzione d'interpretazione come vedevamo a 5 minuti è data, tu il linguaggio ce l'hai, è in input magari perché l'hai presa in applicazione 1
+1527742	1530666	e hai anche in input la forma del dominio.
+1535071	1544202	Ad esempio, nel caso di S3 il dominio è su tutti gli studenti in un certo momento, momento per momento è scritto all'università.
+1547626	1556297	Tu dici che il linguaggio è corretto se per qualunque alfa appartenente a L, i di alfa appartiene al dominio.
+1562774	1592443	se io c'ho un nome, se te prendo un dato in input ti ritorna una scheda la competenza è esattamente l'opposto di che per qualunque elemento nel dominio esiste alfa tale che i di alfa uguale a f questa è la competenza
+1601047	1604030	Non è che non serve, non si vuole.
+1604130	1604811	Faccio un esempio.
+1607915	1620649	Fino a 6-7 anni fa, nessuno sapeva, e non sa quali sono le stati, tutte le persone che gli eravano per gli uffici giornalieri.
+1620709	1629298	Per tutti quelli che, quindi parliamo anche di visitatori, non esclusi o di questo tipo, però è chiaro,
+1629548	1638438	che noi non avevamo una loghi, non avevamo un modo di sapere chi fosse.
+1638598	1639299	Era un problema?
+1639479	1654155	No, per lungo tempo no, ma poi è arrivata l'assicurazione e c'è il problema con l'assicurazione e vogliono sapere anche per dare copertura assicurativa e quindi questa funzione di mappatura, notare bene, torni indietro, noi la completezza
+1659400	1664065	ma non avevamo la competenza per quelle persone che giravano per gli uffici.
+1664085	1675097	E chiaramente non ce l'abbiamo ancora, se siete a trovare mia moglie in 5 minuti non ce l'abbiamo ancora, diciamo per quelli che si trovavano in ufficio, però è chiaro, mediamente per un visitatore non avevamo neanche quello.
+1678381	1679282	E perché non l'avevamo?
+1679302	1681404	Perché ciostava.
+1681445	1685509	Infatti ora ce l'abbiamo, abbiamo fatto tutte le procedure,
+1685827	1689571	Quando una persona arriva, se vuole avere accesso a qualunque servizio, deve dare il nome.
+1690112	1697521	Quindi, nel mondo informale, abbiamo messo in piedi questa condizione.
+1697541	1707032	Questo per dire che chiaramente sono ideali avere tutti e due, ma a volte il costo, come sempre nella vita reale, non giustifica questo.
+1707132	1708514	Mentre questo vogliamo avere sempre.
+1708634	1713960	Se non avessimo questo, vuol dire che di fatto abbiamo un linguaggio che non funziona.
+1716252	1744740	ma magari potranno sembrare ovvie però tutti i teoriche che faremo dopo si baseranno su queste ipotesi e faremo vedere già oggi che quando molli questa hai delle conseguenze in termini di ragionamento hai delle conseguenze che certe conclusioni non ne puoi più fare ovviamente è ovvio ma fino a che punto esiste il mollo
+1747977	1771420	Questa slide non fa che dire che la correttezza è importante e deve essere corretta invece questo non serve che sia corretto, cioè non è vero che non serve
+1771720	1791043	serve ma in qualche maniera tutto ciò che noi faremo in logica migliora anche con questa ipotesi però perderemo capacità di ragionamento quindi cos'è un world model?
+1791063	1801255	è una teoria un modello e una funzione di mapping che deve essere totale deve essere corretta
+1801741	1813884	ma non è necessariamente incompleta, ma può essere incompleta e non subjettiva.
+1813904	1823563	Perfetto, ora facciamo, quindi un modello del mondo è una tripla normalizzata
+1824387	1848960	non è una linguaggia sezionale, l'abbiamo definita due lezioni fa, dove D è un'interpretazione, l'abbiamo definita due lezioni fa e EI è corretta rispetto a D. Notate bene che rispetto all'esempio precedente ho richiesto la correttezza della funzione di interpretazione di L e quindi che la funzione di interpretazione lavora bene ma non ho richiesto la competenza.
+1859521	1861223	Quindi di fatto, qual'è che è successo?
+1862784	1885386	Io ho un certo linguaggio, abbiamo definito formalmente una teoria insieme alle forme del linguaggio, quelle forme che noi di La Teoria del Mondo studiamo e abbiamo detto che una sezione è un elemento della teoria.
+1885446	1889410	Stiamo dicendo che noi, matematicamente,
+1889677	1900051	La nostra conoscenza del mondo è l'insieme di assezioni, che poi vedremo già domani, sono tutte triple.
+1900071	1915532	E noi diremo che una volta che abbiamo detto questo io costruisco i fatti, costruisco un modello, dove il modello è l'insieme dei fatti residui da questa teoria, il linguaggio è l'insieme, il dominio è l'insieme
+1915951	1926528	di tutto quello che posso dire, di interpretazione di tutto quello che posso dire tramite tutte le interpretazioni, il fatto è la singola interpretazione sua.
+1926548	1934422	Ovviamente noi dobbiamo arrivare a questo.
+1934682	1937166	Tutta questa roba qua siamo adatte perché ha il ciclisto mapping.
+1937888	1945099	Ora, però, dobbiamo passare da un world model a world representation perché world representation è ciò che sappiamo del mondo.
+1945119	1953691	Quando abbiamo quello, potremo, come passo successivo, come ho detto prima varie volte, vedere cosa si può imparare da quello che sappiamo.
+1955834	1965268	Un concetto importante, sicuramente avete parlato, sentito parlare di sintassi semantica, anche da me informalmente, il concetto di sintassi semantica è molto chiaro.
+1965288	1967271	La sintassi è
+1967437	1973984	insieme di regole di formazione che ti permettono di costruire un linguaggio per il momento assazionato.
+1974004	1976086	La semantica è quello che significa.
+1976106	1990602	La semantica, insieme dei significati, è tutto quello che posso dire, cioè quello che io intendo applicando la funzione dell'interpretazione di quello che posso dire.
+1991943	1996228	Quindi, tornando alla nostra prima lezione, la semantica
+1997035	2001961	è la formalizzazione di quello che ho in testa nella mia rappresentazione alla voce.
+2001981	2003623	Ok?
+2003643	2006326	Chiaro?
+2006446	2017819	Notare bene che, nella slide precedente, qua... Perché noi stiamo facendo questa roba qui?
+2018440	2024747	Eh, perché questa roba qui, magari i computer ci fanno la foto, però noi siamo solo qua, noi interagiamo solo qua.
+2025267	2041549	quindi noi dobbiamo costruirci con la logica dei meccanismi che ragionano solamente sul linguaggio perché nessuno può prendere il cervello a qualcun altro di noi e vedere cosa c'è dentro e far sì che sotto le funzioni qualunque cosa noi ragioniamo qua in cima è vero il modello è chiaro?
+2041569	2054346	tutto ciò che stiamo facendo è esattamente di alzarci da quello che percepiamo a quello che diciamo ora abbiamo fatto il world model
+2055288	2056770	e allora facciamo una rappresentazione.
+2057291	2073635	Lo facciamo passo passo, perché infatti non è passo, noi lo formalizziamo matematicamente, che ci permetterà tra due lezioni, come ho detto prima, di dimenticarci dei modelli.
+2073655	2077020	Cos'è una rappresentazione del mondo?
+2077060	2077961	È tipo una tripla.
+2081627	2084451	È la teoria e gli esami che voi facevate
+2088008	2111469	Prima di tutto dovete avere il model, quindi ci siamo già messi d'accordo sul fatto di qual è il dominio, ci siamo già messi d'accordo su quali erano i tassi dalla gappa precedente, data questo, a questo punto devo usare questo mapping che chiaramente mi arriverà da una funzione di interpretazione, è chiaro?
+2111489	2113351	Come faccio a scegliere una funzione di interpretazione?
+2113511	2115973	Scelgo la funzione di interpretazione scegliendo il model.
+2116848	2131247	scegliendo il world model mi fissa il linguaggio, mi fissa come il modello viene interpretato dal world model e quindi costruisco la teoria.
+2131267	2141060	Quindi di fatto, chiaramente però questo vuol dire che la mia teoria e il mio modello avranno tutte le limitazioni del world model che ho scelto.
+2141981	2146467	Se il world model, come diria il model, non mi parla di istanze,
+2146970	2175812	non le posso parlare ma almeno per quello che parla sono chiare e chiaramente abbiamo di nuovo un concetto di correttezza e completezza nella teoria e questi sono esattamente quelli a cui si arriva in logica noi diciamo che chiaramente voi tenete conto per noi il punto di riferimento è sempre il modello
+2176467	2179290	che è quello che abbiamo in testa.
+2179310	2187600	Poi chiaramente noi ci facciamo la nostra teoria e vi hanno detto che è un insieme di assezioni.
+2187620	2205681	Allora volevo dire che la teoria è corretta, volevo dire che per qualunque affermazione io faccio, nella mia teoria, chiaramente questo modello è dentro il domino di interpretazione, qualunque cosa io faccio, se io prendo la funzione di interpretazione,
+2207568	2218584	La teoria è il buon fatto che stai bene.
+2218604	2218744	Chiaro?
+2218764	2222249	Chiaramente c'è la competenza.
+2228678	2230521	La competenza mi dice che
+2235327	2255946	in un paio di modi, per qualunque è alfa batterente al modello esiste un'alfa batterente alla teoria, sale che I di alfa è uguale a... ok?
+2255966	2263393	tiriamo giù un attimino qua
+2272148	2295895	Allora, chiaramente questa è la correntezza e questa è la competenza e chiaramente tutta la logica si tocca su queste due cose
+2302844	2325544	riguardo la stessa il proprio domanda è supponiamo che io scelgo un world model supponiamo che io maudo di costruire delle teorie del world model
+2332122	2351753	Il punto diventa, se io do una teoria, questa teoria che io do, magari quando faccio una logica più un ragionamento, che si chiama interno.
+2351773	2354617	Questa è la mappa che io faccio, com'è rispetto al modello?
+2355399	2356881	E' corretta o complessa?
+2362885	2369492	questo è tutto un problema del fin dopo dell'altro, è chiaro?
+2369512	2372815	Ora perchè quella roba lì non è così facile?
+2372835	2380543	Perchè prima di tutto vengono a trovare le regole perchè vengono a trovare le regole?
+2380563	2388471	Lui dice perchè me ne frega, me lo scrivo tutto con le nuove e lo so però partendo dai matematici
+2393159	2402292	Se nel mio modello ci sono i naturali, i naturali sono infiniti.
+2405257	2416393	Quindi semplicemente non ho possibilità di scrivere una teoria che non era tutta.
+2416413	2420719	Se io faccio una teoria del mondo anche avendo 7 miliardi di persone
+2421425	2434081	se cominci a fare l'affermazione di 7 miliardi di persone, se cominci a fare 20 o 30 diventa 7 miliardi alla 30, non per 30, perché insieme alle frasi dice 40-20.
+2434141	2441370	Allora è chiaro che, come vedremo, però qui siamo nella fase 0, il vero problema è se noi riusciamo, allora com'è che diciamo?
+2441390	2447578	Beh, noi scriviamo che ci arriviamo tra 5 minuti e questo è il problema dell'elego illogico, dove arriveremo al ragionamento.
+2447598	2451162	Dici, beh, o io mi scrivo una teoria che è la più piccola possibile,
+2452002	2464495	Poi, in qualche maniera, ho un algoritmo che se io ti chiedo se una certa formula appartiene a T, in un tempo ragionevole mi dici che è vero o falsa, cioè magari non te l'ho detta, tu la riesci a concludere, questo.
+2465456	2480271	Quindi questo punto si spolta dal fatto 1 di dire la correttezza, che vuol dire, se mi dici che è vera, è vera, e completezza me lo dici sempre e qualche volta ti dimentichi.
+2481365	2508520	Ovviamente per dirvi una cosa che sicuramente fare dei corsi di logica da matematici, la cosa interessante che nel 1930 Agones ha dimostrato, che se tu prendi N, un insieme infinito come N, però ti dici che, permetti di dirti che 1 per 1 più 2 è uguale a 3 per tutti i reali, cioè un modo per dire, per dire che 3 meno 2 è uguale a 1,
+2509023	2536954	se tu trovi un modo di formalizzare il più e il meno e il per quindi 3 x 5 vado a 15 quindi se tu trovi un modo di scrivere queste sezioni tali per cui si applicano i naturali quindi solamente somme e solamente differenze non è possibile scrivere una teoria che è un algoritmo del termine che è in grado di
+2538082	2552509	di dirti che è completo, ovvero sia, ci sarà sempre una formula che l'algoritmo non riuscirà mai a dire se è vero o falso.
+2552529	2558981	Questo per chiaramente non c'è dettaglio, però è un punto per mettere in prospettiva.
+2559001	2559702	Poi, se facciamo un corso di logica
+2560593	2580880	di verità, arriviamo alla number theory, facciamo un corso della computer science e lo spieghiamo come punto d'arrivo che comunque noi non ci arriveremo mai perché noi naturali abbiamo 64 bit che noi possiamo rappresentare.
+2580920	2589672	Abbiamo chiaramente il problema della computazionale, c'è la computazione, cioè del tempo computazionale, ma non abbiamo il problema dell'incompetenza.
+2593280	2608825	un algoritmo di calcolo che dipenderà solo dal fatto che faremo una soluzione che per noi informatici serve nel 99,9% dei casi.
+2614103	2643351	Quindi queste due priorità di correttezza e di incorrettezza della teoria sono esattamente quello che noi faremo e noi faremo vedere che in tutti i melodici che noi faremo ce n'abbiamo questo sempre e questo qua di sempre e vedremo esattamente quando accetteremo questo e questo agli stessi Quindi in questa slide c'è niente di più di quello che ho detto
+2643685	2653940	che è che la teoria deve essere completa, ma può essere incorretta, ma può essere incompleta.
+2653960	2663713	E non è che torna a ripetere come nel caso che ho fatto prima, non è che è incompleta, non ve lo vogliamo, perché a volte il costo di costruire una teoria informatica da completezza è troppo alto.
+2663733	2664515	Quindi cosa fai?
+2664615	2665696	Lo gestisci nel mondo reale.
+2666337	2669221	Metti il portiere alla porta e chiedi alla gente chi è.
+2669842	2673287	Se non l'hai mai vista, gli chiedi di essere felice in questa maniera.
+2679950	2684214	Quindi, noi diciamo, diamo il concetto di teoria e modello.
+2684494	2686956	Diamo il concetto formale di teoria e modello.
+2690179	2694382	Perché io l'abbia andata nelle lezioni precedenti, ma l'abbia andata separatamente.
+2695824	2699767	Noi diciamo, prima di andare a introdurre una teoria, aveva detto una teoria è un insieme di assezioni.
+2700267	2702709	Un modello è un insieme di percenti.
+2702729	2709315	Io dico che, adesso, T è una teoria di M. Ho relativizzato quella di teoria al modello di differenza.
+2712502	2741985	Noi diciamo, preso un modello all model, preso l'insieme di fatti del dominio, preso una qualunque teoria, diciamo che questa e questa è una teoria di questo modello e questo modello è un modello di T, se, solo se, T è corretta per M. Dove l'ho detto prima, T è corretta per M nel senso, non se per tutte le azioni della teoria, la sua interpretazione del modello è detto M.
+2743332	2757172	Chiaramente questa ipotica di correttezza è fondamentale nelle applicazioni efficienze.
+2757973	2771071	L'attore di competenza, come abbiamo detto, ha un problema di costo che viene imposto, in realtà viene fatto solo in quelle applicazioni dove la non competenza è un problema.
+2771091	2772934	Esempio banale, l'ho fatto prima e lo faccio adesso,
+2773252	2780923	Chiaramente quando tu fai il software che deve fermare un treno per evitare di andare a sbattere, tu vuoi che il software sia completo.
+2780943	2786150	Ed infatti quel software costa mille volte il software per gestire l'automobile.
+2786251	2802634	A questo punto noi definiamo formalmente una teoria del mondo, una cosa teoria modello, dove
+2802935	2827448	però qual è il problema adesso?
+2827468	2832435	Nel caso di S3 in qualche maniera deve avere una tabella
+2832668	2858440	e più o meno trovare il modo tale per cui sono verificato o verifico che devo costruire il modello quindi adesso in questa seconda parte del corso cerchiamo di capire le condizioni necessarie e sufficienti tali per cui io voglio buttare via questi perché se io riesco a trovare un metodo che prima è un metodo formale della logica
+2858842	2877825	ma poi quando faccio software ingegneri, ad esempio software dei treni o degli aerei o del banco, io ho un modo di garantirmi che per costruzione la T rappresenta completamente M, allora ci siamo.
+2877845	2880428	Chiaramente per fare questo dovresti pensare
+2880543	2893239	Io ho fatto tanto lavoro per dirvi che non è completa, vi ho spiegato che la competenza non è importante, però in realtà se voglio mutare via questo, devo riputare la competenza degli altri.
+2893259	2904374	Però vi ho anche detto che la competenza sia del linguaggio che della teoria non è rispetto al dominio di interpretazione, è semplicemente rispetto alla parte rilevante.
+2906056	2907057	Quindi per dirvi
+2908268	2910451	Abbiamo detto che c'era dominio.
+2912113	2913816	Abbiamo detto che c'era linguaggio.
+2915338	2919504	Abbiamo detto che il linguaggio si proiettava su una sottosegna del dominio di Praga.
+2920425	2922608	Poi prendiamo la teoria che è qua dentro.
+2923169	2935546	La teoria si proietta su un M che lo proietta così, che magari è un sottosieme dell'M privo del modello.
+2935566	2935626	Ok?
+2937158	2955253	Quindi io ho mantenuto sempre la correttezza, ho sempre detto il linguaggio mi rimpicciolisce quello che è il dominio di interpretazione, il modello lo prendo corretto ma non concreto, quindi mi rimpicciolisce quello su cui posso parlare.
+2958456	2966963	Però dov'era quello che ho scritto, qual'era il concetto fondamentale che ho scritto nelle slide precedenti?
+2967365	2972953	E' esattamente il concetto che poi fa nascere la diversità della rappresentazione.
+2975557	2992242	Chiaro che siano delle scelte, da D a D' e da M a M', questa fatta dalla scelta del linguaggio, sono arbitrarie.
+2996373	2997475	Cosa vuol dire arbitrarie?
+2997655	2999839	E' l'elemento di soggettività della prima lezione.
+3000540	3004987	Normalmente noi, nel linguaggio naturale, la facciamo costantemente.
+3006169	3015444	Però se adesso noi, da informatici, blocchiamo, il problema non è fare questo, il problema è sapere la scelta che hai fatto.
+3015464	3015885	E' chiaro?
+3017427	3019090	La diversità
+3020892	3049296	non è eliminabile, ma non solo a livello umano a livello più, la stazione di Trento è diverso da qualche parte, sono tutti diversi però se io riesco a rendere trasparente questo processo di dimenticare i dettagli allora immediatamente a questo M qua
+3052381	3055144	io riesco ad essere corretto e completo.
+3055164	3059709	Quindi la correttezza la posso impostare, la correttezza la costruisco.
+3059749	3066015	Notare bene comunque, e ricordo, che per impostare la correttezza ho dovuto formalizzare il modello.
+3066616	3069799	Ho formalizzato il modello, questo mi ha dato la correttezza.
+3070360	3080470	Adesso devo costruire questo mapping qui, di modo che poi posso completamente dimenticarmi l'altro modello.
+3080490	3082152	Quest'ultimo rappresentato di canoni.
+3087042	3104275	Ovviamente le applicazioni canoniche le possiamo fare come vogliamo ma fondamentalmente dal punto di vista matematico quale sono le requisite che hanno.
+3104295	3105658	Allora prima di tutto
+3106904	3125587	Io avevo appena detto che non serve la competenza e ora la devo fare dietro alla finestra altrimenti non riesco a fare... infatti la competenza non mi serve per utilizzare la semanza mi serve per utilizzare la modella per cui prima la costruisci e poi la butti via.
+3125607	3133096	Però te lo costruisci in modo che poi la puoi buttare via senza dimenticare niente.
+3133116	3134498	Qual è il punto fondamentale?
+3140570	3168079	e questo è il modello è chiaro prima di tutto che c'è tante teorie diverse non so se è chiaro ma è anche vero che questa teoria per come l'ho definita non necessariamente completa è anche teoria di qualunque modello più grande
+3172700	3196834	Teoria di M incompleta e anche teoria di qualunque M' tale che R non c'è insieme di M', insieme di fatti.
+3204695	3207598	Quindi, perchè questo è un problema?
+3208019	3214526	Questo è un problema perchè magari se non sono stato attento, chiaramente qui ci sono delle cose che magari non voglio.
+3215547	3229323	Allora devo costruire questa... Devo riuscire a darmi un metodo da definire formalmente il fatto di massimalità della teoria.
+3229343	3232086	Una teoria è massima rispetto ad M se, secondo se,
+3233669	3242900	è completa rispetto a delta non massima o incompleta o non dotata.
+3243041	3259421	Tornare bene che, lo ripeto, il ponte di massimalità non è necessario ma diventa importante ogni volta che io voglio gestire nel sistema la parte di non massimalità.
+3259441	3263406	Torniamo a fare l'esempio, torniamo a fare
+3263993	3293764	che poi arriva a spiegare la definizione che diamo dopo se io faccio l'applicativo di tutte le persone che sono all'università di Trento e c'è una persona che è all'università di Trento ma non è nel database si faccia una domanda al database lui ti dirà che non c'è se applica il database normale in realtà c'è va bene
+3294841	3308662	La rappresentazione di database è disalineata rispetto alla rappresentazione del mondo, ma tu lo sai e quindi nel mondo fai tutto il lavoro che ti permette di risolvere il problema.
+3308682	3320680	Però questo vuol dire che è un'attività extra che fai, che quindi lo puoi fare, come ho detto prima, perché se sbagli va bene più o meno lo stesso, la gente non si fa male tutti i giorni,
+3321689	3329140	c'è un elapsed time che rimuove molto più lente le calcole e così via.
+3329160	3340096	Quindi quando io faccio il database della gente che gira per trento per un'ITN mi va bene, non ho possibilità.
+3341058	3350532	Però, la possibilità ci vuole per S3, perché se uno di voi va là e dice al mio esame, gli viene un colpo e non è accettabile, è chiaro?
+3351541	3376587	Quindi vedete, l'applicazione è quello che ti dà la... Allora, la domanda è qual è la condizione che, come l'ho già detta, che il database di S3 ha in più rispetto al database, intendo come contenuti, non come conciliatori di gestione, rispetto al database di gestizione delle persone della dinamica, della dinamica...
+3381308	3385274	e chiaramente questa slide non c'è niente di nuovo, l'ho già detta ma la potete leggere con calma.
+3390462	3407890	Ad esempio un ER model incompleto, questo è sempre vero, c'è ad esempio nel database di S3 non c'è scritto che un professore può essere anche un ossedente,
+3409608	3411851	e voi mi direte, si ma ci sono studenti che sono professori?
+3412572	3416557	No, io puoi essere studente in un'altra parte, non sono studente del corso d'orizzonte.
+3418700	3423045	Questa informazione non c'è scritta, è implicita, indettamente, è incompleta.
+3424187	3428853	Infatti i dettabili sono incompleti, infatti gli armoni sono incompleti, ed è esattamente il motivo per cui non c'è paralogica.
+3433779	3435902	Una tabella che ti mette
+3436253	3444760	ci sono casi ovvi, tutti i casi ovvi quindi non è chi è e così via.
+3446602	3460373	Rimane sempre il fatto, scritto qua, che il concetto è che c'è un rapporto meno e meno, c'è un rapporto meno e più meno, con la teoria di Montaigne.
+3460393	3464097	Questo deve sapere cos'è la teoria meno.
+3464117	3465838	Che dobbiamo eliminare?
+3470257	3494492	noi diciamo, chiamiamo il modello canonico il modello che prende piano massimale ovviamente la domanda è abbiamo detto che c'è un rapporto mini a mini con i modelli e fra teoria massimale e modello canonico
+3502370	3516187	Nel momento in cui ci siamo dati la possibilità di avere due nomi con lo stesso oggetto del modello, mi sono creato questo casino.
+3516207	3530284	Ed è il motivo per cui voi avete, avete tutti, molti di voi, Marco e Tomasio sono una decina, in un'università, ma ognuno di voi ha il nome di matricola.
+3532846	3559410	ossia le applicazioni, noi uccidiamo questa proprietà semplicemente uccidendo i sinali che come vedremo ci dà una capacità di fare ovviamente la domanda vera è qual è i ragionamenti più che puoi fare e lo facciamo alla prossima lezione cioè quali sono le conseguenze che tu puoi far rendere assumendo che non ci sono dei sinali abbiamo già visto, avete sentito, gli esercizi che hanno ancora un modo assaggio negation by failure
+3566866	3569911	Qual è il punto fondamentale, che è il punto che è scritto qua?
+3570773	3575321	Ricordate che all'inizio del corso avevo detto il modello inteso, qual è il modello inteso?
+3575361	3579889	Quello che ho in testa, è quello che io non riesco a comunicare.
+3579909	3592350	Io vi dico che se io dico che la teoria massimale vuol dire essenzialmente che l'ho costruita in modo da non dimenticare niente, il modello canonico è la rappresentazione
+3594170	3620245	La teoria che ho fatto è completa e corretta rispetto alla formalizzazione dell'intended model come canonica mossa.
+3628055	3655311	creiamo una rappresentazione canonica in cui la teoria T è massimale iniziale è esattamente come prima
+3655628	3663516	M'ho richiesto che M è un modello canonico per TdA.
+3664760	3668052	M è un modello canonico per TdA.
+3684383	3706948	un punto vado a dire è che io in realtà questo f qua non è che mi arriva da qua ma mi arriva da là su mi arriva dal canonico world model è nel world model che definisco la funzione di interpretazione è lì che decido come costruire il modello quindi devo eliminare la d da là su in cima
+3717695	3719919	e che cos'è che faccio la cosa ovvia?
+3723927	3738657	un dominio insieme di quelle delle sezioni che sono iniquite alla continuità delle relazioni quindi un dominio L è diventato una scotte
+3743986	3773537	non c'è più il dominio il modello del mondo è diventato una copia, non c'è più il dominio chiaramente questo vuol dire che quando faccio il mio sistema, la mia specifica mi specifico bene alle enti in modo che sia fatto così però vi anticipo adesso, lo vediamo fra le lezioni
+3775002	3778828	e l'ho già detto prima, ma è per il mondo reale, questa qua è impossibile da fare.
+3779709	3789564	E' impossibile da fare sul mondo dei naturali che sono infiniti, si dice che se ne frega, ma banalmente è impossibile da fare, ad esempio anche nell'evo, è impossibile da fare perché?
+3789624	3790906	Perché sarebbe troppo grosso.
+3793991	3799980	Perché ciò che è vero nel mondo è troppo grande, anche facendo un sacco di ipotesi, ma lo vedremo fra due volte,
+3800264	3825867	però questa cosa qui per noi non arriva mai e questo è il motivo per cui la gente ha inventato la logica e questo è il motivo per cui la gente ha fatto il ragionamento perché anche se tu non sai tutto esplicitamente hai dei modi per calcolarlo però questo viene dopo adesso noi in qualche maniera passo passo e ricorda dove siamo partiti nella prima lezione abbiamo un oggetto che ci dice se costruiamo questo oggetto noi in qualche maniera il modello lo siamo già dimenticato
+3830504	3855817	e una volta questo dimenticato quella cosa lì, la rappresentazione canonica di un modello ha da mettere insieme questo insieme di fatti del modello, stagioni per cui c'è un A nella teoria medifemmica, che è la teoria che nasce dal modello.
+3855837	3860022	Quindi, noi stiamo dicendo che quando noi
+3862567	3889722	se abbiamo una rappresentazione canonica e lo possiamo fare solamente rispetto a un modello del mondo canonico noi il modello è totalmente sparito qui c'è la M e è sparito quindi una teoria del mondo è un programma è quello che voi avevate detto, una struttura d'arte quindi sotto la limitazione che sei in grado di iscriverla
+3891001	3910333	in qualche maniera, nella misura in cui tu hai fatto la tua procedura di costruzione che segua questa roba qui, che segua, che tu sai esattamente passo passo cosa hai perso, perché comunque hai perso sicuramente questa struttura che fai sempre, tu di fatto non puoi dimenticare del momento.
+3910373	3916182	Questa slide qui
+3921865	3927854	Questa slide qui ci dice che è quello che, perché sto dicendo questo?
+3928495	3937268	Perché adesso, perché di fatto il processo che vi ho detto prima è esattamente il processo che vi è insegnato a fare.
+3938730	3942736	Quando avete fatto software engineering, fate calentamento di formaggio e così via.
+3943637	3948885	Prima di tutto ti scegli, è il motivo anche per cui ho detto che
+3949338	3978096	vi ricordate nella prima slide che lo farete aereo e flutuazione io ho detto che sono tre tipi di modelli del mondo uniforma uniforma uniforma
+3979257	3993393	A parte questo, e abbiamo solitamente gli RNM che lavorano su questa roba e fanno leggeramente sui modelli informali, questo è quello che voi avete sempre fatto.
+3993413	4004286	Questo è quello che io vi sto dicendo, però questi due sono ambientalmente vicini,
+4005025	4027303	chiaramente più vicini vuol dire più costosi di imparli ma è esattamente quello che implicitamente vuoi fare cosa che voi fate usate modelli semiformali semplicemente scegliendo prima la forma di linguaggio poi scegliete informalmente
+4028347	4040405	il dominio, nel caso di S3 ti dicono di avere tutti i tuoi studenti dentro, devi in qualche maniera fare una procedura e tu li metti dentro e dopo di che tu fai un mapping, dov'è il mapping?
+4040425	4041347	Dov'è questo mapping?
+4041387	4044071	Dov'è nel database il mapping?
+4044091	4045333	In S3 dov'è il mapping?
+4045353	4045874	Dov'è F?
+4045934	4047696	Cosa è F?
+4047716	4050621	Domanda che faccio a voi, gli informatici.
+4050641	4053725	La funzione di interpretazione in S3 che facciamo?
+4053745	4056750	Com'è che la gente la fa?
+4057118	4077439	è una funzione che prende il nome e dà fuori un oggetto del mondo
+4086532	4092838	il vostro numero di codice di notte torcidica.
+4092898	4095681	La vostra... come si chiama?
+4096342	4097543	Matricola.
+4097863	4108314	La matricola chiaramente, però questa matricola qua secondo me è abbastanza scema, anche secondo le funzioni di geometrazione è un puntatore.
+4108334	4111797	Però, nella vostra vita,
+4111962	4114045	e anche nel passaporto.
+4114065	4116187	Però un contatore è fatto bene, no?
+4116207	4119732	E poi c'è il tuo tipo nella patente, ma anche i gruppi di ricercatori.
+4119932	4129544	Ma il più interessante, dove c'è una funzione intelligente, è quella del Consiglio Associativo per l'Italiano, il codice fiscale.
+4129564	4141800	Infatti il codice fiscale la gente lo può verificare, infatti nel codice fiscale c'è l'ultima parte dei bit che è lasciata arbitraria per evitare il caso da persone o se non è, giornate non sopposte,
+4142101	4151503	così via dicono che c'è questo arbitrario qua fino ad essere funzionato quindi alla fine la funzione di derivazione
+4163228	4163909	E' finita?
+4163929	4165572	No, è ancora complicata.
+4165592	4173406	Ad esempio, un straniero non riesce a pagarlo perché nel pagamento italiano deve mettere il codice fiscale.
+4176271	4177072	Uno cambia nome.
+4177132	4181860	Io ho cambiato nome e ho avuto due anni per avere il codice fiscale corretto.
+4182822	4185827	E poi ovviamente tutti i sistemi informativi avevano un orecchio.
+4186010	4190782	e quindi ovviamente non dobbiamo stare con un casino per provare a farlo passare a quant'altro.
+4191404	4192166	Perché?
+4192186	4202432	Perché il mondo è morto ed è l'ultimo per cui, penso nell'opinione che gliel'avrebbe fatto l'Irano, per chi li vuole fare.
+4206648	4234056	Tutto questo per dire che non è che io sto... La logica, non è che è una cosa scratta dove andiamo a dimostrare che... Certo, è importantissimo sapere che... Tutto quello che spero che voi farete e vedrete anche più avanti, in realtà questi concetti formali altri non fanno,
+4234289	4255151	che rendere espliciti varie scelte che voi comunque dovete fare, state facendo e che comunque adesso con questo corso penso che cominciate ad imparare le conseguenze, perché sono state fatte così e anche le conseguenze a volte non si ovviano bene.
+4255171	4262338	A questo punto queste qua sono tutte chiacchiere che vi servono solamente, che vi lascio da leggere
+4264462	4266724	mi stiamo un po' indietro di corso.
+4267385	4271248	Perché ho messo questa slide qua che è tutta molto peccherosa e così via?
+4271609	4280237	Perché in effetti volevo collegarla alle prime lezioni, quando le prime lezioni facevo vedere la roba dello scenario delle foto, poi dicevo, ah sì, una cosa strana.
+4280257	4284641	No, no, non è una cosa strana, vedete la doppia faccia, non è una cosa strana, è esattamente quello che succede normalmente.
+4286083	4290807	La soggettività della rappresentazione, l'inconsistenza della rappresentazione, è sempre così.
+4291715	4292737	Perché?
+4292757	4316473	Perché fortunatamente abbiamo questa libertà di scelta che ci permette, che è esattamente quello che ci dà resilienza, che è esattamente quello che ci permette di fare il sistema il più veloce possibile, ma esattamente quella che poi, quando vai nel web o in qualunque altra applicazione, ti crea, o anche addirittura quando due persone si parlano da culture diverse, si parlano
+4317803	4345718	impedisce il fatto che l'altra scelta impedisce la comunicazione, può essere comunicazione di dati, comunicazione di persone, ma comunque che più delle presentazioni che noi facciamo che sono ottimizzate sul nostro problema, sul nostro parco, se lo vuoi chiamare, lo vogliamo chiamare poi di fatto a esattamente il blocco principale che abbiamo quando vogliamo integrare la presentazione di test.
+4346727	4359353	Vorrei andare avanti e introdurre la prossima lezione
+4384190	4399032	Notate bene dove siamo arrivati, ho dato il world model canonico, quindi ho spiegato la logica, ho fatto un modello e ho puntato fuori, guardavo dalla finestra e avevo detto che c'erano tutti i tipi di world model.
+4399052	4399733	Quali sono?
+4399853	4409387	Siamo ovviamente sempre quattro, però questa è l'ultima lezione che sarà domani per poi finalmente andare qua.
+4415729	4417311	Quanti sono i numeri del mondo?
+4417331	4417371	7.
+4419113	4421355	Il più migliori della settimana, il più migliori della creazione.
+4424139	4433930	In questi numeri c'è un bellissimo Paypal, più in alto del 54, l'incubo del numero 7, c'era questo nero scienziato, e in tutti i Paypal c'è sempre il numero 7, più o meno 2, ovunque.
+4433950	4442379	Quindi il numero 7 è bellissimo, lo trovate anche sui sociali.
+4442399	4445483	Allora, quello che... Prendo un po' di tempo su questo e mi domandino anche veloce.
+4445767	4468016	Allora, se voi ricordate la prima lezione dici, sì ma, siam fatti, ricordate che noi vogliamo lavorare in modo canonico, quindi non vogliamo più avere i modelli, certo vogliamo avere i modelli per essere certi che rappresentiamo bene, ma poi nel calcolo non esistono i modelli.
+4468036	4473023	E ricordo anche che rappresentare l'insieme non è una rappresentazione analogica, è una rappresentazione linguistica
+4475095	4504309	la nostra sorpresa potrebbe essere che se li guardi dici ok tant'è vero che poi li facciamo
+4505639	4509083	Cos'è un Entity Graph?
+4509103	4513788	Notate bene che l'ho diviso in 7 di base e composti.
+4514408	4516170	Di base sono quelli che noi usiamo normalmente.
+4516510	4523278	Allora, di base, Entity Graph.
+4525580	4526861	Secondo lui è 7.
+4526881	4531346	Faremo N, però di fatto è esattamente l'alcabella di prima.
+4532087	4532187	Nome,
+4535390	4559878	Allora, rappresentazione del mondo numero uno, i database razionali che noi faremo diventare knowledge graph, in particolare i graph.
+4566052	4582103	che corrisponde esattamente alla teoria dei modelli se questo è il dominio vuol dire prendere vari punti
+4596106	4611429	questo è di più importanti perchè sono quelli esattamente che ci permettono di tenere tra tracce di tutto.
+4614394	4621705	L'odio ti dice che è uno dei tre modelli.
+4621725	4624830	Il secondo è quello
+4625671	4628635	che siamo in Italia.
+4628655	4642714	E voi di questo ne avete visti due, più o meno.
+4649383	4654530	Qual è il dominio che voi andate a prendere?
+4654949	4665766	parlate solamente di insiemi e poi relazioni inferiori insiemi che si raffigurano e perchè questo è importante?
+4666827	4683353	questo è importante perchè a questo livello è esattamente il motivo per cui la gente ha fatto lo schema esattamente la gente per cui ha fatto il model perchè tu quando ragioni a questo livello puoi nella misura in cui lo fai vedere ti puoi dimenticare dell'identità quindi puoi fare S3 e disegnare S3 sapendo che poi lo applicerai 100 volte
+4683805	4691392	nella misura in cui un passaggio da qui a qui mantiene tutte quelle ipotesi di canonicità che vi ho detto prima.
+4692914	4712732	Ovviamente vedremo che in realtà, e poi chiaramente per fargli armoni, vedremo che gli informatici, se ne sono dimenticati qualcuno, ce ne sono di altri, ce ne sono più due, che servono per garantirsi la correttezza, ossia gli e-arm model insieme non bastano,
+4713134	4742888	ma lo vediamo la prossima volta, lo prendiamo quando vogliamo questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi si chiamano Entity Graph, questi
+4743307	4770850	questo definisce il significato delle parole questo definisce e quindi definisce il significato delle parole e notate bene che quando l'ho fatto qua questi concetti qua sono tutti disgiunti
+4772230	4777574	Cioè, tutti voi, quando vi dico di una macchina, voi pensate o non pensate a un taxi, non c'è vero se ci pensate.
+4777595	4778936	Al massimo non è inventato il taxi.
+4780197	4780497	Ok?
+4780917	4782399	Probabilmente il taxi sta qua.
+4783780	4787923	In realtà non può stare, anche se ci sta in qualche modo.
+4787943	4789444	Perché qui in teoria non esiste.
+4792387	4794489	Qui invece, a questo punto c'è le farole.
+4794509	4802035	Magari qua c'è scritto veico, qua c'è scritto color, e poi c'è scritto yellow.
+4802555	4831650	però a questo punto per un unico veicolo che magari non è di queste robe qui, tu hai tante modi per descriversi il veicolo, se è una macchina si scrive per il numero di spessore delle ruote se è un bus, il numero dei passeggeri quindi qui noi definiamo gli elementi di linguaggio qui descriviamo quello di cui parliamo
+4832339	4839929	E notare bene che qui non c'è fausto, ci sono le parole, ci sono i verbi, ci sono i nomi.
+4839949	4845216	Dato questi nomi io vi dico che l'albero ha tanto frutto.
+4847719	4858813	Qui dico che l'albero che ho chiamato Alfredo, che sta sotto casa mia, oggi ha un chilo di frutta, ha un chilo di pesce, che ne so.
+4859054	4860996	Qui intanto è vero che voi quando fate
+4861313	4869646	nello schermo del database e voi avrete i datatagli che riprenderete che ti permettono di dare lo scopo di una riabilità.
+4873052	4881686	Quindi quello che sta dicendo è che quando voi parlate della conoscenza, qual è l'obiettivo della conoscenza?
+4881706	4885211	State sempre lavorando.
+4885231	4888857	Quando state lavorando qui, state sempre usando il linguaggio
+4889630	4890771	questa qua.
+4890831	4895696	Non a caso, quando fate analisi e matematica, prima di dare qualunque teoria, fate le definizioni.
+4895776	4896797	Ma quali sono le definizioni?
+4897098	4898119	Sono esattamente queste.
+4898479	4904465	Ti dicono esattamente che un numero reale è fatto in una certa maniera, che un numero intero è fatto in una certa maniera.
+4904626	4907168	Ti stanno dicendo, oh, parlo di quello.
+4908770	4915957	E poi a questo punto ti dicono quello che volete, che i numeri pari su tanti altri numeri di schede e così via.
+4915977	4916498	E poi dicono, ah, ok, vado
+4916866	4930687	vado a fare S3 e in S3 c'è a questo momento 17.000 studenti.
+4930867	4943987	Qui c'è la conoscenza, qui c'è il linguaggio di parlare, qua ci sono le singole istanze e se chiaramente tutto è un bel teorema fatto bene si applicheranno tutte le istanze che soddisfano le ipoteti, ovvero sia
+4944980	4953688	Sotto l'ipotesi, chiaramente, che il linguaggio che usi qui è canonico, che la conoscenza di qua è canonica, e a questo punto di riguardo.
+4953708	4964058	Perché queste, sono quelle che si mappano sulle singole estrazioni, che hanno il dominio inteso.
+4964078	4964658	Abbiamo finito?
+4964678	4974868	No, non abbiamo finito, perché poi, in realtà, quando dici questo, tu stai assumendo uno di questo, e questo assume uno di questo.
+4975169	4984761	quando vuoi fare un diario moda non è che vi dico dimmi esattamente che parola sto usando nel vocabolario e allora cos'è che succede?
+4984822	5004467	c'hai i nuovi tipi di composizione dei modelli che sono composti perchè quindi dico guarda che se tu vuoi fare sta roba qui ma non vuoi avere casino sul fatto che ci stiamo sbagliando sui sinonimi o sui polissemia e mi devi dire anche
+5004700	5008664	quando vogliono dire parole.
+5008684	5020916	Oppure, se tu vuoi parlare delle persone, te frega niente del livello della conoscenza, questo è il livello del linguaggio, questo è il livello della conoscenza, questo è il livello del mondo, ok, non ne frega niente di parlare del mondo, però mi devi dire i concetti, e così via.
+5022217	5032947	È chiaro che se tu vuoi avere una rappresentazione logica, completa, tale per cui non c'è limità, devi giocare a questo livello.
+5032967	5034589	Quando si fa nel modo reale, mai,
+5034974	5036636	giustamente, perché?
+5036656	5040402	No, non è vero mai, non si fanno il 99.99%, perché?
+5041023	5050216	Perché questo vuol dire fare encoding informazioni, vuol dire costruire quelle funzioni di interpretazione, vuol dire fare le funzioni di ragionamento, costano, ok?
+5052560	5059530	E parlando del mio favorito, che sono degli LRM, se vogliamo fare gli LRM incorretti dobbiamo fare a questo livello, altrimenti faranno sempre le cazzate
+5067627	5095609	quindi questa è la lezione della prossima volta, daremo prima i tre modelli canonici e base e poi quelli composti, vedremo la pratica in cosa consistono e poi con questo vedremo di fatto che nella pratica del mondo reale
+5096686	5122575	La gente non è che fa questa roba qua perché è scema o non è attenta, perché c'è un problema di costo e vedremo che a questo livello il costo è talmente alto che la gente si è inventata la logica e quindi vede dove la logica diventa in questo momento un meccanismo che è il ragionamento, è quello che noi umani facciamo, è un meccanismo per non dire tutto ma sapere delle regole tale per cui anche se non ti dico tutto noi umani siamo resilienti e riusciamo a capire quello che non hai detto.
+5124513	5140309	che è il problema che nel titolino 157 che ha inventato l'AI si è posto, pensavo di non usarlo in tre anni, siamo nel 2025 ancora in risolto dell'intelligenza artificiale ma che nell'informatica riusciamo a risolvere abbastanza bene.
+5140329	5153659	Bene, ci fermiamo qui e ci vediamo domani.

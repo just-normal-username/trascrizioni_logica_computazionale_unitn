@@ -1,0 +1,948 @@
+start	end	text
+0	6000	Ma una proposizione è un giudizio di valore, di verità, rispetto alla barabia di chiedezza.
+6000	11000	Se io dico che piove, questa è una situazione.
+11000	17000	Se io dico che è vero che piove, questa è una proposizione.
+17000	19000	E voi mi dici che è una cosa?
+19000	21000	No, non è una cosa.
+21000	32000	Perché nel momento in cui tu ti permetti di dire è vero che piove, puoi dire anche falso che piove.
+32000	36000	E puoi anche dire non so se piove.
+36000	48000	Il tuo giudizio sul valore di verità è un giudizio che permette la sezione del giudizio di valore di verità su una sezione.
+48000	56000	Ti permette di dire sia che la sezione è falsa, e questo può introdurre il famoso segno negazione che avete visto.
+56000	59000	Ma anche fatta da non sai.
+59000	60000	Ok?
+60000	70000	E, come vedremo poi nel testario dei algoritmi, la conoscenza della detta parziale è insieme alla conoscenza negativa
+70000	75000	e dove, semplicemente, i 93% degli errori vengono fatti.
+75000	85000	Quindi, di fatto, noi, in questo corso qui, ci occupiamo di quelle quattro attività e, in particolare, di queste quattro...
+85000	86000	Cosa sono queste quattro?
+86000	88000	Sono rappresentazioni del mondo.
+88000	102000	Sono quattro rappresentazioni del mondo che noi costruiamo sequenzialmente, in qualche maniera, e che è la logica che permette di ricostruire e di radunarci solo.
+102000	103000	Ok?
+103000	119000	Quindi, di fatto, noi, alla fine di questa lezione, spero di essere riuscito a capire come, su questi quattro concetti, noi riusciamo a fare un calcolo, un algoritmo,
+119000	129000	tale per cui riusciamo, alla fine, a fare qualcosa, avere una memoria, capire se la memoria che abbiamo è consistente con quello che abbiamo visto.
+129000	136000	È vero, se io vedo un uomo a tre gambe, è vero o non è vero? Non l'ho mai visto, quindi, o è venuto un marziano, o non è vero.
+136000	139000	Però non è un uomo, perché l'intenso è un uomo a ripregare.
+139000	154000	Non solo, il fatto di riuscire a estendere quello che conosciamo, tramite tecniche di ragionamento, che ci permettono anche di derivare, di capire, di conoscere quello da noi.
+154000	172000	E ovviamente, ovviamente, non è vero nei grandi sistemi informatiche, ma sicuramente, nei sistemi dell'intenso artificiale, questa roba qui viene implementata una pipeline,
+172000	177000	continuiamo a andare, continuiamo a percepire, continuiamo a ritirre la memoria, continuiamo a aggiustare, l'alliniamo, eccetera, eccetera, eccetera.
+177000	197000	In fatto, questo è il processo, i dati, le percezioni che percepiamo, delle rappresentazioni, poi queste rappresentazioni subconsci, delle immagini diventano concetti,
+197000	206000	proiezioni, nuovi, diventano assezioni che sono proprietà di quello che abbiamo visto, una cosa, una maglietta nera, una maglietta nera, una maglietta da sopra che vogliamo,
+206000	212000	e diventano giudizi di verità, vero, farso, di quello che ci dicono, sono assezioni.
+212000	222000	Beh, noi dobbiamo semplicemente formalizzare questo aspetto qui e fare un calcolo logico che formalizza questo aspetto farso.
+222000	228000	Ricorderei che questo slide qui, è un record, devo scrivere un record qui,
+228000	232000	avevamo parlato di rappresentazioni analogiche e rappresentazioni linguistiche.
+232000	239000	Allora c'è il mondo, ma al mondo nessuno ha accesso, noi abbiamo accesso a quello che percepiamo
+239000	245000	e questo è quello che viene chiamato le percezioni, quello che noi percepiamo.
+245000	256000	Tutto il resto, quindi le altre tre rappresentazioni, concetti, assezioni e proposizioni, sono nella parte di vista.
+256000	267000	Come vedremo fa cinque minuti, fino adesso, e nei corsi di logica, abbiamo fatto un sacco di linguarchi,
+267000	274000	la richieste imparchi, tipo di AR model, di UMR, quello che volete, ma non si è venuto da sintassi più o meno precisamente,
+274000	276000	ma non vi hanno mai dato la semantica.
+276000	284000	Quindi vi hanno detto, più o meno, in un AR model, quella roba di voler proprietà, ma non avendovi dato la semantica,
+284000	294000	non potevano e non potranno mai dimostrare che un certo calcolo, un certo algoritmo è corretto rispetto a quello che hai visto.
+294000	301000	Quindi l'elemento di nuovo, in un porto di questo corso, gli diamo un meccanismo per analizzare la semantica,
+301000	306000	così chiamata, delle rappresentazioni analogiche tramite gli soggetti di certi percezioni
+306000	314000	e sulla base di quello non solo vi darò le regole come sopprima per calcolare alfa, ma dimostreremo che sono corrette e complesse.
+314000	321000	Ovvero sia, se quella tua memoria è corretta, sei garantito che quello che deduci è corretto.
+321000	328000	Non solo, sei garantito, sono su certi posti, certi calcoli molto costosi, dal punto di vista computazionale,
+328000	332000	e sei complesso, ovvero siamo in un meeting di attore di umanità.
+332000	335000	Chiaro? Qui dove stiamo andando?
+335000	337000	Parola interessante?
+337000	345000	Quindi di fatto adesso noi, in questo corso vi do, in questo corso, in questa lezione della panoramica
+345000	350000	arrivando al mondo a Quaggima, questa è la rappresentazione che vi ricordate che abbiamo messo nella lezione precedente,
+350000	356000	dicendo tutto questo è mentale, noi ci dobbiamo dare dei linguaggi di rappresentazione che ci mappano questo processo,
+356000	359000	esattamente quello che dobbiamo fare, ed è quello che facciamo adesso.
+359000	366000	In questa lezione proverò a raccontarvi, usando il tuo certo di piramide, vedremo anche poi,
+366000	381000	dove mai, in che modo il processo di formalizzazione logica si struttura garantendo in ogni passo la correttezza e la concretetta del ragionamento,
+381000	388000	del ragionamento, quello sia della capacità di vivere spazio con un video.
+388000	389000	Ok!
+389000	390000	Ok!
+390000	395000	Un po' di piramidi da fare adesso.
+395000	410000	Questa piramide, la prima, è stata fatta da un famoso retabesista dell'89, con le basse blu rata.
+410000	420000	e l'ho fatta, e l'ho messa, anche se prima fanno amico, perché in qualche maniera si mappa sui termini che noi conosciamo.
+420000	425000	Ovviamente questa wisdom qui non si sa bene che cos'è, infatti se uno legge il paper non si sa bene cos'è.
+425000	430000	Ma i dati, in qualche maniera, lo capiamo.
+430000	434000	Lui ha detto, quando tu fai un sistema informativo,
+434000	438000	devi avere i dati,
+438000	441000	i dati portano l'informazione.
+441000	447000	E' interessante, lui fa Information Systems, quindi lui dice, i dati da soli non può alcune informazioni.
+447000	450000	I dati connessi danno informazione.
+450000	455000	In realtà, se ci pensate bene, i dati, in qualche maniera sono simili a quello che ho chiamato per certi,
+455000	459000	perché il dato è qualche dato, vuol dire che ti è stato dato.
+459000	463000	L'informazione, in qualche maniera, l'informazione che hai sui vari dati.
+463000	466000	La conoscenza è la conoscenza che tu sai.
+466000	471000	E lui, su wisdom, si è un po' allappicato sui detti, in realtà non si capisce cosa vuol dire.
+471000	477000	Noi qui, in qualche maniera, lo tradiciamo come la capacità di ragionare su quello che sai e quello che non sai,
+477000	478000	e di fare la scelta di tutto.
+478000	480000	Se guarda il suo vocabolario,
+480000	482000	wisdom ha questo significato di
+482000	485000	si dici vecchi se non saggi,
+485000	487000	perché sono una scelta giusta,
+487000	489000	quindi ho una capacità.
+489000	491000	Poi, chiaramente, è molto discutibile,
+491000	493000	anzi direi che è abbastanza avvaliata
+493000	496000	a assumere che la wisdom è una saggette se è solo ragionamento,
+496000	498000	ma in questo contesto ci va bene.
+498000	502000	Dunque, il punto fondamentale, volevo dire, che le quattro di questa slide qui,
+502000	504000	e poi qui potete leggere i dettagli,
+504000	510000	i quattro livelli che io vi ho rappresentato,
+510000	512000	le fasi della granito umano,
+512000	514000	e in realtà si mappano abbastanza naturalmente
+514000	516000	sui quattro concetti che noi facciamo
+516000	518000	o non facciamo dei tabelli di sistemi informativi
+518000	520000	e anche di dirigenza speciale.
+520000	523000	E in effetti, in questo corso,
+523000	525000	noi andremo avanti in parallelo a fare due gara loghi
+525000	527000	come moderazione dell'allevamento,
+527000	529000	ma in tutte le esercitazioni,
+529000	531000	vedremo come tutto,
+531000	533000	a cominciare anche da oggi,
+533000	535000	in maniera minima,
+535000	537000	come tutto quello che noi formalizziamo in oggi
+537000	539000	che in realtà ha una controparte
+539000	541000	in quello che avete visto
+541000	543000	e questa vettiglia ha visto in parte anche la Volca Suisse.
+549000	551000	E questo è quello che ho avuto.
+551000	553000	se uno...
+553000	555000	questa è quella di Primer,
+555000	557000	è la di KVB,
+557000	559000	che è il tablu,
+559000	560000	che è in me.
+560000	561000	Se la guarda
+561000	563000	con la slide precedente
+563000	565000	che vi ho fatto vedere,
+565000	567000	sono i percetti,
+567000	569000	i concetti,
+569000	571000	i concettori e le azioni,
+571000	573000	se nella soluzione sono le proposizioni.
+573000	575000	Allora uno dice,
+575000	577000	ma perché hai messo i dati fuori?
+577000	579000	Ho messo i dati fuori perché
+579000	581000	in questa maniera,
+581000	583000	lui permette dal sistema in coda informatico,
+583000	585000	se ne ho ridato le esprime,
+585000	587000	pensate bene,
+587000	589000	cos'è la percezione?
+589000	591000	La percezione è un altro processo tale per cui
+591000	593000	una formazione esterna mi arriva in testa.
+593000	595000	Quindi la percezione
+595000	597000	è quel qualcosa
+597000	599000	che prende i dati
+599000	601000	e li porta
+601000	603000	su una presentazione
+603000	605000	analogica, come l'abbiamo chiamata.
+605000	607000	E poi...
+607000	609000	io dieci minuti fa
+609000	611000	gliel'ho presentato come
+611000	613000	il fatto di collegare,
+613000	615000	non dire solamente
+615000	617000	ho visto una persona,
+617000	619000	ho visto una persona vicino a una persona
+619000	621000	e questa informazione.
+621000	623000	Il concetto di concettosizioni
+623000	625000	che è il concetto di legare le parole
+625000	627000	per scrivere cose vero o false
+627000	631000	è essenzialmente un concetto di informazione.
+631000	633000	La conoscenza è quella che sappiamo
+633000	635000	e io l'ho chiamata con i servizi di assenzione.
+635000	637000	Lui ha questo termine wisdom
+637000	639000	che io dico è la capacità di dare
+639000	641000	un giudizio di valore, magari
+641000	643000	nel caso di Leonardo non è solamente
+643000	645000	vero o false, ma non ci basta per il momento.
+645000	647000	Ovviamente non puoi entrare
+647000	649000	quello che vuoi.
+649000	651000	lì che ho rivivito
+651000	653000	tu voglio align me fra
+653000	655000	però in questo contesto
+655000	657000	in questo contesto per noi
+657000	659000	la saggezza è la capacità
+659000	661000	di fare un giudizio
+661000	663000	un giudimento di valore di verità
+663000	665000	su una sezione che viene detta
+665000	667000	sul mo', sì?
+667000	669000	Ma la nostra conoscenza
+669000	671000	può modificare la percezione?
+671000	673000	Sì, quella.
+673000	675000	Tu vedi solo quello che ti aspetti
+675000	677000	c'è un sacco
+677000	679000	c'è un sacco in realtà
+679000	681000	e Nathalie che è quello che succede a sé
+681000	683000	c'è un sacco di evidenza psicologica
+683000	685000	noi vediamo quello che c'è stata
+685000	687000	in realtà
+687000	689000	ed è anche il motivo per durare la gente
+689000	691000	qua fatica a cambiare l'opinione
+695000	697000	poi uno qua
+697000	699000	c'è la
+699000	701000	voglio vi faccio un esempio
+701000	703000	se tu vedi in casa
+703000	705000	in casa sui editori
+705000	707000	e tu vedi un'obra muoversi
+707000	709000	non la vedi?
+709000	711000	vedi uno che non è mai visto in casa
+711000	713000	o vedi esattamente quello che ti ha detto
+713000	717000	è chiaro che la memoria
+717000	719000	si crea un priori cortissimo
+719000	721000	ed è il motivo per cui
+721000	723000	chi fa l'MI
+723000	725000	o anche chi fa
+725000	727000	sistemi di treni o qualunque cosa
+727000	729000	riesce a farlo bene
+729000	731000	perché una volta hai visto una molda
+731000	733000	ci vede la seconda volta
+733000	735000	poi dieci volte hai visto
+735000	737000	certo potreste andare in casa
+737000	739000	l'ombra che è dell'alto
+739000	741000	però voglio dire
+741000	743000	è uno cintomila
+743000	745000	quindi è di un cerchio più di una piramide
+745000	747000	è l'atto
+747000	749000	i faschi è l'atto
+749000	751000	infatti è veramente più
+751000	753000	cintomila
+753000	755000	soltanto che se tu lo vedi
+755000	756000	come vediamo
+756000	757000	perché non gli ha messo in una piramide
+757000	759000	perché la piramide
+759000	761000	e i binoni si apronteranno
+761000	763000	perché devi attassare il livello di astrazione
+765000	767000	più sali
+767000	769000	e più ti avvolta la realtà
+769000	771000	e vedremo a fine lezione
+771000	773000	che a questo livello qui
+773000	774000	non c'è più la realtà
+774000	775000	c'è solo vero o falso
+775000	777000	come ho detto la volta scorsa
+777000	778000	nel ragionamento
+778000	779000	lo formalizziamo in logica
+779000	780000	dov'è il mondo?
+780000	781000	il mondo non c'è più
+781000	783000	l'importante è solamente
+783000	785000	mettere insieme la verità
+785000	787000	quindi la piramide vuol dire
+787000	789000	stiamo alzando
+789000	791000	stiamo dando struttura
+791000	793000	a quello che vediamo
+793000	795000	e tanto più diamo struttura
+795000	797000	e più creiamo dei prior
+797000	799000	e più creiamo dei prior
+799000	801000	e più influenziamo quello che
+801000	804000	quello che andiamo a vedere dopo
+804000	805000	è del motivo
+805000	806000	tutte queste storie qui
+806000	807000	per cui
+807000	808000	è sempre difficile
+808000	809000	anche in vista
+809000	810000	anche sociale
+810000	811000	sociologico
+811000	812000	accettare cose diverse da te
+812000	813000	perché se mi intimidano
+813000	814000	talmente
+814000	816000	non è allenato
+816000	817000	magari un fa una cosa diversa
+817000	818000	no fa male
+818000	819000	no magari fa solo diversa da te
+819000	820000	ma tu
+820000	822000	volisci a capire cosa sta facendo
+822000	824000	non hai il coraggio pronto
+824000	825000	ok?
+828000	829000	qui ho detto appunto
+829000	830000	che ho scrittato questa dama qui
+830000	832000	perché io il dato
+832000	833000	lo intendo
+833000	835000	come il dato
+835000	836000	come nella mia testa
+836000	838000	facendo questa falsa qui
+838000	840000	io il mondo non ce l'ho più
+840000	841000	ok?
+841000	843000	e perché il mondo non ce l'ho più
+843000	844000	mi aiuta?
+844000	845000	perché a questo punto io
+845000	846000	se riesco a darvi
+846000	847000	come riuscirò a darvi
+847000	848000	una forma ridazione
+848000	849000	di questo oggetto
+849000	850000	del mondo
+850000	852000	posso darvi una definizione
+852000	854000	una definizione di correttezza
+854000	855000	io posso darmi una domanda
+855000	856000	ma la concettualizzazione qua
+856000	857000	perché scrive questo
+857000	858000	sì o no
+858000	859000	posso farlo
+859000	860000	lo farò esattamente questo
+860000	862000	questo calcolo mi permette di descrivere
+862000	863000	una cosa
+863000	864000	sì lo faccio
+864000	865000	questo diventa un formalismo
+865000	866000	facendo questo
+866000	868000	ho un formalismo formale
+868000	869000	tale per cui
+869000	870000	io posso
+870000	872000	calcolare la correttezza
+872000	873000	questa è la completezza
+873000	875000	o qualunque altra priorità
+875000	876000	di consistenza
+876000	877000	le vedremo varie
+877000	878000	ce ne sono varie
+878000	881000	rispetto al mio formale
+883000	884000	e infatti
+884000	885000	queste
+885000	887000	dalla slide precedente
+887000	888000	la seconda che vi ho fatto vedere
+888000	889000	sono le quattro
+889000	894000	che sono messe un po' più basse
+894000	895000	cioè
+895000	897000	la percezione
+897000	899000	prende lì tutti i dati
+899000	901000	e produce i percetti
+901000	902000	ok
+902000	905000	poi fatti i percetti nel mondo
+905000	906000	ho questa roba
+906000	907000	nella mia
+907000	908000	memoria
+908000	909000	inconscia
+909000	912000	gli do un nome
+912000	914000	vediamo per un secondo
+914000	915000	e poi compongo
+915000	916000	poi
+916000	917000	dopo che li ho composti
+917000	918000	prendo
+918000	919000	quelle che
+919000	920000	le mia costruzioni linguistiche
+920000	921000	di quello che ho visto
+921000	922000	e li metto in memoria
+922000	923000	e provo a collegarli
+923000	924000	con quelli che ci sono
+924000	925000	quindi
+925000	926000	in ogni passo
+926000	927000	la mia attività
+927000	929000	prende in output
+929000	930000	in output
+930000	931000	c'è strutture d'acchi
+931000	932000	delle rappresentazioni del mondo
+932000	933000	derivate al precedente
+933000	934000	le
+934000	935000	sare
+935000	936000	qui abbiamo immagini
+936000	937000	qui dobbiamo rappresentare
+937000	938000	abbiamo immagini
+938000	939000	nel mondo reale
+939000	940000	dobbiamo avere una formalità
+940000	941000	che ci prende
+941000	942000	di rappresentare le immagini
+942000	943000	qui abbiamo linguaggio
+943000	944000	qui abbiamo una memoria
+944000	945000	qui abbiamo proposizioni
+945000	946000	in ogni passo
+946000	947000	in ogni passo
+947000	948000	tu devi riuscire
+948000	949000	e hai questa funzione
+949000	950000	che formalizzeremo
+950000	951000	tutti questi fasi
+951000	952000	di formalizziamo
+952000	953000	matematicamente
+953000	954000	è chiaro?
+954000	955000	quindi
+955000	956000	la logica
+956000	957000	questo punto
+957000	958000	la vedremo adesso
+958000	959000	e l'altro non è che
+959000	960000	facendo queste ipotesi
+960000	961000	che faccio adesso
+961000	962000	per ossia
+962000	963000	di darmi
+963000	965000	un formalismo
+965000	967000	per formalizzare
+967000	969000	quello che io percepisco
+969000	971000	io da più in poi
+971000	973000	faccio tutta matematica
+973000	974000	e
+974000	975000	data questa percezione
+975000	976000	posso costruire
+976000	978000	teoremi di capitezza
+978000	979000	puretezza
+979000	980000	se è la
+980000	981000	possibilità
+981000	982000	computazionale
+982000	983000	questo
+983000	984000	è quello che si chiama
+984000	985000	semantica
+987000	988000	l'eleito
+988000	989000	muova
+989000	990000	dall'odio
+990000	991000	di fatto
+991000	992000	di darmi una semantica
+992000	993000	formale
+993000	994000	tutto quello che avete fatto
+994000	995000	fino adesso
+995000	996000	lo rifacciamo
+996000	997000	lo rifacciamo in un probabilismo
+997000	998000	leggermente diverso
+998000	999000	esercitazione
+999000	1000000	vedrete
+1000000	1001000	che di fatto
+1001000	1003000	stiamo facendo la stessa cosa
+1003000	1004000	con la differenza
+1004000	1005000	che per ognuno
+1005000	1006000	di questi passi
+1006000	1007000	vi mostreremo
+1007000	1008000	che il passo
+1008000	1009000	che facciamo sopra
+1009000	1010000	mi mantiene
+1010000	1011000	la semantica
+1011000	1012000	di quello che vedo
+1012000	1013000	se qui
+1013000	1014000	una cosa
+1014000	1015000	era così
+1015000	1016000	qua sopra
+1016000	1017000	se deduco
+1017000	1018000	nuovi fatti
+1018000	1019000	non posso che
+1019000	1020000	essere capire
+1020000	1021000	l'interescrizione
+1021000	1022000	bene?
+1022000	1027000	e
+1027000	1028000	è
+1028000	1029000	la ripresa
+1029000	1030000	ecco
+1030000	1031000	aggiunto adesso
+1031000	1032000	ho aggiunto
+1032000	1033000	il fatto
+1033000	1034000	che io
+1034000	1035000	dall'elemento
+1035000	1036000	dei dati
+1036000	1037000	percepisci
+1037000	1038000	i percetti
+1038000	1039000	ma poi
+1039000	1040000	dopo
+1040000	1041000	mettendo vicino
+1041000	1042000	faccio le percetturite impresse
+1042000	1043000	ma prendo
+1043000	1044000	dei
+1044000	1045000	delle
+1045000	1046000	facciamo
+1046000	1047000	delle
+1047000	1048000	linguistiche
+1048000	1049000	ma poi le metto
+1049000	1050000	queste qua
+1050000	1051000	con la memoria
+1051000	1052000	oggettivo
+1052000	1053000	vero o falso
+1053000	1054000	poi le metti
+1054000	1055000	insieme
+1055000	1056000	con quello
+1056000	1057000	che è solo
+1057000	1058000	vero o falso
+1058000	1059000	cioè ogni passo
+1059000	1060000	che è sempre
+1060000	1061000	un passo
+1061000	1062000	di lifting
+1062000	1063000	e poi
+1063000	1064000	ogni livello
+1064000	1065000	delle operazioni
+1065000	1066000	quella roba
+1066000	1067000	che vi ho dato
+1067000	1068000	non è che
+1068000	1069000	è un'operazione
+1069000	1070000	matematica
+1070000	1071000	neppure
+1071000	1072000	avete visto
+1072000	1073000	100 volte
+1073000	1074000	giusto no?
+1074000	1075000	l'iveness
+1075000	1076000	degli algoritmi
+1076000	1077000	sta qua
+1077000	1078000	fateci
+1078000	1079000	algoritmo
+1079000	1080000	esiste
+1080000	1081000	una deduzione
+1081000	1082000	logica
+1082000	1083000	che deduce
+1083000	1084000	il sarò
+1084000	1085000	ok?
+1085000	1086000	quindi quello
+1086000	1087000	che voi avete
+1087000	1088000	quando voi avete fatto
+1088000	1089000	IR model
+1089000	1090000	e così via
+1090000	1091000	che cos'è che vi hanno dato?
+1091000	1092000	vi hanno dato
+1092000	1093000	tutte queste
+1093000	1094000	formule
+1094000	1095000	tutte queste
+1095000	1096000	rappresentazioni
+1096000	1097000	intermedie
+1099000	1100000	non vi hanno detto
+1100000	1101000	a che cosa
+1101000	1102000	mi scrivevano
+1102000	1103000	e poi vi hanno detto
+1103000	1104000	ah si certo
+1104000	1105000	pronto di IR model
+1105000	1106000	lo prendi
+1106000	1107000	per evitare
+1107000	1108000	una classe
+1108000	1109000	un oggetto
+1109000	1110000	e così via
+1110000	1112000	e poi
+1112000	1113000	quello è
+1113000	1114000	ok?
+1114000	1117000	infatti
+1117000	1118000	questa
+1118000	1119000	la chiamano
+1119000	1120000	la piramide
+1120000	1121000	da conoscita
+1121000	1122000	è esattamente
+1122000	1123000	quella di prima
+1123000	1124000	dove abbiamo messo
+1124000	1125000	in evidenza
+1125000	1126000	sulla piramide
+1126000	1127000	dove la piramide
+1127000	1128000	ha significato
+1128000	1129000	di distrazione
+1129000	1130000	da percezione
+1130000	1132000	ci sono i dati nel mondo
+1132000	1133000	i dati nel mondo
+1133000	1134000	sono tantissimi
+1134000	1135000	e noi
+1135000	1136000	cosa che facciamo
+1136000	1137000	con la vista?
+1137000	1138000	ne scegliamo un po'
+1138000	1139000	quelli che ci interessano
+1139000	1140000	li seleziamo
+1140000	1141000	e ci facciamo questi dati
+1141000	1142000	questi dati selezionati
+1142000	1143000	li clicchiamo alla vista
+1143000	1144000	e diventano
+1144000	1145000	e li metto
+1145000	1146000	la mia memoria
+1146000	1147000	subconscia
+1147000	1148000	li prendo
+1148000	1149000	li faccio diventare
+1149000	1150000	parole
+1150000	1152000	la parole
+1152000	1153000	poi le metto insieme
+1153000	1154000	mi faccio diventare
+1154000	1155000	delle descrizioni
+1155000	1156000	poi le faccio diventare
+1156000	1157000	memoria
+1157000	1158000	oppure le puoi buttare via
+1158000	1159000	normalmente
+1159000	1160000	e una volta fatto il memoria
+1160000	1161000	posso decidere
+1161000	1162000	se quello che vedo
+1162000	1163000	è vero
+1163000	1164000	o alzo
+1164000	1165000	e fatto un ragionamento
+1165000	1167000	ok?
+1167000	1168000	in ogni passo
+1168000	1169000	ci sono sempre
+1169000	1170000	due aspetti
+1170000	1171000	che noi andiamo
+1171000	1172000	a formalizzare
+1172000	1173000	matematicamente
+1173000	1174000	e che si possono
+1174000	1175000	formalizzare
+1175000	1176000	in algoritmi
+1176000	1178000	che è
+1178000	1180000	a strabre
+1180000	1182000	dal livello inferiore
+1182000	1183000	dalla percezione
+1183000	1184000	dal livello inferiore
+1184000	1186000	più vicino al mondo
+1186000	1187000	quello che abbiamo
+1187000	1188000	percepito
+1188000	1189000	perché qui
+1189000	1190000	chiaramente
+1190000	1191000	c'è percezione
+1191000	1192000	da qua a qua
+1192000	1193000	ma anche da qui a qui
+1193000	1194000	in ogni passo
+1194000	1195000	c'è un passo di liftà
+1195000	1196000	della rappresentazione
+1196000	1197000	e poi
+1197000	1198000	a un certo livello
+1198000	1199000	li mettiamo in sì
+1199000	1200000	ovviamente
+1200000	1201000	queste composizioni
+1201000	1202000	qui
+1202000	1203000	in l'otica
+1203000	1204000	ma anche
+1204000	1205000	degli algoritmi
+1205000	1206000	sono tali per cui
+1206000	1208000	se qui fai una composizione
+1208000	1209000	devi essere sicuro
+1209000	1210000	che vale anche per qua
+1210000	1211000	ed è esattamente
+1211000	1212000	questo
+1212000	1213000	che stiamo facendo
+1213000	1214000	questo
+1214000	1216000	perché
+1216000	1217000	vi tornava tutto
+1217000	1218000	perché
+1218000	1219000	perché in qualche maniera
+1219000	1220000	il database
+1220000	1221000	non ve l'hanno detto
+1221000	1222000	ma funzionava
+1222000	1223000	adesso lo dimostrava
+1223000	1224000	esattamente
+1224000	1225000	perché dimostrava
+1225000	1226000	in più
+1226000	1227000	possiamo vedere
+1227000	1228000	come tutta una roba lì
+1228000	1229000	un caso particolare
+1229000	1230000	di algoritmi generali
+1230000	1231000	di
+1231000	1233000	ragionamento
+1233000	1235000	dove
+1235000	1236000	in ogni fase
+1236000	1237000	è come se tu
+1237000	1238000	osservassi
+1238000	1239000	il mondo esterno
+1239000	1240000	è come se
+1240000	1241000	il livello dei concetti
+1241000	1242000	osservassi il livello dei percetti
+1242000	1243000	o comunque
+1243000	1244000	ma ci sono delle quiri
+1244000	1245000	come esattamente
+1245000	1246000	i percetti
+1246000	1247000	fanno le quiri al mondo
+1247000	1248000	perché tu
+1248000	1249000	in qualche maniera
+1249000	1250000	quando guardi
+1250000	1251000	fai una quiri
+1251000	1252000	a quello che vedi
+1252000	1253000	ti scegli cosa vedere
+1253000	1254000	e poi sopra
+1254000	1255000	pari
+1255000	1256000	c'è un inchiato
+1256000	1257000	questo progetto
+1257000	1258000	di composizione
+1258000	1259000	che vuol dire
+1259000	1260000	date delle cose
+1260000	1262000	ok
+1262000	1263000	domande
+1271000	1273000	e pensi alla piramide delle otte
+1278000	1279000	tutto il corso
+1279000	1280000	si baserà
+1280000	1281000	su spiegarvi
+1281000	1283000	queste quattro cose qua
+1283000	1284000	chiaramente
+1284000	1285000	a fare models
+1285000	1286000	che è più facile
+1286000	1287000	ci mettiamo le lezioni
+1287000	1289000	a fare world models
+1289000	1290000	ci mettiamo
+1290000	1291000	1,5
+1291000	1292000	2
+1292000	1293000	a fare world large
+1293000	1294000	ci mettiamo 7
+1294000	1295000	8
+1295000	1296000	a fare più le più estratte
+1296000	1297000	che dove sotto gli algoritmi
+1297000	1298000	ci mettiamo magari
+1298000	1299000	10 o 15
+1299000	1300000	perché chiaramente
+1300000	1301000	più ti astrai
+1301000	1303000	e più
+1303000	1304000	sei estratto
+1304000	1305000	di più hai forte
+1305000	1306000	di evoluzione
+1306000	1307000	di fatto
+1307000	1308000	l'obiettivo
+1308000	1309000	di questa lezione
+1309000	1310000	è che
+1310000	1311000	in qualche maniera
+1311000	1312000	vi sto dando l'indice
+1312000	1314000	di quello che stiamo
+1314000	1316000	facendo
+1316000	1317000	e anche l'indice
+1317000	1318000	delle logiche
+1318000	1319000	di fatto
+1319000	1320000	il compitino arriverà
+1320000	1321000	qua
+1321000	1322000	il primo compitino
+1322000	1323000	il secondo compitino
+1323000	1324000	sarà quattro
+1324000	1325000	chiaramente
+1325000	1326000	l'ultima è quella più
+1326000	1328000	questa è la vittima
+1328000	1330000	ovviamente
+1330000	1332000	quello che vedremo
+1332000	1335000	è che
+1335000	1336000	uno dice
+1336000	1337000	ah bello
+1337000	1338000	c'è un unico world model
+1338000	1339000	un'unica world logic
+1339000	1340000	no non ce l'hai uno
+1340000	1341000	perché a seconda di quello che vedi
+1341000	1342000	vedi
+1342000	1343000	a seconda di quello che
+1343000	1344000	devo vedere
+1344000	1345000	è una logica diversa
+1345000	1346000	vedo l'area
+1346000	1347000	la sequenza temporale
+1347000	1348000	il ragionamento
+1348000	1349000	ragionare
+1349000	1350000	sulla sequenza temporale
+1350000	1351000	di azioni
+1351000	1353000	è un problema diverso
+1353000	1355000	da capire
+1355000	1356000	se il numero
+1356000	1357000	per il piatto
+1357000	1358000	è solo consistente
+1358000	1359000	così via
+1359000	1364000	io non sto dicendo
+1364000	1365000	che ad ogni livello
+1365000	1366000	c'è una sola logica
+1366000	1368000	l'unica cosa che sto dicendo
+1368000	1369000	è che questo
+1369000	1370000	è universale
+1370000	1371000	per tutte le logiche
+1371000	1372000	tutte
+1372000	1374000	esiste
+1374000	1375000	esiste
+1375000	1376000	un meccanismo
+1376000	1377000	universale
+1377000	1378000	che lo descriveremo in dettaglio
+1378000	1379000	domani
+1379000	1380000	che è l'attore dell'insieme
+1380000	1381000	che è universale
+1381000	1382000	ma da qui in poi
+1382000	1383000	a seconda di come
+1383000	1384000	noi mettiamo insieme
+1384000	1385000	insieme
+1385000	1386000	avremo
+1386000	1387000	diverse logiche
+1387000	1388000	ma queste saranno sempre
+1388000	1389000	solo
+1389000	1390000	strutturate
+1390000	1391000	tra i livelli
+1391000	1392000	ok
+1392000	1393000	cioè
+1393000	1394000	prima
+1394000	1395000	diamo i nomi alle cose
+1395000	1396000	l'alfabeto
+1396000	1397000	che l'ho fatto vedere
+1397000	1398000	n volte
+1398000	1399000	poi
+1399000	1400000	costruiamo una memoria
+1400000	1401000	e poi ragioniamo
+1401000	1402000	sulla memoria
+1402000	1403000	su quello che sapeva
+1403000	1404000	e quello che non sapeva
+1409000	1410000	quindi
+1410000	1411000	queste a fianco
+1411000	1412000	sono anticipazioni
+1412000	1413000	di un altro minuto
+1413000	1414000	spero
+1414000	1415000	non sedete
+1415000	1416000	l'abbiate
+1416000	1417000	testa
+1417000	1418000	al momento
+1418000	1419000	ma
+1419000	1420000	era importante
+1420000	1421000	darvi un anticipo
+1421000	1422000	in modo che
+1422000	1423000	creare l'inflario
+1423000	1424000	perché
+1424000	1425000	in qualche maniera
+1425000	1426000	vi da un'idea
+1426000	1427000	la cosa interessante
+1427000	1428000	qui abbiamo letto
+1428000	1429000	percetti e percezioni
+1429000	1430000	dove le percezioni
+1430000	1431000	sono
+1431000	1432000	composizioni
+1432000	1433000	di percezioni
+1433000	1434000	cioè
+1434000	1435000	come ho detto prima
+1435000	1436000	e queste cose qua
+1436000	1437000	le facciamo mettere
+1437000	1438000	delle concettualizzazioni
+1438000	1439000	che sono linguistiche
+1439000	1440000	e qui guarda
+1440000	1441000	prendiamo delle assezioni
+1441000	1442000	che le ritengono insieme
+1442000	1443000	e diventano
+1443000	1444000	gratis di conoscenza
+1444000	1446000	o diventano
+1446000	1447000	un database
+1447000	1448000	il database
+1448000	1449000	sta qua
+1449000	1451000	il model
+1451000	1452000	sta qua
+1452000	1453000	il word
+1453000	1454000	che l'avete visto
+1454000	1455000	sta qua
+1455000	1458000	poi chiaramente
+1458000	1459000	quando avete fatto
+1459000	1460000	SQL
+1460000	1461000	database 1
+1461000	1462000	non me l'hanno detto
+1462000	1463000	che c'è il problema
+1463000	1464000	del linguaggio
+1464000	1467000	in realtà
+1467000	1469000	in realtà
+1469000	1470000	va bene
+1470000	1471000	perché
+1471000	1472000	per quello che vogliamo fare
+1472000	1473000	va benissimo
+1473000	1474000	ma se tu vuoi
+1474000	1475000	fare un ragionamento
+1475000	1476000	o comunque vuoi
+1476000	1477000	ad esempio
+1477000	1478000	il sistema dei AI
+1478000	1479000	rendere i AI
+1479000	1480000	in grado di fare
+1480000	1481000	questo ragionamento
+1481000	1482000	gliela devi dare
+1482000	1483000	tutte e tre
+1483000	1484000	nei database
+1484000	1485000	ti danno
+1485000	1486000	il modello
+1486000	1487000	non te lo dicono
+1487000	1488000	per la UNIGNI
+1488000	1489000	il modello
+1489000	1490000	sono le stringhe
+1490000	1491000	quello che metti dentro
+1491000	1492000	lo vedremo più avanti
+1492000	1493000	nella lezione
+1493000	1494000	3
+1494000	1496000	nei database
+1496000	1498000	il modello
+1498000	1499000	e il word model
+1499000	1500000	coincidono
+1500000	1501000	e sono fatti apposta
+1501000	1502000	perché
+1502000	1503000	fatti bene così
+1503000	1504000	perché sono velocemente
+1504000	1505000	efficienti
+1505000	1506000	ma hanno problemi
+1506000	1507000	che appunto
+1507000	1508000	perché hanno bloccato
+1508000	1509000	la descrizione
+1509000	1510000	hanno problemi
+1510000	1511000	che sono talmente rigidi
+1511000	1512000	che non si riescono
+1512000	1513000	a utilizzare
+1513000	1514000	in applicazioni
+1514000	1515000	come lo web
+1515000	1516000	o in applicazioni
+1516000	1517000	sono troppo rigide
+1517000	1518000	perché hanno precompilato
+1518000	1519000	troppe assunzioni
+1519000	1520000	in questo
+1520000	1521000	metodo
+1521000	1522000	reale
+1522000	1523000	dei database
+1523000	1524000	le sezioni
+1524000	1525000	internazionali
+1525000	1526000	graff
+1526000	1527000	qui diventano
+1527000	1528000	proposizioni
+1528000	1529000	atomic propositions
+1529000	1530000	and propositions
+1530000	1531000	perché ho usato
+1531000	1532000	la parola
+1532000	1533000	propositions
+1533000	1534000	perché si trova
+1534000	1535000	sotto i livelli
+1535000	1536000	di logica
+1536000	1537000	ed io ho scelto
+1537000	1538000	questa A qua
+1538000	1539000	è una proposizione atomica
+1539000	1540000	ci vorrei che la teoretica
+1540000	1541000	che ho voluto
+1541000	1542000	una atomica
+1542000	1543000	e che A
+1543000	1544000	qual'è che puoi sapere
+1544000	1545000	di A?
+1545000	1546000	tre cose
+1546000	1547000	che non sei niente
+1547000	1548000	o che è vero
+1548000	1549000	o che fa
+1549000	1550000	non caccia delle cose
+1550000	1552000	in una posizione atomica
+1552000	1553000	è una cosa
+1553000	1554000	di cui
+1554000	1555000	o non sei niente
+1555000	1556000	o sei vero o sei che fa
+1556000	1557000	è una sola delle tre
+1557000	1558000	ok
+1558000	1560000	si chiama
+1560000	1562000	il principio del terzo escluso
+1562000	1563000	perché in logica
+1563000	1564000	poi uno dice
+1564000	1565000	in realtà
+1565000	1566000	devi sapere uno
+1566000	1567000	in certe logiche
+1567000	1568000	ti dicono
+1568000	1569000	non ti è permesso
+1569000	1570000	di non sapere
+1570000	1571000	però in generale
+1571000	1573000	sono le tre opzioni
+1573000	1574000	non è vero
+1574000	1575000	non è vero
+1575000	1576000	e poi
+1576000	1577000	la proposizione
+1577000	1578000	che è una proposizione composta
+1578000	1580000	è questa
+1580000	1581000	è IFA A
+1581000	1582000	ben B
+1582000	1583000	perché questa
+1583000	1584000	è composta
+1584000	1585000	perché qui
+1585000	1588000	ha la struttura
+1588000	1589000	la struttura di
+1589000	1590000	vado in
+1590000	1591000	più sul mio GBA
+1591000	1592000	ma ti chiediamo
+1592000	1593000	che poi con le tre
+1593000	1594000	delle tabelle di verità
+1594000	1595000	che c'è la replicazione
+1595000	1596000	è ovvio
+1596000	1597000	perché io voglio dire
+1597000	1598000	è vero
+1598000	1599000	ma di vero
+1599000	1601000	se c'è il vaso
+1609000	1610000	e notate ovviamente
+1610000	1611000	che uno dice
+1611000	1612000	pretenchiamo
+1612000	1612700	cos'è la
+1612700	1613700	la
+1613700	1614020	o un'altra
+1614020	1615000	filetina
+1615000	1616200	la
+1616200	1616900	uno dice
+1616900	1618000	quant'è grossa la
+1618000	1619000	e la può essere
+1619000	1620000	quello che vuole
+1620000	1622000	o non può essere
+1622000	1622960	addirittura un'interna
+1622960	1623640	luga
+1625000	1627000	e faccio un esempio
+1627000	1634000	che si vede sui giornali oggi. Se Putin, se gli ursi attraversano la portiera europea,
+1634000	1640000	allora facciamo la testa per la mondiale.
+1644000	1648000	E questo per dire che quando arriviamo qua in cima,
+1648000	1652000	il ragionamento che noi facciamo, e lo voglio fare come tutti noi abitamente,
+1652000	1660000	noi abbiamo completamente estratto da A e la MI, che può descrivere una situazione arbitraria
+1660000	1665000	e la vita è complessa, e poi puoi essere più o meno d'accordo su IF A e B.
+1665000	1672000	Quello è un problema diverso, ma se sei d'accordo, la regola di deduzione ti garantisce che è toccata l'opinzione.
+1672000	1678000	E' chiaro? Quindi tutto il problema se con il sistema DI, se fai un specifico del sistema,
+1678000	1683000	e scrivere queste cose qua. O se fai machine learning, come le impari?
+1683000	1689000	Secondo se chi, sei a posto.
+1689000	1695000	E qui non c'è niente di nuovo se non il fatto che, man mano che vai su,
+1695000	1701000	i concetti di sopra sono generati, non dalle percezioni.
+1701000	1708000	Cioè il concetto, la parola, quando io dico casa, che è una singola parola,
+1708000	1714000	una casa è quattro muri, tetto, non ho detto complesso.
+1714000	1716000	Provo a decidere anche in finestra.
+1716000	1723000	Eh sì, ma in finestra c'è il vetro, c'è la pendina, c'è il frame e così via.
+1723000	1730000	Quindi per dire, comunque sia, il livello della stazione a cui tu descrivi il mondo è la tua scelta,
+1730000	1734000	che riprende la prega di Ulis Auber, ma comunque sia, quando sali linguisticamente,
+1734000	1739000	hai la grande, quello che c'è la resilienza in quanto umano,
+1739000	1744000	e tu hai la possibilità di scegliere il livello di dettaglio a cui descrivi il mondo.
+1744000	1748000	e andando su uguale, identico, perché poi a questo punto fai le sezioni,
+1748000	1752000	le vedremo, vado nelle sezioni e fai un knowledge graph quanto grosso vuoi,
+1752000	1757000	e lo metti insieme quanto vuoi, e così via.
+1757000	1761000	In effetti, noi, come vedrai tu già dalla prossima lezione,
+1761000	1766000	che sarà da tre quattro volte di esercitazioni, tutto quello...

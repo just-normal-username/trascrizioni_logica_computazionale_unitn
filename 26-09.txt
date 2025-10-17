@@ -1,0 +1,4118 @@
+però per dire che non sta visticciando
+mi deve dare una definizione di visticciare
+la definizione di visticciare è un'azione
+fra due cose
+fra due persone
+tutti i tanghi sono due persone
+tutto questo è il meccanismo
+che quando voi avete fatto
+software engineering
+ve l'hanno spiegato
+è sicuramente qualcosa
+che se tu fai AI
+la devi implementare
+le macchine
+è sicuramente un qualcosa
+che noi come logica
+dobbiamo andare a formalizzare
+in modo che poi
+una volta che siamo messi d'accordo
+sul fatto di come formalizziamo
+questa pittura
+del mondo
+in un linguaggio
+in realtà
+si può arguire o meno
+se la tua descrizione formale
+è una descrizione per lo meno corretta
+in cui si può mettere d'accordo
+del mondo
+allora bene
+allora l'entità è il concetto più importante
+abbiamo già detto che
+nella vostra sommabilizzazione
+e quando volete esercizi in forma
+sono lasciate la presentazione
+come dovete fare
+potete vedere una figura
+e sulla base del purpose
+del problema da risolvere
+se il dettavente
+dovete costruire
+decidete cosa
+come rischiare
+poi abbiamo l'entità
+qual'è la differenza
+tra una figlia o l'entità
+che prima di tutto
+noi
+in qualche maniera
+diciamo che
+ci viene da dire
+che
+le tre persone
+sono diverse fra di loro
+ma sono più simili
+fra di loro
+che fra loro e i cani
+e che i cani
+sono simili
+fra di loro
+e meno simili
+sulle persone
+e che i cani
+probabilmente
+sono più simili
+fra di loro
+e più simili
+alle persone
+della strada
+o degli animali
+o degli alberi
+quindi a questo punto
+stiamo parlando
+di due tipi di relazioni
+una prima relazione
+che è a dire
+come faccia a dire
+che
+due cani
+sono più simili
+fra di loro
+che un cane e un cane
+per chi tu
+vuoi c'è
+degli entità
+quindi
+che questo è
+esattamente
+quello che
+in maniera implicita
+abbiamo fatto
+gli
+entità
+se tu hai
+equità
+mettiamo qua
+organismo
+qua ci mettiamo
+persona
+assumiamo che una persona
+non è un animale
+perché abbiamo potuto
+ammettere come qualcuno fa
+persona sotto animale
+che è come dire
+che una persona
+è anche un animale
+possiamo mettere qua
+pianta
+e allora a questo punto
+se noi
+nello spazio dei concetti
+che ci dà
+una struttura linguistica
+cominciamo a fare
+una gerarchia così
+possiamo dire
+che
+questi due sono simili
+perché sono
+istante
+di persona
+e che
+il cane
+sarà sotto animale
+e sarà più stessa
+la persona
+che
+ha strada
+perché
+sono sotto
+organismo
+di verità
+quindi
+questo aspetto
+dell'e-type
+è
+esso stesso
+un ricetto
+gerarchico
+che in qualche maniera
+cattura
+generazioni
+di similitudine
+sia visiva
+che comportamentale
+che poi esattamente
+è quella che noi
+andiamo a formalizzare
+quando facciamo
+gli armodeli
+perché chiaramente
+noi ci aspettiamo
+che questa persona
+parla
+che questa persona
+parla
+e che il cane
+vai
+e che le piante
+non faccia niente
+oppure almeno
+non abbiano
+mani di soli esterni
+quindi in qualche maniera
+noi possiamo stabilire
+a priori
+e non come fate
+i software engineering
+estendendoli
+armodeli
+verso l'alto
+ma in maniera
+top down
+guardando la struttura
+del linguaggio
+dire che
+possiamo
+dare
+degli e-types
+e questi e-types
+sono a diversi
+livelli
+di generalità
+dove più specifici
+diventiamo
+e più questi e-types
+hanno colesimi
+cioè voglio dire
+due type
+due animali
+due cani
+si muovono
+come due persone
+due cani
+e due mali
+come l'organismo
+nasce o ne muoiono
+nasce o ne muoiono
+però in cani
+e mai
+invece le persone
+parla
+quindi l'appunto fondamentale
+che è classico
+il software engineering
+che formalizzeremo
+in maniera espressiva
+come se faccio
+di un'ora già
+come vedete più volte
+è che
+questo
+a noi
+e ad ognuno
+degli varietari
+associamo
+a delle proprietà
+a quelli che i dettagli
+si chiamano attributi
+che sono solo attributi
+chiamano proprietà
+che è assolutamente
+il fatto
+che noi
+probabilmente
+avete fatto
+c'è un concetto
+di tipi di dato
+noi in qualche maniera
+usiamo
+dei parametri
+che ci vengono
+da nostra cultura
+da noi
+ci hanno insegnato
+a scuola
+con cui noi definiamo
+a quale
+c'è un insieme
+di proprietà
+che sono
+relazioni
+fra
+l'entità
+e ad esempio
+e
+alcune caratteristiche
+dell'entità
+su cui
+verso il peso
+l'altezza
+quindi noi
+cos'è che facciamo
+noi diciamo
+noi prendiamo
+dei
+delle stringhe
+ad esempio
+la stringa
+uno
+due
+tre
+dieci
+undici
+su tre
+eccetera
+oppure
+biondo
+rosso
+nero
+e così via
+anno
+anno
+anno
+mese
+mese
+giorno
+giorno
+distanziate
+tutte le possibili
+combinazioni
+oppure
+latitudine
+prositudine
+transitudine
+e qui sono
+i dettati
+ma cosa sono i dettati
+sono delle entità
+sono delle entità
+in cui
+proprietà
+come avete detto
+sono predefinite
+quindi ti hanno insegnato
+che nei reali
+nei naturali
+sono il più o il meno
+uguali
+maggiore
+e minore
+e noi lo usiamo
+negli associati
+però sono entità
+il numero uno
+è un'entità
+quando noi diciamo uno
+diciamo un'entità
+che sta nella nostra terra
+e da qualche parte
+in un erone
+sta tanto vero
+che i matematici
+che sono sempre decisi
+distinguono tra uno
+e il cappellino sopra
+che chiamano un numero
+dal numero uno
+che è
+il significato inteso
+quindi
+chiaramente
+è importante bene
+che
+arriviamo dopo
+perché abbiamo
+questi propri
+entità
+ovviamente
+una volta che
+io
+ho
+sono indietro
+ma una volta che io
+stabilisco
+che
+la
+l'entity type
+persona
+ha come
+proprietà
+colore dei capelli
+guarda a prendere
+il data type
+colore dei capelli
+che me lo definisco
+oppure mi viene dato
+e sulla base di quello
+posso andare a
+a valutarlo
+perché ovviamente
+c'è un punto fondamentale
+questo data type
+tanto che la gente
+mediamente è brava
+sono tutti data type
+per cui c'è un meccanismo
+di valutarli
+il peso
+avete la bilancia
+e per garantire
+che tu ti pesa
+questa cosa
+c'è un museo
+della misura
+a parigi
+dove dicono
+un chilo
+si pesa così
+con l'errore del 5%
+con il 10%
+e così via
+quindi questi data type
+qui
+come anche
+le relazioni
+tra entità
+e le doppia minuto
+sono
+in un qualche parte
+ma sono
+misurabili
+con un algoritmo
+di versione
+di questo
+chiaramente
+quando hai fatto
+questa roba qui
+chiaramente
+tu dici
+puoi a questo punto
+fare quello che ho detto
+associare
+a un entity type
+una
+propria entity
+data type
+diciamo dire
+le persone
+hanno tutti
+un attributo
+chiamato
+colore dei capelli
+colore dei capelli
+dato data type
+poi c'è bianco
+lo soverso
+chiaramente
+se lo puoi fare
+un sistema
+dei AI
+devi dare
+il sistema
+di data type
+per comunità
+il sistema
+informativo
+probabilmente
+chiedevo
+ma di metterlo
+però
+queste proprie entità
+sono caratteristiche
+perché
+perché ti permettono
+una volta che
+linguisticamente
+di dire
+di identificare
+di descrivere
+io ho usato
+ancora
+descrivere
+nella lezione
+precedente
+di descrivere
+le entità
+quindi è vero
+sì che
+noi
+l'entità
+questa persona qua
+che si muove
+non siamo in grado
+di tirarsi
+la testa
+e farla venere
+voi non siete
+in grado
+di descriverla
+ma sicuramente
+a un'altra persona
+se lo avete
+metto a foto
+gliela potete
+descrivere
+c'è nessun modo
+che lo potete
+descrivere
+in maniera completa
+una cosa
+avete vista
+però sicuramente
+quello che potete dire
+potete scegliere
+le cinque proprietà
+con cui la descrivete
+colore dei capelli
+colore della pelle
+colore della maglietta
+altitudine
+peso
+posizione
+le scegliete
+e che sono queste
+proprietà
+e questa
+proprietà
+qui vi faccio
+una bella
+tabella
+di un database
+e di fatto
+pur
+da una volta
+che dite
+questa è l'entità
+numero 1
+e questa è l'entità
+numero 2
+e questa è l'entità
+numero 3
+che hanno questa
+tabella
+di proprietà
+e nella misura
+in cui
+io ho fatto
+il mio sistema
+informativo
+quelle tabelle
+sono tutte
+quelle che mi servono
+per
+quello che devo fare
+chiaramente
+voglio dire
+vedete bene
+i vostri esami
+non penso
+che ci sia il nome
+dei vostri territori
+o il nome
+dei vostri
+nonni
+sicuramente
+no
+voi potete
+vedere
+le due
+delle producce
+che servono
+per fare
+e chiaramente
+sarà anche la vostra foto
+ma sarà una foto
+di quando siete arrivati
+e mai
+perché la giudicazione
+da barba
+e di via
+ma
+mi ha anche
+informazioni
+sulle le altre
+e sono quelle informazioni
+che by design
+come vi hanno insegnato
+a fare
+sono quelle che servono
+per dare una descrizione
+parziale
+di quello che siete
+ma soprattutto
+sufficiente
+per il fatto
+di quello che dovete fare
+ma
+quando
+sono due persone qua
+ci sono due qua
+una per descrivere
+in quanto stanno
+la descrive
+le relazioni
+con gli altri
+quindi
+questa è sempre
+vicina a questa
+qual'è una relazione
+potrebbe essere
+questa è moglie
+è amica
+è parente
+ma parla
+parla
+queste relazioni
+tendenzialmente
+sono i stai tipi
+spaziali
+vediamo più avanti
+azioni
+che uno fa
+che sono quelle
+che sono più difficili
+da bloccare
+e anche relazioni
+tipo sociale
+relazioni sociali
+di ones
+di ones
+di ones
+di ones
+qual'è la riferente
+tra le prime e le seconde
+che le prime
+sono relazioni
+sono proprietà
+della singola
+entità
+quindi sono relazioni
+tra entità
+e poi
+c'è i tipi
+di relazioni
+la relazione
+la relazione
+e questa
+abbiamo già visto
+nella
+la relazione
+friend
+che uno può scrivere
+come
+has friend
+o come
+friend
+or
+dove chiaramente
+la direzione
+è la stessa priorità
+di insieme
+a un'inverse
+dell'altra
+è una relazione
+che
+ha come valori
+tutte le persone
+che sono amiche
+e chiaramente
+abbiamo
+sia
+le relazioni
+io sono
+professore suo
+professore suo
+di logica
+ma poi c'è anche
+il fatto che
+professore e studente
+sono delle relazioni
+che all'università
+definiscono
+certi ruoli
+e chiaramente
+una volta
+che avete scelto
+l'entità
+o l'entity type
+puoi andare
+a definire queste
+bene
+ve l'avevo già detto
+l'altra volta
+sono
+1,2,3,4,5,6
+è tutto quello
+che ci serve
+per descrivere il mondo
+e per poter fare
+tutto quello
+vogliamo fare
+chiaramente
+quello
+penso che
+quanto vi avevo detto
+nella seconda lezione
+sia chiaro
+chiaramente
+ogni descrizione
+linguistica
+che è data
+di questa roba
+sarà sempre
+in comprenza
+nessuno
+sarà in grado
+di replicare
+quell'immagri
+che sono in parte
+della foto
+ma nella misura
+in cui
+la descrizione
+parziale
+funziona
+per questo problema
+è rilevante
+ovviamente
+e questi
+i percetti
+che
+non diremo
+più
+e ripeto
+dopo
+i percetti
+semplici
+composti
+sono questi
+sono 6
+ok
+però
+adesso il problema
+in qualche maniera
+dobbiamo dire
+come facciamo a dire
+dobbiamo
+un concetto
+fondamentale
+che è implicito
+nel
+nel
+nel
+nel
+nel
+nel fatto
+di
+modellazione
+perché
+come facciamo a dire
+questo
+l'ho detto prima
+lo ripetiamo
+per chiarezza
+abbiamo detto
+che una volta
+che passiamo
+dalla
+dalla
+descrizione
+logica
+la descrizione
+linguistica
+identifichiamo
+identifichiamo
+queste
+usiamo
+queste
+seppre
+età
+sicuramente
+dobbiamo dire
+l'entity
+l'entity
+l'entità
+ovviamente
+però
+a questo punto
+dobbiamo dire
+quando sono uguali
+e diverse
+non facciamo a dire
+che
+due persone
+hanno maliettato
+il suo colore
+non facciamo a dire
+che due istanze
+di
+di
+di
+di
+di
+di
+me
+visto
+oggi
+siamo
+a questa
+persona
+meno
+quindi
+questo
+concetto
+di
+uguaglianza
+che noi
+dobbiamo
+darci
+è il concetto
+di
+disuguaglianza
+quindi
+il passo
+importante
+da mettere
+in evidenza
+è che
+quando io parlo
+di persona
+come concetto
+come parliamo
+in una lezione
+prossima
+io posso dire
+che il mio
+concetto
+l'avete visto
+due volte
+in due correnti
+diverse
+perché potete dire
+che le due correnti
+sono uguali
+uguali in che cosa?
+in una serie
+di caratteristiche
+che dicono
+che devono dire
+essere uguali
+come fate a dire
+che una persona
+ha messo in questa persona
+due volte
+in due giorni diverse?
+la pace
+e se vestiti
+la clown
+lo dì
+si toglie la maschera
+lì
+anzi
+si tolta la maschera
+quindi sapete
+che la maschera
+è una cosa temporale
+però
+c'è questo
+continuo
+esercizio
+di potere
+quando tu hai
+due
+due occorrenze
+parliamo di
+occorrenze
+di due
+entità
+noi
+dobbiamo poter dire
+se queste due
+occorrenze
+sono occorrenti
+della stessa
+entità
+sono occorrenti
+di due diverse
+entità
+questo poi
+diventa fondamentale
+più avanti
+non solo
+devi poter dire
+se sono
+due
+prima di tutto
+devi dire
+se sono
+la stessa
+entità
+poi
+sono la stessa
+entità
+puoi dire
+se è la stessa
+entità
+se ha la stessa
+entità
+non necessariamente
+però nella misura
+il colore dei capelli
+può cambiare
+però nella misura
+nella misura
+in cui
+quello che ti mette
+come uguale
+non cambia
+fa tutto bene
+questa roba
+è veramente
+pervasiva
+in termini
+di modellazione
+vi faccio un esempio
+grazie a tutti
+se io dico
+ho visto Paolo
+che aveva i capelli bianchi
+e poi dice
+ho visto Paolo
+che aveva i capelli rossi
+la stessa persona
+sì
+o no
+sì grazie a nessuno
+se io dico
+ho visto
+un uomo
+che aveva i capelli bianchi
+ho visto un uomo
+che aveva i capelli rossi
+probabilmente
+sono diversi
+perché
+il colore dei capelli
+è meno
+identificante
+del nome
+potremmo anche essere
+due Mario
+e due Paolo
+diverso
+ma voi avete pensato
+al suo Paolo
+e altrimenti
+avrete pensato
+tutti i posti
+sarete aspettati
+di che hanno
+un Paolo diverso
+quindi per dire
+che
+e ho messo a vista
+appunto per dare
+questa idea
+di un colore
+diverso
+no
+quindi
+questo per dire
+che noi
+continuamente
+questa operazione
+della semi
+interversa
+facciamo
+che poi
+esattamente
+è quello
+di comportare
+nella nostra
+teoria dei modelli
+e notare bene
+che
+come poi
+vedrete
+chi di voi
+farà
+forse
+il prossimo anno
+il problema
+è di capire
+se due entità
+due occorrenti
+di entità
+nel web
+quindi su dati
+non visibili
+solo una serenità
+è il problema
+più difficile che c'è
+ed è il motivo
+per cui la gente
+nel mondo reale
+si è inventata
+il numero di passaporto
+il fiscal code
+perché?
+è perché
+il nome è un contenente
+e dei dati
+quindi
+questa specie
+della semi
+perché dove è
+il vero punto?
+perché in qualche maniera
+quando io
+nel mondo linguistico
+devo poter dire
+come ho detto ieri
+che questa parola
+c'è questa stringa
+ma l'unica
+che fa identità
+sul fatto
+dell'oggetto
+nel modello
+nella persona logica
+è quella di
+l'unica
+e chiaramente
+questo si propaga giù
+a tutto
+ognuno dei sei
+esempi
+di
+percetti
+come li abbiamo chiamati
+adesso vi richiamiamo
+un po' a minuto
+questo problema qui
+e a questo punto
+devi dire
+abbiamo saputo
+soledità
+ma adesso
+c'è il concetto
+di biondo
+e secondo me
+è così chiaro
+dire
+c'è una bellissima
+ad esempio
+c'è il concetto
+dei colori
+c'è una bellissima forma
+che adesso
+non ho messo
+che dove
+chi è esperto
+di colore
+vede 50 colori
+voi ne vedete 3
+per te
+tu sei biondo
+per me
+per me
+una persona è bionda
+per un altro
+una persona è cassano chiaro
+e così via
+quindi questo problema
+di identità
+che è esattamente
+poi quello che c'è
+alla base
+di tutti gli algoritmi
+di recognition
+di copiare il video
+come abbiamo detto
+e anche negli altri anni
+non è solamente
+a livello di identità
+è a livello
+di ogni singolo valore
+ogni singola identità
+perché quando tu hai fatto
+il data type
+ti sei dato
+il data type
+per i vari valori
+come ho scritto
+da qualche parte
+ti sei dato
+lo spazio dei valori
+ma
+quando tu passi
+da una descrizione
+analogica
+da una immagine
+analogica del mondo
+alla linguistica
+quel passo
+io ho fatto
+in formalizzazione
+che è esattamente
+dove c'è
+il 90% dei problemi
+chiaramente
+questo vale
+anche per
+tu
+tu
+prendiamo
+una qualunque
+segretto
+ordinata
+di valori
+ok
+quindi ad esempio
+facciamo degli esempi
+adesso a seguire
+per ognuno di quelle
+questo passaggio
+a questo mondo
+qua
+è esattamente
+il passaggio
+che
+fondamentale
+che nel nostro modello
+modelliamo
+come
+disuguaglianza
+e disuguaglianza
+ma
+che nel mondo
+nel mondo
+delle AI
+e delle science
+e disuguaglianza
+che similari
+similari
+in italianza
+in clustering
+classification
+il problema
+è sempre questo
+capire o meno
+quando vai
+nel mondo
+linguistico
+se o meno
+due entità
+due
+due occorrenze
+di due diverse
+entità
+rappresentano
+la stessa entità
+nel mondo
+perché è chiaro
+come io dico
+fausto
+il concetto di fausto
+il concetto di uomo
+è indipendente
+dal tempo
+poi fausto
+nasce e muore
+ed evolve
+ma fausto
+è invariante
+in ogni momento
+vedo quella
+specifica correnza
+data specifica correnza
+il mio
+algoritmo
+di computer vision
+per dire
+computer vision
+qualunque
+di realizzazione
+della versione
+giustica
+deve poter fare
+questa cosa
+guardate bene
+che fausto
+da piccolo
+non c'è
+niente
+con fausto
+da red
+guardate
+guardate
+il caso
+di sistemi
+di AI
+che sono
+funzionale
+qui
+questo è qua
+quindi
+come abbiamo annunciato
+quello che noi facciamo
+prendiamo
+quell'oggetto
+sulla sinistra
+l'immagine
+e la facciamo
+diventare
+l'ultima
+questo oggetto
+la letta
+questo è un linguaggio
+non è
+questa è una immagine
+questa è una
+presentazione
+questa presentazione
+di linguistica
+faccio un esempio
+c'è una sintassi
+per questo
+vedete
+per esempio
+la sintassi
+che dice
+che la forma
+del cerchio
+è rilevante
+il piccolo
+grosso
+è rilevante
+però
+che importa
+con i tedeschi
+ci dice
+che se
+qui
+c'è una sintassi
+quella
+quindi
+inizia
+però
+perché
+accetto
+se ti
+io
+nel prossimo
+a
+gra
+perché
+questa è una presentazione
+grafica
+che poi
+essendo un linguaggio
+ci dà
+una
+rappresentazione
+visiva
+simbolica
+che in qualche
+maniera
+che per di più
+legata al concetto
+di entità
+che abbiamo
+detto prima
+che in qualche
+maniera
+rende
+questo
+matto
+in immediato
+chiaramente
+una singola
+entità
+fra il suo
+puntino
+chiaramente
+non permetteremo
+acqua
+e da qui
+da due parti
+da due parti
+che vorrebbe dire
+che si confondono
+probabilmente
+se c'è un cerchio
+chiaramente
+voglio dire
+che
+diciamo così
+per le diverse
+le persone
+a
+c
+sono
+delle donne
+l'uomo
+eccetera
+eccetera
+quindi
+ci siamo dati
+una sintassi
+chiaramente
+non solo
+quello
+noi
+possiamo dire
+matematicamente
+avere un algoritmo
+voi sapete
+che si può
+sempre calcolare
+un insieme
+come
+condominio
+di una funzione
+per definire
+cosa è uguale
+per dire
+per dire
+quando
+due
+due insiemi
+sono uguali
+hanno una
+presentazione
+analogica
+tutta in diagramma
+e si può
+costruire
+un mapping
+uno a uno
+da quello
+che si vede
+alla
+alla
+presentazione
+analogica
+all'universale
+in qualche
+operazione
+di
+membership
+di
+non solo
+di
+immunità
+ma di
+relazioni
+all'universale
+molti
+a switch
+perché
+c'è il terreno
+e
+hanno un
+linguaggio
+formato
+tu puoi
+usare una sintassi
+tipo
+un linguaggio
+di
+quello che
+forma
+di
+quindi
+dov'è
+il punto
+fondamentale
+il punto
+fondamentale
+è
+che
+tutto il
+trucco
+di
+estrarre
+da una
+semantica
+a un
+linguaggio
+è il
+passaggio
+da
+una figura
+per quella
+che era
+piena di
+interpretazione
+a una
+figura
+come questa
+quindi
+tutto il
+problema
+di
+scelta
+rappresentazionale
+è la
+produzione
+del
+ben
+dai
+è
+chiaro?
+Ed è
+chiaro
+che
+in
+questa
+produzione
+del
+ben
+dai
+per
+aiutarmi
+quando ci
+scriverò
+a
+se questa
+si chiama
+angela
+ci
+metterò
+angela
+qui ci
+scriverò
+a
+persona
+ok
+quindi
+questi
+nomi
+che sono
+qua
+diventano
+i nomi
+che noi
+mettiamo
+che noi
+mettiamo
+gli elementi
+le tube
+e così via
+è
+rilevante
+gli uomini
+sono rilevanti
+no
+sono totalmente
+rilevanti
+come sapete
+però
+semanticamente
+aiuta
+un uomo
+a vedere
+il significato
+di te
+quindi
+qua mi ha messo
+abcid
+ma quando
+in questo passaggio
+noi
+usiamo
+queste stringhe
+perché
+descrivi
+esattamente
+questo
+e adesso
+questo punto
+è una domanda
+ovvia
+che immagino
+vi siete
+date
+le risposte
+si ma
+queste stringhe
+dove
+arrivano?
+è tra
+le scuole
+anzi
+l'ha parlato
+google
+quando ero
+giovane
+c'era
+google
+non esisteva
+poi
+il mondo
+evolve
+dipende
+le parole
+quindi abbiamo
+questo senso
+comune
+di parole
+che chiaramente
+ci portiamo
+dietro
+e quando
+noi facciamo
+le metterie
+formali
+ce lo portiamo
+dietro
+ma non perché
+aiuta
+il metodo
+formale
+ma semplicemente
+perché aiuta
+l'interpretazione
+della teoria
+logica
+poi vedremo
+dopo
+nelle proprie
+lezioni
+che
+questa scelta
+di queste parole
+qui
+crea di nuovo
+confusioni
+perché chiaramente
+abbiamo usato
+la parola
+persona
+però poi
+non siamo
+d'accordo
+sulla persona
+ma no
+l'esempio
+che faccio
+sempre
+è che
+quando gli americani
+sono andati
+in Vietnam
+i vietanoliti
+non si stimolano
+le piante
+dai neri
+è un fatto
+dell'oro
+certo
+un uomo
+il uomo
+il uomo
+il uomo
+il uomo
+il uomo
+il uomo
+il uomo
+è totalmente
+culturale
+non esiste
+in realtà
+o perlomeno
+esiste
+per quelli
+che sono allenati
+a farci
+la concetta
+di
+uguaglianza
+in testa
+se non
+si è educato
+così
+però
+per i vietanoliti
+è come
+guardati in Asia
+se uno
+c'è il cinesi
+con la fortuna
+è tutto uguale
+vale anche
+per loro
+anche loro
+non distingono
+neanche loro
+dai capelli
+però
+sono tutti neri
+quindi
+non hanno
+problema
+di distingere
+quindi
+tutte queste
+categorie
+mentali
+sono tutte
+semplicemente
+legate al training
+che ci siamo fatti
+che per chi
+vi fa i AI
+possiamo fare
+le macchine
+per fare
+le azioni
+di uguaglianza
+di questi ragazzi
+e quindi
+adesso
+facciamo
+quindi a questo punto
+abbiamo detto
+e chiaramente
+ci mancano ancora
+quattro detti
+per finire
+la
+dicessima
+settimana
+abbiamo detto
+che
+il nostro
+mapping
+da qualche parte
+c'è l'immagine
+l'immagine
+la possiamo
+inserirvi
+e questo
+poi
+questo
+lo
+lo
+lo
+lo
+lo
+lo
+lo
+lo
+lo
+l'immagine
+quindi
+non
+non
+tenere
+che
+voi
+faccio
+io
+di
+parlare
+di
+insieme
+molti
+vi ho parlato
+di
+concetti
+di
+sette
+di
+classe
+sono
+ci
+sono
+la
+stessa
+cosa
+sono
+diversi
+ma
+tanta
+pena
+che
+non
+c'è
+niente
+quale
+di
+relazione
+quale
+di
+tutto
+questo
+per
+dire
+che
+c'è un
+passaggio
+linguistico
+in cui
+tutti
+i concetti
+della
+sette
+io
+ce ne
+mancano
+quattro
+vengono
+portati
+nel nostro
+linguaggio
+che poi
+useremo
+nel
+world mode
+a livello
+sopra
+ora
+noi
+ci stiamo
+dando
+i concetti
+di base
+ci stiamo
+dando
+quegli
+concetti
+e per
+ognuno
+di quelli
+dovremmo
+darci
+difendervi
+dovremmo
+dirci che
+se io
+dico
+persona
+uomo
+e donna
+e dico
+che sono
+diversi
+devo avere
+l'algoritmo
+e lo
+fa
+se io
+dico
+che ho
+uomo
+e donna
+se io
+dico
+uomo
+e persona
+e uomo
+e una
+persona
+io ho
+un
+algoritmo
+che mi
+dice
+un uomo
+e una
+persona
+mentre la
+persona
+in generale
+non è
+un uomo
+che è
+quello
+che esattamente
+da
+poi
+le ultime
+cinque
+non sanno
+fare
+perché
+ti non
+si può
+vedere
+la cosa
+più
+specifica
+ora è
+chiaro
+che
+se nella
+misura
+in cui
+noi
+se facciamo
+AI
+o
+computer
+vision
+o
+IoT
+quello che
+volete
+abbiamo
+questi
+algoritmi
+da lì
+in poi
+è solo
+questione di
+giocare
+con
+il linguaggio
+che
+è
+diventamente
+facile
+cioè
+no
+noi
+non è
+vero
+che
+è facile
+abbiamo
+la logica
+che dopo
+il
+2000
+anni
+ci
+dà
+gli
+algoritmi
+ma
+arrivare
+a questo
+punto
+è esattamente
+dove si
+si
+impianza
+ora
+perché
+non c'è
+il metodo
+perché
+prima
+non c'era
+il problema
+perché
+non facevamo
+i robot
+non facciamo
+gli altri
+c'era un
+sistema
+così
+complesso
+di
+dare
+gli
+algoritmi
+che
+stavano
+qua
+ma
+ugualmente
+questa
+è la
+versione
+AI
+ma
+la
+la versione
+computer science
+c'era anche
+chi fa specifiche
+chi fa
+senza fare
+neanche visione
+perché
+se tu vai
+da un
+se tu
+vai a parlare
+con un
+con qualcuno
+supone che tu
+fai il software
+di ingegnere
+e ti dà
+una specifica
+da fare
+forse
+voi non
+quante volte
+c'è il bagno
+di sangue
+perché
+chi dà
+la specifica
+dice una cosa
+chi la riceve
+dice
+si si siamo
+d'accordi
+e poi
+alla fine
+quando gli dai
+la specifica
+fatta
+di migliorazione
+dice
+ma no
+non funziona
+così
+ma tu non
+vuoi dire
+questo
+perché
+semplicemente
+per i modelli
+chiesi
+era diversa
+infatti
+regola fondamentale
+comparata
+sul sangue
+o col sangue
+la mia attività
+quando facevamo
+il software
+per i treni
+è che la regola
+fondamentale
+è sempre questa
+le specifiche
+che la dò a voi
+le specifiche
+fai parlare loro
+ma la specifica
+la scrivi sempre te
+poi te la fai approvare
+da loro
+ma la specifica
+la scrive a loro
+perché
+prendendola in mano
+te
+la specifica
+sei tu che
+scegli questo volante
+sei tu che
+mi vengi
+la protezione
+da buono
+sei tu che
+hai impostato
+l'intera
+specifica
+o informale
+o formale
+esattamente
+ma la pensi tu
+tra parenti
+funziona anche
+meglio
+perché in particolare
+se il cliente
+non è esperto
+dice fai tu
+fai tu
+perché giustamente
+gli fai il lavoro
+poi chiaramente
+non lo vuoi fregare
+ma questo aspetto
+voglio dire
+del concetto
+di entità
+di uguaglianza
+di similialità
+non c'è solamente
+mentre non lo fai
+c'è anche
+normalmente
+non lo fai
+software ingegnire
+ed è il motivo
+per l'agentazione
+di uguagli
+specifica
+ed è il motivo
+per cui
+dico
+specific
+che si vede
+voi
+non andate bene
+ovviamente
+poi confonderemo
+per una volta
+che ci siamo capiti
+sul concetto
+di peso
+voglio dire
+parlare di
+la soluzione
+è questa cosa
+basta capirsi
+e basta avere
+in mente
+questo processo
+ok
+noi
+nella lezione
+del precedente
+abbiamo parlato
+di percezioni
+per certi
+e adesso
+vedrete
+banalmente
+quali sono
+i percetti
+e percetti
+sono tutte
+quelle cose
+che noi vediamo
+sono i set
+che sapiamo
+però in questo
+graffo
+è tutta una cosa
+un'altra cosa
+che nessuno fa mai
+è che avete visto
+centa volte
+nel Dendai
+che sicuramente
+avete visto
+centa volte
+ma che la gente
+tende
+a sottovalutare
+che è
+la scatola
+all'intorno
+la scatola
+all'intorno
+perché vuoi fare
+una storia del mondo
+facciamo la storia
+di più di più di più di più
+di più di più
+ok
+non ci mettiamo
+nelle più di più di più
+di più di più di più
+ora
+o facciamo
+una storia
+dove consideriamo
+le persone
+che resta in tre
+dato che
+anche questa foto
+qui
+sta facendo
+la foto
+di tutti gli oggetti
+o degli oggetti
+che stanno solo qui
+o solo dei cani
+c'è una linea
+di quanto è parlato
+quindi questa è la cosa
+più importante
+che lo siamo fatti
+e se non la fai
+in particolare
+quando arriviamo
+all'ultimo
+livello della logica
+che è quello
+in cui
+si parla di
+si ragiona
+se non si sa
+qui
+non si sa
+la legazione
+quindi definire il confine
+il dominio
+di interpretazione
+come lo chiameremo
+che semplicemente vuol dire
+quando tu fai una specifica
+ad esempio
+devi essere certo
+di aver specificato
+e gli erenti
+proprio
+in modo che ti dicano
+non ti posso dire
+che ho capito
+nel nostro caso
+della set theory
+l'universo
+così chiamato
+lo chiamiamo dominio
+e per poi
+usare il termine
+dominio di interpretazione
+perché lo chiamiamo
+dominio di interpretazione
+perché l'universo lì
+è il dominio
+di interpretazione
+del mio linguaggio
+a me non me ne frega niente
+sono cento persone
+o mila persone qua
+ma se nel mio dominio
+di interpretazione
+ce ne metto cinque
+probabilmente ci sono cinque
+e se tu me ne metti dieci
+sono a fare i pochi
+se abbiamo un accordo
+su cinque
+sono cinque
+vediamo
+quindi questo senso
+di interpretazione
+è fondamentale
+quindi a questo punto
+dato il concetto
+di dominio
+possiamo scelga
+come vogliamo
+evidentemente
+come vedremo dopo
+sicuramente
+non sempre
+sempre
+questo
+questo dominio
+di interpretazione
+sicuramente
+ha meno elementi
+di quelli
+che uno ce ne può vedere
+e se lo facciamo fare
+anche queste
+sperimentazioni di psicologia
+se facciamo fare
+le due figure
+la gente fa
+due domini diversi
+invece scorte diverse
+vede istanze diverse
+vede la gruppa
+in maniera diversa
+e così via
+poi la gente
+lo chiama
+soggettività
+va bene così
+quindi
+fino a questo punto
+cos'è un percetto
+a questo punto
+possiamo dire
+è un'entità
+questa entità
+è una persona
+che conosci
+o che non conosci
+se dici
+uno a uno
+possiamo dire
+anonimo
+no
+vuol dire
+che non conosco
+però so che è una persona
+anzi
+la so che è una donna
+lo chiamata
+lo chiamata
+uno a uno
+questo
+probabilmente
+è un calo
+però c'è una parola
+che si scelta
+l'entità
+l'insieme
+delle persone
+il percettare
+di essere biondi
+di una persona
+generare
+il fatto
+dell'abilità bionda
+che associa
+le persone
+se io associo
+l'abilità bionda
+alle persone
+e assumo
+come è sempre
+in logica
+che è completa
+vuol dire
+che io posso
+dire
+di ogni persona
+se bionda non vuoi
+quindi
+la verità
+che fa
+e
+non direi mai
+di non poter
+riempire
+un valore
+che è totalmente
+il motivo
+per cui poi
+quando siamo andati
+a Web
+tanti anni fa
+siamo accorti
+conto
+che tante società
+non le conoscevamo
+e da dove è saltato
+tutta la metodologia
+classica di
+software engineering
+come l'avete fatta
+che non scala
+al sistema
+aperto
+concetti di reazioni
+spaziale
+relazione
+di due persone
+quindi se ci pensate bene
+sono tre tipi di relazioni
+l'ho già detto
+perché
+io e voi
+siamo in relazione
+vicino
+alla spaziale
+siamo in relazione
+schiamata
+di ruolo
+professore
+studente
+padre
+figlio
+amico
+così via
+o
+azioni
+io parlo
+io urlo
+a voi
+io cammino
+con una relazione
+con me stesso
+e l'avete
+con i miei piedi
+sono tutte le relazioni
+chiaramente
+se fate un problema
+di planning
+o di pianificazione
+di azioni
+le relazioni
+sono tutti
+di tipo
+azioni
+se fate un'escrizione
+o un valore
+di un'istituzione
+sono tutti
+di tipo
+di ruolo
+se fate
+un'app
+che navigano
+nello spazio
+sono tutte le relazioni
+di spazio
+se vedete voi
+ma il punto è che
+questa semantica qua
+funziona per tutti
+come ho detto prima
+il punto fondamentale
+è semplicemente quello
+di scegliere
+bene
+le proprietà che vuoi
+in modo che
+la tua
+non venga
+il diverso mondo
+è ben definito
+da lì in poi
+è tutto gratis
+nel senso che
+a più in poi
+chiaramente
+può essere inefficiente
+e quindi via
+ma
+le ragioni
+sono
+corrette
+questo altro
+non è che
+quello detto prima
+quindi noi
+abbiamo
+seti
+di percetti
+percetti
+entità
+quella che abbiamo detto
+prima
+le proprietà
+dell'entità
+le proprietà
+entità
+e type
+progetti
+type
+e le proprietà
+per dire
+voglio dire
+chiaramente
+mettendola
+matematicamente
+uno può dire
+se io prendo
+friend
+come relazione
+binaria
+sarà
+intanto
+il porteggio
+cartesiano
+sarà
+l'intervista
+insieme
+di tutte
+le persone
+per dopo
+questa
+è la friend
+1
+facciamo
+friend
+2
+sono tutti
+insieme
+di persona
+per persona
+e così via
+quindi
+questo
+è il relation
+type
+e poi
+ciò
+friend
+falco
+rocky
+che invece
+l'istanza
+la proprietà
+specifica
+che
+a seconda
+sono
+il mio sentino
+di barco
+e questo
+è il mio
+specifico
+di istanza
+gli
+types
+sono gli
+insiemi
+e le
+relazioni
+sono
+le tute
+e chiaramente
+a questo punto
+qui
+degli esempi
+notare bene
+che qui
+è interessante
+che questi qua
+non sono
+stringhe
+sono certi
+sono gli unicamenti
+sono puntatori
+ok
+e ho usato
+il nome proprio
+come puntatore
+ma dove non c'è
+il nome proprio
+questa è
+l'annunciazione
+che usa
+WordNet
+che avete fatto
+che poi riprenderemo
+le destitazioni
+dove
+sicuramente
+uno usa
+sharp sign
+il numerino
+per dire
+che c'è un'entità
+e chiaramente
+3 1
+è diverso
+da 3 2
+no?
+perché
+non so il nome
+non so
+neanche
+che tipo di albero è
+ma comunque
+sono diversi
+e sono
+3
+per esempio
+between
+e una tripla
+o 3 più altre
+sono
+sono
+tuple
+between
+e
+so che
+tra
+Rocco e Paolo
+eccetera
+e l'altro
+so che Paolo
+e così via
+che possiamo anche scriverla
+come la quadra
+quindi questa
+notate bene
+guardate
+abbiamo detto
+questa è
+between
+vista come
+l'insieme
+delle tue
+quindi
+questo è il percetto
+semplice
+questo è il percetto
+composto
+che viene
+istanziato
+tra queste
+3 istanze
+che tutte
+e qui
+chiaramente
+dovrebbero essere
+Rocco e Soffi
+Paolo
+quindi
+probabilmente
+queste
+rocce
+questa
+correlazione
+tripla qua
+è esattamente
+questa
+quindi abbiamo
+abbiamo
+abbiamo
+il percetto
+Rocco
+il percetto
+Soffia
+il percetto
+Paolo
+poi
+between
+anche
+la Soffia
+e l'albero
+qua in mezzo
+se hanno
+quelli
+non è Soffia
+va beh
+è un po' più
+importante
+questi
+sono i singoli
+percetti
+e notate bene
+che io
+matematicamente
+gli do
+la lista
+delle tute
+che è
+esattamente
+come quando
+fai
+actual
+recognition
+su
+IoT
+o
+di
+television
+devi
+dati
+la possibilità
+e gli fai
+training
+per imparare
+la loro
+e poi
+le istanze
+e questo è
+esattamente
+quello che
+avrai sentito
+ok
+tutto qua
+ok
+quindi
+ho visto
+quindi
+mi ha fatto
+i percetti
+ma ora
+dov'è
+definire
+domini
+di interpretazione
+è quello
+che ho detto
+sempre
+comunque
+c'è
+un
+un
+domini
+di riferimento
+questo
+è un problema
+che ha
+dato
+a
+Newton
+o in
+Antony
+Parani
+comunque
+sia noi
+siamo
+dentro
+di
+modellare
+la box
+che è
+il mio
+domini
+di riferimento
+e noi la modelliamo
+così
+in qualche
+maniera
+elenco
+tutti i percetti
+in S3
+i domini
+di riferimento
+sono tutti gli studenti
+scritti
+al mio scherzo
+per fare la stampa
+per strada
+fisicamente
+iniziamo
+tutti i percetti
+chiaramente
+i percetti
+e il PITAR
+la identità
+poi
+in S3
+ci sarà
+esame
+tutti gli altri
+ma di fatto
+il punto fondamentale
+qui
+è che
+insieme
+del dominio
+è stato
+un uomo
+del nostro
+stato
+ora
+ci sono
+gli studenti
+la lista
+degli esami
+la lista
+delle aule
+e così via
+ma sono
+tutti formalizzati
+chiaramente
+come scritto qua
+sono diversi
+tutti i percetti
+bene
+a questo punto
+formalmente
+è una mini definizione
+che dominano
+la tripla
+l'insieme
+delle unità
+che vediamo
+entità
+prima di tutto
+c'è l'universo
+di interpretazione
+che è l'insieme
+delle unità
+che vediamo
+l'insieme di classi
+che sono
+quello
+che vediamo
+sui dettagli
+italici
+è un insieme
+di relazioni
+di tutto
+dove
+le relazioni
+sono tutti insieme
+lui
+del
+del
+del
+del
+del
+cartesiano
+dell'universo
+ok
+quindi
+e questo
+è esattamente
+quando noi andiamo a fare
+salire delle logiche
+per ogni logica
+vi diciamo questa
+la prima parte
+per ogni logica
+dico questa
+e non è che vi dico
+solamente
+domenica
+di interpretazione
+vi dico anche
+le c
+c'è il titolo
+di qualità
+che divido
+ma non c'è
+di quali relazioni
+faccio
+e una volta
+che ho fatto questo
+nella misura in cui
+abbiamo un metodo
+che ci accordano
+linguisticamente
+esattamente
+momentario
+comunque altra cosa
+da lì in poi
+proprio di forma
+di forma
+e di forma
+di forma
+è risolto
+ed è esattamente
+dove puoi fare
+gli esercizi
+e di via
+quindi
+abbiamo le unità
+abbiamo le classi
+e le relazioni
+enarie
+guardate bene
+che poi vedremo
+che nella maggioranza
+della logica del mondo
+facciamo le relazioni
+binarie
+ma ne entriamo
+tecnicamente
+più avanti
+vediamo
+le uniche
+le uniche
+depict
+entities
+class
+depict
+set
+of entities
+relation
+depict
+property
+set
+of entities
+and relation
+depict
+relation
+set
+set
+let's
+notare bene
+che
+a livello
+di modello
+property
+relation
+sono
+questa cosa
+qual'è la differenza
+di ricordazione
+che andava
+su blog
+come vedremo
+più avanti
+la lezione
+è perché
+sempre
+quando noi
+facciamo
+un modello
+di quistico
+del mondo
+ci hanno insegnato
+così
+a parte la vostra
+cultura
+ci andiamo sempre
+insieme
+di data type
+però poi
+al fine
+il numero 1
+è un'entità
+del mondo
+matematicamente
+cos'è che
+il divoegge
+di qualsiasi
+è il numero 2
+com'è il numero
+matematicamente
+non sapete
+cos'è
+com'è
+matematico
+a
+che voi
+mi riprovi
+io vi dico
+sì ma
+l'uno
+è un'entità
+sì ma
+che entità
+è
+matematicamente
+no
+è un esame
+che ho fatto
+una volta
+un orale
+e ho chiesto
+a uno studente
+che ho già
+mi chiestato
+il diviniero
+la domanda
+che ho fatto
+ma
+è una giovane
+gli ho chiesto
+che cos'è
+che hanno
+il cubone
+tre alber
+e tre albite
+cos'è che hanno
+i cubone
+tra le alber
+e tre albite
+chi lo sa
+sono tre
+ma com'è
+che si cattura
+matematicamente
+insieme
+sì
+sono due insieme
+ma
+tre albite
+ma tre albite
+hanno la stessa
+situazione
+di
+equivalenza
+di
+tre albite
+tre albite
+tre rosa
+o tre albite
+tre albite
+tre
+città
+cos'è che c'è
+il comune
+con il figlio
+di insieme
+che ha
+tre
+il numero
+il numero
+di elementi
+il numero
+di elementi
+sì ma
+mi stai dicendo
+che il numero
+è tre
+il numero
+di elementi
+ma devi dire
+matematicamente
+eh
+esatto
+lo facciamo a calcolare
+lo facciamo a matematicamente
+a formalizzare
+la caldinalità
+questo è il numero
+di elementi
+tra l'insieme
+si fa così
+grazie
+c'è l'albero
+c'è l'albero
+c'è l'albero
+poi qua c'è la matita
+qua c'è la matita
+poi c'è la matita
+per ogni elemento
+diventa insieme
+dati qualunque insieme
+la caldinalità
+è così
+per fare
+un'azione
+più anivocata
+a tutti
+le vite
+dell'insieme
+è chiaro?
+infatti
+il numero
+di qualunque
+il numero
+è l'insieme
+tutti insieme
+della caldinalità
+quindi
+in quest'ottica
+qui
+il numero
+uno
+ne metto
+insieme
+e poi ovviamente
+tanto per divertimento
+per 5 minuti
+è chiaro no?
+vi comincia?
+è chiaro no?
+questo è un'altra
+risposta
+non vi comincia
+ovviamente
+diciamo
+bello bello
+bello
+da buoni ingegneri
+come ero io
+che sono io
+e poi ti dico
+sì ma guarda
+questo esempio qua
+uno
+uno
+due
+quattro
+tre
+nove
+sei
+quattro
+sedici
+5
+25
+numero
+il quadrato
+del numero
+c'è la reazione
+uno a uno
+eh ma tu dicevi
+i due quadrati
+sono più
+o meno
+infatti
+all'infinito
+insieme
+ma insieme
+i codi
+non si accade
+in realtà
+anche le matematiche
+questo insieme
+all'infinito
+questo insieme
+all'infinito
+perché
+una volta
+in usata
+la definizione
+di una
+in questa maniera
+così è
+allora viene fuori
+che se tu prendi
+chiamiamo
+omega
+l'infinito
+fai uno
+più
+l'infinito
+è diverso
+da uno
+più lì
+anche qui
+non ce li devi
+mai usare
+se aggiungi
+un oggetto
+finito
+un insieme
+infinito
+un insieme
+infinito
+non cambi
+la presentazione
+insieme
+vabbè
+queste sono tutte
+curiosità
+per dirvi
+che quando si
+comincia a fare
+la logica
+la matematica
+magari
+per dare l'idea
+che questi concetti
+che siamo
+molti semplici
+in realtà
+hanno un significato
+molto profondo
+e che
+tra i informatici
+avere in mente
+questa cosa qua
+ti aiuta a pensare
+bene
+quando facciamo
+il nostro lavoro
+passo dopo
+quindi
+abbiamo detto
+però
+comunque
+se abbiamo detto
+che cosa
+che
+quando noi diciamo
+che nel mio dominio
+di interpretazione
+come lo faremo
+più avanti
+il solito
+di data type
+io vi compresi
+i numeri
+vi avete chieduto bene
+ma sto dicendo
+che i matematici
+dicono come fate
+ok
+quindi
+dato un colunque
+un universo
+di un'interpretazione
+se vogliamo mettere
+detratare il tento
+possiamo mettere
+e continuiamo a fare
+degli insiemi
+quello sarà
+l'insieme
+e tutti gli insiemi
+che è cambiato
+della camminarità
+3 a 4
+5
+6
+qual'è un fatto
+parte importante
+perché
+è dove
+esattamente
+arriviamo
+perché
+siamo dati
+i percetti
+non siamo dati
+gli oggetti
+che noi percepiamo
+però
+se voi ricordate
+quello che io ho detto
+ieri
+ho detto
+che
+nel ragionamento
+in particolare
+quando arriviamo
+al livello
+della classe
+del ragionamento
+quella della saggetta
+così chiamata
+tu ragionisci
+a chi viene
+ciò che fa
+ok
+quindi
+noi
+vogliamo
+poter dire
+anche un meccanismo
+nel
+nel linguaggio
+per poter dire
+per fare
+delle frasi
+o delle sentenze
+di cui
+il vero
+parte
+queste sentenze
+qua
+tipo
+è vero
+che oggi
+piove
+sì
+è vero
+che cammino
+sì
+ok
+ma
+con il
+effetto
+è la
+modo
+che
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+va
+coordinato
+stato
+temporale
+poi
+fa
+l'altro
+sì
+è vero
+sì
+è vero
+sì
+è vero
+che
+la cosa
+interessante
+c'è il verbo
+è il verbo
+è poi la tripla
+che vedrete
+che vedrete
+come ho detto prima
+se esattamente
+per caso
+l'ho detto prima
+brand
+brand
+
+linguistiche, di cui puoi dire che denotano, che sono vero o false, che denotano dei fatti,
+che sono esattamente queste percezioni che si può dire o meno se dato un certo spazio
+temporale è vero o falso che c'è, che ci sono.
+Tematicamente, quella è quella che nella lezione che ti chiedi, qui purtroppo dovrebbe essere linguisticamente,
+quindi cos'è che è un fatto di certidore? Un fatto lo modelliamo dicendo, è una member of relation between a unit and a class.
+Fausto è un professore, è vero, sì. Fausto è una donna, no. Il primo tipo di fatto.
+Fausto è amico di Alfredo, sì. No, non lo so, è poco importante. Fausto è in aula, sì.
+Donna è un sottinsieme di persone, sì. Essere demitori è un sottinsieme di essere parenti,
+sì. Essere, e così via, però appunto quando in Italia volevo dire, questo è una generation
+a trip, almeno che sa ciò di dire. Essere demitori in Italia è un sottinsieme di essere parenti
+in Italia. Se no, assumiamo anche il concetto di parenti, ci mettiamo in Italia con i parametri
+in Italia. Però di fatto, quello che vi sto dicendo, è che in tutte le vostre somatizzazioni
+avete tre tipi di relazioni. Di ruolo, di spazio-tempo, c'è anche maggiore e minore,
+prima o dopo. E di azione. E tutte queste sono insieme, insieme, insieme, insieme a ciò
+di pensare. E questi si chiamano fatti. Qual è il passo che abbiamo fatto dei percetti
+e dei fatti? Che i percetti vengono costruiti, messi sempre dai fatti. Del fatto puoi dire
+che è vero o falso. Del fatto se adesso piove a New York, possiamo dire che è nostro.
+Il fatto di New York possiamo dire che è vero o che piove. Tutta questa roba qui la facciamo
+o che è arrivata perché stavamo qua. Quando voi fate l'esercizio, la fate per non
+arrivare a dire queste sezioni sul mondo. E tutte queste, nel caso semplice, nel 90
+come adesso si usa da noi, siamo tutte triple. Dobbiamo fare questo triple. Poi c'è un sacco
+di... se uno lo può fare, lo facciamo a ridurre in una versione nazia, in una versione binaria,
+si può fare, non lo facciamo in questo corso, in altri corsi. Comunque stiamo dicendo
+che tutto il lavoro che abbiamo fatto noi, non è che abbiamo fatto prima, avevamo le
+immagini, ci siamo dati i scientifici perfetti, perfetti, perfetti, perfetti, perfetti, e ora
+ci andiamo a scegliere tra tutti i percetti quelli che ci interessano. Perché sono quelli
+che ci interessano? Perché quando abbiamo questo possiamo dire se è vero o falso. È
+chiaro? Quindi non solo, perché poi infatti vedremo nella prossima lezione che non solo
+ci diamo i nomi per tutti i percetti, ma ci daranno, ci daremo la sintassi, come voi
+l'avete già vista, per dire quali sono le frasi che ci interessano dire. Non diciamo
+le frasi che ci interessano dire, ci interessano dire ciò che è vero o che è falso. Quando
+abbiamo fatto questa roba qui, abbiamo fatto un sacco di lavoro, ma lo ripeto perché questo
+è il significato della logica, da adesso in poi quando siamo arrivati qui, da qui in poi
+abbiamo alcuni ritmi che sono caretti. E chiaramente magari non importa dove c'è un'applicazione
+sull'utilizzo, ma va sicuro che chi fa il software per i primi per l'aereo è tutto così.
+Fortunatamente, per quello che non cade un casino. E chiaramente lasciano passare dalla
+appellazione di quello naturale, magari qui ci sono 5 mila valutazioni. Perché
+perché gli avrebbero il problema
+tu devi pensare che un aereo
+un tremo non deve
+non deve
+averlo detto
+però di fatto ad esempio
+in metodi formali chi gli vuole fare un model checking
+mi chiede un model checking
+è perché costruiscono un modello
+quanti stati ha il modello 10 alla 50?
+il grosso 10 alla 50 stati
+non lo faccio
+ma la cosa interessante è che abbiamo solo questo
+avevamo 7 tipi di percetti
+e abbiamo 5 tipi di percetti
+ed è il motivo per cui voi avrete
+fare il final save machine
+così che una volta che ci date questa forza
+questa capacità di astruzione
+che a posteriori è abbastanza magica
+possiamo fare quello
+in informatica sappiamo capire
+e adesso non ci fa i sistemi di tecnica
+e quindi sono
+vedete qui cos'è che ho cambiato?
+è quello che avevo fatto precedente
+vedete qui ho messo le relazioni
+è vero che questo è un fatto numero uno
+un elemento di accazzo
+una donna è una persona
+Paolo ha come un animale
+le donne sono persone
+le persone vicine sono insieme
+degli amici
+perché sono nemico
+non troppo io vicino
+le persone
+tutte le persone
+non so
+quanto riguarda il prodotto cartesiano
+le persone droghe
+sono insieme
+di S-Dog
+S-Dog
+è un pochino
+è un pochino
+è un pochino
+è un pochino
+ha certo
+sì perché
+S-Dog
+è più
+è un pochino
+è un pochino
+è un pochino
+è un pochino
+perché c'è animale qui
+e qui stiamo dicendo invece
+che il prodotto cartesiano
+sono persone
+non sono insieme
+di S-Dog
+non so come mai
+però
+è davvero scritto
+è chiaro?
+oh
+per questi sono
+uno, due, tre, tre, tre, tre, tre
+sei fatti
+ogni mi deve essere
+ok
+bene
+queste
+sono
+affermazioni
+sono fatti
+scritte
+nel linguaggio
+della serpia
+ok
+ricordate voi
+sentire abbiamo
+un linguaggio
+che ci permette
+di descrivere
+quello che è vero
+nell'apprezzazione
+analogica
+ovviamente
+sicuramente
+apprezzate
+quante informazioni
+abbiamo perso
+ma come ho detto prima
+nella misura in cui
+questo è un'unica
+che ti interessa
+va bene così
+ok
+e a questo punto
+verso le ovvie
+definizioni
+che vi potete guardare
+come ho detto prima
+in
+cos'è
+di tutti i fatti
+sono proprio
+banali
+banali
+affermazioni
+certe
+e poi
+in questo punto
+un altro esempio
+fatti
+sono
+rappresentazioni
+di percezione
+che descrivono
+che cos'è
+what is the case
+ricordate
+che la volta scorsa
+adesso cominciamo
+ci stiamo dando
+abbastanza linguaggio
+no
+vi ho detto
+che
+noi
+nel mondo
+ci sono delle cose
+che non accettiamo
+come vero
+e diciamo
+che nasce
+l'inconsistenza
+consistenza
+consistenza
+l'ho detto
+effettivamente
+è il fatto
+che si chiama
+il mondo
+che non è possibile
+se io dico
+se io dico qua
+mary
+belongs
+to
+è possibile
+o non è possibile
+sì o no
+glielo dite
+che è una cazzata
+lo sappiamo
+che è una cazzata
+però è possibile
+è una chiamata
+il consiglio
+spu
+ma se uno
+mi dice
+mary
+appartiene
+a human
+ma
+ti dico anche
+che
+spu
+un terzo
+gatto
+human
+come giusto
+che sia
+è uguale
+all'insieme
+vuoto
+questo non è possibile
+è chiaro
+e qui stiamo arrivando a dubbio
+perché adesso
+vi ho fatto vedere
+che
+questa sarà una cosa
+quando noi
+faremo di consistenza
+vuole dire
+che noi abbiamo messo
+un insieme di fatti
+dove il fatto
+che mary
+sono sfum
+va benissimo
+ma poi
+se gli metto
+che mary
+è una sfum
+ma è anche una persona
+e poi come persona
+dico anche
+che le persone
+non sono
+cucchiai
+e no
+viene fuori
+in consistenza
+e qui abbiamo
+gli algoritmi
+ovviamente
+che sarebbero
+quelli che facciamo
+e perché ovviamente
+ho messo un merito
+perché è ovvio
+che il nome
+è scelto così
+però quando puoi andare
+a fare qualcosa
+non c'è informazione
+l'informazione
+è esattamente
+della teoria
+dell'insieme
+ok
+io ho dovuto usare
+non per spiegare
+ho usato il nome
+per farvi indurre
+che è esattamente
+cosa succede
+è una rappresentazione
+che non è poi
+quella che
+l'albero dei modelli
+dice
+che è quella
+che poi ti permette
+esattamente
+di risolvere
+i problemi
+di inconsistenza
+di diversità
+questo insieme
+dei fatti
+ok
+ok
+ora ovviamente
+parliamo dei domini
+cos'è il dominio?
+il dominio
+abbiamo detto
+che è l'insieme
+dei percetti
+non l'abbiamo detto
+l'inizio
+vorrei parlare
+però
+se io mi do
+lo spazio
+del dominio
+cioè
+da parte del mondo
+che è l'insieme
+insieme
+dei percetti
+a questo punto
+se io mi do
+la teoria
+dell'insieme
+costruisco i fatti
+quindi
+banalmente
+dato il dominio
+insieme
+dei percetti
+posso
+portare il dominio
+insieme
+dei fatti
+che sono
+indossi
+dal percetto
+quindi
+siamo passati
+da una descrizione
+del mondo
+che è l'insieme
+di tutte le cose
+di tutti i percetti
+cioè di quelle cose
+che possiamo percepire
+che
+il certo
+che lo possiamo percepire
+ha
+un dominio
+del mondo
+che nel noi
+c'è un dominio
+che nel noi
+di interpretazione
+che è l'insieme
+di tutte le cose
+che sono vere
+o fatti
+allora
+se io prendo
+questo dominio
+uguale a
+questi tre fatti
+qui
+a questi due fatti
+qua
+anche
+questi tre fatti
+qua
+fatti uno
+questi fatti
+no?
+fatti due
+fatti tre
+quel dominio lì
+è un possibile
+dominio
+insieme al mondo
+sì o no?
+sì o no?
+no
+e se c'è sì
+perché
+il dominio
+come vedremo
+per un minuto
+vi ricordate
+quando
+abbiamo fatto
+la sezione
+abbiamo fatto
+l'insieme
+di vendaggio
+vari punti
+che hanno fatto
+una relazione qua
+e una relazione qua
+però
+queste ne hanno lasciato
+fuori
+quindi
+il dominio
+non dice
+dice lo spazio
+di quello
+che io posso
+considerare
+quindi
+io posso
+avere un mondo
+in cui
+una meri
+un cucchiaio
+e un mondo
+in cui
+la meri
+e la donna
+non posso
+avere
+insisto
+ma per essere
+concreti
+voi potete avere
+un mondo
+in cui
+lunedì
+piove
+e un mondo
+in cui
+lunedì
+è sole
+allora
+la cosa importante
+è capire
+concettualmente
+di quando
+fai la
+model theory
+quando definisci
+il dominio
+definisci
+lo spazio
+di quello
+che tu
+puoi dire
+non quello
+che stai
+dicendo
+defini
+quando tu
+fai il linguaggio
+come lo definiremo
+in una persona
+e ti dai la parola
+piove
+sole
+biondo
+quello che è
+se ci pensate bene
+poi voi
+li fate
+insieme
+come volete
+e a seconda
+di come
+li pensate
+insieme
+dice delle cose
+qual è il problema
+che se usate
+la difficoltà
+del linguaggio
+di dire
+che
+una persona
+un oggetto
+è una cosa
+e l'altra
+e i due
+non possono
+stare insieme
+e state
+dicendo
+una cosa
+che è
+inconsistente
+e soltanto
+non lo possiamo
+calcolare
+perché
+come voi
+faremo
+per la logica
+noi diremo
+nella specifica
+delle
+normal logics
+quali sono
+e diremo
+che
+cucchiaio
+insieme ai cucchiai
+la classe
+dei cucchiai
+la classe
+delle persone
+sono disjunte
+ma una volta
+che me l'hai detto
+questo è common sense
+lo sanno tutti
+non è che abbiamo
+in vivo
+non lo scriviamo
+perché lo sappiamo tutti
+una volta che l'ho detto
+è algoritmico
+le famose
+allucination
+non esiste
+fa parte
+di quel common sense
+che noi abbiamo
+e che dobbiamo
+formalizzare
+per portare
+una macchina
+a non dire
+queste cattate
+vediamo
+però il punto fondamentale
+è che noi
+lo dobbiamo
+lasciare dire
+alla macchina
+devono andare
+nella possibilità
+di dire questo
+e parlo in sentio
+perché chiaramente
+nel linguaggio
+poi uno dice
+si
+intendevo spuma
+ho chiamato spuma
+intendevo person
+no
+non sta parlando
+sta parlando proprio
+del mondo
+è il motivo
+per cui
+la sensazione
+è il suo fondamentale
+è il motivo
+per cui
+la moda
+è il tiro
+il passaggio
+alla posizione
+del dominio
+è il suo
+quindi
+quando noi
+facciamo
+il percetto
+dominio
+la posizione
+del dominio
+dipende
+uno
+prima
+il due
+dei percetti
+l'abbiamo già detto
+la persona
+con la memoria
+dopodiché
+la sensazione
+di quello
+che noi
+vogliamo poter dire
+ovvero sia
+di tutte le possibili
+facchi
+veri e falsi
+in quella roba lì
+quelli che noi
+andiamo a scegliere
+ok
+vai qua
+se vuol far
+tutto e non
+qualcosa
+che potrebbe essere
+vero
+se ci pensate bene
+altro non è
+il linguaggio
+definito
+non l'avete fatto
+in grammatica
+nella grammatica
+la chiusura
+tra l'estima
+di
+inferenza
+altro non è
+che
+tutto quello
+che potete dire
+se non avete
+il percetto
+e se non avete
+la regola
+della grammatica
+non la potete dire
+ok
+e va bene
+poi di volta
+in volta
+ogni volta
+prendiamo l'applicazione
+andremo a scegliere
+quelli che ci servono
+come
+a questo punto
+quando riguarda la fine
+ci siamo dati
+gli insieni
+ci siamo dati
+i percetti
+ci siamo dati
+i fatti
+ci siamo dati
+i domini
+ora dobbiamo poter dire
+qui è vero questo
+e non è vero questo
+dobbiamo poter dire
+che questo
+non lo vogliamo
+e questo è il percetto
+di modello
+ed è il percetto
+per cui
+adentriamo modelli
+se lo dà il modello
+questo modello
+un modello
+che insieme
+i fatti
+come un dominio
+ma
+è notare bene
+che non posso scegliere
+quanto piccolo vuoto
+il dominio
+può anche essere
+il dominio
+che insieme
+nei fatti vuoti
+che vuol dire
+che non ho
+che non
+non sto imponendo
+nessun tipo
+di conoscenza
+è partiale
+già assominio
+ricordate
+ci abbiamo
+l'apporto
+facevamo la parzialità
+perché ci ne avevamo
+i percetti
+abbiamo fatto
+la parzialità
+perché ci ne avevamo
+i fatti
+tutte scelte
+che creano
+quella diversità
+la subiettività
+e che noi possiamo
+modellare matematicamente
+di quello che ho parlato
+è una seconda lezione
+quindi
+due parti
+ci sono
+unitamente inconsistenti
+e questa
+è una
+infiezione
+perché
+il concetto
+di infiezione
+due parti
+sono inconsistenti
+se uno
+il fatto
+che
+in un modello
+sempre uno
+appartiene a M
+e che
+vuol fare il prodotto
+proprio appartiene a M
+diceva
+notare bene
+che
+questa roba qui
+della consistenza
+inconsistenza
+di fatto
+quello che ho detto prima
+ma da dove arriva
+questa consistenza
+inconsistenza
+dov'è l'inconsistenza
+sicuramente
+nella testa
+abbiamo
+la stessa
+mariterella
+e la maniera
+e lo vogliamo
+per dire
+sicuramente
+nella testa
+abbiamo
+che se c'è la donna
+non serve
+un cucchiaio
+ma poi
+diciamo questo
+lo forziamo
+è quella cosa
+che a scuola
+abbiamo imparato
+e che
+nei sistemi
+mettiamo
+esattamente
+le logiche
+dei concetti
+e vediamo
+che la gente
+ha tentato
+oggi
+che quando tu
+non è che tu vuoi
+essere confuso
+su cucchiaio
+e le forchette
+ok
+tu vuoi
+catturare il fatto
+che
+vedi un cucchiaio
+un cucchiaio
+un cucchiaio
+non è una forchetta
+quindi
+questo concetto
+di inconsistenza
+è un concetto
+che si fa
+che è primitivo
+ma è primitivo
+perché
+è perché
+non decidiamo noi
+e com'è che facciamo
+decidere
+perché scriviamo
+le regole
+scriviamo qua
+e poi come facciamo
+a dirlo
+che se ogni volta
+che io mi fai
+un insieme
+e mi ci metti
+per quale
+io dico
+sono inconsistenti
+insieme
+io ti dico
+che non va bene
+e dico
+che non va bene
+matematicamente
+ma perché
+se io ho fatto bene
+questa somatizzazione
+questa roba qua
+è esattamente
+quello che
+io voglio
+che succeda
+non voglio
+che i cucchiai
+mi mettono qualche
+non voglio
+che i due treni
+non si scondi
+due treni
+che non si scondano
+come i due treni
+non si scondano
+e così via
+scaricato
+quindi
+la regola è
+che un modello
+dato un dominio
+dato un dominio
+ci sono due
+alla
+è definito
+come insieme
+di fatti
+ci sono due
+alla n
+possibili modelli
+che sono
+insieme
+del dominio
+quindi
+una volta
+siamo dati
+il linguaggio
+per definire
+con tutte queste regole
+possiamo
+questionare il modello
+ma mentre qui
+noi permettiamo
+più salire
+non ciò
+possiamo dire
+allora ci permettiamo
+anche fatti
+consistenti
+e poi
+ovviamente
+abbiamo l'altro
+che abbiamo
+calzolato
+ok
+un modello
+è l'insieme
+dei fatti
+che noi
+siamo interessati
+e quando faremo
+poi
+la teoria
+come ho già detto
+le regole
+le regole
+le SO
+le triple
+che scriveremo
+diranno
+esattamente
+il modello
+che consideriamo
+ma il modo
+con cui le scriveremo
+saranno tali
+per cui
+noi possiamo
+algoritmicamente
+decidere
+se data
+un certo modello
+che abbiamo costruito
+di una certa maniera
+noi stiamo costruendo
+un modello
+che è in questo sistema
+e chiaramente
+come è
+parlato del model
+checking
+come è fatto
+ad esempio
+un sistema
+che mi dice
+a garantizzarti
+a dire
+che
+che le regole
+non si scontrano
+e tu fai
+questo
+il modello
+e poi dici
+le regole
+si scontrano
+e lui ti dice
+no
+non è possibile
+a quel punto
+la tua
+il tuo go
+tu gli dici
+tutte le cose
+che non vuoi
+gli dici
+ma è vero
+o non è vero
+e lui ti dice
+no
+non è vero
+e si è sbagliato
+ah è vero
+ah si
+guarda
+è vero
+che si scontrano
+perché se per
+il segnale lì
+diventa verde
+diventa arancione
+il vetenziato
+si avrò
+cambio
+e si scontrano
+e ti prova
+esattamente
+la sequenza
+di relazioni
+tali per cui
+il vetenno
+è assolutato
+e tu non avevi
+dimenticato
+ma perché
+non avevi dimenticato
+non perché sei sceco
+ma perché è uno
+su duecento miliardi
+ovviamente tu non c'hai
+verso che andava a pensare
+ma la pensata
+è la macchina di azione
+quindi un dominio
+è quello che
+abbiamo detto
+insieme di quello
+che noi
+possiamo percepire
+permette in consistent facts
+e questa è l'ultima slide
+chi di voi
+no
+i matematici
+fanno tutto questo
+da qui in poi
+c'è l'infinito
+se non può fare matematica
+teorie dei tipi
+teorie dei modelli
+lo gioco fino a fa modelli
+come in realtà
+come moderno
+costruisce un altro
+come in questi due modelli
+gli facciamo il parallelismo
+li mettono insieme
+che stiamo
+a noi non interessa
+però vogliamo dire
+però abbiamo detto
+come c'è l'infinito
+e poi ci chiede come
+per far questo
+di vestire
+ah certo
+il quadro
+lo stavano facendo
+sicuramente
+è un montaggio
+di lavoro
+a noi non interessa
+il concetto
+che abbiamo forzato a casa
+con cui chiediamo oggi
+sono
+per certi domini
+fatti modelli

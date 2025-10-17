@@ -1,0 +1,4045 @@
+Ma una proposizione è un giudizio di valore, di verità rispetto alla cosa che c'è detto, se io dico piove, questa è una sezione, se io dico è vero che piove, questa è una proposizione, e voi mi dite è una stessa cosa, e no, non è una stessa cosa,
+perché nel momento che tu ti permetti di dire è vero che piove, puoi dire anche falso che piove, e puoi anche dire non so se piove.
+Il tuo giudizio sul valore di verità è un giudizio che permette la sezione del giudizio di valore di verità su una sezione, ti permette di dire sia che la sezione è falsa,
+e questo può introdurre il famoso segno negazione che avete visto, ma anche il fatto che non sai, ok?
+E, come vedremo poi nel testato che non fanno gli algoritmi, la conoscenza della detta parziale è, insieme alla conoscenza negativa, è dove essenzialmente il 90% degli errori vengono fatti.
+Quindi di fatto noi in questo corso qui, ci occupiamo di quelle quattro attività, e in particolare di queste quattro, cosa sono?
+Sono rappresentazioni del mondo, sono quattro rappresentazioni del mondo, che noi costruiamo sequenzialmente, in qualche maniera,
+e che la logica ti permette di ricostruire e di ragionarci solo, ok?
+Quindi di fatto noi, alla fine di questa lezione, spero di essere riuscito a farvi capire come, su questi quattro concetti,
+noi riusciamo a fare un calcolo, un algoritmo, tale per cui riusciamo alla fine a far cosa?
+Avere una memoria, capire se la memoria che abbiamo è consistente con quello che abbiamo visto,
+è vero, se io vedo un uomo a tre gambe, è vero o non è vero? Non l'ho mai visto, quindi, o è venuto un marziano, non è vero.
+Però non è un uomo, perché in finché non è un uomo a tre gambe.
+Non solo, il fatto di riuscire a estendere quello che conosciamo tramite meccanibili ragionamento,
+che ci permettono anche di derivare, di capire, di conoscere cosa noi non sappiamo.
+E ovviamente, questo ovviamente non è vero nei grandi sistemi informatici,
+ma sicuramente nel sistema di diritto artificiale, questa roba qui viene implementata una pipeline,
+continua ad andare, continua a percepire, continua a richiedere la memoria,
+continua a aggiustare, l'alliniamo, eccetera, eccetera, eccetera.
+Di fatto questo è il processo, i dati, le percezioni, le percepiamo, delle rappresentazioni,
+poi queste rappresentazioni subconsci delle immagini diventano concetti, concettualizzazioni, nuovi,
+diventano sezioni che sono proprietà di quello che abbiamo visto,
+una cosa, una maglietta nera, una maglietta, cosa vogliamo,
+ma diventano giudizi di verità, vero o falso di quello che ci dicono sono assenzioni.
+Bene, noi dobbiamo semplicemente formalizzare questo aspetto qui
+e fare un calcolo logico che formalizza questo aspetto falso.
+Ricorderete questa slide qui?
+È un record, voglio scrivere il record qui.
+Abbiamo parlato di rappresentazioni analogiche e di rappresentazioni linguistiche.
+Allora c'è il mondo, ma al mondo nessuno ha accesso,
+noi abbiamo accesso a quello che percepiamo
+e questo è quello che viene chiamato le percezioni,
+quello che noi percepiamo.
+Tutto il resto,
+quindi le altre tre rappresentazioni,
+concetti, assezioni e proposizioni
+sono nella parte linguistica.
+Come vedremo tra cinque minuti,
+fino adesso
+e nei corsi di logica
+vi hanno fatto un sacco di linguaggi,
+che avete visto in fatti,
+tipo di Armore,
+di OML, quello che volete,
+ma non sempre dato da sintassi più o meno precisamente,
+ma non vi hanno mai dato la semantica.
+Quindi vi hanno detto più o meno,
+in ogni modo,
+quella roba di voi le proprietà,
+ma non avendovi dato la semantica,
+non potevano e non potranno mai
+dimostrare che un certo calcolo,
+un certo algoritmo
+è corretto rispetto a quello che hai visto.
+Quindi l'elemento di nuovo
+che vi porto in questo corso
+vi diamo un meccanismo
+per formalizzare
+la semantica, così chiamata,
+le rappresentazioni analogiche,
+tramite questi oggetti
+di presenti percezioni
+e sulla base di quello
+non solo vi darò le regole
+come sopprima per calcolare alfa,
+ma dimostreremo
+che sono le corrette e completi.
+Ovvero sia,
+se quella tua memoria
+è corretta,
+sei garantito
+che quello che deduci
+è corretto.
+Non solo,
+sei garantito,
+su certi ipotesi,
+su certi calcoli
+molto costosi,
+in quel dita computazionale,
+che sei completo.
+Ovvero sia,
+non ti dimentichi
+la generabilità.
+È chiaro?
+qui dove stiamo andando.
+La cosa interessante,
+quindi di fatto,
+adesso noi,
+in questo corso vi do,
+in questo corso,
+in questa lezione,
+la panoramica
+da arrivare al mondo
+a qua in cima,
+questa è la rappresentazione
+che vi ricordate
+che ho messo
+in la lezione precedente
+dicendo
+tutto questo è mentale,
+noi ci dobbiamo dare
+dei linguaggi
+di rappresentazione
+che ci mappano
+questo processo,
+esattamente quello
+che dobbiamo fare
+ed è quello
+che facciamo adesso.
+in questa lezione
+proverò a raccontarvi
+usando il concetto
+di piramide,
+vedremo anche poi
+dove mai,
+in che modo
+il processo
+di formalizzazione
+logica
+si struttura
+garantendo in ogni passo
+la qualità
+e la competenza
+del ragionamento,
+ossia
+della capacità
+di dire
+ok,
+sono un po'
+di piramidi
+da fare adesso,
+questa piramide
+la prima
+è stata fatta
+da un
+famoso
+detesista
+dell'89
+e l'ho fatta
+e l'ho messa
+anche se
+potevamo farla
+meno
+perché in qualche
+maniera
+si mappa
+sui termini
+che noi conosciamo
+ovviamente
+questa
+Wilton qui
+non si sa bene
+che cos'è
+infatti se uno
+legge il tempo
+non si viene
+cos'è
+ma i dati
+in qualche
+maniera
+lo capiamo
+lui ha detto
+quando tu fai
+un sistema
+informativo
+di avere i dati
+i dati
+portano
+informazione
+è interessante
+lui fa
+information
+systems
+quindi
+lui dice
+i dati
+da soli
+non portano
+informazione
+i dati
+connessi
+danno
+informazione
+in realtà
+se ci pensate
+bene
+i dati
+in qualche
+maniera
+sono simili
+a quello
+che è
+Marco
+per
+certi
+perché
+il dato
+vuol dire
+che c'è
+stato dato
+l'informazione
+in qualche
+maniera
+l'informazione
+che hai
+sui vari
+dati
+la conoscenza
+è la conoscenza
+che tu sai
+e lui
+su
+iso
+si è un po'
+applicato
+sui denti
+in realtà
+non si capisce
+cosa vuol dire
+noi qui
+in qualche maniera
+lo tradiciamo
+come la capacità
+di ragionare
+su quello che sai
+e quello che non sai
+e di fare la scelta giusta
+se guardate il vocabolario
+wisdom
+ha questo significato
+di
+si dice
+i vecchi
+se non saggi
+perché sono
+una scelta giusta
+quindi
+c'è una capacità
+poi è chiaramente
+molto discutibile
+anzi direi
+che è abbastanza
+sbagliato
+assumere che la wisdom
+non la sardietta
+se è solo
+ragionamento
+ma
+in questo contesto
+ci va bene
+comunque
+il punto fondamentale
+volevo dire
+che
+le quattro
+di questa slide qui
+e poi qui potete leggere
+i dettagli
+i quattro livelli
+che io
+vi ho rappresentato
+per fasi
+del ragionamento umano
+in realtà
+si mappano
+abbastanza naturalmente
+sui quattro concetti
+che noi facciamo
+quando facciamo
+dei tavei
+sistemi
+informativi
+e anche
+intelligenza
+che facciamo
+e in effetti
+in questo corso
+noi andremo avanti
+in parallelo
+a fare
+la logica
+come moderazione
+del ragionamento
+ma in tutte le
+esercitazioni
+vedremo come
+a cominciare
+anche da oggi
+in maniera minima
+come tutto quello
+che noi formalizziamo
+in logica
+in realtà
+ha una controparte
+in quello che avete
+già visto
+e in questa
+metà
+già visto in parte
+anche la comprensione
+è questo
+che lo volesse
+uno
+questa
+è quella
+di prima
+è la
+di
+di
+KVB
+che è
+carica
+di prima
+se la guarda
+quella
+slide precedente
+che vi ho fatto
+vedere
+ci sono i
+percetti
+ci sono i
+concetti
+i concettori
+le azioni
+le azioni
+le azioni
+sono le proposizioni
+allora uno dice
+ma perché
+hai messo i dati fuori
+hai messo i dati fuori
+perché
+in qualche maniera
+lui probabilmente
+dal sistema
+informatico
+se non gli dati
+c'era meglio
+ma pensate bene
+cos'è la percezione
+la percezione
+non è altro
+che il processo
+tale per cui
+l'informazione esterna
+ne arriva in testa
+quindi la percezione
+è quel qualcosa
+che prende i dati
+e riporta
+su una presentazione
+analogico
+come l'abbiamo chiamata
+e poi
+i concetti
+i concetti
+e i concetti
+e le azioni
+io dieci minuti
+fa
+ve l'ho presentato
+come
+il fatto
+di collegare
+non mettere più
+non dire solamente
+ho visto una persona
+ma ho visto una persona
+vicino a un'altra persona
+e queste informazioni
+il concetto
+di concetti
+e le azioni
+che è il concetto
+di legare le parole
+per scrivere cose
+vero o false
+è molto
+è essenzialmente
+un concetto
+di informazione
+la conoscenza
+è quella che sappiamo
+e io l'ho chiamata
+con insieme di azioni
+lui ha questo termine
+wisdom
+che io dico
+è la capacità
+di dare un giudizio
+di valore
+magari
+nel caso di legare
+non è solamente
+vero o false
+ma non ci basta
+per i momenti
+poi ovviamente
+non può entrare
+a far entrare
+quello che vuole
+nel GLLM
+c'è l'intero infinito
+sul value alignment
+tra GLLM
+e gli umani
+però in questo contesto
+in questo contesto
+per noi
+la saggezza
+è la capacità
+di fare
+un giudizio
+un giudimento
+di valore di verità
+su una sezione
+che ci viene detta
+sul mondo
+ma la nostra conoscenza
+può modificare
+la percezione?
+sempre
+tu vedi solo quello
+che ti aspetti
+c'è un sacco
+in realtà
+è esattamente
+quello che succede sempre
+c'è un sacco
+di evidenza
+psicologica
+noi vediamo
+quello che ci aspetti
+e anche il motivo
+per cui la gente
+fa fatica
+a cambiare l'opinione
+è un attivista
+che dice
+è un fatto
+poi un po'
+cioè
+la
+faccio un esempio
+se tu entri in casa
+in casa
+ci sono i tuoi genitori
+i tuoi paresi
+che tu ne metti
+chiunque
+e tu vedi
+un'ombra a muoversi
+cosa vedi?
+vedi uno
+che non è mai visto
+in casa
+o vedi esattamente
+quello che ti aspetti
+che ti sia
+ti fa su un'ombra
+è chiaro
+che la memoria
+ti crea un prior
+fortissimo
+ed è il motivo
+per cui
+chi fa
+l'LMII
+o anche
+chi fa
+sistemi
+di treni
+o comunque cosa
+riesce a farlo bene
+perché
+una volta
+ci vedi
+la seconda volta
+poi dieci volte
+l'LMII
+certo
+potreste andare in casa
+e vedere un'ombra
+che è del lago
+però voglio dire
+è uno su centomila
+quindi è più
+un cerchio
+più che una piramide
+è l'altro
+infatti
+è l'altro
+infatti
+non è esattamente
+uno su di questo
+ma
+non è scritto
+niente
+mezzo
+ma
+soltanto che
+se tu lo vedi
+come vediamo
+perché
+l'abbiamo messa
+una piramide
+perché
+la piramide
+è più
+non mi sa
+pronunterà
+perché in realtà
+sale
+il livello
+di assenzione
+più sali
+e più
+ti allontani
+dalla realtà
+e vedremo
+a fine lezione
+che a questo livello
+qui
+non c'è più
+la realtà
+c'è solo
+vero e falso
+come ho detto
+la volta scorsa
+nel ragionamento
+come lo formalizziamo
+in logica
+dove il mondo
+non c'è più
+l'importante
+è solamente
+mettere insieme
+i valori di verità
+quindi
+la piramide
+vuol dire
+stiamo alzando
+stiamo dando struttura
+a quello che vediamo
+e tanto più
+diamo struttura
+e più creiamo
+dei prior
+e più creiamo
+dei prior
+e più influenziamo
+quello che
+quello che andremo a vedere dopo
+ed è il motivo
+tutte queste storie qui
+per cui
+è sempre difficile
+dal punto di vista
+anche sociale
+sociologico
+accettare cose diverse
+da te
+perché semplicemente
+la mente
+non è allenata
+magari un fa una cosa diversa
+non fa male
+no magari un fa una cosa diversa
+da te
+ma tu
+non riesci a capire
+cosa sta facendo
+non hai il traio pronto
+ok
+qui ho detto appunto
+che ho spittato
+questa lava qui
+perché io
+il dato
+lo intendo
+come il dato
+come nella mia testa
+facendo questa falsa qui
+e io il mondo
+non ce l'ho più
+ok
+e perché il mondo
+non ce l'ho più
+mi aiuta
+perché a questo punto
+io
+se riesco a darvi
+come riuscirò a darvi
+una formalizzazione
+di questo concetto
+dipendente
+dell'interno del mondo
+posso darti
+una definizione
+di correttezza
+io facciami una domanda
+ma la concettualizzazione qua
+mi descrive questo
+sì o no
+posso farlo
+lo farò
+farò esattamente questo
+questo calcolo
+mi permette
+di descrivere
+una cosa
+sì lo faccio
+questo diventa
+un formalismo
+facendo questo
+ho un formalismo formale
+tale per cui
+io posso
+calcolare
+la correttezza
+questa è la completezza
+o qualunque altra
+priorità di consistenza
+le vediamo varie
+ce ne sono varie
+rispetto
+al mio formaggio
+di video
+e infatti
+queste
+dalla slide
+precedente
+la seconda
+che vi ho fatto vedere
+sono le quattro
+attività
+lottate bene
+che
+sono messe
+un po' più basse
+cioè
+la percezione
+prende
+i input
+i dati
+e produce
+i percetti
+ok
+poi
+infatti i percetti
+nel mondo
+c'ho questa roba
+nella mia
+memoria
+subconscia
+gli do un nome
+mi vediamo
+un po' un secondo
+e poi compongo
+poi
+dopo che li ho composti
+prendo
+le mie costruzioni
+linguistiche
+e li metto
+in memoria
+però devo collegarli
+con quelli che ci sono
+quindi
+in ogni passo
+la mia attività
+prende in output
+in input
+le strutture dati
+delle rappresentazioni
+del mondo
+a livello precedente
+le sale
+qui abbiamo immagini
+qui dobbiamo rappresentare
+abbiamo immagini
+nel mondo reale
+dobbiamo avere
+un formalismo
+che ci permette
+di rappresentare
+le immagini
+qui abbiamo linguaggio
+qui abbiamo la memoria
+qui abbiamo proposizioni
+in ogni passo
+tu devi
+riuscire
+a questa funzione
+che formalizzeremo
+tutti questi passi
+li formalizziamo
+matematicamente
+è chiaro?
+quindi
+la logica
+a questo punto
+ve la posto
+la vedremo adesso
+e l'altro non è
+che facendo
+questa ipotesi
+che ho fatto adesso
+voglio sia
+di darmi
+un formalismo
+per formalizzare
+quello che io percepisco
+io da qui in poi
+faccio tutta
+faccio tutta
+matematica
+e data
+questa percezione
+posso costruire
+teori di competenza
+competenza
+è la
+capacità
+computazionale
+questo
+è quello
+che si chiama
+semantico
+l'elemento
+nuovo
+della logica
+di fatto
+è un altro
+di darti
+una semantica
+formale
+tutto quello
+che avete fatto
+fino ad adesso
+lo rifacciamo
+lo rifacciamo
+in un formalismo
+leggermente diverso
+ma
+a esercitazione
+vedrete
+che di fatto
+stiamo facendo
+la stessa cosa
+con la differenza
+che per ognuno
+di questi passi
+dimostreremo
+che il passo
+che facciamo sopra
+mi mantiene
+la semantica
+di quello che vedo
+se qui
+una cosa
+era così
+qua sopra
+se deduco
+nuovi fatti
+non posso
+che essere
+fatti veri
+in un'altra descrizione
+ok
+e poi c'era di qui
+cos'è che ho aggiunto adesso
+ho aggiunto il fatto
+che io
+dal primo
+dall'elemento
+dei dati
+percepisco
+i percetti
+ma poi dopo
+mettendo vicino
+faccio
+delle precisioni complesse
+qua prendo
+delle concettualizzazioni
+facciamo
+delle
+linguistiche
+ma qui le metti insieme
+con la memoria
+queste qua
+con la memoria
+oggettivo
+vero o falso
+poi le metti insieme
+con quello che è solo
+vero o falso
+quindi in ogni passo
+c'è sempre un passo
+di lifting
+all'elemento
+più alto
+e poi ad ogni livello
+dell'operazione
+quella roba
+lì che vi ho dato
+altro non è che
+è un'operazione matematica
+non è quella
+che l'avete visto
+cento volte
+giusto no?
+l'evenness
+degli algoritmi
+è quello
+l'evenness
+degli algoritmi
+sta qua
+infatti
+esiste un teorema
+che dice
+hai dato qualunque
+algoritmo
+esiste
+una deduzione logica
+che deduce
+essere no
+ok?
+quindi quello che voi avete
+quando voi avete fatto
+gear model
+e così via
+che cos'è che vi hanno dato?
+vi hanno dato
+tutte queste
+formule
+tutte queste
+rappresentazioni
+intermedie
+non vi hanno detta
+che cosa
+scrivevano
+e poi vi hanno detto
+ah sì certo
+pronto
+di gear model
+lo prendi
+lo fai diventare
+una class
+dire
+lo fai diventare
+una classe
+un oggetto
+e così via
+e poi fai
+le decisioni
+quello è
+ok?
+infatti
+questa la chiama
+la penale
+della conoscenza
+che è esattamente
+quella di prima
+dove è proprio
+messa in evidenza
+sulla piramide
+dove la piramide
+ha più significato
+di una illustrazione
+la percezione
+ci sono i dati
+nel mondo
+i dati nel mondo
+sono tantissimi
+e noi
+quello che facciamo
+con la vista
+ne scegliamo un po'
+quelli che ci interessano
+li seleziamo
+e ci facciamo questi dati
+questi dati selezionati
+li applichiamo alla vista
+e diventano
+elementi della mia memoria
+subconscia
+li prendo
+li faccio diventare
+parole
+la parole
+poi li metto insieme
+li faccio diventare
+delle descrizioni
+poi li faccio diventare
+memoria
+oppure li puoi buttare via
+normalmente
+una volta in memoria
+posso decidere
+se quello che vede
+è vero o falso
+e faccio ragionamento
+ok?
+in ogni passo
+ci sono sempre
+due aspetti
+che noi andremo
+a formalizzare
+matematicamente
+e che si possono
+formalizzare
+in algoritmi
+che è
+astrarre
+dal livello inferiore
+dalla rappresentazione
+di livello inferiore
+più vicino al mondo
+quello che abbiamo
+percepito
+perché qui
+chiaramente
+c'è percezione
+da qua a qua
+ma anche da qui
+a qui
+in ogni passo
+c'è un passo
+di lift up
+della rappresentazione
+e poi
+a un certo livello
+li mettiamo insieme
+ovviamente
+queste composizioni
+qui
+in logica
+ma anche
+degli algoritmi
+che abbiamo fatto
+fino adesso
+sono tali per cui
+se qui fai
+una composizione
+devi essere sicuro
+che vale anche
+per qua
+ed è esattamente
+questo
+che stiamo facendo
+questo implicitamente
+lo avete fatto
+quando abbiamo fatto
+fare lì a modo
+vi tornava tutto
+perché
+e perché in qualche
+maniera
+il dettavese
+bene o male
+non ve l'ha detto
+ma funzionava
+adesso dimostriamo
+esattamente
+perché dimostrava
+in più
+diamo
+possiamo vedere
+come tutta
+una roba lì
+era un caso
+particolare
+gli algoritmi
+generali
+di ragionamento
+dove in ogni fase
+è come se tu
+osservassi
+il mondo esterno
+è come se
+a livello dei concetti
+osservassi
+il livello dei percetti
+o comunque facessi
+delle quiri
+come esattamente
+i percetti
+fanno le quiri al mondo
+perché tu
+in qualche maniera
+quando guardi
+fai le quiri
+a quello che vedi
+scegli cosa vedere
+e poi sopra
+parigi
+ogni che altro
+questo progetto
+è il di composizione
+che vuol dire
+date delle cose
+nel deluto degli altri
+ok?
+domande?
+tutto il corso
+si baserà
+su spiegarvi
+queste quattro cose qua
+chiaramente
+a fare models
+che è più facile
+ci mettiamo una lezione
+a fare world models
+ce ne mettiamo
+un e mezzo
+due
+a fare world logic
+le mettiamo
+uno setto otto
+a fare quelle più astratte
+che dove sono
+tutti gli algoritmi
+ce ne mettiamo
+magari dieci o quinici
+perché chiaramente
+più ti astrai
+e più
+sei astratto
+quindi più hai forte
+la deduzione
+di fatto
+l'obiettivo
+di questa lezione
+è che
+in qualche maniera
+vi sto dando
+l'indice
+di quello che stiamo
+facendo
+e anche l'indice
+delle logiche
+che ci sono in giro
+di fatto
+il compitivo
+arriverà qua
+il primo compitivo
+il secondo compitivo
+sarà quattro
+chiaramente
+l'ultima
+è quella più
+per darvi un'idea
+ovviamente
+quello che vedremo
+è che
+uno dice
+ah bello
+c'è un unico
+world model
+un'unica world logic
+no non ce n'hai
+una
+perché a seconda
+di quello che vedi
+a seconda di quello
+che modelli
+è una logica diversa
+modellare
+la sequenza
+temporale
+ragionamento
+ragionare
+sulla sequenza
+temporale di azioni
+la gente la chiama
+planning
+in AI
+è un problema diverso
+da capire
+se noi rappresenti
+o se non sono
+consistenti
+così via
+il
+quindi io non sto dicendo
+che ad ogni livello
+c'è una sola logica
+no
+l'unica cosa che sto dicendo
+è che questo
+è universale
+e vale per tutte le logiche
+tutte
+esiste
+un meccanismo universale
+che lo descriveremo in dettaglio
+domani
+che è la teoria degli insiemi
+che è universale
+ma da qui in poi
+a seconda di come
+noi mettiamo insieme
+gli insiemi
+avremo
+diverse logiche
+ma queste saranno
+sempre e solo
+strutturate su tre livelli
+ok
+cioè
+prima diamo i nomi
+alle cose
+l'alfabeto
+che l'ho fatto vedere
+n volte
+poi
+costruiamo una memoria
+e poi ragioniamo
+sulla memoria
+su quello che sappiamo
+e quello che non sappiamo
+quindi
+queste a fianco
+sono anticipazioni
+bisogno per un minuto
+però
+non serve che
+l'abbiate
+in testa
+al momento
+ma
+era importante
+darvi un anticipo
+in modo che
+creare più un fraio
+perché
+in qualche maniera
+mi dà un'idea
+la cosa interessante
+qui abbiamo detto
+percetti e percezioni
+le percezioni
+metto che sono
+composizioni di percezioni
+cioè come ho detto prima
+queste cose qua
+le facciamo entrare
+delle concettualizzazioni
+che sono linguistiche
+e qui guardate
+prendiamo delle assezioni
+che le mettiamo insieme
+e diventano
+grafici con la scena
+o diventa un database
+il database sta qua
+il model sta qua
+il wordnet
+che l'avete visto
+sta qua
+poi chiaramente
+quando avete fatto
+SQL
+database 1
+non me l'hanno detto
+che c'è il problema
+dei linguaggi
+e così via
+vanno detto
+vedete le variabili
+le cose che vanno detto
+ci detiene un milione
+appoppiati
+in realtà
+va bene
+perché per quello
+che vogliono fare
+va benissimo
+ma se tu vuoi
+fare un ragionamento
+o comunque vuoi
+ad esempio
+il sistema di AI
+fare
+rendere AI
+in grado
+di fare questo ragionamento
+gli devi dare
+tutti i prezzi
+nei database
+ti danno
+il modello
+non te lo dicono
+in realtà ti dicono
+che la unique
+universance
+e il modello
+sono le stringhe
+quello che metti dentro
+lo vedremo più avanti
+nella lezione 1.3
+nei database
+modello
+e world model
+coincidono
+sono fatti apposta
+perché
+sono fatti bene così
+perché sono
+altamente efficienti
+ma hanno problemi
+che appunto
+perché hanno bloccato
+tutta la descrizione
+hanno problemi
+che sono talmente rigidi
+che non si riescono
+a utilizzare
+in applicazioni
+come un web
+o in applicazioni
+sono troppo rigide
+perché hanno
+precompilato
+troppe assunzioni
+in questo
+metto
+il promondo
+reale
+le assenzioni
+di termo
+resgraf
+qui diventano
+proposizioni
+atomic
+propositions
+e propositions
+perché ho usato
+la public proposition
+perché si trova
+sotto i livelli
+di logica
+quindi io
+ho scelto
+questa A qua
+è una proposizione
+atomica
+cos'è la caratteristica
+di una proposizione
+atomica?
+è che è A
+cos'è che puoi sapere
+di A?
+puoi sapere tre cose
+che non sei niente
+o che è vero
+o che è fatto
+in un caso
+di dire tre cose
+quindi la politica
+anatomica
+è una cosa
+di cui
+o non sei niente
+o sei che è vero
+o sei che è fatto
+è una sola
+dell'evento
+si chiama
+il principio
+del terzo escluso
+perché in logica
+poi uno dice
+in realtà
+devi sapere uno
+in certe logiche
+ti dicono
+non ti è permesso
+di non sapere
+però in generale
+sono le tre opzioni
+guardare bene
+e poi
+la proposizione
+che è una proposizione
+composta
+cos'è?
+è questa
+è I fa
+ben B
+perché questa è composta?
+perché qui
+ha una struttura
+ha una struttura
+di ragionamento
+io non sono in generale
+ma da chi trova
+chi può
+fare l'interessore
+di verità
+che c'è la verificazione
+è ovvio
+che tutti ti vanno a dire
+che se A è vero
+allora B è vero
+se A è falsa
+e nuotate ovviamente
+che uno di
+pensiamo cos'è la
+la A o una A
+potremmo dire
+la A
+una dice
+quant'è grossa la A
+la può essere
+un tipo di parole
+può essere addirittura
+un intero knowledge
+faccio un esempio
+che si vede
+sui giornali oggi
+se Putin
+se i Russi
+attraversano
+la portiera europea
+allora facciamo
+la terza parola mondiale
+e questo per dire
+che
+quando arriviamo
+qua in cima
+del ragionamento
+che noi facciamo
+e voi lo fate
+come tutti noi
+abitariamente
+noi abbiamo
+completamente
+astratto da A
+e da B
+che può descrivere
+una situazione
+arbitraria
+e la vita è complessa
+e poi puoi essere
+più o meno d'accordo
+sui farla e B
+questo è un problema
+diverso
+ma se sei d'accordo
+la regola di deduzione
+ti garantisce
+che il tuo calcolo
+funziona
+è chiaro?
+quindi tutto il problema
+se fai un sistema di A
+e se fai un specifico
+di un sistema
+è scrivere
+questa roba qua
+o se fai il machine
+guardi come le impari
+secondo se qui
+è a posto
+e qui non c'è niente di nuovo
+se non il fatto che
+man mano che vai su
+i concetti sopra
+sono generati
+da non dei percezioni
+dalle percezioni
+cioè il concetto
+la parola
+quando io dico
+casa
+che è una singola parola
+una casa
+è quattro muri
+un tetto
+un oggetto complesso
+provo a definire
+anche finestra
+eh sì
+ma la finestra
+c'è il vetro
+c'è la pettina
+c'è il frame
+e così via
+quindi per dire
+comunque sia
+il livello di astrazione
+al cui tu descrivi
+il mondo
+è una tua scelta
+che dipende
+dal periodo di Dover
+ma comunque sia
+quando sali
+linguisticamente
+hai la
+la
+ed è la grande
+quella che si dà
+la resilienza
+in quanto umani
+tu hai la possibilità
+di scegliere
+il livello di dettaglio
+a cui descrivi il mondo
+e andando su
+uguale identico
+perché poi a questo punto
+fai le sezioni
+le vedremo
+ma nelle sezioni
+fai un knowledge graph
+quanto grosso
+vuoi
+e le metti insieme
+quanto vuoi
+e così via
+in effetti
+noi
+come vedrete
+già
+nella prossima lezione
+che ci sarà
+da tre o quattro volte
+delle citazioni
+tutto
+cos'è che
+quindi fare logica
+vuol dire
+uno
+capire cosa sono
+queste robe qui
+fare i calcoli
+due
+capire
+se la tradizione
+dal mondo
+alla formalizzazione
+nella logica
+ti va bene
+o non ti va bene
+chiaro?
+di fatto noi
+e lo vedremo
+a fine direzione
+ve lo dico già adesso
+in questo mondo qua
+troviamo questi
+e questi sono i dati
+noi abbiamo solo
+tre problemi
+uno solo
+abbiamo preso il mondo
+decidiamo come formalizzarlo
+man mano andiamo su
+lo formalizziamo
+prendiamo un risultato
+qua dentro
+ma questo risultato qua
+è del tipo
+A è vero
+o B è falso
+non è una cosa
+è semplicemente così
+una cosa vero o falsa
+e a questo punto
+da questo
+dobbiamo tornare sul mondo
+e vedere l'implicazione
+sul mondo
+quindi c'è
+l'informal to formal
+il ragionamento formale
+all'interno del sistema
+e il processo
+di estrarre
+dalla vostra testa
+o perché lo dite
+o perché fate
+mandato una mail
+comunicare al mondo
+comunicare al mondo
+cos'è che gli comunicate?
+eh comunicati
+uno delle parole
+di nuovo
+delle onde elettromagnetiche
+è la roba
+del fargli indietro
+e riconsigli di tutto
+cercando di capire
+quello che voi
+vi avete detto
+e chiaramente
+se
+mi conosce
+da qui
+nella prossima
+mezzoletta
+vediamo
+un esempio
+intuitivo
+per capire
+come funziona
+la gerarchia
+cos'è il modello?
+allora
+se ricorda
+il modello
+è una
+è una
+è una
+descrizione
+di una rappresentazione
+analogica
+allora
+qui c'è il passo
+fondamentale
+che viene fatto
+nella semantica
+che è un passo
+di astruzione enorme
+se voi andate a vedere
+nella seconda lezione
+che ho fatto
+ho detto che
+nelle
+descrizioni analogiche
+non c'è linguaggio
+sono immagini
+sono suoni
+sono continui
+sono nel mondo
+dei naturali
+linguaggi sono nel mondo
+dei naturali
+quando noi
+in logica
+ci diamo
+in realtà
+anche voi
+normalmente
+in ragionamento
+ci diamo
+una semantica
+un modello
+noi non ci costruiamo
+una rappresentazione
+di un'attività
+ci diamo un linguaggio
+che poi vedremo
+domani
+è il linguaggio
+della sette iori
+e io domani
+arguirò
+che il linguaggio
+della sette iori
+quindi i cerchietti
+voi ricordo lì
+modulo la scelta
+di quali cerchietti
+quali pallini scegli
+è tutto quello
+che ti serve
+per descrivere
+la tua visione
+approssimata
+del mondo
+cos'è un percetto?
+è qualunque cosa
+che distingue
+è una persona
+un edificio
+una macchina
+il mondo
+camminare
+perché anche camminare
+lo distingue
+la gente fa
+un video
+che vede camminare
+distingue camminare
+dal correre
+mangiare
+essere vicino
+a relazioni spaziali
+essere lontano
+e ovviamente
+capite bene
+che
+il concetto
+di vicino
+è molto relativo
+se sei a piedi
+in conto
+se sei a ero
+in altro conto
+percezioni
+sono questi
+percetti
+messi insieme
+quindi una persona
+vede
+tendenzialmente
+il percetto
+è qualcosa
+che non solo
+sceglie
+l'oggetto
+l'individuo
+per l'unque cosa
+volete vedere
+il percetto
+ma gli associa
+qualcosa
+che lo descrive
+notate bene
+che però
+non siamo
+nel linguaggio naturale
+siamo ancora
+in una fase
+in cui stiamo
+modellando
+la organizzazione
+analotica
+che noi percepiamo
+quindi
+l'intuizione di fondo
+un modello
+come lo definiremo
+in logica
+e come è definito
+in tutti
+i corsi
+di modelli
+formali
+che farete
+è una rappresentazione
+che ci permette
+di descrivere
+di descrivere
+non di
+depingere
+non di rappresentare
+in maniera
+non reale
+in un
+formalismo
+non ambigo
+che cosa
+è percepito
+senza
+scegliere
+il linguaggio
+è una
+rappresentazione
+alinguistica
+se ci pensate bene
+quando fate
+il disegnato
+insieme
+fate dei puntini
+fate dei cieli
+quindi quando siamo lì
+ad esempio
+guardando questo lato
+più fa
+allora questo
+questo è il mondo
+questo è Trento
+cos'è Trento?
+cos'è Trento?
+come lo modelliamo
+a Trento?
+è un insieme di case?
+e questi qua
+cosa sono?
+sono due persone
+R2
+vicini
+6
+cammina
+guardinaria
+e qui
+cosa c'è?
+una fontana
+con tante persone
+quindi di fatto
+quindi di fatto
+quello che formalizzeremo
+e descriveremo domani
+in dettaglio
+cos'è
+un
+modello
+come terminologia
+l'ho detto prima
+per certi
+percepiti
+A
+1
+A1
+dov'è A?
+dov'è 1?
+1 è questo
+quindi A probabilmente
+potrebbe essere
+linguisticamente
+che noi potremmo dare
+di 30
+guardate bene
+che
+qui
+1 appartiene
+a
+1 appartiene
+1 potrebbe essere
+30
+A potrebbe essere
+città
+quindi
+1
+30 è una città
+20 è una città
+e non è un'automobile
+6
+6 e 7
+dove sono?
+6 e 7 appartengono
+a E
+probabilmente
+6 e 7
+sarà
+persona 1
+e persona 2
+perché non sappiamo
+il nome
+è una persona generica
+perché la chiamiamo
+persona 1
+perché non sappiamo
+che è Mario
+se pensiamo che è Mario
+è un Mario
+e cosa vuol dire?
+Persona
+person
+people
+queste lezioni
+non c'è linguaggio
+quello che noi
+stiamo mettendo
+e questa roba qui
+3 1
+R 1
+cosa vuol dire?
+questo è un insieme
+di copie
+perché sono importanti
+le copie?
+perché le copie
+sono quelle che
+mi permette
+di mettere insieme
+3 1
+quindi
+3 1
+cosa sono 3 1
+non lo so
+vediamo un po'
+a 1 e 30
+e 3 è una piazza
+quindi
+probabilmente
+la R 1
+vuol dire
+che questa roba qui
+è dentro
+è una relazione spaziale
+che collega
+due
+entità
+però qui vi ho già
+dato il primo
+gusto del fatto
+che io
+prendo
+una qualunque cosa
+comincia a mettere
+delle scatole intorno
+comincia a identificare
+le mie entità
+e poi a questo punto
+che le relazioni
+cos'è R 1?
+questa
+noi la chiamiamo
+le relazioni
+perché
+R 1
+è 1
+3 4
+1 3 2 3
+quindi
+3 4
+3 è questo
+e 4 è più piccolo
+di 3
+poi c'è
+1 3
+1 3
+3 è più piccolo
+quindi
+R 1
+può dire probabilmente
+I
+dentro
+spazialmente
+quindi la relazione
+binaria
+per qualcosa
+che ci permetti
+dire che
+io sono dentro
+questa stanza
+che sono vicino
+a
+quello che poi
+linguisticamente
+diciamo così
+che poi
+linguisticamente
+diciamo
+io sono vicino
+alla
+sono dentro
+questa stanza
+sono vicino
+a una scrivania
+altro non è che
+una
+l'insieme di coppia
+l'insieme di crearsi
+e poi
+qua
+in qualche maniera
+lo affermiamo
+diciamo
+1 e 3
+1
+o 3
+3 è dentro
+1
+specialmente
+in quelli di 1
+questo è un modello
+questo
+chiaramente
+per aver visto
+dalle elementari
+è un linguaggio
+un linguaggio
+dove tutti i dettagli
+sono spariti
+e su cui adesso
+possiamo andare
+a fare
+dei ragionamenti
+ok
+quindi
+il primo punto è
+tu decidi
+che mondo
+ti vuoi vedere
+io ho preso 30
+dentro al mondo
+ti vuoi decidere
+come tu lo modelli
+insegnisticamente
+e a questo punto
+poi lo cominciamo
+a descrivere
+e questo è
+il world model
+guardate
+che lo so
+cosa è il world model
+oh
+che cazzo
+dentro
+supponi che
+tu hai scelto
+il modello
+del modello
+si chiama
+il modello
+di riferimento
+ogni volta
+che noi parliamo
+e parliamo di qualcosa
+ci abbiamo sempre
+un modello
+di riferimento
+in testa
+a me
+a volte si parla
+anche avanti
+però
+immediatamente
+abbiamo in testa
+la cosa
+di cui stiamo parlando
+o diciamo
+prima cosa
+che si viene in B
+se mi viene in B
+si chiama
+pragmatica
+quindi
+assumendo
+cosa è un world model
+è
+un modello
+di riferimento
+e un linguaggio
+che ci permette
+di nominare
+quindi quelle robe lì
+perché quelli 1, R1 e R2
+non ci andavano bene
+perché non ci significavano niente
+adesso
+prendiamo quella figura
+la chiamiamo NIA
+la chiamiamo persone
+e tutto diventa immediatamente
+chiaro
+perché il nostro linguaggio
+gioca
+perché la nostra mente
+gioca sul linguaggio
+punto fondamentale
+da ora che ci siamo dati
+la semantica
+il modello
+noi
+in logica
+diciamo
+che non ti permettiamo
+di essere
+confuso
+se tu dai un nome
+a una cosa
+quel nome lì
+corrisponde
+a quella cosa
+quindi
+se una cosa
+la chiamo
+pausa
+ad esempio
+come persona
+non va bene
+chiamarla
+per avere
+uno qui
+e avere due qui
+ok
+una stringa
+del world model
+che si chiama
+un concetto
+questo lo vediamo
+tra un minuto
+non può denotare
+due concetti diversi
+e voi vi dite
+sì ma nel mondo
+c'è uno sacco di faus
+esatto
+e voglio tutto qui
+che
+il linguaggio
+è intenzionamente ambito
+viceversa
+si dice
+si permette di dire
+che faus
+punta a uno
+e
+giuntina
+punta a uno
+perché
+non c'è confusione
+si chiama
+non è mia
+o non è mia
+quella che volete dire
+e l'altra cosa
+importante
+che vedremo
+nel principio
+di composizionalità
+che vedremo
+avete visto
+alle volte
+il modo
+con cui
+i termini
+di linguaggio
+si compongano
+deve essere
+mattato
+uno a uno
+sulla struttura
+quindi se io dico
+se io ho due persone vicine
+dentro delle due persone
+che erano qui
+e questo devo scrivere
+come Nier
+P1
+P2
+posso fare Nier
+P1
+P2
+P5
+la struttura
+linguistica
+se ci pensate
+provate a ragionare
+quando dice
+io mangio
+la mela
+io mangio
+la mela
+io chi?
+io
+mela
+mela
+mangio
+io che muovo
+la casa
+è vicina
+alla strada
+la casa
+un oggetto
+vicina
+effettivamente
+quello dentro
+qui
+della strada
+quello che è
+quindi noi
+abbiamo questa capacità
+linguistica
+che usiamo
+nel linguaggio naturale
+e che per me
+usate anche
+in tutti i linguaggi
+semi formali
+che avete visto
+dove avete
+questa capacità
+tale per cui
+il modello
+di intesa
+come l'avete in testa
+ma non l'avete mai
+preso esplicito
+si mappa
+quasi uno a uno
+sulla vostra
+struttura linguistica
+e dal motivo
+per cui la gente
+vi capisce
+per la struttura
+è invariante
+ok
+ve lo insegnano a scuola
+mi insegnano
+gli inglesi
+mi insegnano di una maniera
+noi ci insegnano
+di un'altra maniera
+poi gli inglesi
+parlano inglesi
+e la struttura
+ce l'ha
+imparare a parlare
+vuol dire imparare
+queste strutture
+linguistiche
+che poi te le fanno vedere
+e corrispondono
+come ti dicono
+la casa vicino alla strada
+tutta l'immagine
+che hai già vista
+è la struttura linguistica
+tutto questo funziona bene
+in logica
+lo formalizziamo
+quindi cos'è
+il modello del mondo
+il modello del mondo
+ti dà un linguaggio
+che ti permette
+di scrivere
+non ambigualmente
+i concetti
+e le concetti
+di azione
+che nominano
+i percetti
+e le percezioni
+potete mandare gli inferimenti
+concetti e concettazioni
+sono oggetti linguistici
+che
+per ogni concetto
+c'è un solo percetto
+per un percetto
+ci possono essere più concetti
+questo è quello che è
+quindi
+eccolo qua
+quindi a questo punto
+i pallini
+se noi torniamo indietro
+ci mettiamo
+30 uomo
+in questa roba qui
+ci scrivete 30 qua
+ci scrivete 2 uomo qua
+eccetera eccetera
+ovviamente
+30 qua
+va in italiano
+non va in inglese
+quindi
+guardate bene
+che sto parlando
+dei concetti
+mi sono
+nelle posizioni matematici
+ho visto i concetti
+sono dei concetti
+che in linguistica
+la gente dice
+come sono centinaia di papers
+sono gli oggetti
+con cui si può
+sgessi significato
+il linguaggio
+ok
+e questi concetti
+vengono attaccati
+persona
+è questo oggetto
+persona 3
+questa è un'istanza
+questa è una proprietà
+a un valore
+id
+è una proprietà
+a due valori
+e li attacchiamo
+e infatti
+questo matematicamente
+è una nostra
+tutta l'interprezzazione
+nel corso
+tra due lezioni
+faremo
+difoneremo
+matematicamente
+questo attaccio
+nel quadro
+proprio da che abbiamo
+fatto quando abbiamo fatto
+questa
+è esattamente
+quello che non avete mai visto
+esattamente
+l'elemento di novità
+che lo portiamo qua
+una volta che
+noi diciamo
+noi assumiamo
+che quando tu
+fai una scrittura
+linguistica
+non solo il linguaggio
+è fatto bene
+non solo il linguaggio
+si mappa correttamente
+sul modello inteso
+sul modello di riferimento
+ma
+c'è questo matematico
+in una u
+questo è quello
+che ci permette
+di fare
+e chiaramente
+a questo punto
+vedevo
+una partena A
+diventa
+siti 30
+è vero che 30
+è una città?
+sì
+è vero che fa una città?
+no
+questo lo faremo
+nel livello 4
+al momento
+stiamo semplicemente
+costruendo
+e descrivendo
+le concettualizzazioni
+ok?
+notate bene
+che voi
+vedete
+se la fa qui
+se voi
+non siete
+se avessi messo qua
+se avessi messo qua
+chi ti parla?
+Levanto
+che è
+città Levanto
+e città Levanto
+e città Levanto
+non so
+perché
+non è stata Levanto
+quindi sì è vero
+ma voi non si vantate a Levanto
+ma lo sapete
+nella descrizione
+ma non ce l'avete mai morto
+quindi
+è una
+concettualizzazione
+non è una
+ok?
+quindi qua noi
+che trumenti
+ci siamo andati
+in un intero linguaggio
+tutti questi modi
+vedete come vero
+se li avete visti
+ma vedete come vero
+perché
+avete la memoria
+chiaramente
+abbiamo fatto vedere
+il principio di composizionalità
+che è fondamentale
+che è una cosa
+che il linguaggio naturale
+non ha
+o ce l'ha
+più o meno
+ed è il motivo
+per cui il linguaggio naturale
+non si riesce
+a fare
+il problema della rucinatura
+che sarà sempre
+ed è impossibile
+perché tu non hai
+un linguaggio formale
+e va bene
+avere un linguaggio formale
+così è bene
+possa dire quello che voglia
+non è che
+va male
+e come al solito
+è stata sempre
+un esempio
+poi dice ok
+faccio l'LLM
+e faccio l'LLM
+che parla italiano
+sulla sua semantica
+che nessuno gli ha dato
+e questo è l'argomento
+di ricerca
+terminologia
+una percezione
+è un percetto
+composto
+da più di uno
+più percetti
+quindi
+la percezione
+di io
+vicino
+ad un'altra persona
+è una percezione
+composta
+del percetto
+io
+ad un'altra persona
+vicino
+un atomico
+un percetto atomico
+è un percetto
+che non è un fatto
+che non è una cosa
+vero o falsa
+questa parola
+la cancello
+il nome di un atomico
+è un percetto
+è un percetto
+che è un percetto
+quindi
+il nome di me
+come percezione
+è
+fausto
+oppure uomo
+oppure persona
+oppure oggetto
+a seconda di un percetto
+a seconda di un percetto
+a seconda di un percetto
+diciamo
+che vuole scegliere voi
+perché scegliere
+questo è
+l'alfabeto
+ogni volta che voi
+vedete i percetti
+definite l'alfabeto
+l'intero l'alfabeto
+l'alfabeto non l'avete dito
+nelle varie cose
+quando voi scegliete l'alfabeto
+non verrà mai detto
+ma di fatto
+stai scegliendo
+e voi ci vedete
+la semantica intesa
+anche se non c'è scritta
+è esattamente
+i concetti
+che voi
+in qualche maniera avete
+e che voi dovete usare
+quando vi fate il vostro modello
+quindi
+i concetti
+è l'alfabeto
+cos'è l'alfabeto
+con l'alfabeto?
+è le cose che esistono
+perché se tu
+nel tuo alfabeto
+non hai la parola casa
+non puoi parlare della casa
+se tu nel alfabeto
+non hai la parola pausa
+non puoi parlare di pausa
+che vuol dire
+che nel tuo modello inteso
+pausa non c'è
+quindi quello che noi
+dovremmo andare a catturare
+formalmente
+è che quando
+noi di fatto
+facciamo l'alfabeto
+e non sarebbe
+il corredore mi ha detto
+ognuno ha le rappresentazioni
+che vuole
+certo
+tutti qua lo stanno dando
+stiamo dicendo
+passo passo
+tutte le varie prodotte
+che stanno facendo
+prima decidiamo
+cosa guardare
+poi decidiamo
+se scegliere
+o no
+la concettualizzazione
+è una descrizione
+pausa
+vicino al telefono
+è una descrizione
+se è vero
+è una sezione di verità
+ok
+queste
+quando vi danno
+passo dopo
+come iniziamo insieme
+la sintassi
+se la capite
+stelle volte
+la sintassi
+di java
+cos'è
+è un altro modo
+che ti dice
+date dei percettoli
+sono volte variabili
+come tu le costruisci
+quindi poi avrai
+una semantica statica
+una semantica data
+dinamica
+ma di fatto
+loro ti stanno
+accendo
+le percezioni
+complesse
+per costruire
+danno la grammatica
+perché la vogliono
+avere formale
+perché vogliono
+non vogliono
+anche compiere
+quello che vuole
+e poi dite
+dite
+una
+quando fate
+la definizione di funzione
+per esempio
+tra
+un po' in logica
+lo scapolo
+è
+un nuovo
+uno scosato
+scapolo
+un nuovo
+concetto
+che definisco
+il tema
+voi fate
+definita una funzione
+state
+in effetti
+introducendo
+un nuovo
+concetto
+che in realtà
+nasconde
+una realtà
+molto complessa
+il knowledge graph
+l'insieme
+in tutte le
+affermazioni vere
+di povo
+le posso chiamare
+povo
+e
+quella è la scelta
+dipende
+se voglio parlare
+di povo
+all'interno
+o voglio parlare
+di povo
+come andare
+da povo
+a tre
+nel qual caso
+non mi prega niente
+il sapere
+dei dettagli
+di povo
+ok
+quindi
+dov'è che abbiamo scoperto
+abbiamo scoperto
+che
+quelle cose
+che voi avete
+già viste
+le volte
+con i linguaggi
+le regole di formazione
+e così via
+si possono
+si può dare
+un meccanismo
+di formalizzazione
+del significato interno
+in termini
+di funzione
+di interpretazione
+che ve l'ho menzionato
+ho detto che cos'è
+ma in termini
+di modello
+ok
+quindi ora possiamo
+parlare delle cose
+e ora però vogliamo
+ora che ne possiamo
+parlare
+dobbiamo catturare
+l'altra proprietà
+fondamentale
+che prima
+andrà a memoria
+vi ricordate
+nell'esempio
+a parte di rischio
+che c'era stato
+il car crash
+vi ha detto
+c'era
+c'è stato
+il vetro rosco
+e ha detto
+il vetro di sì
+semplicemente
+perché
+ma non c'era
+in letteratura
+di chirurgia
+c'è
+documentazione
+estesa
+e pervasiva
+che la maggioranza
+delle nostre memorie
+sono false
+è interessante
+sapere
+la curiosità
+ma ce la mettiamo
+un sacco di storie
+da informatici
+invece
+dobbiamo fare i modelli
+poi li documentiamo
+quindi in modo che
+quella gente
+legge
+quello che abbiamo lasciato
+ok
+cos'è una
+world logic
+una world logic
+prima di tutto
+deve avere
+il modello di riferimento
+quindi vuol dire
+hai costruito
+il tuo modello
+ti sei dato
+l'armamento
+per parlarne
+e poi
+cos'è che ti dai
+ti dai
+le regole di inferenza
+ovvero sia
+dei meccanismi
+che assumendo
+che certe cose
+sono vere
+certe cose sono vere
+le puoi dedurre
+cose vere
+che non sono scritte
+nella tua memoria
+queste
+queste
+regole di inferenza
+le puoi applicare
+una dopo l'altra
+per fare
+una deduzione
+quindi
+quando avete fatto
+l'algoritmo
+ho messo il mio gettore
+quindi era una deduzione
+un algoritmo
+le singole proteine
+e le singole passaggi
+dovete insieme
+avrete fatto
+big tracking
+o qualunque cosa
+che faremo anche noi
+con la possibilità
+della scelta
+nel nostro regolamento
+come vedremo
+nei nostri algoritmi
+è un bene o male
+perché la cilindra
+si sbaglia
+anche qui
+dove sale
+la complessità
+del regolamento
+quindi
+cos'è una world logic
+una world logic
+è
+un meccanismo
+che dato un linguaggio
+di descrivere
+quello che abbiamo deciso
+di vedere
+nel mondo
+ci permette
+di calcolare
+le cose
+le faremo
+e noi
+da
+le nostre lezioni
+faremo
+tutta una serie
+di world logic
+che ci daranno
+diverse capacità
+di ragionamento
+cos'è una sezione?
+una sezione
+è una concettabilizzazione
+che sappiamo
+che è vera
+una sezione
+è composta
+di entity types
+entity and properties
+nella prossima live
+vi faccio vedere
+cosa sono
+comunque io sono
+un'entità
+la mia proprietà
+ha il cappello
+bianco
+e
+la mia vita
+è perché sono
+una persona
+un professore
+un animale
+un oggetto
+cos'è una world logic?
+una world logic
+è qualcosa
+che permettere
+di ragionare
+circa quello
+che si conosce
+riguarda
+il modello
+di riferimento
+e di dire
+di dedurre
+usando la parola
+tramite regola
+di differenza
+delle sezioni
+che non sono
+nella mia memoria
+ma che sono
+implicitamente
+implicate
+da quello
+che mi sembra
+ok?
+quindi
+la notizia
+di world logic
+noi
+estendiamo
+quello che sappiamo
+se sappiamo
+una cosa
+possiamo dedurre
+anche cose
+notare bene
+che
+da come
+da definizione
+nella world logic
+noi non siamo
+in grado
+di impararci
+quella
+non sappiamo
+se non la sappiamo
+possiamo dire
+che cosa
+ne conseguiamo
+ma se non la sappiamo
+non diciamo niente
+non possiamo
+neanche dire
+che non la sappiamo
+in effetti
+se ci pensate
+tutti i formalismi
+che avete fatto
+su world models
+e i model
+e così via
+vi dicono
+quello che vedete
+c'è
+ma quello che
+non vedete
+non c'è
+e non c'è
+perché non lo sapete
+o non c'è
+perché se non è
+dimenticato
+non lo sapete
+vedete
+solo quello che c'è
+e infatti
+le world logic
+e di fatto
+poi faremo
+i knowledge graph
+come probabilmente
+il world model
+più espressivo
+sicuramente
+non molto espressivo
+quando andiamo
+in queste logiche
+qui
+noi possiamo
+e vedremo
+che è molto utile
+sicuramente
+di fare un sacco
+di conseguenze
+non è vero
+che non serve
+ma solamente
+vi danno
+quello che sappiamo
+eccolo qua
+cosa sono i concetti
+eccolo qui
+la foto iniziale
+vi ricordate
+c'era una città
+c'era una città
+c'era una chiesa
+una piazza
+una fontana
+un'entità
+trento
+così via
+entity type
+città
+un entity type
+che è un'entità
+che è vera
+dell'entità trento
+church
+che è vera
+dell'entità duomo
+è dentro
+il nere
+è vero
+che il duomo
+è il piazzo duomo
+è vero
+che la città
+è il piazzo duomo
+e così via
+questo non c'è
+di metà forma
+ok
+ovviamente
+tutto questo
+ve lo do
+lo facciamo formalmente
+però
+se non mi interessava
+in questa lezione
+farvi vedere
+il percorso
+di astrazione
+ok
+per ognuna di queste
+ci sono
+faremo
+5 o 6
+world logics
+quindi
+perché poi diventa
+il problema
+tipo
+nella tua world logics
+ti permetti
+di dire un certo
+tipo di cose
+il tuo linguaggio
+è abbastanza
+espressivo
+per affermare
+una certa cosa
+perché più
+come vedremo più avanti
+più il linguaggio
+è espressivo
+più hai fatica
+a ragionare
+perché è più certo
+ok
+adesso non semplicemente
+impostando
+l'intuizione di base
+l'esempio
+di world logics
+e reasoning
+questa è una
+sintasa
+che abbiamo preso
+dalla prima world logics
+che farei
+dalla seconda
+cosa diciamo
+se
+questa qua la possiamo leggere
+come il duomo
+è una chiesa
+poi vediamo
+il duomo
+è un certo insieme
+degli edifici
+che hanno
+la torre
+con la campana
+giusto no?
+allora
+se tu mi dici
+che
+e questa è una cosa
+banale
+se tu mi dici
+che il duomo
+è una chiesa
+e se tu mi dici
+che tutte le chiese
+per questo
+qualunque chiesa
+è un edificio
+con una
+con una torre
+della campana
+sicuramente
+anche l'uomo
+ha
+la campana
+è chiaro?
+è chiaro questo ragionamento
+nella sua ovvietà
+allora
+supponiamo che sia vero sempre
+supponiamo che sia vero sempre
+e questo è il passo importante
+che sto per fare
+dove cominciamo a vedere
+l'utilizzare la logica
+supponiamo che sia vero sempre
+che
+una chiesa
+ha una torre
+con la campana
+io lo dico una sola volta
+giusto no?
+per quante chiese ci sono in Italia?
+qualche milione
+per quante chiese ci sono
+nel mondo
+qualche decina di milioni
+una sola frase
+a livello di Italia
+mi permette
+di sapere
+che
+cento milioni di chiese
+hanno la campana
+quando voi ragionate
+e sentite la campana
+inconscientemente
+cosa dite?
+ah c'è una chiesa
+da qualche parte
+da dove esce questa nuova parte?
+perché avete visto
+abbastanza chiese
+e anche se la chiesa
+non l'avete mai vista
+istantaneamente
+una delle cento milioni
+di istantazioni
+di questo concetto
+di questo fatto universale
+che si chiama
+conoscenza
+è esattamente
+quello che vi ragionano
+quindi
+noi
+quando facciamo
+gli IR model
+noi definiamo
+degli universali
+come questi
+o faremo
+dei knowledge graphs
+sugli E-type
+che poi
+quando andremo
+nelle applicazioni
+potremo istanziare
+su tutte
+le istanze
+che noi
+avremo scelto
+ovviamente
+è chiaro appunto
+questo passo qua
+è fondamentale
+però non è che tu
+il passo
+delle logiche
+delle logiche
+del mondo
+il passo
+è il fatto
+che tu
+con una singola
+stringa
+dici un miliardo
+di fatti
+ovviamente
+qual è il problema
+che se tu vai
+in India
+dove le chiese
+non hanno
+la
+la
+la
+la
+la
+la
+la
+la
+la campana
+lo vai a vedere
+diciamo
+non ha
+la campana
+diventa
+inconsistente
+perché tu
+nella tua conoscenza
+a priori
+hai un certo
+passo
+prima
+siamo andati
+in India
+e vai in India
+però noi
+siamo intelligenti
+siamo bravini
+e diciamo
+ah cavolo
+questo va
+verso l'Italia
+magari
+non in tutti i posti
+del mondo
+le chiedono la
+campana
+che esattamente
+dove si pianta
+gli elenchi
+perché
+non è l'altra
+eccezione
+perché il problema
+non è che
+a parte
+le definizioni
+vuol dire
+il fatto che
+un uomo
+un vecchio
+non scusate
+è un universale
+non ci sono eccezioni
+è una definizione
+ma sul fatto
+che
+non tutte
+le campane
+non tutte
+le chiese
+hanno la torre
+è vero
+è vero
+sì
+è vero
+no
+è esattamente
+la diversità
+del mondo
+ed è esattamente
+quello dove noi
+come umani
+siamo estremamente
+gravi
+e dove esattamente
+dove la gente
+si pianta
+perché se tu prendi
+una specifica
+scritta in questa maniera
+e poi la porti in India
+non funziona
+ed è il motivo
+per cui la gente
+fa il linguaggio
+specifico
+ed è il motivo
+per cui poi
+quando la gente
+fa il linguaggio
+specifico
+su applicazione
+di alto valore
+come gli estremi
+e così via
+usa la logica
+perché tu
+non vuoi
+vuoi evitare
+che i vetremi
+ti scontri
+e così via
+perché tu
+quando fai
+queste affermazioni
+universali
+sugli itali
+e le puoi
+non puoi
+non farle
+praticamente
+se le scrivi
+ogni singola
+cambia
+un pinto del mondo
+non puoi
+non farle
+ma quando le fai
+poi devi garantirti
+a runtime
+che non ti creano
+prove
+come al solito
+funziona
+il 99%
+delle volte
+va bene
+se è una google query
+che tanto
+se anche di volte
+non lo sai
+se funziona
+il 99%
+delle volte
+non va bene
+se tu stai definendo
+il software
+di un aereo
+ok
+notate bene
+che fino a questo punto
+io ho fatto
+la mia semantica
+intesa
+è il modello
+di prima
+io ho fatto sempre
+i tempi del mondo
+arriviamo
+perché language logic
+perché qui
+perché world logic
+qui sono le logiche
+che parla del mondo
+nel world
+del language logic
+il mondo non c'è più
+c'è solo linguaggio
+ci siamo dimenticati
+probabilmente
+abbiamo qualche neurone
+da qualche parte
+che lavora
+di più l'opera
+di noi
+una logica
+di una
+logic language
+una logica
+linguistica
+non è quella
+è una world logic
+perché chiaramente
+poi alla fine
+anche se la nominiamo
+abbiamo sempre
+modelli intesi
+da qualche parte
+magari non è raggiungibile
+ma ce l'abbiamo
+dobbiamo
+siamo in grado
+di fare dei calcoli
+esattamente come prima
+siamo in grado
+di fare delle deduzioni
+esattamente come prima
+questa è la logica
+dei matematici
+ora
+questa
+è la logica
+quella delle tabelle
+di verità
+quella dei circuiti
+quella dei matematici
+quella di noi
+e così via
+giustamente
+i matematici
+come è diventato bravo
+ha fatto questa
+per ranzare
+il mondo
+dell'anitmetica
+e quindi
+avevano già
+stato un sacco
+di roba
+noi che facciamo
+AI
+che facciamo
+computer science
+siamo inventati
+database
+le world logic
+le abbiamo diventate
+noi come informatici
+perché noi
+abbiamo bisogno
+di modellare il mondo
+chiaro?
+qui a questo punto
+arriviamo qui
+riusiamo
+tutti i risultati
+della logica classica
+ed è infatti
+il motivo
+non è un caso
+che metà del corso
+è su questa
+ma la cosa importante
+di tutta la prima fase
+del corso
+è quella di far vedere
+come quei risultati
+costruiti dai matematici
+per i matematici
+li possiamo dare noi
+ma lo possiamo fare
+alla misura
+in cui noi capiamo
+come puoi riamutare
+i meccanismi
+che loro hanno inventato
+ma che
+attivano
+tutto come prima
+cos'è una posizione atomica?
+è una posizione atomica
+è un valore
+di giudizio e verità
+su
+su cilio
+c'è una sezione
+iniziale
+non è sgraccia
+è vero o falso?
+quindi noi
+abbiamo cercato il mondo
+e prendiamo
+tutta questa iscrizione
+nel mondo
+e a questo punto
+prendiamo
+tutta parte
+di quel mondo
+e diciamo
+quel pezzo di mondo lì
+quello che dico
+di quel mondo lì
+è vero o falso
+è vero che
+i matematici
+hanno la segata
+è vero che
+la terra è piatta
+è vero che
+la terra è piatta
+però poi
+la terra è piatta
+è vero o falso
+e poi decidi
+e poi la compone
+perché a questo punto
+dici
+è vero
+che la terra è piatta
+o non è piatta
+e questo
+probabilmente ci sta
+a ho notato
+uno dei due è vero
+è vero
+che la terra è piatta
+e che non è piatta
+beh
+questo è a è notato
+probabilmente non è vero
+è vero
+che se piovi
+o esco
+beh
+per me
+è vero
+per altri no
+ma state vede che
+mi sto mettendo
+piatta e piatta
+ma in realtà
+stiamo semplicemente
+lavorando
+sul vero e falso
+quindi quali le infezioni
+quando siamo arrivati qui
+una logica del mondo
+ti permette di ragionare
+e farò l'esempio
+su ciò che noi non sappiamo
+perché quando io dico
+regolamento nuovo
+che non c'è
+quando io dico
+sono a casa
+o esco
+no è a casa
+perché io non so
+o è uscito
+questo
+signori particolare
+che è la logica
+di istituzione
+è il modo
+con cui
+noi definiamo
+che lo è uscito
+ci stiamo dando
+delle altre metri
+come vedremo
+quando noi andremo
+a usare
+la disyunzione
+che è l'elemento
+che poi porterà
+l'implicazione
+vedremo che
+sono l'equivalenza
+di fatto ci stiamo dando
+la possibilità
+di ragionare
+per esempio
+faccio un esempio
+sicuramente
+dal fatto che
+se la persona è a casa
+o è uscita
+non so dire
+sicuramente
+da quella roba lì
+io non so
+se è a casa
+in ufficio
+però se lo so
+sicuramente
+che non è più
+che la tese
+e c'è un'icrita di office
+so che non è
+giocare a tennis
+so che non è uscita
+so che non è in treno
+e così via
+quindi
+quello che voglio dire
+la conoscenza parziale
+è nel nostro
+stato normale
+di vita
+e di ragionamento
+la logica
+e le logiche
+le logiche
+ci sono le tangi
+e le notizie
+ed è esattamente
+come ho detto qua
+queste proposizioni
+e dovremmo imparare
+a scrivere
+comunque non in questo corso
+ma sicuramente
+quando fate meglio di formare
+quindi vorrei fare la moda
+e c'è chi lo fare
+in maniera resistiva
+le logiche
+e le proposizioni
+ti permettono di definire
+specificamente
+che cosa è il nostro
+cosa è il nostro
+e cosa non è il nostro
+del tuo modello inteso
+qui
+e ovviamente
+chiaramente
+è il punto possibile
+quando abbiamo una sezione
+che è una città
+posso scriverlo
+dentro l'attività
+potremmo dire
+lo chiamo così
+tanto lo chiamo
+oppure lo chiamo A
+però io
+nella mia semantica intesa
+per notare bene
+a questo punto
+la semantica intesa
+non è più il modello
+è il fatto che
+che city 30
+è vera
+o è falsa
+è un giagno
+sul fatto di vero
+e notate bene
+che io posso scrivere
+posso dare
+una qualunque stringa
+posso chiamarla city 30
+ma ha solamente
+valore per mettere
+di notare questo
+posso chiamarlo A e B
+e infatti
+quando noi faremo
+esercitazione
+sono tutti A, B, C, D
+però quando faremo
+in forma to forma
+da come mettere
+una word logic
+in language logic
+il processo di decodifica
+sarà importantissimo
+perché se voi sbagliate
+la decodifica
+l'esercizio è sbagliato
+e sicuramente
+di in forma to forma
+e di compitire
+un'esercizio è una tre o quattro
+e una volta
+capito il meccanismo
+devi essere smart
+a fare gli autoritmi
+di ragionamento
+ma poi tu hai difficoltà
+a fare il processo
+di codifica
+e decodifica
+notate bene
+che c'è anche
+io city 30
+posso scrivere anche così
+e in effetti
+ci sono delle logiche
+che ti permettono
+di mantenere questa struttura
+infatti
+queste sono logiche
+molto espressive
+infatti
+la prima logica
+metteremo
+e faremo
+che si chiama
+l'op
+scriveremo
+scriveremo
+city 30
+come anno
+a seconda
+ci lasceremo
+la possibilità
+di guardare
+la struttura
+che si chiama
+la logica
+del primo
+quindi
+proposizioni
+sono giudizi
+sono giudizi
+di valori
+delle azzezioni
+errore
+che metà posto
+gli specifici
+giudizi
+sono la scelta
+del tuo designer
+se tu te lo scelti
+puoi chiamare
+quello che vuoi
+però
+cioè
+se city 30
+lo chiami A
+in un posto
+devi sempre chiamarlo A
+non è che lo puoi chiamare B
+c'è un problema
+di consistenza
+queste qua
+dove
+le posizioni
+sono fatte
+si chiama
+l'odine delle posizioni
+o proposizioni
+logiche
+si chiamano
+l'odine delle posizioni
+il punto fondamentale
+che ho cercato di dire
+e abbiamo quasi finito
+è che
+nelle logiche
+linguistiche
+quando io faccio
+questa roba qui
+la realtà non c'è più
+quello che importa
+è solamente
+la struttura
+linguistica
+della formazione
+ed è chi di voi
+ha fatto
+vari calcoli
+sa benissimo
+che così è
+se vogliamo fare
+il modello
+vogliamo fare
+il modello
+per il formaggio
+dappertilivi
+negli AI
+questo passo
+è che
+la fondamentale
+è di evitare
+il risultato
+e questa è una forma
+di ragionamento
+qui stiamo usando
+il ciclo
+dell'odine
+quindi abbiamo
+una
+sicuriamo che noi
+abbiamo
+il nostro
+maggiore
+di riferimento
+dove c'è
+che supponiamo
+questo
+nella nostra sintassi
+vuol dire
+che la persona
+una è una persona
+che la persona
+è una città
+che la persona
+vive in Trento
+e poi
+abbiamo
+questo universale
+che ho detto
+gli universali
+sono le cose
+più importanti
+sono esattamente
+quelle che ci permettono
+di salvare
+miliardi di informazioni
+che dice
+che qualunque
+xy
+se x vive in y
+allora
+o studia
+o lavora
+in quella città
+ma questa
+affermazione qua
+cos'è che vuol dire
+se c'è qualunque
+x
+ma nel mio modello
+nel mio modello
+c'è solamente
+persona 1
+quindi
+questo modello
+se avessi avuto
+100 persone
+diventava 100
+affermazioni
+avendone 1
+non sono affermazioni
+quindi diventa
+la persona 1
+a 30
+studia
+persona 1
+a 30
+a questo punto
+se io
+qualcuno mi ha detto
+che persona 1
+era 30
+io
+so che
+o studia
+o lavora
+ma non so
+quale
+vedi
+chiaramente
+nel mondo reale
+dovete pensare
+ad avere
+qualche
+centinaia
+di
+qualche migliaia
+o decina di migliaia
+di pensazioni
+e qualche
+decina di milioni
+sono centinaia di milioni
+di questi
+è chiaro?
+col problema
+di garantirti
+la correttezza
+col problema
+che queste affermazioni
+evolvono
+perché io
+vivivo a 30 oggi
+domani no
+e infatti
+quando arrivi a fare
+questa roba
+qui
+poi sono gli algoritmi
+sono tutti gli algoritmi
+incrementali
+per fare
+le valiazioni
+incrementali
+perché poi
+chiaramente
+come vedremo
+se tu ti permetti
+la or
+vedremo
+l'esponenza
+diventa
+nel più completo
+quindi tu fai
+un calco
+nel più completo
+su 100 milioni
+di 9
+e allora
+come fai a farlo
+e così via
+poi diventa
+il nostro problema
+informatico
+allora magari dice
+magari faccio
+un modello più piccolo
+mentre meno
+ho il possibile
+che posso
+e riesco a fare
+un vero
+polinomiale
+e così via
+questa è la ricerca
+che è lì
+ma l'importante
+è capire
+le scelte
+rappresentazioni
+che stiamo facendo
+la cosa importante
+che è ovvia
+lo sapete
+non l'ho scritta
+perché viene
+dal programma
+1
+è chiaro
+che questi
+nomi
+non significano
+niente
+e adesso
+arriviamo al punto
+questo è
+il
+assoluto
+del corso
+com'è che
+noi
+funzioniamo
+funzioniamo
+che noi
+abbiamo dei dati
+abbiamo dei dati
+dei dati
+ci arrivano
+poi qui
+assumendo
+che riusciremo a fare
+quello che vi ho permesso
+che ve lo sia
+formalizziamo tutto
+riusciamo ad arrivare
+qua in cima
+facciamo tutto
+il ragionamento
+decidiamo cosa fare
+diciamo cosa fare
+e ve lo facciamo
+decidiamo alle ruote
+di muoversi
+parliamo
+e mettiamo di nuovo qua
+ok
+tu fai il ragionamento
+però poi alla fine
+anche su un aereo
+vengi condotto
+poi alla fine
+dagli
+elementi
+mercantili
+dei movimenti
+quindi tutto il nostro
+problema di logica
+diventa
+come
+dato il mondo
+perché questo è il mondo
+perché il nostro sistema
+di logica
+come il nostro cervello
+è dentro il mondo
+quindi il mondo evolve
+il sistema di logica
+è di continuare
+a prendere dati
+noi li dobbiamo
+mandare dentro
+qui facciamo tutti
+i calcolini
+se siamo bravi
+qui facciamo
+tutto giusto
+ma abbiamo
+i problemi
+che ho detto prima
+di efficienza
+computazionale
+eccetera eccetera
+i metodi formali
+fare tutti i corsi
+che vorrete
+si trova qui
+poi prendiamo
+la decisione
+e la mandiamo
+nel mondo
+quindi
+il punto fondamentale
+però
+che se ricordate bene
+la nozione di correttezza
+l'ho usata
+rispetto a questo
+giusto
+quindi
+le nozioni di correttezza
+rispetto a questo
+ma da qui a qui
+non c'è quel che
+non posso fare
+le nozioni di correttezza
+con una cosa formale
+non posso informare
+io non posso fare
+un LLM
+che prende
+il linguaggio
+di una persona
+che sia garantito corretto
+non è possibile
+perché non è
+garantito corretto
+vuol dire che
+c'è una dimostrazione
+ma se il linguaggio
+non dice quello
+che vuole
+io non ho la caratterizzazione
+del linguaggio
+vale per l'ELEM
+vale per il compito
+il video
+vale per il qualunque
+vale per gli armodus
+parlo di LLM
+perché sono diventati
+il cavallo di battaglia
+che sono
+capisco
+che fanno tutto bene
+poi da qui
+ovviamente
+non sono d'accordo
+però
+il punto fondamentale
+è che noi
+possiamo fare
+correttezza
+corretta qua dentro
+quindi
+non possiamo garantire
+tutto
+la correttezza
+in etrata
+in uscita
+del motivo
+per cui
+come ho detto
+ah no
+non l'ho detto
+un sacco di gente
+lavora qua dentro
+a fare gli LLM
+a fare qualunque
+ma lavora anche
+a garantirsi
+sicuramente
+in logica
+questo lavoro
+è stato fatto
+ma c'è un sacco di lavori
+ancora a cercarsi
+delle logiche nuove
+che per noi
+di essere più efficienti
+in certi campi applicativi
+ma sicuramente
+questo qua
+è il problema
+che rimane
+e
+in effetti
+tutti i compitini
+saranno
+o fare un po' di raggiamento
+qua dentro
+o fare
+il formato in forma
+o il formato in forma
+sono i tre problemi
+fondamentali
+è chiaro?
+ok
+e quello che io
+spero e penso
+di poter far portare a casa
+con questo corso
+è che la prossima volta
+che farete
+una qualunque specifica
+o farete
+AI
+qualunque cosa farete
+sicuramente
+farete
+un sacco di pepera
+su bias
+tutti i sistemi
+sono bias
+per definizione
+perché
+comunque
+quando noi
+formalizziamo
+facciamo una scelta
+rappresentazionale
+il punto è
+che la logica
+oltre a segnare
+un po' di algoritmi
+qui e così via
+nella misura
+in cui riuscite
+ad acquisire
+questa sensibilità
+che il problema
+non è di essere
+bias o non bias
+è di essere bias
+in modo giusto
+giusto
+ma devo dire
+che va bene a me
+che va bene a me
+per risolvere il problema
+non che non siamo in grado
+di formalizzare
+l'universo mondo
+non è possibile
+non ci adatto
+perché non lo vediamo
+perché non abbiamo
+linguaggio
+perché facciamo
+tutti questi passi
+io spero con oggi
+di aver dato
+in maniera più quantitativa
+tutta quella storia
+che ho fatto
+nelle prime due lezioni
+di tutti i vari tipi
+che sono diversi
+sono ambigue
+eccetera eccetera
+bene
+fatta questa roba qui
+e con questa
+vedo più da questa lezione
+ma voglio prevedere
+ancora una cosa
+quello che nel corso
+adesso noi faremo
+è esattamente
+affrontare
+i tre problemi separati
+questa qua
+la parete
+esattamente
+è la citazione
+mentre qui
+faremo tutto
+l'aspetto
+del calcolo
+dei vari calcoli
+che sono necessari
+a partire dai modelli
+e di fatto faremo vedere
+la tradizione prossima
+e che altro
+sono che insieme
+quindi
+questi concetti
+sono importanti
+sono tutti e solo
+i concetti
+di questo corso
+più gli algoritmi
+ovviamente
+la piramide
+fatta dai sistemi
+informativi
+la piramide
+delle quattro
+rappresentazioni
+la piramide
+delle quattro
+attività
+che generano
+rappresentazioni
+la piramide
+della conoscenza
+che dice come
+le attività
+generano
+rappresentazioni
+la logica
+che formalizzano
+il nome della piramide
+i modelli
+che sono percezioni
+e percetti
+i wall model
+che sono concetti
+e percezioni
+le wall logiche
+che sono la sezione
+i type sentiti
+e i filabetti
+il nord grass
+le angle logiche
+sono proiezioni
+e il processo
+tale per cui
+da in forma
+andiamo a forma
+da forma
+siamo a forma
+forma più in forma
+e in forma più in forma
+gli RL
+sono puramente
+in forma più in forma
+non passano
+di livelli
+e noi nel corso
+scopriremo
+tutte queste robe
+qui
+e faremo
+1, 2, 3, 4, 5, 6
+6 logiche
+che scopriranno
+già
+faremo una lezione
+sui modelli
+facile
+comunque
+ripetiamo
+molto di questo
+domani
+poi daremo
+i vari tipi
+di wall model
+e poi faremo
+le logiche
+per lavorare
+a wall logic
+e le geologiche
+notte noi
+per lavorare
+linguistico
+su ciò che è vero
+su ciò che è falsa
+ciò che è vero
+ci fermiamo qua
+e a domani
+grazie
