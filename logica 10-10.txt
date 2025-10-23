@@ -1,0 +1,423 @@
+anche psicologi, come una long term memory si chiama, poi vedete qualcosa va in una short term memory e quello che noi vediamo si confronta e diciamo l'abbiamo già visto, non l'abbiamo mai visto, sì vedo Fauci con i capelli bianchi ma non i capelli neri, tutta questa attività è formalizzata in logica.
+Infatti la logica ti permette di modellare questo tipo di ragionamento insieme a deduttivo
+Chiaramente questo però vuol dire, la logica è quindi un motore, un algoritmo alla fine, però parametrizzato sul tipo di dato, perché il tipo di dato ti dà algoritmi diversi.
+Quindi questa astuta, questa storia che ho fatto per arrivare ad oggi, è dire guardate che di fatto al di là di tutti quello che noi faremo, che farete da grandi o da lungo, alla fine sono tre tipi di
+modelli che a questo punto magari sono i tipi di conoscenza che rappresentiamo.
+I tipi di conoscenza sono o rappresentiamo la conoscenza linguistica, Word l'abbiamo fatto vedere, questo ovviamente non l'avete mai visto, o rappresentiamo la conoscenza in quanto tale, che è qualcosa che noi chiamiamo i type graphs, o rappresentiamo la conoscenza, questa è la conoscenza che noi percepiamo, una qualunque...
+rappresentazione visiva, cioè la qualunque rappresentazione che noi percepiamo dal mondo viene rappresentata in questo modo.
+Per essere chiari, sarà vero che tutti gli uomini hanno due gambe se non se ne manca una, ma il fatto for all men
+formalizza il logico come conoscenza.
+Perché è conoscenza?
+Perché è una conoscenza universale, vale sempre.
+Poi parleremo di un altro tema, ma questa roba qui voi non la vedete mai, voi vedete sempre una persona una volta e un seguito una volta.
+Quindi questo tipo di conoscenza la rappresentiamo qui.
+Poi, in qualche maniera, andiamo qui.
+E quello esattamente rappresenta quello.
+Ma per fare quello abbiamo bisogno delle parole.
+Ok?
+Quindi questi sono i tre livelli di conoscenza, la conoscenza che rappresenta ciò che percepiamo, la generalizzazione su degli universali, ci sono spaziali, temporali, lo vedremo, infatti la logica ti dà la possibilità di fare universali su qualunque cosa, e il linguaggio che usi, la logica ti dà la possibilità di usare qualunque linguaggio, l'importante è farlo in maniera uniforme.
+Però dov'è vero il problema?
+Che in realtà noi ogni volta che facciamo, modelliamo quello che abbiamo visto,
+Assumiamo un linguaggio che si chiama della conoscenza.
+Quindi quando noi diciamo quella cosa lì, abbiamo assunto il permesso delle persone, abbiamo assunto che le abbiamo riconosciute, abbiamo assunto che men vuol dire un certo insieme di cose e che questo vuol dire un altro insieme di cose.
+Quindi in realtà, alla fine,
+Per costruire compiutamente quello che la gente, la conoscenza degli umani, delle persone, dobbiamo avere delle rappresentazioni che sono queste.
+Dobbiamo sapere formalizzare il significato delle parole che usiamo, dobbiamo formalizzare le entità e quindi tutti quei concetti che noi usiamo per descrivere il mondo e dobbiamo formalizzare le entità, dare un nome alle entità.
+E chiaramente abbiamo tutti i passi intermedi.
+Dov'è il problema?
+È che voi questa roba qui non l'avete mai vista.
+Avete visto i primi due.
+È chiaro?
+Quindi, giustamente, perché poi lo diremo fra un minuto, perché questa roba qui sta per scontata, ma è esattamente ciò che la logica deve formalizzare, è esattamente ciò che quando hai problemi di qualità devi formalizzare, perché è esattamente questo non detto, dove il non detto ha il significato delle parole, o è come descrivi le proprietà delle cose, che si nasconde
+l'incomprensione legata al fatto che uno di noi rappresenta il mondo quindi quello che io adesso farò mi darò un'idea e formalizzerò in forma di grafo tutti e sette i modelli del mondo per poi arrivare a far vedere come si mappano su quelli che voi usate normalmente quando fate software e ingegneri
+analizzando i problemi che ci sono facendo le approssimazioni che si fanno normalmente quando parli di linguaggio naturale che quindi il modello è informale o quando usi un IAR model o un database quindi il modello è semiformale ricordo semiformale vuol dire che la sintesi è formalizzata di tipo 1, 2, 3 e informale vuol dire o non c'è sintassi o è di tipo 0
+allora il concept model quindi graffita i concetti ricordate l'abbiamo detto se vi ricordate l'abbiamo detto all'inizio cos'è un concetto?
+è una rappresentazione linguistica una parola di un tipo di percetto
+abbiamo già fatto i tipi di concetti la lezione allora che esempi sono i concetti?
+sono uomo, persona, cane e così via allora se noi vogliamo rappresentare formalmente in una logica perché noi vogliamo rappresentare la conoscenza
+implicita che c'è perché se noi non la presentiamo poi o non va nel programma o il motore di inferenza non lo sa perché non è che noi la sappiamo perché ce l'ha insegnata in tanti anni di vita che abbiamo allora se uno guarda qua qual è il legame fra questo e questo?
+e qual è il legame fra questo e questo?
+è chiaro?
+avrei potuto scrivere anche mangiare bere
+Sfamarsi?
+No, sfamarsi non va bene.
+Sì, anche sfamarsi.
+Perché il concetto di concetti vale anche per i verbi, ma per qualunque importo non sia.
+Allora, qual è la relazione fra uomo e persona?
+Che tutti gli uomini sono persone.
+Quindi sappiamo semanticamente che l'insieme dei percetti denotanti da uomo è un sottinsieme dell'insieme dei percetti denotanti da persone.
+per fare persone e cane o uomo e cane che se c'è un uomo se non c'è un cane o viceversa quindi abbiamo due principi quali le gambe per mangiare e bere sono diverse probabilmente in entrambi li puoi vedere come sfumarsi quindi alla fine quello che mi sto dicendo è che se tu ti poni il problema di fare un world model che cattura
+Il concetto che noi abbiamo dentro, quello che in Italia artificiale la gente chiama ragionamento di una conoscenza del senso comune, quello che noi sappiamo e che non diciamo mai perché è ovvia, che è esattamente il motivo per cui i sistemi ideali si impiantano, è il motivo per cui i sistemi esperti in Italia non fanno di cosa, perché non sapevano stare a mano, ed è il motivo per cui la gente si fa un sacco di ricerca.
+Ci sono solamente due tipi di relazioni o inclusioni.
+un insieme sotto l'altro, o l'esposizione.
+Ok?
+E questi è quello che i wall model rappresentano.
+Questo l'abbiamo già scritto semplicemente, riscritto.
+Questo è un remark, da come incrociattano, denotano insieme i due percetti, con che possibilità dei due percetti
+tipo abbiamo due case, ci sono due case in questo momento in due posti diversi, che non è vero per la stessa persona, il soggetto è in due posti diversi, una casa, essere in un posto sia oggi che domani, e che i concetti di solito hanno una certa durata temporale, una casa, la nostra vita, noi due persone, la vita e la morte esistiamo.
+Quindi abbiamo un coordinato spazio-temporale che è una certa persistenza nel nostro profilo, dove siamo, il nostro colore degli occhi, come uomini e così via, che ci rendono riconoscibili nel tempo.
+Non come persone, non come entità, come concetti, come insieme di persone, insieme di concorrenze
+Il grafo dei concetti rappresenta esattamente questa roba qua.
+Com'è che lo facciamo matematicamente?
+Eh, sarà esattamente una diarachia, una root.
+Cos'è la root?
+Esattamente quando abbiamo insegnato in scuola il Venn diagram, e questo è il dominio di cui abbiamo parlato.
+Lo chiamiamo, e lo chiamiamo entità, lo chiamiamo proof,
+Quindi c'è nel linguaggio una parola che dice che è la parola che tutte quelle cose dell'universo sono quella cosa ed è esattamente la prima cosa che vi ho detto nella lezione dei modelli, sono queste cose che distinguiamo, che hanno una certa persistenza del tempo, le chiamiamo entità.
+In linguaggio chi fa AI le chiama entità, chi fa database le chiama truth, il concetto è sempre quello.
+Qual è il punto?
+Che magari qui ci sono due insiemi e ce n'è uno dentro l'altro, ma questo è dentro l'universo del domino di interpretazione, questo è dentro questo e questi sono gli insiemi.
+Come lo diciamo?
+Si fa così, si dice che questi due sono sibling, perché sono due figli della stessa ragazza,
+è un uso di questo non ho bisogno di dire che questo è disgiunto da questo perché questa è una conseguenza dell'altro è chiaro?
+il fatto è che se quello dentro è disgiunto da quello esterno non bisogna dirlo perché se ho un motore di differenza mi viene grazie questo l'abbiamo preso una buona appassimazione di quello che abbiamo preso da Wardlett
+È abbastanza vero, penso.
+Quindi abbiamo, perché ce l'avete notate bene, questi concetti li possiamo dire per parlare di entità.
+Possiamo parlare in Wordlet, Thing, e più specifica di entità, perché in qualche maniera entità, per Wordlet sono delle cose che non sono entità, lasciate a loro.
+Il linguaggio è arbitrario, ognuno di noi lo modella come vuole e descrive il mondo.
+gli oggetti sono un'entità, le location tipo questo ufficio è un'entità, città è una location, bank è una location, organismo è un oggetto, slope è un oggetto, città e bank sono disgiunti, quindi anche bank e stream sono disgiunti, square e bank sono disgiunti e così via.
+E' chiaro?
+Quindi semplicemente con questi due assiovi questo albero
+ci permette di rappresentare tutta la conoscenza, il cuore della conoscenza che noi abbiamo, rappresentiamo in linguaggio naturale.
+Poi chi di voi farà linguaggio naturale si divertirà a capire cosa fare di questi schemi e come estenderli.
+La prima domanda ovvia, penso che sia chiaro, perché noi vogliamo i concetti di Giunti?
+Perché poi questi...
+Devo poter... Ah, scusate, ho fatto i nomi.
+Poi sono i detettivi.
+E ci sono i verbi.
+Le famose proprietà che io chiamavo mangiare la mela, essere padre di... Sono esattamente... Essere padre è una relazione tra due persone.
+Mangiare è una relazione tra un uomo, un animale, un organismo e un altro organismo.
+Si mangiano sempre solo organismi.
+le proprietà, le proprietà, ad esempio, io sono a casa, e così via.
+Allora, tutto fondamentale, che nella sintesi del linguaggio naturale noi, come umani, abbiamo la proprietà della scelta del linguaggio, ma non dobbiamo vedere quello che noi rappresentiamo in tutte le lingue, i ricontratti, i ricomprendi, i linguaggi formali che usiamo, sono grafici di questo tipo.
+e quello che sto dicendo è che questi tipi di graffi hanno queste proprietà qua.
+Ovviamente abbiamo scritto l'organismo disiunto dalla location e la città è usata insieme di location.
+Ovviamente la domanda ovvia è quanti sono i graffi, quanti sono i graffi di questi graffi, no?
+Chiaramente voi quando avete fatto, quando vi hanno fatto fare il gap model o qualunque specifica,
+ve l'ho già detto, una persona normale, una come voi, quindi che ha studiato, usa 15.000 parole.
+Quello che noi abbiamo, che viene usato normalmente nei sistemi di AI, ha 120.000 parole.
+Ok?
+120.000 parole che sono collegate.
+Ok?
+Se tu la vuoi dare alla macchina per queste 100.000 parole, vuoi dire alla macchina, guarda che organismo è un oggetto, sono un organismo, e così via.
+Vediamo?
+quanti sono?
+Non lo so, ma io so che quando noi lo prendiamo in memoria, lo facciamo, lo calcoliamo, scriviamo, generiamo automaticamente tutte queste azioni, che sono azioni, come in matematica, sono 400 righe di azioni, distribuite, solamente per codificare queste informazioni.
+E questo spiega come mai la gente, quando ti fa fare lì a botte, non ti fa fare questa roba qui, perché ne hai centinaia di milioni di
+Ed è esattamente il modo per cui serve la logica, perché ti permette di calcolarli senza dirlo.
+Non ci arriveremo domani.
+Allora, questi grafi di concetti si chiamano modelli del linguaggio, language models.
+Da non confondersi con gli LLM, sono arrivati qui, ma come concetti questi sono concetti logici.
+E di fatto il punto fondamentale è quello che è scritto nel secondo punto.
+Se io prendo, qui c'è persona, per ognuno degli oggetti che non sto menzionando, io sono in grado di avere la fotografia riconosciuta.
+E se io prendo l'insieme di tutte le foto, ad esempio di persona, saranno tali per cui, se io faccio un algoritmo di riconoscimento di computer vision, valgherte dentro questo parola persona.
+Quindi il linguaggio, quando da bambini mi insegno il linguaggio, guardate che mi insegno, mi fa vedere la serata tante volte, fino a quando imparate che, ad esempio, per riconoscere me, il colore della maglietta non serve, la mia faccia è quello che serve.
+Per riconoscere la tua macchina ti serve la tappa, e così via.
+Ma per riconoscere una Fiat, una Ferrari, una Maserati, ti serve la... non so.
+Comunque il fatto importante è dire che
+Questo è il passo dove il machine learning è fondamentale, devi imparare ad associare ad una label un insieme di percezioni.
+Matematicamente questo vuol dire fare una classe di equivalenza.
+La gente chiama questi grafi di concetti in cui la docente dà ontologie o top level ontologici.
+Chi di voi ha fatto filosofia, aveva fatto Husserl, aveva insegnato l'ontologia degli inventati filosofi, e quella roba lì a un certo punto l'hanno facciata avanti per conto loro, e verso 2005-2006, quando il problema del web è diventato che era chiaro che non si integravano i dati, e perché erano tutti appunti eterogenei, la gente ha inventato questo termine, ontologie, che comunque è stato approssimato prima degli AR model, che era questo modo di far diventare sistematico
+che cosa?
+Il modo con cui tu documenti i tuoi dati dicendo il significato delle parole, che le avevamo già dette in precedenza, le parole hanno significato lì.
+Ma ovviamente questo, io lo chiamo entità, entità vuol dire top level ontology, ma se io qua ci metto sport,
+A questo punto il mio dominio diventa lo sport.
+A questo punto mi sono ristretto.
+Funziona tutto, ho semplicemente cambiato la radice.
+Perché lo faccio perché gli ho detto che è un'applicazione che parla solo di sport.
+Quindi il principio del grafo funziona sempre, che è esattamente l'equivalente linguistico di dare il dominio di interpretazione.
+quando l'avete fatto in 3D.
+E infatti la gente si è inventato un sacco di... Ah, scusate, questi link qui si chiamano ISA e di solito vanno dal più specifico al più generale.
+Non si chiamano more general e less general, che saranno quelli che probabilmente avete visto nell'IR model.
+perché quelli sono i livelli di estrazione sotto anche se poi logicamente come vedremo quando facciamo logica dalla prossima volta il motore di inferenza è molto simile in realtà se uno va a vedere i link che servono sono due, non c'è solo l'AESA ma c'è anche il Paracom per esempio tu dici che ad esempio questo è un oggetto questa è una portiera
+Questo è un panale, l'auto è un altro aree d'oggetto, ma queste sono parti dell'area.
+Vedete bene che a questo punto abbiamo creato delle relazioni che dicono che le parti si uniscono al tutto.
+Noi nel corso questa roba qua non la facciamo,
+ci concentriamo su AISA, che è quella più importante, e a questo punto introduciamo quello che ho detto prima, queste ontologie, la gente la chiama, noi in particolare, language teleontologie.
+Tele vuol dire, sono ontologie, quindi descrizioni del mondo con un obiettivo specifico, che possono essere
+per uno specifico dominio, ad esempio nella sanità tutti gli standard che fanno ad appunti digitalizzati sono limitati a hermeneutologie o fai ad esempio nello sport o in qualunque attività fai l'interventologia dei task o fai quelle dell'applicazione questa è terminologia che viene usata ma il principio non cambia il principio è che qualunque spazio
+Qualunque problema tu affronti, definisci questo linguaggio e mediamente questo linguaggio viene categorizzato come un concetto di dominio.
+Nel caso iniziale, nel caso più generale, non è un dominio ma è tutto, è quando si chiama ontologia.
+Ok, tutto qua.
+Quindi questa è la mia struttura da oggi.
+per fare la andare al secondo devo riprendere quello che vi ho stato velocemente detto gli type e il data type allora come ripresa dalla selezione sui modelli questa data è proprio la stessa e vi ha detto che noi tutto sono entità quindi vi ha detto che in caso generale
+che il dominio che stiamo considerando nel caso generale è il dominio di tutte le entità.
+Però, avevo fatto l'esempio, avevo distinto fra entity properties e entity relations.
+Il fatto, ad esempio, del concetto di biondo.
+Il biondo è come il peso, come l'altezza.
+L'altezza è 125 cm, non c'è nel mondo.
+è semplicemente una metrica che noi usiamo e abbiamo imparato a usare per confrontare le persone senza dover riferirci al calato io so che se io sono 125 cm se io sono 130 cm mi sento alto questo concetto è passato dal 90% al 90%
+la data princess è la volta passata chiaramente per fare un esempio in S3 abbiamo l'e-type studente abbiamo l'e-type corso abbiamo l'e-type docente c'è un e-type generale entità probabilmente S3 fa parte del
+sicuramente non c'è il tipo di cibo e chiaramente questi itali qua perché stiamo andando adesso a fare il passo dopo uno li sceglie come vuole è esattamente quello che voi avete fatto con questo materiale quello che chiedete e quello che volete in modo che
+sia in un linguaggio che comprendiamo, in modo che questi E-Type abbiano corrispondenza e concetto che hanno un certo significato che tu conosci.
+Quindi non è vero che scegliete, come in tanti colori che scegliete, quelli che sono nel vostro grado dei concetti.
+E serve a garantire la comunicabilità.
+La gente ha inventato i data type, cosa sono i data type?
+Sono degli E-Type.
+Sono degli type, sempre, che però sono definiti a priori, perché?
+Eh, per far prima, esattamente i data type che avete visto, che avete visto nei vostri invagli di programmazione, ma quasi più sistematica.
+Quando tu fai teorie del mondo, anche prima di arrivare in grazia di obbligazione, puoi usare dei data type.
+Qualsiasi data type sono degli type in cui le proprietà sono finite a priori, definite a priori, in cui il nome è definito a priori.
+Quindi li puoi solo usare, non li puoi modificare.
+Abbiamo già detto che sono finite a priori.
+quello era importante di prenderlo qua quindi gli esempi di data type sono periodi sono number via string però come chi normalmente fa ma anche dei database geografici ci sono cerità e poligono cioè data type poligono, data type punto la strada è una data type sequenza di linee e così via e ci sono montagne di standard
+valentino che se stessi diciamo fattata pubblichiamo poi descriviamo il dettaglio armi d'avere l'obiettivo per vedere l'italia peter concetto importante quelli che non hanno chiamato prima
+Entity Relations e Entity Properties si chiamano Data Properties e Object Properties.
+Object Properties sono una proprietà che vengono in due oggetti.
+Data Properties sono due proprietà che vengono in un oggetto a un Data Type.
+Altezza è una Data Property, Amico è un Object Property.
+ovviamente c'è un esempio messo qua come quali sono le proprietà dei naturali è uguale.
+Tutto il ragionamento, tutto il ragionamento e anche tutto i meccanismi che fate sono proprietà di uguale, di uguaglianza e la logica
+perché chiaramente se io dico per fare un'autentificazione faccio un piano quindi faccio il ragionamento per arrivare a casa quando arrivo a casa devo accoglimi che sono a casa come faccio a accoglimi che sono a casa?
+perché ho la casa in memoria in un knowledge graph o un intito televisivo di confronto che sono uguali ok?
+quindi chi fa logica dice io ho l'uguaglianza chi fa mission learning la chiama classification, la chiama logico-economico la chiama come vuole ma di fatto non fa che computare l'uguaglianza con tutti i problemi che questo dà dato questo vediamo gli entire graphs sono sempre dei grafi diretti
+hanno sempre un nodo, ma il vincolo è che il nodo deve essere un concetto.
+Ok?
+Mentre quando io sono a livello del linguaggio, me lo faccio come voglio, e parlando l'italiano imparo il linguaggio dei concetti, quando io comi... perché di fatto a livello ontologico del linguaggio...
+quando io definisco le parole, definisco ciò che esiste, perché se tu non hai la parola non puoi parlare di quella cosa.
+Quando tu arrivi agli type graphs, che vedremo con il secondo, il modo di descrivere uno specifico concetto, devi assumere che il linguaggio è noto.
+O ad esempio, vediamo, ce lo do per esempio, il trumento musicale, qua come concetto, o c'è il concetto di chitarra, violino.
+e poi qui qua sotto ce ne so la chitarra acustica io prendo questo non faccio inventare adesso voglio parlare e descrivere le chitarre sono un ragazzo che vende chitarre allora mi prendo all'interno dell'intero dominio di
+interpretazione con sottospazio nelle chitarre e dico questa è una chitarra bianca questa è una chitarra gialla questa è una chitarra pesante e questa è una chitarra leggera notate bene che ho messo degli attributi gli altri non solo questi sono attributi che sono valori
+di un attributo che potremmo chiamare peso.
+Questo sono attributi, valori, attributi che potremmo chiamare colore.
+E magari qui, sotto le pittare bianche, poi lì sono le pittare bianche italiane e le pittare bianche tedesche.
+Quale è sempre l'ineritance?
+Ma mentre l'ineritance di Isa, quella precedente,
+era quel qualcosa che ti permetteva di collevarti alla percezione qui ti sei già dato tutte le parole ti sei anche dato gli aggettivi ricordatene cosa precedente dell'aggetto precedente e hai avuto le parole per descriverle e in particolare come vi ho insegnato per fare i dettagli e ovviamente poi avete fatto tutti i vari tipi di internazionalità non si parla più di
+I AISA o IISA, ma si parla di...
+vedete qui c'è scritto describe, c'è sbagliato define, quindi nelle slide di domani c'è scritto define questo è il motivo per cui, perché quando voi fate l'isarchy come fai a definire cosa è una persona?
+è come quella che vedi, eh sì ma io non lo vedo quindi l'unico modo per definire cosa è una persona piuttosto che un animale, tu semplicemente dici che cosa è e che cosa non è
+Come fai a dire che cosa è?
+Dici quelle cose che sono più generali.
+Come fai a dire che cosa non è?
+Dici che sono separate.
+È uguaglianza e disuguaglianza.
+Quindi la struttura dei linguaggi è fatta in solo questa maniera.
+E tu definisci il significato delle parole semplicemente dando questa funzione e collegandotela alla cosa visiva, sperando, e questa è una buona soluzione, che noi tutti vediamo in questa maniera.
+Però quando a questo punto mi sono già diviso il mondo e quindi non c'è
+dubbio nel fatto che ci capiamo se parliamo di una persona, di un uomo, a questo punto possiamo cominciare a descriverlo, sono uomini bravi, uomini cattivi e chiaramente queste proprietà, alcune proprietà non le diciamo, no?
+Perché non ne diciamo, perché non dite mai ho visto un uomo con due gambe, ve l'ho già fatto, perché non ci mettete, perché è ovvio, al massimo dite che è un uomo senza una gambe, con una sola gambe, perché l'eccezione è la regola.
+Ma non potete dire non ho visto un uomo senza la faccia, perché senza la faccia non c'è più l'uomo, la funzione di uomo nel mondo non c'è più l'uomo.
+Quindi tutta questa cosa qui è tutta quella semplicità che è nella vostra testa e che voi capite immediatamente, ma qui non pensate mai e dovete tornare a ripetere dove si piante in particolare, a questo livello in particolare, mentre a livello più grossolano ci sono i problemi del software di attualità.
+Come facciamo a dire che un uomo con una gamba rimane un uomo?
+Prima di tutto lo dici,
+E' qualcuno che crea per dire che un uomo senza una gamba non è un uomo perché nella sua concezione di uomo asparta, vuol dire senza una gamba non sei un uomo che non puoi fare il militare, è una definizione.
+Nel mondo occidentale nostro avere una gamba invece che due non è sufficiente a far dire che non sei un uomo, ma è pure una definizione.
+come definisci il mondo, sei solo te.
+Certo non puoi dire un uomo senza una faccia, perché vuol dire che ti ha tagliato la testa e quindi in qualche maniera non c'è la funzione di uomo.
+Chiaro?
+E fra parentesi, questa roba qui, e quando, vabbè, questa, chi fa lingua lo sa benissimo, i linguaggi sono molto più diversi di quanto noi pensiamo.
+Sono profondamente diversi.
+È chiaro?
+Perché sono definizioni.
+Il mio esempio preferito, lo dico sempre ai miei studenti, è quando ho dato al mio studente mongolo, forse l'ho già detto qua, di tradurre lo spazio di mongolo dall'inglese, molto bravi gli studenti, e c'è la parola seaport, seaport, porto di mare, e la parola seaport in mongolo non c'è, perché non ce l'hanno mai.
+Ad esempio nelle culture asiatiche noi distinguiamo sempre maschio e femmina, loro non lo fanno, distinguono maschio e femmina solamente sugli adulti.
+In giapponese la parola riso non c'è.
+Non mangiano tanto riso.
+Riso inteso come riso crudo e riso cotto.
+Noi facciamo riso come concetto, riso crudo, riso cotto e litai.
+E loro non ce l'hanno.
+Perché per loro il riso cotto è un concetto, è talmente importante che è un concetto.
+Quindi il riso cotto per loro è diverso dal riso crudo, sono due concetti diversi.
+Nella loro gerarchia di linguaggio sono due concetti diversi, sono a livello di conseguenza.
+È chiaro?
+Bene, quindi noi in qualche maniera...
+ed è il motivo per cui la gente fa il dizionario italiano.
+Ci vuole qualcuno che dica cosa è l'italiano.
+Ovviamente in questo momento la nostra carriera di amici dice quello è l'italiano, ma l'italiano che parlano tutti è quello di Google, perché è lui che fa la traduzione di tutti.
+Quindi in questo momento il nostro italiano come lingua, e non voglio essere particolarmente nazionalista, cos'è l'italiano lo decide Google e non noi.
+Ma questo vale per tutti i linguaggi del mondo.
+nella misura in cui siamo andati in rete quindi sono rappresentazioni analogiche che descrivono gli types come in Merit Person notate bene ho scelto una proprietà di un altro aggettivo
+e in proprietà, che sono i due tipi, data property e object property.
+C'è il concetto del reference concept, che è l'e-type di partenza, e chiaramente, perché voi fate gli armose?
+Perché dite, dato l'e-type persona, o dato l'e-type negozio,
+cioè consumer, producer, venditore e così via, io dico che per quanto riguarda il dato S3, dato di tab, istituto identico, quali proprietà servono?
+Numero degli esami, età, indirizzo e così via, e poi ti serve cosa?
+L'ID per fare la funzione di interpretazione e così via.
+Quindi questo è l'esercizio.
+Però chi ha disegnato S3 all'inizio si è fatto lo spazio delle parole usate, si ha...
+per fare lo schema che può fare i valori e chiaramente ci sono gli e-type disgiunti e chiaramente facciamo gli e-type graphs cosa sono gli e-type graphs?
+sono quei grafi che sono su link diversi che dato uno o più concetti tra cui particolarmente il reference concept la radice degli e-type perché gli e-type non ha senso descrivono come sono fatti
+e si chiamano Knowledge Models.
+Quindi di fatto noi a questo punto, ricordate, avevamo fatto i vari percetti, no?
+Avevamo fatto tutte le strade che avete visto prima con la foto, no?
+Prima prendiamo quello che vediamo, lo separiamo, lo facciamo insieme e poi cominciamo a fare le relazioni.
+le relazioni, quindi certi concetti li scegliamo di diventare i-type e poi devo dire di farli diventare un concetto di i-type, dico quel concetto io lo voglio descrivere e a questo punto facciamo delle relazioni, quelle relazioni anarie che abbiamo visto, che possono essere verbi o anche relazioni di data-property, relazioni di object-property.
+E chiaramente ci permette di distinguere, ad esempio, una persona me da oggi con me da ieri,
+Chiaramente, molto spesso, un E-type graph ha più concetti.
+Ad esempio, se io faccio il concept graph di S3, il E-type graph di S3, ci sarà sia il concetto persona che il concetto studente, il concetto professore.
+Si può fare?
+Sì.
+però deve essere tale per cui la geranchia, quindi posso avere un I-type graph, posso avere un I-type graph fatto così, dove questo è un concetto e questo è un concetto, però in questo I-type graph questa relazione mg deve essere la stessa di Heisenberg.
+perché altrimenti io dico altrimenti c'è una contraddizione perché io dico da un punto di vista definizionale ad esempio un uomo è una persona però da punto di vista iscrittivo una persona non è un uomo e così via e fra parentesi ovviamente quando noi parliamo normalmente usiamo gli intapi concetti senza sapere
+I dettagli li usiamo indistintamente.
+Se tu dici, ho visto un uomo che camminava, tu usi uomo, in quel caso lì, quell'uomo lì è un'Italia, tu gli stai dando la proprietà.
+Ma tu usi la parola del concetto perché il linguaggio naturale te lo permette.
+Se invece dici, ho visto un uomo con una gamba, un uomo con i cacchetti biondi, ancora, ma se dici un uomo alto...
+la sintassi italiana e anche quella inglese titolarmente si crea un modificatore che rende specificamente e automaticamente esplicito che quell'uomo lì non è un concetto ma è mi-type quindi un insieme di oggetti che stai descrivendo o degli uomini o altro il problema è che a livello dell'asmoscienza
+quello più strutturato non è un problema un fatto non a caso voi a livello di conoscenza avete fatto sia IAMODEL che IAMODEL e non è un caso in realtà sono più di questo ad esempio o perlomeno sono più di due
+Allora, come è fatto un ETG di unità e grafici?
+Uno è che, come avete nel YARN model, è fatto così, no?
+Questa si chiama teleontologia, che è uguale più o meno a un YARN model.
+Vuol dire che tu hai il nesting
+di questa è il nesting del MGRK notate bene che adesso dato questo NIR model ad esempio tra questa e questa avete una proprietà quindi questo diventa un dato quindi il passaggio
+non solo potresti avere ad esempio anche una cosa così ad esempio puoi avere una una barca una barca auto che ha sette ruote che sia un'auto che una barca questo è un E-Type
+ma non può essere un concetto.
+Perché se diventasse un concetto non saprei quale delineerà e prenderei l'antiquità.
+Quindi i DAG non sono...
+i percorsi più percorsi nei due punti ci sono barri che esattamente la forza della conoscenza, tu vuoi aspettare un livello B per collegare la conoscenza e per fare affermazioni su ciò che è vero e ciò che è falso.
+Mentre il livello del concept graph vuoi solamente dire cosa esiste e cosa non esiste e come spartire il mondo in punti non confondibili.
+Poi chi di voi fa un po' di statistica
+fa queste antologie particolari che si chiamano tassonomie.
+Ad esempio, prendi la popolazione di una certa parte e dici, faccio un gruppo dai 0 ai 20 anni, dai 20 ai 40 e dai 40 ai 60.
+Questa è una knowledge teleontology, non è un grafo di concetti, perché stai dando la proprietà.
+Però ha la proprietà che comunque sia sono disiunti e la somma di questi è uguale a questo.
+Questo è un oggetto che si usa abbastanza per categorizzare gli itali.
+e chiaramente una volta che si è dato il linguaggio per il linguaggio per parlare di task il linguaggio per parlare di applicazioni e così via lo fai anche a livello di conoscenza ti limiti semplicemente a quel dominio e gli dai la proprietà cos'è lo schema?
+lo schema che avete visto alle volte è questo
+lo faccio vedere fra dopo il dettaglio dell'esempio è che ad esempio io ho questa teoretologia di conoscenza prendo questo intaglio e prendo questo intaglio quali proprietà prendo?
+tutte le proprietà dei padri fino alla radice è importante che questo concetto c'è perché vuol dire finalmente io non ho bisogno di dirti
+che questo E-type ha due gambe, perché questo prima di tutto, supponiamo che parliamo, dov'è che la mettiamo questo E-type?
+Due gambe, la mettiamo a livello di persona.
+Arriva un uomo, parli di uomo, non di dirti che ha due gambe, perché?
+Perché l'uomo è più specifico di persona a livello di concetti, persona ha due gambe, c'è l'inertas.
+Ok?
+Quindi, di fatto, qual'era lo schema?
+Questo oggetto che noi costruiamo facendo tutta l'identità delle proprietà dai conseguenti ai grafici, cancellando questo.
+Chiaramente, se noi vogliamo fare un motore di differenza, una logica, come faremo fra tre lezioni, che ti chiede, basata su una certa conoscenza a priori, se
+un uomo a due gambe devi fare un motore inferenziale che conoscendo il modello del mondo, il world model è in grado di camminare su questo grafo per dire in maniera corretta che questa affermazione è una vera o falsa se tu gli chiedi al tuo database
+arricchito con la conoscenza a priori dell'e-type graph, che è implementato, non è come l'e-art model in un linguaggio specifico, è implementato.
+Se l'uomo ha due gambe, una persona, un uomo ha due gambe o meno, dipende dal mio fattore e-type graph.
+L'hanno prevista, l'eccezione...
+se no ti dirà di sì e se sì ti dirà di no perché dirà non lo so perché nel mio database sopra non ho previsto questa eccezione questa eccezione qui che a noi non ci venne mai in mente è esattamente se uno si sporta sulle applicazioni safety è esattamente il motivo per cui cadono gli aerei o ci sono i treni che si scontrano perché sono queste eccezioni che succedono una volta su un miliardo ma se non è un metodo sistematico di definire cosa è detto te la dimentichi
+e non hai la garanzia di copertura quindi questo tipo di strutture lati che inizialmente possono sembrare un po' esoteriche e infatti lo sono diventano fondamentali per le applicazioni in cui devi coprire tutte le eccezioni o le applicazioni in cui fai un sistema di AI che non dica sciocchezze come vi parliamo oggi
+perché poi non ne vedete e chiaramente l'RM pensa a fare le famose rossinicce ok?
+e questo è il nostro teleontologi vedete come è fatto questo teleontologi qui?
+ha una radice se andate a vedere ci sono due ID, c'è un CID e un IID l'ID del concetto
+è l'id dell'indicità quindi questa roba degli id quando avete fatto ieri a moda non ve l'hanno mai detta ma sicuramente quando l'avete come abbiamo detto sicuramente nelle implementazioni ci sono gli id, ci sono le nostre istanze chi fa knowledge graphs nel web ha anche questi oggetti come questi grafi come oggetti e si porta lì a tutti questi id è l'unica maniera di capirsi
+ad esempio, quella è solo un esempio location che in italiano possiamo chiamare locazione se io faccio l'integrazione di un data set in inglese e un data set in italiano avranno una label diversa ma avranno lo stesso CID e quindi anche se perché a quel punto la parola
+È stato tradotto nello spazio dei concetti, nel concept graph, e quindi fa il data integration.
+Capisci?
+Una cosa interessante che ho notato qui è che questa location ha un segno diverso dall'e-type.
+Quindi qui ti dico un esempio di due concetti dello stesso e-type.
+ce l'abbiamo due cose uguali, no?
+a livello di concetti?
+eh?
+a livello di concetti possono essere uguali questi sono conoscenti no ma questi concetti qui sono ok hanno uno specializzato, uno specializzato
+notate bene che qui che tutti i concept ID sono diversi perché questi noi abbiamo l'e-type e il concept ID più avanti penso che abbiamo fatto un esempio e da qui te lo aggiungiamo in cui abbiamo lo stesso concetto per l'e-type se io qui avessi l'e-type
+piazza quadrata e piazza rotonda, questi erano i due itypes con lo stesso concept ai due diversi id.
+E chiaramente, perché ho deciso di fare, facciamo square, questo è interessante.
+E dite a me che me ne frega.
+In pratica, qua c'è square quadrata,
+ma cosa mi serve a fare i tag?
+è perché qui sono tutte e due piazze magari tutte e due hanno la stessa superficie ma qui mi serve il raggio e qui mi serve il lato è chiaro?
+se io ho una piazza un concetto di piazza una piazza quadrata per sapere la superficie devo sapere il lato la piazza rotonda per sapere la superficie devo sapere
+che vuol dire che a livello di implementazione del tuo database o del tuo knowledge graph devi avere due proprietà diverse.
+Quindi hai un unico concetto che viene istanziato su delle descrizioni diverse per poter dettagliare una proprietà particolare che ti interessa che è quella della superficie.
+Questo è il terzo, la teleologia.
+Qual è l'appunto fondamentale di questa?
+È che l'Aiza Araki è stata accattita, è diventata quasi uno schema, è uno schema, però è uno schema che fa riferimento al concept ID, in cui è mantenuto l'indice, l'ID del concept ID, root del concept ID e la root del data ID.
+Se noi andiamo alla
+ben vero c'è qui a indirizzo e qui c'è un nome quindi la band branch chiaramente essendo molto specifici di questo
+c'è l'adres che c'è da qui e c'è il nome che viene da qui la real mode noi lo sappiamo dalla filologia quando noi fratteniamo rendiamo questa dipendenza esplicita name e adres perché questo è importante?
+è importante perché se
+mi chiedono in un'applicazione gli do semplicemente questo e mi chiedono di dire se una banca, un branch di una banca ha un indirizzo anche se non è messo formalmente o ha un nome anche se non è messo formalmente se io uso un motore inferenziale che cammina per l'albero e ci sono degli algoritmi per farlo io sarei grato di dire sì o no quindi quello che vi sto dicendo
+e quando voi avete fatto l'IA e l'IA al mode prima di tutto avete fatto su carta queste sostrutture dati seconda cosa erano separate quindi quegli algoritmi sarebbero in grado di unificarli tutti e fare dei motori inferenziali che utilizzano l'informazione codificata di tutti gli animali cos'è uno schema?
+è esattamente è uno schema cos'è?
+è esattamente il gol di prima in cui abbiamo buttato fuori via la radice
+piccoli davanti davanti davanti davanti davanti davanti davanti davanti davanti davanti davanti davanti
+cos'è un entità grafica?
+è quello che avete visto di cui parlano tutti i giorni sono entità che non sono entità con uno schema di riferimento
+dove però, da quanto ho detto prima, lo schema di riferimento fa riferimento a una tecnologia di riferimento, che fa riferimento a un'etichetta di riferimento, che fa riferimento a un coso esatto di riferimento.
+E diventa questo schema.
+e adesso io mi chiamo insieme e andiamo avanti un po' velocemente World Model to Concept ho preso semplicemente questo è il filtro abbiamo preso le figure di prima e le abbiamo collegate ok
+le frecce sono diverse perché sono uniti diverse nella parte alta non c'è nella parte alta non si fa si fa solo ineritance della disunzione della disjointness nella parte bassa si fa ineritance delle proprietà è chiaro?
+che se io ho questa rappresentazione, e nella misura in cui uno accetta il concept graph e gli type graph come un buon modello del modulo, io ho l'informazione completa e corretta, ovviamente sotto l'ipotesi di canonical modeling.
+Quindi sono garantito che qualunque abbritto che io faccio funzioni.
+Abbiamo fatto la soluzione che il grafo è completo, abbiamo fatto la soluzione che i nomi sono tutti uniluci, che è dato per cose grafiche, abbiamo fatto la soluzione che abbiamo fatto prima, che i nomi sono ingiunti e così via, perché se noi non avessimo chiarezza nel modo iniziale in cui definiamo il mondo, ci sarebbe confusione.
+Quindi,
+La proprietà del consigliato è quella di fatto che ci dovete comunicare, perché abbiamo completa ambientalità sulle proprietà che descriviamo, ma se non è chiaro cosa vuol dire persona, cosa vuol dire uomo, non c'è verso che noi si possa fare un sistema che sia garantito corretto e completo e la prossima volta avrò la definizione formale di corretto e completo in termini logici.
+Andando ancora dopo, è lo stesso a queste qua, quando la gente fa le tassonomie come prima, prendiamo le entità e le colleghiamo al concetto.
+Passi interventi, a volte si usa, perché è utile questo?
+Serve semplicemente, è un po' come la tassonomia a dividerti il mondo, a dividere per quelli dei buoni e così via.
+La cosa importante è che, è sempre scritto uguale, adesso la leggo qui, ma vale sempre, è che quando voi fate solo questo in basso, tutta questa informazione non c'è.
+Quindi la composizione dei vari modelli formali, dei vari modelli del mondo, altri non è un modo che dare tutta l'informazione mancata.
+Entra anche l'entity graph e come prima questo diventa molto vicino a a un database normale e questa è la presentazione completa abbiamo l'entità l'entità fa un riferimento questa è un'entità fa un riferimento a degli schemi gli schemi dicono la verità ognuna delle parole, dei concetti
+Nella misura in cui noi
+allora, dov'è il punto fondamentale?
+Canonico world model sarebbe l'intenzione, l'avevamo già detto, e l'avevamo detto che è un modo per garantire sicurezza e sicurezza.
+Quelli che voi avete sempre fatto, il software engineering, sono dei modi world model canonici semiformati, ovverosia la sintassi è la data di fatto ben fatta, in modo completo e completo,
+e l'interpretazione era data più o meno informalmente, ma erano quelli di base, erano i primi tre, non erano i primi tre.
+E in effetti abbiamo questo metodo.
+dove i lessici che abbiamo già fatto, vediamo semplicemente i linguaggi di dominio, sono modelli semiformali canonici di council graphs.
+ER models e ER models sono rappresentativi canoniche rappresentazioni semiformali, il primo del knowledge of ontology e il secondo delle tecnologie.
+Le tabelle di database
+i graffi di conoscenza e i vari graffi sono semiformi, rappresentazioni semiformali degli enti di grafismo e dei primi tre di base questo per dire che a questo punto erano semiformi in due sensi uno perché comunque le parole non venivano percepite due perché tutta la conoscenza implicita che stava a mondo non c'era che stava a mondo non c'era
+Com'è che la gente lo fa in pratica a chi si vuole questo problema?
+Ad esempio i lessici, l'avete già visto, sono i lessici.
+Queste urne le abbiamo già viste.
+Non so se l'avete fatta vedere in pratica, ma c'è gente che 100.000 parole, è un vocabolario, la gente fa il vocabolario.
+Poi gli informatici, gli amici, gli amici, gli amici internazionali fanno il vocabolario online.
+E come fanno a fare la comparazione in lani?
+Certo non lo fanno, ma non lo fanno bene.
+Lo fanno esattamente implementando il grafo.
+Magari in maniera informale, perché implementando il grafo?
+Perché quando c'è il grafo hai l'algoritmo per computare tutte le dipendenze.
+Quindi WERNET è un'autologia siniformale e lo si vede perché se tu vai in cima, in primo modo è entity.
+Poi qui abbiamo tagliato un po' di roba, questa è un'entità che si attacca sotto a linguisti e linguistica, ma è la radice che lo riferisce.
+Diciamo che non te lo dia molto porziano.
+Queste definizioni, lexical, word, senses, senses, sono tutte definizioni da linguisti.
+perché è importante dirlo, è importante dirlo non tanto per singolo termine, ma per dire che se uno va a leggere questa roba qui, tutte queste informazioni le ha dato formalmente, la gente l'ha intuitata, ci sono questi contatti.
+Chi fa standard fa la stessa roba, soltanto che parla ad esempio del dominio musica, non parla di tutto.
+e i comitati di standard, ISO, ISO, ACM, ma anche quelli lì, fanno questo, vanno da un domino, vanno giù e specificano i popolari.
+Perché?
+Perché bisogna fare interoperabilità prodotti.
+Senza questa roba qua non si fa interoperabilità.
+Quando è scoppiato il Covid, hanno fatto un gruppo di lavoro di 20-30 persone a Bruxelles, hanno cominciato a uscire le statistiche, quindi ci mandavano i validi,
+i vari imprenditori hanno fatto un gruppo di lavoro e hanno fatto lo stato hanno fatto la domenica lontana e poi ha detto a tutti i vari stati le aziende l'agenzia nazionale della sanità di mandargli i dati l'agenzia nazionale della sanità ha fatto un prezzo che si spiema l'ha mandato sotto e da tutti e 30 gli altri da una società senza fare questa roba qua non si fa
+Però ripeto, se voi fate database, non serve questa roba.
+Se voi andate a lavorare sui problemi di oggi, questa roba qui, i linguaggi, la standardizzazione del linguaggio è il passo chiaro per l'interrottenibilità.
+Chiaramente, avendo fatto la Covid ontology,
+i contorni non fa piacere questo tipo di testi applicativi
+non è cambiato niente, vado veloce, semplicemente vedo un testo che è scritto quasi semplicemente, quando vai sull'applicazione semplicemente rimpicciolisci il dominio e probabilmente è sempre quello, devi sempre fare il concept graph, devi sempre finire formalmente l'indipendenza e poi devi sempre fare l'indipendenza ISA, dare gli unique ID e fare il modo di mantenere.
+Questa qua è quella di prima, questo è il formalismo che adottiamo noi, è sempre un grafo, poi chiaramente quando andremo a dare le implementazioni in terminologica questa roba diventa la stringa, diventa la formula, ma il grafo è una legislazione molto intuitiva che si usa.
+Dato il... dato il... l'essico precedente...
+Lo stesso abbiamo cominciato ad aggiungere della proprietà.
+Tendenzialmente, i primi modi per dare proprietà è di far usare questo termine di indifferenza.
+Qual è, ad esempio, uno string instrument?
+È uno strumento musicale che ha distinto.
+È uno strumento a fiata, uno strumento musicale
+dove puoi usare il fiasco.
+Quindi tendenzialmente, quando la gente fa questo lavoro in maniera sistematica, prima di dare i predicati sul colore dei capelli di una persona, dà quelle proprietà che in qualche maniera sono caratterizzanti.
+Anche qui c'è un sacco di montagne di lavoro, si chiama direzione di differenza, ma dal punto di vista formale
+sono sempre proprietà, è sempre un KTLO, un modello semiformale di conoscenza.
+Chiaramente da questo noi abbiamo, possiamo fare il modello formale, questa è l'attuazione, quindi anche nel compitino vedremo qualche roba di questo tipo,
+si tratta di capire che la soluzione venga fatta bene e chiaramente si sarà da stare attenti perché chiaramente tutta questa cosa qui ha senso quando sbagliare è facile e crea danni quindi cerchiamo di fare degli esercizi abbastanza non di catenello ma dovete guardare bene la soluzione
+Questa notazione che abbiamo fatto, altro, ecco un altro teleontologi, teleologi semiformale, la cosa importante qui è che questo appostaggio qua, adesso non c'è tempo, ma se voi guardate questa roba qua, vedete qua sono due ISA, ISA, o ISA come lo dovete chiamare, non ci sono più,
+da 9 teoreologi, teoreotologi e teoreotologi è il fatto che vengono uccisi piramidi e viene fatto propagata la proprietà verso il basso questo passaggio di proprietà verso il basso come vedremo ciò che ci permette di ragionare su questo oggetto in maniera automatica adesso mi interessava solamente farvi vedere
+e ovviamente per ogni oggetto semiformale abbiamo un oggetto formale che segue la sintassi che abbiamo dato in precedenza e avanti così vediamo gli oggetti semiformali e anche di nuovo qui questa è la parte di una logica faremo vedere come dato una teleologia è possibile percorrere verso il basso i risultati
+ai nostri database o knowledge graph che noi abbiamo di fatto questo si chiama espansione qui non è importante tanto capirla perché tanto la faremo bene ma la cosa importante da capire qui è che io vi sto facendo vedere come almeno visivamente io prendo un knowledge graph un entity graph
+e lo arricchisco, oppure viceversa, se ne ho uno già di alto concetto, propago verso il basso.
+Questo cosa qui è esattamente quello che le nostre logiche del mondo faranno.
+Ma riferiamo formalmente questa operazione di espansione.
+quindi qual è il punto fondamentale del sito qua della prima osservazione e che di fatto quando noi lavoriamo e non è che dobbiamo smettere di usare l'UML non abbiamo parlato di UML ma di questa cosa sarebbe piuttosto che di ARMOV e piuttosto che di qualunque modello in quella stai e in quella lo vedi non è che adesso diciamo dobbiamo sempre fare questa roba qua no
+tre modelli base, cioè knowledge graph, database, numero uno, numero due, diarmode, numero tre, diarmode, rimangono come tali.
+Però deve essere chiaro che in quelle parti dove c'è l'applicità noi dobbiamo espandere quei modelli composti per... dobbiamo avere un metodo e un algoritmo per fare un'evoluzione.
+Anche anche la loro definizione di... di... di... di...
+Quindi di fatto il problema dell'ambiguità da un modello semiformale a un modello formale, come vi ho spiegato adesso in termini di definizione, viene risolto a livello di modelli del mondo.
+Chiaramente nelle esercitazioni possiamo dare una tabella e dirvi fate l'equivalente Norosgraf, l'equivalente plausibile Itergraf.
+Chiaramente state a capire il giochetto ed è chiaro che poi in pratica, diciamo così, Iter in istituto dei dati...
+Non voglio fare assolutamente niente.
+almeno in principio il modulo di dimensione il modulo di dimensione del spazio-tempo quello qua però e qui di fatto chiudiamo la parte sui modelli del mondo questi oggetti che vi ho fatto vedere sono enormi parliamo di
+migliaia, un ordinate che è quello che riguarda una centomila, per farvi un esempio, se uno mette insieme i concetti usati nella sanità sono un milione e mezzo di nodi, centinaia di milioni di link.
+Come fai a fare quello?
+la logica con cui partiremo la prossima volta si tratta degli algoritmi tali per cui dato un input teorico definito implicitamente world model e data una domanda in ingresso ci potrà dare tutta l'informazione che manca per decidere se una certa affermazione deve passare
+che è esattamente quello che noi facciamo nel ragionamento se il fatto noi cos'è altro che il ragionamento?
+altro non è che prendere un certo tipo di conoscenza quello che abbiamo formalizzato nel world model e avere delle regole che si chiamano di ragionamento si chiamerà entailment formalmente e usare l'entailment per dedurre l'informazione che non c'è
+e che non è stata detta esplicitamente.
+Come vedremo, la prossima volta, chiaramente, quando arriviamo a definire questo oggetto, si salta una serie di proprietà, non solo il tipo di modello che usiamo, ma l'efficienza computazionale, esiste l'algoritmo o non esiste l'algoritmo.
+La prossima volta definiamo una nozione di logica, la prima nozione di logica, quella più semplice,
+quella che serve per ragionare su questi sette tipi di modelli o perlomeno di ragionare sui primi tre tipi di modelli come se gli altri quattro ci fossero e daremo un giro per mandare gli algoritmi e le logiche e i teoremi di correttezza e competenza ci fermiamo qua e ci vediamo martedì
+Grazie.

@@ -1,0 +1,526 @@
+Osservate l'indice, abbiamo messo un mese ad arrivare qua, però a questo punto d'ora in poi spero che si riesca a capire la struttura, perché tutte le logiche che faremo sono fatte così.
+Diamo prima l'intuizione, poi la definiamo formalmente, poi definiamo il domenio di interpretazione, che è una lezione su quello, poi definiamo il linguaggio, abbiamo fatto una lezione su quello, abbiamo la funzione di interpretazione,
+Diciamo come sono fatte le teorie, guardate la famosa fila la volta scorsa, poi diamo la definizione di entelement, sia word entelement che logic entelement, e poi facciamo il diesel in problems, che abbiamo introdotto la volta scorsa, ovvero sia i problemi concreti che si risolvono.
+E non c'è un mouse, quindi dobbiamo andare là.
+Ok.
+Allora, questa logica è troppo veloce, ma di fatto questa logica qua, se vi ricordate la slide, la slide, l'ultima slide, ha detto che le logiche del mondo, in realtà tutte le logiche hanno sempre una core logic, che è quella che si mappa più o meno direttamente al world model, e poi la estendono, estendono in che modo?
+Arricchendo i linguaggi e quindi rappresentando tutte quelle istanze di incontendenza, di informazioni di cui abbiamo parlato.
+Quindi questa di fatto è la sintassi di interpretazione del world model più le domande che possiamo fare.
+Quindi una logica dell'entità è una logica che di fatto, utilizzando l'ultima linea, è quella che di fatto è sottostante alle operazioni di base del database.
+Di fatto noi stendiamo il knowledge graph
+quelle operazioni che voi vedete con il database razionale.
+Voi sapete, il database l'avete fatto, cosa fate?
+Chiedete una cosa al database, gli date con schema l'editore dei valori e così via, essenzialmente è questo.
+E' importante però che ci fa capire soprattutto la differenza tra un world model e un database.
+Un database, oltre ad essere un world model,
+ci dà anche una memoria, quello che sono le tabelle che ci sono dentro e poi da questo punto di vista, dall'altro punto di vista ci permette di capire come si può estendere il tipo di ragionamento nel fatto del database, in particolare dalla luce
+dei vari modelli che abbiamo visto di qua abbiamo fatto i set di modelli abbiamo visto che c'è informazione implicita che non viene rappresentata bene ora di fatto partiamo da esattamente la logica che è la rappresentatività del database e poi la istituiamo quindi oggi cerchiamo di andare velocemente perché di fatto stiamo ripetendo in un'ottica pseudologica come abbiamo già visto quindi le highlights
+Cos'è un LOI?
+Tutte le identità di un LOI, che è l'ID, il famoso ID che non è il nome vostro ma è esattamente l'unico identifier che vi permette di applicare l'interpretation function.
+Notare bene che non vuol dire che abbiamo un nome esattamente, vogliamo dire che abbiamo un ID.
+Ha la stessa espressività dei grafi, di entity graph e per chi
+fa la logica del database, la logica madre di questa logica nella description logics si chiama A-box, cioè la scatola delle asserzioni.
+Bene, dato che facciamo una red draft, di che
+l'abbiamo visto, no?
+è esattamente lg abbiamo l'entità abbiamo l'entity type andiamo al data type un data type poi è un insieme di di valori e i valori vengono usati per dare valore alle data properties e manca l'ogget property spero che sia nel prossimo video e c'è l'ogget property
+Io voglio andare veloce perché per me questa cosa deve essere abbastanza rutinaria, se voi avete dei dubbi ve lo dite, ok?
+Questo è il nostro EG, lo abbiamo usato per la notazione, chiaramente è un modello formale, lo usiamo perché è carino, però va bene comunque come c'è la tabella dei database e così via, chiaramente il nostro modello formale grafico è quello che abbiamo fatto prima,
+nella lezione sui tipi di world models dove in particolare l'elemento importante è un distinto tra i vari tipi di ID di identifiers comunque qua in qualche maniera modulo il problema degli identifiers abbiamo gli type come colore abbiamo il fatto che mettiamo un numero 1 per dire che intendiamo un ID e non un nome comunque come esattamente i world model informali semi formali ti dà informazione
+la benformatezza cos'è?
+una formula benformata ricordate che avevamo detto che in delle associazioni dobbiamo avere un linguaggio formale chiaramente questo concetto di linguaggio formale si applica anche ai grafi quindi benformatezza ogni nodo è solo un'entità o solo un valore
+Ogni nodo ha un solo, quindi ogni entità ha un solo e-type o data type.
+Un link è associato a uno, un solo uno, data o object property, la seconda del tuo dominio.
+Chiaramente c'è strano typing, ovvero sia il valore deve essere della propria e-type,
+e il punto fondamentale, l'unico elemento di novità è che non possiamo avere arrows, link che escono dai data types ricordate che i data types hanno questa proprietà qui che sono predefiniti quindi le operazioni predefinite e le sedi in qualche maniera dipendenti solamente dai type ma noi facciamo un grafo
+Ci sono frecce solamente corrispondenti alle object properties.
+Questa è l'intuizione, la definizione.
+Cosa è una logica LOE?
+È un world model e la world intake.
+Dove?
+il role model ha in quadro il dominio e l'interpretazione chiaramente molliamo i subscript finito cos'è un dominio?
+è un dominio è una tripla dove però si sa capire bene perché
+Perché nel dominio sono tutte più o meno rutinarie, ma quando definiamo il dominio di fatto definiamo la logica.
+Quindi io che cos'è che ho detto?
+Ho detto che nell'IC, nella logica, in LOE, ci sono le entità.
+Ci sono le data type, ci sono gli type e ci sono le proprietà.
+Quindi dobbiamo avere il dominio per quello.
+Quindi sicuramente dobbiamo avere il dominio per l'interpretazione.
+Queste sono le units che popolano U, sono esattamente quelle su cui viene interpretata le varie entità o i vari valori.
+Abbiamo un insieme di classi che sono sotto il seme del dominio, che sono esattamente dove vengono interpretati gli type o i datatype e abbiamo un insieme di binary relations,
+la definizione l'hanno fatta di modelli di dominio, erano enarie, infatti vedremo che nelle logiche del linguaggio le azioni sono enarie, perché le facciamo binarie e poi vogliamo avere il grafo.
+Allora, questo è facile, ma è sempre così in tutte le logiche, ogni elemento della sintassi dovete trovare nel dominio il proprio elemento e poi dopo faremo il compito di prendere la funzione di interpretazione
+Quindi è rutinaria, ma rutinaria nel senso che va fatta sempre nello stesso modo, che va bene, così almeno possiamo essere tranquilli che non facciamo errori di processo e di metodo, ma rimane il fatto che quando facciamo il domino di fatto noi stiamo definendo la logica.
+Però noi a questo punto dobbiamo dire, non ci basta questo, perché?
+Perché dobbiamo distinguere fra il data type e il type.
+Il data type, le relazioni sono date,
+negli interpreti definiamo noi e questa è la differenza importante e quindi lo distinguiamo.
+Chiaramente in questo momento qui noi ci diamo, ci stiamo costruendo un modello e vi diciamo cosa c'è, c'è un universo di interpretazione che scriviamo in questa maniera, è una stazione standard fare gli insiemi
+mettendo un parentesi grafico intorno all'elemento, all'entità, alla unit, un insieme di entità che non sono insieme dell'universo, un insieme di valori che non sono insieme dell'universo, e chiaramente sono disiunte, che sono disiunte importantissime, no?
+Quindi tu puoi creare l'unità 1, puoi creare l'entità 1, puoi creare l'entità 2, ma quell'entità 1 non c'entra niente con l'1 dei numerati, è chiaro?
+Voi potete farvi gli entity type dei naturali, ma non c'entrano niente
+perché non c'entrano niente?
+perché comunque sia la tua logica sui valori tutte le operazioni sono predefinite quindi tu puoi farti l'entità 1, l'entità 2, l'entità 3 puoi fare l'oggetto proprio, puoi fare il calcolo puoi simulare, ma è una cosa diversa quindi questo è una condizione fondamentale che ci permette di distinguere ciò su cui noi abbiamo controllo in modo in termini di
+in funzione di interpretazione di operazioni da ciò che invece lo prendiamo in input e chiaramente tutti l'esercizio quale sarà quando si farà l'esercitazione che chiaramente questi sono i due E e V sono i due macrodomini poi chiaramente potrete fare un entity type che è un sottinsieme di E quindi un entity type delle persone un entity type delle persone
+delle location e quindi di qualunque building e così via.
+Questo altro non è che, ripeto, e non lo possiamo guardare e non lo possiamo discutere, è esattamente quello che ho detto adesso.
+È semplicemente, come ho spesso fatto nelle slide, un richiamo, non è un recall perché
+l'ho riscritto però è comunque spiega quello che ho detto prima ovvero sia che valori e datati di giunghi chiaramente dobbiamo distinguere fra data type e entity type e quindi facciamo quindi distinguiamo diciamo il sette di types e dei data types ok?
+anche questo è un di giunghi e non l'ho scritto nella versione 1 della slide ce lo metto
+Le relazioni binarie sono di nuovo.
+Questi sono dei mapping.
+Pensate bene che chiamiamo le data properties o le chiamate attributi perché sono esattamente quello che voi avete nel database.
+Nel database non esistono data properties, esistono solamente attributi e sono solo data properties.
+e la cosa interessante è che sia audio property che attributi tutti e due hanno come dominio l'entità mentre le data properties hanno come condominio i variables mentre le audio properties hanno come condominio l'entità qui si vede che in questa definizione almeno semanticamente abbiamo detto che non ci sono proprietà o audio properties che hanno come dominio i tipi
+che è D può essere dominio di valore o può essere solamente del prodominio.
+Con questa definizione abbiamo imposto il vincolo che ho detto.
+I fatti, vi ricordo i fatti?
+I fatti sono quelle cose che abbiamo detto che, o concezioni,
+che di fatto erano esattamente quelle cose che il modello World Model diceva, no?
+Quelle cose che possono essere vere o false nel mondo, perché di fatto il World Model rappresenta ciò che è vero o ciò che è falso nel mondo.
+Quindi, la domanda da farci adesso è, data questo modello, quali sono i fatti che possiamo dire?
+Sono questi.
+Quindi, un fatto cos'è?
+Un fatto che una persona, che io, Fausto e l'entità sono una persona, quindi ogni entità ha un certo E-type, il primo.
+Un fatto che, data la relazione vicino, io sono vicino alla scrivania, ok?
+Essendo vicino, una relazione è fra due location.
+E così via, ecco.
+Chiaramente questo vale sia per E-type che per E-type, perché sono di quattro tipi.
+Ogni entità appartiene a un E-type, ogni valore appartiene a un E-type e poi abbiamo i link delle relazioni.
+Questi sono chiaramente triplet, quindi questi sono i link e queste sono le affermazioni che mi dicono che in un nodo c'è solamente un'entità e i suoi E-type.
+È chiaro?
+Stiamo semanticamente, io gli dando la semantica precisa di quello che noi attendiamo.
+Questo è un esempio banale, lì abbiamo messo come i type, la cosa interessante è che sono chiaramente elementi di dominio, quello che vogliamo, abbiamo il tipo URL, mettiamo il tipo URL come un data type,
+L'unica cosa interessante da dire qui è che c'è entity, ovverosia c'è l'e-type che ha come interpretazione tutto il dominio di interpretazione.
+Questo se voi andate a vedere la definizione che abbiamo messo, che è a differenza dello schema, noi quando facciamo una...
+una rappresentazione dei nostri world model, richiediamo sempre che sia ben chiaro il dominio di interpretazione.
+Se ricordate, è importante perché ogni logica parla di dominio di interpretazione e se non è chiaro quello, tutto il tuo schema, tutto il world model è ambiguo.
+Per fare un esempio che ho fatto, noi possiamo prendere come dominio di interpretazione tutto ciò che c'è in questa stanza
+però che cosa?
+questa stanza come tavoli e questa stanza come persone quindi E definire E è il passo fondamentale per definire quelle famose unit di cui avevamo visto nella 5 minuti fa finito il linguaggio il linguaggio chiediamo la mia inerzia
+Quindi il linguaggio che cos'è?
+L'elemento è un alfabeto, sicuramente avete già visto le letture dei linguaggi di Chomsky e insieme tenevo le informazioni che producono esattamente quell'insieme di assezioni che erano quelle di cui abbiamo parlato in lezioni precedenti, abbiamo detto qual è il linguaggio?
+in un linguaggio LA che guarda insieme gli A ok?
+ora diciamo come sono fatte queste A e ogni logica ci tratta di A diversa e ogni logica parlerà del dominio diverso se ci siamo dati quel dominio dobbiamo costruire il linguaggio che denota quel dominio quindi
+Quali sono le regole di formazione in questa prospettiva?
+Sono esattamente come l'avete definito in teoria dei linguaggi, che sono delle regole per cui io posso costruire formule più complicate
+La formula è semplice e chiaramente adesso vediamo poi il sogno.
+Per esempio noi facciamo parlare l'alfabeto, e cosa c'è nell'alfabeto?
+Nell'alfabeto ci sono gli type, le entità, i dettagli e i valori.
+Perché noi, per avere la funzione di interpretazione, dobbiamo avere un nome per un elemento del dominio, come ho detto in precedenza.
+Per ogni cosa che è nel dominio, noi non abbiamo il nome e non possiamo parlare.
+In logic description logics le object property le chiamano anche ruoli, intendendo ad esempio quando hanno definito un tipo amico, friend, un ruolo.
+Vedete che c'è?
+Cos'è la BNF?
+Chiaramente io vi ho detto che un linguaggio di un insieme di assezioni
+E adesso per ogni logica devo partire da una sezione.
+Devo dire come si costituiscono le sezioni.
+E qui l'ho fatto.
+Chiaramente questo, se ci pensate bene, in linguaggio dell'identificato è facile perché non c'è l'incursione.
+Non puoi fare and, and, and, and, and.
+Poi è solamente trite.
+Cos'è una sezione?
+Abbiamo detto che c'erano quattro tipi di fatti.
+So quattro tipi di sezioni.
+Ho un i-type di una certa identità con un nome, ho un data type di valore, ho due properties.
+dove questi sono esattamente gli elementi dell'alfabeto come abbiamo messo prima l'ultimario direi ok?
+notate bene e lo dico anche dopo è una verità che è stata notate la capita mi sembra c'è un tale a piena nel 1815 la vediamo bene nella
+tutte le intervistazioni però se vuoi prendete e questo è vero in tutte le notizie se voi credete queste definizioni possono marcare sicuramente una unica soluzione della semantica chiaro c'è una più un'aula la composizionalità in modo che si percepiscano la semantica e c'è il linguaggio in cui le parti
+E questo è esattamente quello che ci permette di mantenere, di fare poi vari teori di correttezza e competenza.
+Sembra ovvio, ma comunque non lo so più.
+La cosa interessante è che, ovviamente, non so se l'avete fatto a...
+se l'hanno usata nel corso di cucinatura dei linguaggi ma in teoria dei linguaggi si distingue fra
+Questa è una sintassi astratta.
+E perché è una sintassi astratta?
+Perché con questa sintassi qui, se io dico, come devo dire astratta?
+Vuol dire che mi dice solamente come gli oggetti si compongono.
+Ok?
+Però io questa sintassi la posso usire per descrivere come costruire grafi, ma anche per costruire foto.
+È chiaro?
+Quindi, perché questa è importante?
+Perché vuol dire...
+e questo sarà il fondamentale esercizio che farete domani su Informa2Forma, che quando voi avrete, vi daremo l'esercizio, c'è una roba in linguaggio naturale, o c'è un grafo, è chiaro, abbiamo M modi di questa roba, l'abbiamo già detto, no?
+Nelle volte, a voi l'unica cosa che vi interessa è mapparvi su quest'altra sintesi, perché una volta che siete mappati qui, tutto il resto diventa grafico.
+Quindi io vi sto dicendo che questa roba qui è indipendente da come tu la puoi rappresentare.
+Può essere un database, un IAR model, può essere una tabella, no qui non c'è IAR model, può essere una tabella, può essere un graffo di entità, può essere di guai naturali, può essere quello che volete.
+In forma to forma è arrivare a capire cosa vuol dire questo.
+Quando siete arrivati qui è tutto garantito, corretto e completo.
+Questa è una concrete syntax per la syntax di prima.
+E quella è una sezione che io in linguaggio dei grafici scrivo così.
+In linguaggio pseudologico, che poi è un linguaggio che si usa tipicamente anche quando si fanno algoritmi,
+perché il linguaggio è più compresso, lo scrivo così, ovvero sia, come ho già messo nella BNF, faccio diventare parentesi tonde, parentesi tonde, e poi metto i nomi, gli ID delle entità.
+Ok?
+E un tipico esercizio può essere, io vi do una sintassi informale, tabella relazionale,
+vi do una sintassi in un knowledge graph o in un linguaggio naturale, ditemi se dicono la stessa cosa.
+Questo vuol dire dare forma su forma su tutte e due e poi vedere se le due o sono coincidenti o sono equivalenti.
+Questo è comunque sempre l'esercizio che noi dobbiamo fare.
+Chiaramente lo possiamo fare
+Quindi a questo punto mettiamo le assenzioni, ma vediamo che esattamente la slide di prima è identica da dei fatti, però questa torna, ripeto, esattamente alla forza e tutto lo sforzo che abbiamo fatto di rendere la sintassi autodescrittiva, che è quello che ci dà explainability, che è quello che ci fa pensare che quando noi usiamo capiamo cosa vuol dire Fausto è un professore, ma lo capiamo semplicemente...
+E non ci sbagliamo se abbiamo fatto un esercizio prima.
+Quando l'abbiamo fatto e ci siamo messi d'accordo, possiamo dimenticarci la semantica.
+Lo sforzo è qui.
+E' esattamente il fatto che noi costantemente tutte le logiche riusciremo a tenere questo mezzo di una una esattamente dove iniziamo.
+E' esattamente il motivo per cui serve la semantica.
+Ed è esattamente il motivo per cui la logica crea quel valore aggiunto rispetto ai formalismi aspettativi.
+avete fatto ed è anche il fatto il motivo per cui fare logiche più difficile e quindi ha senso farlo quando non puoi sbagliare è chiaro, tu lavori in aspetto di formalizzazione e tanto più c'è un rischio un costo nel rischio non è che poi tutti fate logica magari per fare una search su google non ti interessa tanto più o meno non si sa, non muore nessuno e così via però se devi fare software dei premi o software
+sanitario oppure e così via diventa importante ok ricordate che ieri ho detto no ieri martedì ho detto quale sono le proprietà di una logica di espressività primo punto l'OE dice esattamente quello che dice uno dei tre buon modo che abbiamo fatto e avremo una logica per ognuno dei tre certo
+Ho fatto questo, perché questo è il più concreto, partito da questo, poi andrò in quello sopra, in quello sopra, sono le tre logiche che facciamo, perché questo è quello più ovvio, più intuitivo.
+Quindi, il punto fondamentale è, ma ho fatto una onosimologica grafica, è veramente poco espressivo.
+Quello che vedi è quello che c'è.
+Esempio di poca espressività, l'ho già detto ieri, l'end, l'ora, ma c'è il peggio di quello.
+Ad esempio, se anche noi tutti sappiamo esattamente, penso sia ovvio, ce l'abbiamo parlato delle volte, io sono un professore, più o meno penso che, almeno nel nostro mondo, è ovvio che un professore è una persona.
+Beh, non c'è modo di peccato, ce l'avete in testa, ma non ce l'avete, questa è incomprensibile.
+Questa inconsistenza, cioè io posso dire che... Allora, questo è un esempio diverso.
+Se io dico questo, tu dici, beh, banale, lo aggiungo.
+Posso dire che un professore è anche una persona.
+Non può, io vi guaglio molto per me.
+è una persona, dovrei poter fare un'affermazione del tipo, professor, person, non è una formula ben formata, perché qui ho bisogno di avere l'entità 1, ok?
+Tipico esercizio di errori in forma to form, io ti faccio vedere un'affermazione,
+e devi verificare se la logica ti permette di dirla.
+Chiaramente in pratica con un buon compilatore la risolvi, però il punto fondamentale da dire è che
+Una delle cose a cui ti obbliga una logica è appunto partire dal verificare che la tua frase è ben formata.
+La tua frase è ben formata, quello che vi avviene in compilatori, per noi vuol dire che è una frase che semanticamente ha un significato nella logica che hai scelto.
+Quindi formato diventa a significato.
+L'altra cosa che volevo dire prima, che poi mi sembra di averla scritta anche dopo,
+io posso avere OAB e OBA sopra OA e chiaramente a noi è chiaro che questa è una cosa inconsistente perché una cosa è sopra e l'altra è sopra ok?
+e questa cosa in questo sintassi non è possibile cioè noi diciamo sia questo che questo lo mettiamo nel nostro grafico ma non è nessun modo
+e questo è esclusivo rispetto a questo e lo abbiamo detto in precedenza questo è uno dei motivi per cui la gente è diventata l'etabesa T chiaramente ho un A e ho un B e ce ne parliamo subito ma quando hai l'etabesa molto grossa hai un problema, finito interventazione non hai l'interventazione?
+Eh, l'abbiamo detto, è una funzione della riguardo al dominio.
+E com'è che la facciamo?
+Applichiamo la composizionalità che ho detto prima.
+Io dico che la mia funzione di interpretazione è una tripla.
+Una tripla che prende i tre elementi del dominio, quella che interpreta
+gli elementi del dominio, le unit, quella che interpreta i types, ho chiamato types per dire sia i types che detta types, l'unione dei due tipi, e le proprietà, ovvio e proprio detta properties.
+Quindi queste sono primitive, è chiaro?
+Notate bene che per noi l'interpretazione è l'interpretazione delle triple, che sono le triple quelle che sono vere o false, però ci stiamo dicendo che quando dai un linguaggio, mi devi dire esplicitamente ogni elemento
+del tuo linguaggio e cosa significa nel modello.
+Ok?
+Fatto questo, chiaramente che cos'è?
+Qui usiamo la notazione italica per la premessa e il teletype
+per gli elementi del dominio quindi questi sono elementi dell'alfabeto e questi sono elementi del dominio e perché ho usato la stessa lettera?
+perché poi di fatto quando tu hai imparato la distinzione sai che parli il linguaggio ma in testa gli altri oggetti quindi è giusto chiamarli questo nome il fatto di notazione diversa è quel qualcosa che ti permette di dire guardi non confondere gli elementi del linguaggio con quello che c'è in testa
+Ok, ma dove dobbiamo fare?
+Ma noi nel nostro grafico abbiamo le trine.
+Ok?
+Lo chiamo l'entity graph.
+Ecco allora.
+Allora, cosa vuol dire?
+Vediamo la prima.
+Cosa vuol dire?
+Come interpretiamo il fatto che la unit E, l'entity E, è di un certo E type?
+tipo che fa uso una persona beh quello che faccio se questa è una sezione quello vuol dire devo prendere l'interpretazione dell'e-type prendo l'interpretazione dell'elemento e quella roba lì vuol dire che appartiene a io è chiaro?
+composizionalità la cosa interessante
+che la composizione dice, io scrivo e queste tipo parentesi diventano l'appartenenza di un'entità all'insieme qui chiaramente abbiamo solamente appartenenza perché stiamo nel caso base quindi potremmo dire che un valore ha un certo che 1, il numero 1 è un intero, vuol dire che 1 appartiene al numero dell'intero cosa vuol dire?
+che semanticamente, data l'impea, l'assiduire dell'ottato O, che l'abbiamo definito prima, come parte dell'alfabeto, questa qua va in O. E' lo stesso con le qualità proprie.
+Quindi di fatto, quando voi decidete il grafo, lo definite il grafo,
+voi state generando questo modello che poi, come dalla prima lezione, esattamente quel modello su cui mappate quelle immagini mentali molto importanti che vi ho fatto vedere, che sono l'interpretazione astratta di quello che voi percepite.
+Notate bene come a questo punto, l'ho detto prima e lo ripeto, questa costruzione è gratis.
+Devo chiaramente
+devo chiaramente fare scrivere la sintasi però è tutto gratis e qui il punto detto prima è della composizionalità ovvero sia il fatto che l'interpretazione del tutto l'interpretazione di esempio e grande e piccolo è la composizione dell'interpretazione delle parti e questa è la proprietà
+come ho detto prima, che vale sempre.
+Matematicamente la gente chiama, c'è due modi di vedere questa, una curiosità, che è questa definizione intenzionale delle questioni di interpretazione, la definizione in cui tu metti l'elenco
+tutti i valori siano intenzionali ma poco importanti.
+Questo lo applichiamo, questa è l'interpretazione applicata nel precedente e questo è esattamente il concetto di semantica e composizionalità che vedete qui.
+Il punto fondamentale da leggere, secondo il paragrafo, è che quando voi scrivete una formula, o una formula non è ben formata, o se è ben formata, ha un significato di modello.
+Finito.
+Teorie.
+Cosa è una teoria?
+È un knowledge graph.
+È un anterior law in questa logica, per questa
+abbiamo detto è la teoria a espressività minima una teoria LOE è un insieme quella qui non la chiamavo TD-AURA, la chiamiamo TD-LOE è un insieme di assezioni che sono esattamente le quattro sezioni che abbiamo visto prima non solo abbiamo dato la definizione di cos'è un world model cronologico
+è canonica nel senso che quando perché è canonica è importante questo fatto qua quando voi fate un'analisi grafica ci vedete tutto e solo quello che c'è nel libro non c'è altro tutto ciò che non è nell'analisi grafica non lo sapete il tipico errore da compitire vi daremo un esercizio in cui è ovvio guardandolo che una certa cosa è vera
+e' ovvio, però se non c'è nell'orografo non c'è e voi dovete dire che non c'è, che non lo sapete, chiaro?
+Quindi esattamente questo è il punto della logica, in qualche maniera decompilare e fare più delle passazioni automatiche che noi facciamo per guardare esattamente quello che c'è nel formalismo che è esattamente quello che ci serve di staccarci dal linguaggio ed esattamente quello che ci serve di fare debunking per capire quello che stiamo dicendo e quindi
+vi so affrontare perlomeno tutti quei problemi che abbiamo detto fin dalla prima lezione quindi una teoria è canonica quindi se arriva a capire un esercizio quello che c'è c'è, ciò che non c'è non si sa anche se il linguaggio naturale è ovvio chiaro?
+io metto un dato che ho deciso di non mettere il terzo ma qua possiamo fare teoremi ma non pensavo che fosse l'obiettivo però è importante che da buoni informatici abbiamo un'idea e quindi l'idea di cos'è il discorso di come si fa le dimostrazioni allora su varie affermazioni metto delle righe di evidenza per dirvi se dovessimo fare più della dimostrazione matematica più o meno questa era la mia idea di pensiero e la mia idea di pensiero è che
+è così perché l'abbiamo fatta così cioè io faccio un knowledge graph o faccio una tabella tutte e solo quello che so e quello che scrivo che ovviamente nel database non è vero perché nel database se una cosa non c'è nel database il database dice che non è vero quindi il database non è un wall model è chiaro?
+il database non rappresenta quello che c'è nella tabella rappresenta un'estensione a quello che c'è nella tabella lo faremo tutti in quello che c'è
+Quindi qua sono vari esercizietti e questa è la fine.
+Se noi la mettiamo nella nostra teoria, nel nostro conflitto, ci arriva anche una teoria più o meno costruita in un insieme di assezioni di questo tipo, che noi sappiamo costruire bene, perché abbiamo la BNF, abbiamo la sintassi, eccetera eccetera.
+Questo non è un grafo LOE, infatti è un grafo LOAD, è un grafo semplice LOAD.
+Provate a pensare l'esercizio, cosa vuol dire?
+Costruite un grafo LOE che soddisfa quelle proprietà, ovvero sia che una persona, un'entità,
+ha un animale che si chiama, ha un dog che è un cane, ha un URL, perché chiaramente stiamo parlando di una pagina web, che è una stringa, eccetera, eccetera.
+Domanda?
+Quanto è grosso l'ETG di questo schermo?
+E' chiaro la domanda?
+E' molto semplice, ha solamente...
+Tre i-type e tre i-type, ok?
+Quanto è grosso il knowledge graph o un knowledge graph che è scritto usando questi i-type?
+Chiaro la domanda?
+un miliardo di entità?
+100 miliardi di entità?
+10 entità?
+2 entità?
+1 entità?
+allora?
+perché ovviamente perché faccio questa domanda?
+perché o noi riusciamo a mappare questa roba qui nel nostro vissuto o altrimenti rimane astratto
+Cos'è quello?
+Questo di fatto altro non è che lo schema, ok?
+E a seconda dell'entità lo può provare, quindi se è una cosa con 100 entità, avrà 100 entità, è chiaro?
+Esattamente come voi quando fate un database, fate lo schema, qui fate lo schema, quindi potrebbe esserci Fausto, che è nato a Milano, Mario,
+che è nata a 30.
+Quanti 90 metri?
+Quello che ti dice è 2000.
+In effetti, qui, quando noi faremo la prossima logica che gestirà questa roba qui, noi ragioneremo senza fare l'identità.
+E come vedremo fra due lezioni, però ogni volta che tu fai una logica NOE, fai sempre riferimento
+uno schema logico, che è l'ode, e tutti e due insieme diventano l'ode, un'altra logica, dove in qualche maniera noi stiamo separando, logicamente, il ragionamento a livello di singola entità dal ragionamento a livello di tutte le entità.
+Allora, ad esempio,
+una persona è un'entità è ovvio che un uomo è un'entità ok?
+potremmo mettere che c'è un organismo vivente per non farlo transittività banale ok?
+però questa qua è l'esempio che ho fatto prima di persone questa roba qui non la facciamo in loi perché non abbiamo neanche non possiamo neanche scrivere questa roba io lo so però in loi posso dire che Fausto
+è nato a Milano, o da un'altra parte.
+E in mode, quello che noi faremo, faremo vedere come i ragionamenti a livello della conoscenza, a livello della identità, si possono comporre per riuscire a ragionare su cose che in realtà non sono scritte.
+Questo è il discorso che ho fatto un po' di tempo fa.
+Queste informazioni qui, nessuno le dirà mai in un modello
+in un link di graf, perché è ovvia, però se vuoi fare un algoritmo che la usa, devi dirgliela.
+Quindi noi quello che vi sto dicendo è che dato un grafo LOI, se è fatto bene, perché se è fatto male, è fatto male, fatto bene, c'è sempre un modello LOG sopra,
+e questo modello l'ho sopra dove c'è tutta l'informazione che voi volete quindi quando io vi do e lo facciamo oggi uno schema LOAD dovete pensare che qualunque cosa dite a questo livello varrà per tutte le entità che sono descrivite da questo schema farete gli esercizi spero non domani ma dopo
+e lo dico perché dico questo?
+perché tu quando ad esempio fai un year model in qualche maniera come facevate prima lo fai e quando tu metti quell'year model fai diventare un programma, un database una tabella in qualche maniera ti dimentichi tutte le assunzioni implicite che hai fatto quando hai usato le parole quando hai fatto lo schema
+e dopo chi usa l'informazione che è nelle entità che popolano lo schermo non sa neanche da dove è scelto quelle parole e il motivo per cui ha fatto questo schermo noi faremo vedere che con questo tipo di logiche se uno fa le cose in maniera sensata quell'informazione rimane nel sistema come su tutte le altre e il sistema ha la possibilità per ragionamento
+di utilizzare quell'informazione implicita che è nel log per capire cosa stanno dicendo le entità.
+Quindi noi capiremo che O non è possibile quando c'è OBA.
+È chiaro?
+Ed è questo il punto.
+Ovviamente siamo corretti e completi.
+L'ho scritto, ve lo guardate, banale perché in qualche maniera siamo su un... siamo su una... una... un modello canonico, quindi non c'è problema.
+Bene, ragionamento.
+I temi, ricordiamo, questo l'abbiamo già detto in passato, questo è il World End Theme, World End Theme, che ci permette, l'abbiamo fatto a martedì, di dire che una teoria viene in un modello.
+Troppi hanno detto, no, no, sì, questo non ci basta, dobbiamo dire che una teoria deriva da un'altra teoria, o che una formula, una sezione A diventa un'altra teoria.
+Ok?
+Questa slide qui l'avevamo già fatta la volta scorsa, rispetto alle slide che avete voi, questa slide è leggermente cambiata, metterò queste dice di metterle prima, che poi metterò la nuova versione online, c'è una riga in alto che è cambiata.
+Quindi, dato è questo, è l'idea di fondo del ragionamento che possiamo fare
+sull'ordine ok?
+allora noi vogliamo sapere perché questa è l'idea del knowledge graph abbiamo fatto una tabella e vogliamo sapere se dato un modello che è il modello inteso che ho nella testa questa è una certa affermazione TA, che è una forma molto anche a seconda linea faccio la seconda che è più o meno
+io voglio sapere se una certa sezione A singola sezione A è vera nel modello io adesso ho imparato io siete in questa stanza non vi sono detto niente però l'avete formalizzata in uno schema in una tabella in titabase e voglio sapere se questa affermazione è vera nel modello è vera se insomma se la teoria
+che descrive il modello, perché il colore grafico lì è canonica, deriva A se e solo se A a partire da TA.
+Nel, devo dire questo, che se io guardo un noleggrafo, il noleggrafo mi descrive il modello, ma mi dice esattamente solamente quello che c'è scritto nel difendimento.
+Se voglio sapere se una forma è vera, devo vedere se ce la trovo nel modello grafico.
+Se voi prendete una tabella di database, quello che c'è scritto è vero, quello che non c'è scritto non lo sa.
+Questa è l'equazione che vi dice se io voglio sapere se una certa formula o una certa teoria di H è vera nel modello, guardo nella descrizione linguistica il knowledge graph e guardo se c'è scritto.
+e questa è la baseline, perché da poco dopo andremo a complicare il linguaggio, ma la baseline, che è importantissima, che è esattamente il motivo per cui tutti i modelli e i database hanno funzionato molto bene, è perché, ed è il motivo per cui anche il linguaggio naturale funziona bene, è il motivo per cui a un certo punto, anche voi all'inizio,
+Potevate pensare, forse ho pensato ancora ora, che ciò che vedi è ciò che dice quello che vedi.
+Non è così.
+Perché ciò che dici è esattamente la tua interpretazione del modello.
+Ed è esattamente questo che lo dice.
+Io qualunque cosa vedo, quando mi faccio il mio modello, il mio knowledge graph, quello che dice non è il graph, è quello che ho visto.
+È chiaro?
+Se tu hai fatto un'ora di interpretazione, è rilevante.
+Anche perché penso che vi sia chiaro che quello che vedete in questo momento ora non lo vedete più, perché è cambiato il mondo.
+Quindi quello che avete costituito in memoria, linguisticamente, è l'unica cosa che vi fa male.
+Questa è la forza del nostro ragionamento umano, ma è anche la debolezza, soprattutto quando poi uno tenta di identificare quello che dice, quello che ha scritto, con quello che ha visto.
+La parola che ha da sopra ovviamente è la ovvia generalizzazione di se io faccio un insieme di affermazioni, se io prendo un'intera knowledge graph, io c'ho un knowledge graph grosso, qua c'ho un knowledge graph piccolo, questo qua lo implica questo?
+Per ognuno di questi è diverso di uno, se non c'è non lo implica, ok?
+Quindi quello che World Internet ci sta dicendo è che a livello di
+E notate bene che qui stiamo parlando di asserzioni che sono a parte una o uno sui fatti.
+Asserzioni che sono le più semplici.
+Sto dicendo, le asserzioni di base, quelle in cui tu, in qualche maniera, parola per parola, ti mappi su quello che hai visto, a quel punto quello che dici è ciò che per te è vero.
+E non hai modo di uscire.
+E' chiaro?
+Quindi questo teorema nella sua banalità ci dà il punto fisso sotto il quale possiamo andare.
+e lo possiamo tornare indietro e così via, però adesso ha dato questo e diciamo che visto che come specie andiamo via funziona, non è che lui è abbastanza robusto, no?
+E funziona il 99,99% del caso.
+Però questa è la vesa, in qualunque lavoro, qualunque logica che faremo, parte qui, qualunque logica arriverà qui, sotto a questo noi non ci riusciamo a andare, è chiaro?
+Noi complicheremo quello che possiamo dire, facciamola sentarsi, ma alla fine qualunque funzione di verità che noi andremo a prendere si riporterà a questo.
+perché ad un certo punto tutto ciò che tu dici o che tu pensi, il tuo linguaggio del pensiero, come l'hai chiamato, è quello che tu hai visto e hai pensato di aver visto.
+Quindi nella sua semplicità e banalità questa teorema, perché chiaramente questo è un teorema, lo scritto come evoluzione ma non è un teorema, è quello che ci dice.
+Quindi...
+Di fatto, quello che ci dice è un concetto di verità e di memoria.
+Quindi dire che, e questo mi sembra la... Ah, ecco sì.
+Cosa vuol dire?
+Tornatevi indietro.
+Il motivo per cui è così è per la cronomicità.
+C'è un altro one mapping, quindi c'è o non c'è.
+Questo è interessante.
+Ma allora, cosa vuol dire...
+Cosa vuol dire chiedere, io ti dico, nel tuo mondo, cosa vuol dire questa cosa qui?
+Quando io ti faccio questa domanda, perché questa è una domanda, no?
+Questa è una domanda che fate a dentro a me, questa è una domanda che fate agli altri, no?
+È vero o non è vero?
+Seguo o non seguo?
+Ci sono due tipi di motivi per questa domanda.
+Uno, quello normale, gli dici, senti, io non lo so, è vero quello che hai visto o no?
+L'altro invece, che è quello più interessante,
+è che quando tu hai questo sai che se ti dicono alfa non ti stanno dicendo niente e questa è esattamente la verità che dicevo ieri di monotonicità se mi dicono una cosa che io so già non ho imparato niente non ho diminuito quello che sapevo ma non ho aumentato questa è la verità di monotonicità quindi questa è la logica monotona ok?
+Chiaramente è decidibile, ricordo, scusate un attimino che non ricordo più, ieri abbiamo parlato di verità e falsità, chiaramente questa logica è decidibile, le proprietà che vi ho messo, perché chiaramente, se ricordate, martedì vi ho detto come noi descriviamo una logica, cioè correttezza, correttezza, competenza, del linguaggio, dell'entailment, eccetera eccetera, bene?
+Se noi dovessimo farlo da logici, in un libro di logica, dovremmo fare le dimostrazioni.
+Che in questo contesto sono relativamente... Sicuramente il nostro intervento non è... Sicuramente il nostro intervento è corretto e completo.
+Perché?
+Perché semplicemente vogliamo se c'è o non c'è.
+Sicuramente è polinomiare, è il P. Perché?
+Perché si imparano a scoprirlo, anzi lo fai in loghe, lo fai.
+Perché è molto...
+è molto debole, c'è l'esempio che ho detto prima io tutto ciò che c'è lo posso beccare ma dico molto poco ok?
+ok?
+beh, cosa ce ne facciamo di questa roba qui?
+a cosa ci serve?
+ora ovviamente notate bene che quando cosa ci fa esattamente intuitivamente
+quello che avete fatto lì, l'invitamento, quello che forse sia, o è quello che hai in memoria.
+Che è quello che sia, tu chiedi alla tua memoria se una certa cosa è vera.
+Questo problema, il loro si chiama instance checking.
+Quindi, la domanda è, tu gli chiedi a te stesso, ma sta roba qua è vera o non è vera?
+Cosa vuol dire è vera o non è vera?
+L'ho già detto, l'ho già detto martedì.
+Vedere vuol dire questa roba qua, nella tua memoria, nel tuo database, c'è o non c'è?
+Vera, non vuol dire, vuol dire fai vedere la tua memoria, è chiaro?
+Non c'è di verità, ti vuoi vedere la tua memoria?
+E lo chiedi e ti dice, se, notate bene che abbiamo fatto inventare
+l'appartenenza a livello di modello ha appartenenza sulla teoria perchè c'è il mapping 1-1 se c'è sì, altrimenti non lo so e questo qua ovviamente vale per tutti e quattro i tipi di asserzioni o un'asserzione di tipo di un'istanza di un certo tipo o di una proprietà
+E chiaramente, come ho detto prima, questo è polinomiale.
+Comunque, a me è anche più veloce sotto polinomiale.
+Però qui c'è I don't know, che vuol dire che se non c'è dico non so.
+Però c'è l'ipotesi molto chiuso che è esattamente un vero e vero data base.
+Qual è la differenza tra l'OE a mondo aperto e l'OE a mondo chiuso?
+Mi dice che se non c'è, ti dice che è falso.
+Quindi se il vostro esame non c'è nel database, è falso e l'avete passato.
+Ed è questo esattamente la forza e il motivo per cui i database razionali hanno funzionato.
+riesce a gestire una quantità di informazione con complessità bassissima.
+Ovviamente, e con Negation by Failure hanno fatto il botto, perché in qualche maniera a questo punto possono dire anche ciò che non c'è.
+Vi hanno detto N volte che, come ho detto in precedenza, voi siete una cosa e non siete tutti gli altri, quindi per ogni cosa vera
+Io ho il suo colore giallo, ma non ho il suo colore verde, marrone, c'è un lumino in giro, è chiaro?
+Quindi quando ha fatto la cronologia, da un punto di vista computazionale, quel passo lì è stato un passo che gli ha permesso di avere un'informazione enorme in tempo super-neonormale.
+Ed è il motivo per cui, ai tempi in cui ero molto giovane, tutti gli altri di Tavese, più di certamente erano ad Alba.
+Ad Alba non c'erano di fare le leggi, ok?
+Ha fatto un modello relazionale e ha fatto questo.
+chiaramente lo ho già detto in precedenza però adesso perché ha senso ripetere in modo che pian pianino chiaramente è il problema che la forza di database è il motivo per cui non possa funzionare nel web è che però se c'è una cosa che è vera devo metterla dentro quindi vuol dire che tu hai un controllo del processo di alimentazione del database tale per cui sei sicuro che tutta la soluzione vera c'è
+non è possibile nel web ed è il motivo per cui la close border sanction lavora benissimo in S3 ma non è usata nel web ed è il motivo per cui la gente è passata da una rappresentazione relazionale che è la più ottimale da tutti i punti di vista comunicazionali ad una rappresentazione knowledge graph knowledge graph confessiva ma chiaramente come sempre si paga prezzo però a quel punto questa ipotesi di mondo chiuso non funziona
+Perché di fatto tu hai il concetto di quando tu dici negation by failure o prudential assumption, dici io so tutto e quindi io so tutto e dato che io so tutto mi memorizza solo quello che so in positivo.
+e poi c'è altra parte del paese che è questa che è il senso che prima di dattero schermi di danno di valore come dico i bambini i bambini tra i pezzi di per persona tutte le persone davide storica e famiglia di tutti gli amici e avviso di chiunque tutti quelli che non si sa che non sono amici quindi mi chiede per me è vero che se non sono amici
+chiaramente per sapere se non sono amici deve farsi tutto il database quindi quindi di fatto cos'è che abbiamo fatto adesso andiamo avanti cos'è che il passo fondamentale che spero che abbiamo fatto oggi
+Abbiamo fatto vedere che se noi vediamo questi world models, possiamo usarle in tailment per derivare cose che non sospite le world models.
+In questo caso, in questa logica, in realtà l'unica cosa in più che faccio è quella del world assignment, ma in qualche maniera ho comunque un motore, che adesso generalizziamo, che mi permette di automatizzare
+E' la prossima.
+La logica delle descrizioni.
+Perché descrizioni?
+E' dire che un uomo, una persona è una descrizione.
+E' una descrizione che vale sempre quella che la gente chiama conoscenza.
+Come vedete, grazie ai dettagli, questo è molto più complesso.
+Qui arriviamo nel succo.
+Vedrete ad esempio che il linguaggio...
+è composta chiaramente la funzione di interpretazione deve comporre per il principio di composizionalità paragonialmente al linguaggio deve avere la sua funzione di interpretazione come è venuto prima la buona notizia non so se la buona notizia è che le famose teleologie e ateneo teleologie che abbiamo detto i famosi entity graphs sono esattamente quelli che diciamo non ci sono gli egiri non ci sono i grafi
+i tipi di modelli, e in realtà venivano costruiti quei livelli di descrizione della conoscenza che sta fra l'entità e ciò che i linguaggi ti permettono di dire.
+Ok?
+E notate bene che quando arriviamo li faremo nei temi, però qui adesso cominciamo a dire, possiamo dire, come vedremo, queste due, qui potremo avere come ragionamento da risolvere, è vero che uomo e donna sono disiuti, sì,
+è vero che Bergeron è un uomo non scordato?
+Sì.
+È vero che gli uomini sono persone?
+Sì, no, non è soddisfacibile.
+Ho detto una cosa che non è consistente col mondo?
+Sì, ho detto una cosa che non è consistente col mondo.
+Quindi qui a questo punto, a livello knowledge, stiamo andando a discutere se tutte le proprietà
+si è detta proprio che i tag che abbiamo usato nelle entità, nelle g sono scritte bene perché poi, come spero di aver detto qualche volta prima quando tu hai il tuo schema il tuo etg come formalizzato in load quando tu hai lo schema messo in s3 con variamenti delle n università e due istanze e la dimensione del grafo è esattamente quanti studenti hai ma prima devi avere
+deve essere sicuro una volta per tutte che hai questa possibilità oppure se fai un LLM chiaramente se vuoi dare all'LLM questa informazione perché eviti di dire delle sciocchezze puoi di nuovo provare a dare questa informazione anche se non gliela puoi dare all'inizio perché è troppa però diciamo questa ricerca è stata dell'altro per chi vuole interessare ok brevemente
+all'order e all'ordine delle iscrizioni che ci permette di rappresentare i type, gli entity type e il data type che usiamo per popolare che sono quelli che noi andiamo a popolare nell'OE e in telegraph
+Ci permetterà, io al finale ho parlato di e-type, ho parlato di e-type con e-type persone, come vedremo il linguaggio naturale ci dà molta più forza, si fanno e-type, che noi chiamiamo complex e-types, per esempio noi possiamo dire che abbiamo l'e-type persona, ma abbiamo l'e-type persona italiana, questo è un e-type che è un e-type con le altre proprietà italiane,
+abbiamo la persona amica o l'amico, amico è un e-type che è una persona oppure un animale, si dice che è un amico, però quello che vuol dire è che quando noi facciamo l'esempio, voi fate il passaporto, il passaporto italiano è il passaporto che è proprio l'e-type italiano, proprio l'e-type persona, ok?
+Quindi noi abbiamo bisogno, quando noi facciamo l'e-type studente è un e-type persona
+che ha una certa età ed è iscritto e così via.
+Quindi dovremmo introdurre la possibilità di arricchire il linguaggio, lo complicheremo ancora dandoci la possibilità di fare i types composti e poi arriveremo finalmente alle descrizioni che sono le assenzioni vero-falso e le definizioni.
+Perché?
+Perché noi con i primi due di fatto
+come andremo a vedere, come ho detto anche martedì, ci andiamo ad arricchire il linguaggio.
+Vi abbiamo detto che darci il linguaggio delle G, sì, bello bello, ma non diciamo niente in più.
+Noi dobbiamo darci un linguaggio più forte, che lavora a livello di conoscenza, e poi sulla base di questo linguaggio possiamo dire i fatti, ciò che è vero e che è falso.
+E li disegniamo tra descrizione e definizione.
+Definizione, Batchelor è un uomo non sposato nella definizione.
+le descrizioni sono quelle classiche che vedremo in un po' di tempo perché le vediamo poi nel dettaglio questa è la logica che ci permette di rappresentare e ragionare con gli enti grafici è la logica della conoscenza in questa logica non ci sono entità
+possiamo usare ragionare su come le descriviamo ma non possiamo ragionare sulla singola entità se pensate all'ear model questo è chiaramente l'ear model esteso potete dire con mettere relazioni e i types ma non potete dire niente di specifico è una rappresentazione linguistica ed è esattamente quella che ci permette di dare lo schema di riferimento di un'entità grafica
+Chi di voi fa database, la versione di database si chiamava terminology, parliamo di terminology anche noi.
+Bene.
+Ah, questo dov'è?
+Ah, ecco, sì, no.
+Quello volevo dire prima, che a parte la lunghezza...
+Se guardate l'indice è esattamente come il primo, c'è l'intuizione, la definizione, il dominio, il linguaggio, la funzione di interpretazione, il tempo, l'esempio, è esattamente uguale, è solamente più complesso, perché cominciamo ad arrivare a usare delle logiche che hanno forti, come quelle pratiche.
+Quindi noi di fatto, ora esattamente, noi l'abbiamo fatto in un'oretta, questi ci metteremo due ore e mezzo,
+ma è uguale e voi tenete sempre e i problemi sono sempre quelli quindi per capire la logica capite quello che dovete dire definite il modello fate il linguaggio fate la sua interpretazione fate il linguaggio fate la sua interpretazione ragionamento risolve i problemi è sempre così
+Quali sono?
+Stiamo andando avanti con l'edizione.
+Che cosa dominiamo?
+Non le entità.
+Dominiamo entità, identità, proprietà, proprietà, proprietà, proprietà.
+Come prima.
+Soltanto che prima ci serviva solamente per fare il grafico.
+Per fare delle entità.
+Quindi entità non ci servono, parliamo di queste.
+E questo è lo schema di prima.
+Questo è l'etg del grafichetto.
+delle g che abbiamo fatto prima chiaramente quali percetti e qui non ci sono le in linguaggio non ci saranno le entità condizioni di benformatezza se voi guardate questo grafo qui è come prima però dov'è la differenza?
+la differenza è che nel nodo non c'è l'entità come prima nel nodo non c'è l'entità e qui nessuna parte non c'è valore
+Quindi vuol dire, come dicevo prima quando ho detto quanto è grosso un grafo, che questo qua, quando lo passiamo, come ho già detto prima, quando lo passiamo all'entity graph, questo link qua verrà moltiplicato per tutte le diverse entità, per tutte le diverse proprietà, è chiaro?
+È quello che dicevo prima.
+Però a questo livello noi non entriamo nello specifico e ragioniamo su quelle proprietà che valgono per tutti gli type.
+La conoscenza a priori che abbiamo è quella che immediatamente abbiamo per scontato.
+Quindi la benformatezza sarà che un node associato su uno e uno solo i type è detta type, ogni link associato a uno e uno solo è detto object property e chiaramente c'è strong typing.
+E sono amiche che chiaramente non si
+l'ultimato che si è seguito il fatto che ho cercato anche di fare il file di un autore che naturalmente è sempre quello questo è l'etc precedente che è l'etc che è come il gicolo precedente quindi quali abbiamo che elementi abbiamo nell'alfabeto?
+questi il type, il data type allora attributo al property ovviamente
+Quando noi abbiamo fatto i meccini e disegnavamo il prato erano solamente questi.
+Qui adesso noi vogliamo rafforzare il linguaggio, vogliamo poter dire cose.
+Quindi noi vogliamo poter dire che, ad esempio, un italiano è un uomo vissuto in Italia.
+Oppure vogliamo dire che le persone sono in un nome del nome delle donne.
+Poi vogliamo dire che se sei un uomo non sei una donna, è chiaro?
+Noi ci stiamo dando nel linguaggio questi chiamati connettivi logici, ok?
+Che sono quelle parole che voi in linguaggio naturale lo date naturalmente, lo date e, o, così via, quando mettete la bella mattina, l'alba, la bella, è un'attività.
+Poi chiaramente, e crediamo dunque, cosa sono?
+La solita, cos'è un E-type semanticamente?
+L'abbiamo già vista, perché chiaramente anche questo E-type lo interpretiamo diversamente dall'entity graph.
+Un E-type è un insieme di oggetti.
+Nelle G dicevamo c'è l'E-type persona, come ho detto prima, qui facciamo l'E-type constructor e diciamo, ah no, questo E-type qua lo definisco così.
+Allora, posso dire che, una cosa banale, che una persona è l'unione di tutti gli ombiti delle donne.
+questo non ti serve ma in qualche maniera o la che tutte le finlandesi hanno i capelli biondi queste sono donne che hanno i capelli biondi eccetera, potete inventare cosa ne pensate voi di esempio allora, e poi definiamo gli itali li definiamo, però la cosa importante è che arriviamo qua e qual è il problema?
+ok?
+perché poi alla fine dobbiamo andare a popolare le g, no?
+dobbiamo andare a riempirla, dobbiamo metterci i valori, no?
+che noi ci dobbiamo dare questi costruttori di data type.
+Quindi quello che vuol dire?
+Vuol dire che se noi pensiamo al nostro dominio di interpretazione, al nostro famoso scatolotto, che lo vedremo più volte, diremo questo è questo, e diciamo questo è quello che vogliamo costruire.
+Giusto no?
+Però adesso prendo,
+l'insieme 1 costruito così e l'insieme 2 costruito così ma costruiti non è che sono lì così perché quando io ho i così chiamati i tag primitivi ce li ho le persone ce li ho le devo dire dove sono nel modello ma ora cominciate a scrivere ci sono gli uomini con capelli lunghi gli uomini con capelli corti gli uomini con una certa altezza la domanda che vi faccio è quando io li costruisco o costruisco i soggetti qua che insieme ho costruito e la domanda che ti rimane è
+sono lo stesso insieme, c'è un insieme più piccolo dell'altro, sono insieme disiunti.
+Quindi tutta questa logica, ed è il motivo per cui è chiamata una logica del mondo, è una logica che ti permette di descrivere il mondo e alla fine di dire se queste descrizioni descrivono il sesso insieme.
+Perché facciamo questo?
+Perché poi nella prossima logica, quando avremo il principio, perché è importante questa?
+Perché in qualche maniera, se ci pensate bene, nelle EG noi con la funzione di interpretazione dicevamo, ok, mettiamoci d'accordo, per me persona vuol dire queste cose, per me studente vuol dire queste cose, non è già funzione di interpretazione.
+Però noi nel linguaggio pensiamo molto di più, perché quando noi portiamo nel linguaggio queste assenzioni che sono le nostre scappe, ne parliamo, che è esattamente la ricchezza.
+ne parli ok però questo che è esattamente questo ne parli ok quando parli cos'è che stai dicendo i nuovi insiemi che costruisci di entità come si rapportano questa è la logica la logica logica e ovviamente il punto fondamentale che c'è qui è che come gli insiemi come tu
+il fatto che due insiemi siano uguali o diversi un pochetto dai descritti o dai costruiti, degli order, gli end delle proprietà vedremo è solamente funzione dei costruttori non è funzione degli insiemi di partenza vedremo che i nostri teoremi di equivalenza che avremo ci permettono di dire se costruisci insiemi secondo certe cose automaticamente secondo certi pattern di costruttori automaticamente costruisci insieme ed è un risultato che è abbastanza
+Interessante.
+Fatemi andare avanti per 5 minuti.
+Definizione come prima.
+Stanno sempre uguali.
+In definizione c'è un modello del mondo, un modello ETG, quindi un modello EG, e un motore di inferenza.
+Chiaramente adesso dobbiamo andare a definire il ETG, quindi linguaggio, dominio, interpretazione e poi la funzione di interpretazione.
+domenica domenica facciamo perché come prima fatta domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica domenica
+e in questa logica non ho nessun modo di menzionarle però nel dominio in qualche maniera ci sono perché io comunque ho bisogno di dire che questa c è un sottinsieme di u e questa r è un sottinsieme del prodotto che attiviamo nell'entità è nel dominio ma il linguaggio non mi permette di parlarne quindi la frase è falsa in uomo e questo linguaggio non ci sta però qua ci sono gli uomini sono gli uomini sono esatto è questo
+tu hai completamente dimenticato, vuoi ragionare su tutti gli universali, qui stiamo ragionando sugli universali, sulla conoscenza, è chiaro?
+Però è chiaro quando tu fai, tu potresti dire, tutti gli uomini viviamo su Marte, certo, fai un bellissimo load, ma quando fai il grounding sul knowledge graph hai l'insieme vuoto, è chiaro?
+Ed è il motivo per cui poi noi con l'algoritmo avremo i teoremi che ti dicono, fai il load, ma poi il load lo devi espandere,
+sull'entità, ma se tu non hai la semantica che ti collega quell'insieme del modello a quell'entità, tu hai fatto un bellissimo log, come questa famosa tesi di PCT, duemila faglie di tesi di matematica, la prima definizione creava l'insieme vuoto, pari del mondo che non esiste, è chiaro?
+Però è un fatto che
+e chiaramente le classi sono esattamente come prima perché ci stiamo dando vogliamo parlare degli universali quindi prendete quelle di prima, cancellate le entità e tutto come prima le relazioni sono esattamente come prima perché comunque uno può parlare delle proprietà delle relazioni io posso dire che il friend è una proprietà riflessiva per esempio il friend viene di
+io uso LinkedIn, penso che LinkedIn, si me lo chiedono, giusto?
+LinkedIn è riflessivo, perché è riflessivo?
+Perché te lo chiedono, se tu dici di no, non c'è.
+Quindi LinkedIn è riflessivo, tu vuoi ragionare su LinkedIn, la metti dentro e metti la somma delle riflessività, ok?
+Quindi puoi dire questo, ma come puoi dire che le persone...
+sono relativamente eccetera eccetera qui c'è un sacco di ragionamenti da fare su questa roba qui e infatti qui vedete che le affermazioni che facciamo sono affermazioni dove io qui lo smetto un po' così però io qui come argomento non mi ricordo più cosa volevo dire io qui metto l'insieme non metto l'identità perché non ce l'ho è chiaro?
+dove, chiaramente, ho usato questa notazione, che è la notazione del knowledge graph dell'EFG, che in questa tabellizzazione l'ha prevenuto, se non si vede, il prodotto cartesiano.
+Di nuovo qui, come prima, siamo in una sintesi a strada, e poi lo presentiamo sui grafi in linguaggi naturali come vogliamo.
+Bene.
+Finito.
+Almost.
+Una slide per ricordare a questo punto.
+Con questa slide qui ci fermiamo perché è tardi.
+Faremo vedere, organizzeremo questo linguaggio in tre parti, come ho detto prima, e comunque domande le ripetiamo in senz'ai.
+Prima, arricchiremo il concetto di Itai, poi ci daremo i costruttori, tipo, arriveremo a dire che una madre, ad esempio, è un parente che è una donna, poi faremo l'Endeleur e poi andremo a fare
+le proprietà di compagnia e di diversità.
+Ritornando a ripetere, l'obiettivo di questa logica alla fine è che io costituisco tutti questi tacchi, come noi facciamo normalmente in immagini naturali, e vi ricordo che Word it ha 120.000, 108.000 parole, 87.000 nomi,
+quindi non è che stiamo parlando di 10 concetti stiamo parlando di 87 mila concetti più tutti i verbi quindi voglio dire che se ci pensate bene le entità sono i nomi propri fausto indirizzo tutte quelle cose che denotano ok quindi voi quando parlate mediamente i nomi propri sono 1 su 1000 quindi questa è la logica che sta sotto
+a quello che voi, di cui voi parlate la maggioranza del tempo.
+Sono tutti universali.
+Questo per dire che questa è la logica, il cuore del ragionamento.
+Ed è il motivo per cui ha questa ricchezza di linguaggio.
+E comunque è un fatto che, quando voi avete fatto il corso, sotto le dinine, quello che è, non ve l'hanno mai parlato perché hanno sempre
+assoluto che ci capiscono che funziona qua di secco probabilmente qua non ci si capisce vediamo domani

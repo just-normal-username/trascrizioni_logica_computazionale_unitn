@@ -1,0 +1,474 @@
+dopo tante chiacchiere parliamo un po' di logica e oggi definiamo l'opzione di quella logica e... e... ok le slide per abbandate come resta vero abbiamo andato alle prime due lezioni vediamo...
+siamo qua abbiamo ancora due piani nella fine del corso facciamo le logiche del mondo le prime 4 slide sono quando vedete scritto recall vuol dire che sono i slide che sono già dei slide precedenti ma che servono solamente per focalizzarci sul problema ok?
+qui il problema delle prime slide sono
+Il problema qual era?
+Mi ho messo un po' perché faccio super vibe, ma sono tutte ripetizioni.
+Il fatto era che quando io faccio vedere un modello del mondo, ad esempio mia moda è piuttosto che una tabella, di un database, quello che c'è scritto è tutto quello che so, né di più né di meno.
+Quindi ogni singola affermazione mi dice questo è quello che c'è nel mondo.
+Tutto qua.
+E cosa succede se io ho più informazioni del mondo, cioè se quello che io volevo dire è più grande di quello che c'è nella tabella?
+Niente, non lo puoi sapere.
+L'unica cosa che hai è che fai una tabella più grossa.
+Ok?
+Per il semplice motivo che in un modello del mondo, qualunque questo sia, un modello grafico di questo tipo, sono modelli canonici che ti dicono tutto e solo quello
+ti permettono di dire.
+Questo vantaggio anche è il motivo per cui abbiamo parlato dei modelli canonici perché di fatto c'è il caso del database razionale, questo è il tabello, questo è il mondo.
+Nella misura in cui tu, come vi ho detto una volta in precedenti, riesci a collegare l'ID, la primary key del database a un oggetto nel mondo, tipo gli studenti, è finita.
+E qui esattamente tutto quello che avevamo definito, infatti avevamo anche detto che, fatta questa roba, nella misura in cui il mapping, la fusione di interpretazione è garantito, ci siamo dimenticati del dominio, del modello, che è esattamente quello che succede normalmente.
+E ci dimentichiamo anche, se vi ricordate il modello, perché quello che il modello è semplicemente le linee del database, ovvero sia quello che è letto,
+quello che leggete nel database e chiaramente voi con la testa fate il mapping e quindi torna tutto.
+Avevamo anche detto che questi semi-modelli formali, perché se ricordate i database, che è un semi-modello formale, si mappa, siccome l'avevamo chiamato, un grafo di entità, è la migliore approssimazione.
+La migliore approssimazione perché?
+Perché la sintesi è chiara,
+una forma tabellare, non sono nella complicazione di capire il linguaggio naturale, nella misura in cui la semantica funziona, siamo a posto.
+E allora?
+E allora ci siamo ancora.
+Qual è il problema?
+Il problema è che, come ho detto all'inizio, quello che c'è nel database è tutto e solo quello che sapete.
+Manca un sacco di informazioni.
+E quell'informazione voi ce l'avete in testa.
+Se nel database non c'è scritto che uno studente è una persona o che un esame è un evento o che se un esame non è marcato vuol dire che non l'avete fatto.
+C'è un'infinità di assunzioni che funzionano e che vengono fatte nella misura in cui
+c'è questo accordo precedente per non iniziare a capire di cosa parliamo una cosa che mi hanno detto funziona benissimo nel mondo corporate ma non può funzionare nel mondo aperto le logiche sono un modo per risolvere questi e altri problemi perché?
+perché ti danno prendono in input un modo di riferimento uno qualunque
+dei sette che abbiamo visti e infatti a cominciare da oggi vi farò una logica proprio di quello e vi farò vedere come si mettono tutti insieme e ti dà una possibilità di ottenere conclusioni ok?
+di dedurre semplicemente perché voi sapete che perché avete in testa il modello mentale nella regione in cui questa funzione di interni cattura
+quello che è implicitamente qualificato nel vostro mandato multimentale, ti permette di estrarre nuove assenzioni, nuove frasi che definiremo come vere, molto presto, che ti permettono di andare oltre quello che c'è scritto nel mandato del mondo.
+Quindi l'elemento della logica, l'idea di fondo della logica, è un modo che ti permette di andare oltre
+alla mera forma uno a uno del moderno mentale, scusate, del moderno del mondo e di ottenere conclusioni.
+E ovviamente, quali sono le regole per fare conclusioni?
+Come sono l'infinità di logiche, come sono l'infinità di algoritmi di machine learning.
+come terminologia la gente parla di deduzione, derivazione, inferenza intendendo quei meccanismi che tratturano anche intuizione in linguaggio naturale che dato un insieme di cose che so mi permettono di tratturare nuove cose ok, tutto questo è e come lo formalizziamo questo?
+Come lo formalizziamo questo?
+Lo formalizziamo, se ci pensate bene, cos'è che voi?
+Voi avete un modello mentale, un modello che è una formalizzazione analogica, una visualizzazione analogica del mondo, e volete generare una teoria.
+Ovviamente il problema è chi ha generato il modello, ma questo lo vediamo dopo.
+è la seconda parte del corso.
+Allora il punto reale, supponiamo che noi abbiamo un modello e vogliamo generare una teoria che dice cose vere del modello e che non sono esplicitamente, che sono in un modello in qualche maniera implicitamente rappresentate
+Bene, questa funzione di mapping si chiama world entrainment e dice che un world entrainment, un mapping, dà un modello a una teoria.
+È un meccanismo che, dato un modello, ti costruisce una teoria.
+Ricordo che una teoria è un insieme via sezione, mentre un modello è un insieme di fatti.
+Ok?
+Questo è tutto.
+Notate bene che questo non c'era nel World Model, perché nel World Model noi avevamo una sezione, un fatto.
+Ok?
+Quindi noi stiamo dicendo, quindi avevamo una funzione di uguaglianza 1 a 1 tra ciò che dicevamo e ciò che era nel modello ambientale.
+Invece qui vogliamo usare il modello che rappresenta il modello ambientale per generare nuove sezioni.
+Ovviamente c'è il problema che affrontiamo adesso, certo, che cos'è questa roba qui?
+In realtà noi il ragionamento lo utilizziamo costantemente, ma chi si è inventato la logica ai tempi ha formalizzato questa operazione ed è esattamente quello che vogliamo formalizzare adesso.
+Chiaramente un esempio, qual è il punto fondamentale?
+Secondiamo ad esempio che io ho, questo l'esempio che abbiamo fatto in precedenza,
+Questa è una serie, modulo questa, questa è una serie a sezioni che stanno in un modello, in un world model, stanno essenzialmente in un knowledge graph, e qualcosa di più.
+E notare bene che io cos'è che so, provando a indovinare i significati, so ad esempio che il Duomo è la Chiesa, dove so che la Chiesa è un tipo di oggetto,
+Però so anche questo fatto qua, una chiesa, questa è una sintassi che vedremo in lezione prossima, per il momento possiamo indovinare, è poco importante per l'istruzione, io so che la chiesa è un building, è una costruzione che ha una torre della campana.
+Non è bene che questa roba qui, questa roba qui, io non la percepisco, questo è un universale,
+quando dico questa roba qua, dico io so che tutte le chiese che io vedo hanno sempre delle costruzioni, hanno sempre la torre della campana.
+Allora, da dove arriva questo universale?
+Arriva da quello che ci hanno insegnato a scuola, arriva dalla conoscenza, arriva dalla ricerca, è un po' più importante, ma è esattamente quell'universale che nel dettamento ti fa capire
+che un studente ti fa, senza che tu lo dica, ti dice come ti dice una persona.
+Sono tutti degli universali che ci stanno dietro, e ben altro.
+Allora, se io so che per tutte le chiese, queste chiese hanno una torre, allora posso dire che il Duomo è una costruzione fisica e ha una torre della campagna, semplicemente dal fatto che so che è una chiesa.
+Quindi non è che quando noi facciamo ragionamento ci inventiamo delle cose, è che noi abbiamo una conoscenza precostituita, che siamo sviluppati negli anni, fa parte della cultura, e infatti diverse culture hanno conoscenze diverse, e che ci permette automaticamente di dedurre tutta quella roba che noi non diciamo, che noi non affermiamo, che è implicita, ma è quella che ci permette di capire, che è esattamente quella che poi, finché noi facciamo un'applicazione
+come S3 non abbiamo problemi perché tanto facciamo il training alle persone che la usano e quindi è tutto a posto.
+Quando facciamo un sistema che non può sbagliare, quando facciamo un sistema di AI è tutta informazione che dobbiamo dare alla macchina.
+Ok?
+Qui il punto fondamentale è che quindi
+Primo punto, voi avete le slide che potete leggere, se voi pensate all'esame, all'esame, all'esempio della chiesa, della chiesa del Duomo, del Duomo, io so solamente che il Duomo è una chiesa, e vabbè, è incompleta, ma io riesco a dedurre il fatto che il Duomo ha anche una costruzione, e che il fatto che il Duomo avesse
+fosse associata a una costruzione, c'era nel mio modello.
+Non è che non ci fosse, perché tutti voi sapete che c'era.
+È semplicemente che non lo dicevate perché era ovvio.
+Peccato che di obiettà in obiettà la gente fa i treni che si scontrano.
+Quindi tutta questa obiettà, se noi vogliamo automatizzarla, va tirata fuori.
+E vanno tirati fuori questi algoritmi che ti garantiscono che questa obiettà si compone bene.
+Quindi noi qui siamo in una situazione di teorie incomplete
+che però, grazie a un background knowledge, una conoscenza di fondo che abbiamo, e grazie a un motore di inferenziale, una funzione di enterno che ci permette di allargare quello che sappiamo, ci permette di fornire l'informazione aggiuntiva.
+Questo è il primo punto.
+Il secondo punto è che non c'è più un mapping, se ricordate bene, nei modelli canonici c'era un mapping 1 a 1,
+fra la formula e il modello.
+Perché?
+Perché era tutto stato.
+Perché se ti do un foglio di carta, ti do un sistema, quello che vedi è quello che c'è.
+Noi vedremo adesso, come avete visto nella formula precedente, nella formula precedente, che questa, fra ciò che c'è nel modello e ciò che c'è in battuglia, c'è il complimento.
+Ok?
+E vedremo
+dato un unico modello abbiamo tante teorie che anche con linguaggi diversi ci permettono di dedurre cose vere.
+Ad esempio, quale sono le tre, non sono le sole, ma queste sono le tre diciamo strutture linguistiche che
+noi usiamo nel linguaggio e che ci permettono di costruire descrizioni linguistiche che sono molto più ricche del mondo.
+Una è la congiunzione, la più ovvia.
+La congiunzione ci permette di dire che è vero che le due cose sono vere insieme.
+La disunzione è molto più importante
+perché quando dicono di giunzione, ad esempio, come una persona non è una donna, non è un uomo, no, una persona è un uomo o una donna, vuol dire che io non so quale dei due.
+Quindi l'or è in qualche maniera l'elemento fondamentale
+perlomeno nelle logiche cosiddette proposizionali, perché ci permette di rappresentare la scelta o la scelta o la non conoscenza.
+Il testo della negazione, ad esempio, la negazione ci permette di dire che una donna non è un uomo.
+Questa informazione non c'è in nessuno dei modelli che avete visto, ok?
+E se ci pensate bene, la negazione...
+E vi ricordo che nella teoria dei modelli, nel senso che per i modelli vi ho detto distinguiamo il mondo in entità, tale e perché, tali e per cui, sono tutte diverse.
+Quando tu sei una cosa non sei tutte le altre.
+Quindi per una cosa che sei ci sono numeri infiniti.
+È chiaro?
+Ed è anche chiaro che noi quando ragioniamo e quando parliamo, scegliamo di dire che quello che non siamo esattamente non si fa da noi.
+E questo è il magico.
+Di un numero infinito di cose che non siamo, in qualche maniera non siamo in grado
+di scegliere on the fly, mentre parliamo, mentre ritorniamo, quelle cose che non siamo, che servono esattamente per far capire il tuo modello inglese.
+Mentre un metodo di disunzione sarà quel meccanismo che ci permetterà di rappresentare il fatto, o la nostra scelta, oppure il fatto che ci sono due alternative, il di voi ha fatto ottobre e stati finiti, sono delle azioni
+di flussi di azioni non deterministici, tali per cui fanno una certa cosa e non è garantito che lo cresci.
+Questo è l'esempio di prima, niente di nuovo, se non per dire che abbiamo un linguaggio diverso.
+Il punto fondamentale è che, ovviamente, quando noi entriamo nelle logiche, abbiamo fra
+Modello e teoria, un rapporto molti a molti.
+Ce l'avevamo già nei modelli, ma era dovuto semplicemente al fatto che certe informazioni erano incomplete e lo avevamo risolto con il modello canonico.
+Qui è intrinseco al problema.
+perché se io dico una persona è un uomo o una donna io avevo due modelli in testo, tre modelli, un modello in cui se usiamo l'or nel significato logico, un modello in cui la persona o tutte le persone sono uomini o una singola persona è un uomo o il modello in cui una singola persona
+è una donna ho un modello in cui tutti e due se io non imposto un vincolo che io sono disiuti però se io non glielo dico e quello sarà l'ospre del linguaggio non sarà il concept l'utilizzo del cosiddetto concept concept graphs per il chiaramente questo è perfettamente plausibile perché di nuovo questo è un caso particolare ma se uno dice io
+oggi sto a casa o mangio, stare a casa e mangiare sono due azioni compatibili, è possibile fare bene su tutte e due.
+Chiaramente qui le due possibilità insieme non sono bloccate dalla condizione ora, ma dal fatto che c'è un'ulteriore conoscenza a priori che mi dice che quei due concetti, quelle due dita,
+Quindi, formalmente, la logica del mondo è una coppia che pretende un modello del mondo, ovvero sia un linguaggio, un dovere di interpretazione e una funzione di interpretazione, costruisce un nuovo mondo, un nuovo modello del mondo,
+che estende quello precedente, perché lo estende?
+Per darmi più ricchezza nel linguaggio, devo poter dire oh, devo poter darmi nuove costruzioni, quindi devo poter costruire nuovi oggetti nel modello, e viene associato a una frizione che tende.
+Allora, è ovvio dire, guardare che
+se noi abbiamo la sintassi qui abbiamo linguaggio e qui abbiamo un dominio e se abbiamo la teoria e qui abbiamo un modello non sappiamo che un modello è un sottosieme del dominio e la teoria è un sottosieme di un modello ok?
+però noi abbiamo fatto la funzione di interpretazione per andare così e abbiamo fatto il modello abbiamo fatto la funzione di intento per andare così ok?
+quindi qual è la partita di giro che si fa?
+Perché quando io faccio questa cosa qui, come ho detto in precedenza, in qualche maniera io mi sto nel linguaggio e quindi mi sto nel linguaggio dandomi tutti i termini che mi servono per costruire il dominio.
+Cos'è il dominio?
+Il dominio è l'insieme di tutti i fatti, cioè di tutte le cose che posso percepire.
+Quando dal dominio vado a M, questo è esattamente i fatti veri ora, nel mondo reale, nel modello inteso che ho testato.
+Fatto il moderno, posso capire ciò che è vero nel moderno con la teoria, che a sua volta è una sottinsieme del linguaggio.
+Quindi noi abbiamo due funzioni importanti.
+La funzione di interpretazione, che abbiamo visto e che è una proprietà del modello del mondo,
+che in qualche maniera mi dà lo spazio di quello che io posso percepire come vero o falso, e di quello che posso dire, e la funzione di intendo, che una volta che io vedo o accetto certe cose come vere, mi permette di stabilire linguisticamente ciò che è vero e ciò che è falso di quello che sto vedendo in questo momento, di quello che sto prendendo adesso come modalità di riferimento.
+In entrambi i casi abbiamo sintassi a semantica, ma questo è il meccanismo che si usa nell'ottica.
+Quindi, di fatto, quello che noi stiamo dicendo e faremo nell'ottica a seguire sarà che assumeremo questi, da questo L andremo, L' e D', andremo in linguaggio esteso,
+Il linguaggio esteso ci permetterà di dire degli oggetti qua, dei fatti qua.
+A questo punto potremo esprimere le cose che noi percepiamo nel nostro modello analogico e dedurre ciò che è vero e ciò che è falso.
+Questo è rappresentato in questo schermino qua che abbiamo fatto adesso.
+Quindi in qualche maniera
+Se in una presentazione grafica di quello che ho detto adesso, il modello del mondo in qualche maniera ricostruisce il dominio, notare bene che il concetto di modello c'è anche nel modello del mondo, che va ben definito in quanto tale, ma che di fatto è mappato uno a uno sulla teoria delle assenzioni,
+qui in qualche maniera avendo costituito questo andiamo nell'altra direzione appunto perché abbiamo rinunciato al mp1 a uno tra modelli e teorie ok però in realtà a noi questo non basta perché in realtà se ci pensate bene non è che voi ogni volta che ragionate o fate la cura dei numeri fate logica voi state a pensare
+avete nel vostro modello analogico noi vogliamo arrivare a una cosa di questo tipo cioè noi vogliamo spostarci matematicamente da io c'è una certa verità nel modello a visto che ci sono certe cose o una teoria del mondo come faccio a sapere
+Se di questa teoria del mondo che mi descrive il modello del mondo posso dedurre un certo nuovo fatto che è vero nel mondo, che è vero nel modello.
+È chiaro?
+Quindi questo è il passo fondamentale che dobbiamo fare adesso ed è ciò che ci permette di passare fra world entailment e logical entailment.
+se potessi fare una cosa del genere non vorrebbe dire che la teoria è incompleta ovvero mancano dei fatti che descrivono il modello bravo allora lui mi dice sì ma se dalla teoria io posso dire una cosa che non è nella teoria che è vera la teoria è incompleta sì è così però
+e notare bene che questo era esattamente quello che ci fregava nei modelli del mondo.
+Però qui noi rispetto ai modelli del mondo abbiamo il motore.
+Quindi tu sei incompleto perché non dici tutto, ma hai la possibilità di diventare completo perché hai il ragionamento di lui.
+Quindi mettere i modelli del mondo, questo è un passo fondamentale, adesso ci ritorniamo, lo vedremo anche fra poco.
+diagramma e quello è e uno dice però non lo vedo e quello è e dice beh è completo e si lo so però adesso ti dico fammi dire il diagramma di un palazzo di 200 piani cioè non è possibile cioè questo è un fatto intrinseco che per quanto noi mettiamo fatti in un diagramma in un gettabesolo siamo intrinsecamente in un diagramma c'è un fatto come ho detto anche nella lezione precedente
+anche se noi facciamo un modello del mondo completo noi stiamo utilizzando un sacco di conoscenza che non diciamo perché per noi è ovvia che è molto più grande quindi quando noi comunichiamo e notare bene che noi umani infatti noi siamo molto bravi in questo perché non è che ci prendiamo a tempo a dire ah si se piove la terra è bagnata
+che è esattamente quello che le macchine non sanno ed è esattamente il motivo per cui l'AI fino ad adesso è sempre fallita, perché non sa quando sbaglia, non sa quando non sa.
+Quindi questa roba qui è esattamente lui ed è il motivo, io penso, per cui noi umani
+perché comunque sia manteniamo il minimo il tipo di conoscenza di patenza ma ci diamo questa possibilità di estendere la conoscenza ovviamente dobbiamo estendere la conoscenza ma deve essere chiaro che se io ho un modello di riferimento perché quando io ho una certa teoria ho un modello di riferimento qualunque cosa che io deduco deve essere vera in quel modello di riferimento quindi i miei algoritmi
+le logiche mi dovranno garantire esattamente questa proprietà e per fare questo ci introduciamo il concetto di verità qual è il concetto di verità?
+se io ho una logica del mondo se m intesa a e alfa allora a è alfa e b
+Quindi, cosa vuol dire questo matematicamente?
+Vuol dire che noi diciamo che è vera, prima di tutto diciamo che è una cosa vera, poi uno può fare religione e dire che è verità assoluta, però non stiamo facendo questo qua.
+Noi comunque facciamo una cosa vera, abbiamo sempre un modello in testa.
+E se un altro dice che una cosa è falsa, mentre voi dicete che è vera, 99 su 100 è che è un modello in testa diverso.
+E poi diciamo anche che il nostro concetto di verità, di una forma vera in un modello, non è più come nel modello, nel real model, nel modello mentale che c'è scritto esplicitamente, ma perché io sono in grado di arguire, dato il modello, che quella formula è vera in quel modello.
+Quindi di fatto, alla fine, in qualche maniera verificare
+Quando io ti dico verifica se A è vera in M è come dire, è un question answering su di me che io faccio in cui mi domando se una certa affermazione linguistica è vera nel mio modello intenso.
+E ovviamente l'errore tipico che tutti fanno è che non sapere se A è vera non può dire che A è falsa.
+E questo è esattamente... Quindi se io ti dico una risposta positiva alla domanda sopra, vuol dire che sappiamo che A è vero.
+Perché sappiamo che è vero?
+Sappiamo che c'è scelta di modello M, scelta arbitraria, più o meno arbitraria,
+Abbiamo il lente, mentre il lente è abbastanza solido, è abbastanza formalizzato, quindi le regole di ragionamento mediamente, o fai degli errori, ci sono i famosi errori che si sono raccogliti nella prima lezione, che non ha finito un po', quindi mantengono a fare un certo tipo di errori, ma se non fai le regole di ragionamento, non è giusto.
+Però cosa succede se non deduci?
+Che non lo sai.
+e fra parenti questo è esattamente dove si pianta l'AI e esattamente dove si pianta l'evento informale perché quando tu fai un AI e gli dici l'AI di fare deduzione è la AI mica anche una mica ti metti in telecamera però se non ha la telecamera se non ha il modello del mondo non sa cosa vuol dire vero o falso perché non ha il modo di verificare il modello
+Se gli date una telecamera, decide lei che è vero o falso.
+E qui è esattamente dove si è inventata l'AI sempre.
+Sempre.
+E dove, secondo me, si pianteranno gli elementi freschi.
+Perché ovviamente c'è un ulteriore problema, che mentre quando ero giovane parlavamo di centinaia di migliaia di fatti, ci soffriamo di migliaia di fatti.
+Perché ovviamente il problema non è tanto, non è solo...
+un sistema di metodi formali piuttosto che un sistema di ideali sbagliati.
+Il punto è se l'umano riesce a capire che c'è uno sbaglio.
+Ok?
+E anche lì vedremo quanto andranno a lottare le macchine autonome.
+Quindi, il punto fondamentale che, intorno alla concetta di memoria, qua l'avete anche
+Quando io dico questa cosa qui, io dico che in qualche maniera io in testa, nel mio modello mentale della prima lezione, non ho solamente più la foto o l'immagine, ma ho anche un insieme di fatti.
+Vuoi chiamarlo un database?
+Vuoi chiamarlo quello che vogliamo?
+E' esattamente come un database di fatti acquisti.
+Quindi, una logica...
+in maniera sostanziale, la teoria è una memoria del mondo.
+E, tra parentesi, è esattamente quello che facciamo anche noi.
+Perché ciò che noi decidiamo che è vero e falso, ciò che il modello che noi usiamo per ragionare, ci viene da memorie e studi precedenti.
+Allora noi diciamo, e arriviamo finalmente a questa cosa qua, noi diciamo che se io ho questo, e se questo è un modello di questo, se il modello, so che il modello rende vero una certa forma, e se so che una teoria
+è vero di un certo modello allora posso dire scrivo t entails o deriva o soddisfa alfa o deriva secondo dei termini abbiamo fissato m sempre e comunque lo chiamiamo logical entailment perchè è importante
+il logico lo intende perché ci siamo dimenticati n ok?
+e nella misura in cui io a priori come si fa in logica mi definisco questa operazione ok?
+che è l'operazione che mi definisce una logica nella misura in cui io io e voi due persone si mettono d'accordo su t sanno che possono
+fare delle caviglie di ragionamento.
+Non solo, noi sappiamo che possiamo usare motori di ragionamento col computer per generare un numero infinitamente grande di A. Quindi notate bene che il passo che noi stiamo facendo è che in qualche maniera noi dobbiamo metterci d'accordo sulla T, ma la T è esattamente la T del modello precedente,
+del world model è la T del world model, è la T del real model è la T del data base, non cambia niente poi se noi ci mettiamo d'accordo su questo e io ho risolto il problema e in effetti la gente che fa ricerca su logica studia queste robe qua studia queste regole che ti permettono di estendere ciò che sai che è vero
+in uno o più modelli di riferimento, ok?
+Ed è questo esattamente quello che noi faremo sulle logiche, per esempio noi cominciamo oggi a partire da giovedì e comunque davanti, perché da questo momento in poi tutto il nostro gioco sarà qua.
+Ci siamo agganciati al mondo con i
+E chiaramente, intanto per ricordarvi un po' di matematica, gli assiomi sono i teorei, qui sono gli assiomi, quello che voi chiamate assiomi è l'utilizzo di assiomi in matematica, e qui sono assiomi che ti parlano del fatto che tutte le chiese hanno un campanile, e in effetti da tutti i punti di vista
+come è stata definita all'inizio, di fatto la logica è la matematica del ragionamento, con tutti i possibili studi analoghi a quelli che avete visto in analisi.
+Ora, dov'è il punto fondamentale?
+È che, però, vi abbiamo appena detto che la reazione di Mordentainment è minute to minute.
+Se io qua adesso ci metto
+Quindi se io al posto di, io ho questa e io che la faccio?
+Io prendo una T che è, e qui sappiamo che è mini to mini, quindi ho una teoria che viene in M e voglio usare questa teoria che viene in M per dire nuove cose.
+Chiaramente qua rimane bene.
+Perché rimane minito-mini?
+Perché qui cosa vuol dire minito-mini?
+Vuol dire che un mercato, che è un modello, ha tante teorie, e questo l'abbiamo già visto, e ogni teoria ha tanti modelli.
+Chiaramente, dato che le teorie sono tante, se non è che tra tante teorie ha tante teorie, quindi rimane minito-mini.
+Quindi, abbiamo il problema che questa, il present relation,
+quindi abbiamo il problema di avere di gestire questo mini to mini in particolare notare bene una cosa importante il mini to mini potrebbe essere che una cosa è vera qua e l'altra cosa non è vera qua
+perché se io ho tanti modelli, tanti modelli tra la stessa teoria si differenziano per dire cose diverse perché se dicessero la stessa cosa servono di modelli quindi queste teorie qui non sono uguali quindi di nuovo sono teorie diverse quindi quando noi passiamo a questa formulazione
+vogliamo porre il vincolo che nei modelli che ho in testa ok?
+perché altrimenti cioè io ho comunque un modello in testa ci sono tanti modelli io devo riuscire a soccarli e dire è vero in questi modelli questi sono i modelli che io sto considerando definiamo l'algoritmo di entelement come t' o t' come lo scritto t'
+rispetto ai 620 modelli M. Quindi, matematicamente, quando la gente dimostra che una teoria fa in termini di un'altra teoria, deve dire per quali modelli.
+Esattamente come per una singola formula dire che una formula è vera in un modello, devo dire il modello, perché il concetto di verità senza modello
+non esiste nel mondo.
+Il modello vuol dire ciò che è vero e ciò che è falso, vuol dire il linguaggio tutto quello che abbiamo fatto prima, analogamente e ancora di più quando abbiamo inteso.
+Com'è che la definiamo questa?
+Noi diciamo che T è inteso, come si dice, comporta logicamente P barrato se
+fondamentale dell'avvenimento.
+Noi diciamo che T barato segue da T, puoi dedurre T barato come conseguenza da T, se per tutti i modelli M che ho scelto, se M deriva T, allora M deriva T barato e non viceversa.
+quindi tutti i calcoli che noi faremo, tutte le logiche che noi faremo garantiranno questa proprietà ma diranno tu scegli il modello, tu decidi cosa è vero e se ci pensate bene è la formulazione matematica esattamente di quello che vi ho detto nella prima lezione che è la realtà ve la fate voi, quindi se io volevo fare un invariante di processo la immaginate voi
+un calcolo che mi permette di di di ridurre cose vere da altre cose vere ma con riferimento al modello scelto quindi come lo leggiamo il ragionamento quindi qualunque cosa che noi possiamo sentire
+è vero, se qualunque cosa noi possiamo derivare da una cosa T, fra una ipotesi T, deve essere, qualunque cosa noi deriviamo, deve essere vero in tutti i modelli relevanti che abbiamo scelto.
+Ok?
+E quando vedete, ad esempio, in televisione, di varietà di gente discutere, è chiarissimo che hanno un potere di patenza diverso.
+Poi tutti e due ragionano in maniera meravigliosa.
+Ed è interessante che tu sbagli e che quando gli dici sbagli gli cambi il modello.
+Se lo porti al proprio modello.
+Poi così si cambiano i modelli, no?
+È così.
+E tutti i ragionamenti sono giusti.
+Tutti i ragionamenti sono consistenti nel loro ragionamento, sia di un colore che dell'altro.
+Però peccato che il punto di partenza è diverso.
+E il punto è lì.
+Quali sono i modelli che noi vogliamo assumere?
+Scegliamo...
+in certi casi uno solo in certi casi tutti i modelli in certi casi alcuni modelli di riferimento e vedremo che a seconda dei modelli che scegli il problema cambia per esempio se c'è cinque modelli li devo guardare tutti e cinque l'algoritmo li devo guardare tutti e cinque se ne ho uno li devo guardarne uno e magari c'è uno c'è uno cento ne scelgo cinque e voglio un modello dove
+dove ad esempio mi costa di meno e questo diventa una codifica in logica di branch and bound o del TSP è chiaro?
+e chiaramente quando tornate a dire questi modelli, scegliamo i modelli ma prima abbiamo scelto il linguaggio e quindi prima abbiamo scelto di cosa parlare stiamo scegliendo il linguaggio quindi noi abbiamo un'infinita possibilità di scelta tutta la diversità del modello, di questa linea di linguaggio tutto quello che volete
+Però la logica ti dice, guarda che se io e te ci riusciamo a mettere d'accordo su questa roba qui, io ti dico cosa vuol dire ragionare.
+E su questa roba, come vi dirò oggi, posso dimostrare correttezza e completezza.
+Quindi tutto il nostro litigio o scontro si riduce al punto fondamentale.
+Cerchiamo di capire il mondo che vediamo.
+Cerchiamo di capire quali sono le ipotesi di partenza.
+Da lì in poi...
+E in effetti, da questo punto di vista, la gente parla di model in termini e figure in termini.
+Noi siamo passati da una funzione di in termini che legava, che era una reazione per modellare una teoria, a una funzione di figure in termini che è una reazione che fa due teorie.
+E ovviamente, se ci pensate,
+Modeling Tailwind è quello che normalmente si fa in computer vision.
+C'è gente nel passato, tanti anni fa, non fallito, all'MIT, la vice professore, che cercava di fare computer vision usando logica.
+Adesso tendenzialmente si fa computer vision usando più metodi inutili.
+Però,
+il punto di tutto questo qual è?
+mentre quando uno va a vedere il tiro intero è quello di essenzialmente noi parleremo nel tutto il corso però perché ho detto queste due cose qui?
+per far capire che dal punto di vista formale e sostanziale fare machine learning piuttosto che fare
+non è che fare una scelta fa un aggiornamento induttivo dal particolare rivolto generale a un aggiornamento deduttivo dove derivano fatti da vecchi fatti e il problema poi alla fine è sempre lo stesso supponiamo che la forma diventa una inquadra e supponiamo che quando usiamo la logica eh lo so proprio l'avere qui devo avere il role model e io fuori il role model non ce l'ho e quindi devo tirare a costruire il modello
+E ovviamente se poi quello che io ragiono lo voglio usare per fare cose, devo fare il viceversa.
+C'è di nuovo un qualcosa che quello che dica parole lo deve tradurre in una frase, in un dialogo, come in generative AI, come un movimento nella robotica.
+è chiaro?
+quindi e questa roba qui è esattamente quello che voi come computer scientist e come io faremo tutta la vita indipendentemente dal lavoro che facciamo perché c'è un problema può essere qualunque cosa lo dobbiamo formalizzare se no vado a fare il programma magari prima ancora facciamo il modello poi nel programma ci facciamo tutti i ragionamenti o a mano con la logica con dei tool quello che vogliamo e poi lo traduciamo in questo corso
+di logica formalizziamo questa parte qui chi di voi farà la maschera e poi sicuramente tutti affronterà gli altri aspetti però il punto che ci tengo a puntualizzare che non so di niente poi uno come ricerca o come tecnica può scegliere uno dei due e ci sono chiaramente le opinioni come se uno sceglie i suoi modelli
+ma tutti servono.
+Poi uno può decidere, come la gente fa, ad esempio sul software SentiCritico, che riforma, riforma, lo fa tutto a mano, non solo lo fa tutto a mano e ci mette 100 persone a farlo, in modo che evitare gli errori, oppure uno con gli elementi dice che questo non serve, perché tanto la macchina capisce tutto, ma sono solitamente scelte dovute a motivi, più o meno motivati dal perché fa quella certa cosa.
+Detto questo, adesso, dato che questa è una lezione ponte verso le logiche, diciamo bene.
+Ma adesso noi abbiamo detto questa roba qui, questa roba qui.
+Abbiamo detto che vogliamo un motore che ci permette di rendere conclusioni, teoremi.
+E abbiamo detto che faremo le logiche.
+Se lo so, però...
+non è che ci vanno bene tutti, no?
+Quindi ci sono una serie di proprietà che noi vogliamo questa relazione mantenere.
+Tanto è vero che ogni volta che uno ne costruisce una nuova deve dimostrare che ha queste proprietà.
+E queste proprietà, al variare in tutte le scelte, sono quelle che ci garantiscono
+Quindi quali sono queste proprietà?
+Ovviamente al di là delle proprietà
+che frappare sono esattamente i motivi per cui la gente ha inventato la logica, la correttezza e la competenza della matematica.
+Cinque varietà.
+La riflessività.
+Se una conoscenza, se io so una conoscenza vostra,
+È banale, forse, ma esattamente quella che ci permette di dire che gli assiomini sono teoretici.
+Se non valesse la riflessività, gli assiomini
+Questa ci dice che se io derivo una formula V1 per il primo tipo di ragionamento, e poi con la seconda forma di ragionamento, partendo anche da delle nuove ipotiche, derivo anche V1, da V1 derivo V2, allora se io prendo queste due
+che è una forma di transattività del ragionamento.
+Se è da A che arrivo a B, se è da B che arrivo a C, è da A che arrivo a C. Questo è quello che normalmente si fa in planning.
+Ci sono due modi di interpretare.
+Il primo è che una volta che lo so,
+Per andare da V1 a V2 non passo per i passaggi intermedio.
+Ho un'unica, quindi per andare da Trento a Milano, se so che non devo passare da Torre Verona, non ci passo, faccio lo scorciatoio.
+Non passo per i passi intermedio.
+Ho due dimostrazioni, faccio il shortcut.
+Il secondo invece è la transitorietà che dicevo prima.
+che è importantissima perché ci dà la più posizionalità dell'allenamento che se pensate bene quando ad esempio vi dicono spezza un programma di sottoprogrammi da qui che lo dicevano penso prima alla volta esattamente questo questa è una proprietà intrinseca dell'allenamento ed è una proprietà che tutte le logiche formali ivi, ivi compresa, logica
+dell'area kinetica sono disponibili, o per meno tutte quelle accettate.
+La compattezza.
+Se io dice che se dalla teoria T derivo un'affermazione W, W alfa,
+esiste sicuramente un star set T0 minore o uguale tale che T0 deriva dalla forma di T minore o uguale minore o uguale vuol dire che se mi va di spiegare sono arrivato al più piccolo possibile però se ci pensate bene è un processo che noi facciamo normalmente nel ragionamento che ovvero se il nostro problema dobbiamo risolvere voglio dire
+Se io devo andare da qua a Milano, non mi preoccupo dell'eventualità che la luna cada sulla Terra, sono tostato da quel punto lì.
+Noi abbiamo una capacità che è la nostra resilienza e che è dove tutti i sistemi di AI in un'altra campagna ed è un problema irrisolto completamente.
+Abbiamo questa capacità, dato il problema da risolvere, di scegliere la conoscenza che è ideale per risolvere quel problema e nel 99 o 999 per mille dei casi ci va bene.
+Abbiamo questa capacità di resilienza adattiva che è implementata nelle logiche che noi, come umani, utilizziamo sempre.
+Vale anche su domini infinitici.
+Ad esempio, quindi motivo per cui possiamo dire
+che banalmente per qualunque numero pari un numero di istante basta sommare 1 i numeri pari sono infiniti e voi questo non ce ne frega niente però banalmente noi ragioniamo costantemente su spazio e tempo sui domini infiniti e com'è che in che modo lo facciamo la compattezza?
+è che ci scegliamo l'intervallo più grande possibile fra quelli che ci servono per fare i calcoli per esempio se devi collezionare
+anche sul GPS se tu vuoi usare il GPS per sapere la posizione di una persona basta che la fai una volta all'ora perché un'ora non è stata fatta se vuoi vedere se corre o cammina probabilmente devi fare una volta ogni un secondo fa un metro e mezzo una volta ogni 15 secondi 0,5 secondi
+la verità di monotonia se io credo che la conoscenza e parli questo è scritto dice è una condizione necessaria dire questo quindi di questo dice mi sembrava di sfiga aggiungo informazione non ho parlato niente di nuovo e quello che vuoi
+Infatti l'università è tutta una scienza che cresce monotonicamente, modulo qualche spaventura qua e là.
+E in effetti il principio fondamentale è la conoscenza scientifica ed è la conoscenza che fino al 1980 era il principio di un dato di neonato e tutte le logiche.
+e c'è tanto di filosofia della scienza in cui poi in realtà il filosofo deve dire che non è vero che la legge è così però in qualche maniera è comunque vero che quando si parla di conoscenza che noi acquisiamo nel tempo questa conoscenza è monotona cresce monotonicamente ma poi
+C'è anche la conoscenza non monotona.
+E uno dice, ma quant'è che è la conoscenza non monotona?
+Vuol dire che conoscere una cosa nuova ti invalida cose che sapevi prima.
+Noi in questo corso facciamo la conoscenza.
+Quando si applica una scienza non monotona?
+Beh, sicuramente quando nel 1980 erano inventata hanno fatto la frase storica, che è su tutti i libri, dicevano e raccontavano come se tutti gli uccelli volano e poi uno scopre che sono i fintuini che sono degli uccelli e quindi non è più vero che gli uccelli volano.
+a un certo punto è stato anche Lazzato Maluccio, abbiamo scoperto che non è vero.
+Nella ricerca dei giglioni lo facciamo costantemente, continuiamo a cambiare idea, in particolare perché utilizziamo l'informazione e anche perché il mondo cambia.
+In pratica,
+In pratica sono due forme di ragionamento, entrambe significative.
+La logica monotona si apre essenzialmente nei metodi formali.
+La logica non monotona...
+vogliono un tono intrinsecamente più complesso perché non lo facciamo in questo corso ma vi do l'idea di fondo perché facciamo l'esempio banale del pinguino no?
+cos'è che fa uno?
+non è che dice ah cavolo la mia affermazione che gli uccelli volano è sbagliato dice no, gli uccelli volano meno un pinguino
+Quindi ogni attività che noi facciamo come di ragionamento e facciamo di revisione, e di fatto qui è un problema di revisione, la non monotonicità è essenzialmente monotonicità più riformulazione.
+Che vuol dire?
+Io ho una certa teoria del mondo e in questa teoria del mondo riesco a vivere bene, riesco a crescere, se trovo un errore la giusto.
+E questa è esattamente la resilienza di noi umani, perché bene o male ci accorgiamo che sbagliamo, poi o l'errore ci uccide, in qualche maniera sopravviviamo e andiamo avanti, sia come umani come specie.
+E se la brittleness, la capacità di capire, nel sistema di AI è il primo problema,
+questo è il secondo infinitamente più grosso problema e a questo punto non solo devi capire che stai sbagliando ma devi capire data la situazione di contesto che se va male non è neanche mai visto che cosa fare e in effetti nel 57-58 la gente gli ha spiegato questo qui il problema centrale dell'AI che è il risultato al momento chiaro se tu hai
+un sistema con 100 miliardi di assiomi devi sperare che siano quelli giusti però il problema è che se è quel miliardesimo più uno sbagliato e lo usa la macchina una persona che non conosce che tra l'età succede quelle cose che noi leggiamo tutti i giorni adesso per chiudere questa introduzione poi dopodiché partiamo con le logiche però spero di essere riuscito
+a trasferire dove è il valore tenuto della logica.
+Ebbene, a questo punto ho detto ok, c'è questo motore di inferenza che se ci mettiamo d'accordo sulle permesse ci permette di ragionare e ci risolve in parte i problemi che abbiamo affrontato nella prima lezione.
+Ok, sì, ok, però ora dobbiamo fare la logica.
+E' esattamente tutto il contenuto del corso a venire.
+Una logica è essenzialmente tre componenti.
+Uno, se ricordate, sono
+Due l'avevo messi all'inizio.
+Qual è la logica?
+Il modello del mondo, cioè quale parte del mondo io sto modellando, poi il linguaggio che uso, che descrivo, perché è importantissimo, ma i problemi di ragionamento, che è diverso dai temi.
+Noi ci diamo un motore di ragionamento per fare cose.
+Quindi ogni logica che noi faremo, e tutte le logiche che voi vedrete, essenzialmente
+quindi in qualche maniera l'espressività della logica si collega al modello del mondo che sta studiando quindi stai facendo una logica per verificare in tempo reale che il tuo database
+dica sciocchezze, o stai facendo la logica che ti dica design time, che i database che disegnerai usando quello schema lì, o quell'ear model lì, è corretto.
+Prima il tipo di... sono logiche diverse.
+E chiaramente l'intuizione è che queste logiche danno massima flessibilità.
+La fregatura, la forza della fregatura dei modelli del mondo è che c'è un bel più 1 a 1 fra quello che noi diciamo, che stabiliamo che è vero, e quello che è vero del mondo.
+E no, adesso noi vogliamo dire, tipo, vogliamo darci una logica che ti permette di fare affermazioni serie più generali.
+Ad esempio, questa è un'affermazione universale.
+Questa è incompleta, cioè un'ordine.
+Quindi, a seconda della logica, noi avremo, e in effetti noi, quando andremo a fare la logica, la prima cosa che noi andremo a definire è il domino, cioè quello di cui parliamo, e poi il linguaggio, cioè come ne parliamo.
+È chiaro?
+Reasoning.
+E poi reasoning problem.
+Reason, come ho già detto, è essenzialmente il tesimo.
+Cos'è un reasoning problem?
+Il reasoning problem è esattamente questo.
+Dimmi se questo è vero.
+Dimmi se questo è vero.
+Mi restano queste, ma ovviamente questo qualcosa significa molte cose.
+Cos'è una procedura di decisione?
+Una procedura di decisione è un algoritmo tale per cui è un algoritmo tale per cui in un tempo finito ti risponde il sinopio.
+Due noi per tutte queste logiche faremo la procedura di decisione.
+Facciamo chiaramente le definizioni poi quando uno ha capito che sono fatte come sempre c'è un sacco di tool online che te lo implementa
+Ovviamente, ovviamente, lo dirò se non lo dico dopo anzi, quali sono gli esempi dei problemi?
+Per esempio, ha questa memoria, ha questa teoria o modello?
+Tutti questi insieme di specifiche come si consente per fare questa casa, questo modello, questo sistema informativo?
+Esiste o non esiste?
+Il problema di dire se
+una teoria ha un modello, ovvero sia se, che vuol dire, se una teoria definisce un codice di esistente, è un problema formalizzabile.
+Ricordate che un po' di lezioni fa vi avevo detto che sono certe cose che sono impossibili.
+A e not A. Una teoria tale per cui T deriva A e T deriva non A non ha un modello.
+un nuovo modello e abbiamo due liti per dirlo.
+Poi abbiamo la classica, se una formula è una conseguenza.
+Se due formule o due elementi, se A uguale a B, o se l'affermazione A dice la stessa cosa dell'affermazione B, sto usando simboli che vediamo in dettaglio,
+cose molto diverse.
+Qui stiamo dicendo che ci sono due entità nel modello che abbiamo costruito in maniera diversa, ma in realtà sono stacose, come avete visto delle volte in matematica.
+Il punto qual è?
+Che chiaramente uno dice, beh, io mi do una logica molto espressiva che mi permette di dire tanto e quindi
+risolto i problemi del mondo.
+Come sempre la vita è complicata e quindi c'è un trade-off sulla complessità.
+In particolare si dice che una logica è decidibile se esiste la decisione possibile, non è detto che esista.
+E semidecidibile tendenzialmente la semidecidibilità è tale per cui tu gli chiedi
+Questo è il caso letterale di Goethe, e tu gli chiedi, è vera questa?
+E lui, se è sì, ti dice di sì.
+E se no, continua a girare.
+Infatti Goethe, questa è una curiosità da matematici, e devo dire che probabilmente chi parla di matematica lo fa,
+Cos'ha detto?
+Lui ha detto prendiamo il linguaggio per esprimere il linguaggio dell'aritmetica.
+E ha detto, cosa vuol dire per l'aritmetica?
+Vuol dire sapere fare somme, sottrazioni e moltiplicazioni.
+Costruiamo questo linguaggio qua.
+Lui ha dimostrato che in questo linguaggio, tramite delle definizioni, esattamente le definizioni che vedremo in una lezione prossima,
+non sono dimostrabili.
+Quindi lui facendo un encoding, come aveva fatto alle volte, del linguaggio naturale, del linguaggio della matematica, dei numeri, ha dimostrato che questa roba qui appartiene al linguaggio di Pi A. E poi a questo punto dice, se chiude Pi A, Pi A dimostra il fatto che non è dimostrato, insomma, noi lo chiamiamo K,
+È vero che Pia non dimostra questa formula, ovviamente, no.
+Allora io, quando ero giovane e pensavo di essere particolarmente furbo, ho pensato, vabbè, ma allora noi siamo furbi e facciamo Pia, gli chiediamo Pia e non Pia, gli chiediamo K e non K. Uno dei due si fermerà, e no, non si fermerà con nessuno dei due.
+L'incompetenza è essenziale, perché si ha i due tipi di incompetenza, la competenza essenziale e quella inessenziale.
+Ora, la cosa interessante è che diceva, allora sono ancora più furbo.
+Io a k, a pi, aggiungo k. Mi deriva k, è sempre forza.
+È chiaro?
+Però, a questo punto, lui è chiaramente bravo, ha detto, sì lo so, però c'è un'altra forma k'.
+che dice che non sono dimostrabili nel nostro sistema.
+E questa roba qua non veniva accattata prima.
+Quindi, la cosa interessante, che sono informazioni di teoria di limitazione, chi di voi ha fatto complessità, ha fatto computabilità, ha fatto il terreno di Church, che dice, essenzialmente, nella misura in cui noi accettiamo la logica,
+e le regole che ci siamo dati per formalizzare il ragionamento, questa macchina è probabilmente che questa macchina, questa automa, questa macchina di Turing, è incompleta nel senso che ci sono frasi che sono vere.
+Perché ovviamente il fatto che la frase io non sono dimostrabile, se non la dimostri è vera.
+Quindi c'è una frase dell'aritmetica che è vera, ed è vera perché dice la sua non dimostrabilità e non è dimostrabile.
+E allora qui ci sono chi ha fatto la filosofia dell'imprisione artificiale, ancora ora, se guardate in rete, poi con il gene AI ancora di più, tutta la gente che fa tutte queste osservazioni, perché ovviamente poi la gente dice, ma noi umani,
+rossi e così via tutta questa curiosità solamente però per dire la forza che ti dà la logica in termini di modellazione dell'allenamento poi ovviamente anche quando sei decidibile hai il problema della complessità perché ho detto prima che la logica ti permette di codificare
+il problema del complessivo del datore, tutte queste robe qui, però chiaramente se più ti dai forza esclusiva, più qua non c'è più complessità.
+Quindi questo per dire che noi, in tutte le logiche che faremo, faremo logiche, ne faremo 3 o 4 delle logiche prime, poi 3 o 4 dell'ultimo piano, e 2 dell'ultimo piano, man mano che noi saliamo
+e ci diamo ricchezza nel linguaggio, diciamo più cose, e infatti io introdurrò una logica sempre per dire, ah guarda, quello prima non lo potevo dire, ora lo posso dire, se lo posso dire e ho il mio simbolo, lo posso anche dimostrare, il mio simbolo questo lo posso anche dimostrare, però il prezzo che pago è il che vado a fare.
+E quindi, da portare a casa, dal punto di vista ingegneristico, è che poi bisogna sapere la logica giusta per il calcolo che faccio.
+e per la logica che fai per il problema che sei ricordato chiaramente ovviamente l'ho detto all'inizio c'è un problema di correttezza e competenza e sono tutti teoremi che si possono dimostrare non che li dovete dimostrare voi ma che una qualunque logica che seguirà i dettami che abbiamo fatto in passato e che faremo nel futuro ce li avete tutti
+avete la correttezza e la completezza del linguaggio, oppure scegliete di non avere la completezza, scegliete di non avere la completezza ma avete sempre la correttezza della teoria, potete avere la correttezza e la completezza della vostra interpretazione, e anche in realtà sul ragionamento dei temi e anche sul preciso delle decisioni.
+In certi casi estremi, li avete riformati da gente
+molla la completezza semplicemente per ampliare lo spazio di ricerca.
+Queste definizioni possono essere osservate formalmente, è un ottimo esercizio da fare anche in preparazione del compitino.
+Avete il tool per provare a scrivere le lezioni.
+Volevo dire correttezza e completezza del linguaggio, questo è già sulle slide, correttezza e completezza della teoria è già sulle slide, correttezza e completezza dell'interpretazione non c'è, da lì poi non c'è.
+E chiaramente abbiamo la diversità, la diversità nelle logiche, abbiamo detto prima sia sul world model che sull'entertainment, e com'è che la facciamo?
+C'è il concetto di famiglia di logiche del mondo.
+E noi in questo corso faremo due famiglie di logiche, la prima famiglia di logiche che faremo
+che è quella che abbiamo iniziato adesso, è la famiglia delle World Logics.
+Qual è l'idea di fondo della famiglia delle World Logics?
+Sono le World Logics che sono quelle che sono associate appunto a World Model più nei termini che noi abbiamo visto.
+Qual è la warm logic più di base?
+È quella dell'entity graph, dove noi, è quella degli schemi.
+E poi, man mano, andando avanti, viaggeremo fuori la conoscenza degli itals, per poi arrivare alla conoscenza dei concetti, quindi del linguaggio, per poi mettere tutto insieme.
+E questo metodo è sistematico,
+in logica, e si fa anche all'interno dei singoli world models, qui stiamo in maniera, lo stiamo dicendo in generale per qualunque world model, ma su world models di particolare rilevanza, ad esempio quelli che vengono gestiti per dimostrare la correttezza dei software dei treni, per dire world models ad altissima criticità, si prende, e con la linea di fondo, abbiamo parlato di espressività della logica del linguaggio,
+e di complessità computazionale si prende per lo minimo e poi lo si estende e notare bene che l'estensione può andare in dimensioni diverse ecco e questa è esattamente la proprietà che ha la logica e che il machine learning fatto fino adesso non ha che è l'aspetto di composizionalità
+e che non hanno neanche i world models.
+Perché ho detto che parlo di famiglie di world models?
+Perché noi farò vedere che semplicemente stendendo il linguaggio io ottengo tutti i teoremi di prima, tutti i teoremi di prima più alti.
+Quindi aggiungo un collettivo, aggiungo una formula, benissimo, è chiaro?
+E questa composizionalità ci permette di affrontare i problemi una alla volta.
+E' esattamente quello che si ha anche in matematica.
+Tutto quello che ho detto qua è scritto qua, quindi prima parte dal modo di partenza, si fa la logica di base, poi si estende estendendo il linguaggio, estendendo il linguaggio di fatto e poi estendendo a seguire la interminabilità.
+Come facciamo a estendere il linguaggio?
+Passiamo da quelle che prima erano le singole formule,
+le asserzioni le metto dentro le formule più complesse e noi faremo vedere già nella prossima lezione come progressivamente noi estendiamo le formule ed estendendo le formule ammettiamo quello che possiamo dire e fare a chiudere per caso devo fare in un'ora questa lezione queste sono le noti che faremo
+Partiamo dalla logica dell'entità.
+La prima logica è esattamente la logica dei database.
+Stessa riguardo alle espressività.
+E in effetti, questa la facciamo giovedì, è la logica che ti permette già alla stessa forza di farla qui nei database.
+Poi diciamo, ma no, però guarda, io nei database voglio sapere che è uno studente da persona.
+E quindi sono esattamente i modelli compositi che abbiamo visto
+nella lezione precedente poi dico no, non voglio fare solamente la logica dell'età voglio fare la logica delle parole state nel linguaggio quindi voglio avere una logica che mi permette di dedurre ad esempio che un uomo non è una donna ma un uomo e una donna sono una persona ok?
+questa è la logica dei concetti poi voglio fare la logica degli età che mi permette non più di avere concetti ma mi permette anche di descriverli
+Quindi mi sono dato i termini, l'op, e mi sono dato ora le descrizioni.
+Poi voglio prendere e arricchirle, faccio la composizionalità.
+Queste sono sette logiche che si mappano sui sette modelli, base, composti che abbiamo visto.
+come la faremo?
+partiremo dalla prima e poi estenderemo il linguaggio e per ognuno di quelli andremo a vedere quali sono le nuove classi di problemi che possiamo risolvere è chiaro?
+quindi ricordate qui ogni logica è associata dal reasoning problem cioè la domanda a cui dare la risposta ok?
+quindi banalmente se io voglio usare un database e non me ne frega niente di sapere se il database è scritto bene o male e io uso la LOE
+come vedremo tempo di intenzione lineare addirittura o dinamica se io voglio sapere come c'è in certi database che se il database è scritto bene ho bisogno di lot se voglio sapere se in certi casi non hanno senso perché stiamo usando un'inconsistenza implicita come faremo gli esempi ho bisogno di lot se voglio insieme devo
+applicare una composizionalità quello che è carino e qui chiudo come faremo che l'algoritmo per questo è l'algoritmo di questo più l'algoritmo di questo più l'algoritmo di questo è chiaro?
+qui non è che ogni volta faccio minuto della carta è totalmente composizionale questo perché?
+perché la semantica è composizionale come la vedremo e come si deriva dalla teoria dei modelli

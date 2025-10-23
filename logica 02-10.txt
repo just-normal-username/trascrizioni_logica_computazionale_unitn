@@ -1,0 +1,385 @@
+in rappresentazioni interne nel caso delle persone, nel nostro cervello, nel nostro caso di fare informatica, di fare sistemi, i vari sistemi di teoria artificiale o sistemi informati che noi facciamo.
+Secondi due invece sono i processi di ragionamento a cui inizieremo a parlare la settimana prossima e come ho detto la volta scorsa
+La prima famiglia di logiche che è stata di fatto inventata dagli informatici che ha permesso di ragionare su tutto ciò che viene memorizzato ad esempio in un database, le logiche del mondo, World Logics, noi ragioniamo e facciamo conseguenze da quello che sappiamo.
+Nelle Reasoning Logics vedremo i vari algoritmi che ci permetteranno di
+giungere a conclusioni su quello che noi non sappiamo in modo corretto e completo.
+Corretto e completo rispetto a cosa?
+Rispetto ai nostri modelli del mondo, ok?
+I nostri modelli del mondo, nella lezione scorsa, perché chiaramente noi dobbiamo comunque partire da qualcosa, i nostri modelli del mondo, nella lezione scorsa abbiamo detto che rappresentiamo in teoria degli insieme e abbiamo fatto tutta una serie di
+passo a passo costruzione in cui abbiamo fatto vedere come da altre rappresentazioni visive si poteva costruire degli insiemi che le rappresentavano e abbiamo anche fatto l'affermazione che avevo fatto in precedenza che la teoria degli insiemi è universale.
+Come vedete poi questa citazione è una qualunque situazione nel mondo dove voi percepite è rappresentabile
+in teoria dell'insieme e nella volta scorsa abbiamo parlato delle varie approssimazioni che si fanno distinguiamo correnza e dovete di una cosa dalla cosa che viene vista più volte insieme di entità, le cose le chiamate entità e poi abbiamo fatto relazioni fra identità, proprietà e così via.
+Oggi affrontiamo il secondo livello
+perché voi ricordate che nelle prime lezioni io ho distinto la rappresentazione del mondo in rappresentazioni analogiche, che sono quelle che in qualche maniera, come ha detto, formalizziamo ogni modello, e rappresentazioni linguistiche, quelle usando il linguaggio.
+Quindi, di fatto, oggi dobbiamo fare due passi.
+Prima dobbiamo darci le rappresentazioni linguistiche, formalizzarle,
+e poi dobbiamo creare questo link che è un link di caso-effetto nella nostra mente e quindi anche nei nostri algoritmi tale per cui se io dico casa tu ti immagini una casa se tu vedi una casa o una foto dici casa cioè un mapping e chiaramente noi per poter fare direzioni di correttezza e correttezza dobbiamo formalizzare questo mapping questa parte qui noi la dividiamo in due parti una prima lezione oggi
+in cui ci diamo l'aspetto linguistico, introduciamo il concetto di linguaggio e di lingueria.
+Ovviamente, l'idea di linguaggio sicuramente l'avete fatta a compilatore, questo è un linguaggio particolare, sono quei linguaggi che noi usiamo per descrivere il mondo.
+In termini della direttura di Chomsky, sono linguaggi facili, di tipo, quanti linguaggi vogliono usare, per tutta la complessità, sono linguaggi di tipo 2, semplicemente 1, in pochissimi casi,
+e poi inizieremo oggi, forse noi domani finiremo di definire il passo formale che ci permette di far sì che queste teorie che sono qua
+insieme ai modelli fanno i modelli del mondo.
+Il modello del mondo per noi è, come definiamo fra oggi e domani, è un qualcosa che o me lo fai vedere o te lo dico, io sono in grado di dirà, è quello, e poi nella parte dopo, una volta che l'ho detto, sono anche in grado di ragionarlo.
+Questa l'abbiamo già vista esattamente la prima della lezione scorsa,
+e avevamo detto la volta scorsa chiaramente c'è stato un problema di ambiguità, tutti sapete che il vero problema è quello dell'ambiguità, il vero problema è che noi si formalizza in logica ed è il motivo per cui ci serve la semantica e quando noi diciamo una parola o qualcosa è ambiguo quello che diciamo o comunque a volte non è neanche chiaro.
+e quindi come anche noi risolviamo le interagibilità formalizziamo questo, formalizziamo questo, questo è l'aspetto della teoria, questo è l'aspetto del modello e poi formalizziamo il link, questo è il modello.
+Oggi ci concentriamo sull'aspetto della teoria.
+Tra parentesi, come vedremo già domani, come inizieremo anche oggi,
+ed è il motivo per cui vi è stata fatta un'esercitazione su questo, l'unica esercitazione che aveva fatto due settimane fa, questo modello del mondo di cui parleremo, vi faremo vedere nelle prossime esercitazioni, comprende e formalizza tutti i linguaggi che voi avete visto fino adesso, di specifico.
+E anche il database, tabelle e così via.
+E questo di fatto ci dice, e chiaramente non è un caso,
+chi dice che in qualche maniera data, come farete poi le esercitazioni, una volta che abbiamo capito in realtà come sono costruiti questi vari linguaggi, intendo il linguaggio tabulare dei decadenti, intendo gli R-model, gli RML model, gli RML non lo facciamo per mancanza di tempo, ma comunque è la stessa cosa, la logica vi dà effettivamente un metodo per ragionare sulle nostre presentazioni del mondo.
+Quindi il passaggio è dal modello alla teoria, quindi dal modello non linguistica alla pretenzione linguistica del mondo.
+Ovviamente quando voi parlate, io parlo, ho un mio modello in testa, quello che si chiama Nintendo's model, modello in testa.
+Però io quello che c'ho in testa, a diversi dei computer, non te lo riesco a far vedere, posso solo descriverlo.
+C'è un teorema che dice che una qualunque tua descrizione, che vedremo più avanti, e che è connessione esattamente della seconda lezione, qualunque descrizione tu dai è complessicamente incompleta, ovvero sia, ci sono infiniti modelli di lato a testa che corrispondono alla stessa descrizione.
+E' un teorema, un fatto.
+Poi, nell'ultima lezione lo faremo e lo vedremo.
+Allora la gente dice ok, però io in realtà c'ho il mio modello inteso.
+Il mio modello inteso è tale per cui quando io costruisco questa teoria, questa rappresentazione fisica della teoria, deve essere un qualcosa che la teoria descrive.
+E ovviamente, lo vedremo più avanti nella lezione, puoi dire che la descrive correttamente,
+Nella misura in cui noi abbiamo il modello con un oggetto formalizzato, noi questi teorici li possiamo dimostrare.
+Ovviamente, voi ricorderete, che ho detto la volta scorsa e scritto anche sulle slide, che quando tu passi dal modello della foto al modello di segnistico
+In realtà c'è un sacco di scelte, ok?
+Il modello di MIST non è che ripresenta l'insieme.
+Quello che ho detto prima è che l'integrimento dell'insieme è un modello di rappresentazione universale, è una conclusione del mondo, ma non ho detto che rappresenta completamente, ok?
+Infatti, in questo teorema non facciamo che dice che si integri a dei numeri e che il modello non può rappresentare completamente, in termini di integrimento dell'insieme, quello che noi vediamo.
+Quindi qui cominciamo a vedere perché può avere senso forse la logica da qualunque cosa noi vediamo e rappresentiamo facciamo fare una macchina, facciamo portarmi per una scelta più divisiva quella che vogliamo la macchina non lo può rappresentare completamente quando poi lo liftiamo a livello di descrizione linguistica è dato da un modello c'è una... ci sono infinite rappresentazioni linguistiche che lo descrivono e se stesse
+in questo è il problema, ed è il motivo, questi aspetti qua, che prendiamo così tanto,
+7, 8, 10 lezioni e cominciare a descrivere tabelle di verità, vero o falso, facevamo gli algoritmi, sicuramente questo bastava per chi di voi faceva software engineering e formal methods, ma chi da grande farà modellazione, sistemi, AI, questo passaggio di modellazione che
+è fondamentale così almeno la gente se lo sapesse smetterebbe di dire che avremmo le macchine più intelligenti degli uomini, che è semplicemente impossibile per quanto detto.
+Si può dimostrare che è impossibile avere tanta gente che confronto il fatto che una macchina, tanti più fatti di noi, semplicemente abbiano dato più dati, perché ha tutto il lavoro in pancia, con il fatto che è più intelligente.
+Chiaramente si può decidere cosa vuol dire intelligente, ma sicuramente noi possiamo fare macchine
+molti più fatti di noi, ma sicuramente non potremmo mai fare macchine che sono in grado di ragionare come ragioniamo noi, anche perché tra parentesi non sappiamo com'è la vita in realtà.
+Non abbiamo i motivi per cui questa rappresentazione venga fatta.
+Da noi, come persone, come individui o anche come gruppi di individui.
+Detto questo,
+E' chiaro che se noi dobbiamo formalizzare, far diventare tutta logica matematica, io appunto ci poniamo di linguaggio.
+Allora, prima cosa, non vi sto dicendo niente di nuovo.
+Queste rappresentazioni fanno parte del vostro vissuto quotidiano.
+Insisto questo per far chiaro, non è che vi sto dicendo che c'è una cosa esoterica, la logica che fa davvero di verità, no.
+La logica formalizza ciò che voi conoscete già.
+Il problema qui è semplicemente formalizzarlo
+e riuscire a ragionare in maniera corretta e completa.
+E questa è tutta l'idea di questo corso.
+Poi alla fine faremo anche i tremi di algoritmi, quello che volete.
+Ma il contenuto principale è di capire che in ogni volta che fai una rappresentazione fai delle scelte.
+La prima scelta è linguaggio.
+Fino adesso voi le linguaglie le avete usate, sin da quando bambini, parlate e raccontate.
+L'altro capisce, il linguaggio naturale è un linguaggio di rappresentazione.
+Ma qual è il problema?
+La sintesi è andata informalmente su un libro, ma non ci sono elementari.
+La gente ha provato a fare algoritmi generativi, di grammatica generativa, che generavano lo spazio per distinguere le linguaggie, ma abbiamo fallito.
+Sono linguaggi più facili da capire, perché la gente l'ha fatta, le abbiamo dette alle volte,
+sono linguaggi ancora più semplici che rappresentano, questi sono linguaggi che non rappresentano i dati, che sono ultimi per la specifica, rappresentano in qualche modo lo schema dei dati, come vedremo nelle lezioni di domani, e poi sono linguaggi, database nazionali che quando uscirono fecero un salto di qualità, non furono più un tipo di database, c'erano tre tipi, vari tipi di database in precedenza, i database nazionali
+con il fatto del loro formato tabulare, sono quelli che ci hanno permesso per vent'anni sinceramente di risolvere il problema della presentazione dei dati corretta e completa nelle applicazioni corporate, applicazioni che si usano normalmente e che hanno, perché, perché funzionano, perché quando tu fai un'applicazione corporate ad esempio S3 nel vostro caso
+quando tu disegni S3 sai esattamente tutte le condizioni dentro cui funzionerà quindi sapendo tutto fai le specifiche e se c'è un errore lo riesci a beccare al massimo c'è un errore di che inserisci d'altro ma non è che S3 quando l'ho disegnato non sapevo cosa doveva fare tant'è vero che l'abbiamo disegnato a trento e quindi l'abbiamo disegnato noi quindi sappiamo esattamente chiaramente quando tu fai un sistema di AI
+del motivo per cui, oppure quando fai un sistema che esercizia un treno e devi garantire che il treno metto in precedenza non si scontra più veloce con il treno davanti, però muoversi, quindi l'idea di un treno è di andare il più veloce possibile, ma tale per cui se c'è qualcosa a stop si ferma più velocemente davanti.
+Queste sono le specifiche di questo software.
+ed è un sistema aperto, ed è un sistema in cui non ti basta dire, ah vabbè, sono studenti e gli manca un esame, tanto quello correbbe, no.
+Allora, quando arrivi in questo livello di dettaglio, devi andare oltre il sezionale risultato che, non ho portato, in informatica e nei tabelli relazionali.
+E quindi parliamo di linguaggi logici.
+quindi passiamo dai linguaggi utili per i linguaggi logici.
+E cosa saranno i linguaggi logici?
+Sono linguaggi logici a cui definiremo formalmente, in astratto, poi dalla prossima lezione entriremo nel dettaglio dei vari linguaggi, ma saranno tutti linguaggi che sottiliscono queste definizioni, sono linguaggi che, come ho detto in precedenza, hanno una funzione di mapping
+tu lo fai, lo sai, oppure per fare un linguaggio logico devi garantire la design time che questo mapping da linguaggio al modello esiste e come lo fai?
+Beh, abbiamo parlato da ciò, non c'è niente da inventare Cos'è?
+Un alfabeto insieme di information rules, il verbo di informazione, BNF, niente di più La cosa interessante è essere, perché è la cosa nuova che
+non nuove, nel senso un passo importante che proprio in questo linguaggio dotifichiamo l'insieme delle frasi che sono ben formate.
+Voi ricordate che avete fatto combinatore immagini, ho dato una PNF e tu hai un algoritmo, un traduttore, che per me è la prima fase di traduzione dalla forma esterna alla forma interna, in cui gli dai una cosa in input e ti dice, sì va bene, l'ho riconosciuta, l'ho riconosciuta.
+non avevano riconosciuto gli errori di formazione.
+Tutti questi linguaggi sono linguaggi, quindi natural language, language Java, sono tutti esempi di linguaggi.
+Ovviamente non tutti sono linguaggi logici.
+Perché noi, come vedremo adesso, il nostro fondamentale è dire
+Come vi ho detto, lo formalizzeremo adesso, io dico oggi piove, prima di tutto dico una cosa che è vera o falsa e seconda cosa guardo fuori e dico che non è che è falsa.
+Cioè prima, come posso dire, oggi non piove, oggi c'è il sole, guardo fuori e vera.
+però prima vi devo darlo spazio in tutte le frasi, perché oggi vedo che piove, domani vedo che c'è il sole, e viceversa.
+Quindi tutto l'elemento del linguaggio logico è arrivare a definire queste insieme di frasi, sentenze, tale per cui quando le mappe
+Ed è esattamente il motivo per cui quando sono arrivato qua, vedete tutte queste esempli che ho fatto, tutte queste voi potevate dire se c'è una banca, se c'è un'albero, se c'è una banana, se c'è una banca che manda banale, non lo so perché di quale banca mi parleremo?
+Di quale banca di cibo sto parlando?
+però modulo questo, queste sono tutte sentenze in un linguaggio come vedremo fra un minuto quindi il punto fondamentale è esattamente definire lo spazio di questi linguaggi logici questi spazi che vengono generati da un'altra mente insieme a diretta informazione e che vi dà come output della fondazione sul mondo tale per cui domani vi dimostrerò come sarà possibile matematicamente definirsi i sommi logici
+Allora la prima cosa è mapparlo sul mondo, ok?
+Il concetto che abbiamo fatto, e qui sto usando, sto introducendo e riprendendo il concetto che abbiamo fatto due lezioni fa.
+Cos'è una parola?
+Una parola, una parola casa, anzi ho fatto fare la parola, la più famosa è, bene qui in inglese,
+Questa è una parola che io avrò nel mio linguaggio ed è una parola che userò per fare delle frasi.
+Ovviamente voi sapete cosa vuol dire bank, la riva del fiume,
+Ben, che è una parola che però ha almeno dei significati, che è sul fiume, riva del fiume, scritta in italiano, o banca.
+Se io questo lo chiamo numero uno e questo lo chiamo numero due, o seppure questo lo chiamo benef numero uno e questo lo chiamo benef numero due, questo è il concetto.
+a quello che vi sapevo di precedenza su Word, la gente ha fatto Word, che è di fatto quello che voi avete sui vocabolari, andate a cercare vocabolari, vocabolari come Word, qual'è la differenza?
+Che è in ordine alfabetico, e perché Word non ha fatti in ordine alfabetico?
+Perché non serviva a niente, appena informatici venivano ad andare a trovare il significato preciso, però di fatto Word non è un vocabolario online in cui l'ordine
+l'ordine dei concetti, come essere ordine alfabetica delle parole, mentre UORN, come l'avete fatto e lo riprenderemo più avanti quando faremo la formalizzazione di UORN, è un vocabolario in cui l'ordine, prima di tutto non è lineare, è ad albero e ad ag, e secondo è sul significato dei concetti, nel senso che il significato del concetto è il motivo per cui noi possiamo fare l'ergolitmo.
+Quindi la prima cosa fondamentale però è che in questi linguaggi
+L'alfabeto sono concetti, non sono parole.
+Almeno sono parole che denotano concetti, e il concetto denotando la parola.
+Poi chiaramente noi neanche noi andiamo a dire io sono vicino a Banc 1, o sono sul Banc 1 del Fiume.
+Noi siamo sempre in linguaggio naturale, manteniamo il significato linguistico, ma questo vuol dire che quando noi passiamo, come abbiamo detto, adesso con chiaro segretario dei dettagli, dalla descrizione linguistica
+in linguaggio naturale per arrivare alla lotica devo fare questa cosa qua.
+C'è un'intera branca di layout che si chiama world-sensitive navigation che è un'area molto pesante che serve a generare da linked world il concetto
+Quindi a questo punto è un insieme di parole tenendo per panore questi concetti che denotano nel modello i percetti.
+Però la parola fausto o la parola persona non è che denota me fausto in tutta la mia vita.
+Quindi nel passaggio dai percetti
+anche in termini di AI al singola parola c'è un mapping infinito 1.
+Quindi questo passo è un passo in situazione enorme e come ho detto più volte in passato
+Quando noi vediamo una foto, l'abbiamo detto la volta scorsa, scegliamo noi la parola, quindi vedendo noi la parola scegliamo noi quello che c'è nella foto, ed è una scelta vittoria.
+L'unico vincolo che abbiamo è questo, che ogni concetto ha un solo percetto, non c'è l'abilità, non c'è questo carlo qua, ok?
+Ma vale il viceversa?
+Car, possiamo chiamare car, ma possiamo chiamare automobile,
+Perchè?
+Perchè dal punto di vista di sensibilità è rilevante, anzi ci dà flessibilità.
+Chiaramente, se però poi tu fai AI, ti vuoi fare AI, e fai di Sirius una semantic, si trova il fatto che la macchina, se non sa che sono la stessa cosa, le pensa con due parole diverse, e magari non riconosce une simili frasi che in realtà usano semplicemente due parole diverse per le stesse cose, che è il problema classico che esiste.
+Chiaramente,
+Se ricordate bene, la volta scorsa ho detto che ci sono sei tipi di percetti, cioè percetto istanza, percetto concetto e così via.
+Sei tipi di percetti, sei tipi di concetti.
+Perché ovviamente quello che tu vuoi, che tu devi avere un meccanismo, e poi lo vediamo bene nella lezione di domani, però di qualunque cosa,
+che tu fai linguisticamente, puoi scegliere una parola, ma, infatti la dirci in inglese, francese o quello che volete in italiano, ma dato che il mondo è l'unico, se il mondo noi lo diciamo che è fatto in sei, che è organizzato, lo modelliamo, infatti io, usando sei tipi di percetti, se noi vogliamo avere una rappresentazione chiara, dobbiamo avere sei tipi di concetti.
+e questo infatti è la proprietà fondamentale che è la logica, che è la proprietà della composizionalità che vedremo estensivamente e che è esattamente quella che poi ci permette di fare gli argomenti.
+Cosa vuol dire?
+Vuol dire che se io nel modello
+in questa maniera qua, io nel linguaggio devo avere un concetto per questo, un concetto per questo, e un concetto per questo, e un concetto per come metto insieme.
+Ed è questa la composizione della sintassi che poi ci permetterà di dire se noi il linguaggio è fatto bene e mantiene questa proprietà, ogni qualunque composizione linguistica si mappa in una composizione del modello.
+Quindi se io ti dico, Fausto vicino al telefono, Fausto, io, telefono, telefono, vicino, è una relazione, una relazione binaria.
+I verdi sono tutti relazioni.
+Fausto mangia la mela.
+Fausto parla a voi.
+Fausto parla da solo.
+Oggetto e soggetto è la stessa cosa.
+Fausto cammina, ma è scelto da Trinx.
+Quindi qui sono tutti vari esempi che potete vedervi e chiaramente quando io qua metto verbo, nome, verbo, nome è perché non casualmente, non casualmente, anche, ovviamente non casualmente, anche in linguaggio naturale le strutture sintattiche si mappono sulla struttura semantica.
+Per la gente serve una vita facile.
+Poi chiaramente
+Come vedremo fra un minuto, se tu fai melia moderna, io devo fare la persona che ho visto l'altro ieri, o la persona che ha mangiato la maglia d'acciaio, che ho visto diventa completamente oggetto, perché la persona che ha mangiato diventa soggetto.
+Allora la gente fa i linguaggi formali dove l'igna è questa ambiguità, la contestualità del linguaggio.
+Però comunque stiamo sempre parlando di sei tipi di significati,
+e ovviamente qui possiamo andare veloci abbiamo l'interessante qui a dire questa frase dall'idea della motivo per cui che fa confessione di inguaglio naturale a problemi cioè non è un problema affatti, un problema ancora io ho risolto anche se adesso mi hanno fatto passi davanti alla gigante perché non è solamente bank, bank of the river e bank of an organization e anche che la parola friend qui
+Cambia percetto, qua Friend è un concetto, cioè un insieme di persone.
+Qui è una relazione fra due persone.
+Fausto, amico di Mario, è una relazione.
+Gli amici ti aiutano sempre, è un insieme.
+Ad esempio questa cosa è una cosa che via modo non ti permette di fare, perché tu ometti il nome
+o fa diventare un tipo, un insieme, o fa diventare una relazione.
+Quindi il model ti lascia sempre l'opportunità sulla singola parola, ma la struttura sintattica è un grande passo in avanti, infatti è una grammatica di tipo 1.
+Tu, per esempio, lo puoi usare in un modo o nell'altro, ma non lo puoi usare in qualsiasi altra maniera.
+Lo puoi usare come relazione o lo puoi usare come concetto o come intaglio.
+Bene, ora ci siamo dati l'alfabeto e chiaramente l'alfabeto, vi ho fatto vedere gli esempi, ve l'ho fatto per esempio perché non posso farlo formalmente, perché la scelta precisa dipende dalla logica, dipende dal formalismo.
+Ancora non da me, ma la volta prossima la prima cosa che farò vi darò la BNF, è chiaro?
+perché una volta stabilito che noi comunque abbiamo sempre e solo sei tipi di concetti e stabilito che comunque se in senso e solo noi mettiamo insieme per formare queste sentenze che noi chiamiamo asserzioni, adesso in diversi linguaggi si differenziano su come li metti insieme questi concetti e questi concetti estrassificati che gli dai.
+Quindi in qualche maniera quello che vi sto dicendo adesso vi sto dando un meccanismo che è universale
+Sto dicendo che per qualunque linguaggio di programmazione, linguaggio di programmazione c'è una dimensione temporale, qualunque linguaggio di modellistica voi fate, farete sempre queste tre cose qua.
+E ora facciamo la soluzione.
+Se noi abbiamo dato questa roba qui, noi esattamente insieme a S, adesso ho chiamato
+infatti non mi piace la versione dove c'è la S, è l'insieme, ah no questa è l'alfabeto, cos'è l'alfabeto?
+L'alfabeto è l'insieme delle words, ossia di quei singoli sei tipi che vi ho fatto vedere, che sono quelli che corrispondono ai percetti che tu percepisci.
+E com'è che li mettiamo insieme?
+Comunque dai regoli di formazione che avete visto.
+che facciamo?
+Vi ricordate che abbiamo detto cos'era un dominio?
+Un dominio era una tripla dove c'era che cosa?
+L'universo che era l'insieme degli elementi del dominio, dei unit.
+C, l'insieme dei concetti classi che abbiamo chiamate come tu raccogli di tonità
+sulla base di ci-di-tu e le relazioni fra di loro.
+Dove pure, avevamo detto a fine lezione, le chiamiamo entità per non chiamarle unit, perché di fatto uno dei problemi che c'è, che comunque è sempre linguaggio naturale, non è un problema quando sai cosa parli, la gente confonde il concetto di relazione nel linguaggio con il concetto di proprietà, il concetto di unit, il concetto di entità, con una misura in cui noi sappiamo se noi siamo in livello semantico o in livello linguistico,
+non è un problema ed è un'approssimazione che manteniamo anche noi per mantenerci più vicini all'altro.
+Allora vedete che qui noi in qualche maniera, dato un certo linguaggio, ci prendiamo un alfabeto e ci prendiamo delle nuove informazioni.
+Quindi queste nuove informazioni
+con questo alfabeto, io dovrei avere un alfabeto che mi mappa tutte queste tre qua e poi nelle confrontazioni vediamo come le compongo.
+Chiaramente, l'abbiamo già detto in precedenza, io chiaramente devo, quando io prendo l'alfabeto
+che si fa esplicitamente sempre e che si fa informalmente a linguaggio naturale, io quando scelgo l'alfabeto scelgo quello che esicido di vedere nella figura.
+Una volta che ho scelto gli do il nome.
+E ovviamente puoi decidere chiaramente se vuoi parlare di persone che sono vicine uso questo.
+e chiaramente come tu metti le regole di informazione insieme ti luoghi una scelta linguageristica e chiaramente che facciamo?
+questo è il linguaggio naturale tendenzialmente il linguaggio naturale tutte le parole che hai le usi e non c'è nessun vincolo oppure fai
+scegli una BNF, però se voi tornate indietro, sperate, sui livelli naturali, vedete questa frase qua, c'è di nuovo queste frasi, quelle che sono vere o false.
+Se voi tornate indietro, ancora del linguaggio, le origini del... leggiamo la prima frase, cerchiamo il verbo.
+La prima
+Allora, vedete, c'è l'anterior del subverbo, l'anterior subordinata, no?
+Allora, il punto fondamentale ti fa l'affermazione, ti dice che una certa azione, discutere, su una certa cosa, su un altro verbo, su una cosa che esista, che sono i passaggi dal Bolzano al Brennero.
+Allora, prima di tutto, uno potrebbe dire, è vero o falso che ci sono questi passaggi dal Brennero?
+Sì o no?
+Sì, è vero.
+È vero o falso che
+Si parla di quella roba lì?
+Lo leggiamo?
+Sì, lo so, è vero.
+Sarà vero, Bert.
+Se ce lo dice lui ci crediamo.
+C'ha limiti, ci crediamo.
+Non c'è nessun modo di verificarlo.
+Vedete, poi, le age sono molto influenzate, a questo è preso da Chiquita, dai vicini, è vero o no?
+Io no, però lui dice di sì, mediamente sì.
+Il punto fondamentale, volevo dire, comunque, anche l'iguaglio naturale la metti più complicata, quello che vuoi, ma comunque c'è questa situazione qua.
+Questa situazione qua è una situazione dove manteniamo l'amiguità sulle parole, sensibilità delle parole,
+Ma abbiamo eliminato un sacco di complicazioni nella costruzione di quelle frasi che sono vero-false.
+Ok?
+Giustamente.
+Chiaramente adesso noi, la gente, molti di noi, in parte anche io, pensano che, molti pensano che si possa arrivare, tra qualche anno, a una situazione in cui si programma in linguaggio naturale.
+Gli dici, fatti il programma e te lo fai.
+Chiaramente,
+e questi dicono esattamente la stessa cosa.
+Qual è la differenza tra parlare in linguaggio naturale e programmare in Java?
+Ecco, in linguaggio naturale programma chiunque.
+In Java li avevi fatto il corso di informatica.
+Quindi c'è tutta questa gente che è preoccupata del lavoro che andrete a fare voi.
+Detto questo, se vogliamo aprendere un altro, diciamo questo e noi la stessa cosa.
+italiano vero, Fausto, supervisione da lui, non è più vero, ma era vero nel passato e così via, sono sempre tripli.
+Questo è il motivo per cui se tu impari come una tecnica di transformare, fare traduzioni da triple a triple, di fatto a questo punto prendi il triple che vuoi.
+Chiaramente riguardo il naturale è più complicato.
+ma la tripla che tu hai in arrivo, qualsiasi database, qualsiasi numero di cosa, è comunque il tuo linguaggio di programmazione.
+Se riesci a trovare un compilatore da linguaggio naturale, il tuo linguaggio di programmazione lo troverai veramente in linguaggio naturale fra qualche anno, forse, vediamo.
+non è ovvio.
+Chiaramente questa è l'archivizione di Tammes, funzionava meravigliosamente perché in generale, perché era la designa interna circolettrice, adesso la gente fa gli holographics.
+Quella di prima rappresenta esattamente la stessa cosa di prima, però è più flessibile perché è con grafici.
+Notare bene che
+Vedete, Paolo Un è sempre il mio... Io faccio questo e voi tanto... Tutto il corso lo faremo sui nodi grafici.
+Chiaramente qua ci sono entità, che sono i nodi, qui ci sono nodi grafici dove le entità sono nodi.
+Il concetto è che Paolo è una persona, lo mettiamo in rosso, lo mettiamo in quello che vogliamo, basta avere il color code e come scrivere forne.
+Questa è una proprietà che ha come valore un'entità, no, questa è sempre una identità, ecco qui abbiamo una proprietà che ha come valore una data, sicuramente una identità che non c'è problema, e sono tutte relazioni.
+In questo tipo di knowledge graph le relazioni sono fede e frecce, l'entità sono i nomi.
+Rappresenta esattamente la stessa cosa, l'identità bene-razionale,
+rappresenta esattamente la stessa cosa di un linguaggio naturale ma nella presentazione standard con essenzialmente nessuna limite di espansione.
+Rispetto al database, quando tu metti una riga devi mettere tutti i valori, qua no, e metti una alla volta, è chiaro?
+Per ogni singolo nove puoi avere una cosa e poi avere un'altra.
+Questa è esperta, questa è perfetta, questo non ce l'ha, l'importante no.
+quindi è esattamente un db e poi c'è questo di R-model, qui di R-model c'è questa notazione che vedono vecchissima e questi nodi, questo è l'equivalente della tabella, c'è tutta questa notazione che io non riesco mai a ricordare, perché non so quanti usano però in quegli aspetti non ce la usano, questa è la relazione e questo è un concetto esattamente come era
+Quindi, in questo linguaggio qua, sono sempre triple.
+Di nuovo, perché?
+Perché noi sappiamo che un qualunque employee viene pagato con una certa quantità di dollari.
+Un qualunque employee vive in una certa città.
+Qualunque persona o manager di employee.
+Sono tutte triple.
+Sono tutte associazioni.
+Sono tutte cose che sono vere o false.
+E ovviamente, se adesso andiamo al mondo moderno, dal 2010 in poi,
+Non facciamo più di R-Modern ma facciamo i Knowledge Graphs chiamati E-Type Graphs, di cui faremo lezione.
+Ognuna di queste avrà una sua logica, intendendo per oggi un algoritmo di calcolo delle conseguenze.
+E' quella di prima, però di nuovo, abbiamo questo Knowledge Graph, però qui i nodi non sono più entity types.
+Gli nodi qua sono entity types.
+Le frecce sono sempre relazioni.
+però se io dico nel grafo precedente io qui dico che tutti e due hanno degli animali giusto no?
+però magari qui potevo dire che è sdog cioè in questo grafo qui tu hai delle
+a questo livello del Knowledge Graph tu non hai, come si vedrà nella BNF più avanti, alcun vincolo sui nomi di persone che usi, va bene, ma sul nome della proprietà, ok?
+Se io vado qui, io dico che tutte le persone potenzialmente hanno un posto messo in alto.
+Potenzialmente, perché abbiamo detto che il Knowledge Graph, quindi diamo di fatto lo schema.
+Diciamo che tutte le entità di un po' persona possono avere, se lo so, perché chiaramente magari non lo so, diciamo di non rappresentarlo, un place per dove sono nati.
+Quindi di fatto questo knowledge graph è l'equivalente dello schema dei database.
+Qual è la differenza?
+Come vedrete nei prossimi anni, che questa è una struttura adatta, quindi la posso dare
+al mio era l'errore o chiunque, è una struttura dati, non è come l'IR model, però è una struttura dati e io ti mando la struttura dati e ti dico, senti un po', ti mando questa struttura dati e questo è come io parlo e in effetti vedremo che più avanti nell'orange graph, la query è un orange graph come l'avete visto nei data made, altro non è che un e-type graph cioè è uno schema di grafo che tu devi riempire
+questo è un knowledge graph che lo fai mappare su un organo dell'entità e dici guarda un po' che tiro quelle che hanno dei valori e chiaramente puoi dire dammi tutte quelle che hanno questi valori, in certi momenti quando la fai Johnny DataVille e magari che so dove gli animali si chiamano qui tutto questo per dirvi che salvo che stiamo cambiando una notazione perché stiamo andando da IAR model
+e da podere tabellare knowledge graphs tutta questa roba qui del concetto della sezione l'avete visto e di fatto l'avete implicitamente sistematicamente usato fatto questo cos'è una sezione?
+una sezione è un elemento perchè a questo punto noi vogliamo dire che un linguaggio insieme al com
+vuole dire che una sezione c'è una cosa o è vero o falso insieme del linguaggio e noi chiamiamo fatto quella percezione definita come abbiamo fatto la volta scorsa che è denotata dal linguaggio.
+Quindi a questo punto, ordinando la prossima varia, abbiamo detto che l'opinio era una tripla, c'era un alfabeto, no, scusate, c'era un
+che sono tutte quelle affermazioni del mondo che sono vero o falso.
+Dato questo, uno in quattro, per ognuno dipende, la pronuncia dell'insieme dipende ti dà la sezione 1, la sezione 2 e la sezione 3.
+Quindi cosa sto dicendo io?
+che volendo voi fate l'alfabeto, fate una columpia, viene fermata sicuramente per arrivare a costruire queste asserzioni che denotano le cose che si dovrebbero fare.
+Infatti, probabilmente, a questo punto vi avevo detto che c'erano sei tipi di fatti e c'erano sei tipi di asserzioni.
+La prima asserzione, come era nell'indice che Fausto è un uomo, la seconda asserzione
+ci dice che Fausto è di fronte a tutti noi.
+La terza direzione ci dice, sotto insieme, che è una persona che muove una persona.
+Per ognuno delle sei forme, con cui noi descriviamo dei sei tipi di percezione di fatti,
+Chiaramente, come vedremo, faremo una pausa matematica, dovremo dire che, diremo che dato una certa sezione, il valore di verità della sezione sarà, e lo vedremo alla posta domani, sarà composto del valore di come si compongono i significati, no?
+Cioè se io dico, ed ecco il senso, se io dico Fausto è a casa.
+dove non è qui.
+Fausto è?
+Fausto è fisicamente dentro.
+Perché questo descrive una situazione che nel mio mondo del modello c'è una certa casa a qualche parte mentre sono qua all'università.
+Quindi ora che ci stiamo costruendo tutto il linguaggio, e come ripeto non sto facendo niente di nuovo, domani definiamo questa funzione di interpretazione e a quel punto definire ciò che è vero e che è falso è algoritmo.
+Ok?
+E da un modello di interpretazione posso dire se è vero o falso.
+E se poi io ti dico Fausto oggi è a casa o in ufficio o all'università, è vero perché ce l'ho.
+Fausto è a casa e in ufficio è impossibile, non può essere nel bosco.
+E chiaramente questo non è vero.
+E chiaramente, adesso mi viene appunto la frisettina, ma chiaramente, come ho detto, il nodo
+il knowledge graph dell'università a un livello di nodi, perchè il problema è scalato come prima, adesso vi segnalo le sezioni, questa è una sezione che ho già detto prima, questa lo scriviamo in linguaggio fissimo-analogico e di fatto io penso che sia abbastanza ovvio, cos'è quindi
+Questa è la teoria del mondo, se è vera, oppure la teoria falsa del mondo, se c'è anche una sola definizione che è falsa, ok?
+Voi fate questo, non fate che fare questo, questo è indipendente dal linguaggio che usate.
+questa è la versione che sia teoretica che non mi piace niente quindi la salvo e questo è un esercizio andato un pochettino di esame quindi ho dato questo model graph e c'era da capire cosa diceva ovviamente è un model graph fatto da gente che non sa la logica e quindi ha tutte ogni freccia che ti permessi di guardare
+perché se tu prendi linguaggio naturale e non hai un modello di riferimento, ogni verbo diventa una freccia.
+Il risultato è che c'è 100.000 verbi.
+Quindi è strano il significato, ma ha dei problemi.
+Con cose piccole c'è una serie di domande da affrontare.
+Si potrebbe dire se una certa frase era vera o falsa.
+una volta che hai imparato come costruire la tua interfaccia queste sezioni sono sezioni fra insieme, questo è il simbolo che faremo nella seconda logica che facciamo che vuol dire che semanticamente quando noi diremo cosa significa questo nel linguaggio vuol dire che a me ne sono sufficienti persone per darci il linguaggio
+fa differenza fra questo e questo nessuno se non che probabilmente quando fai misioni questo è più facile da farci calcoli perché sono tutte le date più veloci e ovviamente di nuovo sempre così questo è il WordNet
+Questa è la terza logica che facciamo, la logica del linguaggio che è quella logica che ti dice in che modo il significato delle parole è legato al significato delle parole che ci sono sotto.
+Quindi un istrumento è un device
+Ah, no, no, sì, un device... Ah, certo, certo, vedi, uno strumento è un device e uno strumento è un'entità, i valori che dobbiamo usare.
+Di fatto, queste strutture d'arte, come stiamo a citare, sono strutture semantiche.
+Quando io qua dico che arti fatte di arti fatte in un modo un po' diverso, questa è la soluzione, sì, è come fare l'automobile.
+Questa Zai dice niente di nuovo, quella che potete vedere ancora dice essenzialmente che il mapping lo fai come vuoi.
+Quindi a questo punto siamo passati, come ho detto prima, dal dominio visto tramite i percetti costitutivi al dominio visto con l'insieme dei fatti.
+Dato questo, basta fare da linguaggio, costruire un mapping, dare assezioni all'insieme del fatto.
+E ciò che faccio è quello che c'è a domanda.
+Torno in piazza, dobbiamo appunto fondamentare che quando noi parliamo, parliamo sempre in termini di geometria.
+Quando parli con i matematici, i matematici ti chiamano e ti dicono che questa è la versione intenzionale e questa è la versione estenzionale, questa è la versione intenzionale e questa è la versione estenzionale.
+È come quando fate i satiri, che vi dicono un insieme, lo puoi definire estensionalmente una lista di elementi o intenzionalmente una funzione.
+Quando vi stanno parlando, due insiemi particolari, l'insieme della sezione e l'insieme dei fatti e dei dettagli.
+A questo punto ci siamo dati il linguaggio.
+Essendoci dati il linguaggio, a questo punto ci siamo dati non solo il linguaggio, se pensate agli esempi del tabeschi ho fatto, l'ho scritto in linguaggio naturale su Brenner e così via, ci siamo dati un linguaggio dove in realtà tutte queste sentenze le possono scrivere uno dopo l'altro.
+Quindi questo linguaggio ci permette di dire 100 sentenze, 1000 sentenze.
+insieme a quello che le sentenze che noi diciamo e che prendiamo come vere è la nostra teoria linguistica.
+E' esattamente quell'oggetto che nella seconda lezione abbiamo chiamato la prevenzione linguistica del mondo.
+Quindi a questo punto qualunque linguaggio che noi facciamo andiamo a riprodurre questa come una teoria, una teoria assenzionale
+e l'ho chiamata teoria selezionale perchè è semplice ciò che fa, vedremo che nell'ultimo livello ne possiamo fare anche delle teorie che sono funzioni di cose non vere perchè quindi adesso nell'ultimo livello della teoria che è logica delle composizioni possiamo ragionare anche su ciò che non sappiamo nel logico del mondo noi parliamo di teorie selezionali
+Cioè noi, dato quello che sappiamo, possiamo dire quell'informazione che sappiamo deludere le nostre paese.
+Ma non possiamo deludere, non abbiamo abbastanza espressioni linguistiche nel linguaggio per dire quello che sappiamo.
+Ok?
+E questo è il passaggio fondamentale fra i valori 3 e i valori 4.
+Il problema dell'inconsistenza l'abbiamo affrontato la volta scorsa.
+Abbiamo affrontato abbastanza la teoria dei modelli.
+Cosa vuol dire?
+Vuol dire che ricordate che le modelli sono mutuamente inconsistenti se entrambi i modelli, se i due modelli dicono una cosa non può essere nel mondo reale.
+Quindi vuol dire che il modello in cui io sono qui, io sono in un'altra parte insieme, non è un modello reale.
+Questa roba qui chiaramente la liftiamo all'interno della sezione.
+a questo punto ci siamo dati
+nel linguaggio di dire la possibilità di dire che una teoria ha senso e non ha senso e questo è un tipico problema che c'è ad esempio nel database tanto che mediamente
+Cos'è il database?
+Il database è un'attorea del mondo.
+E cos'è che succede?
+Ad un certo punto, al database, voglio aggiungere una sezione A. Questa sezione qui è l'attorea qua del mondo.
+È consistente o inconsistente?
+Beh, nel database non c'è modo di sapere.
+perchè, come è fatto, ad esempio io in T potrei avere due frase on, on, via giusto no?
+è abbastanza normale
+che dite è possibile, ma la database non lo può fare.
+Per poterlo fare devi avere da qualche parte, ed è esattamente dove ci sono la logica, che O A B è solo se disjoint con O B A, ovvero sia
+l'intersecato, il modello, il fatto che è denotato da Ovi e questo fatto qui, non sono possibili contemporaneamente.
+Ci dobbiamo dare questi simboli, che non sono dettabili.
+Perché?
+Perché i dettabili, come sarà nella nostra tecnologica, sono
+sono linguaggi asserzionali dove puoi dire solamente quello che vedi, non puoi porre dei bigli.
+Ma tu, che ti viene da, ad esempio quando fai, come senza origini in AI, piuttosto che fai modelli di qualunque sistema, tu c'hai un sacco di condizioni, che sai e che non scrivi dei database.
+Chiaramente a questo punto hai due alternative, se fai come dei database
+dove li metti in funzionalità per cui tutto quello che sai è automaticamente verificato, oppure se li porti nel mondo aperto devi fare il motore di rischio che all'antanno decide.
+Provo a dire che comunque sia come
+Nozione di guardiere di logica, ci siamo dati che cosa?
+Ci siamo dati che c'è tutto un meccanismo di rappresentare, quindi tutti abbiamo capito che quando noi parliamo di rappresentare rappresentiamo solo ciò che è vero e ciò che fa, sono l'unica cosa importante.
+Poi ci siamo dati un linguaggio per rappresentarlo, domani ci daremo la definizione formale di come si deve rappresentare.
+Il nostro tempo di rappresentazione è una cosa molto incerta per chi vuole sapere un esempio di algoritmo.
+E ora ci stiamo andando a cominciare a vedere, che sarà esattamente fra due lezioni, come quando ci siamo dati questo linguaggio delle assenzioni, che si mappa uno a uno su quello che c'è nel mondo, possiamo cominciare a fare dei linguaggi dove ci cominciamo a dire quello che non vogliamo dire, o quello che vogliamo dire, quello che non vogliamo che succeda.
+Poi anche su tante cose possono succedere, pensate, cioè faccio un esempio, io sono qui, ma non sono a Roma, non sono a Milano, non sono a New York, non sono a 2087, io sono una cosa, non sono effettivamente un'altra cosa.
+L'informazione negativa è finita.
+quindi queste logiche qui e non c'è modo di qualificarle nessuno le rende, per quanto faccia grosso non potrà mai qualificarle ci sono infinite relazioni infinite anche sulle parole noi con la logica, che è la logica che vediamo una volta che noi abbiamo un meccanismo di formalizzazione di questi principi che noi sappiamo vedere, il common sense knowledge noi potremmo fare degli algoritmi che
+dato che questo lo faremo già nella lezione tra di noi e gli altri cominceremo a fare quelle logiche che ci permettono di aggiungere a questa informazione che ci dice ciò che noi vediamo informazione aggiuntiva che impedisce all'algoritmo di dire ciò che dice e quindi qua dove siamo ora?
+e ovviamente qui non so perché
+E' un altro esempio?
+Ah certo, questa è quella di cercare esattamente quel punto e che ognuna, il punto di questo cosa fondamentale è che quello che noi percepiamo e quello che tutti i linguaggi della presentazione avevamo fatto prima, il nostro, è che non ti permette di dire una cosa.
+Mi permettono di dire che è una sintasi che ti permette di fare le lingue infinitamente lunghe, puoi andare avanti in infinito, è intrinseco, è chiaro?
+Però non puoi dire che in questi linguaggi, non puoi dire che fa un professore o... non puoi dire uno dei due, non ce la puoi dire, come non lo puoi dire a un'immagine, non c'è un'immagine che dice una cosa o l'altra, a massimo non la capisci, un'immagine ha sempre una sola interpretazione e questa dell'OO è esattamente quella di prima, questa esattamente
+il motivo della logica.
+Protetto questo, la cosa fondamentale che costituisce il punto di partenza è che prima è importante capire che comunque sia tutto ciò che nel mondo io lo posso rappresentare con un linguaggio sezionale che è un linguaggio che definisce ciò che è vero e ciò che è falso.
+A seconda del linguaggio prima facevo una relazione fra entità, ora faccio una relazione fra insieme semanticamente
+insieme delle persone.
+Quale è interessante è che vedremo e diremo quante sono queste logiche, a parte la differenza dei tassi diversi, sono di nuovo 6.
+Quindi ci sono 6 tipi di osservazioni, ci sono 6 oggetti nel mondo differenti, ci sono 6 formi di osservazioni e ci sono 6
+perché se è sempre un fatto, ci sarà sicuramente un altro.
+E per lo meglio di questo facciamo la logica.
+E sarà la logica, questo prima, che ci permetterà di arrivare a dire con ciò che è vero nel mondo senza perdentici di dire ciò che non è vero nel mondo, non può essere vero nel mondo, non vogliamo che sia vero nel mondo.
+E questa sarà la lezione di giovedì prossimo.
+Quindi a chiudere, come tu lo sai, perché siamo andati tutti forti, la novità carina di questa lezione, che concludiamo con un po' di anticipo, è che per ogni, assumendo che l'alternativa di insieme rappresenta il mondo, noi abbiamo per ogni oggetto che possiamo trovare in un'immagine, un oggetto nell'ingresso.
+Domani scriveremo formalmente il passaggio da linguaggio all'oggetto del mondo e mezz'ora dopo cominceremo a fare il ragionamento e a vedere cosa vuol dire ragionare e fare ragionare su ciò che è vero e ciò che è falso.
+Ovvero sia, le dure conclusioni da quelle che sappiamo, perché come vi ho detto prima,
+fatto l'esempio del non, non vale per l'or, vale per l'en, vale per tutto, per una cosa che è vera c'è un numero infinito di cose che non sono vere, quindi il ragionamento serve esattamente perché in qualunque approccio che vivi hai mancare tutte le verità.
